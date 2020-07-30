@@ -6877,6 +6877,46 @@ class MyThread3 extends Thread {
 - java.lang.reflect.Constructor：代表字节码中的构造方法字节码。代表类中的构造方法
 - java.lang.reflect.Field：代表字节码中的属性字节码。代表类中的成员变量（静态变量+实例变量）。
 
+### 获取一个类的字节码
+
+三种方式
+
+- 第一种：Class c = Class.forName("完整类名带包名");
+- 第二种：Class c = 对象.getClass();
+- 第三种：Class c = 任何类型.class;
+
+```java
+public class ReflectTest01 {
+    public static void main(String[] args) {
+        /*
+        Class.forName()
+            1、静态方法
+            2、方法的参数是一个字符串。
+            3、字符串需要的是一个完整类名。
+            4、完整类名必须带有包名。java.lang包也不能省略。
+         */
+        Class c1 = null;
+        Class c2 = null;
+        try {
+            c1 = Class.forName("java.lang.String"); // c1代表String.class文件，或者说c1代表String类型。
+            c2 = Class.forName("java.util.Date"); // c2代表Date类型
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        //第二种方式 java中任何一个对象都有一个方法：getClass()
+        String s = "abc";
+        Class x = s.getClass(); // x代表String.class字节码文件，x代表String类型。
+
+        // 第三种方式，java语言中任何一种类型，包括基本数据类型，它都有.class属性。
+        Class z = String.class; // z代表String类型
+        Class e = double.class; // e代表double类型
+    }
+}
+```
+
+
+
 
 
 
@@ -6998,107 +7038,108 @@ String value = bundle.getString(key);
 
 ## 注解
 
-day35课堂笔记
+Annotation
+注解Annotation是一种引用数据类型。编译之后也是生成xxx.class文件。
 
+怎么自定义注解呢？ [修饰符列表] @interface 注解类型名{ }
 
+注解使用时的语法格式是：@注解类型名
 
-3、注解
+注解可以出现在类上、属性上、方法上、变量上等....注解还可以出现在注解类型上。默认情况下，注解可以出现在任意位置。
 
-3.1、注解，或者叫做注释类型，英文单词是：Annotation
-疑问：注解到底是干啥的？？？？？？？？？
+### 内置注解
 
-3.2、注解Annotation是一种引用数据类型。编译之后也是生成xxx.class文件。
+#### Override
 
-3.3、怎么自定义注解呢？语法格式？
+关于JDK lang包下的Override注解
+源代码：public @interface Override {}
 
- [修饰符列表] @interface 注解类型名{
+- 标识性注解，给编译器做参考的。编译器看到方法上有这个注解的时候，编译器会自动检查该方法是否重写了父类的方法。如果没有重写，报错。
+- 这个注解只是在编译阶段起作用，和运行期无关！
+- @Override这个注解只能注解方法。
+- @Override这个注解是给编译器参考的，和运行阶段没有关系。
 
- }
-
-3.4、注解怎么使用，用在什么地方？
-
-第一：注解使用时的语法格式是：
-@注解类型名
-
-第二：注解可以出现在类上、属性上、方法上、变量上等....
-注解还可以出现在注解类型上。
-
-3.5、JDK内置了哪些注解呢？
-
-java.lang包下的注释类型：
-
-掌握：
-Deprecated 用 @Deprecated 注释的程序元素，
-不鼓励程序员使用这样的元素，通常是因为它很危险或存在更好的选择。
-
-掌握：
+凡是java中的方法带有这个注解的，编译器都会进行编译检查，如果这个方法不是重写父类的方法，编译器报错。
 Override 表示一个方法声明打算重写超类中的另一个方法声明。
 
-不用掌握：
-SuppressWarnings 指示应该在注释元素（以及包含在该注释元素中的
-所有程序元素）中取消显示指定的编译器警告。
+#### Deprecated
 
-3.6、元注解
-什么是元注解？
-用来标注“注解类型”的“注解”，称为元注解。
+作用：告诉其他程序员这个标记的元素已经过时了。
 
-常见的元注解有哪些？
-Target
-Retention
+注释的程序元素，不鼓励程序员使用这样的元素，通常是因为它很危险或存在更好的选择。
 
-关于Target注解：
-这是一个元注解，用来标注“注解类型”的“注解”
-这个Target注解用来标注“被标注的注解”可以出现在哪些位置上。
+### 元注解
+
+什么是元注解？用来标注“注解类型”的“注解”，称为元注解。
+
+常见的元注解有哪些？Target/Retention
+
+关于Target注解：这是一个元注解，用来标注“注解类型”的“注解”这个Target注解用来标注“被标注的注解”可以出现在哪些位置上。
 
 @Target(ElementType.METHOD)：表示“被标注的注解”只能出现在方法上。
 @Target(value={CONSTRUCTOR, FIELD, LOCAL_VARIABLE, METHOD, PACKAGE, MODULE, PARAMETER, TYPE})
-表示该注解可以出现在：
-构造方法上
-字段上
-局部变量上
-方法上
-....
-类上...
+表示该注解可以出现在：构造方法上/字段上/局部变量上/方法上/类上...
 
-关于Retention注解：
-这是一个元注解，用来标注“注解类型”的“注解”
-这个Retention注解用来标注“被标注的注解”最终保存在哪里。
+
+关于Retention注解：这是一个元注解，用来标注“注解类型”的“注解”这个Retention注解用来标注“被标注的注解”最终保存在哪里。
 
 @Retention(RetentionPolicy.SOURCE)：表示该注解只被保留在java源文件中。
 @Retention(RetentionPolicy.CLASS)：表示该注解被保存在class文件中。
 @Retention(RetentionPolicy.RUNTIME)：表示该注解被保存在class文件中，并且可以被反射机制所读取。
 
-3.7、Retention的源代码
+### 注解中的属性
 
-//元注解
-public @interface Retention {
-//属性
-RetentionPolicy value();
+```java
+public @interface MyAnnotation {
+    /**
+     * 我们通常在注解当中可以定义属性，以下这个是MyAnnotation的name属性。
+     * 看着像1个方法，但实际上我们称之为属性name。
+     * @return
+     */
+    String name();
+    String color();
+    int age() default 25; //属性指定默认值
 }
 
-RetentionPolicy的源代码：
-public enum RetentionPolicy {
- SOURCE,
- CLASS,
- RUNTIME
+public class MyAnnotationTest {
+    //报错的原因：如果一个注解当中有属性，那么必须给属性赋值。（除非该属性使用default指定了默认值。）
+    //@MyAnnotation(属性名=属性值,属性名=属性值,属性名=属性值)
+    //指定name属性的值就好了。
+    @MyAnnotation(name = "zhangsan", color = "红色")
+    public void doSome(){
+    }
 }
+```
 
-//@Retention(value=RetentionPolicy.RUNTIME)
-@Retention(RetentionPolicy.RUNTIME)
-public @interface MyAnnotation{}
+```java
+/*
+如果一个注解的属性的名字是value(其他名字不行)，并且只有一个属性的话，在使用的时候，该属性名可以省略。
+ */
+public class MyAnnotationTest {
+
+    // 报错原因：没有指定属性的值。
+    /*@MyAnnotation
+    public void doSome(){
+    }*/
+
+    @MyAnnotation(value = "hehe")
+    public void doSome(){
+    }
+
+    @MyAnnotation("haha")
+    public void doOther(){
+    }
+}
+```
+
+```java
 
 
+```
 
-3.8、Target的源代码
-
-
-3.9、注解在开发中有什么用呢？
 
 需求：
 假设有这样一个注解，叫做：@Id
 这个注解只能出现在类上面，当这个类上有这个注解的时候，
 要求这个类中必须有一个int类型的id属性。如果没有这个属性
 就报异常。如果有这个属性则正常执行！
-
-4、JDK新特性
-后续。。。。。。。
