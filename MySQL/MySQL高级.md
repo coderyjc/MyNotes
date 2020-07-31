@@ -850,19 +850,72 @@ key_len=age的字节长度=4+1=5
 
 显示索引的哪一列被使用了，如果可能的话，是一个常数。哪些列或常量被用于查找索引列上的值
 
-
+![ref](images\ref.bmp)
 
 ##### rows
 
+rows列显示MySQL认为它执行查询时必须检查的行数。（整个SQL物理扫描的行数，**越少越好**）
 
+![rows](images\rows.png)
 
 ##### filtered
 
-
+这个字段表示存储引擎返回的数据在server层过滤后，剩下多少满足查询的记录数量的比例，注意是百分比，不是具体记录数
 
 ##### Extra
 
+包含不适合在其他列中显示但十分重要的额外信息
 
+<span style="color:red">**Using filesort**（要你命三千！)</span>
+
+说明mysql会对数据使用一个外部的索引排序，而不是按照表内的索引顺序进行读取。 MySQL中无法利用索引完成的排序操作称为“文件排序”，说明order by 没有用上索引
+
+出现了filesort的情况：
+
+![filesort1](images\filesort1.bmp)
+
+优化后的情况
+
+![filesort2](images\filesort2.bmp)
+
+- 查询中排序的字段，排序字段若通过索引去访问将大大提高排序速度
+
+<span style="color:red">**Using temporary（要你命三万！！！！）**</span>
+
+使了用临时表保存中间结果,MySQL在对查询结果排序时使用临时表。（group by没有用上索引）常见于排序 order by 和分组查询 group by。（group by包含一个order by）
+
+优化前存在 using  temporary 和 using  filesort
+
+![temp1](images\temp1.bmp)
+
+优化前存在的 using  temporary 和 using  filesort 不在，性能发生明显变化：
+
+![temp2](images\temp2.bmp)
+
+**USING index**
+
+表示相应的select操作中使用了覆盖索引(Covering Index)，避免访问了表的数据行，效率不错！ 如果同时出现using where，表明索引被用来执行索引键值的查找; 如果没有同时出现using where，表明索引只是用来读取数据而非利用索引执行查找。
+利用索引进行了排序或分组
+
+**Using where**
+
+表明使用了where过滤
+
+<span style="color:red">**using join buffer**</span>
+
+使用了连接缓存
+
+![joinbuffer](images\joinbuffer.bmp)
+
+**impossible where**
+
+where子句的值总是false，不能用来获取任何元组，说明SQL写错了。
+
+![joinbuffer](images\where.bmp)
+
+**select tables optimized away**
+
+在没有GROUPBY子句的情况下，基于索引优化MIN/MAX操作或者 对于MyISAM存储引擎优化COUNT(*)操作，不必等到执行阶段再进行计算， 查询执行计划生成的阶段即完成优化。
 
 ### 查询优化
 
