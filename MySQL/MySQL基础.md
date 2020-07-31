@@ -1,4 +1,4 @@
-# MySQL
+# MySQL基础
 
 ## 准备工作
 
@@ -774,6 +774,8 @@ union（可以将查询结果集相加）
 - 第二种：select ename,job from emp where job in('MANAGER','SALESMAN');
 
 - 第三种：union
+
+- 只要确定了两张表的查询结果一定不重复，就用UNION ALL， 因为查询效率高
 
 select ename,job from emp where job = 'MANAGER'
 union
