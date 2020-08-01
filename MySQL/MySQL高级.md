@@ -919,11 +919,194 @@ where子句的值总是false，不能用来获取任何元组，说明SQL写错�
 
 ### 查询优化
 
-
-
 #### 批量数据脚本
 
+**【思考题】怎样往一张表中插入数据更快？**
 
+- 一个语句中插入多行数据
+
+- 插入之前，删除除了主键索引之外的所有索引
+
+- 关闭自动提交，使用事务机制
+
+MySQL默认不能自己编写函数，show variables like 'log_bin_trust_function_creators';
+执行结果为 0，说明不允许
+
+这时候我们要自己打开，set global log_bin_trust_function_creators=1;
+
+这样设置过后，如果MySQL重启参数就会消失，一劳永逸的方法：
+
+windows下my.ini[mysqld]加上log_bin_trust_function_creators=1 
+
+linux下    /etc/my.cnf下my.cnf[mysqld]加上log_bin_trust_function_creators=1
+
+直接修改配置文件
+
+
+<span style="color:red"> **所有的有关于sql编程的相关知识都不用看，那是运维人员的事情，和我们无关。在面试的时候可以这样说“运维人员写的时候我看过一些，但是不太了解”** </span>
+
+**建表**
+
+```sql
+ CREATE TABLE `dept` (
+ `id` INT(11) NOT NULL AUTO_INCREMENT,
+ `deptName` VARCHAR(30) DEFAULT NULL,
+ `address` VARCHAR(40) DEFAULT NULL,
+ ceo INT NULL ,
+ PRIMARY KEY (`id`)
+) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+ 
+ 
+CREATE TABLE `emp` (
+ `id` INT(11) NOT NULL AUTO_INCREMENT,
+ `empno` INT NOT NULL ,
+ `name` VARCHAR(20) DEFAULT NULL,
+ `age` INT(3) DEFAULT NULL,
+ `deptId` INT(11) DEFAULT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+```
+
+
+
+```sql
+
+#创建名字的函数
+
+DELIMITER $$ #指定函数结束符为 $$，表示输入$$的时候函数结束
+CREATE FUNCTION rand_string(n INT) RETURNS VARCHAR(255) #函数名，参数，返回值
+BEGIN    #函数开始
+DECLARE chars_str VARCHAR(100) DEFAULT 'abcdefghijklmnopqrstuvwxyzABCDEFJHIJKLMNOPQRSTUVWXYZ'; 
+#声明一个变量，默认为引号中的字符
+ DECLARE return_str VARCHAR(255) DEFAULT '';
+#声明要返回的字符串
+ DECLARE i INT DEFAULT 0;
+ WHILE i < n DO  #开始循环，n是传入的参数，表示字符串的长度
+ SET return_str =CONCAT(return_str,SUBSTRING(chars_str,FLOOR(1+RAND()*52),1));  
+ SET i = i + 1;
+ END WHILE;
+ RETURN return_str; #返回名字
+END $$ #函数结束
+ 
+#假如要删除
+#drop function rand_string;
+
+#------------------------------------
+
+#用于随机产生多少到多少的编号的函数
+
+DELIMITER $$
+CREATE FUNCTION  rand_num (from_num INT ,to_num INT) RETURNS INT(11)
+BEGIN   
+ DECLARE i INT DEFAULT 0;  
+ SET i = FLOOR(from_num +RAND()*(to_num -from_num+1));
+ #初始值到结束值之间随机生成一个数字
+RETURN i;  
+ END$$ 
+ 
+#假如要删除
+#drop function rand_num;
+
+#------------------------------------
+
+#向emp表中插入数据
+DELIMITER $$
+CREATE PROCEDURE  insert_emp(START INT ,  max_num INT)
+BEGIN  
+DECLARE i INT DEFAULT 0;   
+SET autocommit = 0;    #把autocommit设置成0  
+REPEAT  
+SET i = i + 1;  
+INSERT INTO emp (empno, NAME ,age ,deptid ) VALUES ((START+i) ,rand_string(6)   , rand_num(30,50),rand_num(1,10000));  
+UNTIL i = max_num  
+END REPEAT;  
+COMMIT;  
+END$$ 
+ 
+#删除
+# DELIMITER ;
+# drop PROCEDURE insert_emp;
+
+#------------------------------------
+
+#执行存储过程，往dept表添加随机数据
+DELIMITER $$
+CREATE PROCEDURE `insert_dept`(  max_num INT )
+BEGIN  
+DECLARE i INT DEFAULT 0;   
+ SET autocommit = 0;    
+ REPEAT  
+ SET i = i + 1;  
+ INSERT INTO dept ( deptname,address,ceo ) VALUES (rand_string(8),rand_string(10),rand_num(1,500000));  
+ UNTIL i = max_num  
+ END REPEAT;  
+ COMMIT;  
+ END$$
+ 
+#删除
+# DELIMITER ;
+# drop PROCEDURE insert_dept;
+
+ #执行存储过程，往dept表添加1万条数据（3.5秒左右）
+DELIMITER ;
+CALL insert_dept(10000); 
+
+#执行存储过程，往emp表添加50万条数据（89秒左右）
+DELIMITER ;
+CALL insert_emp(100000,500000); 
+
+#------------------------------------
+
+#批量删除表上的所有索引
+
+DELIMITER $$
+CREATE  PROCEDURE `proc_drop_index`(dbname VARCHAR(200),tablename VARCHAR(200))
+BEGIN
+       DECLARE done INT DEFAULT 0;
+       DECLARE ct INT DEFAULT 0;
+       DECLARE _index VARCHAR(200) DEFAULT '';
+       DECLARE _cur CURSOR FOR  SELECT   index_name   FROM information_schema.STATISTICS   WHERE table_schema=dbname AND table_name=tablename AND seq_in_index=1 AND    index_name <>'PRIMARY'  ;
+       DECLARE  CONTINUE HANDLER FOR NOT FOUND set done=2 ;      
+        OPEN _cur;
+        FETCH   _cur INTO _index;
+        WHILE  _index<>'' DO 
+               SET @str = CONCAT("drop index ",_index," on ",tablename ); 
+               PREPARE sql_str FROM @str ;
+               EXECUTE  sql_str;
+               DEALLOCATE PREPARE sql_str;
+               SET _index=''; 
+               FETCH   _cur INTO _index; 
+        END WHILE;
+   CLOSE _cur;
+   END$$
+	 
+	 CALL proc_drop_index("dbname","tablename");
+```
+
+**如何删除索引**
+
+CREATE X
+
+DROP INDEX idx_xxx ON emp
+
+1 查出该表有哪些索引，索引名-->集合
+
+SHOW INDEX FROM t_emp
+元数据：meta DATA  描述数据的数据
+
+SELECT index_name  FROM information_schema.STATISTICS WHERE table_name='t_emp' AND table_schema='mydb'
+ AND index_name <>'PRIMARY' AND seq_in_index = 1
+
+2 如何循环集合
+ CURSOR 游标
+ FETCH xxx INTO xxx
+
+3 如何让mysql执行一个字符串
+PREPARE 预编译 XXX
+
+EXECUTE
+
+CALL proc_drop_index ('mydb','t_emp');
 
 #### 单表索引及索引失效
 
