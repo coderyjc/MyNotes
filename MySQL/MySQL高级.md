@@ -1335,16 +1335,18 @@ EXPLAIN SELECT * FROM class LEFT JOIN book ON class.card = book.card;
 
 尽量不要使用 not in  或者 not exists
 
+取所有不为掌门人的员工，按年龄分组 ，每个年龄段多少人
 
+` SELECT SQL_NO_CACHE age,count(*)  FROM emp a WHERE  id  NOT  IN(SELECT ceo FROM dept b2 WHERE ceo IS NOT NULL) group by age  having count(*)<10000`
 
-
-
+![](images\subqueryup.bmp)
 
 
 用left outer join  on  xxx is null 替代
 
+`  EXPLAIN SELECT SQL_NO_CACHE age,count(*) FROM  emp a LEFT OUTER JOIN dept b ON a.id =b.ceo  WHERE    b.ceo IS   NULL  group by age   having count(*)<10000`
 
-
+![](images\subqueryup2.bmp)
 
 inner join ， MySQL自己选择驱动表和被驱动表，优先将有索引的设置为被驱动表（比较好）
 
