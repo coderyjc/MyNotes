@@ -1110,14 +1110,243 @@ CALL proc_drop_index ('mydb','t_emp');
 
 #### 单表索引及索引失效
 
+在产品经理提出了一个几乎不可能实现的需求的时候，我们能做的是尽量把选择权交到产品经理手中。比如：
+
+“在我们的项目中添加一个功能：能够显示或者查询不等于某个值的数据条目。”
+
+“这个功能是可以实现的，但是在实现之后，在查询的时候会变慢，慢很多，这个是系统特性的问题，您说我们是做还是不做呢？”
+
+![singlemap](images\singlemap.png)
+
+**单表索引的查询原理**
+
+![single](images\singletable.png)
+
+**索引失效的案例**
+
+**全值匹配我最爱--建立索引**
+
+ 系统中经常出现的sql语句如下： 
+```sql 
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.age=30;
+
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.age=30 and deptid=4;
+
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.age=30 and deptid=4 AND emp.name = 'abcd';
+ ```
+索引应该如何建立 ？
+
+`CREATE INDEX idx_age_deptid_name ON emp(age,deptid,NAME)`
+
+![allmach](images\allmach.png)
+
+**最佳左前缀法则**
+如果索引了多列，要遵守最左前缀法则。指的是查询从索引的最左前列开始并且不跳过索引中的列。
+
+如果系统经常出现的sql如下：
+
+`EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.age=30   AND emp.name = 'abcd'`
+
+或者
+
+`EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.deptid=1   AND emp.name = 'abcd'`
+
+那原来的idx_age_deptid_name 还能否正常使用？
+
+建立索引：
+`EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.age=30   AND emp.name = 'abcd'`
+
+情况1：
+
+![](images\indexnotwork1.bmp)
+
+虽然可以正常使用，但是只有部分被使用到了。
+
+![](images\indexnotwork2.bmp)
+
+完全没有使用上索引。
+ 
+结论：过滤条件要使用索引必须按照索引建立时的顺序，依次满足，一旦跳过某个字段，索引后面的字段都无法被使用。
 
 
-#### 关联查询优化
+**不在索引列上做任何操作（计算、函数、(自动or手动)类型转换），会导致索引失效而转向全表扫描**
+
+在有索引的情况下这两条sql哪种写法更好
+
+`EXPLAIN  SELECT SQL_NO_CACHE * FROM emp WHERE   emp.name  LIKE 'abc%' `
+
+`EXPLAIN   SELECT SQL_NO_CACHE * FROM emp WHERE   LEFT(emp.name,3)  = 'abc'`
+
+情况1：
+
+![](images\indexnotwork3.bmp)
+
+情况2：
+
+![](images\indexnotwork4.bmp)
+
+显然第一种更好
+
+**存储引擎不能使用索引中范围条件（大于小于的筛选）右边的列**
+
+如果系统经常出现的sql如下：
+
+`EXPLAIN SELECT  SQL_NO_CACHE * FROM emp WHERE emp.age=30 AND emp.deptId>20 AND emp.name = 'abc' ;`
+
+
+那么索引 idx_age_deptid_name这个索引还能正常使用么？
+
+![](images\indexnotwork5.bmp)
+
+如果这种sql 出现较多
+应该建立： 
+
+`create index idx_age_name_deptid on emp(age,name,deptid)`
+
+效果
+
+![](images\indexnotwork6.bmp)
+
+**mysql 在使用不等于(!= 或者<>)的时候无法使用索引会导致全表扫描**
+
+`CREATE INDEX idx_name ON emp(NAME)`
+
+`EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE   emp.name <>  'abc' `
+
+![](images\indexnotwork7.bmp)
+
+**is not null 也无法使用索引,但是is null是可以使用索引的**
+
+`UPDATE emp SET age =NULL WHERE id=123456;`
+ 
+下列哪个sql语句可以用到索引
+
+`EXPLAIN SELECT * FROM emp WHERE age IS NULL`
+
+`EXPLAIN SELECT * FROM emp WHERE age IS NOT NULL`
+
+![](images\indexnotwork8.bmp)
+
+**like以通配符开头('%abc...')mysql索引失效会变成全表扫描的操作**
+
+![](images\indexnotwork9.bmp)
+
+**字符串不加单引号索引失效**
+
+![](images\indexnotwork10.bmp)
+
+小总结
+
+假设`index(a,b,c)`
+
+|where语句|索引是否被使用|
+|---------|----------|
+|where a = 3|	Y,使用到a|
+|where a = 3 and b = 5|	Y,使用到a，b|
+|where a = 3 and b = 5 and c = 4|	Y,使用到a,b,c|
+|where b = 3 或者 where b = 3 and c = 4  或者 where c = 4	|N|
+|where a = 3 and c = 5	|使用到a， 但是c不可以，b中间断了|
+|where a = 3 and b > 4 and c = 5	|使用到a和b， c不能用在范围之后，b断了|
+|where a is null and b is not null  |	  is null 支持索引 但是is not null 不支持,所以 a 可以使用索引,但是  b不可以使用|
+|where a <> 3   |	 不能使用索引|
+|where   abs(a) =3	|不能使用 索引|
+|where a = 3 and b like 'kk%' and c = 4	|Y,使用到a,b,c|
+|where a = 3 and b like '%kk' and c = 4|	Y,只用到a|
+|where a = 3 and b like '%kk%' and c = 4|	Y,只用到a|
+|where a = 3 and b like 'k%kk%' and c = 4	|Y,使用到a,b,c（首字母都能用上）|
+
+
+**一般性建议**
+
+- 对于单键索引，尽量选择针对当前query过滤性更好的索引
+
+- 在选择组合索引的时候，当前Query中过滤性最好的字段在索引字段顺序中，位置越靠前越好。
+
+- 在选择组合索引的时候，尽量选择可以能够包含当前query中的where字句中更多字段的索引（最好能用上所有的索引）
+
+- 在选择组合索引的时候，如果某个字段可能出现范围查询时，尽量把这个字段放在索引次序的最后面
+
+- 书写sql语句时，尽量避免造成索引失效的情况
+
+#### 关联/子查询查询优化
+
+![single](images\double.png)
+
+**关联查询优化**
+
+建表语句
+
+```sql
+ 
+CREATE TABLE IF NOT EXISTS `class` (
+`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+`card` INT(10) UNSIGNED NOT NULL,
+PRIMARY KEY (`id`)
+);
+CREATE TABLE IF NOT EXISTS `book` (
+`bookid` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+`card` INT(10) UNSIGNED NOT NULL,
+PRIMARY KEY (`bookid`)
+);
+
+INSERT INTO class(card) VALUES(FLOOR(1 + (RAND() * 20))); #20个这句话
+INSERT INTO book(card) VALUES(FLOOR(1 + (RAND() * 20)));  #20个这句话
+```
+
+**案例**
+
+```sql
+# 下面开始explain分析
+EXPLAIN SELECT * FROM class LEFT JOIN book ON class.card = book.card;
+#结论：type 有All
+ 
+# 添加索引优化
+ALTER TABLE `book` ADD INDEX Y ( `card`);
+ 
+#换成inner join
+ 
+delete from class where id<5;
+ 
+# 第2次explain
+EXPLAIN SELECT * FROM class LEFT JOIN book ON class.card = book.card;
+#可以看到第二行的 type 变为了 ref,rows 也变成了优化比较明显。
+#这是由左连接特性决定的。LEFT JOIN 条件用于确定如何从右表搜索行,左边一定都有,
+#所以右边是我们的关键点,一定需要建立索引。
+ 
+# 删除旧索引 + 新建 + 第3次explain
+DROP INDEX Y ON book;
+ALTER TABLE class ADD INDEX X (card);
+EXPLAIN SELECT * FROM class LEFT JOIN book ON class.card = book.card;
+```
+
+建议
+
+1、保证被驱动表的join字段已经被索引。
+
+2、left join 时，选择小表作为驱动表，大表作为被驱动表。
+
+3、inner join 时，mysql会自己帮你把小结果集的表选为驱动表。
+
+4、子查询尽量不要放在被驱动表，有可能使用不到索引。
+
+5、能够直接多表关联的尽量直接关联，不用子查询。
+
+**子查询优化**
+
+尽量不要使用 not in  或者 not exists
 
 
 
-#### 子查询优化
 
+
+
+
+用left outer join  on  xxx is null 替代
+
+
+
+
+inner join ， MySQL自己选择驱动表和被驱动表，优先将有索引的设置为被驱动表（比较好）
 
 
 #### 排序分组优化
