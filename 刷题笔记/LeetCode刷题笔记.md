@@ -1,19 +1,5 @@
 # LeetCode刷题笔记
 
-
-
-## 461. 汉明距离
-
-![](LeetCOdeimages/461.png)
-
-
-
-这个题用到了stack的思想，但是不一定真的用stack数据结构来做题。
-
-
-
-
-
 ##  1287. 有序数组中出现次数超过25%的元素
 
 ![](LeetCodeImages/1287.png)
