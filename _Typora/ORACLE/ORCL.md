@@ -2,9 +2,9 @@
 
 ## ORACLE的安装
 
-![image-20200922185157628](D:\_Typora\ORACLE\ORCL.assets\image-20200922185157628.png)
+![image-20200922185157628](ORCL.assets\image-20200922185157628.png)
 
-![image-20200922185409683](D:\_Typora\ORACLE\ORCL.assets\image-20200922185409683.png)
+![image-20200922185409683](ORCL.assets\image-20200922185409683.png)
 
 ### 主目录下的文件体系及其用途
 
@@ -35,3 +35,5 @@
 - OracleServiceORCL：数据库服务(数据库实例)，是 Oracle 核心服务，该服务是数据库启动的基础， 只有该服务启动，Oracle 数据库才能正常启动。(必须启动)
 
 - OracleVssWriterORCL：Oracle卷映射拷贝写入服务，VSS（Volume ShadowCopy Service）能够让存储基础设备（比如磁盘，阵列等）创建高保真的时间点映像，即映射拷贝（shadow copy）。它可以在多卷或者单个卷上创建映射拷贝，同时不会影响到系统的系统能。（非必须启动）
+
+
