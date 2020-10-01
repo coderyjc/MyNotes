@@ -37,3 +37,33 @@
 - OracleVssWriterORCL：Oracle卷映射拷贝写入服务，VSS（Volume ShadowCopy Service）能够让存储基础设备（比如磁盘，阵列等）创建高保真的时间点映像，即映射拷贝（shadow copy）。它可以在多卷或者单个卷上创建映射拷贝，同时不会影响到系统的系统能。（非必须启动）
 
 
+## ORALCE体系结构
+
+### 作业
+
+#### 1.了解以下 Oracle 初始参数的含义
+
+|初始参数|说明|
+|--------|-----|
+|sga_target|指定所有SGA组成部分的全部大小，该参数自动确定DB_CACHE_SIZE,SHARED_POOL_SIZE,LARGE_POOL_SIZE,STREAMS_POOL_SIZE和JAVA_POOL_SIZE|
+|processes|可同时链接到Oracle的最大操作系统进程数量，SESSIONS 和 RTRANSACTIONS 从这个值中派生|
+|db_domain|数据库驻留在分布式数据库系统中的逻辑域名（如 us.oracle.com）|
+|db_name|最多8个字符的数据库标识符。放置在DB_DOMAIN值的前面，形成完全限定的名称（marketing.us.com）|
+|db_block_size|指定Oracle块的大小。这种块大小用于创建数据库时的SYSTEM\SYSAUX和临时表空间|
+|compatible|允许安装新的数据库版本，同时确保与该参数指定的版本兼容|
+|db_recovery_file_dest|恢复区域的默认设置，必须和db_recovery_file_dest_size一起设置|
+|db_recovery_file_dest_size|以字节为单位的文件最大尺寸，该文件用于在恢复区域位置的恢复|
+|control_files|指定该实例的控制文件的位置|
+
+#### 了解 Oracle 内置数据类型
+
+![image-20200929225629938](ORCL.assets\image-20200929225629938.png)
+
+![image-20200929225715792](ORCL.assets\image-20200929225715792.png)
+
+![image-20200929225748644](ORCL.assets\image-20200929225748644.png)
+
+![image-20200929225816503](ORCL.assets\image-20200929225816503.png)
+
+## ORACLE基本操作
+
