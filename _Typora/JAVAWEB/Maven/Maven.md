@@ -63,5 +63,62 @@ maven支持的构建包括有：
 
 
 
-必须有javahome环境变量
+**maven的安装和配置**
+
+下载：直接官网上下载（10M）就行
+
+子目录介绍：
+
+- bin：执行程序，主要是mvn.cmd
+- conf：maven本身的配置文件 settings.xml
+
+配置：
+
+在系统的环境变量中的指定一个M2_HOME的名称，指向maven主目录
+
+<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003124003629.png" alt="image-20201003124003629" style="zoom:50%;" />
+
+然后在path中加入bin目录
+
+<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003124039883.png" alt="image-20201003124039883" style="zoom:50%;" />
+
+必须有JAVA_HOME环境变量
+
+<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003124154240.png" alt="image-20201003124154240" style="zoom:50%;" />
+
+
+
+出现如下内容说明安装配置正确
+
+<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003124300534.png" alt="image-20201003124300534" style="zoom:50%;" />
+
+
+
+## Maven核心概念
+
+### Maven约定目录结构
+
+每一个maven的项目在磁盘中都是一个文件夹
+
+<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003125645297.png" alt="image-20201003125645297" style="zoom:50%;" />
+
+执行tree命令
+
+<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003141751034.png" alt="image-20201003141751034" style="zoom:50%;" />
+
+在main\java中创建了一个package，里面写上测试代码
+
+使用命令行 mvn compile 编译main\java中的**所有**java程序
+
+此时会发现正在下载大量的东西，问题：为什么要下载这些东西？下载了什么？下载完成之后这些东西存到哪里了？
+
+为什么要下载？因为maven工具的执行需要用到很多的插件（java类--jar文件）
+
+下载什么？插件。用来完成某些功能
+
+下载到哪里了？默认放在C盘 \ 用户 \ .m2 \ respository（本机仓库）
+
+执行了mvn compile之后，在项目的根目录下面生成了target目录，编译生成的所有文件都在里面。
+
+
 

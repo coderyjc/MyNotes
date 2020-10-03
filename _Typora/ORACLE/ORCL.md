@@ -67,3 +67,10 @@
 
 ## ORACLE基本操作
 
+
+
+### 作业-使用DBCA
+
+![image-20201003151836904](D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201003151836904.png)
+
+![image-20201003154031276](D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201003154031276.png)
