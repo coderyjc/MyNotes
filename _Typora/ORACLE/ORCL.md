@@ -2,9 +2,9 @@
 
 ## ORACLE的安装
 
-![image-20200922185157628](ORCL.assets\image-20200922185157628.png)
+<img src="ORCL.assets\image-20200922185157628.png" alt="image-20200922185157628" style="zoom:50%;" />
 
-![image-20200922185409683](ORCL.assets\image-20200922185409683.png)
+<img src="ORCL.assets\image-20200922185409683.png" alt="image-20200922185409683" style="zoom:50%;" />
 
 ### 主目录下的文件体系及其用途
 
@@ -41,7 +41,7 @@
 
 ### 作业
 
-#### 1.了解以下 Oracle 初始参数的含义
+#### 了解以下 Oracle 初始参数的含义
 
 |初始参数|说明|
 |--------|-----|
@@ -71,6 +71,70 @@
 
 ### 作业-使用DBCA
 
-![image-20201003151836904](D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201003151836904.png)
+<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201003151836904.png" alt="image-20201003151836904" style="zoom:50%;" />
 
-![image-20201003154031276](D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201003154031276.png)
+<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201003154031276.png" alt="image-20201003154031276" style="zoom:50%;" />
+
+
+
+#### 创建PDB
+
+<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190453027.png" alt="image-20201004190453027" style="zoom:50%;" /><img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190817120.png" alt="image-20201004190817120" style="zoom:50%;" />
+
+<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190453027.png" alt="image-20201004190453027" style="zoom:50%;" /><img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190817120.png" alt="image-20201004190817120" style="zoom:50%;" /><img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190914349.png" alt="image-20201004190914349" style="zoom:50%;" />
+
+<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190914349.png" alt="image-20201004190914349" style="zoom:50%;" />
+
+#### SQL developer对表空间的操作
+
+**创建**
+
+1. 创建表空间
+
+```sql
+create  tablespace db_test --表空间名
+datafile 'D:\oracle\product\11.2.0\dbhome_1\oradata\orcl\test.dbf' --物理文件 表空间数据文件存放路径
+size 50m  --大小初始值
+autoextend on  --自动扩展
+next 50m maxsize 20480m  --每次扩展50m，最大为20480m
+extent management local;
+```
+
+2. 创建用户
+
+
+```sql
+create user c##testdev     --创建用户名 testdev,注意前面要加c##
+identified by "test1234"   --创建密码 test1234
+default tablespace db_test   --表空间  db_test
+temporary tablespace TEMP   --临时表空间（默认的）
+profile DEFAULT        --默认权限（下面给分配）
+quota unlimited on db_test;    --该用户
+```
+3. 给新建用户权限
+
+```sql
+grant all privileges to testdev; -- 执行该语句给 testdev 用户授权，此时 该 用户就可以登录了
+```
+
+4. 以新用户重新建立联结，登录。
+
+
+
+**修改**
+
+修改名字
+
+```sql
+SQL> create tablespace lv ;
+Tablespace created.
+SQL> alter tablespace lv rename to lv1;
+Tablespace altered.
+```
+
+**删除**
+
+```sql
+Drop Tablespace lv;
+```
+

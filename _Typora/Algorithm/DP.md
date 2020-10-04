@@ -1,5 +1,10 @@
 ## Dynamic Programming
 
+
+
+![](DP.assets/「动态规划」问题思考方向.png)
+
+
 特点：
 
 1. 计数
