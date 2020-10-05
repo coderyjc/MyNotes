@@ -305,7 +305,9 @@ IDEA中内置了一个maven，但是我们一般不用内置的，不方便修�
 </mirror>
 ```
 
-### 新建Maven工程
+### Maven工程的使用
+
+#### 普通Java项目的创建
 
 **新建空项目**
 
@@ -322,4 +324,46 @@ IDEA中内置了一个maven，但是我们一般不用内置的，不方便修�
 
 
 <img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005202114755.png" alt="image-20201005202114755" style="zoom:50%;" />
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005223458753.png" alt="image-20201005223458753" style="zoom:50%;" />
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005224055953.png" alt="image-20201005224055953" style="zoom:50%;" />
+
+
+
+#### web项目的创建
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005224315467.png" alt="image-20201005224315467" style="zoom:50%;" />
+
+使用这个模板创建的web—maven项目缺少一些文件，需要自己手动加上
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005225301233.png" alt="image-20201005225301233" style="zoom:50%;" />
+
+添加上这三个文件，构建成了一个基本的web项目。
+
+---
+
+如果要做一个servlet-jsp-web软件还要进行以下操作：
+
+在依赖中添加上servlet和jsp的依赖
+
+```xml
+<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.1.0</version>
+    <scope>provided</scope>
+</dependency>
+```
+
+```xml
+<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/jsp-api -->
+<dependency>
+    <groupId>javax.servlet.jsp</groupId>
+    <artifactId>jsp-api</artifactId>
+    <version>2.1</version>
+    <scope>provided</scope>
+</dependency>
+```
 
