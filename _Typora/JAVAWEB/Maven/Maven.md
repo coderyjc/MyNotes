@@ -108,17 +108,218 @@ maven支持的构建包括有：
 
 在main\java中创建了一个package，里面写上测试代码
 
-使用命令行 mvn compile 编译main\java中的**所有**java程序
+使用命令行 *mvn compile* 编译main\java中的**所有**java程序
 
 此时会发现正在下载大量的东西，问题：为什么要下载这些东西？下载了什么？下载完成之后这些东西存到哪里了？
 
 为什么要下载？因为maven工具的执行需要用到很多的插件（java类--jar文件）
 
-下载什么？插件。用来完成某些功能
+下载什么？jar文件，插件。用来完成某些功能
 
 下载到哪里了？默认放在C盘 \ 用户 \ .m2 \ respository（本机仓库）
 
 执行了mvn compile之后，在项目的根目录下面生成了target目录，编译生成的所有文件都在里面。
 
+设置本机的存放资源的目录位置：
 
+1. 先备份，再修改maven安装目录/conf/settings.xml中的localRepository目录
+   
+- 最好把以后学习的所有框架的仓库都设为这个目录用来积累资源
+  
+1. <img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005130017232.png" alt="image-20201005130017232" style="zoom:50%;" />
+
+    把这个标签移动到注释外面，并为其指定一个目录，注意整个路径中不要有中文（注意斜杠的方向）
+
+2. <img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005130249878.png" alt="image-20201005130249878" style="zoom:50%;" />
+
+### 仓库
+
+1）仓库是什么：仓库是存放东西的，存放mavon使用的jar和我们项目使用的jar，maven使用的插件（各种）jar）
+
+2）仓库的分类
+
+- 本地仓库，就是你的个人计算机上的文件夹，存放各种ar
+- 远程仓库，在互联网上的，使用网络才能使用的仓库
+	①：中央仓库，最权威的，所有的开发人员都共享使用的一个集中的仓库，[中央仓库的地址](https://ropo.mavon.apache.org )
+	②：中央仓库的镜像：就是中央仓库的备份，在各大洲，重要的城市都有镜像。
+	⑤：私服，在公司内部，在局域网中使用的，不是对外使用的。
+
+3）仓库的使用，maven仓库的使用不需要人为参与。开发人员需要使用mysql驱动——>maven首先查本地仓库——>私服——>镜像——>中央仓库
+
+### POM文件
+
+Project Object Model 项目对象模型。Maven把一个项目的结构和内容抽象为一个模型，在xml文件中进行声明以方便进行构建和描述。
+
+pom.xml是Maven的灵魂。**maven环境搭建好之后，所有的学习和操作都是关于pom.xml的**
+
+
+
+基本信息：
+
+**modelVersion**
+
+- Maven的模型版本,对Maven2和3来说,**只能是4.0.0**
+
+***坐标（gav）***
+
+**groupId**
+
+- 组织id, 一般式公司域名的倒写, 格式可以为
+    - 域名倒写. 例如 com.baidu
+    - 域名倒写+项目名 如 com.baidu.baidusearch
+
+- 项目名称（模块名称）
+
+**version**
+
+- 项目的版本号-如果项目还在开发中，是不稳定版本，通常在版本后加上`-SNAPSHOT`
+- version使用三位数字表示，例如：`1.1.0`
+
+\<groupId\>\<artifactId\>\<version\> 三个构成了Maven项目的坐标，坐标是唯一的，也决定着将来项目在仓库中的路径及名称
+
+**packaging**
+
+- 指定项目的压缩文件扩展名
+- 项目打包的类型，可以是jar,war 等，默认是jar，web应用是war
+
+**dependencies和dependency（*依赖*）**
+
+Maven的一个重要作用就是管理jar包，为了一个项目可以构建或运行，项目中不可避免的，会依赖很多其他的jar包，在Maven中，这些jar就被称为依赖，使用标签dependency来配置。而这种依赖的配置正是通过坐标来定位的，由此我们也不难看出，maven把所有的jar包也都视为项目存在了。
+
+如何配置该属性?
+
+- 从官网上查找需要依赖的jar包[maven中央仓库](https://mvnrepository.com/),复制xml
+- <img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005174515862.png" alt="image-20201005174515862" style="zoom:50%;" />
+
+- 粘贴到项目的pom文件中，完成。
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005174710831.png" alt="image-20201005174710831" style="zoom:50%;" />
+
+
+
+使用的时候，maven如何查找项目所需要的jar包?
+
+- 坐标中的每一个属性都对应着一个文件夹，groupId中的每一个‘.’也代表一个文件夹。当编译的时候需要这些文件的时候，maven会首先查找本地仓库，即之前我们所设定的文件夹
+- 在其中寻找 `mysql/mysql-connector-java/5.1.46` 目录，在其中寻找jar包
+- 如果找到，就会自动加到你的项目中，如果没找到，就会按照私服——>镜像——>中央仓库的顺序下载jar包到本地仓库中，进行使用
+
+**properties（*属性*）**
+
+properties是用来定义一些配置属性的，例如project.build.sourceEncoding（项目构建源码编码方式），可以设置为UTF-8，防止中文乱码，也可定义相关构建版本号，便于日后统一升级。
+
+---
+
+以下作为了解
+
+**build**
+
+表示与构建相关的配置，例如设置编译插件的jdk版本
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005191515915.png" alt="image-20201005191515915" style="zoom:33%;" />
+
+**parent（*继承*）**
+
+在Maven中，如果多个模块都需要声明相同的配置，例如：groupId、version、有相同的依赖、或者相同的组件配置等，也有类似Java的继承机制，用parent声明要继承的父工程的pom配置。
+
+**modules**
+
+在Maven的多模块开发中，为了统一构建整个项目的所有模块，可以提供一个额外的模块，该模块打包方式为pom，并且在其中使用modules聚合的其它模块，这样通过本模块就可以一键自动识别模块间的依赖关系来构建所有模块，叫Maven的聚合。
+
+---
+
+### Maven的生命周期、命令
+
+Maven的生命周期指的是用maven进行项目构建的过程，清理、编译、测试、报告、打包、安装、部署等过程
+
+maven的命令：maven独立使用，通过命令完成maven的生命周期的执行，可以通过使用命令进行项目的清理， 编译，测试等
+
+| 命令 | 作用 |
+| ---- | ---- |
+|mvn clean| 清理（会删除原来编译和测试的目录，即target目录，但是已经install到仓库里的包不会删除）（由插件完成真正的清理工作） |
+|mvn compile|编译主程序（mian目录下的）（会在当前目录下生成一个target，里边存放编译主程序之后生成的字节码文件）<br/>编译main/java目录下的java为class文件，同时把class拷贝到target/classes目录下面。把main/resources目录下的文件都拷贝到target/classes下面|
+|mvn test-compile|编译测试程序（test目录下的）（会在当前目录下生成一个target，里边存放编译测试程序之后生成的字节码文件）|
+|mvn test|测试（会生成一个目录surefire-reports，保存测试结果）**当我们执行测试的时候，会自动执行一遍前面的所有命令（clean，compile，test-complile）**|
+|mvn package|打包主程序（会编译、编译测试、测试、并且按照pom.xml配置把主程序打包生成jar包或者war包）<br />打包生成的jar中**只有src/main中的所有内容**，在打包的时候，坐标中的每一个属性都是一个文件夹，groupId中的一个‘.’ 也对应着一个文件夹|
+|mvn install|安装主程序（会把本工程打包，并且按照本工程的坐标保存到本地仓库中，这样其他的项目就能使用这个jar包了，**也会把以前的所有命令执行一遍**）|
+|mvn deploy | 部署主程序（会把本工程打包，按照本工程的坐标保存到本地库中，并且还会保存到私服仓库中。还会自动把项目部署到web容器中）。|
+
+**在实际开发中用的mvn install比较多**
+
+### 单元测试
+
+测试方法：用的是junit，junit是一个专门测试的框架（工具）。
+
+junit测试的内容：测试的是类中的方法，每一个方法都是独立测试的。方法是测试的基本单位（单元）。
+
+maven借助单元测试，批量的测试你类中的大量方法是否符合预期的。
+
+
+
+如何进行单元测试？
+
+1. 使用junit包：在maven中央仓库找到所需要的junit的xml复制到我们的pom.xml文件的dependencies中（加入依赖项）
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005182024539.png" alt="image-20201005182024539" style="zoom:30%;" />
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005182400935.png" alt="image-20201005182400935" style="zoom:30%;" />
+
+2. 在maven项目中的src/test/java目录下创建测试程序。推荐的创建类和方法的提示：
+
+    1. 测试类的名称是`Test + 你要测试的类名`
+    2. 测试的方法名是 `Test + 方法名称`
+
+    例：比如我要测试Hello，我就要创建测试类TestHello，然后在类中编写测试方法TestHello
+
+    创建TestHello类和方法<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005185408817.png" alt="image-20201005185408817" style="zoom:50%;" />
+
+然后在项目目录下直接执行`mvn test`
+
+结果:<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005190049196.png" alt="image-20201005190049196" style="zoom:50%;" />
+
+## 在IDEA中的使用
+
+### 相关属性的配置
+
+IDEA中内置了一个maven，但是我们一般不用内置的，不方便修改。
+
+使用自己安装的maven，需要覆盖IDEA中的默认设置，让他知道指定的maven的配置信息。
+
+需要在**两个地方**进行设置，一个是settings（当前工程的设置），另一个是Other settings（以后新建的工程的设置，在settings界面中）
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005193028991.png" alt="image-20201005193028991" style="zoom:50%;" />
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005202342817.png" alt="image-20201005202342817" style="zoom:50%;" />
+
+
+
+**配置阿里云镜像**
+
+打开 Maven 的配置文件(windows机器一般在maven安装目录的conf/settings.xml)，在**`<mirrors></mirrors>`**标签中添加 mirror 子节点:
+
+```xml
+<mirror>
+    <id>aliyunmaven</id>
+    <mirrorOf>*</mirrorOf>
+    <name>阿里云公共仓库</name>
+    <url>https://maven.aliyun.com/repository/public</url>
+</mirror>
+```
+
+### 新建Maven工程
+
+**新建空项目**
+
+**新建基于maven的module**
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005194928174.png" alt="image-20201005194928174" style="zoom:50%;" />
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005195230320.png" alt="image-20201005195230320" style="zoom:50%;" />
+
+**点击完成**
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005201958583.png" alt="image-20201005201958583" style="zoom:50%;" />
+
+
+
+<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005202114755.png" alt="image-20201005202114755" style="zoom:50%;" />
 
