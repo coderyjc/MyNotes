@@ -395,3 +395,63 @@ IDEA中内置了一个maven，但是我们一般不用内置的，不方便修�
 
 ## 依赖
 
+依赖范围，使用scope表示
+
+scope的值有 compile，test，provided scope：表示依赖使用的范围，也就是在maven构建项目的那些阶段中起作用。maven构建项目清理，（编译）测试），打包，安装，部署过程（阶段）
+
+<img src="Maven.assets\image-20201006222251620.png" alt="image-20201006222251620" style="zoom:50%;" />
+
+写依赖的时候怎么知道是哪个版本？
+
+- 根据项目需要来写
+
+## Maven常用设置
+
+1. maven的属性设置 -- \<properties\> 设置常用的属性
+
+```xml
+
+  <properties>
+<!--    maven项目构建使用的编码，避免出现乱码-->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!--    编译代码使用的jdk版本-->
+    <maven.compiler.source>1.8</maven.compiler.source>
+<!--    运行程序使用jdk版本-->
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+```
+
+2. maven的全局变量
+
+自定义属性：
+1. 在\<properties\>通过自定义标签声明变量标签名就是变量名)
+2. 在pom.xml中的其他位置使用 $ {变量名}进行使用
+
+自定义全局变量一般是定义依赖的版本号，当你的项目中要使用多个相同的版本号的时候，可以先使用全局变量进行定义。
+
+<img src="D:\GITHUB\MyNotes\_Typora\Web\Maven\Maven.assets\image-20201006223544315.png" alt="image-20201006223544315" style="zoom:50%;" />
+
+3. 资源插件
+
+```xml
+<build>
+<resources>
+  <resource>
+    <directory>src/main/java</directory><!--所在的目录-->
+    <includes><!--包括目录下的.properties，.xml文件都会扫描到-->
+      <include>**/*.properties</include>
+      <include>**/*.xml</include>
+        </includes>
+    <!--filtering选项false不启用过滤器，*.property已经起到过滤的作用了-->
+    <filtering>false</filtering>
+  </resource>
+</resources>
+</build>
+```
+
+作用：在mybatis中会用到这个作用
+
+1. 默认没有使用resourse的时候，maven执行编译代码的时候会把src/main/resources目录中的文件拷贝到target/classes目录中，对于src/main/java目录下的非java文件不做处理
+2. 我们的程序有需要把一些文件放在src/main/java目录中，当我在执行java程序时，需要用到src/main/java目录中的文件。需要告诉maven在mvn compile， src/main/java目录下的程序时，需要把文件一同拷贝到target/classes目录中。此时就需要在<build>中加入上述\<resources\>.
+
+
