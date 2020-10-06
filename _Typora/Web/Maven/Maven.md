@@ -76,21 +76,21 @@ maven支持的构建包括有：
 
 在系统的环境变量中的指定一个M2_HOME的名称，指向maven主目录
 
-<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003124003629.png" alt="image-20201003124003629" style="zoom:50%;" />
+<img src="Maven.assets\image-20201003124003629.png" alt="image-20201003124003629" style="zoom:50%;" />
 
 然后在path中加入bin目录
 
-<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003124039883.png" alt="image-20201003124039883" style="zoom:50%;" />
+<img src="Maven.assets\image-20201003124039883.png" alt="image-20201003124039883" style="zoom:50%;" />
 
 必须有JAVA_HOME环境变量
 
-<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003124154240.png" alt="image-20201003124154240" style="zoom:50%;" />
+<img src="Maven.assets\image-20201003124154240.png" alt="image-20201003124154240" style="zoom:50%;" />
 
 
 
 出现如下内容说明安装配置正确
 
-<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003124300534.png" alt="image-20201003124300534" style="zoom:50%;" />
+<img src="Maven.assets\image-20201003124300534.png" alt="image-20201003124300534" style="zoom:50%;" />
 
 
 
@@ -100,11 +100,11 @@ maven支持的构建包括有：
 
 每一个maven的项目在磁盘中都是一个文件夹
 
-<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003125645297.png" alt="image-20201003125645297" style="zoom:50%;" />
+<img src="Maven.assets\image-20201003125645297.png" alt="image-20201003125645297" style="zoom:50%;" />
 
 执行tree命令
 
-<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Maven\Maven.assets\image-20201003141751034.png" alt="image-20201003141751034" style="zoom:50%;" />
+<img src="Maven.assets\image-20201003141751034.png" alt="image-20201003141751034" style="zoom:50%;" />
 
 在main\java中创建了一个package，里面写上测试代码
 
@@ -126,11 +126,11 @@ maven支持的构建包括有：
    
 - 最好把以后学习的所有框架的仓库都设为这个目录用来积累资源
   
-1. <img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005130017232.png" alt="image-20201005130017232" style="zoom:50%;" />
+1. <img src="Maven.assets\image-20201005130017232.png" alt="image-20201005130017232" style="zoom:50%;" />
 
     把这个标签移动到注释外面，并为其指定一个目录，注意整个路径中不要有中文（注意斜杠的方向）
 
-2. <img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005130249878.png" alt="image-20201005130249878" style="zoom:50%;" />
+2. <img src="Maven.assets\image-20201005130249878.png" alt="image-20201005130249878" style="zoom:50%;" />
 
 ### 仓库
 
@@ -189,11 +189,11 @@ Maven的一个重要作用就是管理jar包，为了一个项目可以构建或
 如何配置该属性?
 
 - 从官网上查找需要依赖的jar包[maven中央仓库](https://mvnrepository.com/),复制xml
-- <img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005174515862.png" alt="image-20201005174515862" style="zoom:50%;" />
+- <img src="Maven.assets\image-20201005174515862.png" alt="image-20201005174515862" style="zoom:50%;" />
 
 - 粘贴到项目的pom文件中，完成。
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005174710831.png" alt="image-20201005174710831" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005174710831.png" alt="image-20201005174710831" style="zoom:50%;" />
 
 
 
@@ -215,7 +215,7 @@ properties是用来定义一些配置属性的，例如project.build.sourceEncod
 
 表示与构建相关的配置，例如设置编译插件的jdk版本
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005191515915.png" alt="image-20201005191515915" style="zoom:33%;" />
+<img src="Maven.assets\image-20201005191515915.png" alt="image-20201005191515915" style="zoom:33%;" />
 
 **parent（*继承*）**
 
@@ -259,9 +259,9 @@ maven借助单元测试，批量的测试你类中的大量方法是否符合预
 
 1. 使用junit包：在maven中央仓库找到所需要的junit的xml复制到我们的pom.xml文件的dependencies中（加入依赖项）
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005182024539.png" alt="image-20201005182024539" style="zoom:30%;" />
+<img src="Maven.assets\image-20201005182024539.png" alt="image-20201005182024539" style="zoom:30%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005182400935.png" alt="image-20201005182400935" style="zoom:30%;" />
+<img src="Maven.assets\image-20201005182400935.png" alt="image-20201005182400935" style="zoom:30%;" />
 
 2. 在maven项目中的src/test/java目录下创建测试程序。推荐的创建类和方法的提示：
 
@@ -270,11 +270,11 @@ maven借助单元测试，批量的测试你类中的大量方法是否符合预
 
     例：比如我要测试Hello，我就要创建测试类TestHello，然后在类中编写测试方法TestHello
 
-    创建TestHello类和方法<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005185408817.png" alt="image-20201005185408817" style="zoom:50%;" />
+    创建TestHello类和方法<img src="Maven.assets\image-20201005185408817.png" alt="image-20201005185408817" style="zoom:50%;" />
 
 然后在项目目录下直接执行`mvn test`
 
-结果:<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005190049196.png" alt="image-20201005190049196" style="zoom:50%;" />
+结果:<img src="Maven.assets\image-20201005190049196.png" alt="image-20201005190049196" style="zoom:50%;" />
 
 ## 在IDEA中的使用
 
@@ -286,9 +286,9 @@ IDEA中内置了一个maven，但是我们一般不用内置的，不方便修�
 
 需要在**两个地方**进行设置，一个是settings（当前工程的设置），另一个是Other settings（以后新建的工程的设置，在settings界面中）
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005193028991.png" alt="image-20201005193028991" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005193028991.png" alt="image-20201005193028991" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005202342817.png" alt="image-20201005202342817" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005202342817.png" alt="image-20201005202342817" style="zoom:50%;" />
 
 
 
@@ -313,31 +313,31 @@ IDEA中内置了一个maven，但是我们一般不用内置的，不方便修�
 
 **新建基于maven的module**
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005194928174.png" alt="image-20201005194928174" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005194928174.png" alt="image-20201005194928174" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005195230320.png" alt="image-20201005195230320" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005195230320.png" alt="image-20201005195230320" style="zoom:50%;" />
 
 **点击完成**
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005201958583.png" alt="image-20201005201958583" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005201958583.png" alt="image-20201005201958583" style="zoom:50%;" />
 
 
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005202114755.png" alt="image-20201005202114755" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005202114755.png" alt="image-20201005202114755" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005223458753.png" alt="image-20201005223458753" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005223458753.png" alt="image-20201005223458753" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005224055953.png" alt="image-20201005224055953" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005224055953.png" alt="image-20201005224055953" style="zoom:50%;" />
 
 
 
 #### web项目的创建
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005224315467.png" alt="image-20201005224315467" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005224315467.png" alt="image-20201005224315467" style="zoom:50%;" />
 
 使用这个模板创建的web—maven项目缺少一些文件，需要自己手动加上
 
-<img src="D:\GITHUB\MyNotes\_Typora\JavaWeb\Maven\Maven.assets\image-20201005225301233.png" alt="image-20201005225301233" style="zoom:50%;" />
+<img src="Maven.assets\image-20201005225301233.png" alt="image-20201005225301233" style="zoom:50%;" />
 
 添加上这三个文件，构建成了一个基本的web项目。
 
@@ -366,4 +366,32 @@ IDEA中内置了一个maven，但是我们一般不用内置的，不方便修�
     <scope>provided</scope>
 </dependency>
 ```
+
+<mark>【maven-p24后半部分有一段创建servlet项目，配置tomcat服务器，这个学了web之后再看看】</mark>
+
+
+
+【小技巧】
+
+当我们在pom.xml中粘贴进了一段dependency之后，可能会划红线，此时IDEA还不认识这些字，我们需要刷新一下maven：
+
+<img src="Maven.assets\image-20201006213012024.png" alt="image-20201006213012024" style="zoom:50%;" />
+
+还可以从侧边的maven框中刷新，区别是在右边的框中刷新的时候会刷新所有的项目，左边右键pom文件只能一个项目一个项目地刷新。
+
+
+
+#### 导入Maven工程（Module）
+
+<img src="Maven.assets\image-20201006213540837.png" alt="image-20201006213540837" style="zoom:50%;" />
+
+<img src="Maven.assets\image-20201006213621843.png" alt="image-20201006213621843" style="zoom:50%;" />
+
+<img src="Maven.assets\image-20201006213708749.png" alt="image-20201006213708749" style="zoom:50%;" />
+
+<img src="Maven.assets\image-20201006213903965.png" alt="image-20201006213903965" style="zoom:50%;" />
+
+<img src="Maven.assets\image-20201006214233580.png" alt="image-20201006214233580" style="zoom:50%;" />
+
+## 依赖
 
