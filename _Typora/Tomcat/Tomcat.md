@@ -53,11 +53,11 @@
 
 像这样：
 
-![image-20201001191313299](D:\GITHUB\MyNotes\_Typora\JAVAWEB\Tomcat\Tomcat.assets\image-20201001191313299.png)
+<img src="Tomcat.assets\image-20201001191313299.png" alt="image-20201001191313299" style="zoom:50%;" />
 
-![image-20201001191335261](D:\GITHUB\MyNotes\_Typora\JAVAWEB\Tomcat\Tomcat.assets\image-20201001191335261.png)
+<img src="Tomcat.assets\image-20201001191335261.png" alt="image-20201001191335261" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\JAVAWEB\Tomcat\Tomcat.assets\image-20201001191443194.png" alt="image-20201001191443194" style="zoom:50%;" />
+<img src="Tomcat.assets\image-20201001191443194.png" alt="image-20201001191443194" style="zoom:50%;" />
 
 （Tomcat是使用Java语言开发的）
 
