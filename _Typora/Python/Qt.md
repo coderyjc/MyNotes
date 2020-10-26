@@ -365,7 +365,32 @@ class Example(QMainWindow):
 
 ### 放在一起
 
+```python
+    def initUI(self):
 
+        text_edit = QTextEdit()
+        self.setCentralWidget(text_edit)
+
+        # QAction可以操作菜单栏，工具栏和自定义键盘快捷键
+        exit_action = QAction(QIcon('..\\img\\icon.png'), 'Exit', self)
+        exit_action.setShortcut('Ctrl+Q')
+        exit_action.setStatusTip('Exit this application')  # 鼠标悬停提示
+        exit_action.triggered.connect(self.close)  #
+
+        self.statusBar()
+
+        menubar = self.menuBar()
+        file_menu = menubar.addMenu('&File')
+        file_menu.addAction(exit_action)
+
+        toolbar = self.addToolBar('Exit')
+        toolbar.addAction(exit_action)
+
+        self.setGeometry(300, 300, 350, 250)
+        self.setWindowTitle('Main window')
+        self.show()
+
+```
 
 
 
@@ -373,44 +398,290 @@ class Example(QMainWindow):
 
 ### 事件和信号槽
 
+所有的GUI程序都是事件驱动的。事件主要由用户触发，但也可能有其他触发方式：例如网络连接、window manager或定时器。当我们调用QApplication的exec_()方法时会使程序进入主循环。主循环会获取并发事件。
 
+在事件模型中，有三个参与者：
+
+- 事件源
+- 事件对象
+- 事件接收者
+
+事件源是状态发生变化的对象。它会生成事件。事件(对象)封装了事件源中状态的变动。事件接收者是要通知的对象。事件源对象将事件处理的工作交给事件接收者。
+
+PyQt5有一个独特的signal&slot(信号槽)机制来处理事件。信号槽用于对象间的通信。signal在某一特定事件发生时被触发，slot可以是任何callable对象。当signal触发时会调用与之相连的slot。
+
+```python
+class Example(QWidget):
+
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        lcd = QLCDNumber(self)  # LCD数字
+        sld = QSlider(Qt.Horizontal, self)  # 滑块
+
+        v_box = QVBoxLayout()  # 垂直布局
+        v_box.addWidget(lcd)  # 添加LCD数字
+        v_box.addWidget(sld)  # 添加滑块
+
+        self.setLayout(v_box)  # 设置布局方式
+        sld.valueChanged.connect(lcd.display)  # 将滑块的valueChanged信号连接到lcd的display插槽
+
+        self.setGeometry(300, 300, 350, 250)
+        self.setWindowTitle('Signal and slot')
+        self.show()
+```
 
 ### 重新实现事件处理器
 
+通过重新实现事件处理器来处理事件
 
+```python
+class Example(QWidget):
+
+    def __init__(self):
+        super().__init__()
+
+        self.initUI()
+
+    def initUI(self):
+
+        self.setGeometry(300, 300, 250, 150)
+        self.setWindowTitle('Event Handler')
+        self.show()
+
+    def keyPressEvent(self, e):  # 重写KetPressEvent 事件处理器
+
+        if e.key() == Qt.Key_Escape:  # K大写
+            self.close()  # 按下Esc后程序退出
+
+```
 
 ### 事件发送者
 
+sender()方法让我们知道事件是哪个控件发送的
 
+```python
+class Example(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        btn1 = QPushButton("Button1", self)
+        btn1.move(30, 50)
+
+        btn2 = QPushButton("Button2", self)
+        btn2.move(150, 50)
+
+        # 创建了两个按钮并且连接到了同一个插槽
+        btn1.clicked.connect(self.buttonClicked)
+        btn2.clicked.connect(self.buttonClicked)
+
+        self.statusBar()
+
+        self.setGeometry(300, 300, 290, 150)
+        self.setWindowTitle("Event Sender")
+        self.show()
+
+    def buttonClicked(self):
+        # 通过调用sender方法判断信号源
+        sender = self.sender()
+        # 输出判断结果
+        self.statusBar().showMessage(sender.text() + ' was pressed')
+```
 
 ### 发出信号
 
 
 
+```python
+class Communicate(QObject):
+    closeApp = pyqtSignal()  # 创建了一个closeApp信号
+    # 这个信号会在按下鼠标的时候触发
+    # 它连接着QMainWindow的close()插槽
+
+
+class Example(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.comm = Communicate()
+        self.comm.closeApp.connect(self.close)
+        self.setGeometry(300, 300, 290, 150)
+        self.show()
+
+    def mousePressEvent(self, event):
+        # 在窗体上点击鼠标时会触发closeApp信号，使程序退出
+        self.comm.closeApp.emit()
+
+```
+
 
 ## 控件
 
-
-
 ### QCheckBox
+
+```python
+
+    def initUI(self):
+        cb = QCheckBox('Show title', self)
+        cb.move(20, 20)
+        cb.toggle()  #
+        cb.stateChanged.connect(self.changeTitle)  # 状态改变连接到changeTitle
+
+        self.setGeometry(300, 300, 250, 100)
+        self.setWindowTitle('CheckBox')
+        self.show()
+
+    def changeTitle(self, state):
+        if state == Qt.Checked:  # 选中状态
+            self.setWindowTitle('QCheckBox')  # 更改窗口标题
+        else:
+            self.setWindowTitle('')
+```
 
 
 
 ### 开关按钮
 
+```python
+    def initUI(self):
+        self.col = QColor(0, 0, 0)  # 初始颜色为黑色
+
+        redb = QPushButton('Red', self)
+        redb.setCheckable(True)
+        redb.move(10, 10)
+        redb.clicked[bool].connect(self.setColor)
+
+        blueb = QPushButton('Blue', self)
+        blueb.setCheckable(True)
+        blueb.move(10, 60)
+        blueb.clicked[bool].connect(self.setColor)
+
+        greenb = QPushButton('Green', self)
+        greenb.setCheckable(True)
+        greenb.move(10, 110)
+        greenb.clicked[bool].connect(self.setColor)
+
+        self.square = QFrame(self)
+        self.square.setGeometry(150, 20, 100, 100)
+        self.square.setStyleSheet("QWidget{background-color:%s}" %
+                                  self.col.name())
+
+        self.setGeometry(300, 300, 280, 170)
+        self.setWindowTitle('Toggle button')
+        self.show()
+
+    def setColor(self, pressed):
+        source = self.sender()
+
+        if pressed:
+            val = 255
+        else:
+            val = 0
+
+        if source.text() == "Red":
+            self.col.setRed(val)
+        elif source.text() == "Green":
+            self.col.setGreen(val)
+        else:
+            self.col.setBlue(val)
+
+        self.square.setStyleSheet("QFrame{background-color:%s}" %
+                                  self.col.name())
+
+```
+
 
 
 ### 滑动条
 
+```python
+    def initUI(self):
+        sld = QSlider(Qt.Horizontal, self)  # 创建一个水平滑块
+        sld.setFocusPolicy(Qt.NoFocus)  # 如果不加上这一句，那么用户可以通过tab键选中这个滑块
+        sld.setGeometry(30, 40, 200, 30)  # 滑块的位置，大小
+
+        self.setGeometry(300, 300, 280, 170)
+        self.setWindowTitle('Slider')
+        self.show()
+
+```
+
 
 ### 进度条
+
+```python
+    def initUI(self):
+        self.pbar = QProgressBar(self)
+        self.pbar.setGeometry(30, 40, 200, 25)
+
+        self.btn = QPushButton('Start', self)
+        self.btn.move(40, 80)
+        self.btn.clicked.connect(self.doSome)
+
+        self.timer = QBasicTimer() # 定时器的构造方法
+        self.step = 0
+
+        self.setGeometry(300, 300, 200, 170)
+        self.setWindowTitle('QProgressBar')
+        self.show()
+
+    def timerEvent(self, e):
+
+        if self.step >= 100:
+            self.timer.stop()
+            self.btn.setText('Finished')
+            return
+
+        self.step = self.step + 1
+        self.pbar.setValue(self.step)
+
+    def doSome(self):
+        if self.timer.isActive():
+            self.timer.stop()
+            self.btn.setText('Start')
+        else:
+            self.timer.start(100, self)
+            self.btn.setText('Stop')
+```
 
 
 
 ### 日历控件
 
+```python
+    def initUI(self):
+        cal = QCalendarWidget(self)
+        cal.setGridVisible(True)
+        cal.move(20, 20)
+        cal.clicked[QDate].connect(self.showDate)
+
+        self.lbl = QLabel(self)
+        date = cal.selectedDate()
+        self.lbl.setText(date.toString())
+        self.lbl.move(130, 260)
+
+        self.setGeometry(300, 300, 350, 300)
+        self.setWindowTitle('Calendar')
+        self.show()
+
+    def showDate(self, date):
+        self.lbl.setText(date.toString())
+```
+
+
+
 
 ### QPixmap
+
+
 
 
 
