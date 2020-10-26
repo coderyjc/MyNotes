@@ -71,19 +71,31 @@
 
 ### 作业-使用DBCA
 
-<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201003151836904.png" alt="image-20201003151836904" style="zoom:50%;" />
+<img src="ORCL.assets\image-20201003151836904.png" alt="image-20201003151836904" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201003154031276.png" alt="image-20201003154031276" style="zoom:50%;" />
+<img src="ORCL.assets\image-20201003154031276.png" alt="image-20201003154031276" style="zoom:50%;" />
 
 
 
 #### 创建PDB
 
-<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190453027.png" alt="image-20201004190453027" style="zoom:50%;" /><img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190817120.png" alt="image-20201004190817120" style="zoom:50%;" />
+<img src="ORCL.assets\image-20201004190453027.png" alt="image-20201004190453027" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190453027.png" alt="image-20201004190453027" style="zoom:50%;" /><img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190817120.png" alt="image-20201004190817120" style="zoom:50%;" /><img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190914349.png" alt="image-20201004190914349" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\ORACLE\ORCL.assets\image-20201004190914349.png" alt="image-20201004190914349" style="zoom:50%;" />
+
+<img src="ORCL.assets\image-20201004190817120.png" alt="image-20201004190817120" style="zoom:50%;" />
+
+<img src="ORCL.assets\image-20201004190453027.png" alt="image-20201004190453027" style="zoom:50%;" />
+
+<img src="ORCL.assets\image-20201004190817120.png" alt="image-20201004190817120" style="zoom:50%;" />
+
+<img src="ORCL.assets\image-20201004190914349.png" alt="image-20201004190914349" style="zoom:50%;" />
+
+<img src="ORCL.assets\image-20201004190914349.png" alt="image-20201004190914349" style="zoom:50%;" />
+
+<img src="ORCL.assets\image-20201026100921830.png" alt="image-20201026100921830" style="zoom:50%;" />
+
+
 
 #### SQL developer对表空间的操作
 
