@@ -1,3 +1,586 @@
+## 第二章 信号与槽
+
+### 一个信号一个槽
+
+- 信号clicked：点击
+
+```python
+
+class Demo(QWidget):  # 继承QWidget
+    def __init__(self):
+        super(Demo, self).__init__()
+
+        self.button = QPushButton('Start', self)  # 因为是继承于QWidget，所以self不能忘了
+        # （相当于告诉了程序这个QPushButton是放在QWidget这个房子中的）
+        self.button.clicked.connect(self.change_text)  # 连接信号与槽函数
+        # self.button 是一个控件，clicked（按钮被点击）是一个信号，connect()是连接，括号中是槽函数
+
+    def change_text(self):
+        print('change text')
+        self.button.setText('Stop')
+        self.button.clicked.disconnect(self.change_text)  # 信号与槽解绑，如果把这一行注释掉，则每一次点击都会输出一次change text
+
+```
+
+### 多个信号一个槽
+
+- 信号 pressed：当鼠标在button上并单击左键的时候触发信号
+- 信号 released：当鼠标左键被释放的时候触发信号
+
+```python
+class Demo(QWidget):  # 继承QWidget
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.button = QPushButton('Start', self)
+        self.button.pressed.connect(self.change_text)
+        self.button.released.connect(self.change_text)
+
+    def change_text(self):
+        if self.button.text() == 'Start':
+            self.button.setText('Stop')
+        else:
+            self.button.setText('Start')
+```
+
+### 信号与信号连接
+
+```python
+class Demo(QWidget):
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.button = QPushButton('Start', self)
+        #  将pressed信号和released信号连接起来，而released信号则与槽函数连接。
+        #  这样当点击不放时，pressed信号发出，released信号也会发出，从而启动槽函数。
+        #  释放鼠标则发出released信号，再次启动槽函数。所以程序运行效果跟2.2小节其实是一样的。
+        self.button.pressed.connect(self.button.released)
+        self.button.released.connect(self.change_text)
+
+    def change_text(self):
+        if self.button.text() == 'Start':
+            self.button.setText('Stop')
+        else:
+            self.button.setText('Start')
+```
+
+### 一个信号多个槽
+
+
+```python
+class Demo(QWidget):
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.resize(300, 300)  # 初始化窗口的大小
+        self.setWindowTitle('demo')  # 设置窗口名称
+        self.button = QPushButton('Start', self)
+        # 连接三个槽函数
+        self.button.clicked.connect(self.change_text)
+        self.button.clicked.connect(self.change_window_size)  # 3
+        self.button.clicked.connect(self.change_window_title)  # 4
+
+    def change_text(self):
+        print('change text')
+        self.button.setText('Stop')
+        self.button.clicked.disconnect(self.change_text)
+
+    def change_window_size(self):  # 5
+        print('change window size')
+        self.resize(500, 500)
+        self.button.clicked.disconnect(self.change_window_size)
+
+    def change_window_title(self):  # 6
+        print('change window title')
+        self.setWindowTitle('window title changed')
+        self.button.clicked.disconnect(self.change_window_title)
+
+```
+
+
+
+
+
+## 第三章 布局管理
+
+### 垂直布局管理
+
+```python
+"""
+垂直布局管理
+"""
+
+class Demo(QWidget):
+
+	def __init__(self):
+		super(Demo(),  self)
+		self.user_label = QLabel('Username:',  self)
+		self.pwd_label = QLabel('Password:',  self)  # 两个文本标签
+
+		self.v_layout = QVBoxLayout()  # 实例化一个垂直布局管理器
+		self.v_layout.addWidget(self.user_label)
+		self.v_layout.addWidget(self.pwd_label)  # 添加两个文本标签
+
+		self.setLayout(self.v_layout)  # 将self.v_layout设置为整个窗口的最终布局方式
+
+```
+
+### 水平布局管理
+```python
+
+"""
+水平布局管理
+"""
+
+class Demo(QWidget):
+
+	def __init__(self):
+		super(Demo, self).__init__()
+		self.uer_label = QLabel('Username',  self)
+		self.user_line = QLineEdit(self)  # 单行输入文本
+
+		self.h_layout = QHBoxLayout()  # 实例化一个水平布局管理器
+		self.h_layout.addWidget(self.user_label)
+		self.h_layout.addWidget(self.user_line)  # 添加刚才的两个widget
+		# 先添加的出现在左边
+
+		self.setLayout(self.h_layout)  # 将self.h_layout 设置为整个个窗口的最终布局方式
+
+```
+
+### 水平垂直混合使用
+
+```python
+"""
+混合使用水平bu'ju
+"""
+
+class Demo(QWidget):
+    def __init__(self):
+        super(Demo, self).__init__()
+
+        # 初始化按钮、文本行、标签等
+        self.user_label = QLabel('Username', self)
+        self.pwd_label = QLabel('Password', self)
+        self.user_line = QLineEdit(self)
+        self.pwd_line = QLineEdit(self)
+        self.login_button = QPushButton('log in', self)
+        self.signin_button = QPushButton('Sign in', self)
+
+        self.label_v_layout = QVBoxLayout()  # 用来管理label
+        self.line_v_layout = QVBoxLayout()  # 用来管理line
+        self.button_h_layout = QHBoxLayout()  # 用来管理button
+
+        # 将self.label_v_layout垂直布局和self.line_vlayout垂直布局这两个布局管理器从左到右依次水平摆放
+        self.label_line_h_layout = QHBoxLayout()
+        # 将self.label_line_h_layout和self.button_h_layout垂直从上到下摆放
+        self.all_v_layout = QVBoxLayout()
+        # 以上两个布局管理器用来管理1 - 3中的布局，我们应该通过addLayout()向其中添加布局管理器
+
+        self.label_v_layout.addWidget(self.user_label)
+        self.label_v_layout.addWidget(self.pwd_label)
+        self.line_v_layout.addWidget(self.user_line)
+
+        self.line_v_layout.addWidget(self.pwd_line)
+        self.button_h_layout.addWidget(self.login_button)
+        self.button_h_layout.addWidget(self.signin_button)
+
+        self.label_line_h_layout.addLayout(self.label_v_layout)
+        self.label_line_h_layout.addLayout(self.line_v_layout)
+        self.all_v_layout.addLayout(self.label_line_h_layout)
+        self.all_v_layout.addLayout(self.button_h_layout)
+        # 添加控件用addWidght()，添加布局用addLayout()
+
+        self.setLayout(self.all_v_layout)
+
+# 上面的代码是将两个QLabel用垂直布局方式摆放，将两个QLineEdit也用垂直布局方式摆放，最后用一个水平布局管理来摆放着两个垂直布局管理器。那换种思路，可以把QLabel和QLineEdit用水平布局方式摆放
+
+# 自己实现上述过程。
+
+```
+
+### 表单布局
+
+```python
+"""
+表单布局 QFormLayout
+"""
+
+# 表单布局可以将控件以两列的形式进行排布，左列控件为文本标签，右列为输入型的控件，如QLineEdit。
+
+class Demo(QWidget):
+
+	def __init__(self):
+		super(Demo, self).__init__()
+
+		self.user_label = QLabel('Username:', self)
+        self.pwd_label = QLabel('Password:', self)
+        self.user_line = QLineEdit(self)
+        self.pwd_line = QLineEdit(self)
+        self.login_button = QPushButton('Log in', self)
+        self.signin_button = QPushButton('Sign in', self)
+
+        self.f_layout = QFormLayout()  # 实例化一个QFormLayout控件
+
+        self.button_h_layout = QHBoxLayout()
+        self.all_v_layout = QVBoxLayout()
+
+        # 调用addRow()方法传入QLabel和QLineEdit控件
+        self.f_layout.addRow(self.user_label, self.user_line)  
+        self.f_layout.addRow(self.pwd_label, self.pwd_line)
+        self.button_h_layout.addWidget(self.login_button)
+        self.button_h_layout.addWidget(self.signin_button)
+
+        self.all_v_layout.addLayout(self.f_layout)  # 将表单布局添加到总布局中
+        self.all_v_layout.addLayout(self.button_h_layout)
+
+        self.setLayout()
+
+```
+
+### 网格布局
+
+```python
+"""
+网格布局 QGridLayout
+"""
+
+# 相当于坐标式布局
+
+class Demo(QWidget):
+
+    def __init__(self):
+        super(Demo, self).__init__()
+
+        self.user_label = QLabel('Username:', self)
+        self.pwd_label = QLabel('Password:', self)
+        self.user_line = QLineEdit(self)
+        self.pwd_line = QLineEdit(self)
+        self.login_button = QPushButton('Log in', self)
+        self.signin_button = QPushButton('Sign in', self)
+
+		self.grid_layout = QGridLayout()  # 实例化一个QGridLayout布局管理器
+		self.h_layout = QHBoxLayout()
+		self.v_layout = QVBoxLayout()
+
+		self.grid_layout.addWidget(self.user_label, 0, 0, 1, 1)
+		self.grid_layout.addWidget(self.user_line, 0, 1, 1, 1)
+		self.grid_layout.addWidget(self.pwd_label, 1, 0, 1, 1)
+		self.grid_layout.addWidget(self.pwd_line, 1, 1, 1, 1)
+		# QGridLayout的addWidget()方法遵循如下语法形式：
+		# addWidget(widget, row, column, rowSpan, columnSpan)
+		# 在第几行，在第几列， 占几行， 占几列
+
+		self.h_layout.addWidget(self.login_button)
+		self.h_layout.addWidget(self.signin_button)
+
+		self.v_layout.addWidget(self.grid_layout)
+		self.v_layout.addWidget(self.h_layout)
+		# 最后，程序用垂直布局管理器将一个网格布局和一个水平布局添加进去。
+
+		self.setLayout(self.v_layout)
+
+```
+
+
+
+## 第四章 QMessageBox消息框
+
+### 信息框
+
+```python
+class Demo(QWidget):
+
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.button = QPushButton('Information', self)  # 实例化一个按钮
+        self.button.clicked.connect(self.show_messageBox)  # 将按钮的点击状态与show_message连接
+
+    def show_messageBox(self):
+        QMessageBox.information(self, 'Title', 'Hello',
+                                QMessageBox.Yes | QMessageBox.No)
+    # 创建一个信息框
+    # information(QWidget父类（self）, 信息框标题，信息框显示文本，信息框按钮（用 | 连接）)
+```
+
+按钮类型：
+
+- QMessageBox.Ok
+- QMessageBox.Yes
+- QMessageBox.No
+- QMessageBox.Close
+- QMessageBox.Open
+- QMessageBox.Cancel
+- QMessageBox.Save
+
+信息框类型：
+
+- information
+- question
+- warning
+- critical
+- about
+
+### 与信息框交互
+
+
+
+```python
+class Demo(QWidget):
+
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.button = QPushButton('Click Me', self)
+        self.button.clicked.connect(self.show_message)
+
+    def show_message(self):
+        choice = QMessageBox.question(self, 'Change Text?', 'Would you like to change the button text?',
+                                      QMessageBox.Yes | QMessageBox.No)
+        # 点击了某个按钮之后会返回这个按钮，将返回的按钮保存在了choice中
+
+        if choice == QMessageBox.Yes:
+            self.button.setText('Changed!')
+        elif QMessageBox == QMessageBox.No:
+            pass  # 什么也不做
+
+```
+
+### 第五章 登录框小程序
+
+突破瓶颈：
+
+- 我们所写下的代码，都是分成了模块的
+- 所以程序界面在初始化的时候，是“初始化了这些界面”并且<font color=red>将这些属性赋予了某个控件</font>
+- 所以我们没有必要纠结于代码是不是顺序执行的，我们只知道我们赋予了这个控件哪些属性就可以了
+- 因为当这个控件的这些属性被触发的时候，我们程序的调用的也是模块化的
+
+```python
+
+```
+
+
+
+## 第六章 文本编辑和浏览
+
+左边为QTextEdit控件，右边为QTextBrowser控件。在左边输入文字时，右边会同步显示。
+
+```python
+class Demo(QWidget):
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.edit_label = QLabel('TextEdit', self)
+        self.browser_label = QLabel('QTextBrowser', self)
+        self.text_edit = QTextEdit(self)  # 文本编辑框
+        self.text_browser = QTextBrowser(self)  # 文本展示框
+
+        self.edit_v_layout = QVBoxLayout()
+        self.browser_v_layout = QVBoxLayout()
+        self.all_h_layout = QHBoxLayout()
+
+        self.layout_init()
+        self.text_edit_init()
+
+    def layout_init(self):
+        self.edit_v_layout.addWidget(self.edit_label)
+        self.edit_v_layout.addWidget(self.text_edit)
+
+        self.browser_v_layout.addWidget(self.browser_label)
+        self.browser_v_layout.addWidget(self.text_browser)
+
+        self.all_h_layout.addLayout(self.edit_v_layout)
+        self.all_h_layout.addLayout(self.browser_v_layout)
+
+        self.setLayout(self.all_h_layout)
+
+    def text_edit_init(self):
+        self.text_edit.textChanged.connect(self.show_text_func)  # 文本发生改变的时候就会发出信号，调用show_text_func函数
+
+    def show_text_func(self):
+        self.text_browser.setText(self.text_edit.toPlainText())  # setText用来设置文本，toPlainText用来获取文本
+
+```
+
+## 第十九章 列表控件、树形控件、表格控件
+
+### 列表控件
+
+```python
+class Demo(QWidget):
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.pic_label = QLabel(self)  # 用于显示图片
+        self.pic_label.setPixmap(QPixmap('..\\img\\arrow.png'))
+
+        self.list_widget_1 = QListWidget(self)  # list_widget_1放在左边用于显示可选的内容
+        self.list_widget_2 = QListWidget(self)  # list_widget_2放在右边用于显示被双击的项
+
+        self.list_widget_1.doubleClicked.connect(lambda: self.change_func(self.list_widget_1))  # doubleClicked 双击
+        self.list_widget_2.doubleClicked.connect(lambda: self.change_func(self.list_widget_2))
+        # 然后将这两个QListWidget控件的doubleClicked信号和自定义的槽函数连接起来，每当双击QListWidget中的某项时，就会触发该槽函数。
+
+        for i in range(6):  # 循环创建六个QListWidgetItem，并通过调用addItem(QListWidgetItem)将其添加到list_widget_1中；
+            text = 'Item {}'.format(i)
+            self.item = QListWidgetItem(text)
+            self.list_widget_1.addItem(self.item)
+
+        self.item_6 = QListWidgetItem('Item 6', self.list_widget_1)  # 可以通过实例化时直接指定父类进行添加
+
+        self.list_widget_1.addItem('Item 7')  # 也可以直接调用addItem添加内容
+        str_list = ['Item 9', 'Item 10']
+        self.list_widget_1.addItems(str_list)  # 也通过添加列表来添加内容
+
+        self.item_8 = QListWidgetItem('Item 8')
+        self.list_widget_1.insertItem(8, self.item_8)  # 通过 insertItem(row, QListWidget) 在指定行中加入一项内容
+        # self.list_widget_1.insertItem(8, 'Item 8')
+
+        self.h_layout = QHBoxLayout()
+        self.h_layout.addWidget(self.list_widget_1)
+        self.h_layout.addWidget(self.pic_label)
+        self.h_layout.addWidget(self.list_widget_2)
+        self.setLayout(self.h_layout)
+
+    def change_func(self, list_widget):  # 判断信号是哪一个QListWidget发出的
+        if list_widget == self.list_widget_1:  # 如果时list_widget_1
+            item = QListWidgetItem(self.list_widget_1.currentItem())  # 先用currentItem获取到当前项，实例化为QListWidgetItem
+            self.list_widget_2.addItem(item)  # 再通过addItem(QListWidgetItem)方法加入list_widget_2中
+            # print(self.list_widget_2.count()) 可以打印一下当前项目的数量
+        else:  # 信号是list_widget_2发出的
+            self.list_widget_2.takeItem(self.list_widget_2.currentRow())  # 将当前被双击项的行数传给takeItem(int)方法来进行删除
+            print(self.list_widget_2.count())
+
+
+"""
+    注意:
+    currentItem()的返回值是QListWidgetItem，照理来说应该是可以直接被添加的，也就是说下方这种写法应该也是可以的，但是却没有用：
+    self.list_widget_2.addItem(self.list_widget_1.currentItem())
+"""
+
+```
+
+
+### 树形控件
+
+```python
+class Demo(QWidget):
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.setGeometry(200, 200, 600, 400)
+        self.label = QLabel('No Click')  # 用于显示每个QTreeWidgetItem文本
+
+        self.tree = QTreeWidget(self)  # 树形控件
+        self.tree.setColumnCount(2)  # 将树形控件的列数设置为 2（默认是 1）
+        self.tree.setHeaderLabels(['Install Components', 'Test'])  # 设置每一列的标题（可以传入一个列表,也可以构造一个列表）
+        # 如果只有一列的话，应该通过 setHeaderLabel(str) 设置
+        self.tree.itemClicked.connect(self.change_func)  # 将 itemClicked信号连接到自定义槽函数
+        # 每当点击QTreeWidget 中的任意一项的时候，都会触发这个信号
+
+        self.preview = QTreeWidgetItem(self.tree)  # 实例化一个QTreeWidgetItem将其父类设置为 self.tree,表示其为最顶层项
+        self.preview.setText(0, 'Preview')  # 通过setText() 设置文本，0表示第一列
+
+        # self.preview = QTreeWidgetItem()
+        # self.preview.setText(0, 'Preview')
+        # self.tree.addTopLevelItem(self.preview)  # 使用这个方法可以设置最顶的层
+
+        self.qt5112 = QTreeWidgetItem()
+        self.qt5112.setText(0, 'Qt 5.11.2 snapshot')
+        self.qt5112.setCheckState(0, Qt.Unchecked)  # 让这个项以复选框的形式呈现出来
+        self.preview.addChild(self.qt5112)  # 为preview添加子项
+
+        choice_list = ['macOS', 'Android x86', 'Android ARMv7', 'Sources', 'iOS']
+        self.item_list = []
+        for i, c in enumerate(choice_list):  # enumerate 返回枚举对象(1,'macOS')...
+            item = QTreeWidgetItem(self.qt5112)
+            item.setText(0, c)
+            item.setCheckState(0, Qt.Unchecked)
+            self.item_list.append(item)
+
+        self.test_item = QTreeWidgetItem(self.qt5112)  # 构造函数的参数是其上一级
+        self.test_item.setText(0, 'test1')  # 测试文本：在第一列显示test1
+        self.test_item.setText(1, 'test2')  # 测试文本：在第二列显示test1
+
+        self.tree.expandAll()  # 让QTreeWidget所有的项都是以打开状态显示的
+        # 注意：要在所有项都已经实例化好之后再调用这个方法，如果一开始就调用则没有效果
+
+        self.h_layout = QHBoxLayout()
+        self.h_layout.addWidget(self.tree)
+        self.h_layout.addWidget(self.label)
+        self.setLayout(self.h_layout)
+
+    def change_func(self, item, column):
+        self.label.setText(item.text(column))  # 在槽函数中，self.label显示对应项的文本，item就是被点击的项
+        # 调用text(int) 传入列数，获得文本
+
+        # print(item.text(column))
+        # print(column)
+
+        if item == self.qt5112:  # 如果被点击的项目为 item，则我们判断它是否被选中
+            # 如果是，将它的所有子项都设为选中状态，如果不是，就都设为未被选中状态
+
+            if self.qt5112.checkState(0) == Qt.Checked:
+                [x.setCheckState(0, Qt.Checked) for x in self.item_list]
+            else:
+                [x.setCheckState(0, Qt.Unchecked) for x in self.item_list]
+        else:
+            # 如果被点击的是qt5112的子项，我们判断有多少个子项被选中了
+            # 若数量为5，则设置qt5112为选中状态，若为0-5之间，则设为半选中状态，若等于0，则设为无选中状态。
+            check_count = 0
+            for x in self.item_list:
+                if x.checkState(0) == Qt.Checked:
+                    check_count += 1
+
+            if check_count == 5:
+                self.qt5112.setCheckState(0, Qt.Checked)
+            elif 0 < check_count < 5:
+                self.qt5112.setCheckState(0, Qt.PartiallyChecked)
+            else:
+                self.qt5112.setCheckState(0, Qt.Unchecked)
+
+```
+
+
+### 表格控件
+
+
+
+```python
+class Demo(QTableWidget):  # 直接继承 QTableWidget
+    def __init__(self):
+        super(Demo, self).__init__()
+
+        self.setRowCount(6)  # 设置表格的行数
+        self.setColumnCount(6)  # 设置表格的列数
+
+        # self.table = QTableWidget(6, 6, self)  也可以在实例化的时候直接指定列数
+
+        print(self.rowCount())  # 获取行数
+        print(self.columnCount())  # 获取列数
+
+        self.setColumnWidth(0, 30)  # 设置列宽，setColumnWidth(列序号，宽度值)
+        self.setRowHeight(0, 30)  # 设置行高 (行号，高度值)
+
+        self.setHorizontalHeaderLabels(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])  # 行标题
+        self.setVerticalHeaderLabels(['t1', 't2', 't3', 't4', 't5', 't6'])  # 列标题
+
+        # self.setShowGrid(False)  # 是否显示网格线
+
+        self.item_1 = QTableWidgetItem('Hi')
+        self.setItem(0, 0, self.item_1)
+
+        self.item_2 = QTableWidgetItem('Bye')
+        self.item_2.setTextAlignment(Qt.AlignCenter)  # 文本对齐方式
+        self.setItem(2, 2, self.item_2)
+
+        self.setSpan(2, 2, 2, 2)   # 合并单元格，setSpan(行序号，列序号，合并的行数，合并的列数)
+
+        print(self.findItems('Hi', Qt.MatchExactly))  # 查找，精确匹配
+        print(self.findItems('B', Qt.MatchContains))  # 查找，包含匹配
+
+```
+
+
+
+# Qt
+
+
+
+
 ## 基本功能
 
 ### 空白窗口
