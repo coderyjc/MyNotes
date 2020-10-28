@@ -94,10 +94,6 @@ class Demo(QWidget):
 
 ```
 
-
-
-
-
 ## 第三章 布局管理
 
 ### 垂直布局管理
@@ -346,16 +342,163 @@ class Demo(QWidget):
 
 突破瓶颈：
 
-- 我们所写下的代码，都是分成了模块的
+- 我们所写下的代码，都是分成了模块的（函数、类）
 - 所以程序界面在初始化的时候，是“初始化了这些界面”并且<font color=red>将这些属性赋予了某个控件</font>
 - 所以我们没有必要纠结于代码是不是顺序执行的，我们只知道我们赋予了这个控件哪些属性就可以了
-- 因为当这个控件的这些属性被触发的时候，我们程序的调用的也是模块化的
+- 因为当这个控件的这些属性被触发的时候，我们<font color=red>程序的调用也是模块化的</font>
 
 ```python
+import sys
+from PyQt5.QtWidgets import *
+
+USER_PWD = {
+    'Jancoyan': '123'
+}
+
+
+class Demo(QWidget):
+
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.resize(300, 100)
+
+        # 在init函数中初始化控件并调用布局初始化等函数
+        self.user_label = QLabel('UserName', self)
+        self.pwd_label = QLabel('Password', self)
+        self.user_line = QLineEdit(self)
+        self.pwd_line = QLineEdit(self)
+        self.log_in_button = QPushButton('Log in', self)
+        self.sign_in_button = QPushButton('sign in', self)
+
+        self.grid_layout = QGridLayout()
+        self.h_layout = QHBoxLayout()
+        self.v_layout = QVBoxLayout()
+
+        self.line_edit_init()  # 行输入初始化
+        self.push_button_init()  # 按钮初始化
+        self.layout_init()  # 布局初始化
+        self.sign_in_page = Sign_in_page()  # 注册页面
+
+    def layout_init(self):
+        # 初始化标签、输入等控件
+        self.grid_layout.addWidget(self.user_label, 0, 0, 1, 1)
+        self.grid_layout.addWidget(self.user_line, 0, 1, 1, 1)
+        self.grid_layout.addWidget(self.pwd_label, 1, 0, 1, 1)
+        self.grid_layout.addWidget(self.pwd_line, 1, 1, 1, 1)
+        self.h_layout.addWidget(self.log_in_button)
+        self.h_layout.addWidget(self.sign_in_button)
+        self.v_layout.addLayout(self.grid_layout)
+        self.v_layout.addLayout(self.h_layout)
+
+        self.setLayout(self.v_layout)
+
+    def line_edit_init(self):
+
+        self.user_line.setPlaceholderText('Please enter your username')
+        # 在用户没有输入任何文本的时候显示灰色默认文本
+        self.pwd_line.setPlaceholderText('Please enter your password')
+        self.pwd_line.setEchoMode(QLineEdit.Password)  # 让输入的密码显示黑色圆圈（保密）
+        # 只有当上面下面两个框框都有文字的时候，登录按钮才可以点击
+        self.user_line.textChanged.connect(self.check_input_func)
+        self.pwd_line.textChanged.connect(self.check_input_func)
+
+    def push_button_init(self):
+        self.log_in_button.setEnabled(False)
+        self.log_in_button.clicked.connect(self.check_login_func)  # 点击登录按钮
+        self.sign_in_button.clicked.connect(self.show_sign_in_page_func)  # 点击注册按钮
+
+    def check_login_func(self):
+        if USER_PWD.get(self.user_line.text()) == self.pwd_line.text():
+            # 在用户字典中查找账号和密码，并输出相应的信息
+            QMessageBox.information(self, 'Information', 'Log in Successfully!')
+        else:
+            QMessageBox.critical(self, 'Wrong', 'Wrong Username or Password!')
+
+        self.user_line.clear()
+        self.pwd_line.clear()
+        # 登录完成后清除相关的信息
+
+    def show_sign_in_page_func(self):
+        self.sign_in_page.exec_()
+
+    def check_input_func(self):
+        # 判断此时 LineEdit控件中是否存在文本
+        if self.user_line.text() and self.pwd_line.text():
+            self.log_in_button.setEnabled(True)  # 都有文本则可以使用登录按钮
+        else:
+            self.log_in_button.setEnabled(False)  # 否则，登录按钮不可用
+
+
+class Sign_in_page(QDialog):
+    def __init__(self):
+        super(Sign_in_page, self).__init__()
+        self.sign_in_user_label = QLabel('Username:', self)
+        self.sign_in_pwd_label = QLabel('Password:', self)
+        self.sign_in_pwd2_label = QLabel('Password:', self)
+        self.sign_in_user_line = QLineEdit(self)
+        self.sign_in_pwd_line = QLineEdit(self)
+        self.sign_in_pwd2_line = QLineEdit(self)
+        self.sign_in_button = QPushButton('Sign in', self)
+
+        self.user_h_layout = QHBoxLayout()
+        self.pwd_h_layout = QHBoxLayout()
+        self.pwd2_h_layout = QHBoxLayout()
+        self.all_v_layout = QVBoxLayout()
+
+        self.lineedit_init()
+        self.pushbutton_init()
+        self.layout_init()
+
+    def layout_init(self):
+        self.user_h_layout.addWidget(self.sign_in_user_label)
+        self.user_h_layout.addWidget(self.sign_in_user_line)
+        self.pwd_h_layout.addWidget(self.sign_in_pwd_label)
+        self.pwd_h_layout.addWidget(self.sign_in_pwd_line)
+        self.pwd2_h_layout.addWidget(self.sign_in_pwd2_label)
+        self.pwd2_h_layout.addWidget(self.sign_in_pwd2_line)
+
+        self.all_v_layout.addLayout(self.user_h_layout)
+        self.all_v_layout.addLayout(self.pwd_h_layout)
+        self.all_v_layout.addLayout(self.pwd2_h_layout)
+        self.all_v_layout.addWidget(self.sign_in_button)
+
+        self.setLayout(self.all_v_layout)
+
+    def lineedit_init(self):
+        self.sign_in_pwd_line.setEchoMode(QLineEdit.Password)  # 输入后隐藏密码
+        self.sign_in_pwd2_line.setEchoMode(QLineEdit.Password)
+
+        # 将三个消息框与槽函数连接
+        # 只有当三个文本框中都有内容的时候才能点击题交按钮
+        self.sign_in_user_line.textChanged.connect(self.check_input_func)
+        self.sign_in_pwd_line.textChanged.connect(self.check_input_func)
+        self.sign_in_pwd2_line.textChanged.connect(self.check_input_func)
+
+    def pushbutton_init(self):
+        self.sign_in_button.setEnabled(False)  # 先把注册按钮关闭
+        self.sign_in_button.clicked.connect(self.check_sign_in_func)
+
+    def check_input_func(self):  # 三个条件同时满足才能完成注册
+        if self.sign_in_user_line.text() and self.sign_in_pwd_line.text() and self.sign_in_pwd2_line.text():
+            self.sign_in_button.setEnabled(True)
+        else:
+            self.sign_in_button.setEnabled(False)
+
+    def check_sign_in_func(self):
+        if self.sign_in_pwd_line.text() != self.sign_in_pwd2_line.text():
+            QMessageBox.critical(self, 'Wrong', 'Two Passwords Typed Are Not Same!')
+        elif self.sign_in_user_line.text() not in USER_PWD:  # 不在字典中
+            USER_PWD[self.sign_in_user_line.text()] = self.sign_in_pwd_line.text()  # 向用户字典中添加这个用户
+            QMessageBox.information(self, 'Information', 'Register Successfully')
+            self.close()
+        else:
+            QMessageBox.critical(self, 'Wrong', 'This Username Has Been Registered!')
+
+        self.sign_in_user_line.clear()
+        self.sign_in_pwd_line.clear()
+        self.sign_in_pwd2_line.clear()  # 注册完成后清空三个框框
 
 ```
-
-
 
 ## 第六章 文本编辑和浏览
 
@@ -396,6 +539,83 @@ class Demo(QWidget):
         self.text_browser.setText(self.text_edit.toPlainText())  # setText用来设置文本，toPlainText用来获取文本
 
 ```
+
+## 第九章 滑动条和表盘
+
+
+
+### 滑动条
+
+```python
+
+class Demo(QWidget):
+
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.slider_1 = QSlider(Qt.Horizontal, self)  # 传入Horizontal创建一个水平滑动条
+        self.slider_1.setRange(0, 100)  # 可以用setRange设置滑块的范围
+
+        # 如果不用lambda表达式，就不能传进去参数 self.slider_1 和 self.slider_2
+        self.slider_1.valueChanged.connect(lambda: self.on_change_func(self.slider_1))
+
+        self.slider_2 = QSlider(Qt.Vertical, self)
+        self.slider_2.setMinimum(0)
+        self.slider_2.setMaximum(100)  # 可以使用设置最大值和最小值的函数设置滑块的范围
+        # slider数值改变触发函数
+        self.slider_2.valueChanged.connect(lambda: self.on_change_func(self.slider_2))
+
+        self.label = QLabel('0', self)
+        self.label.setFont(QFont('Arial Black', 20))
+
+        self.h_layout = QHBoxLayout()
+        self.v_layout = QVBoxLayout()
+
+        self.h_layout.addWidget(self.slider_2)
+        self.h_layout.addStretch(1)
+        self.h_layout.addWidget(self.label)
+        self.h_layout.addStretch(1)
+        # 两个addStretch确保数字显示在最中间
+
+        self.v_layout.addWidget(self.slider_1)
+        self.v_layout.addLayout(self.h_layout)
+
+        self.setLayout(self.v_layout)
+
+    def on_change_func(self, slider):
+        # 对数值的变化做出反应
+        if slider == self.slider_1:
+            self.slider_2.setValue(self.slider_1.value())
+            self.label.setText(str(self.slider_1.value()))
+        else:
+            self.slider_1.setValue(self.slider_2.value())
+            self.label.setText(str(self.slider_2.value()))
+```
+
+### 表盘
+
+```python
+class Demo(QWidget):
+
+    def __init__(self):
+        super(Demo, self).__init__()
+
+        self.dial = QDial(self)
+        self.dial.setFixedSize(300, 300)  # 设置表盘的大小
+        self.dial.setRange(0, 100)  # 表盘的范围
+        self.dial.valueChanged.connect(self.on_change_func)  # 数值改变进行连接
+        self.dial.setNotchesVisible(True)  # 显示刻度
+        self.label = QLabel('0', self)
+        self.label.setFont(QFont('Arial Black', 20))
+        self.v_layout = QVBoxLayout()
+        self.v_layout.addWidget(self.dial)
+        self.v_layout.addWidget(self.label)
+        self.setLayout(self.v_layout)
+
+    def on_change_func(self):
+        self.label.setText(str(self.dial.value()))
+```
+
+
 
 ## 第十九章 列表控件、树形控件、表格控件
 
@@ -573,6 +793,52 @@ class Demo(QTableWidget):  # 直接继承 QTableWidget
         print(self.findItems('B', Qt.MatchContains))  # 查找，包含匹配
 
 ```
+
+## 第二十章 列表视图、树形视图、表格视图
+
+### 列表视图
+
+
+
+
+
+### 属性视图
+
+
+
+
+
+### 表格视图
+
+
+
+
+
+## 第二十四章 更多控件
+
+### 拆分窗口
+
+
+
+
+
+### 标签页窗口
+
+
+
+
+
+
+
+### 停靠窗口
+
+
+
+
+
+### 多文档界面
+
+
 
 
 
