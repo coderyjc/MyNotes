@@ -818,25 +818,125 @@ class Demo(QTableWidget):  # 直接继承 QTableWidget
 
 ### 拆分窗口
 
+```python
+class Demo(QSplitter):  # 继承QSplitter
 
+    def __init__(self):
+        super(Demo, self).__init__()
 
+        self.dir_model = QDirModel(self)  # 实例化 QDirMode 模型
 
+        self.list_view = QListView(self)  # 分别实例化三个模型
+        self.tree_view = QTreeView(self)
+        self.table_view = QTableView(self)
+
+        self.list_view.setModel(self.dir_model)  # 将这三个视图的模型设置为 dir_model
+        self.tree_view.setModel(self.dir_model)
+        self.table_view.setModel(self.dir_model)
+
+        self.tree_view.doubleClicked.connect(self.show_func)  # 将双击的信号与show_func连接起来
+        # 当被双击时，被双击项的索引会保存在index中，而这个参数会传给槽函数
+
+        # 拆分窗口默认时水平的，我们可以用下面这句话将其编程垂直的。
+        # self.setOrientation(Qt.Vertical)
+        self.addWidget(self.list_view)
+        self.addWidget(self.tree_view)
+
+        self.insertWidget(0, self.table_view)  # 插入控件，insertWidget(int,widget)第一个是要插入的索引位置，第二个是控件
+        self.setSizes([300, 200, 200])  # 设置各个子控件的宽度（垂直就是高度）
+        # print(self.count())  # 拆分窗口中控件的数量
+
+    def show_func(self, index):
+        # 在槽函数中我们调用setRootIndex()并传入index值，
+        # 也就是说，每当我们双击QTreeView中的某项时，
+        # QListView和QTableView就会将该项的索引设为自身的根索引，并显示相应的目录结构；
+        self.list_view.setRootIndex(index)
+        self.table_view.setRootIndex(index)
+```
 
 ### 标签页窗口
 
+```python
+class Demo(QTabWidget):  # 继承QTabWidget
 
+    def __init__(self):
+        super(Demo, self).__init__()
 
+        self.tab1 = QWidget()
+        self.tab2 = QWidget()  # 前两个为QWidget
+        self.tab3 = QTextEdit()  # 第三个控件为TextEdit
 
+        self.tab1_init()  # 向 self.tab1 中添加控件，完成布局
+        self.tab2_init()  # 向 self.tab1 中添加控件，完成布局
 
+        self.addTab(self.tab1, 'Basic Info')  # addTab(widget对象, 标题)
+        self.addTab(self.tab2, 'Contact Info')
+        self.addTab(self.tab3, 'More Info')
+        # self.addTab(self.tab1, QIcon('icon.ico'), 'More info')  # 也可以设置标签的图标
 
+        # self.currentChanged.connect(lambda: print(self.currentIndex()))
+        # 用户点击tab标签的时候，打印输出用户点击的标签的索引
+
+    def tab1_init(self):
+        name_label = QLabel('Name:', self.tab1)
+        gender_label = QLabel('Gender', self.tab1)
+        bd_label = QLabel('Birth Date', self.tab1)
+
+        name_line = QLineEdit(self.tab1)
+        items = ['Please choose your gender', 'Female', 'Male']
+        gender_combo = QComboBox(self.tab1)
+        gender_combo.addItems(items)
+        bd_date_edit = QDateEdit(self.tab1)
+
+        g_layout = QGridLayout()
+        g_layout.addWidget(name_label, 0, 0, 1, 1)
+        g_layout.addWidget(name_line, 0, 1, 1, 1)
+        g_layout.addWidget(gender_label, 2, 0, 1, 1)
+        g_layout.addWidget(gender_combo, 2, 1, 1, 1)
+        g_layout.addWidget(bd_label, 3, 0, 1, 1)
+        g_layout.addWidget(bd_date_edit, 3, 1, 1, 1)
+
+        self.tab1.setLayout(g_layout)
+
+    def tab2_init(self):
+        tel_label = QLabel('Tel:', self.tab2)
+        mobile_label = QLabel('Mobile:', self.tab2)
+        add_label = QLabel('Address:', self.tab2)
+
+        tel_line = QLineEdit(self.tab2)
+        mobile_line = QLineEdit(self.tab2)
+        add_line = QLineEdit(self.tab2)
+
+        g_layout = QGridLayout()
+        g_layout.addWidget(tel_label, 0, 0, 1, 1)
+        g_layout.addWidget(tel_line, 0, 1, 1, 1)
+        g_layout.addWidget(mobile_label, 1, 0, 1, 1)
+        g_layout.addWidget(mobile_line, 1, 1, 1, 1)
+        g_layout.addWidget(add_label, 2, 0, 1, 1)
+        g_layout.addWidget(add_line, 2, 1, 1, 1)
+
+        self.tab2.setLayout(g_layout)
+```
+
+### 堆叠窗口
+
+QStackedWidget用法跟QTabWdidget用法思想相似，只是界面样式不同。我们经常将QStackedWidget和QListWidget或者QListView搭配使用
+
+```python
+
+```
 
 ### 停靠窗口
 
+```python
 
-
-
+```
 
 ### 多文档界面
+
+```python
+
+```
 
 
 
