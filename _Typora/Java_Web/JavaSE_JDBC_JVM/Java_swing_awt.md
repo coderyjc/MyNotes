@@ -170,3 +170,149 @@ GridLayout(int rows, int cols, int hgap, int vgap)
 
 
 ### 1.9: null（绝对布局）
+
+## JavaSwing相关特性
+
+### 5.3：事件处理
+
+动作监听器 ActionListener
+
+```java
+
+final String COMMAND_OK = "OK";
+final String COMMAND_CANCEL = "Cancel";
+
+JButton okBtn = new JButton("OK");
+okBtn.setActionCommand(COMMAND_OK);             // 按钮绑定动作命令
+
+JButton cancelBtn = new JButton("Cancel");
+cancelBtn.setActionCommand(COMMAND_CANCEL);     // 按钮绑定动作命令
+
+// 创建一个动作监听器实例
+ActionListener listener = new ActionListener() {
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // 获取事件源，即触发事件的组件（按钮）本身
+        // e.getSource();
+    
+        // 获取动作命令
+        String command = e.getActionCommand();
+        
+        // 根据动作命令区分被点击的按钮
+        if (COMMAND_OK.equals(command)) {
+            System.out.println("OK 按钮被点击");
+            
+        } else if (COMMAND_CANCEL.equals(command)) {
+            System.out.println("Cancel 按钮被点击");
+        }
+    }
+};
+
+// 设置两个按钮的动作监听器（使用同一个监听器实例）
+okBtn.addActionListener(listener);
+cancelBtn.addActionListener(listener);
+
+```
+
+焦点监听器
+
+```java
+JButton btn = new JButton("OK");
+btn.addFocusListener(new FocusListener() {
+    @Override
+    public void focusGained(FocusEvent e) {
+        System.out.println("获得焦点: " + e.getSource());
+    }
+    @Override
+    public void focusLost(FocusEvent e) {
+        System.out.println("失去焦点: " + e.getSource());
+    }
+});
+
+JTextField textField = new JTextField(10);
+textField.addFocusListener(new FocusListener() {
+    @Override
+    public void focusGained(FocusEvent e) {
+        System.out.println("获得焦点: " + e.getSource());
+    }
+    @Override
+    public void focusLost(FocusEvent e) {
+        System.out.println("失去焦点: " + e.getSource());
+    }
+});
+```
+
+鼠标监听器
+
+```java
+JPanel panel = new JPanel();
+
+panel.addMouseListener(new MouseListener() {
+    @Override
+    public void mouseEntered(MouseEvent e) {
+        System.out.println("鼠标进入组件区域");
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+        System.out.println("鼠标离开组建区域");
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+        // 获取按下的坐标（相对于组件）
+        e.getPoint();
+        e.getX();
+        e.getY();
+
+        // 获取按下的坐标（相对于屏幕）
+        e.getLocationOnScreen();
+        e.getXOnScreen();
+        e.getYOnScreen();
+
+        // 判断按下的是否是鼠标右键
+        e.isMetaDown();
+
+        System.out.println("鼠标按下");
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+        System.out.println("鼠标释放");
+    }
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+        // 鼠标在组件区域内按下并释放（中间没有移动光标）才识别为被点击
+        System.out.println("鼠标点击");
+    }
+});
+
+```
+
+键盘监听器
+
+```java
+JFrame jf = new JFrame();
+
+jf.addKeyListener(new KeyListener() {
+    @Override
+    public void keyPressed(KeyEvent e) {
+        // 获取键值，和 KeyEvent.VK_XXXX 常量比较确定所按下的按键
+        int keyCode = e.getKeyCode();
+        System.out.println("按下: " + e.getKeyCode());
+    }
+    
+    @Override
+    public void keyTyped(KeyEvent e) {
+        // e.getKeyChar() 获取键入的字符
+        System.out.println("键入: " + e.getKeyChar());
+    }
+    
+    @Override
+    public void keyReleased(KeyEvent e) {
+        System.out.println("释放: " + e.getKeyCode());
+    }
+});
+
+```
