@@ -656,7 +656,7 @@ public class DBUtil {
      */
     private DBUtil(){}
 
-    //静态代码块再类加载时执行，并且只执行一次
+    //静态代码块在类加载时执行，并且只执行一次
     static {
         try {
             Class.forName("com.mysql.jdbc.Driver");
