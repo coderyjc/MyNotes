@@ -197,7 +197,7 @@ public class AbstractTest02{
 		Animal x = new Cat();
 		x.move();
 	}
-}
+
 
 // 动物类（抽象类）
 abstract class Animal{
