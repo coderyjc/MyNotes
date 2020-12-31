@@ -1,6 +1,6 @@
 # SERVLET&&JSP
 
-### JSP 环境
+## 1. JSP 环境
 
 动态网页。
 
@@ -55,7 +55,7 @@ b.配置catalina_home  指向 tomcat根目录
 常见状态码：
 
 - 200：一切正常
-- 300/301: 页面重定向 （跳转）
+- 300/301: 页面重定向 （跳转），3开头的
 
 - 404:资源不存在 
 - 403：权限不足 （如果访问a目录，但是a目录设置 不可见）
@@ -261,9 +261,9 @@ b. 修改server.xml ，一次性的 更改tomcat默认get提交方式的编码 �
 
 post 设置字符编码  request.setCharacterEncoding("utf-8") ;
 
-### Response/Cookie/Session
+## 2. Response/Cookie/Session
 
-#### response :响应对象
+### 2.1 response (响应对象)
 
 提供的方法：
 
@@ -286,6 +286,8 @@ login.jsp  -> check.jsp  ->success.jsp
 
 请求转发：`request.getRequestDispatcher("success.jsp").forward(request, response); // 不会导致数据丢失`
 
+请求次数的问题
+
 <img src="Servlet_JSP.imgs\image-20201230222208422.png" alt="image-20201230222208422" style="zoom:50%;" />
 
 
@@ -302,50 +304,20 @@ login.jsp  -> check.jsp  ->success.jsp
 
 张三（客户端）    -> 	服务窗口 B （服务端 ） ->结束
 
-#### session(服务端)
-
-session :会话
-
-a.浏览网站：开始-关闭
-
-b.购物：  浏览、付款、退出
-
-c.电子邮件：浏览、写邮件、退出
-
-开始-结束
-
-
-
-session机制：
-
-客户端第一次请求服务端时，（jsessionid-sessionid）服务端会产生一个session对象（用于保存该客户的信息）； 并且每个session对象 都会有一个唯一的 sessionId( 用于区分其他session); 服务端由会 产生一个cookie，并且 该cookie的name=JSESSIONID ,value=服务端sessionId的值；然后 服务端会在 响应客户端的同时 将该cookie发送给客户端，至此 客户端就有了 一个cookie(JSESSIONID)；
-因此，客户端的cookie就可以和服务端的session一一对应（JSESSIONID - sessionID）
-
-客户端第二/n次请求服务端时:服务端会先用客户端cookie种的JSESSIONID  去服务端的session中匹配sessionid,如果匹配成功（cookie  jsessionid和sesion sessionid），说明此用户 不是第一次访问,无需登录；
-
-例子：
-
-客户端： 顾客（客户端）
-
-服务端: 存包处   -  商场(服务端)
-
-顾客第一次存包：商场 判断此人是 之前已经存过包（通过你手里是否有钥匙）。 如果是新顾客（没钥匙） ，分配一个钥匙 给该顾客； 钥匙 会和 柜子 一一对应；
-
- 第二/n次 存包：商场 判断此人是 之前已经存过包（通过你手里是否有钥匙）。 如果是老顾客（有钥匙），则不需要分配；该顾客手里的钥匙 会 和柜子 自动一一对应。
-
-#### Cookie
+### 2.2 Cookie(服务端 -> 客户端)
 
 Cookie（客户端，不是内置对象）: Cookie是由服务端生成的 ，再发送给客户端保存。相当于**本地缓存**的作用： 客户端(hello.mp4,zs/abc)->服务端(hello.mp4；zs/abc)
 
 作用：提高访问服务端的效率，但是安全性较差。
 ```java
-Cookie：	name=value
+Cookie：	name = value
 
+// Cookie 对象的方法：
 javax.servlet.http.Cookie
 public Cookie(String name,String value)
-String getName()：获取name
-String getValue():获取value
-void setMaxAge(int expiry);最大有效期 （秒）
+String getName(); // 获取name
+String getValue(); // 获取value
+void setMaxAge(int expiry); //设置最大有效期 （秒）
 ```
 
 服务端准备Cookie：`response.addCookie(Cookie cookie)`
@@ -362,8 +334,497 @@ b.不能直接获取某一个单独对象，只能一次性将全部的cookie拿
 
 建议 cookie只保存  英文数字，否则需要进行编码、解码
 
-使用Cookie实现  记住用户名  功能
+**案例: 使用Cookie实现  记住用户名  功能**
 
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20201231212221241.png" alt="image-20201231212221241" style="zoom:80%;" />
+
+第一次登录的时候客户端将信息发送给服务端，服务端产生Cookie，并通过重定向将其发送到客户端主机进行保存，当客户端再次登录的时候读取本地cookie进行用户名的填充
+
+> 代码详情见: `Learning\JavaWeb\Jsp&Servlet\2.3_记住密码`
+
+```jsp
+// login.jsp
+
+    <%!
+       String uname;
+    %>
+    <%
+        Cookie[] cookies = request.getCookies();
+        for (Cookie cookie :
+                cookies) {
+            if (cookie.getName().equals("uname")){
+                uname = cookie.getValue();
+                System.out.print(uname);
+            }
+        }
+    %>
+    <form action="check.jsp" method="post">
+        用户名<input type="text" name="uname" value="<%=uname == null ? "" : uname%>"> <br>
+        密码 <input type="text" name="upwd"> <br>
+        <input type="submit" value="登录">
+    </form>
+
+
+// check.jsp
+
+<%
+    request.setCharacterEncoding("utf-8") ;
+    String name = request.getParameter("uname");
+    String pwd = request.getParameter("upwd");
+
+    //将用户名加入到cookie中
+
+    Cookie cookie1 = new Cookie("uname", name);
+    response.addCookie(cookie1);
+    response.sendRedirect("success.jsp");
+%>
+
+// success.jsp
+
+<font color="red"> 登录成功, 欢迎你 </font>
+
+```
+
+
+### 2.3 session(服务端)
+
+session :会话
+
+a.浏览网站：开始-关闭
+
+b.购物：  浏览、付款、退出
+
+c.电子邮件：浏览、写邮件、退出
+
+开始-结束- 表示一段会话
+
+
+
+session机制：
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20201231214534665.png" alt="image-20201231214534665" style="zoom: 67%;" />
+
+客户端第一次请求服务端时，（jsessionid-sessionid）服务端会产生一个session对象（用于保存该客户的信息）； 并且每个session对象 都会有一个唯一的 sessionId( 用于区分其他session); 
+
+服务端会产生一个cookie，并且该cookie的 name = JSESSIONID , value=服务端sessionId的值；
+
+然后 服务端会在 响应客户端的同时 将该cookie发送给客户端，至此，客户端就有了一个cookie(JSESSIONID)；
+
+因此，客户端的cookie就可以和服务端的session一一对应（JSESSIONID - sessionID）
+
+客户端第二/n次请求服务端时:服务端会先用客户端cookie中的 JSESSIONID  去服务端的session中匹配 sessionid, 如果匹配成功（cookie  jsessionid == sesion sessionid），说明此用户不是第一次访问, 无需登录；
+
+
+
+例子：
+
+客户端： 顾客（客户端）
+
+服务端: 存包处   -  商场(服务端)
+
+顾客第一次存包：商场 判断此人是 之前已经存过包（通过你手里是否有钥匙）。 如果是新顾客（没钥匙） ，分配一个钥匙 给该顾客； 钥匙 会和 柜子 一一对应；
+
+ 第 2/n 次 存包：商场 判断此人是 之前已经存过包（通过你手里是否有钥匙）。 如果是老顾客（有钥匙），则不需要分配；该顾客手里的钥匙 会 和柜子 自动一一对应。
+
+
+
+session总结 :
+
+a. session存储在服务端
+
+b. session是在 同一个用户（客户）请求时 共享
+
+c. 实现机制：第一次客户请求时 产生一个sessionid 并复制给 cookie的jsessionid 然后发给客户端。最终通过session的sessionid 和 cookie的jsessionid 实现一一对应
+
+
+
+session方法：
+
+```java
+String getId() :获取sessionId  
+boolean isNew() :判断是否是 新用户（第一次访问）
+void invalidate():使 session 失效 （退出登录、注销）
+void setAttribute();
+Object getAttribute();
+void setMaxInactiveInterval(秒) ：设置最大有效 非活动时间 
+int getMaxInactiveInterval():获取最大有效 非活动时间 
+```
+
+示例：登录
+
+客户端在第一次请求服务端时，如果服务端发现 此请求没有 JSESSIONID,则会创建一个 name = JSESIONID 的 cookie  并返回给客户端
+
+> 代码详情见 `Learning\JavaWeb\Jsp&Servlet\2.3_持久登录`
+
+```jsp
+// 详情见 ：
+
+// login.jsp
+
+<form action="check.jsp" method="post">
+        用户名<input type="text" name="uname"> <br>
+        密码 <input type="text" name="upwd"> <br>
+        <input type="submit" value="登录">
+</form>
+
+// check.jsp
+
+<%
+        request.setCharacterEncoding("utf-8") ;
+        String name = request.getParameter("uname");
+        String pwd = request.getParameter("upwd");
+        if(name.equals("zs") && pwd.equals("asd")){ // 假设这时候姓名 zs 密码 asd
+            // 只有登录成功的时候才会把 姓名和密码 添加到 session 里面
+            session.setAttribute("uname", name);
+            session.setAttribute("pwd", pwd);
+            session.setMaxInactiveInterval(10);
+            request.getRequestDispatcher("success.jsp").forward(request, response);
+        }else{
+            response.sendRedirect("login.jsp");
+        }
+%>
+
+// success.jsp
+
+<%
+        String name = (String) session.getAttribute("uname");
+        // 如果用户没有登录，则直接通过地址栏访问 success.jsp, 必然访问到name的值
+        // 如果没有就会获取到空值 null
+        if (name == null) {
+            response.sendRedirect("login.jsp");
+        } else {
+            out.print(name);
+        }
+%>
+```
+
+Cookie：
+
+a.不是内置对象，要使用必须new
+
+b.但是，服务端会 自动生成一个(服务端自动new一个cookie) name=JSESIONID的cookie  并返回给客户端
+
+
+
+cookie和session的区别：
+| | session	 |cookie|
+| --- |----- | --- |
+|保存的位置|	服务端	|	客户端|
+|安全性| 较安全|较不安全|
+|保存的内容| Object| String|
+
+
+
+appliation 全局对象
+
+String getContextPath()	虚拟路径
+
+String getRealPath(String name): 绝对路径（虚拟路径 相对的绝对路径）
+
+
+
+JSP 9大内置对象
+
+- pageContext  JSP页面容器
+- request   请求对象
+- session   会话对象
+- appliation 全局对象
+
+
+response  响应对象
+
+- config  配置对象（服务器配置信息）
+- out    输出对象
+- page   当前JSP页面对象（相当于java中的this）
+- exception 异常对象
+
+
+
+四种范围对象（小->大）
+
+pageContext  JSP页面容器   （page对象）； 当前页面有效
+
+request   请求对象		 	同一次请求有效
+
+session   会话对象			同一次会话有效
+
+appliation 全局对象			全局有效（整个项目有效）
+
+
+
+以上4个对象共有的方法：
+
+Object getAttribute(String name):根据属性名，或者属性值
+
+void setAttribute(String name,Object obj) :设置属性值（新增，修改）
+
+setAttribute("a","b") ;//如果a对象之前不存在，则新建一个a对象 ；a之前已经存在，则将a的值改为b
+
+void removeAttribute(String name)：根据属性名，删除对象
+
+
+
+
+a. pageContext 当前页面有效 (页面跳转后无效)
+
+b. request   同一次请求有效；其他请求无效 （请求转发后有效；重定向后无效）
+
+c. session  同一次会话有效  （无论怎么跳转，都有效；关闭/切换浏览器后无效 ； 从 登陆->退出 之间 全部有效）
+
+d. application	全局变量；整个项目运行期间 都有效 (切换浏览器 仍然有效)；关闭服务、其他项目 无效  ->  多个项目共享、重启后仍然有效 ：JNDI
+
+1.以上的4个范围对象，通过 setAttribute()复制，通过getAttribute()取值；
+
+2.以上范围对象，尽量使用最小的范围。因为 对象的范围越大，造成的性能损耗越大。
+
+
+
+## 3. JDBC
+
+
+
+1.JDBC:Java DataBase Connectivity  可以为多种关系型数据库DBMS 提供统一的访问方式，用Java来操作数据库
+
+2.JDBC API 主要功能：三件事，具体是通过以下类/接口实现：
+
+DriverManager ： 管理jdbc驱动
+
+Connection： 连接（通过DriverManager产生）
+
+Statement（PreparedStatement） ：增删改查  （通过Connection产生 ）
+
+CallableStatement  ： 调用数据库中的 存储过程/存储函数  （通过Connection产生 ）
+
+Result ：返回的结果集  （上面的Statement等产生 ）
+
+Connection产生操作数据库的对象：
+
+Connection产生Statement对象：createStatement()
+
+Connection产生PreparedStatement对象：prepareStatement()
+
+Connection产生CallableStatement对象：prepareCall();
+
+
+
+Statement操作数据库：
+
+增删改：executeUpdate()
+
+查询：executeQuery();
+
+ResultSet：保存结果集 select * from xxx
+
+next():光标下移，判断是否有下一条数据；true/false
+
+previous():  true/false
+
+getXxx(字段名|位置):获取具体的字段值 
+
+
+
+PreparedStatement操作数据库：
+
+public interface PreparedStatement extends Statement 
+
+因此
+
+增删改：executeUpdate()
+
+查询：executeQuery();
+
+--此外	赋值操作 setXxx();
+
+PreparedStatement与Statement在使用时的区别：
+
+1.Statement: sql executeUpdate(sql)
+
+2. PreparedStatement: sql(可能存在占位符?) 在创建PreparedStatement 对象时，将sql预编译 prepareStatement(sql) executeUpdate() setXxx()替换占位符？
+
+
+
+推荐使用PreparedStatement：原因如下：
+
+1.编码更加简便（避免了字符串的拼接）
+
+String name = "zs" ;
+
+int age = 23 ;
+
+stmt:
+
+String sql =" insert into student(stuno,stuname) values('"+name+"',  "+age+" )    " ;
+
+stmt.executeUpdate(sql);
+
+pstmt:
+
+String sql =" insert into student(stuno,stuname) values(?,?) " ;
+pstmt = connection.prepareStatement(sql);//预编译SQL
+pstmt.setString(1,name);
+pstmt.setInt(2,age);
+
+
+
+2.提高性能(因为 有预编译操作，预编译只需要执行一次)
+需要重复增加100条数 
+stmt:
+String sql =" insert into student(stuno,stuname) values('"+name+"',  "+age+" )    " ;
+for(100)
+stmt.executeUpdate(sql);
+
+pstmt:
+String sql =" insert into student(stuno,stuname) values(?,?) " ;
+pstmt = connection.prepareStatement(sql);//预编译SQL
+pstmt.setString(1,name);
+pstmt.setInt(2,age);
+for( 100){
+pstmt.executeUpdate();
+}
+
+3.安全（可以有效防止sql注入）
+sql注入： 将客户输入的内容  和 开发人员的SQL语句 混为一体
+
+stmt:存在被sql注入的风险  
+(例如输入  用户名：任意值 ' or 1=1 --
+	   密码：任意值)
+分析：
+select count(*) from login where uname='任意值 ' or 1=1 --' and upwd ='任意值'  ;
+select count(*) from login where uname='任意值 ' or 1=1 ;
+select count(*) from login ;
+
+
+select count(*) from login where uname='"+name+"' and upwd ='"+pwd+"' 
+
+pstmt:有效防止sql注入
+
+
+推荐使用pstmt
+
+
+
+
+
+
+
+3.jdbc访问数据库的具体步骤：
+a.导入驱动，加载具体的驱动类
+b.与数据库建立连接
+c.发送sql，执行
+d.处理结果集 （查询）
+
+4.
+数据库驱动
+		驱动jar					具体驱动类						连接字符串
+Oracle		ojdbc-x.jar				oracle.jdbc.OracleDriver				jdbc:oracle:thin:@localhost:1521:ORCL
+MySQL		mysql-connector-java-x.jar		com.mysql.jdbc.Driver					jdbc:mysql://localhost:3306/数据库实例名
+SqlServer	sqljdbc-x.jar				com.microsoft.sqlserver.jdbc.SQLServerDriver		jdbc:microsoft:sqlserver:localhost:1433;databasename=数据库实例名
+
+使用jdbc操作数据库时，如果对数据库进行了更换，只需要替换：驱动、具体驱动类、连接字符串、用户名、密码
+
+
+
+
+
+1.jdbc总结（模板、八股文）：
+
+try{
+a.导入驱动包、加载具体驱动类Class.forName("具体驱动类");
+b.与数据库建立连接connection = DriverManager.getConnection(...);
+c.通过connection，获取操作数据库的对象（Statement\preparedStatement\callablestatement）
+stmt = connection.createStatement();
+d.(查询)处理结果集rs = pstmt.executeQuery()
+while(rs.next()){ rs.getXxx(..) ;}
+}catch(ClassNotFoundException e  )
+{ ...}
+catch(SQLException e)
+{...
+}
+catch(Exception e)
+{...
+}
+finally
+{
+	//打开顺序，与关闭顺序相反
+	if(rs!=null)rs.close()
+	if(stmt!=null) stmt.close();
+	if(connection!=null)connection.close();
+}
+
+--jdbc中，除了Class.forName() 抛出ClassNotFoundException，其余方法全部抛SQLException
+
+
+2.CallableStatement:调用 存储过程、存储函数
+connection.prepareCall(参数：存储过程或存储函数名)
+参数格式：
+存储过程（无返回值return，用out参数替代）：
+	{ call  存储过程名(参数列表) }
+存储函数（有返回值return）：
+	{ ? = call  存储函数名(参数列表) }
+
+
+
+create or replace procedure addTwoNum ( num1  in number,num2  in number,result out number )  -- 1 + 2 ->3
+as
+begin
+	result := num1+num2 ;
+end ;
+/
+
+
+强调：
+如果通过sqlplus 访问数据库，只需要开启：OracleServiceSID
+通过其他程序访问数据（sqldevelop、navicate、JDBC），需要开启：OracleServiceSID、XxxListener
+
+
+JDBC调用存储过程的步骤：
+a.产生 调用存储过程的对象（CallableStatement） cstmt = 	connection.prepareCall(   "..." ) ;
+b.通过setXxx()处理 输出参数值 cstmt.setInt(1, 30);
+c.通过 registerOutParameter(...)处理输出参数类型
+d.cstmt.execute()执行
+e.接受 输出值（返回值）getXxx()
+
+调存储函数：
+create or replace function addTwoNumfunction ( num1  in number,num2  in number)  -- 1 + 2 
+return number
+as
+	result number ;	
+begin
+	result := num1+num2 ;
+	return result ;
+end ;
+/
+JDBC调用存储函数：与调存储过程的区别：
+在调用时，注意参数："{? =  call addTwoNumfunction	(?,?) }"
+
+
+
+
+3.处理CLOB/BLOB类型
+处理稍大型数据：
+	
+a.存储路径	E:\JDK_API_zh_CN.CHM
+	通过JDBC存储文件路径，然后 根据IO操作处理
+	例如：JDBC将 E:\JDK_API_zh_CN.CHM 文件 以字符串形式“E:\JDK_API_zh_CN.CHM”存储到数据库中
+		获取：1.获取该路径“E:\JDK_API_zh_CN.CHM”  2.IO	
+
+b.
+	CLOB：大文本数据 （小说->数据）
+	BLOB：二进制
+
+
+clob:大文本数据   字符流 Reader Writer
+存
+1.先通过pstmt 的? 代替小说内容 （占位符）
+2.再通过pstmt.setCharacterStream(2, reader,  (int)file.length());  将上一步的？替换为 小说流， 注意第三个参数需要是 Int类型
+
+取：
+1.通过Reader reader = rs.getCharacterStream("NOVEL") ; 将cloc类型的数据  保存到Reader对象中
+
+2. 将Reader通过Writer输出即可。
+
+blob:二进制  字节流 InputStream OutputStream
+与CLOB步骤基本一致，区别：setBinaryStream(...)  getBinaryStream(...)   
 
 
 
