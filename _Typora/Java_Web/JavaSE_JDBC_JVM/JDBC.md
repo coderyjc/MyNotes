@@ -21,7 +21,82 @@ JDBC是什么？
 
 开发的准备：如果是用文本编辑器开发，则需要配置classpath文件，用IDEA的时候，不需要
 
-## JDBC编程六步（背下来）
+## API 主要成员变量
+
+
+
+JDBC API 主要功能：三件事，具体是通过以下类/接口实现：
+
+- DriverManager ： 管理jdbc驱动
+
+- Connection： 连接（通过DriverManager产生）
+
+- Statement（PreparedStatement） ：增删改查  （通过Connection产生 ）
+
+- CallableStatement  ： 调用数据库中的 存储过程/存储函数  （通过Connection产生 ）
+
+- Result ：返回的结果集  （上面的Statement等产生 ）
+
+
+
+Connection产生操作数据库的对象：
+
+- Connection产生Statement对象：createStatement()
+
+- Connection产生PreparedStatement对象：prepareStatement()
+
+- Connection产生CallableStatement对象：prepareCall();
+
+
+
+Statement操作数据库：
+
+- 增删改：executeUpdate()
+
+- 查询：executeQuery();
+
+- ResultSet：保存结果集 select * from xxx
+
+- next():光标下移，判断是否有下一条数据；true/false
+
+- previous():  true/false
+
+- getXxx(字段名|位置):获取具体的字段值 
+
+
+
+PreparedStatement操作数据库：
+
+因为 public interface PreparedStatement extends Statement 
+
+所以
+
+- 增删改：executeUpdate()
+
+- 查询：executeQuery();
+
+- 赋值操作 setXxx();
+
+
+
+PreparedStatement与Statement在使用时的区别：
+
+1. Statement: sql executeUpdate(sql)
+2. PreparedStatement: sql(可能存在占位符?) 在创建PreparedStatement 对象时，将sql预编译 prepareStatement(sql) executeUpdate() setXxx()替换占位符？
+
+
+
+推荐使用PreparedStatement：原因如下：
+
+1.编码更加简便（避免了字符串的拼接）
+
+2.提高性能(因为 有预编译操作，预编译只需要执行一次)
+
+3.安全（可以有效防止sql注入）
+
+
+
+JDBC编程六步
 
 1. 注册驱动（作用：告诉Java程序，即将链接的是哪个品牌的数据库）
 2. 获取链接（表示JVM的进程和数据库进程之间的**通道打开**了，属于进程之间的通信，重量级的，使用完一定要关闭）
@@ -30,6 +105,13 @@ JDBC是什么？
 5. 处理查询结果集（只有当4执行的是select语句的时候，才有这个处理查询结果集）
 6. 释放资源（使用完资源之后一定要关闭资源）
 
+
+
+---
+
+
+
+## 普通数据增删改查实例
 
 ### 练习1
 
@@ -65,21 +147,7 @@ public class Test{
         }catch(SQLException e){
             e.printStackTrace();
         }finally{
-            try{
-                if(stmt != null){
-                    stmt.close();
-                }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
-            try{
-            if(conn != null){
-                conn.close();
-            }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
-
+            // 关闭数据库连接，此处省略
         }
     }
 }
@@ -120,28 +188,16 @@ public class Test{
             e.printStackTrace();
         }finally{
             //6. 释放资源
-            try{
-                if(stmt != null){
-                    stmt.close();
-                }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
-            try{
-                if(conn != null){
-                    conn.close();
-                }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
+           // 关闭数据库连接，此处省略
 
         }
     }
 }
 ```
 
+### 将链接数据库的所有信息配置到信息文件中
 
-## 将链接数据库的所有信息配置到信息文件中
+
 
 ```java
 import java.sql.*;
@@ -180,27 +236,15 @@ public class Test{
             e.printStackTrace();
         }finally{
             //6. 释放资源
-            try{
-                if(stmt != null){
-                    stmt.close();
-                }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
-            try{
-                if(conn != null){
-                    conn.close();
-                }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
-
+   // 关闭数据库连接，此处省略
         }
     }
 }
 ```
 
-## 查询结果集的处理
+### 查询结果集的处理
+
+
 
 ```java
 import java.sql.*;
@@ -239,33 +283,13 @@ public class Test{
             e.printStackTrace();
         }finally{
             // 6. 释放资源
-            try{
-                if(rs != null){
-                    rs.close();
-                }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
-            try{
-                if(stmt != null){
-                    stmt.close();
-                }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
-            try{
-                if(conn != null){
-                    conn.close();
-                }
-            }catch(SQLException e){
-                e.printStackTrace();
-            }
+           // 关闭数据库连接，此处省略
         }
     }
 }
 ```
 
-## 用户登录功能实现
+### 用户登录功能实现
 
 可以对sql脚本进行编辑
 
@@ -301,7 +325,7 @@ VALUES
 
 ```
 
-### 问题代码
+#### 问题代码
 
 ```java
 import java.sql.*;
@@ -394,7 +418,7 @@ public class Test {
 ```
 
 
-### SQL注入
+#### SQL注入
 
 用户名：asd
 
@@ -420,7 +444,7 @@ public class Test {
 - Statement支持SQL注入，凡是业务方面要求是需要进行SQL语句拼接的，必须使用Statement
 
 
-### 最终版本
+#### 最终版本
 
 ```java
 import java.sql.*;
@@ -517,7 +541,7 @@ public class Test {
 }
 ```
 
-## PrepareStatement
+### PrepareStatement
 
 ```java
 import java.sql.*;
@@ -572,12 +596,14 @@ public class Test{
 }
 ```
 
-## 银行转账业务
+### 银行转账业务
 
 JDBC事务默认自动提交，
 
 关闭自动提交？  conn.setAutoCommit(false);
+
 提交事务 conn.commit();
+
 回滚事务 conn.rollback();
 
 ```java
@@ -647,7 +673,7 @@ public class Test{
 }
 ```
 
-## JDBC工具类的封装
+### JDBC工具类的封装
 
 ```java
 import java.sql.*;
@@ -710,7 +736,7 @@ public class DBUtil {
 
 ```
 
-## 基于工具类的模糊查询
+### 基于工具类的模糊查询
 
 查询员工中名字有A的
 
@@ -744,3 +770,284 @@ public class Test{
     }
 }
 ```
+
+
+
+## 存储过程与存储函数调用
+
+CallableStatement:调用 存储过程、存储函数
+
+connection.prepareCall(参数：存储过程或存储函数名)
+
+参数格式：
+
+存储过程（无返回值return，用out参数替代）：
+
+​	{ call  存储过程名(参数列表) }
+
+存储函数（有返回值return）：
+
+​	{ ? = call  存储函数名(参数列表) }
+
+```plsql
+create or replace procedure addTwoNum ( num1  in number,num2  in number,result out number )  as
+begin
+	result := num1+num2 ;
+end ;
+```
+
+强调：
+
+如果通过sqlplus 访问数据库，只需要开启：OracleServiceSID
+
+通过其他程序访问数据（sqldevelop、navicate、JDBC），需要开启：OracleServiceSID、XxxListener
+
+JDBC调用存储过程的步骤：
+
+a. 产生 调用存储过程的对象（CallableStatement） cstmt = 	connection.prepareCall(   "..." ) ;
+
+b. 通过setXxx()处理 输出参数值 cstmt.setInt(1, 30);
+
+c. 通过 registerOutParameter(...)处理输出参数类型
+
+d.cstmt.execute()执行
+
+e.接受 输出值（返回值）getXxx()
+
+调存储函数：
+
+```plsql
+create or replace function addTwoNumfunction ( num1  in number,num2  in number)  -- 1 + 2 
+return number
+as
+	result number ;	
+begin
+	result := num1+num2 ;
+	return result ;
+end ;
+```
+
+JDBC调用存储函数：与调存储过程的区别：
+在调用时，注意参数："{? =  call addTwoNumfunction	(?,?) }"
+
+### 存储过程
+
+首先在数据库中创建存过程：
+
+```sql
+CREATE OR REPLACE PROCEDURE ADDNUM(num1 in number, num2 in number, rst out number) AS 
+BEGIN -- 计算两个数的和，给第三个值
+  rst := num1 + num2; 
+END ADDNUM;
+```
+
+然后进行调用
+
+```java
+        // 数据库连接
+        Connection conn = null;
+        // 存储过程返回值的对象
+        CallableStatement callableStatement = null;
+
+        try {
+            conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCL", "c##libmanager", "333");
+            callableStatement = conn.prepareCall("{call addNum(?, ?, ?)}");
+
+            // 设置第一个和第二个数
+            callableStatement.setInt(1, 13);
+            callableStatement.setInt(2, 10);
+            // 设置第三个参数的输出类型
+            callableStatement.registerOutParameter(3, Types.INTEGER);
+
+            // 调用存储过程， 执行的是num1 + num2
+            // 这句话之前处理的是输入值， 这句话之后是输出值
+            callableStatement.execute();
+            // 获取返回值
+            int rst =  callableStatement.getInt(3);
+            // 输出计算结果
+            System.out.println(rst);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        
+```
+
+### 存储函数
+
+在数据库中创建函数：
+
+```sql
+CREATE OR REPLACE FUNCTION addNum 
+(
+  NUM1 IN NUMBER  
+, NUM2 IN NUMBER  
+) RETURN NUMBER AS 
+BEGIN
+  RETURN num1 + num2;
+END addNum;
+```
+
+```java
+        // 数据库连接
+        Connection conn = null;
+        // 存储过程返回值的对象
+        CallableStatement callableStatement = null;
+
+        try {
+            conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCL", "c##libmanager", "333");
+            callableStatement = conn.prepareCall("{? = call addNum(?, ?)}");
+
+            // 设置第一个和第二个数
+            callableStatement.setInt(2, 13);
+            callableStatement.setInt(3, 10);
+            // 设置第三个参数的输出类型
+            callableStatement.registerOutParameter(1, Types.INTEGER);
+
+            // 调用函数， 执行的是num1 + num2
+            // 这句话之前处理的是输入值， 这句话之后是输出值
+            callableStatement.execute();
+            // 获取返回值
+            int rst = callableStatement.getInt(1);
+            // 输出计算结果
+            System.out.println(rst);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+```
+
+## 大类型数据存储与读取实例
+
+处理CLOB/BLOB类型 - 处理稍大型数据：
+
+a.存储路径	E:\JDK_API_zh_CN.CHM	通过JDBC存储文件路径，然后 根据IO操作处理
+
+例如：JDBC将 E:\JDK_API_zh_CN.CHM 文件 以字符串形式 “E:\JDK_API_zh_CN.CHM” 存储到数据库中
+
+获取：1.获取该路径“E:\JDK_API_zh_CN.CHM”  2.IO	
+
+b.
+
+CLOB：大文本数据 （小说->数据）
+
+BLOB：二进制
+
+clob:大文本数据   字符流 Reader Writer
+
+
+
+存:
+
+1. 先通过pstmt 的? 代替小说内容 （占位符）
+
+2. 再通过pstmt.setCharacterStream(2, reader,  (int)file.length());  将上一步的？替换为 小说流， 注意第三个参数需要是 Int类型
+
+取：
+
+1. 通过Reader reader = rs.getCharacterStream("NOVEL") ; 将cloc类型的数据  保存到Reader对象中
+2. 将Reader通过Writer输出即可。
+
+blob:二进制  字节流 InputStream OutputStream
+
+与CLOB步骤基本一致，区别：setBinaryStream(...)  getBinaryStream(...)   
+
+### 大文本存储
+
+存储
+
+```java
+			String sql = "insert into mynovel values(?,?)";
+			// c.发送sql，执行(增删改、查)
+			pstmt = connection.prepareStatement(sql);
+			pstmt.setInt(1, 1);
+			File file = new File("E:\\all.txt");
+			InputStream in = new FileInputStream( file) ;
+			Reader reader = new InputStreamReader( in   ,"UTF-8") ;//转换流 可以设置编码
+			pstmt.setCharacterStream(2, reader,  (int)file.length());
+			int count =pstmt.executeUpdate() ;
+			// d.处理结果
+			if (count > 0) {  
+				System.out.println("操作成功！");
+			}
+			
+			reader.close();
+```
+
+
+
+读取
+
+```java
+			String sql = "select NOVEL from mynovel where id = ? ";
+			// c.发送sql，执行(查)
+			pstmt = connection.prepareStatement(sql);
+			pstmt.setInt(1, 1);
+			
+			rs = pstmt.executeQuery() ;
+			//setXxxx getXxxx      setInt  getInt
+			if(rs.next())
+			{
+				Reader reader = rs.getCharacterStream("NOVEL") ;
+				Writer writer = new FileWriter("src/小说.txt");
+				
+				char[] chs = new char[100] ;
+				int len = -1;
+				while(  (len = reader.read(chs)) !=-1 ) {
+					writer.write( chs,0,len  );
+				}
+				writer.close();
+				reader.close();
+			}
+
+```
+
+### 音乐存储
+
+存储
+
+```java
+			String sql = "insert into mymusic values(?,?)";
+			// c.发送sql，执行(增删改、查)
+			pstmt = connection.prepareStatement(sql);
+			pstmt.setInt(1, 1);
+			File file = new File("d:\\luna.mp3");
+			
+			InputStream in = new FileInputStream(file );
+			pstmt.setBinaryStream(2,in ,(int)file.length()  );
+			
+			
+			int count =pstmt.executeUpdate() ;
+			// d.处理结果
+			if (count > 0) {  
+				System.out.println("操作成功！");
+			}
+			// 关闭流
+			in.close();
+```
+
+读取：
+
+```
+			String sql = "select music from mymusic where id = ? ";
+			
+			
+			// c.发送sql，执行(查)
+			pstmt = connection.prepareStatement(sql);
+			pstmt.setInt(1, 1);
+			
+			rs = pstmt.executeQuery() ;
+			if(rs.next())
+			{
+				InputStream in = rs.getBinaryStream("music") ;
+				OutputStream out = new FileOutputStream("src/music.mp3") ;
+				
+				byte[] chs = new byte[100] ;
+				int len = -1;
+				while(  (len = in.read(chs)) !=-1 ) {
+					out.write( chs,0,len  );
+				}
+				out.close();
+				in.close();
+			}
+```
+
