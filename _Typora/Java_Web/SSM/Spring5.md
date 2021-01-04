@@ -1,6 +1,6 @@
 # Spring 5
 
-## 1. Spring概念
+## 1. Spring Concepts
 
 ### 基本概念
 
@@ -104,8 +104,6 @@ Bean管理操作由两种方式实现: 基于XML配置文件实现、基于注�
 **基于XML注入属性**
 
 DI：依赖注入（注入属性），需要在创建对象的基础之上完成
-
-注入方式
 
 1. set函数进行注入
 
@@ -215,12 +213,103 @@ DI：依赖注入（注入属性），需要在创建对象的基础之上完成
    ```
 
 5. IOC操作Bean管理，xml注入集合属性
+
+第一种方法都是直接用set方法进行赋值，不再演示，以下是xml配置属性
 	
-	1. 注入数组类型属性
-	
-	2. 注入List集合属性
-	
-	3. 注入Map集合属性
+```xml
+    <bean id="stu" class="com.Jancoyan.spring.sets.Stu">
+<!--数组类型属性注入-->
+        <property name="courses">
+            <array>
+                <value>Java</value>
+                <value>Oracle</value>
+            </array>
+        </property>
+<!--list 类型注入-->
+        <property name="list">
+            <list>
+                <value>张三</value>
+                <value>小三子</value>
+            </list>
+        </property>
+<!--map类型注入-->
+        <property name="map">
+            <map>
+                <entry key="Java" value="java"></entry>
+                <entry key="MySQL" value="mysql"></entry>
+            </map>
+        </property>
+<!--set类型注入-->
+        <property name="set">
+            <set>
+                <value>Java</value>
+                <value>Python</value>
+            </set>
+        </property>
+    </bean>
+```
+
+提出问题: 
+
+- 能不能在集合中使用引用类型? --在集合中设置对象类型的值
+
+- 能不能引用公共的集合，使得多个类都可以引用这个集合对象？ -- 把集合注入部分提取出来
+
+6. 在集合中设置对象类型的值
+
+```xml
+
+    <bean id="stu" class="com.Jancoyan.spring.sets.Stu">
+<!--list 类型注入-->
+        <property name="list">
+            <list>
+                <ref bean="java"></ref>
+                <ref bean="python"></ref>
+            </list>
+        </property>
+    </bean>
+
+<!--事先声明两个Course类-->
+    <bean id="java" class="com.Jancoyan.spring.sets.Course">
+        <property name="name" value="JAVA"></property>
+        <property name="id" value="1"></property>
+    </bean>
+    <bean id="python" class="com.Jancoyan.spring.sets.Course">
+        <property name="name" value="PYTHON"></property>
+        <property name="id" value="2"></property>
+    </bean>
+```
+
+7. 提取集合注入部分
+
+首先修改beans标签
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/util
+http://www.springframework.org/schema/util/spring-util.xsd">
+```
+
+配置文件配置方式：
+
+先用util相关标签设置属性， 再用ref进行引用
+
+```xml
+    <util:list id="bookList">
+        <value>斗罗大陆</value>
+        <value>斗破苍穹</value>
+    </util:list>
+
+    <bean name="book" class="com.Jancoyan.spring.bean.Book">
+        <property name="name" ref="bookList"></property>
+    </bean>
+```
 
 
 
@@ -246,9 +335,5 @@ DI：依赖注入（注入属性），需要在创建对象的基础之上完成
 
 
 
-## 6. Spring 5 新特性
+## 6. Spring 5 new features
 
-
-```
-
-```
