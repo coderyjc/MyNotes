@@ -559,7 +559,13 @@ void removeAttribute(String name)：根据属性名，删除对象
 
 
 
-详情见[ＪＤＢＣ详细笔记](../JavaSE_JDBC_JVM/JDBC.md)
+基础知识详情见[ＪＤＢＣ详细笔记](../JavaSE_JDBC_JVM/JDBC.md)
+
+### Jsp访问数据库
+
+
+
+
 
 ## 4. MVC
 
