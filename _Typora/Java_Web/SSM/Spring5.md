@@ -23,7 +23,7 @@ Spring 特点
 - 方便进行事务操作
 - 降低 API 开发难度
 
-### 入门案例：
+### 入门案例
 
 1. 创建普通Java工程
 2. 导入Spring5相关jar包
@@ -101,7 +101,7 @@ Bean管理操作由两种方式实现: 基于XML配置文件实现、基于注�
     - class ：类的全路径（也就是包的路径）
 - 创建对象的时候，**默认**执行**无参构造**完成对象的创建（没有无参构造就会报错）
 
-**基于XML注入属性**
+#### **基于XML注入属性**
 
 DI：依赖注入（注入属性），需要在创建对象的基础之上完成
 
@@ -135,7 +135,7 @@ DI：依赖注入（注入属性），需要在创建对象的基础之上完成
     </bean>
     ```
 
-**其他类型的XML注入**
+#### **其他类型的XML注入**
 
 1. 字面量
 
@@ -311,9 +311,202 @@ http://www.springframework.org/schema/util/spring-util.xsd">
     </bean>
 ```
 
+#### **FactoryBean**
 
+Spring有两种类型的bean, 一种事普通bean，另一种是工厂bean
+
+普通bean：在配置文件中定义的bean类型就是返回类型
+
+工厂bean：在配置文件中定义的bean类型可以和返回类型不一样，具体返回内容在接口实现中的getObject中进行定义。
+
+```java
+// MyBean.java
+public class MyBean implements FactoryBean<Book> {
+
+    @Override
+    public Book getObject() throws Exception {
+        Book book = new Book();
+        // 设置属性
+        book.setName(Collections.singletonList("<Hello>"));
+        return book;
+    }
+    // 省略其他两个空函数
+}
+
+// bean.xml
+<bean name="myBean" class="com.Jancoyan.spring.Factory.MyBean"></bean>
+
+// test.java
+ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+Book book = context.getBean("myBean", Book.class);
+```
+
+#### **bean的作用域**
+
+在Spring里面设置创建的bean是单实例还是多实例（默认是单实例，也就是说，每一次用bean获取实例的时候都是获取的同一个实例对象），如何设置多实例还是单实例？
+
+- 在配置文件的bean标签中通过设置属性 scope 进行设置
+    - singleton ： 默认，单实例，**加载配置文件**的时候就会加载单实例对象。
+    - prototype：手动设置，多实例，在**调用getBean方法**的时候创建多实例对象。
+
+#### **bean生命周期**
+
+1. 通过构造器创建bean实例（无参构造）
+2. 为bean的属性设置值和对其他bean的引用（调用set方法）
+3. 调用bean的初始化方法（需要进行配置）
+    1. 配置初始化方法：设置bean标签的init-method属性值为初始化方法名
+4. bean可以使用（对象获取到了）
+5. 当容器关闭的时候，调用bean的销毁方法（需要自己配置销毁方法）
+    1. 配置销毁方法：设置bean标签的destory-method值为销毁方法名
+
+加上bean的后置处理器之后，生命周期变为7步
+
+1. 通过构造器创建bean实例（无参构造）
+2. 为bean的属性设置值和对其他bean的引用（调用set方法）
+3. 把bean的实例传递bean后置处理器的方法
+4. 调用bean的初始化方法（需要进行配置）
+    1. 配置初始化方法：设置bean标签的init-method属性值为初始化方法名
+5. 把bean的实例传递bean后置处理器的方法
+6. bean可以使用（对象获取到了）
+7. 当容器关闭的时候，调用bean的销毁方法（需要自己配置销毁方法）
+    1. 配置销毁方法：设置bean标签的destory-method值为销毁方法名
+
+在初始化之前和之后会分别将bean传给后置处理器，后置处理器会对所有配置文件中的bean进行后置处理器的添加。
+
+后置处理器实现：写一个类继承BeanPostProcessor 并Override里面的两个方法，然后在配置文件中写上这个类的bean，spring会自动将其识别为后置处理器（因为实现了BeanPostProcessor接口）
+
+```java
+public class MyBeanPost implements BeanPostProcessor {
+    @Override
+    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+        return bean;
+    }
+    @Override
+    public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
+        return bean;
+    }
+}
+```
+
+```xml
+    <bean name="myBeanPost" class="com.Jancoyan.spring.Factory.MyBean"></bean>
+```
+
+#### **xml方式的自动装配**
+
+手动装配：在xml配置文件中bean中设置property标签，手动设置值
+
+自动装配：根据指定的装配规则（属性名称或者属性类型），Spring自动将匹配的属性值进行注入
+
+<mark>在实际开发中使用比较少, 不再演示</mark>
+
+#### **引入外部属性文件（数据库配置）**
+
+1. 直接配置数据库信息
+
+    1. 配置德鲁伊连接池
+    2. 引入德鲁伊连接池的jar包`druid.jar`
+
+    ```xml
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+     <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+     <property name="url"
+    value="jdbc:mysql://localhost:3306/userDb"></property>
+     <property name="username" value="root"></property>
+     <property name="password" value="root"></property>
+    </bean>
+    ```
+
+2. 引入外部属性文件配置数据库连接池
+
+创建外部属性文件，properties文件，写数据库信息（键值对的方式写数据库信息）
+
+把外部的properties属性文件引入到spring文件中，引入context名称空间。
+
+```xml
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:util="http://www.springframework.org/schema/util"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/util
+http://www.springframework.org/schema/util/spring-util.xsd
+ http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+```
+
+然后在spring配置文件中使用标签引入外部属性文件
+
+```xml
+<!--引入外部属性文件-->
+<context:property-placeholder location="classpath:jdbc.properties"/>
+<!--配置连接池-->
+<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+ <property name="driverClassName" value="${prop.driverClass}"></property>
+ <property name="url" value="${prop.url}"></property>
+ <property name="username" value="${prop.userName}"></property>
+ <property name="password" value="${prop.password}"></property>
+</bean>
+```
 
 ### 2.4 IOC 操作 Bean 管理（基于注解）
+
+什么是注解
+
+- 注解是代码特殊标记，格式：@注解名称(属性名称=属性值, 属性名称=属性值..) 
+
+使用注解，注解作用在类上面，方法上面，属性上面
+
+使用注解目的：简化 xml 配置
+
+Spring针对Bean管理中创建对象提供注解
+
+1. @Comment 普通的
+2. @Service  建议用在业务逻辑层
+3. @Controller 建议用在web层
+4. @Repository 建议用在DAO层
+
+这四个注解功能是一样的，都可以用来创建Bean实例，这是我们习惯把不同的注解用在不同的层中，以便调理清晰
+
+#### 基于注解方式的对象的创建
+
+步骤
+
+1. 引入依赖 `spring-aop.jar`
+2. 开启组件扫描 - 引入context名称空间
+
+```xml
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:util="http://www.springframework.org/schema/util"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/util
+http://www.springframework.org/schema/util/spring-util.xsd
+ http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 开启组件扫描
+ 		1 如果扫描多个包，包和包之间用逗号隔开
+		2 扫描包的上层目录
+	-->
+<context:component-scan base-package="com.Jancoyan.spring.Factory, com.Jancoyan.spring.bean"></context:component-scan>
+```
+
+3. 创建类，在类上面添加创建对象注解
+
+```java
+// 注解里面value属性值可以不写
+// 如果不写，默认值是类名称的首字母小写形式
+@Component( value = "userService")
+public class Book {
+    private String name;
+}
+```
+
+设置哪些注解进行扫描和不进行扫描：
 
 
 
