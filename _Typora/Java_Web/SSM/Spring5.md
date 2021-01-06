@@ -598,10 +598,11 @@ expression="org.springframework.stereotype.Controller"/>
     }
     ```
 
+
 #### 完全注解开发
 
 1. 创建配置类，替代xml配置文件
-```java
+​```java
 @Configuration
 @ComponentScan(basePackages = "com.Jancoyan.spring")
 public class SpringConfig {
@@ -610,7 +611,7 @@ public class SpringConfig {
 
 2. 编写测试类
 
-```java
+​```java
 public static void main(String[] args) {
     ApplicationContext context = new
  AnnotationConfigApplicationContext(SpringConfig.class);
@@ -624,7 +625,7 @@ public static void main(String[] args) {
 
 ## 3. AOP
 
-#### 概念和原理
+#### 3.1 概念和原理
 
 什么是 AOP ？面向切面编程（方面）
 
@@ -722,7 +723,45 @@ class UserDaoProxy implements InvocationHandler{
 }
 ```
 
-#### 操作术语
+<mark>以上内容可以不掌握</mark>
+
+
+
+Spring框架一般都是基于AspectJ实现AOP操作
+
+什么是AspectJ？AspectJ不是Spring的组成部分，一般把AspectJ和Spring框架一起使用进行AOP操作
+
+基于AspectJ实现AOP操作：
+
+- 基于xml配置文件实现
+- 基于注解方式实现（使用）
+
+引入依赖： 
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210106092108559.png" alt="image-20210106092108559" style="zoom:50%;" />
+
+切入点表达式：
+
+作用：知道对哪个类里面的哪个方法进行增强
+
+语法：`execution([权限修饰符][返回类型][类全路径][方法名称]([参数列表]))`
+
+例1:  com.Jancoyan.Spring.dao.UserDao里面的 add() 进行增强
+
+`* com.Jancoyan.Spring.dao.UserDao.add(..)` * 表示所有的修饰符， .. 表示方法中的所有参数
+
+例2: com.Jancoyan.Spring.dao.UserDao里面的 所有方法 进行增强
+
+`* com.Jancoyan.Spring.dao.UserDao.*(..)` * 表示所有的修饰符， .. 表示方法中的所有参数
+
+例3:  com.Jancoyan.Spring.dao里面的 所有类的 所有方法 进行增强
+
+`* com.Jancoyan.Spring.dao.*.*(..)` * 表示所有的修饰符， .. 表示方法中的所有参数
+
+
+
+
+#### 3.2 操作术语
 
 1. 连接点：类中能被增强的方法
 2. 切入点：实际被增强的方法
@@ -734,27 +773,415 @@ class UserDaoProxy implements InvocationHandler{
     5. 最终通知 、类似于finally
 4. 切面：是一个动作。将通知应用到切入点的过程
 
-#### AspectJ注解
+#### 3.3 AspectJ注解
+
+1. 创建类，在类中创建方法
+
+2. 创建增强类，编写增强逻辑
+
+    1. 在增强类里面创建方法，让不同的方法代表不同的通知类型
+
+3. 进行通知的配置
+
+    1. 在spring配置文件中开启注解扫描
+
+    引入名称空间context和aop
+
+    `<context:component-scan base-package="com.Jancoyan.spring.Bean"></context:component-scan>`
+
+    1. 使用注解创建User和UserProxy对象（@Component）
+    2. 在增强类上面添加注解 @Aspect
+    3. 在spring配置文件中开启生成代理对象
+
+    `<aop:aspectj-autoproxy></aop:aspectj-autoproxy>`
+
+4. 配置不同类型的通知
+   
+    1. 在增强类的里面，在作为通知方法上面添加通知类型注解，使用切入点表达式配置
+
+```java
+// User.java
+@Component
+public class User {
+    public void add(){
+        System.out.println("add....");
+    }
+}
+// UserProxy.java
+// 增强的类
+@Component
+@Aspect
+public class UserProxy {
+    // 前置通知
+    @Before(value = "execution(* com.Jancoyan.spring.Bean.User.add(..))")
+    public void before(){
+        System.out.println("before...");
+    }
+}
+// bean.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    开启注解扫描-->
+    <context:component-scan base-package="com.Jancoyan.spring.Bean"></context:component-scan>
+<!--    开启Aspect生成代理对象-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+</beans>
+// Test.java
+public class Test {
+    public static void main(String[] args) {
+        ApplicationContext context =
+                new ClassPathXmlApplicationContext("bean.xml");
+        User user = context.getBean("user", User.class);
+        user.add();
+    }
+}
+```
 
 
 
+正常情况下不同类型的通知的输出时机：
+
+- 环绕之前
+- before
+- add
+- 环绕之后
+- after
+- afterReturning
+
+【Afterthrowing】在抛出异常之前执行
+
+如果有了异常，则执行顺序为：
+
+- 环绕之前
+- before
+- after
+- afterthrowing
+
+相同切入点的抽取：
+
+```java
+//相同切入点抽取
+@Pointcut(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
+public void pointdemo() {
+}
+//前置通知
+//@Before 注解表示作为前置通知
+@Before(value = "pointdemo()")
+public void before() {
+	System.out.println("before.........");
+}
+```
+
+一个方法的多个增强类，设置他们的优先级  - 在增强类上面添加注解 @Order(数字)  数字越小越高
+
+```java
+@Aspect
+@Component
+@Order(0) // 设置优先级
+public class PersonProxy {
+    @Before(value = "execution(* com.Jancoyan.spring.Bean.User.add(..))")
+    public void before(){
+        System.out.println("Person before,,,");
+    }
+}
+```
 
 
+#### 3.4 AspectJ配置文件
 
+<mark>实际开发中少使用，作为了解即可</mark>
 
-#### AspectJ配置文件
+1、创建两个类，增强类和被增强类，创建方法
 
+2、在 spring 配置文件中创建两个类对象
 
+```xml
+<!--创建对象-->
+<bean id="book" class="com.atguigu.spring5.aopxml.Book"></bean>
+<bean id="bookProxy" class="com.atguigu.spring5.aopxml.BookProxy"></bean>
+```
+
+3、在 spring 配置文件中配置切入点
+
+```xml
+<!--配置 aop 增强-->
+<aop:config>
+ <!--切入点-->
+ <aop:pointcut id="p" expression="execution(*
+com.atguigu.spring5.aopxml.Book.buy(..))"/>
+ <!--配置切面-->
+ <aop:aspect ref="bookProxy">
+ <!--增强作用在具体的方法上-->
+ <aop:before method="before" pointcut-ref="p"/>
+ </aop:aspect>
+</aop:config>
+```
 
 ## 4. JDBC Template
 
+### 原理和概念
+
+什么是 JdbcTemplate ？Spring 框架对 JDBC 进行封装，使用 JdbcTemplate 方便实现对数据库操作
 
 
 
+1. 引入相关jar包
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210106104856037.png" alt="image-20210106104856037" style="zoom:50%;" />
+
+2. 在spring配置文件中配置数据库连接池
+
+```xml
+<!-- 数据库连接池 -->
+<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+ destroy-method="close">
+ <property name="url" value="jdbc:mysql:///user_db" />
+ <property name="username" value="root" />
+ <property name="password" value="root" />
+ <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+</bean>
+```
+
+3. 配置jdbcTemplate对象，注入DataSource
+
+```xml
+<!-- JdbcTemplate 对象 -->
+<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+ <!--注入 dataSource-->
+ <property name="dataSource" ref="dataSource"></property>
+</bean>
+```
+
+4. 创建service类和dao类，在dao注入jdbcTemplate对象
+
+```xml
+<!-- 组件扫描 -->
+<context:component-scan base-package="com.atguigu"></context:component-scan>
+```
+
+```java
+// Service
+@Service
+public class BookService {
+ //注入 dao
+ @Autowired
+ private BookDao bookDao;
+}
+
+// dao
+@Repository
+public class BookDaoImpl implements BookDao {
+ //注入 JdbcTemplate
+ @Autowired
+ private JdbcTemplate jdbcTemplate;
+}
+```
+
+### 单一操作
+
+```xml
+<!--bean.xml-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--   开启注解扫描-->
+    <context:component-scan base-package="com.Jancoyan.spring.Bean"></context:component-scan>
+
+<!--    数据库连接池-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+        <property name="url" value="jdbc:mysql://localhost:3306/spring" />
+        <property name="username" value="root" />
+        <property name="password" value="333"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+    </bean>
+
+<!--    配置JdbcTemplate对象，注入DataSource-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+<!--    组件扫描-->
+    <context:component-scan base-package="com.Jancoyan.spring"></context:component-scan>
+
+
+</beans>
+```
+
+#### 增删改
+
+使用 `jdbcTemplate.update(sql, args);`
+
+- 第一个参数：sql语句
+- 第二个参数：sql语句中占位符代表的元素，类型为 Object[]
+
+```java
+//test
+public class Test {
+    public static void main(String[] args) {
+        ApplicationContext context =
+                new ClassPathXmlApplicationContext("bean.xml");
+        Service service = context.getBean("service", Service.class);
+        Student student = new Student();
+        student.setId("123");
+        student.setName("123");
+        service.add(student);
+        student.setName("hahaha");
+        service.update(student);
+        service.delete("123");        
+    }
+}
+
+// service
+@org.springframework.stereotype.Service
+public class Service {
+    @Autowired
+    private BookDao bookDao;
+    public void add(Student student){
+        bookDao.add(student);
+    }
+    public void delete(String id){
+        bookDao.delete(id);
+    }
+    public void update(Student student){
+        bookDao.update(student);
+    }
+}
+
+// dao
+
+@Repository
+public class BookDaoImpl implements BookDao {
+
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
+    // 增加操作
+    @Override
+    public void add(Student student) {
+        // 1.创建sql
+        String sql = "insert into t_student values(?, ?)";
+        // 调用方法实现
+        Object[] args = {student.getId(), student.getName()};
+        // 返回成功的结果数量
+        int rst = jdbcTemplate.update(sql, args);
+        System.out.println("增加" + rst);
+    }
+
+    // 删除操作
+    @Override
+    public void delete(String id) {
+        String sql = "delete from t_student where id = ?";
+        int rst = jdbcTemplate.update(sql, id);
+        System.out.println("删除"  +  rst);
+    }
+
+    // 修改操作
+    @Override
+    public void update(Student student) {
+        String sql = "update t_student set name = ? where id = ?";
+        Object[] args = {student.getName(), student.getId()};
+        int update = jdbcTemplate.update(sql, args);
+        System.out.println("修改" + update);
+    }
+}
+```
+
+#### 返回某个值的查询
+
+调用函数`jdbcTemplate.queryForObject(String sql,Class class)`
+
+- 第一个参数：sql语句
+- 第二个参数：返回结果的结果类
+
+```java
+    public int totalNumber(){
+        String sql = "select count(*) from t_student";
+        return jdbcTemplate.queryForObject(sql, Integer.class);
+    }
+```
+
+#### 返回对象的查询
+
+调用函数 `jdbcTemplate.queryForObject(String sql, new BeanPropertyRowMapper<返回类型>(返回类型Class), 参数列表)`
+
+- 第一个参数：sql语句
+- 第二个参数：new BeanPropertyRowMapper<返回类型>(返回类型的Class)
+- 第三个参数：sql中的占位符，类型为 Object[]，可以没有
+
+```java
+    @Override
+    public Student selectStudent(String id){
+        String sql = "select * from t_student where id = ?";
+        return jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<Student>(Student.class), id);
+    }
+```
+
+#### 返回集合的查询
+
+调用函数 `jdbcTemplate.query(sql, new BeanPropertyRowMapper<Student>(Student.class),参数列表)`
+
+- 第一个参数：sql语句
+- 第二个参数：new BeanPropertyRowMapper<返回类型>(返回类型的Class)
+- 第三个参数：sql中的占位符，类型为 Object[]，可以没有
+
+```java
+    @Override
+    public List<Student> selectStudent(){
+        String sql = "select * from t_student";
+        return jdbcTemplate.query(sql, new BeanPropertyRowMapper<Student>(Student.class));
+    }
+```
+
+### 批量操作
+
+调用函数`jdbcTemplate.batchUpdate(String sql, List<Object[]> batchArgs)`
+
+- 第一个参数为sql语句
+- 第二个为sql中的参数, List\<Object\> 类型
+
+```java
+//批量添加
+@Override
+public void batchAddBook(List<Object[]> batchArgs) {
+	String sql = "insert into t_book values(?,?,?)";
+	int[] ints = jdbcTemplate.batchUpdate(sql, batchArgs);
+	System.out.println(Arrays.toString(ints));
+}
+
+// 批量修改
+@Override
+public void batchUpdateBook(List<Object[]> batchArgs) {
+	String sql = "update t_book set username=?, ustatus=? where user_id=?";
+	int[] ints = jdbcTemplate.batchUpdate(sql, batchArgs);
+	System.out.println(Arrays.toString(ints));
+}
+
+// 批量删除
+@Override
+public void batchDeleteBook(List<Object[]> batchArgs) {
+	String sql = "delete from t_book where user_id=?";
+	int[] ints = jdbcTemplate.batchUpdate(sql, batchArgs);
+	System.out.println(Arrays.toString(ints));
+}
+```
 
 ## 5. Transaction Management
 
-
+事务操作过程
 
 
 
