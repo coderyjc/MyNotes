@@ -557,17 +557,881 @@ void removeAttribute(String name)：根据属性名，删除对象
 
 ## 3. JDBC
 
-
-
 基础知识详情见[ＪＤＢＣ详细笔记](../JavaSE_JDBC_JVM/JDBC.md)
 
 ### Jsp访问数据库
 
+```jsp
+ <!-- index.jsp -->
+	<form action="check.jsp">
+      用户名 <input name="name" type="text" value="name"> <br>
+      密码 <input name="pwd" type="password" value="pwd"> <br>
+      <input type="submit" value="登录"/>
+    </form>
 
+<!-- check.jsp -->
+    <%
+        String uname = request.getParameter("name");
+        String upassword = request.getParameter("pwd");
 
+        Class.forName("com.mysql.jdbc.Driver");
+        String url = "jdbc:mysql://localhost:3306/spring";
+        String name = "root";
+        String pwd = "333";
 
+        Connection conn = null;
+        PreparedStatement ps = null;
+
+        conn = DriverManager.getConnection(url, name, pwd);
+        String sql = "select * from t_user where id = ? and password = ?";
+        ps = conn.prepareStatement(sql);
+        ps.setString(1, uname);
+        ps.setString(2, upassword);
+        ResultSet resultSet = ps.executeQuery();
+        if (resultSet.next()){
+            out.print("登录成功");
+        }else{
+            out.print("登录失败");
+        }
+    %>
+```
+
+### JavaBean
+
+将 jsp中 登录操作的代码  转移到了LoginDao.java；其中LoginDao类 就称之为JavaBean。
+
+JavaBean的作用：
+
+a.减轻的jsp复杂度 
+
+b.提高代码复用（以后任何地方的 登录操作，都可以通过调用LoginDao实现）
+
+JavaBean（就是一个Java类）的定义：满足一下2点 ，就可以称为JavaBean
+
+1. public 修饰的类  ,public 无参构造
+2. 所有属性(如果有) 都是private，并且提供set/get   (如果boolean 则get 可以替换成is)
+
+使用层面，Java分为2大类：
+
+1. 封装业务逻辑的JavaBean (LoginDao.java封装了登录逻辑)可以将jsp中的JDBC代码，封装到Login.java类中 （Login.java）
+2. 封装数据的JavaBean   （实体类，Student.java  Person.java ）对应于数据库中的一张表
+
+Login login = new Login(uname,upwd) ;//即用Login对象 封装了2个数据（用户名 和密码）
+
+封装数据的JavaBean 对应于数据库中的一张表   (Login(name,pwd))
+
+封装业务逻辑的JavaBean 用于操作 一个封装数据的JavaBean 
+
+可以发现，JavaBean可以简化 代码(jsp->jsp+java)、提供代码复用(LoginDao.java)
 
 ## 4. MVC
+
+### 介绍以及原理
+
+M：Model 模型  ：一个功能。用JavaBean实现。
+
+V：View 视图： 用于展示、以及与用户交互。使用html  js  css jsp jquery等前端技术实现
+
+C：Controller 控制器 ：接受请求，将请求跳转到模型进行处理；模型处理完毕后，再将处理的结果返回给 请求处 。 可以用jsp实现，  但是一般建议使用 Servlet实现控制器。
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107173548122.png" alt="image-20210107173548122" style="zoom:50%;" />
+
+对于MVC的理解：
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107190727777.png" alt="image-20210107190727777" style="zoom:50%;" />
+
+Jsp->Java(Servlet)->JSP
+
+Servlet：
+
+Java类必须符合一定的 规范，才是一个servlet：
+
+1. 必须继承  javax.servlet.http.HttpServlet
+2. 重写其中的 doGet() **或** doPost()方法
+
+ doGet()： 接受 并处 所有get提交方式的请求
+
+ doPost()：接受 并处 所有post提交方式的请求
+
+
+
+Servlet要想使用，必须配置
+
+Serlvet2.5：web.xml
+
+Servle3.0： @WebServlet
+
+servlet映射关系
+
+servlet2.5 映射关系
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107212542020.png" alt="image-20210107212542020" style="zoom:50%;" />
+
+servlet3.0映射关系
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107212621395.png" alt="image-20210107212621395" style="zoom:50%;" />
+
+项目的根目录：WebContent 、src
+
+< a href="WelcomeServlet" >所在的jsp是在 WebContent目录中，因此 发出的请求WelcomeServlet  是去请求项目的根目录。
+
+Servlet流程：请求 ->< url-pattern > -> 根据< servlet-mapping >中的< servlet-name > 去匹配  < servlet > 中的< servlet-name >，然后寻找到< servlet-class >，求中将请求交由该< servlet-class >执行。
+
+
+
+纯手工方法创建第一个Servlet
+
+步骤：
+
+- 编写一个类，继承HttpServlet
+
+- 重写doGet()、doPost()方法
+
+- 编写web.xml 中的servlet映射关系
+
+    ```xml
+    <!--项目/web/WEB-INF/web.xml-->
+        <servlet>
+            <servlet-name>LoginServlet</servlet-name>
+            <servlet-class>LoginServlet</servlet-class>
+        </servlet>
+    
+        <servlet-mapping>
+            <servlet-name>LoginServlet</servlet-name>
+            <url-pattern>/src/LoginServlet</url-pattern>
+        </servlet-mapping>
+    ```
+
+    ```java
+    //项目/src/LoginServlet
+    public class LoginServlet extends HttpServlet {
+    
+        @Override
+        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+            System.out.println("Hello");
+        }
+    
+        @Override
+        protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+            System.out.println("Hello");
+        }
+    }
+    ```
+
+    ```jsp
+    <!--项目/web/index.jsp-->
+        <form action="src/LoginServlet" method="post">
+          用户名 <input name="name" type="text" value="name"> <br>
+          密码 <input name="pwd" type="password" value="pwd"> <br>
+          <input type="submit" value="登录"/>
+        </form>
+    ```
+
+    
+
+借助于Eclipse快速生成Servlet
+
+直接新建Servlet即可！（继承、重写、web.xml  可以借助Eclipse自动生成）
+
+Servlet3.0，与Servlet2.5的区别：
+
+Servlet3.0不需要在web.xml中配置，但 需要在 Servlet类的定义处之上编写 注解@WebServlet("url-pattern的值") 
+
+匹配流程：  请求地址 与@WebServlet中的值 进行匹配，如果匹配成功 ，则说明 请求的就是该注解所对应的类
+
+
+
+项目根目录：WebContent、src（所有的构建路径）
+
+例如：WebContent中有一个文件index.jsp  /  src中有一个Servlet.java  
+
+如果: index.jsp中请求 < a href="abc" >... < /a > ，则 寻找范围：既会在src根目录中找  也会在WebContent根目录中找
+
+如果：index.jsp中请求< a href="a/abc" >< /a >，寻找范围：先在src或WebContent中找a目录，然后再在a目录中找abc
+
+web.xml中的 /:代表项目根路径  http://localhost:8888/Servlet25Project/
+
+jsp中的/: 服务器根路径  http://localhost:8888/
+
+构建路径、WebContent: 根目录
+
+
+
+Servlet生命周期：5个阶段 
+
+- 加载
+- 初始化： init()  ，该方法会在 Servlet被加载并实例化的以后执行
+- 服务  ：service() ->doGet()  doPost()
+- 销毁  ：destroy()，  Servlet被系统回收时执行
+- 卸载
+
+
+
+init():
+
+​	a.默认第一次访问 Servlet时会被执行 （只执行这一次）
+
+​	b.可以修改为 Tomcat启动时自动执行
+
+​		i.Servlet2.5：  web.xml
+
+```xml
+<servlet>
+	...
+  	<load-on-startup>1</load-on-startup>
+</servlet>			
+<!--其中的“1”代表第一个。-->
+```
+
+​		ii.Servlet3.0
+
+```java
+@WebServlet( value="/WelcomeServlet" ,loadOnStartup=1  )
+```
+
+service() ->doGet()  doPost() ：调用几次，则执行几次
+
+destroy()：关闭tomcat服务时，执行一次。
+
+---
+
+Servlet API ： 由两个软件包组成： 对应于HTTP协议的软件包、对应于除了HTTP协议以外的其他软件包
+
+即Servlet  API可以适用于 任何 通信协议。 
+
+我们学习的Servlet,是位于javax.servlet.http包中的类和接口，是基础HTTP协议。
+
+
+
+Servlet继承关系
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107214739439.png" alt="image-20210107214739439" style="zoom:50%;" />
+
+ServletConfig:接口 
+
+ServletContext getServletContext():获取Servlet上下文对象   application
+
+String  getInitParameter(String name):在当前Servlet范围内，获取名为name的参数值（初始化参数）
+
+
+
+ServletContext中的常见方法(application)：
+
+- getContextPath():相对路径
+
+- getRealPath()：绝对路径
+
+- setAttribute() 、getAttribute()  --->  String getInitParameter(String name); 在当前Web容器范围内，获取名为name的参数值（初始化参数）
+
+
+
+Servlet3.0方式 给当前Servlet设置初始值：@WebServlet( .... , initParams= {@WebInitParam(name="serveltparaname30",value="servletparavalue30")   }   )
+
+注意，此注解只 隶属于某一个具体的Servlet ，因此无法为 整个web容器设置初始化参数 （如果要通过3.0方式设置 web容器的初始化参数，仍然需要在web.xml中设置）
+
+HttpServletRequest中的方法：(同request)，例如setAttrite()、getCookies()、getMethod()
+HttpServletResponse中的方法：同response
+
+Servlet使用层面：Eclipse中在src创建一个Servlet，然后重写doGet()  doPost()就可以  （doGet() doPost()只需要编写一个）。
+
+### 三层优化
+
+1.加入接口
+
+建议面向接口开发：先接口-再实现类
+
+​	--service、dao加入接口
+
+​	--接口与实现类的命名规范
+
+​		接口：interface，	起名   I实体类Service		IStudentService
+
+​						IStudentDao	
+
+​		实现类：implements	起名   实体类ServiceImpl		StudentServiceImpl
+
+​						StudentDaoImpl
+
+​		接口：	I实体类层所在包名	IStudentService、IStudentDao	
+
+​			接口所在的包：  xxx.service		xx.dao
+
+
+
+		实现类：	 实体类层所在包名Impl	StudentServiceImpl、StudentDaoImpl
+			实现类所在的包：xxx.service.impl		xx.dao.impl
+	
+	以后使用接口/实现类时，推荐写法：
+	接口 x = new 实现类();
+	IStudentDao studentDao = new StudentDaoImpl();
+
+2.DBUtil 通用的数据库帮助类，可以简化Dao层的代码量
+
+帮助类 一般建议写在  xxx.util包
+
+
+
+
+A
+{
+
+	a(){
+		B.connection
+	}
+}
+
+B
+{
+	static Connection connection =..
+	b{
+		
+	}
+}
+
+方法重构：  将多个方法 的共同代码 提炼出来，单独写在一个方法中，然后引入该方法即可
+a()
+{
+	..
+	c();
+	..
+	
+}
+
+b()
+{
+	..
+	c();
+	..
+}
+
+
+
+c()
+{
+		[..
+	..	
+	...		
+	..]
+}
+
+
+Web调试：
+与java代码的调试 区别：启动方式不同
+
+
+
+
+
+
+
+
+
+index.jsp ->index_jsp.java ->index_jsp.class 
+
+jsp->java->class
+jsp翻译成的Java 以及编译后的class文件 存在于tomcat中的work目录中
+
+
+
+
+10000
+
+分页：5变量（属性）
+
+1.数据总数 （select count(*) from xxx ，          查数据库）
+2.页面大小（页面容量，每页显示的数据条数）	（用户自定义）
+3.总页数  					 （自动计算）
+	800:10= 80页
+	总页数= 数据总数 /页面大小
+
+	802:10=  800/10 +1 ；
+	总页数= 数据总数 /页面大小 + 1;
+	
+	-->通式
+	总页数= 数据总数 % 页面大小==0 ?数据总数 /页面大小:数据总数 /页面大小 + 1;
+
+注意：自动计算的时机：当 数据总数 和 页面大小都被赋值以后，自动计算总页数。
+
+
+4.当前页码					（用户自定义）
+
+5.实体类对象集合（当前页的数据集合）：依赖于数据库	 (查数据库)
+	假设： 每页显示10条（页面大小=10）
+
+select * from student where id>=起始 and id<=终止;
+
+
+页数  		起止			起止等价写法
+1		1-10			(页数-1)*10+1-页数*10
+2		11-20
+3		21-30
+
+
+某一页的数据 起止：
+
+	(页数-1)*10+1-页数*10
+
+
+
+select * from student where sno>=(页数-1)*10+1 and sno<=页数*10;
+此种分页SQL 严格依赖sno的数据，  一旦sno出现了间隙（裂缝），则无法满足每页10条
+
+->将此SQL 转换： 1.有rownum  2不能有rownum>xx
+转换的核心：  将rownum从伪列 转换为 一个 临时表的 普通列。
+
+select *from 
+(
+	select rownum r,t.*from
+	(select s.* from student s order by sno asc) t   
+
+) where r>=(页数-1)*10+1 and r<=页数*10;			
+
+
+优化：
+
+select *from (
+	select rownum r,t.*from
+	(select s.* from student s order by sno asc) t
+	where 	 rownum<=页数*页面大小			
+
+) where  r>=(页数-1)*页面大小+1 	;				
+
+
+
+
+1
+2
+3
+
+6
+7
+8
+9
+
+...
+11
+12
+13
+..
+21
+22
+23
+..
+
+
+
+
+
+​	
+
+​	
+
+dao和DBUtil的区别：
+dao 是处理特定 类的 数据库操作类：
+DBUtil是通用  数据库操作类
+
+
+1分页
+要实现分页，必须知道  某一页的 数据 从哪里开始 到哪里结束
+
+页面大小：每页显示的数据量
+
+假设每页显示10条数据
+
+mysql分页：
+mysql:从0开始计数
+0		0		9
+1		10		19
+2		20		29
+n		n*10	      (n+1)*10-1
+
+
+
+结论：
+分页：
+	第n页的数据：  第(n-1)*10+1条  -- 第n*10条
+
+MYSQL实现分页的sql：
+limit  开始,多少条
+第0页
+select * from student limit 0,10 ;
+第1页
+select * from student limit 10,10 ;
+第2页
+select * from student limit  20,10 ;
+第n页
+select * from student limit n*10,10
+
+mysql的分页语句：
+
+select * from student limit 页数*页面大小,页面大小
+
+
+b.oracle分页：
+
+sqlserver/oracle:从1开始计数
+第n页		开始		结束
+1		1		10
+2		11		20
+3		21		30
+n		(n-1)*10+1	n*10
+
+select *from student  where sno >=(n-1)*10+1 and sno <=n*10 ;  --此种写法的前提：必须是Id连续 ，否则 无法满足每页显示10条数据
+
+
+select rownum,t.*from student t where rownum >=(n-1)*10+1 and rownum <=n*10  order by sno;
+--1.如果根据sno排序则rownum会混乱（解决方案：分开使用->先只排序，再只查询rownum） 2.rownum不能查询>的数据 
+
+select s.* from student s order by sno asc;
+
+
+select rownum, t.* from
+(select s.* from student s order by sno asc) t 
+where rownum >=(n-1)*10+1 and rownum <=n*10 ; ;
+
+
+//ORACLE\sqlserver都是从1开始计数：  (n-1)*10+1    ---  n*10 
+oracle的分页查询语句：
+select *from 
+(
+	select rownum r, t.* from
+	(select s.* from student s order by sno asc) t 		10000
+)
+where r>=(n-1)*10+1 and <=n*10  ;				10
+
+优化：
+
+select *from 
+(
+	select rownum r, t.* from
+	(select s.* from student s order by sno asc) t 		
+	where rownum<=n*10 
+)
+where r>=(n-1)*10+1  ;	
+
+select *from 
+(
+	select rownum r, t.* from
+	(select s.* from student s order by sno asc) t 		
+	where  rownum<=页数*页面大小 
+)
+where r>=(页数-1)*页面大小+1  ;	
+
+
+SQLServer分页：  3种分页sql
+row_number()	over(字段) ;
+
+sqlserver2003:top  --此种分页SQL存在弊端（如果id值不连续，则不能保证每页数据量相等）
+select top 页面大小 * from student where id not in 
+( select top (页数-1)*页面大小 id from student  order by sno asc )
+
+
+
+sqlserver2005之后支持：
+select *from 
+(
+	select row_number()  over (sno order by sno asc) as r,* from student
+			
+
+	 where r<=n*10 
+)
+where r>=(n-1)*10+1 and  ;	
+
+SQLServer此种分页sql与oralce分页sql的区别： 1.rownum  ，row_number()    2.oracle需要排序（为了排序，单独写了一个子查询），但是在sqlserver 中可以省略该排序的子查询  因为sqlserver中可以通过over直接排序
+
+
+sqlserver2012之后支持：	
+offset fetch next only
+
+
+select * from student  oreder by sno 
+offset (页数-1)*页面大小+1  rows fetch next 页面大小  rows only ;
+
+
+
+
+(n-1)*10+1    ---  n*10 
+
+mysql从0开始计数，Oracle/sqlserver 从1开始计数
+
+
+1
+2
+3
+4
+6
+8
+9
+10
+
+11
+12
+...
+20
+
+
+21
+22
+..
+31
+
+分页实现：
+5个变量（属性）			
+1.数据总数	100	103					（查数据库,select count(*)..）									
+2.页面大小（每页显示的数据条数）20				  (用户自定义)
+3.总页数 							 （程序自动计算）
+	总页数 = 100/20  =数据总数/页面大小
+	总页数 = 103/20 = 数据总数/页面大小+1
+	--->
+	总页数 = 数据总数%页面大小==0? 数据总数/页面大小:数据总数/页面大小+1 ;
+
+
+4.当前页（页码）							  （用户自定义）								
+5.当前页的对象集合（实体类集合）：每页所显示的所有数据 （10个人信息）
+List<Student>							   (查数据库,分页sql)	
+		
+
+​	
+
+
+
+
+
+2表单重复提交
+
+
+1.上传文件
+a.引入2个jar
+   apache: commons-fileupload.jar组件
+	commons-fileupload.jar依赖 commons-io.jar
+
+b.
+代码：
+前台jsp：
+	<input type="file"  name="spicture"/>
+	表单提交方式必须为post
+	在表单中必须增加一个属性 entype="multipart/form-data"
+
+后台servlet：
+	
+
+注意的问题：
+	上传的目录  upload ：
+	1.如果修改代码，则在tomcat重新启动时 会被删除
+		原因：当修改代码的时候,tomcat会重新编译一份class 并且重新部署（重新创建各种目录）
+	
+	2.如果不修改代码，则不会删除
+		原因： 没有修改代码，class仍然是之前的class
+
+因此，为了防止 上传目录丢失： a.虚拟路径	b.直接更换上传目录 到非tomcat目录
+
+
+限制上传：
+	类型、
+	大小
+	注意 对文件的限制条件 写再parseRequest之前
+
+
+2.下载：不需要依赖任何jar	
+	a.请求（地址a  form），请求Servlet	
+	b.Servlet通过文件的地址  将文件转为输入流 读到Servlet中
+	c.通过输出流 将 刚才已经转为输入流的文件  输出给用户
+注意：下载文件 需要设置2个 响应头：
+response.addHeader("content-Type","application/octet-stream" );//MIME类型:二进制文件（任意文件）
+response.addHeader("content-Disposition","attachement;filename="+fileName );//fileName包含了文件后缀：abc.txt
+		
+1.下载时 ，文件名乱码问题：
+edge：
+
+URLEncoder.encode(fileName,"UTF-8") 
+
+
+
+firefox：
+给文件名 加：
+前缀   =?UTF-8?B?
+
+String构造方法
+Base64.encode   
+后缀   ?=
+示例：
+	response.addHeader("content-Disposition","attachment;filename==?UTF-8?B?"+   new String(  Base64.encodeBase64(fileName.getBytes("UTF-8"))  ) +"?=" );//fileName包含了文件后缀：abc.txt
+		
+
+2
+
+EL ：为了消除jsp中的Java代码
+
+语法：
+${EL表达式}
+a.EL不需要导包
+b.在el中调用属性，其实是调用的getXxx()方法
+
+${范围.对象.属性.属性的属性 }
+
+操作符：操作：属性，不是对象
+. : 使用方便
+[] : 如果是常量属性，需要使用双引号/单引号 引起来;比点操作符更加强大
+
+
+[]强大之处：
+a.可以容纳一些 特殊符号 （.  ?   -）
+b.[]可以容纳 变量属性 （可以动态赋值）
+String x = "a";
+${requestScope.a}等价于${requestScope["a"]}等价于${${requestScope[x]}
+
+c.可以处理数组
+${requestScope.arr[0] }
+
+
+
+普通对象、map中的变量
+
+
+通过EL获取JSP  九大内置对象
+
+
+${pageContext }
+${pageContext.request }
+${pageContext.sessoin }
+
+
+
+
+
+
+JSTL：比EL更加强大
+需要引入2个jar ：jstl.jar   standard.jar
+引入tablib  :
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>    
+其中prefix="c" :前缀
+
+核心标签库：  通用标签库、条件标签库  迭代标签库
+
+a.通用标签库
+<c:set>赋值
+i:
+在某个作用域之中（4个范围对象），给某个变量赋值
+	<%-- 
+		request.setAttribute("name", "zhangsan") ;
+	--%>
+		<c:set var="name"    value="zhangsan"   scope="request"/>
+		${requestScope.name }
+
+<c:set var="变量名"    value="变量值"   scope="4个范围对象的作用域"/>
+
+
+ii:
+给普通对象赋值
+在某个作用域之中（4个范围对象），给某个对象的属性复制 （此种写法，不能指定scope属性）
+
+		<c:set target="${requestScope.student}" property="sname"  value="zxs" />
+
+给map对象赋值
+		<c:set target="${requestScope.countries}" property="cn"  value="中国" />
+
+<c:set target="对象" property="对象的属性"  value="赋值" />
+		
+
+注意 <c:set>可以给不存在的变量赋值 （但不能给不存在的对象赋值）
+
+
+
+<c:out>  ：显示
+true:<c:out value='<a href="https://www.baidu.com">百度</a>' default="当value为空的，显示的默认值" escapeXml="true" />
+false：	<c:out value='<a href="https://www.baidu.com">百度</a>' escapeXml="false" />
+		
+
+
+<c:remove >：删除属性
+<c:remove var="a" scope="request"/>
+
+
+选择：
+if(boolean)
+单重选择
+<c:if test="" >
+
+
+if else if... esle if... else  /switch
+
+<c:choose>
+	<c:when test="...">   </c:when>
+	<c:when test="...">   </c:when>
+	<c:when test="...">   </c:when>
+	<c:otherwise>   </c:otherwise>
+</c:choose>
+
+
+在使用 test="" 一定要注意后面是否有空格
+例如：test="${10>2 }"   true
+     test="${10>2 } "  非true
+
+
+循环（迭代标签库）
+for(int i=0;i<5;i++)
+	<c:forEach  var="name" items="${requestScope.names }" >
+		-${name }-
+	</c:forEach>
+
+
+for(String str:names)
+	<c:forEach  var="student" items="${requestScope.students }" >
+		${student.sname }-${student.sno }
+	
+	</c:forEach>
+
+
+
+过滤器：
+实现一个Filter接口
+init()、destroy() 原理、执行时机 同Servlet
+配置过滤器，类似servlet
+通过doFilter()处理拦截，并且通过chain.doFilter(request, response);放行
+
+
+filter映射
+
+只拦截 访问MyServlet的请求
+	<url-pattern>/MyServlet</url-pattern>
+拦截一切请求（每一次访问 都会被拦截）
+<url-pattern>/*</url-pattern>
+
+
+通配符
+
+dispatcher请求方式：
+REQUEST：拦截HTTP请求 get post
+FORWARD：只拦截 通过 请求转发方式的请求
+
+INCLUDE:只拦截拦截通过 request.getRequestDispatcher("").include()  、通过<jsp:include page="..." />此种方式发出的请求
+ERROR：只拦截<error-page>发出的请求
+
+
+过滤器中doFilter方法参数：ServletRequest
+在Servlet中的方法参数：HttpServletRequest
+
+
+过滤器链
+可以配置多个过滤器，过滤器的先后顺序 是由 <filter-mapping>的位置 决定
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
