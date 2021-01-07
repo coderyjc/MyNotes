@@ -1181,9 +1181,220 @@ public void batchDeleteBook(List<Object[]> batchArgs) {
 
 ## 5. Transaction Management
 
-事务操作过程
+### 概述
+
+web应用三层架构：web层、service层、dao层
+
+建议将事务添加到service层中
+
+有两种方式
+
+- 编程式事务管理【不使用】
+- 声明式事务管理【使用】
+    - 基于注解方式【使用】
+    - 基于xml配置文件方式
+
+总结： 使用**注解声明式事务管理**
+
+底层使用到了AOP
+
+事务管理的API
+
+- 提供一个接口事务管理器，这个接口针对不同的框架实现了不同的实现类
+
+### 注解声明式事务管理
+
+1. 在配置文件中配置事务管理器
+
+```xml
+
+<!--    创建事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+<!--        注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+```
+
+2. 在配置文件中开启事务注解
+
+    1. 开启名称空间 `tx`
+
+    ```xml
+    <beans xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:context="http://www.springframework.org/schema/context"
+     xmlns:aop="http://www.springframework.org/schema/aop"
+     xmlns:tx="http://www.springframework.org/schema/tx"
+     xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+     http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd 
+                         http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx.xsd">
+    ```
+
+    2. 开启事务注解
+
+    ```xml
+    <!--开启事务注解-->
+        <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+    ```
+
+3. 在service类上面（获取service类的方法上面添加事务注解
+
+    1. @Transactional 可以添加到类上或者方法上
+    2. 如果添加到类上，表示类中的所有的方法添加了事务
+    3. 如果添加到了方法上，表示方法添加了事务
+
+```java
+@Service
+@Transactional
+public class UserService {
+
+    @Autowired
+    private UserDao userDao;
+
+    public void transfer(){
+        userDao.reduceMoney();
+        System.out.println(10/0); //模拟异常
+        userDao.addMoney();
+        System.out.println("转账成功");
+    }
+
+}
+```
+
+### 相关参数设置
+
+在 @Transactional 中可以配置和事务相关的参数
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210107082520535.png" alt="image-20210107082520535" style="zoom:75%;" />
+
+比如:
+
+```java
+@Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT, timeout = 10, readOnly = true, rollbackFor = Exception.class)
+```
+
+#### propagation：事务传播行为
+
+- 多事务方法之间进行调用的时候事务如何管理
+
+记住前两个
+
+<img src="Spring5.imgs\image-20210107083445897.png" alt="image-20210107083445897" style="zoom:80%;" />
+
+<img src="Spring5.imgs\image-20210107083102949.png" alt="image-20210107083102949" style="zoom:67%;" />
 
 
+
+#### isolation：事务隔离级别
+
+事务有特性成为隔离性，多事务操作之间不会产生影响。不考虑隔离性产生很多问题
+
+有三个读问题：脏读、不可重复读、虚（幻）读
+
+- 脏读：一个未提交事务读取到另一个未提交事务的数据
+
+- 不可重复读：一个未提交事务读取到另一提交事务修改数据
+
+- 虚读：一个未提交事务读取到另一提交事务添加数据
+
+解决：通过设置事务隔离级别，解决读问题
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210107083220682.png" alt="image-20210107083220682" style="zoom:50%;" />
+
+#### timeout：超时时间
+
+事务需要在一定时间内进行提交，如果不提交进行回滚
+
+默认值是 -1 也就是不允许超时，设置时间以秒单位进行计算
+
+#### readOnly：是否只读
+
+读：查询操作，写：添加修改删除操作
+
+readOnly 默认值 false，表示可以查询，可以添加修改删除操作
+
+设置 readOnly 值是 true，设置成 true 之后，只能查询
+
+#### rollbackFor：回滚
+
+设置出现哪些异常进行事务回滚
+
+#### noRoolbackFor：不回滚
+
+设置出现哪些异常不进行事务回滚
+
+### 完全注解开发
+
+创建配置类，使用配置类替代xml配置文件
+
+```java
+@Configuration //配置类
+@ComponentScan(basePackages = "com.Jancoyan") //组件扫描
+@EnableTransactionManagement //开启事务
+public class TxConfig {
+    //创建数据库连接池
+    @Bean
+    public DruidDataSource getDruidDataSource() {
+        DruidDataSource dataSource = new DruidDataSource();
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql:///user_db");
+        dataSource.setUsername("root");
+        dataSource.setPassword("root");
+        return dataSource;
+    }
+    //创建 JdbcTemplate 对象
+    @Bean
+    public JdbcTemplate getJdbcTemplate(DataSource dataSource) {
+        //到 ioc 容器中根据类型找到 dataSource
+        JdbcTemplate jdbcTemplate = new JdbcTemplate();
+        //注入 dataSource
+        jdbcTemplate.setDataSource(dataSource);
+        return jdbcTemplate;
+    }
+    //创建事务管理器
+    @Bean
+    public DataSourceTransactionManager
+    getDataSourceTransactionManager(DataSource dataSource) {
+        DataSourceTransactionManager transactionManager = new
+                DataSourceTransactionManager();
+        transactionManager.setDataSource(dataSource);
+        return transactionManager;
+    }
+}    
+```
+
+创建对象的时候使用
+
+```java
+ApplicationContext context = new AnnotationConfigApplicationContext();
+```
 
 ## 6. Spring 5 new features
+
+### 自带通用的日志封装
+
+
+
+
+
+### @Nullable 注解
+
+@Nullable 注解可以使用在方法上面，属性上面，参数上面，表示方法返回可以为空，属性值可以 为空，参数值可以为空
+
+
+
+### 整合 JUnit5
+
+
+
+
+
+### Webflux
+
+
 
