@@ -1378,23 +1378,64 @@ ApplicationContext context = new AnnotationConfigApplicationContext();
 
 ### 自带通用的日志封装
 
+Spring5整合了log4j2。
 
+1. 引入相关的jar包<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210107141845730.png" alt="image-20210107141845730" style="zoom:67%;" />
+2. 创建log4j2.xml 配置文件，必须是这个名字，不能是别的。
+3. 把下面代码复制过去
 
-
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!--日志级别以及优先级排序: OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE >
+ALL -->
+<!--Configuration 后面的 status 用于设置 log4j2 自身内部的信息输出，可以不设置，
+当设置成 trace 时，可以看到 log4j2 内部各种详细输出-->
+<configuration status="INFO">
+ <!--先定义所有的 appender-->
+  <appenders>
+ <!--输出日志信息到控制台-->
+  <console name="Console" target="SYSTEM_OUT">
+ <!--控制日志输出的格式-->
+    <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-
+5level %logger{36} - %msg%n"/>
+   </console>
+ </appenders>
+ <!--然后定义 logger，只有定义 logger 并引入的 appender，appender 才会生效-->
+ <!--root：用于指定项目的根日志，如果没有单独指定 Logger，则会使用 root 作为
+默认的日志输出-->
+   <loggers>
+     <root level="info">
+     <appender-ref ref="Console"/>
+   </root>
+ </loggers>
+</configuration>
+```
 
 ### @Nullable 注解
 
 @Nullable 注解可以使用在方法上面，属性上面，参数上面，表示方法返回可以为空，属性值可以 为空，参数值可以为空
 
+### 核心容器支持函数式编程风格
 
-
-### 整合 JUnit5
-
-
-
-
+```java
+//函数式风格创建对象，交给 spring 进行管理
+@Test
+public void testGenericApplicationContext() {
+ //1 创建 GenericApplicationContext 对象
+ GenericApplicationContext context = new GenericApplicationContext();
+ //2 调用 context 的方法对象注册
+ context.refresh();
+ context.registerBean("user1",User.class,() -> new User());
+ //3 获取在 spring 注册的对象
+ // User user = (User)context.getBean("com.atguigu.spring5.test.User");
+ User user = (User)context.getBean("user1");
+ System.out.println(user);
+}
+```
 
 ### Webflux
+
+
 
 
 
