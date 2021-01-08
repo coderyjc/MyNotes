@@ -769,11 +769,11 @@ Servlet生命周期：5个阶段
 
 init():
 
-​	a.默认第一次访问 Servlet时会被执行 （只执行这一次）
-
-​	b.可以修改为 Tomcat启动时自动执行
-
-​		i.Servlet2.5：  web.xml
+	a.默认第一次访问 Servlet时会被执行 （只执行这一次）
+	
+	b.可以修改为 Tomcat启动时自动执行
+	
+		i.Servlet2.5：  web.xml
 
 ```xml
 <servlet>
@@ -783,7 +783,7 @@ init():
 <!--其中的“1”代表第一个。-->
 ```
 
-​		ii.Servlet3.0
+		ii.Servlet3.0
 
 ```java
 @WebServlet( value="/WelcomeServlet" ,loadOnStartup=1  )
@@ -834,97 +834,75 @@ HttpServletResponse中的方法：同response
 
 Servlet使用层面：Eclipse中在src创建一个Servlet，然后重写doGet()  doPost()就可以  （doGet() doPost()只需要编写一个）。
 
-### 三层优化
+### 三层架构
 
-1.加入接口
+三层组成:
+
+- 表示层（USL，User Show，Layer 视图层）
+    - 前台：对应MVC中的View，用于和用户进行交互，界面的显示【jsp\js\html\css\jquery...】位置：web
+    - 后台：对应于MVC的Controller，用于控制跳转，调用业务逻辑层【Servlet\SpringMVC】位置：xxx.servlet包内
+- 业务逻辑层（BLL, Business Logic Layer，Service层）
+    - 接受表示层的请求，调用
+    - 组装数据访问层，逻辑性的操作（增删改查）
+    - 一般位于 xxx.service 包内（xxx.manager  xx.bll）
+- 数据访问层（DAL，Data Access Layer，DAO层）
+    - 直接访问数据库的操作，原子性的操作【增删改查】
+    - 一般位于 xxx.dao 包内
+
+三层之间的关系示例
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210108084353250.png" alt="image-20210108084353250" style="zoom: 67%;" />
+
+
+
+三层架构和MVC的关系
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210108081315318.png" alt="image-20210108081315318" style="zoom:50%;" />
+
+jsp内置对象如何在servlet中获取？
+
+```java
+PrintWrite out = responce.getWrite(); // 获取out对象
+Session session = request.getSession(); // 获取session对象
+Application app = request.getServletContext(); // 获取application对象
+```
+
+
+
+
+
+<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210108081939431.png" alt="image-20210108081939431" style="zoom:50%;" />
+
+### MVC优化
+
+加入接口，为service、dao加入接口
 
 建议面向接口开发：先接口-再实现类
 
-​	--service、dao加入接口
+接口与实现类的命名规范
 
-​	--接口与实现类的命名规范
+- 接口：interface，	起名格式： `I实体类Service` 比如`IStudentService`、	`IStudentDao`	
 
-​		接口：interface，	起名   I实体类Service		IStudentService
+- 实现类：implements	起名格式  `实体类ServiceImpl` 比如`StudentServiceImpl`、`StudentDaoImpl`
 
-​						IStudentDao	
+- 接口所在的包：  xxx.service		xx.dao
 
-​		实现类：implements	起名   实体类ServiceImpl		StudentServiceImpl
+- 实现类：起名格式：`实体类层所在包名Impl` 比如：`StudentServiceImpl`、`StudentDaoImpl`
 
-​						StudentDaoImpl
+- 实现类所在的包：xxx.service.impl  xx.dao.impl
 
-​		接口：	I实体类层所在包名	IStudentService、IStudentDao	
+以后使用接口/实现类时，推荐写法：
 
-​			接口所在的包：  xxx.service		xx.dao
+接口 x = new 实现类();
 
+IStudentDao studentDao = new StudentDaoImpl();
 
-
-		实现类：	 实体类层所在包名Impl	StudentServiceImpl、StudentDaoImpl
-			实现类所在的包：xxx.service.impl		xx.dao.impl
-	
-	以后使用接口/实现类时，推荐写法：
-	接口 x = new 实现类();
-	IStudentDao studentDao = new StudentDaoImpl();
-
-2.DBUtil 通用的数据库帮助类，可以简化Dao层的代码量
-
-帮助类 一般建议写在  xxx.util包
-
-
-
-
-A
-{
-
-	a(){
-		B.connection
-	}
-}
-
-B
-{
-	static Connection connection =..
-	b{
-		
-	}
-}
+DBUtil 通用的数据库帮助类，可以简化Dao层的代码量，帮助类 一般建议写在  xxx.util包
 
 方法重构：  将多个方法 的共同代码 提炼出来，单独写在一个方法中，然后引入该方法即可
-a()
-{
-	..
-	c();
-	..
-	
-}
-
-b()
-{
-	..
-	c();
-	..
-}
 
 
-
-c()
-{
-		[..
-	..	
-	...		
-	..]
-}
-
-
-Web调试：
-与java代码的调试 区别：启动方式不同
-
-
-
-
-
-
-
-
+Web调试：与java代码的调试 区别：启动方式不同
 
 index.jsp ->index_jsp.java ->index_jsp.class 
 
@@ -1411,13 +1389,8 @@ ERROR：只拦截<error-page>发出的请求
 过滤器中doFilter方法参数：ServletRequest
 在Servlet中的方法参数：HttpServletRequest
 
-
 过滤器链
 可以配置多个过滤器，过滤器的先后顺序 是由 <filter-mapping>的位置 决定
-
-
-
-
 
 
 
