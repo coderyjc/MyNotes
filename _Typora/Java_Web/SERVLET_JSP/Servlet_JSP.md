@@ -777,17 +777,18 @@ init():
 
 ```xml
 <servlet>
-	...
+
   	<load-on-startup>1</load-on-startup>
 </servlet>			
 <!--其中的“1”代表第一个。-->
 ```
 
-		ii.Servlet3.0
+ii.Servlet3.0
 
 ```java
-@WebServlet( value="/WelcomeServlet" ,loadOnStartup=1  )
+	@WebServlet( value="/WelcomeServlet" ,loadOnStartup=1  )
 ```
+
 
 service() ->doGet()  doPost() ：调用几次，则执行几次
 
@@ -869,11 +870,11 @@ Application app = request.getServletContext(); // 获取application对象
 
 
 
-
-
 <img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210108081939431.png" alt="image-20210108081939431" style="zoom:50%;" />
 
 ### MVC优化
+
+源码见：`Learning\JavaWeb\Jsp&Servlet`
 
 加入接口，为service、dao加入接口
 
@@ -911,181 +912,78 @@ jsp翻译成的Java 以及编译后的class文件 存在于tomcat中的work目�
 
 
 
+**dao和DBUtil的区别：**
 
-10000
-
-分页：5变量（属性）
-
-1.数据总数 （select count(*) from xxx ，          查数据库）
-2.页面大小（页面容量，每页显示的数据条数）	（用户自定义）
-3.总页数  					 （自动计算）
-	800:10= 80页
-	总页数= 数据总数 /页面大小
-
-	802:10=  800/10 +1 ；
-	总页数= 数据总数 /页面大小 + 1;
-	
-	-->通式
-	总页数= 数据总数 % 页面大小==0 ?数据总数 /页面大小:数据总数 /页面大小 + 1;
-
-注意：自动计算的时机：当 数据总数 和 页面大小都被赋值以后，自动计算总页数。
-
-
-4.当前页码					（用户自定义）
-
-5.实体类对象集合（当前页的数据集合）：依赖于数据库	 (查数据库)
-	假设： 每页显示10条（页面大小=10）
-
-select * from student where id>=起始 and id<=终止;
-
-
-页数  		起止			起止等价写法
-1		1-10			(页数-1)*10+1-页数*10
-2		11-20
-3		21-30
-
-
-某一页的数据 起止：
-
-	(页数-1)*10+1-页数*10
-
-
-
-select * from student where sno>=(页数-1)*10+1 and sno<=页数*10;
-此种分页SQL 严格依赖sno的数据，  一旦sno出现了间隙（裂缝），则无法满足每页10条
-
-->将此SQL 转换： 1.有rownum  2不能有rownum>xx
-转换的核心：  将rownum从伪列 转换为 一个 临时表的 普通列。
-
-select *from 
-(
-	select rownum r,t.*from
-	(select s.* from student s order by sno asc) t   
-
-) where r>=(页数-1)*10+1 and r<=页数*10;			
-
-
-优化：
-
-select *from (
-	select rownum r,t.*from
-	(select s.* from student s order by sno asc) t
-	where 	 rownum<=页数*页面大小			
-
-) where  r>=(页数-1)*页面大小+1 	;				
-
-
-
-
-1
-2
-3
-
-6
-7
-8
-9
-
-...
-11
-12
-13
-..
-21
-22
-23
-..
-
-
-
-
-
-​	
-
-​	
-
-dao和DBUtil的区别：
 dao 是处理特定 类的 数据库操作类：
+
 DBUtil是通用  数据库操作类
 
 
-1分页
+
+#### 分页
+
 要实现分页，必须知道  某一页的 数据 从哪里开始 到哪里结束
 
 页面大小：每页显示的数据量
 
 假设每页显示10条数据
 
+
+
 mysql分页：
-mysql:从0开始计数
-0		0		9
-1		10		19
-2		20		29
-n		n*10	      (n+1)*10-1
 
+**mysql : 从0开始计数**
 
-
-结论：
 分页：
-	第n页的数据：  第(n-1)*10+1条  -- 第n*10条
+
+第n页的数据：  第(n - 1) * 10 + 1条  -- 第n * 10条
 
 MYSQL实现分页的sql：
+
 limit  开始,多少条
-第0页
+
+```sql
+-- 第0页
 select * from student limit 0,10 ;
-第1页
+-- 第1页
 select * from student limit 10,10 ;
-第2页
+-- 第2页
 select * from student limit  20,10 ;
-第n页
+-- 第n页
 select * from student limit n*10,10
+```
 
 mysql的分页语句：
 
 select * from student limit 页数*页面大小,页面大小
 
 
-b.oracle分页：
 
-sqlserver/oracle:从1开始计数
-第n页		开始		结束
-1		1		10
-2		11		20
-3		21		30
-n		(n-1)*10+1	n*10
 
-select *from student  where sno >=(n-1)*10+1 and sno <=n*10 ;  --此种写法的前提：必须是Id连续 ，否则 无法满足每页显示10条数据
+oracle分页：
 
+**sqlserver/oracle:从1开始计数**
+
+```sql
+select *from student  where sno >=(n-1)*10+1 and sno <=n*10 ; 
+-- 此种写法的前提：必须是Id连续 ，否则 无法满足每页显示10条数据
 
 select rownum,t.*from student t where rownum >=(n-1)*10+1 and rownum <=n*10  order by sno;
 --1.如果根据sno排序则rownum会混乱（解决方案：分开使用->先只排序，再只查询rownum） 2.rownum不能查询>的数据 
 
-select s.* from student s order by sno asc;
+-- ORACLE\sqlserver都是从1开始计数：  (n-1)*10+1    ---  n*10 
 
+-- 【最终版本】优化：
 
-select rownum, t.* from
-(select s.* from student s order by sno asc) t 
-where rownum >=(n-1)*10+1 and rownum <=n*10 ; ;
-
-
-//ORACLE\sqlserver都是从1开始计数：  (n-1)*10+1    ---  n*10 
-oracle的分页查询语句：
-select *from 
-(
-	select rownum r, t.* from
-	(select s.* from student s order by sno asc) t 		10000
-)
-where r>=(n-1)*10+1 and <=n*10  ;				10
-
-优化：
-
-select *from 
+select * from 
 (
 	select rownum r, t.* from
 	(select s.* from student s order by sno asc) t 		
 	where rownum<=n*10 
 )
-where r>=(n-1)*10+1  ;	
+where r>=(n - 1) * 10 + 1;
+
+-- 也就是说
 
 select *from 
 (
@@ -1093,121 +991,85 @@ select *from
 	(select s.* from student s order by sno asc) t 		
 	where  rownum<=页数*页面大小 
 )
-where r>=(页数-1)*页面大小+1  ;	
+
+where r >= (页数-1)*页面大小+1  ;	
+```
+
 
 
 SQLServer分页：  3种分页sql
+
 row_number()	over(字段) ;
 
+```sql
 sqlserver2003:top  --此种分页SQL存在弊端（如果id值不连续，则不能保证每页数据量相等）
+
 select top 页面大小 * from student where id not in 
 ( select top (页数-1)*页面大小 id from student  order by sno asc )
 
 
-
 sqlserver2005之后支持：
-select *from 
+
+select * from 
 (
-	select row_number()  over (sno order by sno asc) as r,* from student
-			
-
-	 where r<=n*10 
+select row_number()  over (sno order by sno asc) as r, * from student
+where r<=n*10 
 )
-where r>=(n-1)*10+1 and  ;	
+where r>=(n-1) *10+1 and  ;	
 
-SQLServer此种分页sql与oralce分页sql的区别： 1.rownum  ，row_number()    2.oracle需要排序（为了排序，单独写了一个子查询），但是在sqlserver 中可以省略该排序的子查询  因为sqlserver中可以通过over直接排序
+-- SQLServer此种分页sql与oralce分页sql的区别： 
+-- 1.rownum  ，row_number()   
+-- 2.oracle需要排序（为了排序，单独写了一个子查询），但是在sqlserver 中可以省略该排序的子查询  因为sqlserver中可以通过over直接排序
 
-
-sqlserver2012之后支持：	
-offset fetch next only
-
+-- sqlserver2012之后支持：offset fetch next only
 
 select * from student  oreder by sno 
 offset (页数-1)*页面大小+1  rows fetch next 页面大小  rows only ;
+```
 
-
-
-
-(n-1)*10+1    ---  n*10 
-
-mysql从0开始计数，Oracle/sqlserver 从1开始计数
-
-
-1
-2
-3
-4
-6
-8
-9
-10
-
-11
-12
-...
-20
-
-
-21
-22
-..
-31
-
-分页实现：
-5个变量（属性）			
-1.数据总数	100	103					（查数据库,select count(*)..）									
-2.页面大小（每页显示的数据条数）20				  (用户自定义)
-3.总页数 							 （程序自动计算）
-	总页数 = 100/20  =数据总数/页面大小
-	总页数 = 103/20 = 数据总数/页面大小+1
-	--->
-	总页数 = 数据总数%页面大小==0? 数据总数/页面大小:数据总数/页面大小+1 ;
-
-
-4.当前页（页码）							  （用户自定义）								
-5.当前页的对象集合（实体类集合）：每页所显示的所有数据 （10个人信息）
-List<Student>							   (查数据库,分页sql)	
-		
-
-​	
-
-
-
-
-
-2表单重复提交
-
+## 5. 上传与下载
 
 1.上传文件
+
 a.引入2个jar
-   apache: commons-fileupload.jar组件
-	commons-fileupload.jar依赖 commons-io.jar
+
+apache: commons-fileupload.jar组件
+
+commons-fileupload.jar依赖 commons-io.jar
+
+
 
 b.
+
 代码：
+
 前台jsp：
-	<input type="file"  name="spicture"/>
-	表单提交方式必须为post
-	在表单中必须增加一个属性 entype="multipart/form-data"
+
+< input type="file"  name="spicture"/ >
+
+表单提交方式**必须为post**
+
+在表单中必须增加一个属性 **entype="multipart/form-data"**
 
 后台servlet：
 	
 
 注意的问题：
-	上传的目录  upload ：
-	1.如果修改代码，则在tomcat重新启动时 会被删除
-		原因：当修改代码的时候,tomcat会重新编译一份class 并且重新部署（重新创建各种目录）
+
+上传的目录  upload ：
+
+1.如果修改代码，则在tomcat重新启动时会被删除
+
+原因：当修改代码的时候,tomcat会重新编译一份class 并且重新部署（重新创建各种目录）
 	
-	2.如果不修改代码，则不会删除
-		原因： 没有修改代码，class仍然是之前的class
+
+2.如果不修改代码，则不会删除
+原因： 没有修改代码，class仍然是之前的class
 
 因此，为了防止 上传目录丢失： a.虚拟路径	b.直接更换上传目录 到非tomcat目录
 
-
-限制上传：
-	类型、
-	大小
-	注意 对文件的限制条件 写再parseRequest之前
+限制上传：类型、大小
+注意 对文件的限制条件 写再parseRequest之前
 
 
 2.下载：不需要依赖任何jar	
@@ -1268,11 +1130,9 @@ ${requestScope.arr[0] }
 
 通过EL获取JSP  九大内置对象
 
-
 ${pageContext }
 ${pageContext.request }
 ${pageContext.sessoin }
-
 
 
 
@@ -1287,7 +1147,7 @@ JSTL：比EL更加强大
 核心标签库：  通用标签库、条件标签库  迭代标签库
 
 a.通用标签库
-<c:set>赋值
+< c:set >赋值
 i:
 在某个作用域之中（4个范围对象），给某个变量赋值
 	<%-- 
@@ -1344,7 +1204,6 @@ if else if... esle if... else  /switch
 在使用 test="" 一定要注意后面是否有空格
 例如：test="${10>2 }"   true
      test="${10>2 } "  非true
-
 
 循环（迭代标签库）
 for(int i=0;i<5;i++)
