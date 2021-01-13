@@ -308,12 +308,10 @@ js中的变量都是保存在栈中的，但是对象是保存在堆中的，保
 
 ```javascript
 var obj2 = {
-		
 		name:"猪八戒",
 		age:13,
 		gender:"男",
 		test:{name:"沙僧"}
-		
 	};
 ```
 
