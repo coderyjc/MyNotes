@@ -24,13 +24,9 @@ JS代码需要编写到script标签中，这个标签有一个type属性，默�
 ### 输出语句
 
 ```javascript
-        
 alert("Hello World！"); //发出提醒
-
 document.write("Hello DOCUMENT"); //作用：向body中输出内容
-
 console.log("Hello CONSOLE"); //向控制台输出内容
-
 ```
 
 ### js 代码编写位置
@@ -48,6 +44,7 @@ console.log("Hello CONSOLE"); //向控制台输出内容
     <a href="javascript:alert('让你点你就点啊？');">
         你也点我一下
     </a>
+
     <a href="javascript:;">
         点我一下
     </a>
@@ -65,8 +62,7 @@ console.log("Hello CONSOLE"); //向控制台输出内容
 // Test.js
 	alert('Hello World');
 // Test.html
-    <script src="js/Test.js">
-    </script>
+    <script src="js/Test.js"></script>
 ```
 
 注释：
@@ -129,7 +125,7 @@ String:
 
 Number
 
-- js中所有数值都是Number类型，包括整数和
+- js中所有数值都是Number类型，包括整数和浮点数
 - 如果表示的数字超过了最大值，则显示为Infinity
 - 如果不是一个数字，则返回 NaN （not a number）
 - 使用 typeof 检查 Infinity或者NaN 也会返回number
@@ -198,12 +194,12 @@ Number
 	4.undefined 为 NaN
 	
 2. parseInt()函数和 parseFloat()函数 专门用来对付字符串
-  - 遇到第一个不是数字的时候停止
-  - parseInt 有第二个参数，表示转换为多少进制的数字
+  	- 遇到第一个不是数字的时候停止
+ 	- parseInt 有第二个参数，表示转换为多少进制的数字
 
 3. 调用Boolean()函数来将a转换为布尔值
-  - 数字转换为布尔型，除了0和NaN，其他的都是true，字符串转换为bool，除了空串，其他都是true
-  - 对象也是true
+	- 数字转换为布尔型，除了0和NaN，其他的都是true，字符串转换为bool，除了空串，其他都是true
+	- 对象也是true
 
 在js中，如果需要表示16进制的数字，则需要以0x开头如果需要表示8进制的数字，则需要以0开头如果要要表示2进制的数字，则需要以0b开头但是不是所有的浏览器都支持，像"070"这种字符串，有些浏览器会当成8进制解析，有些会当成10进制解析
 
@@ -270,7 +266,7 @@ Js中的数据类型：String, Number, Boolean, Null, Undefined
 
 对对象的基本操作
 
-- 对象中的保存的值称为属性，属性可以是任意类型，包括对象
+- 对象中的保存的值称为属性，属性可以是任意类型，包括对象，也可以是个函数
 
 - 向对象中添加属性，语法：`对象.属性名 = 属性值；`
 
@@ -280,12 +276,16 @@ Js中的数据类型：String, Number, Boolean, Null, Undefined
 - 删除对象的属性，语法：`delete 对象.属性名`
 
 ```javascript
-	var obj = new Object();
-	obj.name = "java"; //添加属性
-	obj.name = "c++++"; //修改属性
-	obj["name"] = "c-"; //修改属性
-	alert("I am " + obj.name);//调用
-	delete obj.name; //删除属性
+        var obj = new Object();
+        obj.name = "java"; //添加属性
+        obj.name = "c++++"; //修改属性
+        obj["name"] = "c-"; //修改属性
+        alert("I am " + obj.name);//调用
+        obj.objAdd = function(num1, num2){
+            return num1 + num2;
+        }
+        alert(obj.objAdd(1, 90));
+        delete obj.name; //删除属性
 ```
 
 in 运算符：检查一个对象中是否含有指定的属性，有就返回true，否则返回false；语法：`"属性名" in 对象`
@@ -297,8 +297,6 @@ in 运算符：检查一个对象中是否含有指定的属性，有就返回tr
 js中的变量都是保存在栈中的，但是对象是保存在堆中的，保存的都是引用
 
 当比较两个基本数据类型的时候是比较值，但是在比较两个引用数据类型的时候，比较的是对象的内存地址，即使两个对象的内容都一样，只要地址不一样，还是会返回false
-
-
 
 使用对象字面量创建对象：
 
@@ -316,4 +314,147 @@ var obj2 = {
 ```
 
 ### 函数
+
+#### 函数的创建
+
+函数也是对象，而且  `typeof 函数 = function`
+
+```javascript
+        // 将代码以字符串的形式传递给对象(函数表达式)
+        var fun = new Function("document.write('Hello World!<br/>');");
+        fun();
+
+        // 以函数声明的方式创建一个函数
+        function HelloFunction(){
+            document.write("Hello World!<br/>");
+        }
+        HelloFunction();
+
+        // 创建匿名函数(函数表达式)
+        var fun2 = function(){
+            document.write("Hello World!<br/>")
+        }
+        fun2();
+```
+
+含参数的函数的声明：
+
+```javascript
+        function sum(a, b){
+            return a + b;
+        }
+        alert(sum(234, 34));
+```
+
+调用函数时解析器**不会检查实参的类型**,所以要注意，是否有可能会接收到非法的参数，如果有可能则需要对参数进行类型的检查函数的实参可以是任意的数据类型
+
+调用函数时，解析器也**不会检查实参的数量**, 多余实参不会被赋值如果实参的数量少于形参的数量，则没有对应实参的形参将是undefined
+
+函数中不写return，会返回undefined
+
+声明完毕立即执行的函数：
+
+```javascript
+        (function(a, b){
+            alert("a + b = " + (a + b));
+        })(32, 48);
+```
+
+枚举对象中的属性
+
+```javascript
+        var student = {
+            name:'张三',
+            age:23,
+            email:'zhangsan@qq.com', 
+            address:'Beijing China'
+        }
+
+        /**
+         * 注意: 只是枚举函数的变量的属性名，每一次遍历都会按照变量声明的顺序将变量名赋值给vars 
+         * 想要取出其中的属性，应该用[]取出
+         */
+        for(var vars in student){
+            console.log(vars + student[vars]);
+        }
+```
+
+#### 作用域
+
+作用域指一个变量的作用的范围
+
+在JS中一共有两种作用域：
+
+全局作用域 和 函数作用域
+
+全局作用域：
+
+- 直接编写在script标签中的JS代码，都在全局作用域
+
+- 全局作用域在页面打开时创建，在页面关闭时销毁
+- 在全局作用域中有一个全局对象window，它代表的是一个浏览器的窗口，它由浏览器创建我们可以直接使用
+- 在全局作用域中：创建的变量都会作为window对象的属性保存; 创建的函数都会作为window对象的方法保存
+- 全局作用域中的变量都是全局变量，在页面的任意的部分都可以访问的到
+
+函数作用域：
+
+- 调用函数时创建函数作用域，函数执行完毕以后，函数作用域销毁
+- 每调用一次函数就会创建一个新的函数作用域，他们之间是互相独立的
+- 在函数作用域中可以访问到全局作用域的变量，在全局作用域中无法访问到函数作用域的变量
+- 当在函数作用域操作一个变量时，它会先在自身作用域中寻找，如果有就直接使用，如果没有则向上一级作用域中寻找，直到找到全局作用域，如果全局作用域中依然没有找到，则会报错ReferenceError
+- 在函数中要访问全局变量可以使用window对象
+- 在函数作用域也有声明提前的特性，使用var关键字声明的变量，会在函数中所有的代码执行之前被声明，函数声明也会在函数中所有的代码执行之前执行
+- 在函数中，不使用var声明的变量都会成为全局变量
+
+变量声明提前：
+
+变量的声明提前: 使用var关键字声明的变量，会在所有的代码执行之前被声明（但是不会赋值，如果这时候输出，会显示undefined），但是如果声明变量时不适用var关键字，则变量不会被声明提前
+
+函数的声明提前: 使用函数声明形式创建的函数 function 函数(){}它会在所有的代码执行之前就被创建，所以我们可以在函数声明前来调用函数, 使用函数表达式创建的函数，不会被声明提前，所以不能在声明前调用	
+
+```javascript
+			//函数声明，会被提前创建
+			function fun(){
+				console.log("我是一个fun函数");
+			}
+			
+			//函数表达式，不会被提前创建
+			var fun2 = function(){
+				console.log("我是fun2函数");
+			};
+```
+
+#### this
+
+解析器在调用函数每次都会向函数内部传递进一个隐含的参数,这个隐含的参数就是this，this指向的是一个对象，	这个对象我们称为函数执行的 上下文对象，根据函数的调用方式的不同，this会指向不同的对象
+
+1.以函数的形式调用时，this永远都是window
+
+2.以方法的形式调用时，this就是调用方法的那个对象
+
+```javascript
+        this.name = 'windows!!'
+
+        function fun(){
+            console.log(this.name);
+        }
+        
+        var sun = {
+            name:'sun',
+            getName: fun
+        }
+        
+        sun.getName();
+        fun();
+        
+        //控制台输出结果为 : sun windows!!
+```
+
+
+
+#### 构造函数
+
+
+
+
 
