@@ -762,3 +762,160 @@ test() 使用这个方法可以用来检查一个字符串是否符合正则表�
 正则表达式的相关内容查看 `正则表达式.pdf`
 
 ## DOM
+
+### 概念
+
+DOM，全称Document Object Model文档对象模型。以面向对象的方式操作网页。
+
+- 文档 – 文档表示的就是整个的HTML网页文档
+
+- 对象 – 对象表示将网页中的每一个部分都转换为了一个对象。
+
+- 模型 – 使用模型来表示对象之间的关系，这样方便我们获取对象。
+
+节点：Node——构成HTML文档最基本的单元
+
+常见节点:
+
+- 文档节点：整个HTML文档
+
+- 元素节点：HTML文档中的HTML标签 
+
+- 属性节点：元素的属性
+
+- 文本节点：HTML标签中的文本内容
+
+<img src="D:\GITHUB\MyNotes\_Typora\Front_End\JavaScript\JavaScript.imgs\image-20210116082739708.png" alt="image-20210116082739708" style="zoom:50%;" />
+
+节点的属性：
+
+|          | nodeName  | nodeType | nodeValue |
+| -------- | --------- | -------- | --------- |
+| 文档节点 | #document | 9        | null      |
+| 元素节点 | 标签名    | 1        | null      |
+| 属性节点 | 属性名    | 2        | 属性值    |
+| 文本节点 | #text     | 3        | 文本内容  |
+
+document对象作为window对象的属性存在的，我们不用获取可以直接使用。通过该对象我们可以在整个文档访问内查找节 点对象，并可以通过该对象创建各种节点对象。
+
+举例：通过id获取一个元素节点的对象：`– document.getElementById()`
+
+### 事件处理
+
+事件处理有两种方法
+
+1. 我们可以在事件对应的属性中设置一些js代码，比如`<button id="btn" onclick="alert('点我干嘛？');">我是一个按钮</button>`这样当事件被触发时，这些代码将会执行这种写法我们称为结构和行为耦合，不方便维护，**不推荐使用**。
+2. 可以为按钮的对应事件绑定处理函数的形式来响应事件这样当事件被触发时，其对应的函数将会被调用
+
+```html
+	<button id="btn">我是一个按钮</button>
+	<script type="text/javascript">
+
+		//获取按钮对象
+		var btn = document.getElementById("btn");
+		
+		//绑定一个单击事件，像这种为单击事件绑定的函数，我们称为单击响应函数
+		btn.onclick = function(){
+			alert("你还点~~~");
+		};
+	</script>
+```
+
+注意：
+
+浏览器在加载一个页面时，是按照自上向下的顺序加载的，读取到一行就运行一行,如果将script标签写到页面的上边，在代码执行时，页面还没有加载，页面没有加载DOM对象也没有加载会导致无法获取到DOM对象
+
+如何在写到上面的同时使其在页面加载完之后执行？
+
+onload事件会在整个页面加载完成之后才触发, 为window绑定一个onload事件该事件对应的响应函数将会在页面加载完成之后执行，这样可以确保我们的代码执行时所有的DOM对象已经加载完毕了。
+
+```javascript
+	window.onload = function(){
+		//获取id为btn的按钮
+		var btn = document.getElementById("btn");
+		//为按钮绑定一个单击响应函数
+		btn.onclick = function(){
+			alert("hello");
+		};
+	};
+```
+
+### 元素节点和属性
+
+获取元素节点：
+
+通过document对象调用
+
+```javascript
+// 通过id属性获取一个元素节点对象
+var node1 = document.getElementById();
+
+//通过标签名获取一组元素节点对象
+var node2 = document.getElementsByTagName();
+
+//通过name属性获取一组元素节点对象
+var node3 = document.getElementsByName();
+```
+
+获取元素节点的子节点：
+
+通过具体的元素节点调用。
+
+```javascript
+//方法，返回当前节点的指定标签名后代节点
+getElementsByTagName()
+
+//属性，表示当前节点的所有子节点
+childNodes
+
+//属性，表示当前节点的第一个子节点
+firstChild
+
+//属性，表示当前节点的最后一个子节点
+lastChild
+```
+
+注意:
+
+childNodes属性会获取包括文本节点在内的所有节点，根据DOM标签标签间空白也会当成文本节点。注意：在IE8及以下的浏览器中，不会将空白文本当成子节点，所以该属性在IE8中会返回4个子元素而其他浏览器是9个
+
+firstElementChild不支持IE8及以下的浏览器，如果需要兼容他们尽量不要使用
+
+
+
+获取父节点和兄弟节点：
+
+通过具体节点调用
+
+```javascript
+//属性，表示当前节点的父节点
+parentNode
+
+//属性，表示当前节点的前一个兄弟节点
+previousSibling
+
+//属性，表示当前节点的后一个兄弟节点
+nextSibling
+```
+
+元素节点的属性
+
+```javascript
+//--------------获取-----------
+element.value
+element.id
+element.className
+
+//--------------修改------------
+element.value = “hello”
+element.id = “id01”
+element.className = “newClass”
+```
+
+文本框的value属性值，就是文本框中填写的内容
+
+文本节点可以通过nodeValue属性获取和设置文本节点的内容
+
+元素节点通过innerHTML属性获取和设置标签内部的 html代码
+
+innerText属性可以获取到元素内部的文本内容，它和innerHTML类似，不同的是它会自动将html去除
