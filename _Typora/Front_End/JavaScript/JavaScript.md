@@ -840,7 +840,7 @@ onload事件会在整个页面加载完成之后才触发, 为window绑定一个
 	};
 ```
 
-### 元素节点和属性
+### DOM查询
 
 获取元素节点：
 
@@ -919,3 +919,475 @@ element.className = “newClass”
 元素节点通过innerHTML属性获取和设置标签内部的 html代码
 
 innerText属性可以获取到元素内部的文本内容，它和innerHTML类似，不同的是它会自动将html去除
+
+为指定元素绑定单击响应函数的快捷方法：函数
+
+```javascript
+	/*
+	 * 定义一个函数，专门用来为指定元素绑定单击响应函数
+	 * 	参数：
+	 * 		idStr 要绑定单击响应函数的对象的id属性值
+	 * 		fun 事件的回调函数，当单击元素时，该函数将会被触发
+	 */
+	function myClick(idStr , fun){
+		var btn = document.getElementById(idStr);
+		btn.onclick = fun;
+	}
+	
+	//为id为btn07的按钮绑定一个单击响应函数
+	myClick("btn07",function(){
+		//获取id为bj的节点
+		var bj = document.getElementById("bj");
+		//返回#bj的父节点
+		var pn = bj.parentNode;
+		alert(pn.innerHTML);	
+	});
+
+```
+
+多选框的选中状态是元素的属性，值为布尔类型，通过设置checked属性可以设置选中和未选中。在事件的响应函数中，响应函数是给谁绑定的this就是谁。
+
+
+
+```javascript
+	//在document中有一个属性body，它保存的是body的引用
+	var body = document.body;
+	
+	//document.documentElement保存的是html根标签
+	var html = document.documentElement;
+	
+	//document.all代表页面中所有的元素
+	var all = document.all;
+```
+
+class的选择
+
+根据元素的class属性值查询一组元素节点对象： getElementsByClassName()可以根据class属性值获取一组元素节点对象，但是该方法不支持IE8及以下的浏览器
+
+`document.querySelector()`
+
+- 需要一个选择器的字符串作为参数，可以根据一个CSS选择器来查询一个元素节点对象
+- 虽然IE8中没有getElementsByClassName()但是可以使用querySelector()代替
+- 使用该方法总会返回唯一的一个元素，如果满足条件的元素有多个，那么它只会返回第一个
+- 举例`var div = document.querySelector(".box1 div");`
+
+`document.querySelectorAll()`
+
+- 该方法和querySelector()用法类似，不同的是它会将符合条件的元素封装到一个数组中返回
+- 即使符合条件的元素只有一个，它也会返回数组
+- 举例`box1 = document.querySelectorAll("#box2");`
+
+
+
+### DOM对元素的增删改
+
+`document.createElement()`可以用于创建一个元素节点对象，它需要一个标签名作为参数，将会根据该标签名创建元素节点对象，并将创建好的对象作为返回值返回
+
+`document.createTextNode()`可以用来创建一个文本节点对象，需要一个文本内容作为参数，将会根据该内容创建文本节点，并将新的节点返回
+
+`appendChild()`用于向一个父节点中添加一个新的子节点，用法：父节点.appendChild(子节点);
+
+`insertBefore()`可以在指定的子节点前插入新的子节点.语法，父节点.insertBefore(新节点对象, 子节点对象);
+
+`replaceChild()`可以使用指定的子节点替换已有的子节点，语法：父节点.replaceChild(新节点,旧节点);
+
+`removeChild()`删除一个子节点，语法：父节点.removeChild(子节点);子节点.parentNode.removeChild(子节点);
+
+注意:使用innerHTML也可以完成DOM的增删改的相关操作，一般我们会两种方式结合使用
+
+```javascript
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>添加删除记录练习</title>
+		<link rel="stylesheet" type="text/css" href="ex_2_style/css.css" />
+		<script type="text/javascript">
+		
+			/*
+			 * 删除tr的响应函数
+			 */
+			function delA() {
+
+				//点击超链接以后需要删除超链接所在的那行
+				//这里我们点击那个超链接this就是谁
+				//获取当前tr
+				var tr = this.parentNode.parentNode;
+
+				//获取要删除的员工的名字
+				//var name = tr.getElementsByTagName("td")[0].innerHTML;
+				var name = tr.children[0].innerHTML;
+
+				//删除之前弹出一个提示框
+				/*
+				 * confirm()用于弹出一个带有确认和取消按钮的提示框
+				 * 	需要一个字符串作为参数，该字符串将会作为提示文字显示出来
+				 * 如果用户点击确认则会返回true，如果点击取消则返回false
+				 */
+				var flag = confirm("确认删除" + name + "吗?");
+
+				//如果用户点击确认
+				if(flag) {
+					//删除tr
+					tr.parentNode.removeChild(tr);
+				}
+
+				/*
+				 * 点击超链接以后，超链接会跳转页面，这个是超链接的默认行为，
+				 * 	但是此时我们不希望出现默认行为，可以通过在响应函数的最后return false来取消默认行为
+				 */
+				return false;
+			};
+
+			window.onload = function() {
+
+				/*
+				 * 点击超链接以后，删除一个员工的信息
+				 */
+
+				//获取所有额超链接
+				var allA = document.getElementsByTagName("a");
+
+				//为每个超链接都绑定一个单击响应函数
+				for(var i = 0; i < allA.length; i++) {
+					allA[i].onclick = delA;
+				}
+
+				/*
+				 * 添加员工的功能
+				 * 	- 点击按钮以后，将员工的信息添加到表格中
+				 */
+
+				//为提交按钮绑定一个单击响应函数
+				var addEmpButton = document.getElementById("addEmpButton");
+				addEmpButton.onclick = function() {
+
+					//获取用户添加的员工信息
+					//获取员工的名字
+					var name = document.getElementById("empName").value;
+					//获取员工的email和salary
+					var email = document.getElementById("email").value;
+					var salary = document.getElementById("salary").value;
+
+					//需要将获取到的信息保存到tr中
+
+					//创建一个tr
+					var tr = document.createElement("tr");
+
+					//设置tr中的内容
+					tr.innerHTML = "<td>"+name+"</td>"+
+									"<td>"+email+"</td>"+
+									"<td>"+salary+"</td>"+
+									"<td><a href='javascript:;'>Delete</a></td>";
+									
+					//获取刚刚添加的a元素，并为其绑定单击响应函数				
+					var a = tr.getElementsByTagName("a")[0];
+					a.onclick = delA;
+					
+					//获取table
+					var employeeTable = document.getElementById("employeeTable");
+					//获取employeeTable中的tbody
+					var tbody = employeeTable.getElementsByTagName("tbody")[0];
+					//将tr添加到tbodye中
+					tbody.appendChild(tr);
+				};
+
+			};
+		</script>
+	</head>
+
+	<body>
+
+		<table id="employeeTable">
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Salary</th>
+				<th>&nbsp;</th>
+			</tr>
+			<tr>
+				<td>Tom</td>
+				<td>tom@tom.com</td>
+				<td>5000</td>
+				<td>
+					<a href="javascript:;">Delete</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Jerry</td>
+				<td>jerry@sohu.com</td>
+				<td>8000</td>
+				<td>
+					<a href="deleteEmp?id=002">Delete</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Bob</td>
+				<td>bob@tom.com</td>
+				<td>10000</td>
+				<td>
+					<a href="deleteEmp?id=003">Delete</a>
+				</td>
+			</tr>
+		</table>
+
+		<div id="formDiv">
+
+			<h4>添加新员工</h4>
+
+			<table>
+				<tr>
+					<td class="word">name: </td>
+					<td class="inp">
+						<input type="text" name="empName" id="empName" />
+					</td>
+				</tr>
+				<tr>
+					<td class="word">email: </td>
+					<td class="inp">
+						<input type="text" name="email" id="email" />
+					</td>
+				</tr>
+				<tr>
+					<td class="word">salary: </td>
+					<td class="inp">
+						<input type="text" name="salary" id="salary" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<button id="addEmpButton">
+						Submit
+					</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
+```
+
+
+
+
+### DOM操作CSS
+
+`元素.style.样式名 = 样式值`, 通过JS修改元素的样式：注意：如果CSS的样式名中含有-，这种名称在JS中是不合法的比如background-color需要将这种样式名修改为驼峰命名法，也就是去掉-，然后将-后的字母大写. 我们通过style属性设置的样式都是内联样式，而内联样式有较高的优先级，所以通过JS修改的样式往往会立即显示, 但是如果在样式中写了!important，则此时样式会有最高的优先级，即使通过JS也不能覆盖该样式，此时将会导致JS修改样式失效,	所以尽量不要为样式添加!important, 通过style属性设置和读取的都是内联样式,无法读取样式表中的样式
+
+`元素.currentStyle.样式名`, 获取元素的当前显示的样式。**currentStyle只有IE浏览器支持**，其他的浏览器都不支持。它可以用来读取当前元素正在显示的样式, 如果当前元素没有设置该样式，则获取它的默认值
+
+`window.getComputedStyle(box1,null).backgroundColor`, 在其他浏览器中可以使用,getComputedStyle()这个方法来获取元素当前的样式；需要两个参数: 第一个：要获取样式的元素; 第二个：可以传递一个伪元素，一般都传null。 该方法会返回一个对象，对象中封装了当前元素对应的样式,可以通过对象.样式名来读取样式,如果获取的样式没有设置，则会获取到真实的值，而不是默认值比如：没有设置width，它不会获取到auto，而是一个长度; 但是该方法不支持IE8及以下的浏览器, 通过currentStyle和getComputedStyle()读取到的样式都是只读的，不能修改，如果要修改必须通过style属性
+
+定义一个函数，用来获取指定元素的当前的样式
+
+```javascript
+	//obj 要获取样式的元素
+	//name 要获取的样式名
+	function getStyle(obj , name){
+		//正常浏览器的方式，具有getComputedStyle()方法
+		//IE8的方式，没有getComputedStyle()方法
+		return window.getComputedStyle ? getComputedStyle(obj , null)[name] : obj.currentStyle[name];
+	}
+```
+
+clientWidth/clientHeight
+- 这两个属性可以获取元素的可见宽度和高度
+- 这些属性都是不带px的，返回都是一个数字，可以直接进行计算
+- 会获取元素宽度和高度，包括内容区和内边距
+- 这些属性都是只读的，不能修改
+
+offsetWidth/offsetHeight
+- 获取元素的整个的宽度和高度，包括内容区、内边距和边框
+
+offsetParent
+- 可以用来获取当前元素的定位父元素
+- 会获取到离当前元素最近的开启了定位的祖先元素,如果所有的祖先元素都没有开启定位，则返回body
+
+offsetLeft
+- 当前元素相对于其定位父元素的水平偏移量
+offsetTop
+- 当前元素相对于其定位父元素的垂直偏移量
+
+scrollWidth/scrollHeight
+- 可以获取元素整个滚动区域的宽度和高度
+
+scrollLeft
+- 可以获取水平滚动条滚动的距离
+scrollTop
+- 可以获取垂直滚动条滚动的距离
+
+
+## 事件
+
+### 事件对象
+
+事件对象：在DOM对象上的某个事件被触发时，会产生一个事件对象Event，这个对象中包含着所有事件有关的信息。包括导致事件的元素、事件的类型以及其他与特定事件相关的信息。
+
+例如，鼠标操作导致的事件对象中，会包含鼠标位置的信息，而键盘操作导致的事件对象中，会包含与按下的键有关的信息。所有浏览器都支持 event对象，但支持方式不同。
+
+DOM标准的浏览器会将一个event对象传入到事件的处理程序当中。无论事件处理程序是什么都会传入一个event对象。Event对象包含与创建它的特定事件有关的属性和方法。触发的事件类型不一样，可用的属性和方法也不一样。
+
+事件的发生主要是由用户操作引起的。,比如mousemove这个事件就是由于用户移动鼠标引起的，在鼠标指针移动的过程中该事件会持续发生。当指定事件被触发时，浏览器就会调用对应的函数去响应事件，一般情况下事件没触发一次，函数就会执行一次。因此设置鼠标移动的事件可能会影响到鼠标的移动速度。所以设置该类事件时一定要谨慎。
+
+<img src="JavaScript.imgs\image-20210118085815422.png" alt="image-20210118085815422" style="zoom:67%;" />
+
+<img src="D:\GITHUB\MyNotes\_Typora\Front_End\JavaScript\JavaScript.imgs\image-20210118100137806.png" alt="image-20210118100137806" style="zoom:67%;" />
+
+
+
+获取方式：
+```javascript
+	// 向其中传入一个event参数
+	btn.onclick = function(event){
+		alert(event.type);
+	};
+```
+
+当鼠标在areaDiv中移动时，在showMsg中来显示鼠标的坐标
+
+```javascript
+	/*
+	 * onmousemove - 该事件将会在鼠标在元素中移动时被触发
+	 * 事件对象 - 当事件的响应函数被触发时，浏览器每次都会将一个事件对象作为实参传递进响应函数,在事件对象中封装了当前事件相关的一切信息，比如：鼠标的坐标键盘哪个按键被按下鼠标滚轮滚动的方向。
+	 */
+	areaDiv.onmousemove = function(event){
+		// 在IE8中，响应函数被触发时，浏览器不会传递事件对象，在IE8及以下的浏览器中，是将事件对象作为window对象的属性保存的
+		//解决事件对象的兼容性问题
+		event = event || window.event;
+		// clientX/cilentY可以获取鼠标指针的水平和垂直坐标
+		var x = event.clientX;
+		var y = event.clientY;
+	};
+```
+
+
+### 事件冒泡
+
+事件的冒泡（Bubble）
+- 所谓的冒泡指的就是事件的向上传导，当后代元素上的事件被触发时，其祖先元素的相同事件也会被触发
+- 在开发中大部分情况冒泡都是有用的,如果不希望发生事件冒泡可以通过事件对象来取消冒泡
+
+`event.cancelBubble = true;`可以将事件对象的cancelBubble设置为true，即可取消冒泡
+
+事件的传播流程
+
+<img src="D:\GITHUB\MyNotes\_Typora\Front_End\JavaScript\JavaScript.imgs\image-20210118100758900.png" alt="image-20210118100758900" style="zoom:67%;" />
+
+捕获阶段 – 这一阶段会从window对象开始向下一直遍历到目标对象，如果发现有对 象绑定了响应事件则做相应的处理。
+
+目标阶段 – 这一阶段已经遍历结束，则会执行目标对象上绑定的响应函数。 
+
+事件冒泡阶段 – 这一阶段，事件的传播方式和捕获阶段正好相反，会从事件目标一直向遍历，直至window对象结束，这时对象上绑定的响应函数也会执行
+
+我们可以使用event对象的两个方法完成： – stopPropagation() – stopImmediatePropagation() 
+
+取消默认行为： – preventDefault()
+
+
+
+
+
+
+## BOM
+
+BOM将浏览器中的各个部分转换成了一个一个的对象，我们通过修改这些对象的属性，调用他们的方法，从而控制浏览器的各种行为。
+
+### window对象
+
+window对象是BOM的核心，它表示一个浏览器的实例。在浏览器中我们可以通过window对象来访问操作浏览器，同时window也是作为全局对象存在的。全局作用域： window对象是浏览器中的全局对象，因此所有在全局作用域中声明的变量、对象、函数都会变成window对象的属性和方法。
+
+窗口大小
+
+浏览器中提供了四个属性用来确定窗口的大小：
+
+– 网页窗口的大小 innerWidth / innerHeight 
+
+– 浏览器本身的尺寸 outerWidth / outerHeight
+
+
+
+打开窗口
+
+使用 window.open() 方法既可以导航到一个特定的 URL，也可以打开一个新的浏览器窗口。 这个方法需要四个参数： – 需要加载的url地址 –窗口的目标 –一个特性的字符串 –是否创建新的历史记录
+
+
+
+超时调用
+
+setTimeout() 超过一定时间以后执行指定函数 – 需要两个参数： 要执行的内容/超过的时间 
+
+取消超时调用 – clearTimeout() 超时调用都是在全局作用域中执行的。
+
+
+
+间歇调用
+
+setInterval() 每隔一段时间执行指定代码 – 需要两个参数： • 要执行的代码 • 间隔的时间 
+
+取消间隔调用： – clearInterval()
+
+
+
+系统对话框
+
+浏览器通过 alert() 、 confirm() 和 prompt() 方法可以调用系统对话框向用户显示消息。它们的外观由操作系统及（或）浏览器设置决定，而不是由 CSS 决定。显示系统对话框时会导致程序终止，当关闭对话框程序会恢复执行。
+
+
+
+
+
+### location对象
+
+location对象提供了与当前窗口中加载的文档有关的信息，还提供了一些导航功能。
+
+
+
+href属性：
+
+- href属性可以获取或修改当前页面的完整的URL地址，使浏览器跳转到指定页面。
+
+assign() 方法
+
+- 所用和href一样，使浏览器跳转页面，新地址错误参数传递到assign ()方法中
+
+replace()方法
+
+-  功能一样，只不过使用replace方法跳转地址不会体现到历史记录中。
+
+reload() 方法
+
+- 用于强制刷新当前页面
+
+### navigator对象
+
+- navigator 对象包含了浏览器的版本、浏览器所支持的插件、浏览器所使用的语言等各种与浏览器相关的信息。
+
+- 我们有时会使用navigator的userAgent属性来检查用户浏览器的版本。
+
+### screen对象
+
+- screen 对象基本上只用来表明客户端的能力，其中包括浏览器窗口外部的显示器的信息，如像素宽度和高度等。
+- 该对象作用不大，我们一般不太使用。
+
+### history对象
+
+history 对象保存着用户上网的历史记录，从窗口被打开的那一刻算起。
+
+go()
+
+- 使用 go() 方法可以在用户的历史记录中任意跳转，可以向后也可以向前。
+
+back()
+
+- 向后跳转
+
+forward()
+
+- 向前跳转
+
+### document
+
+- document对象也是window的一个属性，这个对象代表的是整个网页的文档对象。
+- 我们对网页的大部分操作都需要以document对象作为起点。
+- 关于document对象的内容，我们后边还要具体讲解。
