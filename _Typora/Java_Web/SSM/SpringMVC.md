@@ -535,8 +535,6 @@ webapp/static/html, webapp/static/js, webapp/static/images
 
 当你的地址没有斜杠开头,例如 user/some.do , 当你点击链接时， 访问地址是当前页面的地址加上链接的地址。例如，在index.jsp发起 user/some.do请求，访问地址变为 http://localhost:8080/ch06_path/user/some.do 也就是 http://localhost:8080/ch06_path/ + user/some.do
 
-
-
 index.jsp  访问 user/some.do  ， 返回后，现在的地址为： http://localhost:8080/ch06_path/user/some.do
 
 http://localhost:8080/ch06_path/user/some.do 这个地址的路径：http://localhost:8080/ch06_path/user/  资源：some.do
@@ -697,7 +695,7 @@ springmvc容器和spring容器是有关系的，关系已经确定好了。sprin
       <artifactId>druid</artifactId>
       <version>1.1.12</version>
     </dependency>
-  </dependencies>
+
 
   <build>
     <resources>

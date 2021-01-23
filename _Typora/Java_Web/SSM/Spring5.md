@@ -1207,7 +1207,6 @@ web应用三层架构：web层、service层、dao层
 1. 在配置文件中配置事务管理器
 
 ```xml
-
 <!--    创建事务管理器-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 <!--        注入数据源-->
