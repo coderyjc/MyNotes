@@ -695,3 +695,4 @@ $.post() 方法使用 HTTP POST 请求从服务器加载数据。
 
 代码见 `D:\GITHUB\Learning\JavaWeb\Ajax\jQuery&Ajax-级联查询`
 
+具体细节就不再详细写了。
