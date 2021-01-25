@@ -1,5 +1,9 @@
 # Ajax
 
+> 实际开发中使用JQuery + Ajax较多，这部分内容作为了解即可。  
+> 
+> 重点内容是 JQuery的 【## JQuery + Ajax 中的普通查询和级联查询】
+
 ajax:Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）。
 
 - Asynchronous: 异步的意思

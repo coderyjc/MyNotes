@@ -1,5 +1,7 @@
 # jQuery
 
+> 重点：JQuery + Ajax
+
 ## jQuery基础
 
 ### 初识 jQuery
@@ -347,7 +349,7 @@ jQuery中有两种绑定事件方式
 
 编码效率略高（有代码提示）/ 部分事件jQuery没有实现,所以不能添加
 
-2.on(eventName, fn);
+2.on(eventName, fn); （大佬推荐）
 
 编码效率略低（没有代码提示）/ 所有js事件都可以添加
 
@@ -588,7 +590,6 @@ triggerHandler: 如果利用triggerHandler自动触发事件, 不会触发默认
 
 
 
-
 ### 综合实战
 
 
@@ -598,4 +599,99 @@ triggerHandler: 如果利用triggerHandler自动触发事件, 不会触发默认
 ## JQuery + Ajax
 
 
+
+### 三个主要方法
+
+#### $.ajax() 【最常用的】
+
+$.ajax() 是 jQuery 中 AJAX 请求的核心方法，所有的其他方法都是在内部使用此方法。
+
+语法： `$.ajax( { name:value, name:value, ... } ) `
+
+说明：参数是 json 的数据，包含请求方式，数据，回调方法等
+
+常用参数：
+
+- async ： 布尔值，表示请求是否异步处理。默认是 true 
+- contentType ：发送数据到服务器时所使用的内容类型。默认是："application/x-www-form-urlencoded"。 
+- data：规定要发送到服务器的数据，可以是：string， 数组，多数是 json 
+- dataType：期望从服务器响应的数据类型。jQuery 从 xml, json, text,, html 这些中测试最可能的类型 
+	- "xml" - 一个 XML 文档 
+	- "html" - HTML 作为纯文本 
+	- "text" - 纯文本字符串 
+	- "json" - 以 JSON 运行响应，并以对象返回 
+- error(xhr,status,error)：如果请求失败要运行的函数, 其中 xhr, status, error 是自定义的形参名 
+- success(result,status,xhr)：当请求成功时运行的函数，其中 result, status, xhr 是自定义的形参名 
+- type：规定请求的类型（GET 或 POST 等），默认是 GET， get，post 不用区分大小写 
+- url：规定发送请求的 URL。
+
+举例：
+
+```javascript
+        $(function () {
+            $("#search").click(function () { // 为按钮加上点击事件
+
+                var userId = $("#id").val(); // 获取dom的value
+                // 发起ajax请求
+                $.ajax({
+                    url:"result", // 键值对，字符串值用引号引起来
+					// data的值大多是json类型
+                    data: { 
+						// 为什么前一个id要用引号引起来？
+						// 答：这个id是一个参数名，我们要在后台根据这个参数名称用 request.getPatameter("id"); 取出里面的数据
+                        "id": userId
+                    },
+                    dataType:"json",
+                    success: function (resp) {
+                        // resp是返回的json对象，就是后端的 PrinterWriter 输出的值
+						// 更新页面
+                        $("#name").val(resp.name);
+                        $("#jiancheng").val(resp.jiancheng);
+                        $("#shenghui").val(resp.shenghui);
+                    }
+                });
+            })
+        })
+```
+
+
+#### $.get()
+
+$.get() 方法使用 HTTP GET 请求从服务器加载数据。 
+
+语法：`$.get(url,data,function(data,status,xhr),dataType)`
+
+- url 必需。规定您需要请求的 URL。 
+- data 可选。规定连同请求发送到服务器的数据。 
+- function(data,status,xhr)可选。当请求成功时运行的函数。data,status,xhr 是自定义形参名。 
+- 参数说明： 
+	- data - 包含来自请求的结果数据 
+	- status - 包含请求的状态（"success"、"notmodified"、"error"、"timeout"、"parsererror"） 
+	- xhr - 包含 XMLHttpRequest 对象 
+- dataType 可选。规定预期的服务器响应的数据类型。默认地，jQuery 会智能判断。可能的
+	- 类型： 
+	- "xml" - 一个 XML 文档 
+	- "html" - HTML 作为纯文本 
+	- "text" - 纯文本字符串
+	- "json" - 以 JSON 运行响应，并以对象返回
+
+实际开发中使用较少，例子略。
+
+#### $.post()
+
+$.post() 方法使用 HTTP POST 请求从服务器加载数据。 
+
+语法：`$.post(URL,data,function(data,status,xhr),dataType) `
+
+参数同$get()
+
+### 普通查询
+
+代码见 `D:\GITHUB\Learning\JavaWeb\Ajax\jQuery&Ajax-普通查询`
+
+具体细节不再详细说了。
+
+### 级联查询
+
+代码见 `D:\GITHUB\Learning\JavaWeb\Ajax\jQuery&Ajax-级联查询`
 
