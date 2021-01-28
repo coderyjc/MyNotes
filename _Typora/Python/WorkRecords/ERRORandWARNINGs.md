@@ -2,8 +2,6 @@
 
 
 
-
-
 ## WARNINGS
 
 
@@ -12,7 +10,7 @@
 
 Typo: In word 'qdarkstyle' 
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\ERRORs.assets\image-20201024122507562.png" alt="image-20201024122507562" style="zoom:50%;" />
+<img src="ERRORs.assets\image-20201024122507562.png" alt="image-20201024122507562" style="zoom:50%;" />
 
 
 - 变量命名方式不规范
@@ -24,7 +22,7 @@ Typo: In word 'qdarkstyle'
 
 PEP8：E402 module level import not at top of file
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\ERRORs.assets\image-20201024122602333.png" alt="image-20201024122602333" style="zoom:50%;" />
+<img src="ERRORs.assets\image-20201024122602333.png" alt="image-20201024122602333" style="zoom:50%;" />
 
 - import不在文件的最上面，可能引用之前还有代码
 - 把import引用放到文件的最上部就可以消除警告了。
@@ -38,7 +36,7 @@ PEP 8: expected 2 blank lines，found 0
 解决：期望上面有2个空白行，发现0个，添加两个空白行就可以了。
 function name should be lowercase
 解决：函数名改成小写。
-PEP 8: indentation contains tabs
+PEP 8: indentation contains tabs 或者 Inconsistent use of tabs and spaces in indentation
 解决：缩进中有tab空格，推荐用四个空格缩进。
 Indent expected
 解决：意思是没有缩进，解析器报错了，添加缩进就可以了。
@@ -64,4 +62,16 @@ Symplify chained comparision
 解决：警告的意思是可简化连锁比较，下面举个例子
 if a > 0 and a < 9 可修改为 if
 ```
+
+---
+
+non-UTF-8 Code Starting With '\xc8' in File xxxx.py
+
+解决办法：在文件第一行，加上下面的代码：
+
+```python
+# -!- coding: utf-8 -!-
+```
+
+---
 

@@ -205,23 +205,256 @@ if __name__ == "__main__":
 
 ## 数据解析
 
+聚焦爬虫：爬取页面中指定页面的内容。在聚焦爬虫中要用到数据解析。
+
+数据解析原理概述：
+
+- 解析的局部的文本内容都会在标签之间或者标签对应的属性中进行存储
+    1. 进行指定标签的定位
+    2. 标签或者标签对应的属性中存储的数据值进行提取（解析）
+
+步骤为：
+
+- 指定url
+- 发起请求
+- 获取响应数据
+- 数据解析
+- 持久化存储
+
 ### 正则表达式
 
-
-
-
+非重点，略。
 
 
 
 ### bs4解析
 
-
-
-
+非重点，略。
 
 
 
 ### xpath解析【重点】
 
+最常用、最便捷、最高效、最通用。
 
+原理：
+
+1. 实例化一个etree的对象，且需要将被解析的页面源码数据加载到该对象中。
+2. 调用etree对象中的xpath方法结合着xpath表达式实现标签的定位和内容的捕获。
+
+环境安装：
+
+- `pip install lxml`
+
+实例化一个etree对象 `from lxml import etree`
+
+1. 可以将**本地的html文档**中的源码数据加载到etree对象中：`etree.parse(filePath)`
+2. 可以将从**互联网**上获取的源码数据加载到该对象中：`etree.HTML('page_text')`
+
+调用xpath方法进行解析：`xpath('xpath表达式')` 【重点】
+
+xpath表达式(始终返回一个列表)：
+
+- `/`表示的是从根节点开始定位。表示的是一个层级 `elem = tree.xpath('/html/body/h1')`
+- `//` 表示可以表示从任意位置开始定位 `headers = tree.xpath('//h1')  # // 表示从任意位置开始定位`
+- 属性定位： `//tagName[@attrName="attrValue"]` ，比如 `disp1 = tree.xpath('//div[@class="disp-1"]')` 获取到class 属性为 disp-1 的div元素
+- 索引定位： `//tagName[@attrName="attrValue"]/subTagName[index]` ，比如 `disp3 = tree.xpath('//body/div[3]')` 表示获得body标签下的第三个div元素
+- 取出文本：
+    - `/text()` 取出元素中**直系**的文本元素，比如 `disp1_text = tree.xpath('//div[3]/text()')` 取出了全局第3个div中的文字，返回值为一个列表，要想取得文本，应该去一个下标，也就是 `disp1_text = tree.xpath('//body/text()')[0] `
+    - `//text()` 取出元素的所有文本元素，比如`disp_all_text = tree.xpath('//body//text()')`
+- 取出标签属性：
+    - `/@attrName` ，也会返回一个属性值列表，我们可以去下表来取得元素的属性值。比如`img_src = tree.xpath('//body/img/@src')[0]`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>53</title>
+    </head>
+    <body>
+        <button>替换节点</button>
+        <h1>我是标题1</h1>
+        <h1>我是标题1</h1>
+        <p>我是段落</p>
+        <div class="disp-1">this is disp1</div>
+        <div class="disp-2">this is disp2</div>
+        <div class="disp-3">this is disp3</div>
+        <img src="https://hcdn2.luffycity.com/media/frontend/activity/head-logo_1564141048.3435316.svg"  alt="tupian"/>
+    </body>
+</html>
+```
+
+注意：所有xpath表达式中的下标都以1开头，所有的python列表都是以0开头
+
+#### 案例一: 解析58二手房的相关数据
+
+
+
+> 从[58二手房网站](https://zz.58.com/ershoufang/)中获取二手房的所有标题和价格
+
+
+
+注意：获取到了一个xpath节点之后，再以获取到的这个节点为根节点寻找的时候不能用`/tag/tag...` 而是应该用`./tag/..`， 比如 我们已经找到了 一个div节点，我们要再次寻找这个节点下的第二个div节点，因此我们需要使用`theDiv.xpath('./div[2]')`
+
+源码见 `Learning\Python\Spider\02-DataAnalysis\02-xpath-SecondhandHouse.py`
+
+
+
+#### 案例二：4K图片解析下载
+
+> 从[高清壁纸网](http://pic.netbian.com/4kfengjing/)中爬取高清壁纸的缩略图
+
+
+
+中文乱码问题的通用解决方案：
+
+`img_name.encode('iso-8859-1').decode('gbk')`
+
+或者直接查看页面元数据的编码方式
+
+
+
+创建文件夹和写入图片数据
+
+```python
+# 创建文件夹来保存图片
+if not os.path.exists('./picLibs'):
+    os.mkdir('./picLibs')
+
+
+# 将图片写入文件
+img_data = requests.get(url=total_url, headers=headers).content
+img_path = 'picLibs/' + pic_title
+with open(img_path, 'wb') as fp:
+    fp.write(img_data)
+    print(pic_title + ' success')
+```
+
+源码见 `Learning\Python\Spider\02-DataAnalysis\03-xpath-PictureDownload.py`
+
+#### 案例三：全国城市名称提取
+
+> 从[中国天气网](https://www.aqistudy.cn/historydata/)爬取中国所有的城市的名称
+
+没有很难的知识点，解析略，源码见`Learning\Python\Spider\02-DataAnalysis\03-xpath-AllPath.py`
+
+## 验证码识别
+
+### 使用工具类和api接口
+
+步骤：
+
+- 将验证码事先下载到本地
+
+- 将本地存储的验证码提交给平台的示例程序进行识别操作
+
+识别平台：`http://www.chaojiying.com/user/` 
+
+账号：米米号
+
+密码：Angel米米号
+
+具体代码见`Learning\Python\Spider\03-VertifyCodeAnalysis\01-recognizeVertifyCode.py`
+
+### 模拟登录-Cookie
+
+处理cookie的两种操作：
+
+- 手动处理，抓包之后封装到header中【不推荐】
+- 自动处理
+
+http/https协议的特性：无状态
+
+同一个文件内，第一次请求登录成功之后，第二次请求登陆后的页面数据失败的原因：服务器不知道这次请求是基于登录状态下的请求。
+
+cookie：用来让服务器记录客户端的相关状态，cookie 的值来自模拟登录post 请求后由服务器创建
+
+session：作用: 发送请求、存储cookie
+
+因此，我们需要创建一个session对象，用session对象进行模拟登录post请求的发送（cookie就会被存储在session中）
+
+session对象对个人主页对应的get请求进行发送（携带了cookie）
+
+---
+
+具体分析方法：
+
+打开古诗文网的登录页面 `https://so.gushiwen.cn/user/login.aspx`,开启捕获数据包，输入密码登录。
+
+可以看到html类型的post请求的数据包名为login，可以猜想就是我们要找的数据包
+
+<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210128143417376.png" alt="image-20210128143417376" style="zoom:50%;" />
+
+查看数据包的消息头、请求数据：
+
+消息头
+
+<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210128143552885.png" alt="image-20210128143552885" style="zoom:50%;" />
+
+数据
+
+<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210128143535267.png" alt="image-20210128143535267" style="zoom:50%;" />
+
+因此，登录行为就是向消息头所在的地址发送表单数据中的数据包`page_data = session.post(url=login_url, headers=headers, data=data).text`
+
+然后获得返回的数据，就是我们想要的页面。
+
+这里要注意一下，应该用同一个session访问，以进行cookie的留存。
+
+具体代码见：`Learning\Python\Spider\03-VertifyCodeAnalysis\02-LoginGithub.py`
+
+### 模拟登录-代理IP
+
+> 这个要钱的，而且比较贵，先不学了吧。
+
+场景：多次请求同一个网站，网站的反爬机制组织我们再次请求这个网站，给我们返回错误结果403（服务器拒绝访问）
+
+代理就是用来破解封IP这种反爬机制的。
+
+代理：代理服务器，它的功能就是代理网络用户去取得网络信息。
+
+作用：
+
+- 突破自身IP访问的限制，访问一些平时不能访问的站点。
+- 隐藏真实IP，免受攻击，防止自身IP被封锁
+
+代理IP的类型：
+
+- http：应用到http协议对应的url中
+- https：应用到https协议对应的url中
+
+代理IP的匿名度：
+
+- 透明：服务器知道这次请求使用了代理，也知道请求对应的真实ip
+- 匿名：知道使用了代理，不知道真实ip
+- 高匿：不知道使用了代理，更不知道真实ip
+
+## 高性能异步爬虫
+
+目的：在爬虫中使用异步实现高性能的数据爬取操作
+
+方式：
+
+- 多线程，多进程（不建议使用）：
+    - 好处：可以为相关阻塞操作开启线程或者进程
+    - 坏处：无法无限制的开启多线程或者多进程
+- 线程池、进程池（）：
+    - 好处：我们可以降低系统对进程或者线程创建和销毁的一个频率，从而很好的降低系统的开销
+    - 弊端：池中线程或进程的数量有上限
+
+Pool线程池对象一定要放在main函数下面，不放在这里会报错。
+
+```python
+from multiprocessing.dummy import Pool
+
+... ...
+# 实例化一个线程池对象
+pool = Pool(4)  # 表示线程池中有4个线程对象
+# 第一个参数为阻塞函数，第二个为可迭代对象
+# 函数执行的时候会开辟线程并把可迭代对象中的值依次传入到函数中进行执行
+pool.map(get_page, name_list)
+```
+
+### 案例一：爬取梨视频的视频数据
 
