@@ -439,9 +439,10 @@ session对象对个人主页对应的get请求进行发送（携带了cookie）
 - 多线程，多进程（不建议使用）：
     - 好处：可以为相关阻塞操作开启线程或者进程
     - 坏处：无法无限制的开启多线程或者多进程
-- 线程池、进程池（）：
+- 线程池、进程池（少用）：
     - 好处：我们可以降低系统对进程或者线程创建和销毁的一个频率，从而很好的降低系统的开销
     - 弊端：池中线程或进程的数量有上限
+- 单线程异步协程（**推荐**）
 
 Pool线程池对象一定要放在main函数下面，不放在这里会报错。
 
@@ -456,5 +457,287 @@ pool = Pool(4)  # 表示线程池中有4个线程对象
 pool.map(get_page, name_list)
 ```
 
+单线程异步协程：
+
+event_loop：事件循环，相当于一个无限循环，我们可以把一些函数注册到这个事件循环上，当满足某些条件的时候，函数就会被循环执行。
+
+coroutine：协程对象，我们可以将协程对象注册到事件循环中，它会被事件循环调用。我们可以使用async 关键字来定义一个方法，这个方法在调用时不会立即被执行，而是返回一个协程对象。
+
+task：任务，它是对协程对象的进一步封装，包含了任务的各个状态。
+
+future：代表将来执行或还没有执行的任务，实际上和task 没有本质区别。
+
+async：定义一个协程。
+
+await：用来挂起阻塞方法的执行。
+
+协程相关操作：
+
+
+
 ### 案例一：爬取梨视频的视频数据
 
+在这个案例中，把写文件功能写成一个函数（因为这个功能比较耗时）。
+
+**这个网站加上了反爬机制，无法破解，故没有做，直接粘贴的教程上的代码**
+
+```python
+import requests
+import random
+from lxml import etree
+import re
+from fake_useragent import UserAgent
+#安装fake-useragent库:pip install fake-useragent
+#导入线程池模块
+from multiprocessing.dummy import Pool
+#实例化线程池对象
+pool = Pool()
+url = 'http://www.pearvideo.com/category_1'
+#随机产生UA
+ua = UserAgent().random
+headers = {
+    'User-Agent':ua
+}
+#获取首页页面数据
+page_text = requests.get(url=url,headers=headers).text
+#对获取的首页页面数据中的相关视频详情链接进行解析
+tree = etree.HTML(page_text)
+li_list = tree.xpath('//div[@id="listvideoList"]/ul/li')
+detail_urls = []#存储二级页面的url
+for li in li_list:
+    detail_url = 'http://www.pearvideo.com/'+li.xpath('./div/a/@href')[0]
+    title = li.xpath('.//div[@class="vervideo-title"]/text()')[0]
+    detail_urls.append(detail_url)
+vedio_urls = []#存储视频的url
+for url in detail_urls:
+    page_text = requests.get(url=url,headers=headers).text
+    vedio_url = re.findall('srcUrl="(.*?)"',page_text,re.S)[0]
+    vedio_urls.append(vedio_url) 
+#使用线程池进行视频数据下载    
+func_request = lambda link:requests.get(url=link,headers=headers).content
+video_data_list = pool.map(func_request,vedio_urls)
+#使用线程池进行视频数据保存
+func_saveData = lambda data:save(data)
+pool.map(func_saveData,video_data_list)
+def save(data):
+    fileName = str(random.randint(1,10000))+'.mp4'
+    with open(fileName,'wb') as fp:
+        fp.write(data)
+        print(fileName+'已存储')
+pool.close()
+pool.join()
+```
+
+## Selenium
+
+### 安装与环境测试
+
+> 源码：GITHUB\Learning\Python\Spider\05-Selenium\01-test.py
+
+安装环境 `pip install selenium`
+
+下载与浏览器对应的驱动，注意查看映射关系
+
+使用步骤：
+
+- 实例化浏览器对象
+- 编写自动化操作代码
+
+```python
+if __name__ == "__main__":
+    #  实例化一个浏览器对象
+    bro = webdriver.Firefox(executable_path='./../Utils/geckodriver.exe')
+    #  让浏览器发起一个指定的url对应请求 , python程序会自动调用驱动打开浏览器进行一系列操作
+    bro.get('http://scxk.nmpa.gov.cn:81/xk/')
+    #  获取页面源码
+    page_text = bro.page_source
+    tree = etree.HTML(page_text)
+    #  获取列表块
+    list_block = tree.xpath('//ul[@id="gzlist"]/li')
+    for items in list_block:
+        title = items.xpath('./dl/@title')[0]
+        print(title)
+    #  关闭浏览器
+    bro.quit()
+```
+
+### 一些操作
+
+> 源码：GITHUB\Learning\Python\Spider\05-Selenium\02-OtherAutoOperations.py
+
+- 发起请求 `get(url)`
+- 标签定位 `find_...系列的方法` 
+- 标签交互 `send_keys('xxx')`
+- 执行js程序 `execute_sctript('JsCode')`
+- 前进和后退 `back(), forward()`
+- 关闭浏览器 `quit()`
+
+定位元素：
+
+<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210129212959044.png" alt="image-20210129212959044" style="zoom:50%;" />
+
+```python
+if __name__ == "__main__":
+    # 注册浏览器
+    bro = webdriver.Firefox(executable_path='./../Utils/geckodriver.exe')
+    # 获取页面
+    bro.get('http://scxk.nmpa.gov.cn:81/xk/')
+    # 标签定位 - 查询信息
+    enter = bro.find_element_by_id("searchtext")
+    # 向文本框中输入 20170002
+    enter.send_keys("20170002")
+    #  查找搜索按钮
+    btn = bro.find_element_by_id('searchInfo')
+    #  点击查找按钮按钮
+    btn.click()
+    #  执行js代码，向下滚动一屏幕的距离
+    bro.execute_script('window.scrollTo(0, document.body.scrollHeight)')
+
+    # 再次跳转到页面
+    bro.get('http://kaifa.baidu.com/home')
+    # 回退到上一个页面
+    bro.back()
+    # 返回到上一个页面
+    bro.forward()
+    #  关闭浏览器
+    bro.quit()
+```
+
+### selenuim处理iframe
+
+实现拖动操作（动作链）
+
+> 源码：GITHUB\Learning\Python\Spider\05-Selenium\03-ActionChain.py
+
+如果定位的标签在iframe中，则必须使用`switch_to.frame(id)`
+
+动作链：
+
+- `from selenium.webdriver import ActionChains`
+- 实例化一个动作链对象：`action = ActionChains(bro)`
+- `click_and_hold(div)` 长按且点击操作
+- `move_by_offset(x, y)` 偏移
+- `perform()` 立即执行动作链
+- ` action.release()` 释放动作链
+
+```python
+if __name__ == "__main__":
+    bro = webdriver.Firefox(executable_path='./../Utils/geckodriver.exe')
+    bro.get('https://www.runoob.com/try/try.php?filename=jqueryui-api-droppable')
+
+    #  如果要丁文的标签是iframe标签的话，就必须通过以下方式来转换定位作用域
+    #  因为iframe是在html中应用的另一个html，定位的时候是默认的外层的html
+    bro.switch_to.frame('iframeResult')
+    div = bro.find_element_by_id('draggable')
+
+    # 动作链
+    action = ActionChains(bro)
+    # 点击长安指定的标签
+    action.click_and_hold(div)
+
+    # 模拟人拖动滑块
+    for i in range(5):
+        # perform() 立即执行动作链
+        # move_by_offset(x, y) 偏移
+        action.move_by_offset(17, 0).perform()
+        # 休眠0.3秒
+        sleep(0.1)
+    # 释放动作链
+    action.release()
+    sleep(5)
+    bro.quit()
+```
+
+### 案例：模拟登录qq空间
+
+
+
+对应 p53
+
+
+
+### 无头浏览器 + 规避检测
+
+> Learning\Python\Spider\05-Selenium\04-HeadlessBrowser.py
+
+无可视化界面的浏览器
+
+```python
+from selenium import webdriver
+from time import sleep
+from selenium.webdriver.firefox.options import Options
+
+if __name__ == "__main__":
+    firefox_options = Options()
+    firefox_options.add_argument('--headless')
+    firefox_options.add_argument('--disable-gpu')
+    bro = webdriver.Firefox(executable_path='./../Utils/geckodriver.exe', firefox_options=firefox_options)
+    # ------------无头浏览器-----------
+    bro.get("http://kaifa.baidu.com/home")
+    print(bro.page_source)
+    bro.quit()
+```
+
+规避检测，用的时候直接复制就行
+
+火狐的有问题，这个是chrome的 ，火狐的没有add_experimental_option对象实例，所以先用chrome的吧
+
+```python
+from selenium import webdriver
+# 实现无可视化界面
+from selenium.webdriver.chrome.options import Options
+# 实现规避建测
+from selenium.webdriver import ChromeOptions
+
+if __name__ == "__main__":
+    # 实现无可视化操作
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--disable-gpu')
+    # 实现规避检测
+    options = ChromeOptions()
+    options.add_experimental_option('excludeSwitches', ['enable-automation'])
+
+    bro = webdriver.Firefox(executable_path='./driver',
+                            firefox_options=chrome_options,
+                            options=options)
+
+    # ------------无头浏览器 + 规避检测-----------
+    bro.get("http://kaifa.baidu.com/home")
+    print(bro.page_source)
+    bro.quit()
+```
+
+### 案例：模拟登录12306
+
+
+
+对应 p55-57
+
+
+
+## Scrapy框架
+
+### 介绍
+
+是什么？ 爬虫中封装好的一个明星框架，功能: 高性能的持久化存储，高性能的数据解析，分布式处理
+
+安装：max / linux `pip install scrapy`
+
+windows安装
+
+- `pip install wheel`
+- 下载twisted 下载地址为http://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted  下载文件`ad3‑2.2.1‑cp37‑cp37m‑win_amd64.whl` cp37表示python3.7，win_amd64表示win64
+- 在有这个轮子的资源管理器页面打开cmd执行`pip install Twisted‑17.1.0‑cp36‑cp36m‑win_amd64.whl`
+- `pip install pywin32`
+- `pip install scrapy`
+
+测试：在终端里录入scrapy指令，没有报错即表示安装成功！
+
+scrapy使用流程：
+
+- 创建工程：`scrapy startproject ProName`
+- 进入工程目录：`cd ProName`
+- 创建爬虫文件：`scrapy genspider spiderName www.xxx.com`
+- 编写相关操作代码
+- 执行工程：`scrapy crawl spiderName`
