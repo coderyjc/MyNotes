@@ -16,12 +16,12 @@ MyBatis有什么用?
 
 1. 提供了创建connection，statement，Resultset的能力，不用开发人员创建这些对象了
 2. 提供了执行sql语句的能力，不用你执行sql
-3. 提供了循环sq1，把sq1的结果转为java对象，List集合的能力
+3. 提供了循环sql，把sql的结果转为java对象，List集合的能力
 4. 提供了关闭资源的能力，不用你关闭Connection，Statement，Resultset
 
 总结:
 
-mybatis是一个sq1映射框架，提供的数据库的操作能力。是一个增强的JDBC，使用mybatis让开发人员集中精神写sq1就可以了，不必关心Connection，Statement，Resultset的创建，销毁，sq1的执行。|
+mybatis是一个sql映射框架，提供的数据库的操作能力。是一个增强的JDBC，使用mybatis让开发人员集中精神写sql就可以了，不必关心Connection，Statement，Resultset的创建，销毁，sql的执行。
 
 ## MyBatis快速入门
 
@@ -30,7 +30,7 @@ mybatis是一个sq1映射框架，提供的数据库的操作能力。是一个�
 ### 实现步骤
 
 1. 新建的student表
-2. 加入maven的mybatis坐标，mysql驱动的坐标
+2. 加入maven的mybatis依赖，mysql驱动依赖
 3. 创建实体类，student--保存表中的一行数据的
     1. 其中，成员变量名和表中的数据类型一样
     2. 实体类名和表名一样
@@ -251,19 +251,19 @@ IStudentDao.xml 中添加语句
 
 直接创建新建文件的模板
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\MyBatis.imgs\image-20210109101555797.png" alt="image-20210109101555797" style="zoom: 50%;" />
+<img src="MyBatis.imgs\image-20210109101555797.png" alt="image-20210109101555797" style="zoom: 50%;" />
 
 以后在创建文件的时候可以直接选择这个模板对应的文件了
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\MyBatis.imgs\image-20210109101834044.png" alt="image-20210109101834044" style="zoom:50%;" />
+<img src="MyBatis.imgs\image-20210109101834044.png" alt="image-20210109101834044" style="zoom:50%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\MyBatis.imgs\image-20210109101817847.png" alt="image-20210109101817847" style="zoom:50%;" />
+<img src="MyBatis.imgs\image-20210109101817847.png" alt="image-20210109101817847" style="zoom:50%;" />
 
 
 
 同样的方法创建了主配置文件`mybatis-config`
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\MyBatis.imgs\image-20210109102158505.png" alt="image-20210109102158505" style="zoom:50%;" />
+<img src="MyBatis.imgs\image-20210109102158505.png" alt="image-20210109102158505" style="zoom:50%;" />
 
 ### 设置在控制台上输出运行日志
 
