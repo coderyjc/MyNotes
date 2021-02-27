@@ -665,11 +665,11 @@ servlet映射关系
 
 servlet2.5 映射关系
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107212542020.png" alt="image-20210107212542020" style="zoom:50%;" />
+<img src=".\Servlet_JSP.imgs\image-20210107212542020.png" alt="image-20210107212542020" style="zoom:50%;" />
 
 servlet3.0映射关系
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107212621395.png" alt="image-20210107212621395" style="zoom:50%;" />
+<img src="Servlet_JSP.imgs\image-20210107212621395.png" alt="image-20210107212621395" style="zoom:50%;" />
 
 项目的根目录：WebContent 、src
 
@@ -806,7 +806,7 @@ Servlet API ： 由两个软件包组成： 对应于HTTP协议的软件包、�
 
 Servlet继承关系
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107214739439.png" alt="image-20210107214739439" style="zoom:50%;" />
+<img src="Servlet_JSP.imgs\image-20210107214739439.png" alt="image-20210107214739439" style="zoom:50%;" />
 
 ServletConfig:接口 
 
