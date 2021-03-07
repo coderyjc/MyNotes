@@ -194,8 +194,9 @@ Number
 	4.undefined 为 NaN
 	
 2. parseInt()函数和 parseFloat()函数 专门用来对付字符串
+
   	- 遇到第一个不是数字的时候停止
- 	- parseInt 有第二个参数，表示转换为多少进制的数字
+  	- parseInt 有第二个参数，表示转换为多少进制的数字
 
 3. 调用Boolean()函数来将a转换为布尔值
 	- 数字转换为布尔型，除了0和NaN，其他的都是true，字符串转换为bool，除了空串，其他都是true
@@ -786,7 +787,7 @@ DOM，全称Document Object Model文档对象模型。以面向对象的方式�
 
 - 文本节点：HTML标签中的文本内容
 
-<img src="D:\GITHUB\MyNotes\_Typora\Front_End\JavaScript\JavaScript.imgs\image-20210116082739708.png" alt="image-20210116082739708" style="zoom:50%;" />
+<img src="JavaScript.imgs\image-20210116082739708.png" alt="image-20210116082739708" style="zoom:50%;" />
 
 节点的属性：
 
@@ -881,8 +882,6 @@ lastChild
 childNodes属性会获取包括文本节点在内的所有节点，根据DOM标签标签间空白也会当成文本节点。注意：在IE8及以下的浏览器中，不会将空白文本当成子节点，所以该属性在IE8中会返回4个子元素而其他浏览器是9个
 
 firstElementChild不支持IE8及以下的浏览器，如果需要兼容他们尽量不要使用
-
-
 
 获取父节点和兄弟节点：
 
@@ -1349,7 +1348,7 @@ W3C综合了两个公司的方案，将事件传播分成了三个阶段
 
 事件的传播流程
 
-<img src="D:\GITHUB\MyNotes\_Typora\Front_End\JavaScript\JavaScript.imgs\image-20210118100758900.png" alt="image-20210118100758900" style="zoom:67%;" />
+<img src="JavaScript.imgs\image-20210118100758900.png" alt="image-20210118100758900" style="zoom:67%;" />
 
 捕获阶段 – 这一阶段会从window对象开始向下一直遍历到目标对象，如果发现有对 象绑定了响应事件则做相应的处理。
 
@@ -1388,7 +1387,15 @@ window对象是BOM的核心，它表示一个浏览器的实例。在浏览器�
 
 打开窗口
 
-使用 window.open() 方法既可以导航到一个特定的 URL，也可以打开一个新的浏览器窗口。 这个方法需要四个参数： – 需要加载的url地址 –窗口的目标 –一个特性的字符串 –是否创建新的历史记录
+使用 window.open() 方法既可以导航到一个特定的 URL，也可以打开一个新的浏览器窗口。 这个方法需要四个参数： 
+
+- 需要加载的url地址 
+
+- 窗口的目标 
+
+- 一个特性的字符串 
+
+- 是否创建新的历史记录
 
 
 
