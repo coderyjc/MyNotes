@@ -567,6 +567,9 @@ table的子标签, 直接写在table中, tr都需要直接写在这些标签中
   - 提交按钮 使用input内联自结束标签创建按钮 type属性为submit 将表单中的信息提交给服务器
     - value 选项:指定按钮上的文字
   - 密码框 input 创建 属性值为password
+  - checked 输入数字段是否处于被选中状态
+  - name表单名称
+  - disable定义输入字段不可用
 
 ```html
         <form action="a.html">
@@ -1601,10 +1604,14 @@ test-indent，用于设置首行缩进
 
 一个盒子我们会分成几部分, 盒子的大小由以下这些加起来决定
 
-- 内容区(content)
-- 内边距(padding)
-- 边框(border)
-- 外边距(margin)
+- 内容区(content) 盒子的内容，显示文本 图像
+- 内边距(padding) 内容和边框之间的区域，是透明的
+- 边框(border) 元素的边框
+- 外边距(margin) 外边距是透明的
+
+![image-20210309170852129](R:\GITHUB\MyNotes\_Typora\Front_End\HTML&CSS\HTML&CSS.imgs\image-20210309170852129.png)
+
+
 
 ### 边框
 
