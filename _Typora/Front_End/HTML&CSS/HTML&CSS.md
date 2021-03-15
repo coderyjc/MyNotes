@@ -937,7 +937,6 @@ class 属性和 id 类似, 但是可以重复
                 color: aqua;
             }
         </style>
-    </head>
     <body>
         <p class="p1">123132132123</p>
         <p class="p1">123132132123</p>

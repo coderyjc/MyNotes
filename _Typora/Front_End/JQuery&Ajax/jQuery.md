@@ -76,8 +76,6 @@ $(document).ready(function(){
 
 注意：jQuery对象是一个<i>伪数组</i> , 有0到length-1的属性, 并且有length属性
 
-
-
 ```javascript
 	// 1. 接收一个字符串选择器，返回一个jQuery对象, 对象中保存了找到的DOM元素
 	var $box1 = $(".box1");
@@ -117,9 +115,15 @@ $(document).ready(function(){
 
 map函数的参数
 - 第一个参数: 要遍历的数组
+
 - 第二个参数: 每遍历一个元素之后执行的回调函数
-回调函数的参数:
+
+  
+
+  回调函数的参数:
+
 - 第一个参数: 遍历到的元素
+
 - 第二个参数: 遍历到的索引
 
 注意点:和jQuery中的each静态方法一样, map静态方法也可以遍历伪数组
