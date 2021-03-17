@@ -64,7 +64,7 @@ DispatherServlet: 负责接收用户的所有请求， 用户把请求给了Disp
 
 更改web版本为4.0
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\SpringMVC.imgs\image-20210111103339072.png" alt="image-20210111103339072" style="zoom:50%;" />
+<img src="SpringMVC.imgs\image-20210111103339072.png" alt="image-20210111103339072" style="zoom:50%;" />
 
 
 
@@ -163,7 +163,7 @@ public class MyController {
 
 上面的过程简化的方式  some.do---DispatcherServlet---MyController
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\SpringMVC.imgs\image-20210112095419640.png" alt="image-20210112095419640" style="zoom:75%;" />
+<img src="SpringMVC.imgs\image-20210112095419640.png" alt="image-20210112095419640" style="zoom:75%;" />
 
 
 
@@ -189,7 +189,7 @@ public class MyController {
 
 ### SpringMVC执行流程
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\SpringMVC.imgs\image-20210113162949692.png" alt="image-20210113162949692" style="zoom: 67%;" />
+<img src="SpringMVC.imgs\image-20210113162949692.png" alt="image-20210113162949692" style="zoom: 67%;" />
 
 1. 浏览器提交请求到中央调度器
 2. 中央调度器直接将请求转给处理器映射器。
@@ -733,7 +733,7 @@ springmvc容器和spring容器是有关系的，关系已经确定好了。sprin
 
 ### 请求转发和重定向
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\SpringMVC.imgs\image-20210113103410547.png" alt="image-20210113103410547" style="zoom: 67%;" />
+<img src="SpringMVC.imgs\image-20210113103410547.png" alt="image-20210113103410547" style="zoom: 67%;" />
 
 请求转发的使用情况：因为我们已经配置了视图解析器，所以在跳转的时候我们不能直接通过 setViewName的方式跳转到view目录以外的目录，为了能够跳转到view以外的目录，我们需要用到请求转发操作。
 
@@ -917,7 +917,7 @@ public class GlobalExceptionHandler {
 1. 定义类实现HandlerInterceptor接口
 2. 在springmvc配置文件中，声明拦截器， 让框架知道拦截器的存在。
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\SpringMVC.imgs\image-20210113155716488.png" alt="image-20210113155716488" style="zoom:67%;" />
+<img src="SpringMVC.imgs\image-20210113155716488.png" alt="image-20210113155716488" style="zoom:67%;" />
 
 实现接口：
 
@@ -1005,7 +1005,7 @@ public class MyInterceptor implements HandlerInterceptor {
 
 多个拦截器的执行顺序：
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\SpringMVC.imgs\image-20210113155834039.png" alt="image-20210113155834039" style="zoom:67%;" />
+<img src="SpringMVC.imgs\image-20210113155834039.png" alt="image-20210113155834039" style="zoom:67%;" />
 
 ```text
 第一个拦截器preHandle=true , 第二个拦截器preHandle=true 

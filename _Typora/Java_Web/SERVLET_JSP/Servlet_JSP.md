@@ -341,7 +341,7 @@ b.不能直接获取某一个单独对象，只能一次性将全部的cookie拿
 
 **案例: 使用Cookie实现  记住用户名  功能**
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20201231212221241.png" alt="image-20201231212221241" style="zoom:80%;" />
+<img src="Servlet_JSP.imgs\image-20201231212221241.png" alt="image-20201231212221241" style="zoom:80%;" />
 
 第一次登录的时候客户端将信息发送给服务端，服务端产生Cookie，并通过重定向将其发送到客户端主机进行保存，当客户端再次登录的时候读取本地cookie进行用户名的填充
 
@@ -407,7 +407,7 @@ c.电子邮件：浏览、写邮件、退出
 
 session机制：
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20201231214534665.png" alt="image-20201231214534665" style="zoom: 67%;" />
+<img src="Servlet_JSP.imgs\image-20201231214534665.png" alt="image-20201231214534665" style="zoom: 67%;" />
 
 客户端第一次请求服务端时，（jsessionid-sessionid）服务端会产生一个session对象（用于保存该客户的信息）； 并且每个session对象 都会有一个唯一的 sessionId( 用于区分其他session); 
 
@@ -634,11 +634,11 @@ V：View 视图： 用于展示、以及与用户交互。使用html  js  css js
 
 C：Controller 控制器 ：接受请求，将请求跳转到模型进行处理；模型处理完毕后，再将处理的结果返回给 请求处 。 可以用jsp实现，  但是一般建议使用 Servlet实现控制器。
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107173548122.png" alt="image-20210107173548122" style="zoom:50%;" />
+<img src="Servlet_JSP.imgs\image-20210107173548122.png" alt="image-20210107173548122" style="zoom:50%;" />
 
 对于MVC的理解：
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210107190727777.png" alt="image-20210107190727777" style="zoom:50%;" />
+<img src="Servlet_JSP.imgs\image-20210107190727777.png" alt="image-20210107190727777" style="zoom:50%;" />
 
 Jsp->Java(Servlet)->JSP
 
@@ -852,13 +852,13 @@ Servlet使用层面：Eclipse中在src创建一个Servlet，然后重写doGet() 
 
 三层之间的关系示例
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210108084353250.png" alt="image-20210108084353250" style="zoom: 67%;" />
+<img src="Servlet_JSP.imgs\image-20210108084353250.png" alt="image-20210108084353250" style="zoom: 67%;" />
 
 
 
 三层架构和MVC的关系
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210108081315318.png" alt="image-20210108081315318" style="zoom:50%;" />
+<img src="Servlet_JSP.imgs\image-20210108081315318.png" alt="image-20210108081315318" style="zoom:50%;" />
 
 jsp内置对象如何在servlet中获取？
 
@@ -870,7 +870,7 @@ Application app = request.getServletContext(); // 获取application对象
 
 
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SERVLET_JSP\Servlet_JSP.imgs\image-20210108081939431.png" alt="image-20210108081939431" style="zoom:50%;" />
+<img src="Servlet_JSP.imgs\image-20210108081939431.png" alt="image-20210108081939431" style="zoom:50%;" />
 
 ### MVC优化
 

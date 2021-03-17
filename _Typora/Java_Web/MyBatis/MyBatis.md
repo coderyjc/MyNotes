@@ -35,7 +35,7 @@ mybatis是一个sql映射框架，提供的数据库的操作能力。是一个�
     1. 其中，成员变量名和表中的数据类型一样
     2. 实体类名和表名一样
 4. 创建持久层的dao接口，定义操作数据库的方法
-5. 创建一个mybatis使用的配置文件叫做**sql映射文件**：写sq1语句的。一般一个表一个sql映射文件。这个文件是xml文件。
+5. 创建一个mybatis使用的配置文件叫做**sql映射文件**：写sql语句的。一般一个表一个sql映射文件。这个文件是xml文件。
     1. 在接口所在的目录中
     2. 文件名和接口保持一致
 6. 创建mybatis的**主配置文件**：一个项目就一个主配置文件。主配置文件提供了数据库的连接信息和sql映射文件的位置信息
@@ -286,7 +286,7 @@ Inputstream in=Resources.getResourceAsstream（"mybatis.xml"）；
 2）SqlessionFactoryBuilder：创建sqlsessionFactory对象，
 
 ```java
-SqlSessionFactoryBuilder builder-new sqlsessionFactoryBuilder（）；
+SqlSessionFactoryBuilder builder=new sqlsessionFactoryBuilder（）；
 //创建sqlsessionFactory对象
 SqlSessionFactory factory=builder.build（in）；
 ```

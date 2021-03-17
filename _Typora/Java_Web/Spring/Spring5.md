@@ -63,11 +63,11 @@ xml解析、工厂模式、反射
 
 工厂模式：
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210104163554079.png" alt="image-20210104163554079" style="zoom:50%;" />
+<img src="Spring5.imgs\image-20210104163554079.png" alt="image-20210104163554079" style="zoom:50%;" />
 
 IOC过程
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210104164919877.png" alt="image-20210104164919877" style="zoom:50%;" />
+<img src="Spring5.imgs\image-20210104164919877.png" alt="image-20210104164919877" style="zoom:50%;" />
 
 ### 2.2 IOC 接口（BeanFactory）
 
@@ -602,16 +602,15 @@ expression="org.springframework.stereotype.Controller"/>
 #### 完全注解开发
 
 1. 创建配置类，替代xml配置文件
-​```java
+
 @Configuration
 @ComponentScan(basePackages = "com.Jancoyan.spring")
 public class SpringConfig {
 }
 ```
-
 2. 编写测试类
 
-​```java
+java
 public static void main(String[] args) {
     ApplicationContext context = new
  AnnotationConfigApplicationContext(SpringConfig.class);
@@ -738,7 +737,7 @@ Spring框架一般都是基于AspectJ实现AOP操作
 
 引入依赖： 
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210106092108559.png" alt="image-20210106092108559" style="zoom:50%;" />
+<img src="Spring5.imgs\image-20210106092108559.png" alt="image-20210106092108559" style="zoom:50%;" />
 
 切入点表达式：
 
@@ -934,7 +933,7 @@ com.atguigu.spring5.aopxml.Book.buy(..))"/>
 
 1. 引入相关jar包
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210106104856037.png" alt="image-20210106104856037" style="zoom:50%;" />
+<img src="Spring5.imgs\image-20210106104856037.png" alt="image-20210106104856037" style="zoom:50%;" />
 
 2. 在spring配置文件中配置数据库连接池
 
@@ -1269,7 +1268,7 @@ public class UserService {
 
 在 @Transactional 中可以配置和事务相关的参数
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210107082520535.png" alt="image-20210107082520535" style="zoom:75%;" />
+<img src="Spring5.imgs\image-20210107082520535.png" alt="image-20210107082520535" style="zoom:75%;" />
 
 比如:
 
@@ -1303,7 +1302,7 @@ public class UserService {
 
 解决：通过设置事务隔离级别，解决读问题
 
-<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210107083220682.png" alt="image-20210107083220682" style="zoom:50%;" />
+<img src="Spring5.imgs\image-20210107083220682.png" alt="image-20210107083220682" style="zoom:50%;" />
 
 #### timeout：超时时间
 
@@ -1379,7 +1378,7 @@ ApplicationContext context = new AnnotationConfigApplicationContext();
 
 Spring5整合了log4j2。
 
-1. 引入相关的jar包<img src="D:\GITHUB\MyNotes\_Typora\Java_Web\SSM\Spring5.imgs\image-20210107141845730.png" alt="image-20210107141845730" style="zoom:67%;" />
+1. 引入相关的jar包<img src="Spring5.imgs\image-20210107141845730.png" alt="image-20210107141845730" style="zoom:67%;" />
 2. 创建log4j2.xml 配置文件，必须是这个名字，不能是别的。
 3. 把下面代码复制过去
 

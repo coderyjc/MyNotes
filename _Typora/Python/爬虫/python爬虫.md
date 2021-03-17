@@ -103,19 +103,19 @@ if __name__ == "__main__":
 
 我们已经知道，百度翻译的单词翻译区是基于ajax的局部刷新实现的
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210126171017846.png" alt="image-20210126171017846" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210126171017846.png" alt="image-20210126171017846" style="zoom:50%;" />
 
 因此我们可以通过抓包工具来获取发送过来的数据。
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210126171319186.png" alt="image-20210126171319186" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210126171319186.png" alt="image-20210126171319186" style="zoom:50%;" />
 
 从下方数据包中找到我们需要的dog有关的json数据，可以发现，我们发送的表单数据为 kw:"dog"，因此我们的表单需要一个kw属性的数据，值为我们要查找的数据。
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210126171500291.png" alt="image-20210126171500291" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210126171500291.png" alt="image-20210126171500291" style="zoom:50%;" />
 
 查看响应，发现里面封装的json数据刚好是我们需要的。
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210126171619847.png" alt="image-20210126171619847" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210126171619847.png" alt="image-20210126171619847" style="zoom:50%;" />
 
 ```python
 if __name__ == "__main__":
@@ -161,13 +161,13 @@ if __name__ == "__main__":
 
 我们来到 [豆瓣动作电影分类排行榜](https://movie.douban.com/typerank?type_name=%E5%8A%A8%E4%BD%9C&type=5&interval_id=100:90&action=) 发现在将页面下拉到最底部的时候会刷新出来由此我们可以判定是ajax动态刷新页面，打开浏览器自带的抓包工具，过滤xhr请求，将页面下拉到最下面之后，我们可以捕获到刷新出来的新的数据的信息。
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210126175023398.png" alt="image-20210126175023398" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210126175023398.png" alt="image-20210126175023398" style="zoom:50%;" />
 
 在下拉到时候我们可以看到出现这么一条信息，消息头是get方式，链接为`https://movie.douban.com/j/chart/top_list?type=5&interval_id=100:90&action=&start=20&limit=20`
 
 因此我们可以查看这个消息头，获取数据格式，我们可以自己设置字典的参数来获取数据
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210126175509471.png" alt="image-20210126175509471" style="zoom: 67%;" />
+<img src="python爬虫.imgs\image-20210126175509471.png" alt="image-20210126175509471" style="zoom: 67%;" />
 
 观察这个链接，发现不止有这几个参数
 
@@ -384,17 +384,17 @@ session对象对个人主页对应的get请求进行发送（携带了cookie）
 
 可以看到html类型的post请求的数据包名为login，可以猜想就是我们要找的数据包
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210128143417376.png" alt="image-20210128143417376" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210128143417376.png" alt="image-20210128143417376" style="zoom:50%;" />
 
 查看数据包的消息头、请求数据：
 
 消息头
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210128143552885.png" alt="image-20210128143552885" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210128143552885.png" alt="image-20210128143552885" style="zoom:50%;" />
 
 数据
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210128143535267.png" alt="image-20210128143535267" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210128143535267.png" alt="image-20210128143535267" style="zoom:50%;" />
 
 因此，登录行为就是向消息头所在的地址发送表单数据中的数据包`page_data = session.post(url=login_url, headers=headers, data=data).text`
 
@@ -574,7 +574,7 @@ if __name__ == "__main__":
 
 定位元素：
 
-<img src="D:\GITHUB\MyNotes\_Typora\Python\爬虫\python爬虫.imgs\image-20210129212959044.png" alt="image-20210129212959044" style="zoom:50%;" />
+<img src="python爬虫.imgs\image-20210129212959044.png" alt="image-20210129212959044" style="zoom:50%;" />
 
 ```python
 if __name__ == "__main__":
