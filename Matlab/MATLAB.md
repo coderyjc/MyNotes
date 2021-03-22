@@ -452,9 +452,42 @@ axis([0, pi, -1, 1]);
 
 
 
+#### 多次叠绘
+
+多次调用plot命令在一幅图上绘制多条曲线；需要hold指令的配合。
+
+- hold on 保持当前坐标轴和图形，并可以接受下一次绘制。
+
+- hold off 取消当前坐标轴和图形保持，这种状态下，调用plot绘制完全新的图形，不保留以前的坐标格式、曲线。
+
+**绘制离散的波形**
+
+```matlab
+t = 2 * pi * (0 : 20) / 20;
+y = cos(t) .* exp(-0.4*t);
+stem(t, y, 'g');
+hold on;
+stairs(t, y, 'r');
+hold off;
+```
 
 
 
+<img src="R:\GITHUB\MyNotes\Matlab\MATLAB.imgs\image-20210322163505937.png" alt="image-20210322163505937" style="zoom:67%;" />
+
+
+
+
+
+
+
+#### 双纵坐标
+
+
+
+
+
+#### 多子图
 
 
 
