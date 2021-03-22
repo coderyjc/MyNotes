@@ -389,7 +389,66 @@ dot(a, a) 计算向量的模，适用于复数向量
 
 
 
+## 数据可视化
 
+### plot
+
+**plot(x)**
+
+- x为向量时，以该元素的下标为横坐标、元素值为纵坐标绘出曲线
+
+- x为实数二维数组时，则按列绘制每列元素值相对其下标的曲线，曲线数等于x数组的列数。
+
+- x为复数二维数组时，则按列分别以数组的实部和虚部为横、纵坐标绘制多条曲线
+
+**plot(x, y)**
+
+- x、y为同维数组时，绘制以x、y元素为横纵坐标的曲线
+
+- x为向量，y为二维数组、且其列数或行数等于x的元素数时，绘制多条不同颜色的曲线
+
+- x为二维数组，y为向量时，情况与上相同，只是y仍为纵坐标。
+
+```matlab
+x = 0:pi/100:2*pi;
+y = 2*exp(-0.5*x).*sin(2*pi*x);
+plot(x, y)
+```
+
+<img src=".\MATLAB.imgs\image-20210322161050827.png" alt="image-20210322161050827" style="zoom: 50%;" />
+
+参数方程的绘制：
+$$
+\begin{cases} 
+x = tcos(3t)\\
+t = tsin^2(t)
+\end{cases}, -\pi \le t \le \pi
+$$
+
+```matlab
+t = -pi:pi/100:pi;
+x = t.*cos(3*t);
+y = t.*sin(t).^2;
+plot(x, y);
+```
+
+<img src=".\MATLAB.imgs\image-20210322161309782.png" alt="image-20210322161309782" style="zoom: 50%;" />
+
+调制波形的绘制
+
+调制波形：低频信号 \* 高频信号 的过过程 
+
+```matlab
+t = (0:pi/100:pi)';
+y1 = sin(t) * [1, -1];
+y2 = sin(t) .* sin(9*t);
+t3 = pi*(0:9)/9;
+y3 = sin(t3) .* sin(9*t3);
+plot(t, y1, 'r:', t, y2, 'b', t3, y3, 'bo');
+axis([0, pi, -1, 1]);
+```
+
+<img src=".\MATLAB.imgs\image-20210322161928024.png" alt="image-20210322161928024" style="zoom: 50%;" />
 
 
 
