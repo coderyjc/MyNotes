@@ -473,23 +473,101 @@ hold off;
 
 
 
-<img src="R:\GITHUB\MyNotes\Matlab\MATLAB.imgs\image-20210322163505937.png" alt="image-20210322163505937" style="zoom:67%;" />
+<img src=".\MATLAB.imgs\image-20210322163505937.png" alt="image-20210322163505937" style="zoom: 50%;" />
 
 
 
+#### 双纵坐标 plotyy(x1. y1, x2, y2)
 
+x1,y1在左，x2,y2在右边
 
+```matlab
+x = 0:0.01:20;
+y1 = 200*exp(-0.05*x).*sin(x);
+y2 = 0.8*exp(-0.5*x).*sin(10*x);
+plotyy(x, y1, x, y2);
+```
 
-
-#### 双纵坐标
-
-
+<img src=".\MATLAB.imgs\image-20210322164456442.png" alt="image-20210322164456442" style="zoom:50%;" />
 
 
 
 #### 多子图
 
+subplot(,m, n, k)
 
+- 图形窗口包含（mxn）个子图，k为要指定的当前子图的编号。
+
+- 其编号原则：左上方为第1子图，然后向右向下依次排序。该指令按缺省值分割子图区域。
+
+- 使（mxn）幅子图中第k个子图成为当前图
+
+subplot('postion'，[left，bottom，width，height])
+
+- 在指定的位置上开辟子圈，并成为当前图
+
+subplot（“postion'，[left，bottom，width，height]）用于手工指定子图位置.
+
+- 指定位置的四元组采用归一化的标称单位，即认为整个圈形窗口绘图区域的高、宽的取值范围都是[0，1]，而左下角为（0，0）坐标。
+
+- 产生的子图彼此独立。
+
+- 所有的绘图指令均可以在子图中使用。
+
+
+
+举例：
+
+```matlab
+t = (pi*(0:1000)/1000)';
+y1 = sin(t);
+y2 = sin(10*t);
+y12 = sin(t).*sin(10*t);
+subplot(2,2,1),plot(t,y1);axis([0,pi,-1,1]);
+subplot(2,2,2),plot(t,y2);axis([0,pi,-1,1]);
+subplot('position',[0.2,0.05,0.6,0.45]);
+plot(t,y12,'b-',t,[y1,-y1],'r:');
+```
+
+<img src="R:\GITHUB\MyNotes\Matlab\MATLAB.imgs\image-20210322165902728.png" alt="image-20210322165902728" style="zoom:50%;" />
+
+**刻度**
+
+- grid on 开启
+- grid off 关闭
+
+**坐标框**
+
+- box on 开启
+- box off 关闭
+
+**刻度设置**
+
+set(gca, 'xtick', xs, 'ytick', ys)
+
+- xs、ys是任何合法的师叔向量，用来设定x、y轴的刻度
+
+
+
+```matlab
+t = 6 * pi * (0:100)/100;
+y = 1 - exp(-0.3*t).*cos(0.7*t);
+tt = t(abs(y - 1)>0.05);
+ts = max(tt);
+plot(t,y,'r-');
+grid on;
+axis([0, 6*pi, 0.6, max(y)]);
+title('y=1-exp(-\alpha*t*cos(\omega*t))');
+hold on;
+plot(ts, 0.95, 'bo');
+hold off;
+set(gca, 'xtick', [2*pi, 4*pi, 6*pi], 'ytick', [0.95, 1, 1.05, max(y)]);
+grid on;
+```
+
+<img src="R:\GITHUB\MyNotes\Matlab\MATLAB.imgs\image-20210322171403108.png" alt="image-20210322171403108" style="zoom:50%;" />
+
+（图中的点为ts）
 
 ## MATLAB应用举例
 
