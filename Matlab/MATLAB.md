@@ -529,15 +529,13 @@ subplot('position',[0.2,0.05,0.6,0.45]);
 plot(t,y12,'b-',t,[y1,-y1],'r:');
 ```
 
-<img src="R:\GITHUB\MyNotes\Matlab\MATLAB.imgs\image-20210322165902728.png" alt="image-20210322165902728" style="zoom:50%;" />
+<img src=".\MATLAB.imgs\image-20210322165902728.png" alt="image-20210322165902728" style="zoom:50%;" />
 
 
 
 
 
 ### 绘制图形的辅助操作
-
-
 
 #### **曲线形状控制**
 
@@ -578,18 +576,26 @@ w：白
 - grid on 开启
 - grid off 关闭
 
-#### **坐标框**
+#### **坐标**
+
+**坐标框**
 
 - box on 开启
 - box off 关闭
+
+**坐标轴**
+
+xlabel、ylabel
+
+图中的坐标的表示形式
+
+- 所有的希腊字符都可以转义
 
 #### **刻度设置**
 
 set(gca, 'xtick', xs, 'ytick', ys)
 
 - xs、ys是任何合法的师叔向量，用来设定x、y轴的刻度
-
-
 
 ```matlab
 t = 6 * pi * (0:100)/100;
@@ -607,7 +613,7 @@ set(gca, 'xtick', [2*pi, 4*pi, 6*pi], 'ytick', [0.95, 1, 1.05, max(y)]);
 grid on;
 ```
 
-<img src="R:\GITHUB\MyNotes\Matlab\MATLAB.imgs\image-20210322171403108.png" alt="image-20210322171403108" style="zoom:50%;" />
+<img src=".\MATLAB.imgs\image-20210322171403108.png" alt="image-20210322171403108" style="zoom:50%;" />
 
 （图中的点为ts）
 
@@ -615,25 +621,34 @@ grid on;
 
 #### 直方图
 
-
+| 图形         | 指令                                                    |
+| ------------ | ------------------------------------------------------- |
+| 柱状图       | bar(x, y, args[])                                       |
+| 累计式直方图 | bar(x, y, 'stack', args[])                              |
+| 分组式直方图 | bar(x, y, 'group', args[])、barh(x, y, 'group', args[]) |
 
 
 
 #### 饼图
 
-
+pie(x, y, args[])
 
 
 
 #### 离散杆图
 
-
+stem(x, y, args[])
 
 
 
 #### 极坐标图
 
+$$
+\rho = sin(2\theta)cos(2\theta) \\
+polar(\theta, \rho, args[])
+$$
 
+polar(theta, tho, args[])
 
 
 
@@ -641,23 +656,41 @@ grid on;
 
 #### 三维线图
 
+plot3(x, y, z, args[])
 
 
 
+#### 三维网线图、曲面图
 
-#### 三维网线图
+步骤：
 
+1. 确定取值范围和取值间隔
+2. 构建格点矩阵
+3. 计算格点上的函数值
 
+```matlab
+ x = -4: 0.01; 4;
+ y  = x;
+ [x, y] = meshgrid(x, y);
+ z = x.^2 + y.^2;
+ subplot(1,2,1), mesh(x,y,z);  %三维网格图
+subplot(1,2,2), surf(x,y,z);    %三维曲面图
+colormap(cool); 
+```
 
-
-
-#### 三位曲面图
+<img src=".\MATLAB.imgs\image-20210324201735451.png" alt="image-20210324201735451" style="zoom:80%;" />
 
 
 
 
 
 ## 图像处理
+
+| 指令                   | 作用         |
+| ---------------------- | ------------ |
+| imread(filePath)       | 读取图像文件 |
+| imshow(var)            | 显示图像     |
+| imwrite(var, filePath) | 保存图像     |
 
 
 
