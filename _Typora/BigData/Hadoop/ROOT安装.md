@@ -127,7 +127,7 @@ sudo vim ~/.bashrc
 
 ```shell
 #hadoop  
-export HADOOP_HOME=/apps/hadoop  
+export HADOOP_HOME=/apps/hadoop 
 export PATH=$HADOOP_HOME/bin:$PATH 
 ```
 
