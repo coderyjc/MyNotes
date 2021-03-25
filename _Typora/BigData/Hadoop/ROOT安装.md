@@ -126,8 +126,8 @@ sudo vim ~/.bashrc
 将以下内容写入：
 
 ```shell
-#hadoop  
-export HADOOP_HOME=/apps/hadoop 
+#hadoop
+export HADOOP_HOME=/apps/hadoop
 export PATH=$HADOOP_HOME/bin:$PATH 
 ```
 
@@ -169,12 +169,12 @@ vim /apps/hadoop/etc/hadoop/core-site.xml
 
 ```xml
   <property>  
-      <name>hadoop.tmp.dir</name>  
-      <value>/data/tmp/hadoop/tmp</value>  
-  </property>  
-  <property>  
+      <name>hadoop.tmp.dir</name>
+      <value>/data/tmp/hadoop/tmp</value>
+  </property>
+  <property>
       <name>fs.defaultFS</name>  
-      <value>hdfs://localhost:9000</value>  
+      <value>hdfs://localhost:9000</value>
   </property>  
 ```
 
@@ -191,7 +191,7 @@ mkdir -p /data/tmp/hadoop/tmp
 
 
 ```shell
-vim /apps/hadoop/etc/hadoop/hdfs-site.xml 
+vim /apps/hadoop/etc/hadoop/hdfs-site.xml
 ```
 
 添加下面配置到< configuration >与< /configuration >标签之间
@@ -201,12 +201,12 @@ vim /apps/hadoop/etc/hadoop/hdfs-site.xml
  <property>  
      <name>dfs.namenode.name.dir</name>  
      <value>/data/tmp/hadoop/hdfs/name</value>  
- </property>  
+ </property> 
   <property>  
       <name>dfs.datanode.data.dir</name>  
       <value>/data/tmp/hadoop/hdfs/data</value>  
-  </property>  
-  <property>  
+  </property>
+  <property>
       <name>dfs.replication</name>  
       <value>1</value>  
   </property>  
@@ -252,7 +252,7 @@ cd /apps/hadoop/sbin/
 ```bash
 export HDFS_NAMENODE_USER=root
 export HDFS_DATANODE_USER=root
-export HDFS_SECONDARYNAMENODE_USER=root
+export HDFS_SECONDAR_YNAMENODE_USER=root
 export YARN_RESOURCEMANAGER_USER=root
 export YARN_NODEMANAGER_USER=root
 ```
@@ -352,3 +352,56 @@ hadoop classpath
 ```
 
 在所有的Master和Slave节点进行如上设置，设置完毕后重启Hadoop集群，重新运行刚才的MapReduce程序，成功运行。
+
+
+
+# Wordcount
+
+创建并写入本地需要统计字数的文件
+
+```shell
+mkdir /data/input
+cd /data/input
+vim input_0.txt 
+然后在这个文件里写点东西, 保存退出
+vim input_1.txt
+然后在这个文件里写点东西, 保存退出
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\BigData\Hadoop\ROOT安装.imgs\image-20210325104555040.png" alt="image-20210325104555040" style="zoom:67%;" />
+
+在hdfs上创建输入文件夹，并将刚刚创建的文件传入
+
+```shell
+hadoop fs -mkdir hdfsinput
+hadoop fs -put /data/input/* hdfsinput
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\BigData\Hadoop\ROOT安装.imgs\image-20210325104939466.png" alt="image-20210325104939466" style="zoom:67%;" />
+
+运行wordcount
+
+```shell
+cd /apps/hadoop/share/hadoop/mapreduce
+hadoop jar hadoop-mapreduce-examples-3.2.2.jar wordcount  hdfsinput hdfsoutput
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\BigData\Hadoop\ROOT安装.imgs\image-20210325110255074.png" alt="image-20210325110255074" style="zoom:67%;" />
+
+<img src="R:\GITHUB\MyNotes\_Typora\BigData\Hadoop\ROOT安装.imgs\image-20210325110650668.png" alt="image-20210325110650668" style="zoom:67%;" />
+
+查看输出文件夹
+
+```shell
+hadoop fs -ls hdfsoutput
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\BigData\Hadoop\ROOT安装.imgs\image-20210325111711686.png" alt="image-20210325111711686" style="zoom:67%;" />
+
+查看结果
+
+```shell
+hadoop fs -cat hdfsoutput/part-r-00000
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\BigData\Hadoop\ROOT安装.imgs\image-20210325110620108.png" alt="image-20210325110620108" style="zoom:67%;" />
