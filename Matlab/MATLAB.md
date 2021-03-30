@@ -670,7 +670,7 @@ plot3(x, y, z, args[])
 
 ```matlab
  x = -4: 0.01; 4;
- y  = x;
+ y = x;
  [x, y] = meshgrid(x, y);
  z = x.^2 + y.^2;
  subplot(1,2,1), mesh(x,y,z);  %三维网格图
@@ -684,7 +684,7 @@ colormap(cool);
 
 
 
-## 图像处理
+### 图像处理
 
 | 指令                   | 作用         |
 | ---------------------- | ------------ |
@@ -694,9 +694,288 @@ colormap(cool);
 
 
 
+## Matlab 程序设计
+
+命令文件没有输入参数，也不返回输出参数；函数文件可以带输入参数，也可以返回输出参数。
+
+命令文件对工作空间中的变量进行操作，文件中所有命令的执行结果也返回工作空间中；函数文件中定义的变量为局部变量，当函数文件执行完毕时，这些变量也被清除。
+
+命令文件可以直接运行；函数文件不能直接运行，要以函数调用的方式来调用它。
+
+**输入数据**
+
+`A = input(提示信息, 选项)`
+
+**输出数据**
+
+`disp(a)`
+
+**程序暂停**
+
+`pause(暂停的秒数)`
+
+`Ctrl + C 强行停止`
 
 
 
+### 函数、选择、循环
+
+函数单独写在一个文件中
+
+```matlab
+格式：
+	for 循环变量=表达式1：表达式2：表达式3
+		循环体
+	end
+
+【注】：表达式1：循环变量初值，表达式2：步长，为1时，可省略；表达式3：循环变量终值。
+
+或：
+     for循环变量 = 矩阵表达式
+               循环体
+     end
+
+【注】：执行过程是依次将矩阵的各列元素赋给循环变量，
+             然后执行循环体语句，直至各列元素处理完毕。
+```
+
+
+
+```matlab
+while语句：
+格式：
+     while（条件）
+           循环体
+     end
+```
+
+
+
+```matlab
+if 表达式
+		程序模块1
+     elseif
+		程序模块2
+     else
+     	程序模块2
+     end
+```
+
+
+
+```matlab
+switch语句：
+
+格式：
+     switch 表达式
+     case 数值1
+       程序模块1
+     case 数值2
+       程序模块2
+     case {数值3,4,5}
+       程序模块3
+     otherwise
+       程序模块 n
+     end
+```
+
+
+
+### 例题
+
+**例题1**
+
+建立文件函数交换两个参数的值，返回执行后的结果
+
+```matlab
+%f_exchange.m
+function [a,b] = exch(a,b)
+c = a; a = b; b = c;
+
+%命令行
+x = 23;
+y = [3, 4, 5];
+[p, q] = f_exchange(x, y);
+```
+
+<img src=".\MATLAB.imgs\image-20210330110315924.png" alt="image-20210330110315924" style="zoom:67%;" />
+
+**例题2**
+$$
+求方程 ax^2+bx+c=0的根
+$$
+程序如下
+
+```matlab
+a = input('a = ');
+b = input('b = ');
+c = input('c = ');
+d = b*b - 4*a*c;
+x = [(-b+sqrt(d))/(2*a),(-b-sqrt(d))/(2*a)];
+disp(['x1 = ', num2str(x(1)), ' x2 = ', num2str(x(2))]);
+```
+
+运行截图为：
+
+<img src=".\MATLAB.imgs\image-20210330102725081.png" alt="image-20210330102725081" style="zoom:67%;" />
+
+**例题3**
+$$
+计算分段函数 
+\begin{cases} 
+	cos(x+1)+\sqrt{x^2 + 1},x=10\\
+	x\sqrt{x+\sqrt{x}},x \ne 10
+\end{cases}
+$$
+代码如下：
+
+```matlab
+x = input('请输入x的值：');
+if x == 10
+    y = cos(x+1)+sqrt(x*x+1);
+else
+    y = x*sqrt(x + sqrt(x));
+end
+disp(y);
+```
+
+运行截图如下：
+
+<img src=".\MATLAB.imgs\image-20210330103408934.png" alt="image-20210330103408934" style="zoom:67%;" />
+
+**例题4**
+
+输入一个字符，若为大写字母，则输出其对应的小写字母；若为小写字母，则输出其对应的大写字母；若为数字字符则输出其对应的数值，若为其他字符则原样输出
+
+代码如下：
+
+```matlab
+c = input('请输入一个字符', 's');
+if c >='A' && c<='Z'
+    disp(char(abs(c) + abs('a')-abs('A')));
+elseif c>='a' && c<='z'
+    disp(char(abs(c)- abs('a') + abs('A')));
+elseif c>='0' && c<='9'
+    disp(abs(c)-abs('0'));
+else
+    disp(c);
+end
+```
+
+<img src=".\MATLAB.imgs\image-20210330103718784.png" alt="image-20210330103718784" style="zoom:67%;" />
+
+**例题5**
+
+某商场对顾客所购买的商品实行打折销售，标准如下：
+
+price<200         没有折扣
+
+200<=price<500    3%折扣
+
+500<=price<1000   5%折扣
+
+1000<=price<2500  8%折扣
+
+2500<=price<5000  10%折扣
+
+5000<=price       14%折扣
+
+输入所售商品的价格，求其实际销售价格。
+
+代码如下：
+
+```matlab
+price = input('请输入商品价格');
+switch fix(price/100)
+    case{0,1} 
+        rate = 0;
+    case{2,3,4}
+        rate = 3/100; 
+    case num2cell(5:9)
+        rate = 5/100; 
+     case num2cell(10:24)
+        rate = 8/100;
+     case num2cell(25:49)
+        rate = 10/100; 
+      otherwise
+         rate = 14/100;
+end
+price = price*(1-rate) 
+```
+
+<img src=".\MATLAB.imgs\image-20210330104519216.png" alt="image-20210330104519216" style="zoom:67%;" />
+
+**例题6**
+
+矩阵乘法运算要求两矩阵的维数相容，否则会出错。先求两矩阵的乘积，若出错则自动转去求两矩阵的点乘。
+
+```matlab
+A = [1,2,3;4,5,6];
+B = [7,8,9;10,11,12];
+try 
+    C = A*B;
+catch
+    C = A.*B;
+end
+C
+lasterr
+```
+
+<img src=".\MATLAB.imgs\image-20210330104654187.png" alt="image-20210330104654187" style="zoom:67%;" />
+
+**例题7**
+$$
+已知 y=\frac{1}{1^2} + \frac{1}{2^2} + \frac{1}{3^2} +...\frac{1}{n^2} , 当n=100时，求y的值。
+$$
+
+```matlab
+y = 0;n = 100;
+for i=1:n
+    y = y+1/i^2;
+end
+y
+```
+
+<img src=".\MATLAB.imgs\image-20210330105535098.png" alt="image-20210330105535098" style="zoom:67%;" />
+
+**例题8**
+
+从键盘输入若干个数，当输入0时结束输入，求这些数的平均值和它们的和。
+
+```matlab
+sum = 0;
+n = 0;
+x = input('Enter a number(end in 0):');
+while(x~=0)
+    sum = sum+x;
+    n = n+1;
+    x = input('Enter a number(end in 0):');
+end
+if(n>0)
+    sum
+    mean=sum/n
+end
+```
+
+结果截图：
+
+<img src=".\MATLAB.imgs\image-20210330105856563.png" alt="image-20210330105856563" style="zoom:50%;" />
+
+**例题9**
+
+求[100,200]之间第一个能被21整除的整数。
+
+```matlab
+for n = 100:200
+    if rem(n,21)~=0;
+       continue
+    end
+    break
+end
+n
+```
+
+<img src=".\MATLAB.imgs\image-20210330110004611.png" alt="image-20210330110004611" style="zoom:80%;" />
 
 ## MATLAB应用举例
 
