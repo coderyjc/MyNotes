@@ -781,6 +781,50 @@ switch语句：
 
 
 
+### 函数
+
+基本结构
+
+```matlab
+function 输出形参表 = 函数名（输入形参表）
+	注释
+	函数体
+```
+
+- 输出形参多于一个应该用方括号括起来
+
+1.关于函数文件名
+
+函数文件名通常由函数名再加上扩展名.m组成。
+
+当函数文件名与函数名不同时，Matlab将忽略函数名而确认文件名因此调用时使用函数文件名。
+
+2.关于注释说明部分
+
+注释说明包括3部分：
+
+①紧随引导行之后以%开头的第一注释行。这一行一般包括**大写的函数文件名**和**函数功能简要描述**，供lookfor关键词查询和help在线帮助时使用。
+
+②第一注释行及之后连续的注释行。通常包括函数输入/输出参数的含义及调用格式说明等信息，构成全部在线帮助文本。
+
+③与在线帮助文本相隔一空行的注释行。包括函数文件编写和修改的信息，如作者和版本等。
+
+3、关子return语句
+
+如果在函数文件中插入了return语句，则执行到该语句就结束函教的执行，流程转至调用该函数的位置。通常也不使用return语句。
+
+
+
+全局变量与局部变量
+
+Matlab中，函数文件中的变量是局部变量。了如在若干函数中，都把某一变量定义为全局变量，那么这些函数将共用这个变量。
+
+全局变量的作用域是整个Matlab的工作空间，所有函数都可以对它进行存取和修改。
+
+全局变量用global命令定义，格式为：global变量名
+
+
+
 ### 例题
 
 **例题1**
@@ -976,6 +1020,94 @@ n
 ```
 
 <img src=".\MATLAB.imgs\image-20210330110004611.png" alt="image-20210330110004611" style="zoom:80%;" />
+
+
+
+**例题10**
+
+求半径为r的圆的面积和周长
+
+```matlab
+% getCircleInfo.m
+
+function [s, p] = getCircleInfo(r)
+% getCircleInfo calculate the area and perimeter of a circle of radir
+% r 半径
+% s 面积
+% p 周长
+s = pi * r * r;
+p = 2 * pi * r;
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210405160624369.png" alt="image-20210405160624369" style="zoom:67%;" />
+
+**例题11**
+
+利用函数文件实现直角坐标和极坐标之间的转换
+
+```matlab
+% tranDicarerPolar.m
+function [tho, theta] = tranDicarerPolar(x, y)
+tho = sqrt(x * x + y * y);
+theta = atan(y / x);
+
+% test.m
+x = input('input x : ');
+y = input('input y : ');
+[rho, the] = tranDicarerPolar(x, y);
+rho
+the
+```
+
+
+
+**例题12**
+
+算n！
+
+```matlab
+function f = myFactor(n)
+% 计算 n 的阶乘
+if n <= 1
+    f = 1;
+else
+    f = myFactor(n - 1) * n;
+end
+```
+
+
+
+**例题13**
+
+```matlab
+% 参数的数量可以改变
+function out = charAry(a, b, c)
+if nargin == 1
+    out = a;
+end
+if nargin == 2
+    out = a + b;
+end
+if nargin == 3
+    out = (a * b * c) / 2;
+end
+```
+
+
+
+**例题14**
+
+全局变量的使用
+
+```matlab
+function f = weightAdd(x, y)
+global ALPHA BETA
+f = ALPHA*x + BETA * y
+```
+
+
+
+
 
 ## MATLAB应用举例
 
