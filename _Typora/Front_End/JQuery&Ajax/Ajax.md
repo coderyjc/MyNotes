@@ -238,3 +238,27 @@ jackson-databind-2.9.0.jar
         pw.close();
     }
 ```
+
+## 其他
+
+### ajax实现页面跳转
+
+```javascript
+$.ajax({
+    type:"POST",
+    url: //你的请求程序页面随便啦
+    async:false,//同步：意思是当有返回值以后才会进行后面的js程序。
+    data://请求需要发送的处理数据
+    success:function(msg){
+        if (msg) {//根据返回值进行跳转
+            window.location.href = '你的跳转的目标地址';
+        }
+    });
+```
+
+ajax只接受最后返回的值，不会响应跳转请求更改浏览器地址栏地址转向的，你需要用js判断ajax的返回值是否要跳转，然后设置location.href实现跳转。
+
+ajax异步请求struts的action只会返回所请求页面的html源代码。这样请求是不会跳转的。
+
+补充一下:在springMVC框架中,当controller层方法返回String类型的时候默认是进行页面跳转,这时候后台使用return时ajax接收到的并不是后台返回的某个字符串或状态码,而是整个html对象,这时可以在后台的方法上添加注解 @ResponseBody,就可以直接使用return返回想要返回的字符串而不进行页面跳转,而且ajax接收到的也是我们想要返回的字符串而不是整个html对象,然后再进行判断后用window.location.href进行页面跳转
+

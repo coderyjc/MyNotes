@@ -269,11 +269,11 @@ find(A >= 10 & A < 20) %找到非0元素的位置
 
 向量的*操作前面要加上点号
 
-| 语句          | 作用                         |
-| ------------- | ---------------------------- |
-| length(A)     | 返回向量的最大维数           |
-| size(A)       | 返回向量的大小（函数和列数） |
-| max(A)/min(A) | 向量中最大最小的元素         |
+| 语句          | 作用                       |
+| ------------- | -------------------------- |
+| length(A)     | 返回向量的最大维数         |
+| size(A)       | 返回向量的大小（行和列数） |
+| max(A)/min(A) | 向量中最大最小的元素       |
 
 如果变量中有复数，在用（.*）计算模的时候必须计算其共轭复数，用原向量 .\*共轭向量
 
@@ -1039,7 +1039,7 @@ s = pi * r * r;
 p = 2 * pi * r;
 ```
 
-<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210405160624369.png" alt="image-20210405160624369" style="zoom:67%;" />
+<img src=".\MATLAB.imgs\image-20210405160624369.png" alt="image-20210405160624369" style="zoom:67%;" />
 
 **例题11**
 
@@ -1104,6 +1104,247 @@ function f = weightAdd(x, y)
 global ALPHA BETA
 f = ALPHA*x + BETA * y
 ```
+
+
+
+## MATLAB数值计算
+
+### 多项式
+
+表达：
+
+- 由行向量表示
+
+  - 元素是多项式的系数
+
+  - 按照降幂次序排列
+
+  - $$
+    x^4-12x^3+25x+116 \\
+    $$
+
+    `p = [1 -12 0 25 116]` （没有的用0表示）
+
+- 多项式是行向量，根是列向量
+
+**求解多项式的根 `roots()`** 
+
+  ```matlab
+  p = [1 -12 0 25 116];
+  roots(p)
+  ```
+
+  <img src=".\MATLAB.imgs\image-20210412160318955.png" alt="image-20210412160318955" style="zoom:67%;" />
+
+
+
+**已知根，求解多项式 ：`poly()`**
+
+```matlab
+p = [1 -12 0 25 116];
+r = roots(p);
+poly(r)
+```
+
+<img src=".\MATLAB.imgs\image-20210412160553945.png" alt="image-20210412160553945" style="zoom:67%;" />
+
+**多项式乘法`conv()`**
+
+```matlab
+a =[ 1 2 3 4 ];
+b = [1 4 9 16];
+c = conv(a, b);
+c
+```
+
+
+
+<img src=".\MATLAB.imgs\image-20210412160841520.png" alt="image-20210412160841520" style="zoom:50%;" />
+
+**多项式加法：`直接加，不够的补上 0 `**
+
+```matlab
+a =[ 1 2 3 4 ];
+b = [1 4 9 16];
+c = [1 2 3 4 5]
+d = a + b;
+e = d + [0 0 0 0]
+```
+
+<img src=".\MATLAB.imgs\image-20210412161044941.png" alt="image-20210412161044941" style="zoom:50%;" />
+
+**实现任意长度多项式相加函数：**
+
+```matlab
+function rst =  poly_add(a, b)
+% 任意长度多项式相加
+if length(a) == length(b)
+    rst = a + b;
+elseif length(a) > length(b)
+    rst = a + [zeros(1, length(a) - length(b)), b]; % zeros 产生1行多少列的0矩阵
+else   
+    rst = b + [zeros(1, length(b) - length(a)), a];
+end
+```
+
+
+
+<img src=".\MATLAB.imgs\image-20210412161739535.png" alt="image-20210412161739535" style="zoom:50%;" />
+
+
+
+**多项式除法` deconv() `**
+
+```matlab
+c = [0 6 20 50 75 84 64];
+b = [1 4 9 16];
+[q, r] = deconv(c, b);
+% q 商
+% r 余数
+```
+
+<img src=".\MATLAB.imgs\image-20210412162053853.png" alt="image-20210412162053853" style="zoom: 67%;" />
+
+**多项式的导数 `polyder()`**
+
+```matlab
+b = [1 4 9 16];
+d = polyder(b)
+```
+
+<img src=".\MATLAB.imgs\image-20210412162643883.png" alt="image-20210412162643883" style="zoom:50%;" />
+
+**多项式的估值`polyval()`**
+$$
+绘制 p(x)=x^3+4x^2-7x-10在[-1, 3]上的曲线
+$$
+
+```matlab
+x =  linspace(-1, 3); % x轴上的点
+p = [1 4 -7 -10];
+v = polyval(p, x); % x轴上的点对应的y值
+plot(x, v) % 两个行向量
+title('x^{3}+4x^{2}-7x-10');
+xlabel('x');
+```
+
+
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210412163046190.png" alt="image-20210412163046190" style="zoom:50%;" />
+
+
+
+### 函数的数值导数
+
+matlab中没有直接求导的函数，只有计算向前差分的函数`diff()`
+
+`DX=diff(x) % 计算向量X的向前差分`
+
+`DX=diff(X, n) %X的n阶向前差分`
+
+
+
+设x由[0, 2pi]间均匀分布的10个点组成，求sin(x)的1-3阶差分
+
+一阶差分：`f(x+1)-f(x)`
+
+2阶差分：`f(x+2)-f(x)`
+
+n阶差分：`f(x+n)-f(x)`
+
+```matlab
+x = linspace(0, 2*pi, 10);
+y = sin(x);
+dy = diff(y)
+d2y = diff(y, 2)
+d3y = diff(y, 3)
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210412165007007.png" alt="image-20210412165007007" style="zoom:50%;" />
+
+
+$$
+设f(x) = \sqrt{x^2+2x^2-x+12} + （x + 5）^{1/6} + 5x + 2 在[-3,3]内以0.01为步长求数值导数，并画图
+$$
+
+```matlab
+f = inline('sqrt(x.^3+2*x.^2-x+12)+(x+6).^(1/6)+5*x+2'); % 内联函数
+x = -3:0.01:3;
+dx = diff(f([x, 3.01]))/0.01; % 根据定义求导数
+% 求一阶差分之后少了一个点，所以应该补上一个3.01
+% 这样计算之后x和dx 的长度是相等的
+plot(x, dx)
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210412165740650.png" alt="image-20210412165740650" style="zoom:67%;" />
+
+### 数值定积分
+
+一元函数的数值积分
+
+常用积分指令 `quad`、`quadl`
+
+调用格式：
+
+```matlab
+q = quadl(fun, a, b); % 被积函数， 上限， 下限
+% 被基函数应该是用引号引起来的字符形式的函数
+% 缺省参数 tol ： 控制绝对误差
+% 缺省参数 
+```
+
+
+$$
+求定积分 I=\begin{equation*}
+\int_{0}^{1} xe^{-x}dx
+\end{equation*}
+$$
+
+
+```matlab
+fun = inline('exp(-x.*x)', 'x'); % 第二个参数x表示这个函数的变量为x
+Isim = quad(fun, 0, 1), I8 = quadl(fun, 0, 1)
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210412171051058.png" alt="image-20210412171051058" style="zoom:50%;" />
+
+
+$$
+\begin{equation*}
+\int_{0}^{1} \sqrt{ln(\frac{1}{x})}\, dz
+\end{equation*}
+$$
+
+```matlab
+fun = inline('sqrt(log(1./x))', 'x');
+Isim = quad(fun, 0, 1)
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210412170900672.png" alt="image-20210412170900672" style="zoom:50%;" />
+
+
+
+### 元素排序
+
+`sort(X)` 返回一个对X中元素按照**每列升序**排列的新向量
+
+也可以对矩阵A的各行或者各列重新排序：`[Y, I] = sort(A, dim)` **dim=1按列排序，=2，按行排序**，Y是排序后的矩阵，I记录Y中的元素在A中的位置。
+
+```matlab
+A = [1 -8 5; 4 12 6; 13 7 -13];
+sort(A) % 每列升序排列的新向量
+-sort(-A,2) % 每行降序排列 ，即：按行排列，升序排列A的相反数，排列之后再取相反数
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210412172032704.png" alt="image-20210412172032704" style="zoom: 67%;" />
+
+### 数据插值
+
+一维数据插值：被插的函数只有一个单变量
+
+一维数据插值`Y1 = interp1(X, Y, X1, method)` 函数根据X，Y的值计算函数在X1处的值。
+
+
 
 
 
