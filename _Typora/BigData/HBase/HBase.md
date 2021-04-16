@@ -1,4 +1,4 @@
-## 概述-BigTable
+## 从BigTable说起
 
 google大数据解决方案：
 
@@ -7,7 +7,7 @@ google大数据解决方案：
 - 分布式锁服务Chubby提供协同服务管理
 - 分布式结构化数据存储系统Bigtable等。
 
-<img src="R:\GITHUB\MyNotes\_Typora\BigData\HBase\HBase.imgs\image-20210415210721990.png" alt="image-20210415210721990" style="zoom: 50%;" />
+<img src=".\HBase.imgs\image-20210415210721990.png" alt="image-20210415210721990" style="zoom: 50%;" />
 
 
 
@@ -31,7 +31,7 @@ Bigtable和传统的关系型数据库有很大不同，它不支持一般意义
 
 一个典型实例，其中com.cnn.www就是一个行关键字。不直接存储网页地址，而将其倒排是Bigtable的一个巧妙设计。带来两个好处 :同一地址域的网页会被存储在表中的连续位置，有利于用户查找和分析；倒排便于数据压缩，可以大幅提高压缩率
 
-<img src="R:\GITHUB\MyNotes\_Typora\BigData\HBase\HBase.imgs\image-20210415211638192.png" alt="image-20210415211638192" style="zoom:67%;" />
+<img src=".\HBase.imgs\image-20210415211638192.png" alt="image-20210415211638192" style="zoom:67%;" />
 
 由于规模的问题，单个的大表不利于数据处理，因此Bigtable将一个表分成了多个子表，每个子表包含多个行。**子表是Bigtable中数据划分和负载均衡的基本单位。**
 
@@ -55,7 +55,7 @@ Bigtable并不是简单地存储所有的列关键字，为了方便管理，列
 
 族同时也是Bigtable中访问控制（Access Control）基本单元，也就是说**访问权限的设置是在族这一级别上进行的**
 
-<img src="R:\GITHUB\MyNotes\_Typora\BigData\HBase\HBase.imgs\image-20210415211901133.png" alt="image-20210415211901133" style="zoom:67%;" />
+<img src=".\HBase.imgs\image-20210415211901133.png" alt="image-20210415211901133" style="zoom:67%;" />
 
 **时间戳**
 
@@ -67,9 +67,43 @@ Bigtable并不是简单地存储所有的列关键字，为了方便管理，列
 
 - 另一种就是保留限定时间内的所有不同版本，比如可以保存最近10天的所有不同版本数据。失效的版本将会由Bigtable的垃圾回收机制自
   动处理
-- Google的很多服务比如网页检索和用户的个性化设置等都需要保存不同时间的数据，这些不同的数据版本必须通过时间戳来区分。
+  
+
+Google的很多服务比如网页检索和用户的个性化设置等都需要保存不同时间的数据，这些不同的数据版本必须通过时间戳来区分。
 
 
+
+### 系统架构
+
+Bigtable数据库的架构，由主服务器和分服务器构成，把数据库看成是一张大表，那么可将其划分为许多基本的小表，这些小表就称为**tablet，是bigtable中最小的处理单位**。
+
+主服务器和分服务器的作用：
+
+- 主服务器负责将Tablet分配到Tablet服务器、检测新增和过期的Tablet服务器、平衡Tablet服务器之间的负载、GFS垃圾文件的回收、数据模式的改变（例如创建表）等。
+
+- Tablet服务器负责处理数据的读写，并在Tablet规模过大时进行拆分。
+
+Bigtable使用集群管理系统来调度任务、管理资源、监测服务器状态并处理服务器故障。
+
+Big Table将数据存储分为两部分：最近的更新存储在内存memtable中，较老的更新则以SSTable的格式存储在GFS，后者是主体部分，不可变的数据结构。写操作的内容插入到memtable中，当memtable的大小达到一个阈值时就冻结，然后创建一个新的memtable，旧的就转换成一个SSTable写入GFS。
+
+在Bigtable中Chubby主要有以下几个作用：
+
+- 选取并保证同一时间内只有一个主服务器
+
+- 获取子表的位置信息
+
+- 保存Bigtable的模式信息及访问控制列表
+
+
+
+## HBase简介
+
+### 与传统关系型数据库的对比
+
+| 方面 | HBase | 关系型数据库 |
+| ---- | ----- | ------------ |
+|      |       |              |
 
 
 
@@ -82,6 +116,12 @@ Bigtable并不是简单地存储所有的列关键字，为了方便管理，列
 
 
 ## 数据模型
+
+
+
+
+
+
 
 
 
