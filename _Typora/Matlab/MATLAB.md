@@ -1344,6 +1344,217 @@ sort(A) % 每列升序排列的新向量
 
 一维数据插值`Y1 = interp1(X, Y, X1, method)` 函数根据X，Y的值计算函数在X1处的值。
 
+XY是两个等长的已知向量，分别描述采样点和样本值。
+
+X1是一个向量或标量，描述想要插值的点，Y1是一个与X1等长的插值结果。
+
+method取值：
+
+- linear  (默认)
+- nearest
+- cubic
+- spline
+
+​	表示四种插值方式
+
+一般来说，3次样条和3次多项式的插值结果比线性插值和最近点插值方法好，但是插值方法的**好坏依赖于被插值的函数**
+
+
+
+例：给出概率积分数据如下，用不同的插值方法计算f(0.472)
+
+```matlab
+x = 0.46:0.01:0.49
+f = [0.4846555 0.4937542 0.5027498 0.5116683];
+format long 
+interp1(x, f, 0.472)  % 默认
+interp1(x, f, 0.472, 'neraest') % 最近插值法
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419155643963.png" alt="image-20210419155643963" style="zoom:50%;" />
+
+
+
+### 曲线拟合
+
+用 `ployfit` 求最小二乘拟合多项式的系数，再用`polyval`函数按照所得的多项式计算所给出点上的函数的近似值。
+
+```matlab
+[P, S] = polyfit(X, Y, m)
+% X 采样点
+% Y 采样点的函数值
+% m 产生m次的多项式
+% P 多项式的系数
+% S 误差向量
+```
+
+
+
+例题：
+
+用一个三次多项式在区间0到2pi内逼近函数sinx
+
+```matlab
+x = linspace(0, 2*pi, 20); % 
+y = sin(x);
+p = polyfit(x, y, 3);
+y1 = polyval(p, x);
+plot(x, y, ':o', x, y1, '-*');
+legend('sin(x)', 'fit');
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419160450112.png" alt="image-20210419160450112" style="zoom:67%;" />
+
+
+
+
+
+## MATLAB符号运算
+
+### 符号运算基础
+
+符号对象的定义
+
+- 定义符号对象的指令： `sym` \ `syms`
+- `f = sym(arg)`  或者  `f = syms('arg1', 'arg2', ...)` 或者 `syms arg1, arg2...`
+  - 将数字、字符串或者表达式arg转换为符号对象f
+- 符号表达式可以进行四则运算
+
+```matlab
+syms x  y a b;
+f1 = sin(x) + cos(y)
+f2 = a - b;
+f12 = f1 + f2;
+f12
+f3 = f1 * f2;
+```
+
+基本符号运算和操作
+
+`collect(s)` `collect(s, v)`
+
+s 是将要进行合并的函数
+
+v 是以什么为基准合并，字符串
+
+```matlab
+clear
+syms x y;
+f = x^2*y + y*x-x^2-2*x;
+collect(f);
+collect(f, 'y');
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419162140048.png" alt="image-20210419162140048" style="zoom:50%;" />
+
+因式分解
+
+```matlab
+clear
+syms x y
+factor(x^5-y^5)
+factor(x^10-y^10)
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419162307004.png" alt="image-20210419162307004" style="zoom:50%;" />
+
+化简 `simplify`  `simple`
+
+展开 `expand`
+
+嵌套形式 `horner`
+
+找到分子和分母 `numden`
+
+
+
+### 符号矩阵的创建与运算
+
+使用sym创建符号数组
+
+```matlab
+a1 = sym('[1/3 1/2 sqrt(2)]')
+or 
+b1 = '[1/3 1/2 sqrt(2)]'
+a2 = sym(b1);
+a1
+a2
+// 没跑出来
+```
+
+
+
+
+
+创建符号常数数组
+
+```matlab
+a = reshape(1:9, 3, 3)
+s_a = sym(a)
+s_b = 1./ s_a
+whos a s_a s_b
+
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419164349946.png" alt="image-20210419164349946" style="zoom: 50%;" />
+
+创建一般符号数组
+
+符号矩阵可以乘以普通标量、符号标量、点乘等
+
+
+
+### 符号微积分
+
+符号极限指令: 
+
+- `limit(f, x, a)` 计算变量x->a的时候，函数f的极限值
+- `limit(f, a)` 计算有findsym(f)确定的自变量->a的时候，函数f的极限值
+- `limit(f)` 计算a = 0的时候函数f 的极限值
+- `limit(f, x, 'right')` `limit(f, x, 'left')` 计算x->a时的右极限、左极限
+
+```matlab
+syms x t y h
+f = sin(x)/x;
+limit(f)
+limit((1+2*t/x)^(3*x), x, inf)
+limit(1/x, x, 0, 'right') % 右极限
+limit(1/x, x, 0, 'left') % 左极限
+limit((sin(x+h)-sin(x))/h, h, 0) % sin(x)的导数的概念
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419165716570.png" alt="image-20210419165716570" style="zoom:50%;" />
+
+
+
+### 函数的符号微分与求导
+
+MATLAB符号微分指令： `diff`
+
+```matlab
+syms x y;
+f = x^2 + x*y + sin(x) + cos(y);
+dy1 = diff(f, 'y') % 默认对x求导，用’y‘作为参数可以对y求导
+dx2 = diff(f, 2) % 求2阶导数
+dy2 = diff(f, 'y', 2) % 求 y 的二阶导数
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419170704038.png" alt="image-20210419170704038" style="zoom:50%;" />
+
+### 符号积分
+
+`int` 计算不定积分和定积分
+
+```matlab
+syms x w t;
+int(1/x)
+int(1/x^2)
+int(sin(w*t), t) % 对 t 积分
+
+```
+
+<img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419171018559.png" alt="image-20210419171018559" style="zoom: 50%;" />
+
 
 
 
