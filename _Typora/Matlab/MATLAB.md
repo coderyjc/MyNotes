@@ -1555,6 +1555,17 @@ int(sin(w*t), t) % 对 t 积分
 
 <img src="R:\GITHUB\MyNotes\_Typora\Matlab\MATLAB.imgs\image-20210419171018559.png" alt="image-20210419171018559" style="zoom: 50%;" />
 
+### 符号代数方程的求解
+
+代数方程求解代数方程的指令：
+
+- 线性方程组的求解：`linsolve`
+- 一般代数方程组的解：`solve`
+
+$$
+求方程组 u*y^2+v*z+w=0,y+z+w=0 关于y，z的解
+$$
+
 
 
 
