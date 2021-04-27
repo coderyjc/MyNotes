@@ -1,4 +1,4 @@
-# Vue.js入门
+# Vue.js
 
 ## Vue基础
 
@@ -260,7 +260,7 @@ data：数据对象
 
 语法：
 
-<img src="D:\GITHUB\MyNotes\_Typora\Front_End\Vue\Vue.js入门.imgs\image-20210129161903292.png" alt="image-20210129161903292" style="zoom:50%;" />
+<img src=".\Vue.js入门.imgs\image-20210129161903292.png" alt="image-20210129161903292" style="zoom:50%;" />
 
 基本写法：
 

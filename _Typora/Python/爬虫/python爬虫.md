@@ -993,7 +993,6 @@ class BossSpider(scrapy.Spider):
 ```python
 # pipline.py
 
-
 from scrapy.pipelines.images import ImagesPipeline
   import scrapy
   class ImgproPipeline(object):
