@@ -1236,7 +1236,7 @@ DOM标准的浏览器会将一个event对象传入到事件的处理程序当中
 
 <img src="JavaScript.imgs\image-20210118085815422.png" alt="image-20210118085815422" style="zoom:67%;" />
 
-<img src="D:\GITHUB\MyNotes\_Typora\Front_End\JavaScript\JavaScript.imgs\image-20210118100137806.png" alt="image-20210118100137806" style="zoom:67%;" />
+<img src=".\JavaScript.imgs\image-20210118100137806.png" alt="image-20210118100137806" style="zoom:67%;" />
 
 
 
@@ -1509,7 +1509,7 @@ JSON
 	- JavaScript Object Notation JS对象表示法
 	- JSON和JS对象的格式一样，只不过JSON字符串中的属性名必须加双引号
 		其他的和JS语法一致
-JSON分类：
+		JSON分类：
 1. 对象 {}
 2. 数组 []
 
