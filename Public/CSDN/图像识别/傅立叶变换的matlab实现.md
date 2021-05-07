@@ -21,7 +21,7 @@ subplot(121); imshow(I); % 显示图像
 subplot(122); imshow(uint8(K)); % 显示频谱图
 ```
 
-<img src="D:\GITHUB\MyNotes\CSDN\图像识别\傅立叶变换的matlab实现.imgs\image-20210117084412451.png" alt="image-20210117084412451" style="zoom: 50%;" />
+<img src=".\傅立叶变换的matlab实现.imgs\image-20210117084412451.png" alt="image-20210117084412451" style="zoom: 50%;" />
 
 > **为什么要除以256 ？**
 >
@@ -57,7 +57,7 @@ subplot(121); imshow(I); title('原图像');
 subplot(122); imshow(uint8(K)); title('傅里叶变换平移之后的图像');
 ```
 
-<img src="D:\GITHUB\MyNotes\CSDN\图像识别\傅立叶变换的matlab实现.imgs\image-20210117085909118.png" alt="image-20210117085909118" style="zoom:50%;" />
+<img src=".\傅立叶变换的matlab实现.imgs\image-20210117085909118.png" alt="image-20210117085909118" style="zoom:50%;" />
 
 ## 变亮后进行傅里叶变换
 
@@ -84,7 +84,7 @@ subplot(223); imshow(uint8(K1)); title('傅里叶变换平移之后的图像');
 subplot(224); imshow(uint8(K2)); title('变亮之后的图像');
 ```
 
-<img src="D:\GITHUB\MyNotes\CSDN\图像识别\傅立叶变换的matlab实现.imgs\image-20210117091428422.png" alt="image-20210117091428422" style="zoom:50%;" />
+<img src=".\傅立叶变换的matlab实现.imgs\image-20210117091428422.png" alt="image-20210117091428422" style="zoom:50%;" />
 
 ## 旋转后进行傅里叶变换
 
@@ -111,7 +111,7 @@ subplot(223); imshow(uint8(K1)); title('傅里叶变换平移之后的图像');
 subplot(224); imshow(uint8(K2)); title('平移之后的图像');
 ```
 
-<img src="D:\GITHUB\MyNotes\CSDN\图像识别\傅立叶变换的matlab实现.imgs\image-20210117093043746.png" alt="image-20210117093043746" style="zoom: 50%;" />
+<img src=".\傅立叶变换的matlab实现.imgs\image-20210117093043746.png" alt="image-20210117093043746" style="zoom: 50%;" />
 
 ## 添加高斯噪声
 
@@ -144,7 +144,7 @@ subplot(325); imshow(uint8(K1)); title('原图像');
 subplot(326); imshow(uint8(K2)); title('高斯噪声');
 ```
 
-<img src="D:\GITHUB\MyNotes\CSDN\图像识别\傅立叶变换的matlab实现.imgs\image-20210117093858958.png" alt="image-20210117093858958" style="zoom: 67%;" />
+<img src=".\傅立叶变换的matlab实现.imgs\image-20210117093858958.png" alt="image-20210117093858958" style="zoom: 67%;" />
 
 ## 傅里叶反变换
 
@@ -167,4 +167,4 @@ subplot(121); imshow(I); title('原图');
 subplot(122); imshow(uint8(M)); title('反变换');
 ```
 
-<img src="D:\GITHUB\MyNotes\CSDN\图像识别\傅立叶变换的matlab实现.imgs\image-20210117181718776.png" alt="image-20210117181718776" style="zoom:67%;" />
+<img src=".\傅立叶变换的matlab实现.imgs\image-20210117181718776.png" alt="image-20210117181718776" style="zoom:67%;" />
