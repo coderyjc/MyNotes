@@ -239,6 +239,12 @@ aliyun:
 
 ## 整合MyBatis
 
+复杂的查询不推荐用注解的方式
+
+复杂查询和动态SQL推荐使用xml方式
+
+SpringBoot支持使用注解和xml同时使用。
+
 0.导入依赖
 
 ```xml
@@ -381,7 +387,7 @@ class AirMapperTest extends FirstSpringbootApplicationTests {
 }
 ```
 
-
+ 
 
 ### 注解方式整合
 
@@ -481,5 +487,30 @@ public void findByPaage(){
 }
 ```
 
+## 整合JSP
 
+导入依赖
+
+```xml
+<!--        jsp核心引擎-->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+<!--JSTL-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+```
+
+创建webapp和web-inf存放页面
+
+![image-20210523084138269](R:\GITHUB\MyNotes\_Typora\Java_Web\SpringBoot2\SpringBoot2.imgs\image-20210523084138269.png)
+
+配置视图解析器
+
+![image-20210523084228494](R:\GITHUB\MyNotes\_Typora\Java_Web\SpringBoot2\SpringBoot2.imgs\image-20210523084228494.png)
+
+![image-20210523084314258](R:\GITHUB\MyNotes\_Typora\Java_Web\SpringBoot2\SpringBoot2.imgs\image-20210523084314258.png)
 
