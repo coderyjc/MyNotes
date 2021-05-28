@@ -456,10 +456,20 @@ class DistrictMapperTest extends FirstSpringbootApplicationTests {
 导入依赖
 
 ```xml
-<!-- pageHelper依赖 -->
+<!-- springboot-pageHelper依赖 -->
+<dependency>
+    <groupId>com.github.pagehelper</groupId>
+    <artifactId>pagehelper</artifactId>
+    <version>5.1.4</version>
+</dependency>
 <dependency>
     <groupId>com.github.pagehelper</groupId>
     <artifactId>pagehelper-spring-boot-starter</artifactId>
+    <version>1.2.5</version>
+</dependency>
+<dependency>
+    <groupId>com.github.pagehelper</groupId>
+    <artifactId>pagehelper-spring-boot-autoconfigure</artifactId>
     <version>1.2.5</version>
 </dependency>
 ```

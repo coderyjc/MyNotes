@@ -54,3 +54,32 @@ springboot 默认的静态资源的值有四个：
 这样就需要在static下面创建js文件夹，将jqeruy.js放在这个js文件夹下面
 
 ![image-20210523141031182](R:\GITHUB\MyNotes\_Typora\Java_Web\SpringBoot2\BugRecord.imgs\image-20210523141031182.png)
+
+
+
+## 整合pagehelper的时候查询查询了所有的数据，而不是进行了分页
+
+在SSM中整合pagehelper只需要导入一个依赖，但是Springboot中需要导入三个依赖
+
+```xml
+<dependency>
+    <groupId>com.github.pagehelper</groupId>
+    <artifactId>pagehelper</artifactId>
+    <version>5.1.4</version>
+</dependency>
+<dependency>
+    <groupId>com.github.pagehelper</groupId>
+    <artifactId>pagehelper-spring-boot-starter</artifactId>
+    <version>1.2.5</version>
+</dependency>
+<dependency>
+    <groupId>com.github.pagehelper</groupId>
+    <artifactId>pagehelper-spring-boot-autoconfigure</artifactId>
+    <version>1.2.5</version>
+</dependency>
+```
+
+导入这三个插件就可以了
+
+
+
