@@ -389,6 +389,9 @@ a	5
 ##### Step 1. 自定义类型和比较器
 
 ```java
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class PairWritable implements WritableComparable<PairWritable> {
     // 组合key,第一部分是我们第一列，第二部分是我们第二列
     private String first;
@@ -438,62 +441,49 @@ public class PairWritable implements WritableComparable<PairWritable> {
         }
     }
 
-    public int getSecond() {
-        return second;
-    }
-
-    public void setSecond(int second) {
-        this.second = second;
-    }
-    public String getFirst() {
-        return first;
-    }
-    public void setFirst(String first) {
-        this.first = first;
-    }
-    @Override
-    public String toString() {
-        return "PairWritable{" +
-                "first='" + first + '\'' +
-                ", second=" + second +
-                '}';
-    }
 }
 ```
 
 ##### Step 2. Mapper
 
 ```java
-public class SortMapper extends Mapper<LongWritable,Text,PairWritable,IntWritable> {
+public class SortMapper extends Mapper<LongWritable,Text,SortBean,NullWritable> {
+    /*
+      map方法将K1和V1转为K2和V2:
 
-    private PairWritable mapOutKey = new PairWritable();
-    private IntWritable mapOutValue = new IntWritable();
-
+      K1            V1
+      0            a  3
+      5            b  7
+      ----------------------
+      K2                         V2
+      SortBean(a  3)         NullWritable
+      SortBean(b  7)         NullWritable
+     */
     @Override
-    public  void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        String lineValue = value.toString();
-        String[] strs = lineValue.split("\t");
-        //设置组合key和value ==> <(key,value),value>
-        mapOutKey.set(strs[0], Integer.valueOf(strs[1]));
-        mapOutValue.set(Integer.valueOf(strs[1]));
-        context.write(mapOutKey, mapOutValue);
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+        //1:将行文本数据(V1)拆分，并将数据封装到SortBean对象,就可以得到K2
+        String[] split = value.toString().split("\t");
+
+        SortBean sortBean = new SortBean();
+        sortBean.setWord(split[0]);
+        sortBean.setNum(Integer.parseInt(split[1]));
+
+        //2:将K2和V2写入上下文中
+        context.write(sortBean, NullWritable.get());
     }
 }
+
 ```
 
 ##### Step 3. Reducer
 
 ```java
-public class SortReducer extends Reducer<PairWritable,IntWritable,Text,IntWritable> {
+public class SortReducer extends Reducer<SortBean,NullWritable,SortBean,NullWritable> {
 
-    private Text outPutKey = new Text();
+    //reduce方法将新的K2和V2转为K3和V3
     @Override
-    public void reduce(PairWritable key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
-//迭代输出
-        for(IntWritable value : values) {
-            outPutKey.set(key.getFirst());
-            context.write(outPutKey, value);
-        }
+    protected void reduce(SortBean key, Iterable<NullWritable> values, Context context) throws IOException, InterruptedException {
+       context.write(key, NullWritable.get());
     }
 }
 ```
@@ -501,36 +491,53 @@ public class SortReducer extends Reducer<PairWritable,IntWritable,Text,IntWritab
 ##### Step 4. Main 入口
 
 ```java
-public class SecondarySort  extends Configured implements Tool {
+public class JobMain extends Configured implements Tool {
     @Override
     public int run(String[] args) throws Exception {
-        Configuration conf = super.getConf();
-        conf.set("mapreduce.framework.name","local");
-        Job job = Job.getInstance(conf, SecondarySort.class.getSimpleName());
-        job.setJarByClass(SecondarySort.class);
+        //1:创建job对象
+        Job job = Job.getInstance(super.getConf(), "mapreduce_sort");
 
-        job.setInputFormatClass(TextInputFormat.class);
-        TextInputFormat.addInputPath(job,new Path("file:///L:\\大数据离线阶段备课教案以及资料文档——by老王\\4、大数据离线第四天\\排序\\input"));
-        TextOutputFormat.setOutputPath(job,new Path("file:///L:\\大数据离线阶段备课教案以及资料文档——by老王\\4、大数据离线第四天\\排序\\output"));
-        job.setMapperClass(SortMapper.class);
-        job.setMapOutputKeyClass(PairWritable.class);
-        job.setMapOutputValueClass(IntWritable.class);
-        job.setReducerClass(SortReducer.class);
-        job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(IntWritable.class);
-        boolean b = job.waitForCompletion(true);
-        return b?0:1;
+        //2:配置job任务(八个步骤)
+            //第一步:设置输入类和输入的路径
+            job.setInputFormatClass(TextInputFormat.class);
+            ///TextInputFormat.addInputPath(job, new Path("hdfs://node01:8020/input/sort_input"));
+            TextInputFormat.addInputPath(job, new Path("file:///D:\\input\\sort_input"));
+
+            //第二步: 设置Mapper类和数据类型
+            job.setMapperClass(SortMapper.class);
+            job.setMapOutputKeyClass(SortBean.class);
+            job.setMapOutputValueClass(NullWritable.class);
+            //第三，四，五，六
+
+            //第七步：设置Reducer类和类型
+            job.setReducerClass(SortReducer.class);
+            job.setOutputKeyClass(SortBean.class);
+            job.setOutputValueClass(NullWritable.class);
+
+            //第八步: 设置输出类和输出的路径
+            job.setOutputFormatClass(TextOutputFormat.class);
+            //TextOutputFormat.setOutputPath(job, new Path("hdfs://node01:8020/out/sort_out"));
+            TextOutputFormat.setOutputPath(job, new Path("file:///D:\\out\\sort_out"));
+
+        //3:等待任务结束
+        boolean bl = job.waitForCompletion(true);
+
+        return bl?0:1;
     }
-
 
     public static void main(String[] args) throws Exception {
-        Configuration entries = new Configuration();
-        ToolRunner.run(entries,new SecondarySort(),args);
+        Configuration configuration = new Configuration();
+
+        //启动job任务
+        int run = ToolRunner.run(configuration, new JobMain(), args);
+
+        System.exit(run);
     }
 }
+
 ```
 
-## 规约Combiner
+## 7. 规约Combiner
 
 ##### 概念
 
@@ -552,55 +559,183 @@ combiner 能够应用的前提是不能影响最终的业务逻辑，而且，co
 
 
 
+```java
+/*
+  四个泛型解释:
+    KEYIN :K1的类型
+    VALUEIN: V1的类型
 
+    KEYOUT: K2的类型
+    VALUEOUT: V2的类型
+ */
+public class WordCountMapper extends Mapper<LongWritable,Text, Text , LongWritable> {
 
-## MapReduce案例-流量统计
+    //map方法就是将K1和V1 转为 K2和V2
+    /*
+      参数:
+         key    : K1   行偏移量
+         value  : V1   每一行的文本数据
+         context ：表示上下文对象
+     */
+    /*
+      如何将K1和V1 转为 K2和V2
+        K1         V1
+        0   hello,world,hadoop
+        15  hdfs,hive,hello
+       ---------------------------
+
+        K2            V2
+        hello         1
+        world         1
+        hdfs          1
+        hadoop        1
+        hello         1
+     */
+    @Override
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+        Text text = new Text();
+        LongWritable longWritable = new LongWritable();
+        //1:将一行的文本数据进行拆分
+        String[] split = value.toString().split(",");
+
+        //2:遍历数组，组装 K2 和 V2
+        for (String word : split) {
+            //3:将K2和V2写入上下文
+            text.set(word);
+            longWritable.set(1);
+            context.write(text, longWritable);
+        }
+
+    }
+}
+
+```
+
+```java
+/*
+  四个泛型解释:
+    KEYIN:  K2类型
+    VALULEIN: V2类型
+
+    KEYOUT: K3类型
+    VALUEOUT:V3类型
+ */
+
+public class WordCountReducer extends Reducer<Text,LongWritable,Text,LongWritable> {
+    //reduce方法作用: 将新的K2和V2转为 K3和V3 ，将K3和V3写入上下文中
+    /*
+      参数:
+        key ： 新K2
+        values： 集合 新 V2
+        context ：表示上下文对象
+
+        ----------------------
+        如何将新的K2和V2转为 K3和V3
+        新  K2         V2
+            hello      <1,1,1>
+            world      <1,1>
+            hadoop     <1>
+        ------------------------
+           K3        V3
+           hello     3
+           world     2
+           hadoop    1
+     */
+    @Override
+    protected void reduce(Text key, Iterable<LongWritable> values, Context context) throws IOException, InterruptedException {
+        long count = 0;
+       //1:遍历集合，将集合中的数字相加，得到 V3
+        for (LongWritable value : values) {
+             count += value.get();
+        }
+        //2:将K3和V3写入上下文中
+        context.write(key, new LongWritable(count));
+    }
+}
+```
+
+```java
+public class MyCombiner extends Reducer<Text,LongWritable,Text,LongWritable> {
+
+    /*
+       key : hello
+       values: <1,1,1,1>
+     */
+    @Override
+    protected void reduce(Text key, Iterable<LongWritable> values, Context context) throws IOException, InterruptedException {
+        long count = 0;
+        //1:遍历集合，将集合中的数字相加，得到 V3
+        for (LongWritable value : values) {
+            count += value.get();
+        }
+        //2:将K3和V3写入上下文中
+        context.write(key, new LongWritable(count));
+    }
+}
+```
+
+```java
+// JobMain.java
+
+public class JobMain extends Configured implements Tool {
+
+    @Override
+    public int run(String[] strings) throws Exception {
+        // 第一步，创造实例，创建输入流
+        Job job = Job.getInstance(super.getConf(), "word_count_combiner_test");
+
+        job.setInputFormatClass(TextInputFormat.class);
+        TextInputFormat.addInputPath(job, new Path("hdfs://127.0.0.1"));
+
+        // 第二步，设置map类和mapKV
+        job.setMapperClass(WordCountCMapper.class);
+        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(LongWritable.class);
+
+        // 第三四五六步，排序，规约，分组
+        job.setCombinerClass(WordCountCombiner.class);
+        // 其他使用默认配置
+
+        // 第七步 设置reduce类和KV
+        job.setReducerClass(WordCountCReducer.class);
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(LongWritable.class);
+
+        // 第八步，设置输出类，等待任务执行结束
+        job.setOutputFormatClass(TextOutputFormat.class);
+        TextOutputFormat.setOutputPath(job, new Path("hdfs://127.0.0.1"));
+
+        boolean b = job.waitForCompletion(true);
+        return b ? 0 : 1;
+
+    }
+
+    public static void main(String[] args) throws Exception {
+        int exeCode = ToolRunner.run(new Configuration(), new JobMain(), args);
+        System.exit(exeCode);
+    }
+}
+```
+
+## 阶段练习-流量统计
 
 ### 需求一: 统计求和
 
 统计每个手机号的上行数据包总和，下行数据包总和，上行总流量之和，下行总流量之和
+
 分析：以手机号码作为key值，上行流量，下行流量，上行总流量，下行总流量四个字段作为value值，然后以这个key，和value作为map阶段的输出，reduce阶段的输入
 
 ##### Step 1: 自定义map的输出value对象FlowBean
 
 ```java
+@Data
+@AllArgsConstructor
+@NoArgeConstructor
 public class FlowBean implements Writable {
     private Integer upFlow;  //上行数据包数
     private Integer downFlow;  //下行数据包数
     private Integer upCountFlow; //上行流量总和
     private Integer downCountFlow;//下行流量总和
-
-    public Integer getUpFlow() {
-        return upFlow;
-    }
-
-    public void setUpFlow(Integer upFlow) {
-        this.upFlow = upFlow;
-    }
-
-    public Integer getDownFlow() {
-        return downFlow;
-    }
-
-    public void setDownFlow(Integer downFlow) {
-        this.downFlow = downFlow;
-    }
-
-    public Integer getUpCountFlow() {
-        return upCountFlow;
-    }
-
-    public void setUpCountFlow(Integer upCountFlow) {
-        this.upCountFlow = upCountFlow;
-    }
-
-    public Integer getDownCountFlow() {
-        return downCountFlow;
-    }
-
-    public void setDownCountFlow(Integer downCountFlow) {
-        this.downCountFlow = downCountFlow;
-    }
 
     @Override
     public String toString() {
@@ -777,43 +912,14 @@ Java 的 compareTo 方法说明:
 例如：`o1.compareTo(o2);` 返回正数的话，当前对象（调用 compareTo 方法的对象 o1）要排在比较对象（compareTo 传参对象 o2）后面，返回负数的话，放在前面
 
 ~~~java
+@Data
+@AllArgsConstructor
+@NoArgeConstructor
 public class FlowBean implements WritableComparable<FlowBean> {
     private Integer upFlow;  //上行数据包数
     private Integer downFlow;  //下行数据包数
     private Integer upCountFlow; //上行流量总和
     private Integer downCountFlow;//下行流量总和
-
-    public Integer getUpFlow() {
-        return upFlow;
-    }
-
-    public void setUpFlow(Integer upFlow) {
-        this.upFlow = upFlow;
-    }
-
-    public Integer getDownFlow() {
-        return downFlow;
-    }
-
-    public void setDownFlow(Integer downFlow) {
-        this.downFlow = downFlow;
-    }
-
-    public Integer getUpCountFlow() {
-        return upCountFlow;
-    }
-
-    public void setUpCountFlow(Integer upCountFlow) {
-        this.upCountFlow = upCountFlow;
-    }
-
-    public Integer getDownCountFlow() {
-        return downCountFlow;
-    }
-
-    public void setDownCountFlow(Integer downCountFlow) {
-        this.downCountFlow = downCountFlow;
-    }
 
     @Override
     public String toString() {
@@ -980,7 +1086,7 @@ TextInputFormat.addInputPath(job, new Path("file:///D:\\input\\flowpartition_inp
 | `mapreduce.cluster.local.dir`      | `${hadoop.tmp.dir}/mapred/local` | 溢写数据目录               |
 | `mapreduce.task.io.sort.factor`    | 10                               | 设置一次合并多少个溢写文件 |
 
-###1.2 :ReduceTask 工作机制
+### 1.2 :ReduceTask 工作机制
 
 ![1561706287927](R:\GITHUB\MyNotes\_Typora\BigData\ParallelCalculation\MapReduce\MapReduce.imgs\1561706287927.png)	
 
@@ -993,7 +1099,7 @@ Reduce 大致分为 copy、sort、reduce 三个阶段，重点在前两个阶段
 3. **`合并排序`**。把分散的数据合并成一个大的数据后，还会再对合并后的数据排序。
 4. **`对排序后的键值对调用reduce方法`**，键相等的键值对调用一次reduce方法，每次调用会产生零个或者多个键值对，最后把这些输出的键值对写入到HDFS文件中。
 
-### 1.3:Shuffle 过程
+### 1.3 Shuffle 过程
 
 map 阶段处理的数据如何传递给 reduce 阶段，是 MapReduce 框架中最关键的一个流程，这个流程就叫 shuffle
 shuffle: 洗牌、发牌 ——（核心机制：数据分区，排序，分组，规约，合并等过程）
@@ -1168,7 +1274,6 @@ public class MapJoinMapper extends Mapper<LongWritable,Text,Text,Text>{
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
            //4.2 读取小表文件内容,以行位单位,并将读取的数据存入map集合
 
-
         String line = null;
         while((line = bufferedReader.readLine()) != null){
             String[] split = line.split(",");
@@ -1177,12 +1282,9 @@ public class MapJoinMapper extends Mapper<LongWritable,Text,Text,Text>{
 
         }
 
-
         //5:关闭流
         bufferedReader.close();
         fileSystem.close();
-
-
     }
 
     //第二件事情:对大表的处理业务逻辑,而且要实现大表和小表的join操作
