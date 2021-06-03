@@ -1051,6 +1051,10 @@ TextInputFormat.addInputPath(job, new Path("file:///D:\\input\\flowpartition_inp
 
 简单概述：inputFile通过split被逻辑切分为多个split文件，通过Record按行读取内容给map（用户自己实现的）进行处理，数据被map处理结束之后交给OutputCollector收集器，对其结果key进行分区（默认使用hash分区），然后写入buffer，每个map task都有一个内存缓冲区，存储着map的输出结果，当缓冲区快满的时候需要将缓冲区的数据以一个临时文件的方式存放到磁盘，当整个map task结束后再对磁盘中这个map task产生的所有临时文件做合并，生成最终的正式输出文件，然后等待reduce task来拉数据
 
+![image-20210601151228334](R:\GITHUB\MyNotes\_Typora\BigData\ParallelCalculation\MapReduce\MapReduce.imgs\image-20210601151228334.png)
+
+![image-20210601151236611](R:\GITHUB\MyNotes\_Typora\BigData\ParallelCalculation\MapReduce\MapReduce.imgs\image-20210601151236611.png)
+
 ##### 详细步骤
 
 1. 读取数据组件 **InputFormat** (默认 TextInputFormat) 会通过 `getSplits` 方法对输入目录中文件进行逻辑切片规划得到 `block`, 有多少个 `block`就对应启动多少个 `MapTask`. 
