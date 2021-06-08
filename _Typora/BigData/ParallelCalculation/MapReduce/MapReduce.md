@@ -1010,7 +1010,44 @@ public class FlowSortReducer extends Reducer<FlowBean,Text,Text,FlowBean> {
 ##### Step 4: 程序main函数入口
 
 ```java
-public class JobMain extends Configured implements Tool {    //该方法用于指定一个job任务    @Override        public int run(String[] args) throws Exception {        //1:创建一个job任务对象        Job job = Job.getInstance(super.getConf(), "mapreduce_flowsort");        //2:配置job任务对象(八个步骤)        //第一步:指定文件的读取方式和读取路径        job.setInputFormatClass(TextInputFormat.class);        //TextInputFormat.addInputPath(job, new Path("hdfs://node01:8020/wordcount"));        TextInputFormat.addInputPath(job, new Path("file:///D:\\out\\flowcount_out"));        //第二步:指定Map阶段的处理方式和数据类型         job.setMapperClass(FlowSortMapper.class);         //设置Map阶段K2的类型          job.setMapOutputKeyClass(FlowBean.class);        //设置Map阶段V2的类型          job.setMapOutputValueClass(Text.class);          //第三（分区），四 （排序）          //第五步: 规约(Combiner)          //第六步 分组          //第七步：指定Reduce阶段的处理方式和数据类型          job.setReducerClass(FlowSortReducer.class);          //设置K3的类型           job.setOutputKeyClass(Text.class);          //设置V3的类型           job.setOutputValueClass(FlowBean.class);           //第八步: 设置输出类型           job.setOutputFormatClass(TextOutputFormat.class);           //设置输出的路径           TextOutputFormat.setOutputPath(job, new Path("file:///D:\\out\\flowsort_out"));        //等待任务结束           boolean bl = job.waitForCompletion(true);           return bl ? 0:1;    }    public static void main(String[] args) throws Exception {        Configuration configuration = new Configuration();        //启动job任务        int run = ToolRunner.run(configuration, new JobMain(), args);        System.exit(run);    }}
+public class JobMain extends Configured implements Tool {
+
+    @Override
+    public int run(String[] strings) throws Exception {
+
+        // 1. 创建任务对象和输入类
+        Job job =  Job.getInstance(super.getConf(), "FlowCountSort");
+        job.setInputFormatClass(TextInputFormat.class);
+        TextInputFormat.addInputPath(job, new Path("hdfs://127.0.0.1:9090"));
+
+        // 2. 设置mapper任务
+        job.setMapperClass(FlowSortMapper.class);
+        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(FlowBean.class);
+
+        // 3456 系统默认
+
+        // 7. 设置reducer任务
+        job.setReducerClass(FlowSortReducer.class);
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(FlowBean.class);
+
+        // 8. 设置输出类
+        job.setOutputFormatClass(TextOutputFormat.class);
+        TextOutputFormat.setOutputPath(job, new Path("hdfs://127.0.0.1:9090"));
+
+        // 等待任务执行完成
+        boolean b = job.waitForCompletion(true);
+        return b ? 0 : 1;
+
+    }
+
+    public static void main(String[] args) throws Exception {
+        int exeCode = ToolRunner.run(new Configuration(), new JobMain(), args);
+        System.exit(exeCode);
+    }
+}
+
 ```
 
 ### 需求三: 手机号码分区
@@ -1024,7 +1061,38 @@ public class JobMain extends Configured implements Tool {    //该方法用于�
 ##### 自定义分区
 
 ```java
-public class FlowCountPartition extends Partitioner<Text,FlowBean> {    /*      该方法用来指定分区的规则:        135 开头数据到一个分区文件        136 开头数据到一个分区文件        137 开头数据到一个分区文件        其他分区       参数:         text : K2   手机号         flowBean: V2         i   : ReduceTask的个数     */    @Override    public int getPartition(Text text, FlowBean flowBean, int i) {        //1:获取手机号        String phoneNum = text.toString();        //2:判断手机号以什么开头,返回对应的分区编号(0-3)        if(phoneNum.startsWith("135")){            return  0;        }else  if(phoneNum.startsWith("136")){            return  1;        }else  if(phoneNum.startsWith("137")){            return  2;        }else{            return 3;        }    }}
+public class FlowCountPartition extends Partitioner<Text,FlowBean> {
+
+    /*
+      该方法用来指定分区的规则:
+        135 开头数据到一个分区文件
+        136 开头数据到一个分区文件
+        137 开头数据到一个分区文件
+        其他分区
+
+       参数:
+         text : K2   手机号
+         flowBean: V2
+         i   : ReduceTask的个数
+     */
+    @Override
+    public int getPartition(Text text, FlowBean flowBean, int i) {
+        //1:获取手机号
+        String phoneNum = text.toString();
+
+        //2:判断手机号以什么开头,返回对应的分区编号(0-3)
+        if(phoneNum.startsWith("135")){
+            return  0;
+        }else  if(phoneNum.startsWith("136")){
+            return  1;
+        }else  if(phoneNum.startsWith("137")){
+            return  2;
+        }else{
+            return 3;
+        }
+
+    }
+}
 ```
 
 ##### 作业运行设置

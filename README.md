@@ -8,12 +8,6 @@
 
 - 2021.5 通过文档学习SpringBoot并开发网页版Missionist（作为web的课程设计）
   - 尝试使用SpringBoot开发一个小项目，目前暂时没有确定类型
-- 2021.5 学习python图形界面PyQt
-  - 开发个人任务列表系统Missionist
-- 2021.6 安卓开发
-  - 开发个人任务清单app，Missionist
-
-
 
 ## 博客系统剩余功能
 
@@ -65,7 +59,7 @@
 - [x] 使用测试
 - [x] 开发报告的书写和总结
 
-- [ ] 软件著作权
+- [x] 软件著作权
 - [x] 部署到服务器
 
 
@@ -76,29 +70,12 @@
   - 当文档中出现 ’ 单引号的时候出现字符串解析错误
     - 解决方案：正则表达式对单引号进行转义。
 
-## SpringBoot + Vue.js + ElementUI学习进度 以及 Missionist任务清单的开发
 
 
+**第二阶段计划**
 
-
-
-
-
-
-
-
-
-## PythonQT-Missionist任务清单开发
-
-
-
-
-
-
-
-
-
-
+- [ ] 重新设计数据库表，结合三范式
+- [ ] 完全摆脱jsp和servlet，采用更先进的 themleaf 模板引擎和SpringBoot进行开发
 
 
 
