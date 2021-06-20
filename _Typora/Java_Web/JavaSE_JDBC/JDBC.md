@@ -189,7 +189,6 @@ public class Test{
         }finally{
             //6. 释放资源
            // 关闭数据库连接，此处省略
-
         }
     }
 }
