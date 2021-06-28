@@ -111,8 +111,6 @@ public class UserConfig {
 
 ### @SpringBootApplication
 
-
-
 @SpringBootApplication是一个组合注解
 
 1. @SpringBootConfiguration就是@Comfiguration注解，代表我的启动类就是一个配置类
