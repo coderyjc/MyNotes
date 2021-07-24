@@ -4,7 +4,7 @@
 
 
 
-## 【C1】应用眼中的操作系统；系统调用
+## 【Code-1】应用眼中的操作系统；系统调用
 
 
 
@@ -465,15 +465,779 @@ write(1, "Hello, OS\nGoodbye, OS\n", 22) = 22
 
 
 
+## 【Con-1】多处理器编程：从入门到放弃
 
 
 
+```
+本讲概要：
+什么是并发、为什么需要并发、并发编程初识
+放弃程序的原子性、顺序性、可见性
+```
+
+### 并发与并行
+
+假设系统只有一个CPU
+
+操作系统可以同时加载多个程序（进程）
+
+- 每个进程都有独立的地址空间里，不会互相干扰
+- 即便有root权限的进程，也不会直接访问操作系统内核的内存
+- 每隔一段时间就切换到另一个进程进行
+
+多任务操作系统中的并发：
+
+并发性的来源：进程会调用操作系统的API
+
+- write(fd, bug, 1 TiB)
+
+- write 的实现是操作系统的一部分
+  - x86-64 应用程序执行syscall后就进入操作系统执行（应用程序不可见）
+  - 类似中断处理程序
+  - 运行在处理器的高特权级：能访问硬件设备（否则就不能写数据了）
+  - 不能一直霸占着处理器运行（否则系统就卡死了）
+- 因此必须允许write到一半的时候，让另一个进程执行
+  - 另一个进程调用read(fd, buf, 512 MiB)读取同一个文件
+  - 操作系统API需要考虑并发
+
+并发（Concurrency）：多个执行流可以不按照一个特定的顺序执行
+
+并行（Parallelism）：允许多个执行流同时执行（多处理器）
+
+| 处理器数量 | 共享内存   | 典型的并发系统               | 并发并行   |
+| ---------- | ---------- | ---------------------------- | ---------- |
+| 单处理器   | 共享内存   | OS内核/多线程程序            | 并发不并行 |
+| 多处理器   | 共享内存   | OS内核/多线程程序/GPU Kernel | 并发并行   |
+| 多处理器   | 不共享内存 | 分布式系统（消息通信）       | 并发并行   |
+
+### 多处理器编程：入门
+
+#### 线程
+
+线程：多个执行流并发/并发执行，并且他们共享内存
+
+- 两个执行流共享代码和所有全局变量（数据、堆区）
+- 线程之间的执行顺序是不确定的（non-deterministic）的
+
+```c
+int x = 0, y = 0;
+
+void thread_1(){
+    x  = 1; // [1]
+    printf("y = %d\n",y); // [2]
+}
+
+void thread_2(){
+    y = 1; // [3]
+    printf("x = %d\n",x); // [4]
+}
+```
+
+1 - 2 - 3 - 4 (y=0,x=1)
+
+1 - 3- 2 - 4 (y=1, x=1)
+
+...
+
+#### 线程：什么该共享、什么不共享？
+
+```c
+extern int x;
+int foo(){
+    int volatile t = x;
+    t += 1;
+    x = t;
+}
+```
+
+考虑如果有两个执行流同时调用foo，哪些资源是共享的?
+
+- foo的代码（1140_115f）
+  - 这个函数可以被所有线程调用，所以是共享的
+- 寄存器：rip\rsp\rax
+- 变量：x:0x2eb5
+  - 线程之间会共享数据，所以全局变量是共享的
+
+除了代码和全局数据之外，每一个线程的堆栈和寄存器都是他们独享的
+
+#### POSIX Threads
+
+- 使用 pthread_create 创建并运行线程
+  - 得到若干个共享了当前地址空间的线程
+- 使用pthread_join 等待某个线程结束
+
+可以使用`man 7 pthreads`查看pthreads的帮助文档
+
+> 帮助文件man：
+>
+>man 1：用户命令（可执行命令和shell程序）
+>
+>man 2：系统调用（从用户空间调用的内核例程）
+>
+>man 3：库函数（有程序库提供）
+>
+>man 4：特殊文件（如设备文件）
+>
+>man 5：文件格式（用于许多配置文件和结构）
+>
+>man 6：游戏（过去的有趣程序章节）
+>
+>man 7：惯例、标准和其他（协议、文件系统）
+>
+>man 8：系统管理和特权命令（维护任务）
+>
+>man 9：Linux 内核API（内核调用）
+
+无论系统是单处理器还是多处理器，都得到了若干共享了当前进程地址空间的线程
+
+- 共享代码：所有线程的代码都来自于当前进程的代码
+- 共享数据：全局数据/堆区可以自由引用
+- 独立堆栈：每个线程有独立的堆栈
+
+#### threads.h: Simplified Thread APIs
+
+create(fn)
+
+- 创建并运行一个线程，该线程立即开始执行函数 fn
+- 函数原型 :void fn(int tid){}
+- tid从1开始编号
+
+join(fn)
+
+- 当代所有线程执行结束
+- 执行函数 fn
+- 只能 join 一次
+
+#### threads.h实现
+
+数据结构：
+
+```c
+struct thread {
+  int id; // 线程号
+  pthread_t thread; // pthread 线程api中的线程号
+  void (*entry)(int); // 入口地址
+  struct thread *next; // 链表
+};
+
+struct thread *threads; // 链表头
+void (*join_fn)(); // 回调函数
+```
+
+线程创建实现：
+
+```c
+static inline void *entry_all(void *arg) {
+  struct thread *thread = (struct thread *)arg;
+  thread->entry(thread->id);
+  return NULL;
+}
+
+static inline void create(void *fn) {
+  struct thread *cur = (struct thread *)malloc(sizeof(struct thread)); // 分配给线程内存
+  assert(cur); //假设内存分配成功
+  cur->id    = threads ? threads->id + 1 : 1; // 分配线程号
+  cur->next  = threads;
+  cur->entry = (void (*)(int))fn;
+  threads    = cur;
+  pthread_create(&cur->thread, NULL, entry_all, cur); // 调用posix的api
+}
+```
+
+线程join实现
+
+```c
+static inline void join(void (*fn)()) {
+  join_fn = fn;
+}
+
+__attribute__((destructor)) static void join_all() {
+  for (struct thread *next; threads; threads = next) {
+      // 等待所有线程结束
+    pthread_join(threads->thread, NULL);
+    next = threads->next;
+    free(threads);
+  }
+  join_fn ? join_fn() : (void)0; // 调用回调函数
+}
+```
+
+thread.h 
+
+```c
+// threads.h
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <assert.h>
+#include <pthread.h>
+
+struct thread {
+  int id;
+  pthread_t thread;
+  void (*entry)(int);
+  struct thread *next;
+};
+
+struct thread *threads;
+void (*join_fn)();
+
+// ========== Basics ==========
+
+__attribute__((destructor)) static void join_all() {
+  for (struct thread *next; threads; threads = next) {
+    pthread_join(threads->thread, NULL);
+    next = threads->next;
+    free(threads);
+  }
+  join_fn ? join_fn() : (void)0;
+}
+
+static inline void *entry_all(void *arg) {
+  struct thread *thread = (struct thread *)arg;
+  thread->entry(thread->id);
+  return NULL;
+}
+
+static inline void create(void *fn) {
+  struct thread *cur = (struct thread *)malloc(sizeof(struct thread));
+  assert(cur);
+  cur->id    = threads ? threads->id + 1 : 1;
+  cur->next  = threads;
+  cur->entry = (void (*)(int))fn;
+  threads    = cur;
+  pthread_create(&cur->thread, NULL, entry_all, cur);
+}
+
+static inline void join(void (*fn)()) {
+  join_fn = fn;
+}
+
+// ========== Synchronization ==========
+
+#include <stdint.h>
+
+intptr_t atomic_xchg(volatile intptr_t *addr,
+                               intptr_t newval) {
+  // swap(*addr, newval);
+  intptr_t result;
+  asm volatile ("lock xchg %0, %1":
+    "+m"(*addr), "=a"(result) : "1"(newval) : "cc");
+  return result;
+}
+
+intptr_t locked = 0;
+
+static inline void lock() {
+  while (1) {
+    intptr_t value = atomic_xchg(&locked, 1);
+    if (value == 0) {
+      break;
+    }
+  }
+}
+
+static inline void unlock() {
+  atomic_xchg(&locked, 0);
+}
+
+#include <semaphore.h>
+
+#define P sem_wait
+#define V sem_post
+#define SEM_INIT(sem, val) sem_init(&(sem), 0, val)
+```
 
 
 
+####  多线程入门：
+
+编写程序，引入thread.h
+
+有两种引用方法：
+
+1. 将 thread.h 和源程序放在同一个文件夹下，`#include"thread.h"`
+
+2. 使用 -I 路径 增加一个include path`gcc -I. a.c`
+
+   ```bash
+   ❯ gcc -I. a.c
+   /usr/bin/ld: /tmp/ccGTJbHj.o: in function `join_all':
+   a.c:(.text+0x22): undefined reference to `pthread_join'
+   /usr/bin/ld: /tmp/ccGTJbHj.o: in function `create':
+   a.c:(.text+0x150): undefined reference to `pthread_create'
+   collect2: error: ld returned 1 exit status
+   ```
+
+可以看出修改了路径还是有错误
+
+这是因为我们代码中调用了pthread，但是没有链接pthread这个文件。
+
+用 -l 这个选项把pthread这个库链接进来
+
+```bash
+❯ gcc a.c -l pthread
+❯ ls
+a.c  a.out 
+```
+
+编译成功
+
+使用ldd查看 a.out 可以看到需要pthread这个库
+
+```bash
+❯ ldd a.out
+	linux-vdso.so.1 (0x00007ffc25dcc000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fe681014000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fe680e2a000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fe68104d000)
+```
+
+执行 a.out 可以看到ab间隔打印。
+
+更多的栗子
+
+1. 如何相信真的启动了多个线程？
+
+```c
+// hello-mt.c
+#include "threads.h"
+
+void f() {
+  static int x = 0;
+  printf("Hello from thread #%d\n", x++);
+  while (1);
+}
+
+int main() {
+  for (int i = 0; i < 10; i++) {
+    create(f);
+  }
+  join(NULL);
+}
+```
+
+创建10和线程，执行函数f，每次创建的时候输出当前的线程号。
+
+```bash
+❯ gcc hello-mt.c -l pthread
+❯ ./a.out
+Hello from thread #1
+Hello from thread #2
+Hello from thread #3
+Hello from thread #6
+Hello from thread #0
+Hello from thread #4
+Hello from thread #7
+Hello from thread #8
+Hello from thread #5
+Hello from thread #9
+^C
+```
+
+我们可以发现有10个线程被创建了，这证明了所有的线程是共享内存的，共享了变量 x
+
+但是并不是按照顺序创建的，关于这个问题，我们会在以后的课程中讲解
+
+2. 知道每一个线程的堆栈范围大小
+
+```c
+// stack-probe.c
+#include "threads.h"
+
+__thread char *base, *now; // 每一个线程独享的变量
+__thread int id;
+/*
+base 是线程的大概的基地址
+now 是线程栈当前的地址
+id 是线程号
+*/
+
+// objdump to see how thread local variables are implemented
+void set_base(char *ptr) { base = ptr; }
+void set_now(char *ptr)  { now = ptr; }
+void set_base(char *ptr) { base = ptr; }
+void set_now(char *ptr)  { now = ptr; }
+void *get_base()         { return &base; }
+void *get_now()          { return &now; }
+
+void stackoverflow(int n) {
+  // 无穷递归
+  char x;
+  if (n == 0) set_base(&x);
+  set_now(&x);
+  if (n % 1024 == 0) {
+  // 每循环 1024 次，就打印 线程ID，递归次数，基地址和地址差值
+    printf("[T%d] Stack size @ n = %d: %p +%ld KiB\n",
+      id, n, base, (base - now) / 1024);
+  }
+  stackoverflow(n + 1); 
+}
+
+void probe(int tid) {
+  id = tid;
+  printf("[%d] thread local address %p\n", id, &base);
+  stackoverflow(0);
+}
+
+int main() {
+  setbuf(stdout, NULL);
+  for (int i = 0; i < 4; i++) { // 创建4个线程，每一个线程都执行probe
+    create(probe);
+  }
+  join(NULL);
+}
+```
+
+```bash
+❯ gcc stack-probe.c -l pthread
+❯ ./a.out
+[1] thread local address 0x7f52bb69d628
+[T1] Stack size @ n = 0: 0x7f52bb69cdf7 +0 KiB
+[2] thread local address 0x7f52bae9c628
+[T1] Stack size @ n = 1024: 0x7f52bb69cdf7 +48 KiB
+[T2] Stack size @ n = 0: 0x7f52bae9bdf7 +0 KiB
+[T1] Stack size @ n = 2048: 0x7f52bb69cdf7 +96 KiB
+[4] thread local address 0x7f52b9e9a628
+[T4] Stack size @ n = 0: 0x7f52b9e99df7 +0 KiB
+[T2] Stack size @ n = 1024: 0x7f52bae9bdf7 +48 KiB
+[T1] Stack size @ n = 3072: 0x7f52bb69cdf7 +144 KiB
+[T4] Stack size @ n = 1024: 0x7f52b9e99df7 +48 KiB
+[T2] Stack size @ n = 2048: 0x7f52bae9bdf7 +96 KiB
+...
+...
+...
+[T2] Stack size @ n = 151552: 0x7f52bae9bdf7 +7104 KiB
+[T1] Stack size @ n = 173056: 0x7f52bb69cdf7 +8112 KiB
+[T3] Stack size @ n = 148480: 0x7f52ba69adf7 +6960 KiB
+[T4] Stack size @ n = 174080: 0x7f52b9e99df7 +8160 KiB
+[T1] Stack size @ n = 174080: 0x7f52bb69cdf7 +8160 KiB
+[T2] Stack size @ n = 152576: 0x7f52bae9bdf7 +7152 KiB
+[1]    37437 segmentation fault (core dumped)  ./a.out
+```
+
+栈帧大小到了 8M左右就发生了段错误，线程的内存不够了。
+
+使用pmap可以查看到8192KiB内存映射区域和4KiB（一页）的guard
+
+> 命令 free
+>
+> - -b 　以Byte为单位显示内存使用情况。
+> - -k 　以KB为单位显示内存使用情况。
+> - -m 　以MB为单位显示内存使用情况。
+> - -h 　以合适的单位显示内存使用情况，最大为三位数，自动计算对应的单位值。单位有：
+> - -o 　不显示缓冲区调节列。
+> - -s<间隔秒数> 　持续观察内存使用状况。
+> - -t 　显示内存总和列。
+> - -V 　显示版本信息。
+
+```bash
+❯ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          7.6Gi       2.3Gi       2.6Gi       452Mi       2.8Gi       4.6Gi
+Swap:         9.8Gi          0B       9.8Gi
+```
+
+我的内存一共不到 8G，**每一个线程要分配8MiB内存，那么为什么1000个线程没有耗尽内存？**
+
+申请一块内存，操作系统不是马上给你一块实际内存，而只是给你一个逻辑地址，当你真的访问这段地址时，操作系统才会进行逻辑地址到物理地址的映射。
+
+修改hello-mt.c，变为3个线程，后台运行，用pmap观察其内存映射关系
+
+```c
+#include "threads.h"
+
+void f() {
+  static int x = 0;
+  printf("Hello from thread #%d\n", x++);
+  while (1); // to make sure we're not calling f() for ten times
+}
+
+int main() {
+  for (int i = 0; i < 3; i++) {
+    create(f);
+  }
+  join(NULL);
+}
+```
+
+```bash
+❯ gcc hello-mt.c -l pthread
+❯ ./a.out &
+[1] 38856
+Hello from thread #0                                                                 
+Hello from thread #1
+Hello from thread #2
+❯ pmap 38856
+38856:   ./a.out
+0000558e10c44000      4K r---- a.out
+0000558e10c45000      4K r-x-- a.out
+0000558e10c46000      4K r---- a.out
+0000558e10c47000      4K r---- a.out
+0000558e10c48000      4K rw--- a.out
+0000558e1287c000    132K rw---   [ anon ]
+00007fd1a8000000    132K rw---   [ anon ]
+00007fd1a8021000  65404K -----   [ anon ]
+00007fd1ae049000      4K -----   [ anon ]
+00007fd1ae04a000   8192K rw---   [ anon ]
+00007fd1ae84a000      4K -----   [ anon ]
+00007fd1ae84b000   8192K rw---   [ anon ]
+00007fd1af04b000      4K -----   [ anon ]
+00007fd1af04c000   8204K rw---   [ anon ]
+00007fd1af84f000    152K r---- libc-2.32.so
+00007fd1af875000   1460K r-x-- libc-2.32.so
+...
+```
+
+可以看出在每一个8192k的栈上下都有一个 4k 大小的不可读写的区域，当栈上溢出或者下溢出的时候都会报错。
+
+> 命令 pmap
+>
+> **Linux pmap命令**用于报告进程的内存映射关系，是Linux调试及运维一个很好的工具。
+>
+> -x：显示扩展格式
+> -d：显示设备格式
+> -q：不显示头尾行
+> -V：显示指定版本。
+
+### 多处理器编程：放弃
+
+####  原子性
+
+随着线程数量的增加，并发控制的难度越来越大
+
+**案例1：转账**
+
+```c
+int pay(int money){
+    if (deposit > money){
+        deposit -= money;
+        return SUCCESS;
+    } else {
+        return FAIL;
+    }
+}
+```
+
+其中的 deposit 在硬件上的实现是：
+
+```c
+int tmp = deposit;
+//可能与其他处理器并发
+tmp -= money;
+//可能与其他处理器并发
+deposit = tmp;
+```
+
+例如：
+
+线程1：
+
+[1]if(deposit>money)
+
+[3] deposit -= money;
+
+线程2：
+
+[2]if(deposit>money)
+
+[4] deposit -= money;
+
+如果deposit == 100,money==100 那么在1、2两个步骤都会判定为成功，那么经过3.4 , deposit 会变成 -100。显然是不合理的。
+
+**案例2：多线程求和**
+
+分两个线程计算 2n个 1
+
+```c
+#include"threads.h"
+
+#define n 10000000
+long sum = 0;
+
+void do_sum(){ for(int i = 0; i < n; i++) sum++; }
+void print() {printf("sum = %ld\n", sum);}
+
+int main(){
+	create(do_sum);
+	create(do_sum);
+	join(print);
+}
+```
+
+```bash
+❯ gcc sum.c -l pthread
+❯ ./a.out
+sum = 10261926
+```
+
+答案应该是 20000000，可是结果出乎意料。
+
+一种情况：sum++ 被编译成了：`t=sum;t++;sum=t`
+
+这种情况下：
+
+线程1：`[1]t=sum; [5]t++; [6]sum=t`
+
+线程2：`[2]t=sum; [3]t++; [4]sum=t`
+
+t是寄存器，寄存器是每个线程独享的。
+
+sum=0；经过1、2、3、4、5、6步骤之后，sum循环了两次，但是只加了一次，sum=1。
+
+不只是多处理器的时候会这样，在单处理器中，由于程序会发生中断，也会导致类似的情况发生。
+
+即使是最简单的x++也不能保证原子性。
+
+
+#### 顺序性
+
+让我们以不同的编译优化等级编译这个求 2n 的文件
+
+```bash
+❯ gcc -O0 sum.c -o sum-0.out -l pthread
+❯ gcc -O1 sum.c -o sum-1.out -l pthread
+❯ gcc -O2 sum.c -o sum-2.out -l pthread
+❯ ./sum-0.out
+sum = 10129839
+❯ ./sum-1.out
+sum = 10000000
+❯ ./sum-2.out
+sum = 20000000
+```
+
+三种编译优化等级得到的输出结果不同，为什么？
+
+查看三种文件分别被编译成了什么代码 `objdump -d sum-0.out | less `
+
+```assembly
+# 优化等级 - 0
+0000000000001380 <do_sum>:
+    1380:       f3 0f 1e fa             endbr64 
+    1384:       55                      push   %rbp
+    1385:       48 89 e5                mov    %rsp,%rbp
+    1388:       c7 45 fc 00 00 00 00    movl   $0x0,-0x4(%rbp)
+    138f:       eb 16                   jmp    13a7 <do_sum+0x27>
+    1391:       48 8b 05 98 2c 00 00    mov    0x2c98(%rip),%rax        # 4030 <sum>
+    1398:       48 83 c0 01             add    $0x1,%rax
+    139c:       48 89 05 8d 2c 00 00    mov    %rax,0x2c8d(%rip)        # 4030 <sum>
+    13a3:       83 45 fc 01             addl   $0x1,-0x4(%rbp)
+    13a7:       81 7d fc 7f 96 98 00    cmpl   $0x98967f,-0x4(%rbp)
+    13ae:       7e e1                   jle    1391 <do_sum+0x11>
+    13b0:       90                      nop
+    13b1:       90                      nop
+    13b2:       5d                      pop    %rbp
+    13b3:       c3                      retq   
+
+
+# 优化等级 1
+0000000000001203 <do_sum>:
+    1203:       f3 0f 1e fa             endbr64 
+    1207:       48 8b 15 0a 2e 00 00    mov    0x2e0a(%rip),%rdx        # 4018 <sum>
+    120e:       48 8d 42 01             lea    0x1(%rdx),%rax
+    1212:       48 81 c2 81 96 98 00    add    $0x989681,%rdx
+    1219:       48 89 c1                mov    %rax,%rcx
+    121c:       48 83 c0 01             add    $0x1,%rax
+    1220:       48 39 d0                cmp    %rdx,%rax
+    1223:       75 f4                   jne    1219 <do_sum+0x16>
+    1225:       48 89 0d ec 2d 00 00    mov    %rcx,0x2dec(%rip)        # 4018 <sum>
+    122c:       c3                      retq 
+
+# 优化等级 2
+00000000000012a0 <do_sum>:
+    12a0:       f3 0f 1e fa             endbr64 
+    12a4:       48 81 05 69 2d 00 00    addq   $0x989680,0x2d69(%rip)        # 4018 <sum>
+    12ab:       80 96 98 00 
+    12af:       c3                      retq 
+```
+
+编译器会对我们编写的程序做出一定的修改，这些修改在顺序执行的时候是没有问题的，但是在并发执行的时候就会产生不好的结果。
+
+#### 可见性
+
+之前的一小段代码：
+
+```c
+int x = 0, y = 0;
+
+void thread_1(){
+    x  = 1; // [1]
+    printf("y = %d\n",y); // [2]
+}
+
+void thread_2(){
+    y = 1; // [3]
+    printf("x = %d\n",x); // [4]
+}
+```
+
+放弃可见性。
+
+理由：
+
+为了使CPU运行更快，CPU可以不按照顺序执行命令
+
+```assembly
+movl	$1, (x)    # x = 1, cache miss
+				   # 如果等这条指令执行完，会浪费大量时间
+movl	(y), %eax  # 因此只要xy不是同一个变量，CPU会立即执行这条命令
+				   # 此时 y = 0
+```
+
+现代处理器：
+
+- 如果两条指令没有数据依赖关系，就让他们并行执行
+- 乱序执行
+  - 多个处理器上执行的结果可以不等价于指令按照某个顺序执行的结果
 
 
 
+#### 代码的执行比我们想象的复杂
 
+在现代计算机系统中，即便是一个简单的 x = 1 也会经历：
+
+- C代码
+  - 编译器优化 -> 顺序性的丧失
+- 二进制文件
+- 处理器执行
+  - 终端/执行 -> 原子性的丧失
+  - 乱序执行 -> 可见性的丧失
+
+共享内存并发变成真正需要面对的难题：
+
+- 内存访问并不保证按照代码书写的顺序发生
+- 代码的原子性随时被破坏
+- 执行过的指令可能在多处理器间不可见
+
+**保证顺序：**
+
+使用 volatile 关键字
+
+```c
+void delay(){
+    for (volatile int i = 0; i < DELAY_COUNT; i++);
+}
+```
+
+保证内存访问的顺序
+
+```c
+extern int x;
+
+#define barrier() asm volatile("" ::: "memory")
+
+void foo(){
+    x++;
+    barrier(); // 组织x的访问被合并
+    x++; // y的访问不能移到barrier之前
+    y++;
+}
+```
+
+**保证原子性**
+
+stop_the_world() 函数，执行之后整个系统的其他所有线程都暂停
+
+resume_the_world() 函数，执行之后其他线程恢复
 
 
