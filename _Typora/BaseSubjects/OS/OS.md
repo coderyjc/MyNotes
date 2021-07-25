@@ -1240,4 +1240,350 @@ stop_the_world() 函数，执行之后整个系统的其他所有线程都暂停
 
 resume_the_world() 函数，执行之后其他线程恢复
 
+## 【Con-2】理解并发程序的执行
+
+```
+本讲内容：
+- 串行程序的状态机模型
+- 状态机模型的应用
+- 并发程序的状态机模型
+- 理解并发程序的执行
+```
+
+### 串行程序的状态机模型
+
+#### 有限状态机（Finite State Machine）
+
+有向图G（V, E）
+
+- 节点->状态
+
+- 边->状态转换
+
+- 边上的label代表执行某个状态
+
+操作系统上的程序执行时，状态是有限的，
+
+- 寄存器
+- 内存：代码、数据、堆栈（暂时假设内存静态分配）
+
+构造有限状态机
+
+- 每个不同的 configuration 都是状态机的节点
+  - s=(M,R) 属于 V，代表某个时刻程序内存/寄存器的快照
+  - 16m的内存就有2的24m次方种不同的状态
+- s=(M,R)的下一个状态是执行 M[R[%rip]] 处的指令得到 s_1 = (M_1, R_1)
+  - 取出PC指针处的指令、译码、执行、写回数据
+  - (s, s_1) 属于 E
+
+大部分状态有唯一的后续状态(deterministic)
+
+我们学习的大部分算法都是 deterministic 的
+
+程序 = 有限状态机
+
+不确定的指令可能有多个状态(non-deterministic)的指令可能有多个后续状态
+
+- (时间)rdtsc/rdtscp
+
+  - 获取处理器的时间戳用于精确定时
+
+- 机器状态 rdrand
+
+  - 处理器自身提供的随机数指令
+  - 读取处理器上的白噪声生成随机数
+
+  ```c
+  // rdrand.c
+  #include <stdio.h>
+  #include <stdint.h>
+  
+  int main() {
+    uint64_t val;
+    asm volatile ("rdrand %0": "=r"(val));
+    printf("rdrand returns %016lx\n", val);
+  }
+  ```
+
+  ```bash
+  ❯ vim rdrand.c
+  ❯ gcc rdrand.c
+  ❯ ./a.out
+  rdrand returns da53e8a19ebdb3d1
+  ❯ ./a.out
+  rdrand returns cb075a76ba90effd
+  ❯ ./a.out
+  rdrand returns fde2ddfb5c7a2bf3
+  ❯ ./a.out
+  rdrand returns 10d0889b7c044cdc
+  ```
+
+- 系统调用 syscall
+
+  - 一般应用唯一不确定的来源
+  - read(fd, buf, size) 返回值不确定、buf中的数据不确定，比如从键盘输入
+
+#### x86-64的栗子
+
+运行在 ring3（低特权级）的应用程序
+
+- 通用寄存器 16 个
+  - rax\rbx\rcx\rdx\rsi\rbp\rsp
+  - r8 ~ r15
+- PC 指针/机器状态
+  - rip\rflags\cs\ds\es\fs\gs
+- 内存
+  - 操作系统分配；通过procfs查看
+
+---
+
+这些状态都能被gdb观察到
+
+- `info registers ` 列出所有寄存器
+- `/proc/[pid]/maps` 有内存映射信息
+
+```assembly
+// minimal.S
+.globl foo
+foo:
+  movl $1,	%eax
+  movl $1,	%edi
+  movq $s,	%rsi
+  movl $(e-s),	%edx
+  syscall
+
+  movl $60,	%eax
+  movl $1,	%edi
+  syscall
+
+s:
+  .ascii "\033[01;31mHello World\033[0m\n"
+e:
+
+// code
+.fill 1 << 20, 1, 0xcc
+
+// data
+.section .data
+.fill 2 << 20, 1, 0xff
+
+//bss
+.section .bss
+.fill 3 << 20
+```
+
+```bash
+❯ gcc -c minimal.S
+❯ ld minimal.o
+ld: warning: cannot find entry symbol _start; defaulting to 0000000000401000
+❯ ./a.out
+Hello World
+```
+
+程序可以执行，我们用gdb调试这个程序
+
+```bash
+❯ gdb a.out
+(gdb) starti
+Starting program: /tmp/tmp/a.out 
+
+Program stopped.
+0x0000000000401000 in foo ()
+(gdb) info registers  # 查看寄存器状态 
+rax            0x0                 0
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0x0                 0
+rsi            0x0                 0
+rdi            0x0                 0
+rbp            0x0                 0x0
+rsp            0x7fffffffdf00      0x7fffffffdf00
+...
+...
+rip            0x401000            0x401000 <foo>
+eflags         0x200               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+
+(gdb) info inferiors # 查看程序的进程信息
+  Num  Description       Executable        
+* 1    process 14178     /tmp/tmp/a.out    
+(gdb) !cat /proc/14178/maps # 查看进程内存中信息
+00400000-00401000 r--p 00000000 103:07 538911                            /tmp/tmp/a.out
+00401000-00502000 r-xp 00001000 103:07 538911                            /tmp/tmp/a.out
+00502000-00702000 rw-p 00102000 103:07 538911                            /tmp/tmp/a.out
+00702000-00a02000 rw-p 00000000 00:00 0                                  [heap]
+7ffff7ff9000-7ffff7ffd000 r--p 00000000 00:00 0                          [vvar]
+7ffff7ffd000-7ffff7fff000 r-xp 00000000 00:00 0                          [vdso]
+7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+(gdb) 
+```
+
+### 状态机模型：应用
+
+在计算机硬件上的应用：高性能处理器实现
+
+- 超标量处理器
+  - insight ：允许在状态机上跳跃
+- 在计算机系统上的应用：程序分析技术
+  - 静态分析：根据程序代码推导出状态机的性质
+  - 动态分析：检查运行时观测到状态机的执行
+
+#### 应用(1):Time-Travel Debugging
+
+GDB的隐藏功能
+
+- target record-full 开始记录（需要程序开始执行）
+- record stop 结束记录
+- reverse-step/reverse-stepi 时间旅行调试
+
+对syscall指令不适用，因为side-effect难以准确定义
+
+#### 应用(2):Record & Repaly
+
+在程序执行时记录信息，结束后重现程序的行为
+
+- 确定的程序不必记录
+- 假设s0执行1000000条确定的指令之后得到 s1
+  - 那么只需要记录 s0 和 1000000
+  - 就能通过“再执行一次”推导出 s1
+
+Record&Repaly: 只需要记录 non-deterministic 的指令的效果（side-effect）
+
+- (单线程)应用程序
+  - syscall\rdrand\rdtsc
+- (单处理器)操作系统
+  - mmio\in\out\rdrand\rdtsc\中断
+  - QEMU内置了 record/repaly
+
+### 并发程序的状态机模型
+
+系统中有n个线程，则并发程序的状态：
+
+- s= (M,R1,R2,…,Rn) 
+- 并发程序执行的每一步都是不确定的
+
+多线程程序可以看成是若干个单线程程序。在任意时刻，状态的转换就是 “选择一个线程执行一条指令”：
+
+- 选择线程 1 执行：(M,R1)→(M1′,R1′)，得到状态 (M1′,R1′,R2,…,Rn)；
+- 选择线程 2 执行：(M,R2)→(M2′,R2′)，得到状态 (M2′,R1,R2′,…,Rn)；
+- …
+- 选择线程 n 执行：(M,Rn)→(Mn′,Rn′)，得到状态 (Mn′,R1,R2,…,Rn′)；
+
+![img](http://jyywiki.cn/pages/OS/2021/notes/img/state-space.png)
+
+
+
+n 个线程的并发程序，若每个线程执行 m 条指令，就算所有指令都是确定的，不同的执行顺序也多达 n^O(mn)，这个状态机太大了。
+
+就算是合并确定的状态，只要有共享内存，状态空间就很难画出了
+
+- 而且还不考虑编译优化、多处理器之间的可见性等问题
+
+刚才介绍了各种状态机的应用，都需要为多线程重新设计
+
+- 共享内存是 non-determinism 的重要来源
+- time-travel debugging/record & replay 需要记录内存访问的数据
+- 自动测试要考虑如何探索线程调度
+- ... ...
+
+
+
+### :star:理解并发程序的执行
+
+程序
+
+- 指令序列的静态描述
+  - 是非常概括、精简的
+  - 所以行为有时候难以理解——循环、递归、分支的组合和不确定的共享内存
+
+状态机
+
+- 所有动态行为的集合
+  - 静态时的分支、循环全部被展开成了顺序结构
+  - 大量的冗余和重复(verbose)
+  - **行为明确、容易理解**
+
+#### 栗子：实现互斥
+
+希望实现 lock/unlock 保证：
+
+- （顺序）编译优化不能越过 lock/unlock 
+- （原子）lock 返回后，unlock之前，其他线程的lock不能返回
+- （可见）unlock 之前执行的写操作，在unlock之后对其他线程可见
+
+
+```c
+void do_sum(){
+    for(int i = 0; i < n; i++){
+        lock(); // 保证顺序、原子性、可见性
+        // critical section；临界区
+        sum++;
+        // lock和unlock之间的代码被保护起来了
+        unlock();
+    }
+}
+```
+
+Peterson 算法: 代码
+
+
+```c
+int turn, x = 0, y = 0;
+
+void thread1() {
+  [1] x = 1;
+  [2] turn = T2;
+  [3] while (y && turn == T2) ;
+  [4] // critical section
+  [5] x = 0;
+}
+
+void thread2() {
+  [1] y = 1;
+  [2] turn = T1;
+  [3] while (x && turn == T1) ;
+  [4] // critical section
+  [5] y = 0;
+}
+```
+
+假设：机器每次原子地执行一行代码，内存访问立即可见。
+
+证明：
+
+Safety: 坏事永远不会发生。
+
+- 不存在一条从初始节点到错误状态的路径。
+
+Liveness: 好事永远会发生。
+
+- 不存在无穷长的路径。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
