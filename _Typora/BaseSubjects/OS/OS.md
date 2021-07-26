@@ -1567,6 +1567,406 @@ Liveness: 好事永远会发生。
 
 
 
+## 【Con-3】并发控制(1)：互斥
+
+```
+本节要点：
+- 互斥问题
+- 共享内存上的互斥
+- 原子指令的互斥
+- 数据竞争
+```
+
+
+
+### 互斥问题
+
+#### 互斥：直观理解
+
+理解并发的另一个工具：把线程想象成人、把共享内存想象成物理世界
+
+- 物理世界是天生并发的，在小范围宏观意义上，所有部分的空间“同时”沿着时间方向前进
+  - 物理世界 = 共享内存
+  - 我们（根据想法执行物理世界动作）=线程（根据程序局部状态访问共享状态）
+
+线程不想被别人打断地做一件事
+
+- 一旦某个人已经开始，其他人就必须等待 
+
+
+
+#### 共享内存上的互斥
+
+互斥（mutual exclusion） “互相排斥”
+
+- 实现 lock_t 数据结构和 lock/unlock API:
+
+```c
+typedef struct{
+    ...
+} lock_t;
+
+// 试图获得锁的独占访问，成功获得后返回
+void lock(lock_t = lk);
+// 释放锁的独占访问
+void unlock(lockk_t = lk);
+```
+
+互斥是一把“排他性”的锁——对于锁对象lk
+
+- 在任何线程调度（线程执行的顺序）下
+  - 若某个线程持有锁（这个线程调用了lock(lk)返回且未释放）
+  - 则任何其他线程的 lock(lk) 函数都不能返回
+
+状态机的视角
+
+- lock返回会进入 “locked”状态；unlock会清除该状态
+- 初始状态 s_0 不能有 两个线程都进入locked状态
+
+上了锁的代码完全不能并发执行
+
+先执行的代码，它对共享内存的写，对之后执行的代码是可见的。
+
+在共享内存上，贡献资源的访问太危险（原子性、顺序性、可见性丧失），互斥用来阻止代码块之间的并发，实现“串行化”
+
+- lock/unlock 保护的区域成为一个原子的黑盒子
+- 黑盒子的代码不能随意并发，顺序满足要么 T1 - T2, 要么 T2 - T1
+- 先完成的黑盒子的内存访问在之后的黑盒子中可见
+
+锁帮我们拯救了原子性、顺序性、可见性。
+
+
+
+### 共享内存上的互斥
+
+共享内存多线程：独立的寄存器/堆栈：共享内存
+
+支持的基本操作
+
+- 线程本地(thread-local) 计算（寄存器/堆栈上的数值的读写/修改）
+- load，读共享内存
+- store，写共享内存
+- 假设 load/store 是原子的，状态机每执行一条 load/store
+
+困难之处在于：不能同时读/写共享内存
+
+- load（环顾四周）的时候不能写，只能“干看”
+- store （改变物理世界的状态）的时候不能读，只能“闭着眼动手”
+
+#### Peterson 算法真正的问题
+
+```c
+int x = 0, y = 0;
+
+void thread_1{
+        [1]store(x, 1); 
+        [2]t = load(y); // 处理器允许 1-2 交换
+        printf("y = %d\n", t); 
+}
+
+void thread_2{
+        [1]store(y, 1); 
+        [2]t = load(x); // 处理器允许 1-2 交换
+        printf("x = %d\n", t); 
+}
+```
+
+实验结果：
+
+| 打印的x | 打印的y | 概率  | 可能的调度   |
+| ------- | ------- | ----- | ------------ |
+| 0       | 0       | 0.2%  | 弱内存一致性 |
+| 0       | 1       | 82.3% | 3412         |
+| 1       | 0       | 17.5% | 1234         |
+| 1       | 1       | 0.0%  | 1324         |
+
+从代码可以看到无论进入 thread1还是2，x和y必然会有一个是1,但是从实验结果看来，有一定的概率出现xy都是0的情况，这是因为我们的处理器有可能让我们的程序执行地更快，会乱序执行1和2两条指令，这就相当于我们先读取了x或y为0的状态，再向内存赋值，此时t为0。
+
+```c
+int turn = T1, x = 0, y = 0;	
+
+void thread1(){
+        [1]store(x, 1); // 举起T1的牌子
+        [2]store(turn, T2); // 在牌子上写上对方的名字
+spin:
+        [3]t1 = load(y); // x，y，turn 是不同的变量
+        if(!t1) goto critical_section; // 如果对方没有举起旗子
+        [4]t2 = load(turn);
+        if(t2 != T2) goto critical_section; // 或者牌子上写着自己（T1）
+        goto spin;
+critical_section:
+...
+    
+}
+
+void thread2(){
+        [1]store(y, 1); // 举起T2的牌子
+        [2]store(turn, T1); // 在牌子上写上对方的名字
+spin:
+        [3]t1 = load(x);
+        if(!t1) goto critical_section; // 如果对方没有举起旗子
+        [4]t2 = load(turn);
+        if(t2 != T1) goto critical_section; // 或者牌子上写着自己（T2）
+        goto spin;
+critical_section:
+...
+
+}   
+
+```
+
+在x86处理器上允许变量不同的情况下被乱序，如果我们同时考虑thread的前三步，store的是x turn，load的是 y，三个变量不同，那么这三个操作可以不按照顺序执行。
+
+也就是说，在实际的执行中，存在以下情况：t1先执行load(y)， t2先执行load(x)，然后就可以进入 临界区执行 ，同时进入临界区。
+
+也就是说，在现代操作系统中，Peterson算法实际上是错的。
+
+#### 共享内存带来的更多问题
+
+```c
+// sum.c
+
+#include"threads.h"
+
+#define PREFIX
+
+long sum;
+
+void do_sum(){
+        for(int i = 0; i < 1000000; i++){
+        // 使用内联汇编彻底阻止优化
+                asm volatile(PREFIX "addq $1, %0" : "=m"(sum));
+        }
+}
+
+void print(){
+        printf("sum = %ld\n", sum);
+}
+
+int main(){
+        for(int i = 0; i < 4; i++){
+                create(do_sum);
+        }
+        join(print);
+}
+
+```
+
+
+
+ ```bash
+ ❯ gcc sum.c -l pthread
+ ❯ ./a.out
+ sum = 1198941
+ ❯ ./a.out
+ sum = 957445
+ ❯ ./a.out
+ sum = 1560297
+ ❯ ./a.out
+ sum = 1304816
+ ❯ ./a.out
+ sum = 1413942
+ ❯ ./a.out
+ sum = 1151575
+ ```
+
+可以看出，并没有得到我们想要的结果4000000
+
+我们假设多线程的状态机在每一个线程都会选择一个指令进行执行。这个假设是错的。
+
+并且我们可以看到，我们最终看到的结果可能比循环次数 n 还要小
+
+这是因为每一个线程都会有一个 store buffer 栈结构 ，sum++ 会被编译成 `t=load(x); t++; store(x)` 最后的store会存放在 store buffer 中而不是直接写入共享内存，在load的时候，如果store buffer中已经有了要读入的值，就会直接从store buffer中读取；如果没有，就会从共享内存中读取。在从store buffer写入共享内存的时候，也不会是直接写入共享内存的，而是先写入CPU的缓存中，再写入共享内存。
+
+如果在线程1上已经完成了x=1;x=2;x=3的写入，有可能所有的x的数值都留在store buffer中，虽然在线程1上已经完成了x=1,2,3的写，但是由于此时还没有写入共享内存，线程2读入的时候读取到的还是共享内存中的0。
+
+所以即便是在时间的顺序上 线程1已经完成了sum++的操作，在线程2上依然看不到线程1的操作。
+
+因此最后得到的数值小于预期是合理的。
+
+
+
+### 实现互斥：软件不够，硬件来凑
+
+本质困难：
+
+1. load的时候不能写，只能看一个地址
+2. store的时候不能读，只能“闭着眼动手”
+3. load/store 可能乱序
+
+
+
+一个有缺陷的栗子：
+
+```c
+void critical_section(){
+    while(1)
+		if(!locked){
+			locked = 1;
+			break;
+		}
+	locked = 0;
+}
+```
+
+- 用状态机模型分析：T1 -> T2 或者 T2 -> T1 会同时进入临界区
+
+我们需要一条原子指令，完成
+
+- 一次共享内存的load
+- 向同一个共享内存地址store
+- 以及一些线程（处理器）本地的计算
+
+在多处理器上，原子操作保证：
+
+- 原子性：load/store 不会被打断
+- 顺序：线程（处理器）执行的乱序只能不能越过原子操作
+- 多处理器之间的可见性：若原子操作A发生在B之前，则A之前的store对B之后的load可见
+
+
+
+#### 原子操作 - lock指令前缀
+
+```c
+#include"threads.h"
+
+#define PREFIX "lock "
+
+long sum;
+
+void do_sum(){
+        for (int i = 0; i < 10000000; i++){
+                asm volatile("lock addq $1, %0" : "=m"(sum));
+        }
+}
+
+
+void print(){
+        printf("sum = %ld\n", sum);
+}
+
+int main(){
+        for(int i = 0; i < 4; i++){
+                create(do_sum);
+        }
+        join(print);
+}
+```
+
+```bash
+❯ gcc sum-stomic.c -l pthread
+❯ ./a.out
+sum = 400000
+❯ ./a.out
+sum = 400000
+❯ ./a.out
+sum = 400000
+❯ ./a.out
+sum = 400000
+```
+
+ 我们发现这时候执行正确，但是程序执行时间大幅度增加（大约慢了10倍）
+
+查看这个程序的汇编代码（部分）
+
+```assembly
+...
+1391:       f0 48 83 05 96 2c 00    lock addq $0x1,0x2c96(%rip)        # 4030 <sum>
+...
+```
+
+指令多了 f0 这个字节，代表这个指令需要锁定。
+
+
+
+原子操作：xchg
+
+```c
+//老师把这个指令封装成了一个函数
+//这个函数的功能是将传入的地址上的值和传入的参数中的值做交换，不会被其他事情打断。
+int xchg(volatile int *addr, int newval){
+        int result;
+        asm volatile ("lock xchg %0, %1"
+        : "+m"(+addr), // [%0] addr (内存，读写)
+          "=a"(result) // [%1] result(%eax)
+        : "1"(newval)  // [%1]
+        : "cc");       // clobbers eflags
+        return result;
+}
+```
+
+
+
+#### 实现互斥：自旋锁
+
+比喻：
+
+```c
+// 公共厕所有一把锁，每个人手里有一把钥匙和一张字条
+// 去厕所的人拿走锁，把字条放在桌子上，用锁锁上厕所门
+// 上完厕所回来之后把钥匙放回去，字条拿回来，下一个人拿钥匙
+
+int table = KEY;
+void lock(){
+    while(1){
+        int got = xchg(&table, NOTE);
+        if (got == KEY) break;
+    }
+}
+
+void unlock(){
+    xchg($table, KEY);
+}
+```
+
+自旋锁实现：
+
+```c
+int locked = 0;
+void lock(){
+    while(xchg(&locked, 1));
+}
+
+void unlock(){
+    xchg($locked, 0);
+}
+```
+
+用自旋锁保护的代码运行会得到正确结果。
+
+
+
+RISC-V 另一种原子操作的设计
+
+- atomic test-and-set
+  - reg = load(x); if(reg == XX){store(x, YY); }
+- lock xchg
+  - reg = load(x); store(x, XX);
+- lock(add)
+  - t = load(x); t++; store(x, t);
+
+他们的本质都是
+
+1. load(x)
+2. 设置信息
+3. store(x)
+
+
+
+LRSC这一块没太听懂，等我回去看看，听懂之后再回来补上。
+
+
+
+#### 数据竞争
+
+数据竞争：两个不同的线程同时访问同一段内存，且至少有一个是store，其中没有原子操作间隔
+
+- 两个内存访问在“赛跑”，“跑赢”的操作先执行（不确定性）
+
+我们在编程的时候应该尽力避免数据竞争
+
+所有的共享变量都应该被互斥锁保护
+
 
 
 
