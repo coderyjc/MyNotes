@@ -2029,7 +2029,147 @@ LRSC这一块没太听懂，等我回去看看，听懂之后再回来补上。
 
 - 将C语言代码编译/链接成ELF目标文件的命令
   - Makefile， ld script
-- 
+  
+- 二进制文件在bare-metal上运行必要的其他部件
+  - AMAPI的实现
+  - ELF文件的加载器（代码、编译/链接脚本）
+
+ - 生成系统镜像文件的脚本
+- 平台相关的启动脚本
+  - 启动虚拟机执行
+  - 将镜像写入开发板并启动
+
+主要使用的工具：gcc和GNU binutils:a collection of binary tools
+
+- Id（链接器），as（汇编器）
+- ar（静态库打包），objcopy（目标文件解析）
+- 其他大家会用到的工具：nm，strings，size，objdump，readelf.…
+
+
+### 硬件和软件的桥梁
+
+
+Bare-Metal 与程序员的约定
+
+为了让计算机能运行任何我们的程序，一定存在一些软件/硬件的约定
+- CPU reset后，处理器处于某个确定的状态
+  - PC指针一般指向一段memory-mapped ROM
+    - ROM存储了厂商提供的firmware（固件）
+  - 处理器的大部分特性处于关闭状态
+    - 缓存、虚拟存储、..…
+
+- Firmware
+  - 将用户数据加载到内存
+  - 例如存储介质上的第二级 loader
+  - 或者直接加载操作系统（嵌入式系统）
+
+- U-Boot:the universal boot loader
+
+遇到问题之后第一时间就是查找官方手册，而不是blog，因为blog多多少少都经过了人的加工。
+
+CPU Reset之后：发生了什么？
+
+在《计算机系统基础》中学过，整个计算机系统也是一个状态机
+
+- 从PC（CS:IP）指针处取指令、译码、执行……
+- 从firmware开始执行
+  - ffffe 通常是一条向 firmware跳转的jmp指令
+
+Firmware:BIOS vs.UEFI的区别
+
+- 都是主板/主板上外插设备的软件抽象，支持各种设置的运行
+- 支持系统管理程序运行
+- Legacy BIOS（Basic I/O System）
+- UEFI（Unified Extensible Firmware Interface）
+
+Legacy BIOS：约定
+
+Firmware必须提供机制，将用户数据载入内存
+- Legacy BIOS把引导盘的第一个扇区（主引导扇区，MBR）加载到内存的7c00位置
+- 处理器处于16-bit模式
+  - 规定CS:IP=0x7c00，（R[Cs]<<4）|R[IP]=0×7c00
+    - 可能性1：CS=0×07c0，IP = 0
+    - 可能性2：CS=0，IP=0x7c08
+- 其他没有任何约束
+
+
+调试QEMU：确认Firmware的行为
+
+> “Firmware会加载启动盘第一个扇区到0x7c00内存位置”
+
+能否亲眼确认一下？
+
+调试QEMU模拟器：run-qemu.sh
+
+- 查看CPU Reset后的寄存器
+	- info registers
+- 查看0x7c00内存的加载
+	- watch*0×7c00 添加监视
+	- 查看加载磁盘的指令x/i（$cs*16+$rip）
+	- 打印内存x/16xb0×7c00
+
+- 进入0x7c00代码的执行
+	- b*0×7c00，c（撒花）
+
+
+### 操作系统镜像
+
+观察AbstractMachine 程序的编译过程
+
+直接使用 make -nB 会有一大堆输出，看起来眼花缭乱。
+
+专业人士应该怎么做？
+
+可以写一个小脚本，规整我们的输出。
+
+
+```bash
+make -nB \
+	| grep -ve '\(\#\|echo\lmkdir\|make\)' \
+    | sed "s#$AM_HOME#\ $AUM_HOME#g" \
+    | sed "s#$PWD#.#g" \
+    | vim -
+```
+
+
+- Command line tricks
+	- make -nB（RKTFM）
+	- grep：文本过滤，省略了一些干扰项
+		- echo（提示信息）
+		- mkdir（目录建立）
+		- make（sub-goals）
+	- sed：让输出更易读
+		- 将绝对路径替换成相对路径
+	- vim：更舒适的编辑/查看体验
+
+
+**代码讲解**
+
+想要看得更清楚一些？
+
+- :s /\r /g
+	- 每一个命令就像“一句话”
+	- 静下心来理解它就好
+
+编译
+
+- -std=gnull，m64，-mno-sse，…
+- 注意-I（include path）和-D（宏定义）
+
+链接
+- melf_×86_64，-N，-Ttext-segment=0×00180000
+- 链接了C代码对应的.o和库（am-×86_64-qemu.a，klib-×86_64-qemu.a）
+
+加载
+- $AM_HOME/am/src/x86/qemu/boot/mbr是被firmware加载的512字节
+
+
+### 操作系统：是个C程序
+
+
+
+
+
 
 
 
