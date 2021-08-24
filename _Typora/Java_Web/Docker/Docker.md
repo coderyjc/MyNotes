@@ -1,4 +1,4 @@
-# Docker
+# Docker上篇
 
 > 来源：[bilibili-狂神说java - Docker最新超详细版教程通俗易懂](https://www.bilibili.com/video/BV1og4y1q7M4)
 
@@ -23,7 +23,7 @@ Docker 是 PaaS 提供商 dotCloud 开源的一个基于 LXC 的高级容器引�
 
 > 之前的虚拟机技术
 
-<img src=".\Untitled.imgs\image-20210625092430285.png" alt="image-20210625092430285" style="zoom: 50%;" />
+<img src=".\Docker.imgs\image-20210625092430285.png" alt="image-20210625092430285" style="zoom: 50%;" />
 
 虚拟机技术的缺点：
 
@@ -35,7 +35,7 @@ Docker 是 PaaS 提供商 dotCloud 开源的一个基于 LXC 的高级容器引�
 
 容器化技术不是模拟一个完整的操作系统
 
-<img src=".\Untitled.imgs\image-20210625092546738.png" alt="image-20210625092546738" style="zoom: 67%;" />
+<img src=".\Docker.imgs\image-20210625092546738.png" alt="image-20210625092546738" style="zoom: 67%;" />
 
 
 
@@ -73,7 +73,7 @@ Docker是内核级别的虚拟化，可以在一个物理机上运行很多的�
 
 ### Docker基本组成
 
-<img src=".\Untitled.imgs\image-20210625092821052.png" alt="image-20210625092821052" style="zoom:67%;" />
+<img src=".\Docker.imgs\image-20210625092821052.png" alt="image-20210625092821052" style="zoom:67%;" />
 
 **镜像（image）**
 
@@ -324,6 +324,16 @@ docker rmi -f $(docker images -aq) # 删除全部镜像
 
 ### 容器命令
 
+```bash
+docker run  镜像id #新建容器并启动
+docker ps   #列出所有运行的容器 docker container list
+docker rm   容器id #删除指定容器
+docker start 容器id #启动容器
+docker restart容器id #重启容器
+docker stop  容器id #停止当前正在运行的容器
+docker kill  容器id #强制停止当前容器
+```
+
 下载一个centOS镜像来测试学习
 
 ```bash
@@ -344,14 +354,14 @@ docker pull centos
      -p 主机端口：容器端口(常用)
      -p 容器端口
      容器端口
- -p                 随机指定端口
+ -P                 随机指定端口
  ```
 
 ![image-20210627101922222](R:\GITHUB\MyNotes\_Typora\Java_Web\Docker\Docker.imgs\image-20210627101922222.png)
 
 镜像里面的命令有很多都是不完善的
 
-列出所有的运行中的容器
+**列出所有的运行中的容器**
 
 ```bash
 # docker ps 命令
@@ -499,7 +509,9 @@ docker cp a485a9d900b4:/home/test.java /home
 
 就可以从外部网络直接访问docker服务了
 
-#### 作业：在docker中部署tomcat
+
+
+**作业：在docker中部署tomcat**
 
 下载镜像
 
@@ -538,3 +550,132 @@ docker run -d -p 3389:8080 --name tomcat01 tomcat:9.0
 
 ![image-20210627213310263](R:\GITHUB\MyNotes\_Typora\Java_Web\Docker\Docker.imgs\image-20210627213310263.png)
 
+## Docker 镜像讲解
+
+### UnionFS（联合文件系统）
+
+- 联合文件系统（UnionFS）是一种分层、轻量级并且高性能的文件系统，它支持对文件系统的修改作为一次提交来一层层的叠加，同时可以将不同目录挂载到同一个虚拟文件系统下。联合文件系统是 Docker 镜像的基础。镜像可以通过分层来进行继承，基于基础镜像（没有父镜像），可以制作各种具体的应用镜像。
+- 特性：一次同时加载多个文件系统，但从外面看起来只能看到一个文件系统。联合加载会把各层文件系统叠加起来，这样最终的文件系统会包含所有底层的文件和目录。
+
+### 镜像加载原理
+
+Docker的镜像实际由一层一层的文件系统组成：
+
+- bootfs（boot file system）主要包含bootloader和kernel。bootloader主要是引导加载kernel，完成后整个内核就都在内存中了。此时内存的使用权已由bootfs转交给内核，系统卸载bootfs。可以被不同的Linux发行版公用。
+
+- rootfs（root file system），包含典型Linux系统中的/dev，/proc，/bin，/etc等标准目录和文件。rootfs就是各种不同操作系统发行版（Ubuntu，Centos等）。因为底层直接用Host的kernel，rootfs只包含最基本的命令，工具和程序就可以了。
+
+- 分层理解
+  
+  所有的Docker镜像都起始于一个基础镜像层，当进行修改或增加新的内容时，就会在当前镜像层之上，创建新的容器层。
+  容器在启动时会在镜像最外层上建立一层可读写的容器层（R/W），而镜像层是只读的（R/O）。
+
+![image-20210822164259097](Docker.imgs/image-20210822164259097.png)
+
+
+
+所有的 Docker镜像都起始于一个基础镜像层，当进行修改或培加新的内容时，就会在当前镜像层之上，创建新的镜像层。
+
+举一个简单的例子，假如基于 Ubuntu Linux16.04创建一个新的镜像，这就是新镜像的第一层；如果在该镜像中添加 Python包，
+就会在基础镜像层之上创建第二个镜像层；如果继续添加一个安全补丁，就会创健第三个镜像层该像当前已经包含3个镜像层，如下图所示（这只是一个用于演示的很简单的例子）。
+
+在添加额外的镜像层的同时，镜像始终保持是当前所有镜像的组合，理解这一点非常重要。下图中举了一个简单的例子，每个镜像层包含3个文件，而镜像包含了来自两个镜像层的6个文件。
+
+![image-20210822164647432](Docker.imgs/image-20210822164647432.png)
+
+上图中的镜像层跟之前图中的略有区別，主要目的是便于展示文件
+
+下图中展示了一个稍微复杂的三层镜像，在外部看来整个镜像只有6个文件，这是因为最上层中的文件7是文件5的一个更新版
+
+![image-20210822164659503](Docker.imgs/image-20210822164659503.png)
+
+这种情況下，上层镜像层中的文件覆盖了底层镜像层中的文件。这样就使得文件的更新版本作为一个新镜像层添加到镜像当中
+
+Docker通过存储引擎（新版本采用快照机制）的方式来实现镜像层堆栈，并保证多镜像层对外展示为统一的文件系统
+
+Linux上可用的存储引撃有AUFS、 Overlay2、 Device Mapper、Btrfs以及ZFS。顾名思义，每种存储引擎都基于 Linux中对应的
+件系统或者块设备技术，井且每种存储引擎都有其独有的性能特点。
+
+Docker在 Windows上仅支持 windowsfilter 一种存储引擎，该引擎基于NTFS文件系统之上实现了分层和CoW [1]。
+
+下图展示了与系统显示相同的三层镜像。所有镜像层堆并合井，对外提供统一的视图
+
+![image-20210822164719726](Docker.imgs/image-20210822164719726.png)
+
+
+
+### 提交镜像
+
+步骤：
+
+> 1. 启动一个默认的tomcat
+> 2. 发现这个默认的tomcat是没有webapps应用， 镜像的原因，官方镜像默认webapps下面是没有内容的
+> 3. 我自己拷贝进去了基本的文件
+> 4. 将我们操作过的容器通过commit提价为一个镜镜像！我们以后就使用我们自己制作的镜像了
+
+
+
+`docker commit -m="描述信息" -a="作者" 容器id 目标镜像名:[tag]  *# 编辑容器后提交容器成为一个新镜像*`
+
+
+
+```bash
+docker commit 提交容器成为一个新的版本
+ 
+# 命令和git 原理类似
+docker commit -m="提交的描述信息" -a="作者" 容器id 目标镜像名：[TAG]
+ 
+docker commit -a="xiaofan" -m="add webapps app" d798a5946c1f tomcat007:1.0
+```
+
+
+
+
+
+# Docker下篇
+
+
+
+## 容器数据卷
+
+### 是什么
+
+docker的理念回顾
+
+将应用和环境打包成一个镜像！
+
+数据？如果数据都在容器中，那么我们容器删除，数据就会丢失！需求：数据可以持久化
+
+MySQL，容器删除了，删库跑路！需求：MySQL数据可以存储在本地！
+
+容器之间可以有一个数据共享的技术！Docker容器中产生的数据，同步到本地！
+
+这就是卷技术！目录的挂载，将我们容器内的目录，挂载到Linux上面！
+
+![image-20210822170004450](Docker.imgs/image-20210822170004450.png)
+
+**总结一句话：容器的持久化和同步操作！容器间也是可以数据共享的！**
+
+### 使用数据卷
+
+
+
+
+
+
+
+
+
+## DockerFile
+
+
+
+
+
+## DockerNet
+
+
+
+
+
+## SpringBoot + Docker	
