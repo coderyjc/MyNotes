@@ -409,3 +409,35 @@ export default {
 
 ```
 
+
+
+
+
+# UNI-APP_uni-app请求post接口后端获取不到参数，uni.request提交数据，后台获取不到
+
+修改请求头Content-type
+
+```js
+header:{
+	'Content-type':'application/x-www-form-urlencoded'
+}
+//或者：
+header : {  
+	'content-type': 'application/x-www-form-urlencoded;charset=utf-8'  
+}
+
+```
+
+```js
+// 发起注册或者登录的请求
+this.$u.post('/user/login', {username: username, password: password }, {'Content-type':'application/x-www-form-urlencoded'}).then(res => {
+    console.log(res)
+    setTimeout(() => {
+        uni.showToast({
+            title:"登录成功"
+        })
+        // 跳转到个人中心
+    }, 1000)
+});
+```
+
