@@ -4,6 +4,8 @@
 
 ## 前言
 
+![image-20210909155543058](SpringCloud.imgs/image-20210909155543058.png)
+
 主要讲解Spring Cloud 五大组件
 
 - 服务注册与发现——Netflix Eureka
@@ -111,7 +113,7 @@
 - 性能和监控问题；
 
 
-微服务技术栈有哪些些？
+微服务技术栈有哪些？
 
 |微服务技术条目	|落地技术|
 |---|---|
@@ -526,7 +528,7 @@ pom配置文件：
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-provider-dept-8081</artifactId>
+    <artifactId>springCloud-provider-dept-8001</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -534,14 +536,33 @@ pom配置文件：
     </properties>
 
     <dependencies>
-<!--        我们需要拿到实体类，所以我们要配置api module-->
+        <!--        我们需要拿到实体类，所以我们要配置api module-->
         <dependency>
             <groupId>com.jancoyan</groupId>
-            <artifactId>springcloud-api</artifactId>
+            <artifactId>springCloud-api</artifactId>
             <version>1.0</version>
         </dependency>
-<!--      引用的父工程的文件-->
-<!--        test-->
+        <!--      引用的父工程的文件-->
+        <!--数据库-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+        <!--SpringBoot 启动器-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+
+        <!--        test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
@@ -554,12 +575,13 @@ pom配置文件：
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
-<!--        热部署工具-->
+        <!--        热部署工具-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>
 ```
@@ -578,7 +600,49 @@ pom配置文件：
 
 消费者不需要连接数据库，所以只需要实体类 + web的依赖，只和前端打交道
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>HelloCloud</artifactId>
+        <groupId>com.jancoyan</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>springCloud-consumer-dept-80</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.jancoyan</groupId>
+            <artifactId>springCloud-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
+```
+
+
+
 至此，基本的框架就搭建好了。
+
+
 
 ## Eureka 服务注册中心
 
@@ -604,6 +668,431 @@ dubbo架构
 
 ![image-20210908215817033](SpringCloud.imgs/image-20210908215817033.png)
 
+### 基本部署
+
+创建项目 eureka
+
+依赖配置文件：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>HelloCloud</artifactId>
+        <groupId>com.jancoyan</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>springCloud-eureka-8002</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
+```
+
+
+
+配置文件：
+
+```yml
+server:
+  port: 8002
+
+#Eureka 配置
+eureka:
+  instance:
+    hostname: localhost # eureka服务端的实例抿成
+  client:
+    register-with-eureka: false # 是否向eureka中心注册自己
+    fetch-registry: false # 如果为false 表示，自己为注册中心
+    service-url: # 监控页面
+      # 全动态配置客户端默认地址
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+```
+
+
+
+启动类：
+
+```java
+package com.jancoyan;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+// 开启服务
+@EnableEurekaServer
+public class EurekaServer_8002 {
+
+    public static void main(String[] args) {
+        SpringApplication.run(EurekaServer_8002.class, args);
+    }
+
+}
+
+```
+
+
+
+启动这个类之后就可以在我们配置的地址中访问eureka中心
+
+![image-20210909085722136](SpringCloud.imgs/image-20210909085722136.png)
+
+
+
+### 服务注册信息配置
+
+将dept-provider的信息注册到eureka中，让eureka能够检测dept-provider的信息：
+
+`HelloCloud\springCloud-provider-dept-8001\pom.xml` 中追加以下信息：
+
+```xml
+<!--        eureka-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
+
+```
+
+配置这个服务的注册信息
+
+`HelloCloud\springCloud-provider-dept-8001\src\main\resources\application.yml` 中追加以下信息
+
+```yml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8002/eureka/
+  instance:
+    instance-id: springcloud-provider-deot8001 # 修改eureka上的默认描述信息
+```
+
+在启动类上添加注解
+
+```java
+@SpringBootApplication
+@EnableEurekaClient // 在服务器启动后自动注册到eureka中
+public class DeptProviderApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DeptProviderApplication.class, args);
+    }
+}
+```
+
+启动两个服务进行测试：
+
+先启动eureka
+
+![image-20210909134647186](SpringCloud.imgs/image-20210909134647186.png)
+
+打开配置的客户端中心，显示没有实例注册进来
+
+再启动 dept-provider
+
+![image-20210909134738932](SpringCloud.imgs/image-20210909134738932.png)
+
+dept注册进来了，我这个status字段中的绿色字体是 这个服务的yml文件中的 `eureka.instance.instance-id` 字段，配置这个可以改这个名字
+
+点击绿色连接可以这个服务的监控信息信息页面，但是这个给页面需要配置：
+
+`HelloCloud\springCloud-provider-dept-8001\pom.xml` 中追加以下信息：
+
+```xml
+<!--        actuator完善监控信息-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+```
+
+`HelloCloud\springCloud-provider-dept-8001\src\main\resources\application.yml` 中追加以下信息
+
+```yml
+ info: 
+  app.name: provide-the-dept-info
+  company.name: jancoyan.com
+```
+
+表示配置了app名字和公司名称
+
+当我们再次点击了这个之后，得到了这样的信息：
+
+![image-20210909135401100](SpringCloud.imgs/image-20210909135401100.png)
+
+这个机制可以向别人展示这个微服务是作什么的。
+
+这里面的字段都是自己定义和编写的。
+
+### 自我保护机制
+
+当检测到微服务宕掉的时候，会发出这样的警告
+
+![image-20210909135324630](SpringCloud.imgs/image-20210909135324630.png)
+
+
+
+一句话总结就是：某时刻某一个微服务不可用，eureka不会立即清理，依旧会对该微服务的信息进行保存！
+
+- 默认情况下，当eureka server在一定时间内没有收到实例的心跳，便会把该实例从注册表中删除（默认是90秒），但是，如果短时间内丢失大量的实例心跳，便会触发eureka server的自我保护机制，比如在开发测试时，需要频繁地重启微服务实例，但是我们很少会把eureka server一起重启（因为在开发过程中不会修改eureka注册中心），当一分钟内收到的心跳数大量减少时，会触发该保护机制。可以在eureka管理界面看到Renews threshold和Renews(last min)，当后者（最后一分钟收到的心跳数）小于前者（心跳阈值）的时候，触发保护机制，会出现红色的警告：EMERGENCY!EUREKA MAY BE INCORRECTLY CLAIMING INSTANCES ARE UP WHEN THEY'RE NOT.RENEWALS ARE LESSER THAN THRESHOLD AND HENCE THE INSTANCES ARE NOT BEGING EXPIRED JUST TO BE SAFE.从警告中可以看到，eureka认为虽然收不到实例的心跳，但它认为实例还是健康的，eureka会保护这些实例，不会把它们从注册表中删掉。
+
+- 该保护机制的目的是避免网络连接故障，在发生网络故障时，微服务和注册中心之间无法正常通信，但服务本身是健康的，不应该注销该服务，如果eureka因网络故障而把微服务误删了，那即使网络恢复了，该微服务也不会重新注册到eureka server了，因为只有在微服务启动的时候才会发起注册请求，后面只会发送心跳和服务列表请求，这样的话，该实例虽然是运行着，但永远不会被其它服务所感知。所以，eureka server在短时间内丢失过多的客户端心跳时，会进入自我保护模式，该模式下，eureka会保护注册表中的信息，不在注销任何微服务，当网络故障恢复后，eureka会自动退出保护模式。自我保护模式可以让集群更加健壮。
+
+- 但是我们在开发测试阶段，需要频繁地重启发布，如果触发了保护机制，则旧的服务实例没有被删除，这时请求有可能跑到旧的实例中，而该实例已经关闭了，这就导致请求错误，影响开发测试。所以，在开发测试阶段，我们可以把自我保护模式关闭，只需在eureka server配置文件中加上如下配置即可：eureka.server.enable-self-preservation=false【不推荐关闭自我保护机制】
+
+### 获取该微服务的一些信息（团队开发用到）
+
+控制器中增加一个属性和一个方法
+
+`HelloCloud\springCloud-provider-dept-8001\src\main\java\com\jancoyan\controller\DeptController.java`
+
+```java
+    /**
+     * DiscoveryClient 可以用来获取一些配置的信息，得到具体的微服务！
+     
+     这个导包要导 springcloud 的包
+     */
+    @Autowired
+    private DiscoveryClient client;
+	
+// 访问这个连接进行信息的获取
+	@GetMapping("/dept/discovery")
+    public Object discovery() {
+        // 获取微服务列表的清单
+        List<String> services = client.getServices();
+        System.out.println("discovery=>services:" + services);
+        // 得到一个具体的微服务信息,通过具体的微服务id，applicaioinName；
+        List<ServiceInstance> instances = client.getInstances("SPRINGCLOUD-PROVIDER-DEPT");
+        for (ServiceInstance instance : instances) {
+            System.out.println(
+                    instance.getHost() + "\t" + // 主机名称
+                            instance.getPort() + "\t" + // 端口号
+                            instance.getUri() + "\t" + // uri
+                            instance.getServiceId() // 服务id
+            );
+        }
+        return this.client;
+    }
+
+```
+
+在启动类中添加注解
+
+```java
+@SpringBootApplication
+@EnableEurekaClient
+@EnableDiscoveryClient // 服务发现机制
+public class DeptProviderApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DeptProviderApplication.class, args);
+    }
+}
+```
+
+重启服务，发送请求，获取信息
+
+![image-20210909141449874](SpringCloud.imgs/image-20210909141449874.png)
+
+可以获取到一些信息。
+
+### 【架构师】Eureka集群配置
+
+先创建3个Eureka模拟集群
+
+配置 pom.xml 和 application.xml 和主启动类
+
+- pom.xml 把依赖复制过去
+- application 把所有东西复制过去之后改一下端口
+- 主启动类改一下名字（是为了更好的理解这个思想， 不一定真的要配置）
+
+修改本机的域名映射：`C:\Windows\System32\drivers\etc\hosts`
+
+将这三个eureka的域名映射到本机，也就是说访问三个地址都是访问本机
+
+![image-20210909143932192](SpringCloud.imgs/image-20210909143932192.png)
+
+如果不能保存，就重写
+
+接下来我们让三个eureka服务相互关联，也就是让 每一个eureka都和其他2个eureka相关联。
+
+![image-20210909144455486](SpringCloud.imgs/image-20210909144455486.png)
+
+编写每一个的配置文件：
+
+`SpringCloud\HelloCloud\springCloud-eureka-8002\src\main\resources\application.yml`
+
+```yml
+server:
+  port: 8002
+
+#Eureka 配置
+eureka:
+  instance:
+    hostname: localhost # eureka服务端的实例抿成
+  client:
+    register-with-eureka: false # 是否向eureka中心注册自己
+    fetch-registry: false # 如果为false 表示，自己为注册中心
+    service-url: # 监控页面
+      # 全动态配置
+      defaultZone: http://eureka8003.com:8003/eureka/,http://eureka8004.com:8004/eureka/
+```
+
+`SpringCloud\HelloCloud\springCloud-eureka-8003\src\main\resources\application.yml`
+
+```yml
+server:
+  port: 8003
+
+#Eureka 配置
+eureka:
+  instance:
+    hostname: localhost # eureka服务端的实例抿成
+  client:
+    register-with-eureka: false # 是否向eureka中心注册自己
+    fetch-registry: false # 如果为false 表示，自己为注册中心
+    service-url: # 监控页面
+      # 全动态配置
+      defaultZone: http://eureka8002.com:8002/eureka/,http://eureka8004.com:8004/eureka/
+```
+
+`SpringCloud\HelloCloud\springCloud-eureka-8004\src\main\resources\application.yml`
+
+```yml
+server:
+  port: 8004
+
+#Eureka 配置
+eureka:
+  instance:
+    hostname: localhost # eureka服务端的实例抿成
+  client:
+    register-with-eureka: false # 是否向eureka中心注册自己
+    fetch-registry: false # 如果为false 表示，自己为注册中心
+    service-url: # 监控页面
+      # 全动态配置
+      defaultZone: http://eureka8002.com:8002/eureka/,http://eureka8003.com:8003/eureka/
+
+```
+
+dept-provider 服务配置
+
+`SpringCloud\HelloCloud\springCloud-provider-dept-8001\src\main\resources\application.yml`
+
+把这个服务配置到三个eureka中
+
+```yml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8002.com:8002/eureka/,http://eureka8003.com:8003/eureka/,http://eureka8004.com:8004/eureka/
+```
+
+启动三个eureka和一个服务。
+
+可以看出三个都和其他两个连接起来了，并且我们的服务同时挂到了三个上面
+
+![image-20210909150418189](SpringCloud.imgs/image-20210909150418189.png)
+
+
+
+这样以来如果有一个eureka断掉了，还可以用其他两个服务。
+
+关闭34，2还可以用
+
+![image-20210909150634312](SpringCloud.imgs/image-20210909150634312.png)
+
+### 对比和ZooKeeper的区别
+
+
+RDBMS (MySQL\Oracle\sqlServer) ===> ACID
+
+NoSQL (Redis\MongoDB) ===> CAP
+
+ ACID是什么？
+- A (Atomicity) 原子性
+- C (Consistency) 一致性
+- I (Isolation) 隔离性
+- D (Durability) 持久性
+
+CAP是什么?
+- C (Consistency) 强一致性
+- A (Availability) 可用性
+- P (Partition tolerance) 分区容错性
+- CAP的三进二：CA、AP、CP
+
+CAP理论的核心
+-  一个分布式系统不可能同时很好的满足一致性，可用性和分区容错性这三个需求
+-  根据CAP原理，将NoSQL数据库分成了满足CA原则，满足CP原则和满足AP原则三大类
+-  CA：单点集群，满足一致性，可用性的系统，通常可扩展性较差
+-  CP：满足一致性，分区容错的系统，通常性能不是特别高
+-  AP：满足可用性，分区容错的系统，通常可能对一致性要求低一些
+
+ 作为分布式服务注册中心，Eureka比Zookeeper好在哪里？
+
+-  著名的CAP理论指出，一个分布式系统不可能同时满足C (一致性) 、A (可用性) 、P (容错性)，由于分区容错性P再分布式系统中是必须要保证的，因此我们只能再A和C之间进行权衡。
+
+Zookeeper 保证的是 CP —> 满足一致性，分区容错的系统，通常性能不是特别高
+
+Eureka 保证的是 AP —> 满足可用性，分区容错的系统，通常可能对一致性要求低一些
+
+Zookeeper保证的是CP
+
+ 当向注册中心查询服务列表时，我们可以容忍注册中心返回的是几分钟以前的注册信息，但不能接收服务直接down掉不可用。也就是说，服务注册功能对可用性的要求要高于一致性。但zookeeper会出现这样一种情况，当master节点因为网络故障与其他节点失去联系时，剩余节点会重新进行leader选举。问题在于，选举leader的时间太长，30-120s，且选举期间整个zookeeper集群是不可用的，这就导致在选举期间注册服务瘫痪。在云部署的环境下，因为网络问题使得zookeeper集群失去master节点是较大概率发生的事件，虽然服务最终能够恢复，但是，漫长的选举时间导致注册长期不可用，是不可容忍的。
+
+Eureka保证的是AP
+ Eureka看明白了这一点，因此在设计时就优先保证可用性。Eureka各个节点都是平等的，几个节点挂掉不会影响正常节点的工作，剩余的节点依然可以提供注册和查询服务。而Eureka的客户端在向某个Eureka注册时，如果发现连接失败，则会自动切换至其他节点，只要有一台Eureka还在，就能保住注册服务的可用性，只不过查到的信息可能不是最新的，除此之外，Eureka还有之中自我保护机制，如果在15分钟内超过85%的节点都没有正常的心跳，那么Eureka就认为客户端与注册中心出现了网络故障，此时会出现以下几种情况：
+- Eureka不在从注册列表中移除因为长时间没收到心跳而应该过期的服务
+- Eureka仍然能够接受新服务的注册和查询请求，但是不会被同步到其他节点上 (即保证当前节点依然可用)
+- 当网络稳定时，当前实例新的注册信息会被同步到其他节点中
+
+**因此，Eureka可以很好的应对因网络故障导致部分节点失去联系的情况，而不会像zookeeper那样使整个注册服务瘫痪**
+
+
+
+## Ribbon：基于客户端的负载均衡
+
+
+
+
+
+
+
+
+
+创建3个服务，3个服务的名称是一样的，才能实现负载均衡
+
+
+
+
+
+Ribbon从Eureka集群中查询可用的服务列表，通过这个列表实现负载均衡，判断自己需要连接哪一个服务器。
+
+![image-20210909155218787](SpringCloud.imgs/image-20210909155218787.png)
 
 
 
@@ -614,7 +1103,6 @@ dubbo架构
 
 
 
-## Ribbon：负载均衡(基于客户端)
 
 
 
@@ -624,7 +1112,21 @@ dubbo架构
 
 
 
-## Feign：负载均衡(基于服务端)
+
+
+
+
+
+
+
+
+## Feign：基于服务端的负载均衡
+
+性能低了，但是代码可读性变强了，符合面向接口编程的规范
+
+
+
+
 
 
 
@@ -644,7 +1146,19 @@ dubbo架构
 
 
 
+
+
+
+
+
+
 ## Zull路由网关
+
+
+
+
+
+
 
 
 
