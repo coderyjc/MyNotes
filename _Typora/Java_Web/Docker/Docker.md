@@ -142,7 +142,7 @@ Docker Hub（默认是国外的）
 4. 更新yum的索引
 
    ```bash
-   yum makecache fast
+   yum makecache faster
    ```
 
 
@@ -196,7 +196,17 @@ rm -rf /var/lib/docker
 
 ### 回顾HelloWorld流程
 
-![image-20210625192722979](.\Docker.imgs\image-20210625192722979.png)
+![](.\Docker.imgs\image-20210625192722979.png)
+
+
+
+### Portainer
+
+密码 ：`12345678`
+
+
+
+
 
 ### 底层原理
 
