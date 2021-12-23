@@ -1,0 +1,112 @@
+{
+  "main": {
+    "id": "de0fc56689bad86a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8faea2c1c1e2acae",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Algorithm/tips.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f0bdef800e84e16",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fc974dbd7ce1806",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1de952a8a22dbe35",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a83eff1b45f85175",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8c734ac7cf97795b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e33cb2aa1124261",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b097c92668dd5a7e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Algorithm/tips.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1306328299c9d635",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8faea2c1c1e2acae",
+  "lastOpenFiles": [
+    "Algorithm/tips.md",
+    "Algorithm/字符串相关.md",
+    "Algorithm/格式化输入输出.md",
+    "Algorithm/数据读取.md",
+    "日报/week01.md",
+    "日报/winter.md",
+    "Day Planners/Day Planner-20211223.md",
+    "2021.12.20.md",
+    "Day Planners/2021-12-20.md",
+    "Day Planners/2021-12-23.md"
+  ]
+}
