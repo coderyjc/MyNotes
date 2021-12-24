@@ -1,3 +1,122 @@
+### 2021.12.24
+
+在读题和做题的时候一定要分清哪个数是什么类型的！！！！！（PTA-batsic-1088）
+
+
+[[数据读取]]方面
+
+- 多参数输入的情况下，使用cin可能会超时，这时候建议改成scanf（PTA-Basic-1066）
+
+
+**C++[[位运算]]**
+
+|符号|作用|
+|----|----|
+| & | 与|
+| \| | 或 |
+| ^ | 异或|
+| ~ | 取反 |
+
+
+**使用 bits/stdc++ 步骤**
+
+1. 在 `VS2022\VC\Tools\MSVC\14.30.30705\include` 中新建文件夹 `bits`
+2. 文件夹中新建文件 `stdc++.h`
+3. 写入以下内容
+4. 保存，完成
+
+```c++
+//c
+#ifndef _GLIBCXX_NO_ASSERT
+#include<cassert>
+#endif
+#include<cctype>
+#include<cerrno>
+#include <cfloat>
+#include <ciso646>
+#include <climits>
+#include <clocale>
+#include <cmath>
+#include <csetjmp>
+#include <csignal>
+#include <cstdarg>
+#include <cstddef>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+ 
+#if __cplusplus >= 201103L
+#include <ccomplex>
+#include <cfenv>
+#include <cinttypes>
+#include <cstdalign>
+#include <cstdbool>
+#include <cstdint>
+#include <ctgmath>
+#include <cwchar>
+#include <cwctype>
+#endif
+ 
+// C++
+#include <algorithm>
+#include <bitset>
+#include <complex>
+#include <deque>
+#include <exception>
+#include <fstream>
+#include <functional>
+#include <iomanip>
+#include <ios>
+#include <iosfwd>
+#include <iostream>
+#include <istream>
+#include <iterator>
+#include <limits>
+#include <list>
+#include <locale>
+#include <map>
+#include <memory>
+#include <new>
+#include <numeric>
+#include <ostream>
+#include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <stdexcept>
+#include <streambuf>
+#include <string>
+#include <typeinfo>
+#include <utility>
+#include <valarray>
+#include <vector>
+ 
+#if __cplusplus >= 201103L
+#include <array>
+#include <atomic>
+#include <chrono>
+#include <condition_variable>
+#include <forward_list>
+#include <future>
+#include <initializer_list>
+#include <mutex>
+#include <random>
+#include <ratio>
+#include <regex>
+#include <scoped_allocator>
+#include <system_error>
+#include <thread>
+#include <tuple>
+#include <typeindex>
+#include <type_traits>
+#include <unordered_map>
+#include <unordered_set>
+#endif
+```
+
+
+
 
 ### 2021.12.23
 
@@ -10,7 +129,6 @@
 ```c++
 #pragma warning(disable:4996)
 ```
-
 
 
 
