@@ -6,11 +6,12 @@
 
 ### 第一阶段【2021.9-2021.12】
 
-<p style="font-size:30px; line-height:50px;border:1px solid black; border-radius: 5px">
+<p style="font-size:30px; line-height:50px;border:1px solid black; border-radius: 5px;padding-left:15px">
 一定要重视基础能力的培养<br>
 以后的<span style="color:blue">阅读题大招、做题技巧</span>的有效性都是建立在<br>
 <span style="color:red; font-size:40px; font-weight:600">单词、语法、长难句</span>上
 </p>
+
 
 
 使用资料：
