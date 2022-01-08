@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8faea2c1c1e2acae",
+        "id": "14e1509c342d7643",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法/tips.md",
+            "file": "书籍/计算机系统要素/布尔逻辑.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 330,
+    "collapsed": true
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/tips.md",
+                "file": "书籍/计算机系统要素/布尔逻辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8faea2c1c1e2acae",
+  "active": "14e1509c342d7643",
   "lastOpenFiles": [
-    "算法/tips.md",
-    "算法/模板.md",
-    "算法/字符串相关.md",
-    "算法/格式化输入输出.md",
-    "日报/week01.md",
-    "算法/数据读取.md",
-    "算法/ASCII码.md",
+    "书籍/计算机系统要素/布尔逻辑.md",
     "Windows/注册表相关.md",
-    "日报/winter.md",
-    "Day Planners/Day Planner-20211223.md"
+    "书籍/计算机系统要素/index.md",
+    "assets/Pasted image 20211224160318.png",
+    "书籍/LinuxC/LinuxC-批注.md",
+    "assets/LinuxC.pdf",
+    "算法/模板.md",
+    "日报/week01.md",
+    "算法/tips.md",
+    "算法/字符串相关.md"
   ]
 }
