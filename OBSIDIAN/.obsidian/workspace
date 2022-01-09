@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "书籍/计算机系统要素/布尔逻辑.md",
+            "file": "书籍/计算机系统要素/lab.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330,
-    "collapsed": true
+    "width": 330
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "书籍/计算机系统要素/布尔逻辑.md",
+                "file": "书籍/计算机系统要素/lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +98,7 @@
   },
   "active": "14e1509c342d7643",
   "lastOpenFiles": [
+    "书籍/计算机系统要素/lab.md",
     "书籍/计算机系统要素/布尔逻辑.md",
     "Windows/注册表相关.md",
     "书籍/计算机系统要素/index.md",
@@ -107,7 +107,6 @@
     "assets/LinuxC.pdf",
     "算法/模板.md",
     "日报/week01.md",
-    "算法/tips.md",
-    "算法/字符串相关.md"
+    "算法/tips.md"
   ]
 }
