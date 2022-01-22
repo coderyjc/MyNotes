@@ -4,15 +4,6 @@
 
 
 
-- [x] https://www.bilibili.com/video/BV1AQ4y1i78Y?from=search&seid=9587939870865268683&spm_id_from=333.337.0.0 视觉差设计
-- [x] https://www.bilibili.com/video/BV16h411h7Qg?from=search&seid=13648600967818716341&spm_id_from=333.337.0.0视觉差滚动
-- [ ] https://www.bilibili.com/video/BV1C3411t7cc?spm_id_from=333.999.0.0 卡片玻璃悬停
-- [ ] https://www.bilibili.com/video/BV15r4y117Pg?from=search&seid=7508715108596126434&spm_id_from=333.337.0.0卡片悬停
-- [ ] https://www.bilibili.com/video/BV1dq4y1U7jx?from=search&seid=16684227874123866656&spm_id_from=333.337.0.0响应式卡片滑块
-- [ ] https://www.bilibili.com/video/BV1Mf4y1x7DK?from=search&seid=12016109785794815879&spm_id_from=333.337.0.0 视觉差名片
-
-
-
 
 
 ## 计量单位
@@ -38,7 +29,7 @@ vw和vh
 3. rem 
    1. 与em的区别：区别在于使用rem为元素设定字体大小时，仍然是相对大小，但相对的只是HTML根元素。
 
-
+font-size:100%;设置字体属性为默认大小,是相对于浏览器默认字体大小或继承body设定的字体大小来说的。
 
 
 
@@ -59,7 +50,9 @@ box-sizing 属性可以被用来调整这些表现:
 
 **译者注:** `border-box`不包含`margin`
 
+#### outline
 
+[CSS](https://developer.mozilla.org/en-US/docs/CSS) 的 `outline` 属性是在一条声明中设置多个轮廓属性的[简写属性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Shorthand_properties)
 
 #### **object-fit**
 
@@ -98,6 +91,18 @@ scale-down
 内容的尺寸与 `none` 或 `contain` 中的一个相同，取决于它们两个之间谁得到的对象尺寸会更小一些。
 
 
+
+
+
+#### flex
+
+`flex` [CSS简写属性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Shorthand_properties)设置了弹性项目如何增大或缩小以适应其弹性容器中可用的空间。
+
+此属性是以下CSS属性的简写：
+
+- [`flex-grow`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-grow)  CSS 属性 **`flex-grow`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 设置 flex 项[主尺寸](https://www.w3.org/TR/css-flexbox/#main-size) 的 flex 增长系数。
+- [`flex-shrink`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-shrink)[CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS) **`flex-shrink`** 属性指定了 flex 元素的收缩规则。flex 元素仅在默认宽度之和大于容器的时候才会发生收缩，其收缩的大小是依据 flex-shrink 的值。
+- [`flex-basis` ](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex-basis)[CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS) 属性 **`flex-basis`** 指定了 flex 元素在主轴方向上的初始大小。如果不使用  [`box-sizing`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing) 改变盒模型的话，那么这个属性就决定了 flex 元素的内容盒（content-box）的尺寸。
 
 #### **mix-blend-mode** 
 
@@ -172,7 +177,7 @@ none
 
 指定观察者距离 z=0 平面的距离，为元素及其内容应用透视变换。当值为0或负值时，无透视变换。
 
-#### transform/transform-origin
+#### transform
 
 transform、scale XYZ的示意图
 
@@ -184,7 +189,15 @@ rotate的示意图
 
 
 
+#### 滚动条相关
 
+- ::-webkit-scrollbar 滚动条整体部分
+- ::-webkit-scrollbar-thumb 滚动条里面的小方块，能向上向下移动（或往左往右移动，取决于是垂直滚动条还是水平滚动条）
+- ::-webkit-scrollbar-track 滚动条的轨道（里面装有Thumb）
+- ::-webkit-scrollbar-button 滚动条的轨道的两端按钮，允许通过点击微调小方块的位置。
+- ::-webkit-scrollbar-track-piece 内层轨道，滚动条中间部分（除去）
+- ::-webkit-scrollbar-corner 边角，即两个滚动条的交汇处
+- ::-webkit-resizer 两个滚动条的交汇处上用于通过拖动调整元素大小的小控件
 
 
 
@@ -258,7 +271,20 @@ rotate的示意图
 
 
 
-## 帧动画
+## SCSS语法
+
+### mixin
+
+相当于自定义了一段代码复用的片段，可以提高代码的重复使用率
+
+```css
+
+
+```
+
+
+
+
 
 
 
