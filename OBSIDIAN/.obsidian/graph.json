@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:书籍/计算机系统要素",
+  "search": "path:教程/Obsidian/插件",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0000000000000007,
-  "close": true
+  "scale": 1.000000000000001,
+  "close": false
 }

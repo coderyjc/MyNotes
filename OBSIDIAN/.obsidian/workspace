@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "14e1509c342d7643",
+        "id": "e58ddd168542ff47",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "教程/Obsidian/插件/Plugin/Templater/2.内置函数.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#A",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330
+    "width": 287
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "教程/Obsidian/插件/Plugin/Templater/2.内置函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,26 +87,35 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "2633f89701f598af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "教程/Obsidian/插件/Plugin/Templater/2.内置函数.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "14e1509c342d7643",
+  "active": "e58ddd168542ff47",
   "lastOpenFiles": [
-    "资源/插件类/VsCode插件整理.md",
-    "Windows/注册表相关.md",
-    "书籍/计算机系统要素/lab.md",
-    "书籍/计算机系统要素/布尔逻辑.md",
-    "书籍/计算机系统要素/index.md",
-    "assets/Pasted image 20211224160318.png",
-    "书籍/LinuxC/LinuxC-批注.md",
-    "assets/LinuxC.pdf",
-    "算法/模板.md",
-    "日报/week01.md"
+    "教程/Obsidian/插件/Plugin/Templater/2.内置函数.md",
+    "教程/Obsidian/插件/Plugin/Templater/1.概述.md",
+    "教程/Obsidian/插件/Plugin/Template 文档模板.md",
+    "教程/Obsidian/插件/Plugin/Dataview 数据视图.md",
+    "教程/Obsidian/插件/Plugin/Templater/4.命令行.md",
+    "教程/Obsidian/插件/Plugin/Templater/3.用户函数.md",
+    "[]Untitled.md",
+    "assets/templates/VsCode Plugins.md",
+    "MyFilename.md",
+    "MyFilename 1.md"
   ]
 }

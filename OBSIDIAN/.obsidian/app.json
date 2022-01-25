@@ -1,8 +1,9 @@
 {
   "legacyEditor": false,
   "livePreview": true,
-  "fileSortOrder": "byModifiedTime",
+  "fileSortOrder": "alphabetical",
   "attachmentFolderPath": "assets",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false
 }
