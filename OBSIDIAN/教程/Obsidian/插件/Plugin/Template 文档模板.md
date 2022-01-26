@@ -1,3 +1,8 @@
+---
+create_date: 2022-01-26
+---
+
+
 # Template 使用
 
 Template的安装已经有很多人介绍了，这里只介绍模板语法，安装与配置请自行搜索。
@@ -12,4 +17,8 @@ Template的安装已经有很多人介绍了，这里只介绍模板语法，安
 > 
 > 如有不同之处，请以官方文档为主。
 
-
+```dataview
+table chapter 
+where contains(name, "templater")
+sort file.name
+```
