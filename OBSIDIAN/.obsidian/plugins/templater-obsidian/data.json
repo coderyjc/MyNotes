@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "assets/templates",
+  "templates_folder": "Templates",
   "templates_pairs": [
     [
       "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "教程/vscode/插件",
-      "template": "assets/templates/VsCode Plugins.md"
+      "template": "Templates/VsCode Plugins.md"
     }
   ],
   "syntax_highlighting": true,
@@ -24,6 +24,6 @@
     ""
   ],
   "startup_templates": [
-    "assets/templates/common.md"
+    "Templates/common.md"
   ]
 }

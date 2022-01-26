@@ -17,8 +17,9 @@ Template的安装已经有很多人介绍了，这里只介绍模板语法，安
 > 
 > 如有不同之处，请以官方文档为主。
 
+
 ```dataview
-table chapter 
-where contains(name, "templater")
+table file.mtime as 修改时间
+from "教程/Obsidian/插件/Plugin/Templater"
 sort file.name
 ```

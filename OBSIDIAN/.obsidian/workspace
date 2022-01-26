@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fff7deb0e596cb82",
+        "id": "2d5b6c461f75dcae",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -99,17 +99,17 @@
     "width": 197,
     "collapsed": true
   },
-  "active": "fff7deb0e596cb82",
+  "active": "2d5b6c461f75dcae",
   "lastOpenFiles": [
-    "书籍/计算机系统要素/assets/Pasted image 20220108204042.png",
-    "算法/assets/Pasted image 20211224160318.png",
-    "教程/vscode/插件/Plugin/assets/Pasted image 20220125170258.png",
-    "教程/Obsidian/插件/Plugin/Dataview/3.数据查询.md",
-    "教程/Obsidian/插件/Plugin/Dataview/4.0.查询语言.md",
+    "教程/Obsidian/插件/Plugin/Dataview/0.遇到的问题.md",
+    "Templates/common.md",
+    "教程/Obsidian/插件/Plugin/Dataview/1.概述.md",
     "教程/Obsidian/插件/Plugin/Dataview/5.0.JavascriptAPI.md",
-    "教程/Obsidian/插件/Plugin/Dataview/4.3.函数.md",
-    "教程/Obsidian/插件/Plugin/Dataview/4.2.字面值.md",
-    "教程/Obsidian/插件/Plugin/Dataview/4.1.查询.md",
-    "教程/Obsidian/插件/Plugin/Dataview/assets/Pasted image 20220126111235.png"
+    "教程/Obsidian/插件/Plugin/Dataview/4.0.查询语言.md",
+    "教程/Obsidian/插件/Plugin/Dataview/2.数据标注.md",
+    "教程/Obsidian/插件/Plugin/Dataview 数据视图.md",
+    "index.md",
+    "教程/vscode/插件/index.md",
+    "教程/Obsidian/插件/Plugin/Template 文档模板.md"
   ]
 }

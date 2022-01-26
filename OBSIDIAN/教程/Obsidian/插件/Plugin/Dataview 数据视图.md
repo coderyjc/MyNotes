@@ -6,6 +6,9 @@ create_date: 2022-01-26
 
 官方文档（英文） https://blacksmithgu.github.io/obsidian-dataview/
 
+
 ```dataview
-list file.path from "Dataview"
+table file.mtime as 修改时间
+from "教程/Obsidian/插件/Plugin/Dataview"
+sort file.name
 ```
