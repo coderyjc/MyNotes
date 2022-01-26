@@ -1,7 +1,7 @@
 # 总览
 ```dataview
-table type as 类型, create_date as 创建时间, file.mtime as 修改时间 
+table type as 类型, recommendation as 个人评分, ootb=1 as 开箱即用
 from "教程/vscode/插件/Plugin"
-sort file.name
+sort recommendation desc
 ```
 

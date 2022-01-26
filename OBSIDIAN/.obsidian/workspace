@@ -7,8 +7,12 @@
         "id": "2d5b6c461f75dcae",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246
+    "width": 360
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,11 +93,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,15 +107,15 @@
   },
   "active": "2d5b6c461f75dcae",
   "lastOpenFiles": [
-    "教程/Obsidian/插件/Plugin/Dataview/0.遇到的问题.md",
-    "Templates/common.md",
-    "教程/Obsidian/插件/Plugin/Dataview/1.概述.md",
-    "教程/Obsidian/插件/Plugin/Dataview/5.0.JavascriptAPI.md",
-    "教程/Obsidian/插件/Plugin/Dataview/4.0.查询语言.md",
-    "教程/Obsidian/插件/Plugin/Dataview/2.数据标注.md",
-    "教程/Obsidian/插件/Plugin/Dataview 数据视图.md",
     "index.md",
     "教程/vscode/插件/index.md",
-    "教程/Obsidian/插件/Plugin/Template 文档模板.md"
+    "教程/vscode/插件/Plugin/Dyno File Utils 文件助手.md",
+    "教程/vscode/插件/Plugin/CSS Peek css 查看.md",
+    "教程/vscode/插件/Plugin/DevPro - High Contrast 高对比度主题.md",
+    "教程/vscode/插件/Plugin/Browse Lite 内置浏览器.md",
+    "教程/vscode/插件/Plugin/Auto Import 自动导包.md",
+    "教程/vscode/插件/Plugin/Auto Rename Tag 自动重命名标签.md",
+    "算法/assets/Pasted image 20211224160318.png",
+    "教程/vscode/插件/Plugin/assets/Pasted image 20220126201151.png"
   ]
 }

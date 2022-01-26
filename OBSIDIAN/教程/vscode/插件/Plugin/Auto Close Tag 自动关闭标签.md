@@ -1,15 +1,17 @@
 ---
 type: 代码格式化
 name: "Auto Close Tag 自动关闭标签"
+ootb: 1
+recommendation: 7
 create_date: 2022-01-25
 ---
 
+![[Pasted image 20220125170258.png]]
 
 # Auto Close Tag 自动关闭标签
 
 https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
 
-![[Pasted image 20220125170258.png]]
 
 ## 特点
 -   键入开始标签的右括号时自动添加结束标签
