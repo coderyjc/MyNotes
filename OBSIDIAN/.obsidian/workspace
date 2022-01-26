@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e58ddd168542ff47",
+        "id": "fff7deb0e596cb82",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "教程/Obsidian/插件/Plugin/Templater/2.内置函数.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -53,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287
+    "width": 246
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "教程/Obsidian/插件/Plugin/Templater/2.内置函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "教程/Obsidian/插件/Plugin/Templater/2.内置函数.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -103,19 +96,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 197,
+    "collapsed": true
   },
-  "active": "e58ddd168542ff47",
+  "active": "fff7deb0e596cb82",
   "lastOpenFiles": [
-    "教程/Obsidian/插件/Plugin/Templater/2.内置函数.md",
-    "教程/Obsidian/插件/Plugin/Templater/1.概述.md",
-    "教程/Obsidian/插件/Plugin/Template 文档模板.md",
-    "教程/Obsidian/插件/Plugin/Dataview 数据视图.md",
-    "教程/Obsidian/插件/Plugin/Templater/4.命令行.md",
-    "教程/Obsidian/插件/Plugin/Templater/3.用户函数.md",
-    "[]Untitled.md",
-    "assets/templates/VsCode Plugins.md",
-    "MyFilename.md",
-    "MyFilename 1.md"
+    "书籍/计算机系统要素/assets/Pasted image 20220108204042.png",
+    "算法/assets/Pasted image 20211224160318.png",
+    "教程/vscode/插件/Plugin/assets/Pasted image 20220125170258.png",
+    "教程/Obsidian/插件/Plugin/Dataview/3.数据查询.md",
+    "教程/Obsidian/插件/Plugin/Dataview/4.0.查询语言.md",
+    "教程/Obsidian/插件/Plugin/Dataview/5.0.JavascriptAPI.md",
+    "教程/Obsidian/插件/Plugin/Dataview/4.3.函数.md",
+    "教程/Obsidian/插件/Plugin/Dataview/4.2.字面值.md",
+    "教程/Obsidian/插件/Plugin/Dataview/4.1.查询.md",
+    "教程/Obsidian/插件/Plugin/Dataview/assets/Pasted image 20220126111235.png"
   ]
 }

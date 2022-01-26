@@ -2,8 +2,9 @@
   "legacyEditor": false,
   "livePreview": true,
   "fileSortOrder": "alphabetical",
-  "attachmentFolderPath": "assets",
+  "attachmentFolderPath": "算法/assets",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "readableLineLength": false
 }

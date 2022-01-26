@@ -23,5 +23,7 @@
   "enabled_templates_hotkeys": [
     ""
   ],
-  "startup_templates": []
+  "startup_templates": [
+    "assets/templates/common.md"
+  ]
 }
