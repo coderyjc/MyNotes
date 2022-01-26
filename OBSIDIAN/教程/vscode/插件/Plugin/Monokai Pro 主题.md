@@ -6,12 +6,15 @@ recommendation: 9
 create_date: 2022-01-26
 ---
 
+![[Pasted image 20220126215408.png]]
 
 # Monokai Pro 主题
 
+https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode
+
 ## 特点
 
-
+非常棒的一个主题
 
 ## 激活
 

@@ -1,5 +1,5 @@
 ---
-type: 编辑辅助
+type: 文档
 name: CSS Peek css 查看
 ootb: 1
 recommendation: 8

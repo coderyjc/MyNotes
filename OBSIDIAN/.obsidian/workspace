@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
-            "mode": "preview",
+            "file": "教程/vscode/插件/index.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "教程/vscode/插件/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,28 +94,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "教程/vscode/插件/index.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 197,
-    "collapsed": true
+    "width": 197
   },
   "active": "2d5b6c461f75dcae",
   "lastOpenFiles": [
-    "index.md",
     "教程/vscode/插件/index.md",
-    "教程/vscode/插件/Plugin/Dyno File Utils 文件助手.md",
+    "index.md",
+    "教程/vscode/插件/Plugin/Path Autocomplete 路径填充.md",
+    "教程/vscode/插件/Plugin/Palenight Theme 主题.md",
+    "教程/vscode/插件/Plugin/Paste JSON as Code JSON粘贴.md",
+    "教程/vscode/插件/Plugin/npm intellisense npm 智能填充.md",
+    "教程/vscode/插件/Plugin/DotENV 语法高亮方案.md",
     "教程/vscode/插件/Plugin/CSS Peek css 查看.md",
-    "教程/vscode/插件/Plugin/DevPro - High Contrast 高对比度主题.md",
-    "教程/vscode/插件/Plugin/Browse Lite 内置浏览器.md",
-    "教程/vscode/插件/Plugin/Auto Import 自动导包.md",
-    "教程/vscode/插件/Plugin/Auto Rename Tag 自动重命名标签.md",
-    "算法/assets/Pasted image 20211224160318.png",
-    "教程/vscode/插件/Plugin/assets/Pasted image 20220126201151.png"
+    "教程/vscode/插件/Plugin/JavaScript Snippet Pack 代码片段.md",
+    "教程/Obsidian/插件/Plugin/Dataview/2.数据标注.md"
   ]
 }

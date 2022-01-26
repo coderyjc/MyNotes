@@ -1,5 +1,5 @@
 ---
-type: 语法高亮
+type: 代码可视化
 name: DotENV 语法高亮方案
 ootb: 1
 recommendation: 7
