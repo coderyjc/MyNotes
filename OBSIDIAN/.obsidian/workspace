@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "89fdbef17affcd13",
+        "id": "ac40f4863c3cd57d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "教程/vscode/常用快捷键.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "教程/vscode/常用快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "教程/vscode/常用快捷键.md"
+              }
             }
           }
         ],
@@ -98,17 +105,17 @@
     "direction": "horizontal",
     "width": 197
   },
-  "active": "89fdbef17affcd13",
+  "active": "ac40f4863c3cd57d",
   "lastOpenFiles": [
-    "教程/vscode/插件/Plugin/Template String Converter 模板字符串转换.md",
+    "教程/vscode/常用快捷键.md",
+    "教程/vscode/插件/Plugin/【未整理】Prettier - Code formatter 代码格式化.md",
     "教程/vscode/插件/index.md",
-    "index.md",
-    "教程/vscode/插件/Plugin/Browse Lite 内置浏览器.md",
-    "教程/vscode/插件/Plugin/Synthwave x Fluoromachine & epic animations 动态背景.md",
-    "教程/vscode/插件/Plugin/SynthWave '84 霓虹主题.md",
-    "教程/vscode/插件/Plugin/SCSS Formatter 格式化.md",
-    "教程/vscode/插件/Plugin/Sass 语言扩展.md",
-    "教程/vscode/插件/Plugin/DotENV 语法高亮方案.md",
-    "教程/vscode/插件/Plugin/【未整理】Code Runner 全语言代码运行.md"
+    "教程/vscode/插件/Plugin/Project Manager 项目管理.md",
+    "教程/vscode/插件/Plugin/Settings Sync 设置同步.md",
+    "教程/vscode/插件/Plugin/Visual Studio IntelliCode 代码智能提示.md",
+    "教程/vscode/插件/Plugin/Zoom Bar 缩放栏.md",
+    "教程/vscode/插件/Plugin/Waka Time 时间管理.md",
+    "教程/vscode/插件/Plugin/vscode-intellij-recent-files 最近文件.md",
+    "教程/vscode/插件/Plugin/Vue Language Features Vue特性支持.md"
   ]
 }

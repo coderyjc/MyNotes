@@ -30,11 +30,11 @@ where contains(type, "语言")
 sort recommendation desc
 ```
 
-## 代码编辑
+## 代码提示
 ```dataview
 table type as 类型, recommendation as 个人评分, ootb=1 as 开箱即用
 from "教程/vscode/插件/Plugin"
-where contains(type, "可视化")
+where contains(type, "可视化") or contains(type, "提示")
 sort recommendation desc
 ```
 
