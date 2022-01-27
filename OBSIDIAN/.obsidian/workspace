@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2d5b6c461f75dcae",
+        "id": "89fdbef17affcd13",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "教程/vscode/插件/index.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "教程/vscode/插件/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "教程/vscode/插件/index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -105,17 +98,17 @@
     "direction": "horizontal",
     "width": 197
   },
-  "active": "2d5b6c461f75dcae",
+  "active": "89fdbef17affcd13",
   "lastOpenFiles": [
+    "教程/vscode/插件/Plugin/Template String Converter 模板字符串转换.md",
     "教程/vscode/插件/index.md",
     "index.md",
-    "教程/vscode/插件/Plugin/Path Autocomplete 路径填充.md",
-    "教程/vscode/插件/Plugin/Palenight Theme 主题.md",
-    "教程/vscode/插件/Plugin/Paste JSON as Code JSON粘贴.md",
-    "教程/vscode/插件/Plugin/npm intellisense npm 智能填充.md",
+    "教程/vscode/插件/Plugin/Browse Lite 内置浏览器.md",
+    "教程/vscode/插件/Plugin/Synthwave x Fluoromachine & epic animations 动态背景.md",
+    "教程/vscode/插件/Plugin/SynthWave '84 霓虹主题.md",
+    "教程/vscode/插件/Plugin/SCSS Formatter 格式化.md",
+    "教程/vscode/插件/Plugin/Sass 语言扩展.md",
     "教程/vscode/插件/Plugin/DotENV 语法高亮方案.md",
-    "教程/vscode/插件/Plugin/CSS Peek css 查看.md",
-    "教程/vscode/插件/Plugin/JavaScript Snippet Pack 代码片段.md",
-    "教程/Obsidian/插件/Plugin/Dataview/2.数据标注.md"
+    "教程/vscode/插件/Plugin/【未整理】Code Runner 全语言代码运行.md"
   ]
 }

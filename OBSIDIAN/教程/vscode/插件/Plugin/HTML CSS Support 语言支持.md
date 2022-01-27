@@ -1,5 +1,5 @@
 ---
-type: 功能扩展
+type: 语言支持
 name: HTML CSS Support 语言支持
 ootb: 1
 recommendation: 6

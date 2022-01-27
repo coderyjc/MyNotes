@@ -1,5 +1,5 @@
 ---
-type: 附加功能
+type: 功能扩展
 name: Browse Lite 内置浏览器
 ootb: 0
 recommendation: 5

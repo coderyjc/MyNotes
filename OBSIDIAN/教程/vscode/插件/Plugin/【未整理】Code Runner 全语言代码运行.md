@@ -1,5 +1,5 @@
 ---
-type: 编译环境
+type: 语言环境
 name: Code Runner 全语言代码运行
 ootb: 0
 recommendation: 6
