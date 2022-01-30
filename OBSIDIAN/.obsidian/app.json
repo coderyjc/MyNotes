@@ -2,9 +2,15 @@
   "legacyEditor": false,
   "livePreview": true,
   "fileSortOrder": "alphabetical",
-  "attachmentFolderPath": "教程/vscode/插件/Plugin/assets",
+  "attachmentFolderPath": "工程/前端/01.响应式企业网站搭建/assets",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
-  "readableLineLength": false
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

@@ -1,8 +1,8 @@
 ---
-type: 
+type: 代码提示
 name: ESLint 代码格式化
 ootb: 0
-recommendation: 7
+recommendation: 8
 create_date: 2022-01-26
 ---
 

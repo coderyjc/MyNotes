@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ac40f4863c3cd57d",
+        "id": "e4ac058f502188fe",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "教程/vscode/常用快捷键.md",
+            "file": "工程/前端/01.响应式企业网站搭建/响应式企业网站的搭建.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 280
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "教程/vscode/常用快捷键.md",
+                "file": "工程/前端/01.响应式企业网站搭建/响应式企业网站的搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "教程/vscode/常用快捷键.md"
+                "file": "工程/前端/01.响应式企业网站搭建/响应式企业网站的搭建.md"
               }
             }
           }
@@ -103,19 +103,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 197
+    "width": 290
   },
-  "active": "ac40f4863c3cd57d",
+  "active": "e4ac058f502188fe",
   "lastOpenFiles": [
-    "教程/vscode/常用快捷键.md",
-    "教程/vscode/插件/Plugin/【未整理】Prettier - Code formatter 代码格式化.md",
+    "工程/前端/01.响应式企业网站搭建/响应式企业网站的搭建.md",
+    "教程/前端组件库/anime.js/anime.js.md",
+    "教程/前端组件库/glide.js/glide.js.md",
+    "教程/前端组件库/scrollReveal.js/ScrollReveal.js.md",
+    "ScrollReveal.js.md",
+    "工程/前端/01.响应式企业网站搭建/assets/Pasted image 20220130144347.png",
+    "home.md",
     "教程/vscode/插件/index.md",
-    "教程/vscode/插件/Plugin/Project Manager 项目管理.md",
-    "教程/vscode/插件/Plugin/Settings Sync 设置同步.md",
-    "教程/vscode/插件/Plugin/Visual Studio IntelliCode 代码智能提示.md",
-    "教程/vscode/插件/Plugin/Zoom Bar 缩放栏.md",
-    "教程/vscode/插件/Plugin/Waka Time 时间管理.md",
-    "教程/vscode/插件/Plugin/vscode-intellij-recent-files 最近文件.md",
-    "教程/vscode/插件/Plugin/Vue Language Features Vue特性支持.md"
+    "教程/vscode/插件/Plugin/JavaScript Snippet Pack 代码片段.md",
+    "视觉差.md"
   ]
 }
