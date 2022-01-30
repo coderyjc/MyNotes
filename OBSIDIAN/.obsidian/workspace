@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e4ac058f502188fe",
+        "id": "aff8897056e7c055",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程/前端/01.响应式企业网站搭建/响应式企业网站的搭建.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程/前端/01.响应式企业网站搭建/响应式企业网站的搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "工程/前端/01.响应式企业网站搭建/响应式企业网站的搭建.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -105,17 +98,17 @@
     "direction": "horizontal",
     "width": 290
   },
-  "active": "e4ac058f502188fe",
+  "active": "aff8897056e7c055",
   "lastOpenFiles": [
-    "工程/前端/01.响应式企业网站搭建/响应式企业网站的搭建.md",
-    "教程/前端组件库/anime.js/anime.js.md",
-    "教程/前端组件库/glide.js/glide.js.md",
-    "教程/前端组件库/scrollReveal.js/ScrollReveal.js.md",
-    "ScrollReveal.js.md",
-    "工程/前端/01.响应式企业网站搭建/assets/Pasted image 20220130144347.png",
-    "home.md",
-    "教程/vscode/插件/index.md",
-    "教程/vscode/插件/Plugin/JavaScript Snippet Pack 代码片段.md",
-    "视觉差.md"
+    "工程/正则表达式/正则表达式.md",
+    "工程/项目构建工具/NPM/NPM.md",
+    "工程/项目构建工具/Maven/Maven-Bug.md",
+    "工程/数据库/Redis/Redis-Bug.md",
+    "工程/数据库/MySQL/MySQL-Bug.md",
+    "工程/数据科学/Python/Python.md",
+    "工程/数据科学/Annaconda/Annaconda.md",
+    "工程/前端框架/Vue.js/Vuex.md",
+    "工程/前端框架/Vue.js/Vue.js-Bug.md",
+    "工程/前端框架/Vue.js/Vue-Cli-Bug.md"
   ]
 }
