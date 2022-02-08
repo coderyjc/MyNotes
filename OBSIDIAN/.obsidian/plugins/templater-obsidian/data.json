@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "00.模板",
   "templates_pairs": [
     [
       "",
@@ -13,20 +13,7 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "教程/vscode/插件",
-      "template": "Templates/VsCode_Plugins.md"
-    },
-    {
-      "folder": "工程/前端项目总结",
-      "template": "Templates/Project_Demo.md"
-    },
-    {
-      "folder": "教程/前端组件库",
-      "template": "Templates/frontend_component_guide.md"
-    }
-  ],
+  "folder_templates": [],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [
     ""
