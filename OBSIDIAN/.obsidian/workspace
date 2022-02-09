@@ -4,11 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "89d9b84cac149346",
+        "id": "f0352449ee023ba1",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "pdf-annotator",
+          "state": {
+            "file": "01.基础/服务器/Tomcat/Tomcat原理-批注.md"
+          }
         }
       }
     ],
@@ -65,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01.基础/服务器/Tomcat/Tomcat原理-批注.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01.基础/服务器/Tomcat/Tomcat原理-批注.md"
+              }
             }
           }
         ],
@@ -90,17 +95,17 @@
     "direction": "horizontal",
     "width": 290
   },
-  "active": "89d9b84cac149346",
+  "active": "f0352449ee023ba1",
   "lastOpenFiles": [
+    "01.基础/服务器/Tomcat/Tomcat原理-批注.md",
+    "01.基础/服务器/Tomcat/Tomcat.md",
+    "03.工程/操作系统/Linux/Linux.md",
+    "Assets/Tomcat原理.pdf",
     "07.副业/平面设计理论/平面设计理论基础.md",
     "07.副业/AE/AE入门.md",
     "07.副业/DesignTips/DesignTips.md",
     "07.副业/PR/PR入门.md",
     "07.副业/PS/基础/基础.md",
-    "07.副业/PS/提高/提高.md",
-    "基础.imgs/clip_image003.png.md",
-    "07.副业/PS/基础.md",
-    "01.基础/Python/yolov5/Untitled.imgs/image-20210810100204810.png",
-    "01.基础/Python/yolov5/yolov5缺陷检测.md"
+    "07.副业/PS/提高/提高.md"
   ]
 }
