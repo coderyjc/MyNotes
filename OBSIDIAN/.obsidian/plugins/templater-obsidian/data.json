@@ -13,7 +13,12 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "04.文档/vscode/插件/Plugin",
+      "template": "00.模板/VsCode_Plugins.md"
+    }
+  ],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [
     ""

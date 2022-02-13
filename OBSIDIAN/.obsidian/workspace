@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "f0352449ee023ba1",
+        "id": "7ecbb006519f14f3",
         "type": "leaf",
         "state": {
-          "type": "pdf-annotator",
+          "type": "markdown",
           "state": {
-            "file": "01.基础/服务器/Tomcat/Tomcat原理-批注.md"
+            "file": "03.工程/小技巧/IDEA/IDEA快捷键.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#A",
+                "query": "idea快捷",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01.基础/服务器/Tomcat/Tomcat原理-批注.md",
+                "file": "03.工程/小技巧/IDEA/IDEA快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.基础/服务器/Tomcat/Tomcat原理-批注.md"
+                "file": "03.工程/小技巧/IDEA/IDEA快捷键.md"
               }
             }
           }
@@ -95,17 +97,17 @@
     "direction": "horizontal",
     "width": 290
   },
-  "active": "f0352449ee023ba1",
+  "active": "7ecbb006519f14f3",
   "lastOpenFiles": [
-    "01.基础/服务器/Tomcat/Tomcat原理-批注.md",
-    "01.基础/服务器/Tomcat/Tomcat.md",
-    "03.工程/操作系统/Linux/Linux.md",
-    "Assets/Tomcat原理.pdf",
-    "07.副业/平面设计理论/平面设计理论基础.md",
-    "07.副业/AE/AE入门.md",
+    "03.工程/小技巧/IDEA/IDEA快捷键.md",
     "07.副业/DesignTips/DesignTips.md",
-    "07.副业/PR/PR入门.md",
-    "07.副业/PS/基础/基础.md",
-    "07.副业/PS/提高/提高.md"
+    "07.副业/AE/AE入门.md",
+    "07.副业/平面设计理论/平面设计理论基础.md",
+    "04.文档/vscode/插件/Plugin/Better Comments 区别注释.md",
+    "03.工程/操作系统/Linux/assets/Pasted image 20220213170005.png",
+    "home.md",
+    "04.文档/vscode/插件/index.md",
+    "04.文档/vscode/插件/Plugin/Pylance自动格式化python代码.md",
+    "04.文档/vscode/插件/Plugin/Auto Import 自动导包.md"
   ]
 }
