@@ -114,7 +114,7 @@ css样式：
   - 有line.jpg 背景图片
   - padding为  上为 0  左右 15px  下为 40px
   - 下外边距是 15px
-  - 利用panel  盒子 before 和after 制作上面两个角   大小为 10px  线条为  2px solid #02a6b5
+  - 利用panel  盒子 before 和after 制作上面两个角   大小为 10px  线条为  `2px solid #02a6b5`
   - 新加一个盒子before 和after   制作下侧两个角  宽度高度为 10px
 
 ~~~css
@@ -209,8 +209,8 @@ css样式：
 2. 注意中间列 column 有个 左右 10px 下 15px 的外边距
 3. no 模块里面上下划分  上面是数字（no-hd)   下面 是 相关文字说明(no-bd)
 4. no-hd 数字模块   有一个边框 1px solid rgba(25, 186, 139, 0.17)    
-5. no-hd 数字模块 里面分为两个小li  每个小li高度为 80px   文字大小为   70px   颜色为 #ffeb7b   字体是图标字体  electronicFont
-6. no-hd 利用 after 和 before制作2个小角，  边框  2px solid #02a6b5  宽度为 30px  高度为 10px
+5. no-hd 数字模块 里面分为两个小li  每个小li高度为 80px   文字大小为   70px   颜色为` #ffeb7b `  字体是图标字体  electronicFont
+6. no-hd 利用 after 和 before制作2个小角，  边框  `2px solid #02a6b5 ` 宽度为 30px  高度为 10px
 7. 小竖线 给 第一个小li after 就可以  1px宽 背景颜色为 rgba(255, 255, 255, 0.2);     高度 50%  top 25% 即可
 8. no-bd 里面也有两个小li  高度为 40px   文字颜色为  rgba(255, 255, 255, 0.7)   文字大小为 18px   上内边距为  10px
 
@@ -613,7 +613,7 @@ option = {
 
 2. 根据需求定制
 
-   - 修改图表柱形颜色  #2f89cf
+   - 修改图表柱形颜色  `#2f89cf`
 
 
    - 修改图表大小  top 为 10px   bottom 为  4%    grid决定我们的柱状图的大小
@@ -1012,7 +1012,7 @@ data:[702, 350, 610, 793, 664],
     },
 ```
 
-需求2： 修改图例组件中的文字颜色 #4c9bfd， 距离右侧 right 为 10%
+需求2： 修改图例组件中的文字颜色 `#4c9bfd`， 距离右侧 right 为 10%
 
 ```javascript
  // 图例组件
@@ -1073,7 +1073,8 @@ data:[702, 350, 610, 793, 664],
 
 需求5： 两条线形图定制
 
-- 颜色分别：#00f2f1  #ed3f35
+- 颜色分别：#00f2f1  `#ed3f35`
+
 - 把折线修饰为圆滑 series 数据中添加 smooth 为 true
 
 ```js
@@ -1091,6 +1092,7 @@ data:[702, 350, 610, 793, 664],
       smooth: true,
     }]
 ```
+
 
 需求6： 配置数据
 

@@ -5312,7 +5312,7 @@ java规范中有要求：
 - 这种以.properties结尾的文件在java中被称为：属性配置文件。
 - 其中Properties是专门存放属性配置文件内容的一个类。
 - 最好不要有空格
-- 在属性配置文件中， #为注释，重复的值会覆盖
+- 在属性配置文件中， # 为注释，重复的值会覆盖
 
 ```java
 public class IoPropertiesTest01 {

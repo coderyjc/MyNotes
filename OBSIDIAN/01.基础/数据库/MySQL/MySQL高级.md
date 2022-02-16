@@ -245,8 +245,8 @@ select * from xxx ;
 
 ![engin](展示引擎.bmp)
 
-  #看你的mysql当前默认的存储引擎:
-  mysql> show variables like '%storage_engine%';
+`  #看你的mysql当前默认的存储引擎:`
+`  mysql> show variables like '%storage_engine%';`
 
 ![dengin](默认引擎.bmp)
 

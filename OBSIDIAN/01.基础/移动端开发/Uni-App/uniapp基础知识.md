@@ -102,10 +102,10 @@ HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
 
 | 属性                           | 类型       | 默认值     | 描述                                       |
 | ---------------------------- | -------- | ------- | ---------------------------------------- |
-| navigationBarBackgroundColor | HexColor | #F7F7F7 | 导航栏背景颜色（同状态栏背景色）                         |
+| navigationBarBackgroundColor | HexColor | `#F7F7F7` | 导航栏背景颜色（同状态栏背景色）                         |
 | navigationBarTextStyle       | String   | white   | 导航栏标题颜色及状态栏前景颜色，仅支持 black/white          |
 | navigationBarTitleText       | String   |         | 导航栏标题文字内容                                |
-| backgroundColor              | HexColor | #ffffff | 窗口的背景色                                   |
+| backgroundColor              | HexColor | `#ffffff` | 窗口的背景色                                   |
 | backgroundTextStyle          | String   | dark    | 下拉 loading 的样式，仅支持 dark / light          |
 | enablePullDownRefresh        | Boolean  | false   | 是否开启下拉刷新，详见[页面生命周期](https://uniapp.dcloud.io/use?id=%e9%a1%b5%e9%9d%a2%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f)。 |
 | onReachBottomDistance        | Number   | 50      | 页面上拉触底事件触发时距页面底部距离，单位只支持px，详见[页面生命周期](https://uniapp.dcloud.io/use?id=%e9%a1%b5%e9%9d%a2%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f) |
@@ -988,7 +988,7 @@ previewImg (current) {
 
 条件编译是用特殊的注释作为标记，在编译时根据这些特殊的注释，将注释里面的代码编译到不同平台。
 
-**写法：**以 #ifdef 加平台标识 开头，以 #endif 结尾。
+**写法：**以 `#ifdef `加平台标识 开头，以 `#endif `结尾。
 
 平台标识
 
