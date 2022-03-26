@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7ecbb006519f14f3",
+        "id": "e9d7af4b8da6ec36",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "08.博客/CNBlog/2022-2-16.md",
+            "file": "home.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "正则表达式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08.博客/CNBlog/2022-2-16.md",
+                "file": "home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08.博客/CNBlog/2022-2-16.md"
+                "file": "home.md"
               }
             }
           }
@@ -97,17 +97,17 @@
     "direction": "horizontal",
     "width": 290
   },
-  "active": "7ecbb006519f14f3",
+  "active": "e9d7af4b8da6ec36",
   "lastOpenFiles": [
-    "08.博客/CNBlog/2022-2-16.md",
-    "08.博客/CSDN/数据结构与算法/表.md",
-    "01.基础/数据库/MySQL/MySQL高级.md",
-    "01.基础/前端/JavaScript/JavaScript.md",
-    "01.基础/前端/HTML&CSS/HTML&CSS.md",
-    "01.基础/移动端开发/Uni-App/uniapp基础知识.md",
-    "01.基础/基础知识/设计模式/Design_Pattern.md",
-    "01.基础/前端/ECharts.js/ECharts.js.md",
-    "01.基础/后端/JavaSE_JDBC/Java(下).md",
+    "home.md",
+    "04.文档/Obsidian/插件/Plugin/Dataview/4.0.查询语言.md",
+    "01.基础/后端/Docker/Docker.md",
+    "01.基础/后端/readme.md",
+    "01.基础/移动端开发/Android/Android-Bugs.md",
+    "03.工程/正则表达式/正则表达式.md",
+    "03.工程/操作系统/Linux/Linux.md",
+    "01.基础/基础知识/OS/OS.md",
+    "01.基础/前端/Android/Android原生开发.md",
     "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md"
   ]
 }
