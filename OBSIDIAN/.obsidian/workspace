@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "home.md",
+            "file": "01.基础/计算机网络/Cisco-Network.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "home.md",
+                "file": "01.基础/计算机网络/Cisco-Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "home.md"
+                "file": "01.基础/计算机网络/Cisco-Network.md"
               }
             }
           }
@@ -95,19 +95,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290
+    "width": 290,
+    "collapsed": true
   },
   "active": "e9d7af4b8da6ec36",
   "lastOpenFiles": [
+    "01.基础/计算机网络/Cisco-Network.md",
+    "01.基础/计算机网络/Packet Tracer Startup.md",
+    "未命名.md",
+    "03.工程/数据科学/Python/Python-Bugs.md",
+    "03.工程/前端框架/Uni-App/Uni-App-Bug.md",
+    "03.工程/数据科学/Python/Python.md",
     "home.md",
     "04.文档/Obsidian/插件/Plugin/Dataview/4.0.查询语言.md",
     "01.基础/后端/Docker/Docker.md",
-    "01.基础/后端/readme.md",
-    "01.基础/移动端开发/Android/Android-Bugs.md",
-    "03.工程/正则表达式/正则表达式.md",
-    "03.工程/操作系统/Linux/Linux.md",
-    "01.基础/基础知识/OS/OS.md",
-    "01.基础/前端/Android/Android原生开发.md",
-    "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md"
+    "01.基础/后端/readme.md"
   ]
 }
