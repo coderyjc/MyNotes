@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e9d7af4b8da6ec36",
+        "id": "09753f6f1f9eefa5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01.基础/计算机网络/Cisco-Network.md",
+            "file": "04.文档/Linux/sh.man.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则表达式",
+                "query": "maven",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01.基础/计算机网络/Cisco-Network.md",
+                "file": "04.文档/Linux/sh.man.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.基础/计算机网络/Cisco-Network.md"
+                "file": "04.文档/Linux/sh.man.md"
               }
             }
           }
@@ -95,20 +95,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290,
-    "collapsed": true
+    "width": 290
   },
-  "active": "e9d7af4b8da6ec36",
+  "active": "09753f6f1f9eefa5",
   "lastOpenFiles": [
-    "01.基础/计算机网络/Cisco-Network.md",
-    "01.基础/计算机网络/Packet Tracer Startup.md",
-    "未命名.md",
-    "03.工程/数据科学/Python/Python-Bugs.md",
-    "03.工程/前端框架/Uni-App/Uni-App-Bug.md",
-    "03.工程/数据科学/Python/Python.md",
+    "04.文档/Linux/sh.man.md",
+    "03.工程/前端项目总结/02.圣诞节商品导航站/圣诞节商品导航站.md",
+    "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
+    "03.工程/后端框架/MyBatis/MyBatis-Bug.md",
+    "03.工程/后端框架/Spring-Boot/SpringBoot路径访问.md",
+    "03.工程/后端框架/Spring-Boot/链接类问题.md",
+    "03.工程/后端框架/Spring-Boot/SpringBoot-Bug.md",
     "home.md",
-    "04.文档/Obsidian/插件/Plugin/Dataview/4.0.查询语言.md",
-    "01.基础/后端/Docker/Docker.md",
-    "01.基础/后端/readme.md"
+    "06.碎片/PDF文件解析.md",
+    "06.碎片/Epub学习.md"
   ]
 }
