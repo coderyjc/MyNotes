@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "09753f6f1f9eefa5",
+        "id": "2bf6e9bbbd985782",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "04.文档/Linux/sh.man.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "maven",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04.文档/Linux/sh.man.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "04.文档/Linux/sh.man.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -97,17 +90,17 @@
     "direction": "horizontal",
     "width": 290
   },
-  "active": "09753f6f1f9eefa5",
+  "active": "2bf6e9bbbd985782",
   "lastOpenFiles": [
-    "04.文档/Linux/sh.man.md",
-    "03.工程/前端项目总结/02.圣诞节商品导航站/圣诞节商品导航站.md",
-    "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
-    "03.工程/后端框架/MyBatis/MyBatis-Bug.md",
-    "03.工程/后端框架/Spring-Boot/SpringBoot路径访问.md",
-    "03.工程/后端框架/Spring-Boot/链接类问题.md",
-    "03.工程/后端框架/Spring-Boot/SpringBoot-Bug.md",
-    "home.md",
-    "06.碎片/PDF文件解析.md",
-    "06.碎片/Epub学习.md"
+    "未命名.md",
+    "01.基础/前端/JavaScript/ES6-11.md",
+    "01.基础/前端/ECharts.js/ECharts.js.md",
+    "01.基础/后端/SpringBoot2/BugRecord.md",
+    "03.工程/前端框架/Vue.js/ElemetUI-Bug.md",
+    "03.工程/前端框架/Vue.js/Vue-Cli-Bug.md",
+    "03.工程/前端框架/Vue.js/Vuex.md",
+    "03.工程/前端框架/Vue.js/Vue.js-Bug.md",
+    "03.工程/服务器相关/Nginx/Nginx部署多个项目.md",
+    "home.md"
   ]
 }

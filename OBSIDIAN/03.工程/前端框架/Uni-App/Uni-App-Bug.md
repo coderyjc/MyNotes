@@ -7,6 +7,8 @@ create_date: 2022-01-31
 #Vue #UniApp #前端框架 
 
 # Uni-App 
+
+
 >post接口后端获取不到参数
 
 修改请求头Content-type
