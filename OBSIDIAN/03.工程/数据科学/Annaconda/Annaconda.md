@@ -81,6 +81,6 @@ Python没有装在C盘，系统没有分配虚拟内存
 `ImportError: cannot import name 'svm' from partially initialized module 'sklearn' (most likely due to a circular import) (R:\Code\Pycharm\AI\6.SVM-Regression\[sklearn.py](http://sklearn.py/))`
 
 
-原因：文件夹活着python文件名字和库的名字一样了。
+原因：文件夹或者python文件名字和库的名字一样了。
 
 解决方案：改个文件名

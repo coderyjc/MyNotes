@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2bf6e9bbbd985782",
+        "id": "9126a356e392e789",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -90,17 +90,17 @@
     "direction": "horizontal",
     "width": 290
   },
-  "active": "2bf6e9bbbd985782",
+  "active": "9126a356e392e789",
   "lastOpenFiles": [
-    "未命名.md",
+    "02.算法/格式化输入输出.md",
+    "home.md",
+    "01.基础/前端/JavaScript/JavaScript.md",
     "01.基础/前端/JavaScript/ES6-11.md",
+    "01.基础/前端/JavaScript/正则表达式.pdf",
+    "01.基础/前端/HTML&CSS/HTML&CSS.md",
     "01.基础/前端/ECharts.js/ECharts.js.md",
-    "01.基础/后端/SpringBoot2/BugRecord.md",
-    "03.工程/前端框架/Vue.js/ElemetUI-Bug.md",
-    "03.工程/前端框架/Vue.js/Vue-Cli-Bug.md",
-    "03.工程/前端框架/Vue.js/Vuex.md",
-    "03.工程/前端框架/Vue.js/Vue.js-Bug.md",
-    "03.工程/服务器相关/Nginx/Nginx部署多个项目.md",
-    "home.md"
+    "01.基础/前端/CSS3/CSS3.md",
+    "01.基础/数据库/MySQL/MySQL高级.md",
+    "01.基础/数据库/MySQL/MySQL基础.md"
   ]
 }

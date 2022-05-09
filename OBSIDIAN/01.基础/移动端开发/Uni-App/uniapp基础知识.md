@@ -23,11 +23,11 @@
 
 ##### uni-app介绍 [官方网页](https://uniapp.dcloud.io/resource)
 
-`uni-app` 是一个使用 [Vue.js](https://vuejs.org/) 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、H5、以及各种小程序（微信/支付宝/百度/头条/QQ/钉钉）等多个平台。
+`uni-app` 是一个使用 [Vue.js](https://vuejs.org/) 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、[[Android]]、H5、以及各种小程序（微信/支付宝/百度/头条/QQ/钉钉）等多个平台。
 
 即使不跨端，`uni-app`同时也是更好的小程序开发框架。
 
-具有vue和微信小程序的开发经验，可快速上手uni-app
+具有[[vue]]和[[微信小程序]]的开发经验，可快速上手uni-app
 
 为什么要去学习uni-app？
 
@@ -35,7 +35,7 @@
 
 ##### 环境搭建
 
-安装编辑器HbuilderX  [下载地址](https://www.dcloud.io/hbuilderx.html)
+安装编辑器[[HbuilderX]]  [下载地址](https://www.dcloud.io/hbuilderx.html)
 
 HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
 
@@ -76,7 +76,7 @@ HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
 
 `main.js`是我们的项目入口文件，主要作用是初始化`vue`实例并使用需要的插件。
 
-`uni.scss`文件的用途是为了方便整体控制应用的风格。比如按钮颜色、边框风格，`uni.scss`文件里预置了一批scss变量预置。
+`uni.scss`文件的用途是为了方便整体控制应用的风格。比如按钮颜色、边框风格，`uni.scss`文件里预置了一批[[scss]]变量预置。
 
 ```unpackage``` 就是打包目录，在这里有各个平台的打包文件
 

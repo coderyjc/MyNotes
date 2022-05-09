@@ -67,7 +67,7 @@ MySQL
 - DBMS：
   - DataBase Management System（数据库管理系统，常见的有：MysQL oracle DB2 Sybase sqlserver...）
 
-- SQL：
+- [[SQL]]：
   - 结构化查询语言，是一门标准通用的语言。标准的sql适合于所有的数据库产品。
   - SQL属于高级语言。只要能看懂英语单词的，写出来的sql语句，可以读懂什么意思。
   - SQL语句在执行的时候，实际上内部也会先进行编译，然后再执行sql。（sql语句的编译由DBMS完成。）DBMS负责执行sq1语句，通过执行sq1语句来操作DB当中的数据。
@@ -178,8 +178,6 @@ select 字段名1，字段名2，字段名3，....from表名；
 - 任何一条sql语句以；结尾
 - 不区分大小写
 
-
-
 去重：在字段前面加上distinct 关键字
 
 distinct关键字如果出现在所有字段的最前方，则去除所有记录联合起来的重复元素
@@ -191,8 +189,6 @@ distinct关键字如果出现在所有字段的最前方，则去除所有记录
 统计岗位的数量
 
 -  select count(distinct job) from emp;
-
-
 
 查询员工的年薪？
 
@@ -218,8 +214,6 @@ distinct关键字如果出现在所有字段的最前方，则去除所有记录
 语法格式：
 
 - select 字段，字段... from 表名 where 条件;
-
-
 
 查询工资等于5000的员工姓名：
 

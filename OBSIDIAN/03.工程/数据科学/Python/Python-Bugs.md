@@ -4,6 +4,8 @@ skill: Python
 create_date: 2022-03-30
 ---
 
+#Python 
+
 ### 'gbk' codec can't decode byte 0x94 in position 157: illegal multibyte sequence
 
 **报错代码:**

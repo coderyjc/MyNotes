@@ -2,11 +2,9 @@
 
 基本操作都在  `./Redis.xmind` 中了。
 
-
-
 ## Jedis
 
-Java语言操作redis，需要先导入两个包：
+[[Java]]语言操作[[redis]]，需要先导入两个包：
 
 ```xml
 <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->

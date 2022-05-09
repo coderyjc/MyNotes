@@ -1,7 +1,7 @@
 
 #node  #NPM 
 
-Node.js是一个Javascript运行环境(runtime environment)，不是一个js文件，实质是对Chrome V8引擎进行了封装。Node.js 是一个让 JavaScript 运行在服务端的开发平台，它让 JavaScript 成为与PHP、Python 等服务端语言平起平坐的脚本语言。  
+Node.js是一个[[Javascript]]运行环境(runtime environment)，不是一个js文件，实质是对Chrome V8引擎进行了封装。[[Node.js]] 是一个让 JavaScript 运行在服务端的开发平台，它让 JavaScript 成为与PHP、[[Python]] 等服务端语言平起平坐的脚本语言。  
 
 [1]Node.js提供替代的API，使得V8在非浏览器环境下运行得更好。V8引擎执行Javascript的速度非常快，性能非常好。  
 

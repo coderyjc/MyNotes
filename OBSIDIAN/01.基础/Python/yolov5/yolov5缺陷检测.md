@@ -1,5 +1,7 @@
 # yolov5缺陷检测
 
+#深度学习
+
 > https://www.bilibili.com/video/BV1yv411p7kv
 
 步骤：
@@ -12,7 +14,6 @@
 
 2. 规整目录结构
 
-   
 
 3. 将数据标签转换为yolo所需要的格式
 
