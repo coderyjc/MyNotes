@@ -47,8 +47,6 @@ OK之后选择Web Application 4.0
 
 <img src="IDEA创建Web项目.imgs\image-20210303072656843.png" alt="image-20210303072656843" style="zoom: 80%;" />
 
-![image-20210303073023841](IDEA创建Web项目.imgs\image-20210303073023841.png)
-
 添加Artifact
 
 <img src="IDEA创建Web项目.imgs\image-20210303073213741.png" alt="image-20210303073213741" style="zoom:80%;" />

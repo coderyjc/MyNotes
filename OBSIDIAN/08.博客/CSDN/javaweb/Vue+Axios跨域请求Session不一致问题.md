@@ -1,7 +1,5 @@
 # vue-element-admin+Axios跨域请求session不一致问题
 
-
-
 ### 场景复现
 
 > 前端：Vue-Cli + Axios + ElementUI + Node.js + vue-element-admin
@@ -18,7 +16,7 @@
 
 ### 解决步骤
 
-1. 设置proxy代理（根目录下 vue.config.js 文件，没有就新建一个）
+1. 设置[[proxy]]代理（根目录下 vue.config.js 文件，没有就新建一个）
 
    ```js
    module.exports = {

@@ -10,7 +10,7 @@
 
 1. 首先设置网络连接类型
 
-![image-20210307191842906](R:\GITHUB\MyNotes\_Typora\_Docs\XShell连接虚拟机.imgs\image-20210307191842906.png)
+![image-20210307191842906](./XShell连接虚拟机.imgs/image-20210307191842906.png)
 
 2. 按照如下配置配置VM网络，我们要根据子网ip来配置虚拟机的IP地址
 

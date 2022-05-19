@@ -310,7 +310,7 @@ public class RectangleDemo {
 
 **类图如下：**
 
-<img src="Design_Pattern.imgs/依赖倒转原则.png" style="zoom:80%;" />
+![[Design_Pattern.imgs/依赖倒转原则.png]]
 
 代码如下：
 
@@ -397,7 +397,7 @@ public class TestComputer {
 
 **类图如下：**
 
-<img src="Design_Pattern.imgs/依赖倒转原则改进.png" alt="image-20191229173554296" style="zoom:70%;" />
+![[依赖倒转原则改进.png]]
 
 面向对象的开发很好的解决了这个问题，一般情况下抽象的变化概率很小，让用户程序依赖于抽象，实现的细节也依赖于抽象。即使实现细节不断变动，只要抽象不变，客户程序就不需要变化。这大大降低了客户程序与实现细节的耦合度。
 
@@ -441,7 +441,7 @@ public class TestComputer {
 
 类图如下：
 
-<img src="Design_Pattern.imgs/迪米特法则.png" alt="image-20191229173554296" style="zoom:80%;" />
+![[Design_Pattern.imgs/迪米特法则.png]]
 
 
 
@@ -470,11 +470,11 @@ public class TestComputer {
 
 汽车按“动力源”划分可分为汽油汽车、电动汽车等；按“颜色”划分可分为白色汽车、黑色汽车和红色汽车等。如果同时考虑这两种分类，其组合就很多。类图如下： 
 
-<img src="Design_Pattern.imgs/合成复用原则.png" alt="image-20191229173554296" style="zoom:80%;" />
+![[合成复用原则.png]]
 
 从上面类图我们可以看到使用继承复用产生了很多子类，如果现在又有新的动力源或者新的颜色的话，就需要再定义新的类。我们试着将继承复用改为聚合复用看一下。
 
-<img src="Design_Pattern.imgs/合成复用原则1.png" alt="image-20191229173554296" style="zoom:80%;" />
+![[Design_Pattern.imgs/合成复用原则1.png]]
 
 
 
@@ -840,7 +840,7 @@ public class TestComputer {
 
   <font color="red">说明:</font>
 
-  ​	这种方式比较好理解。当通过反射方式调用构造方法进行创建创建时，直接抛异常。不运行此中操作。
+  这种方式比较好理解。当通过反射方式调用构造方法进行创建创建时，直接抛异常。不运行此中操作。
 
 
 

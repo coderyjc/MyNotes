@@ -23,8 +23,9 @@ web.js -> node.js
 - 后端的Web服务，例如跨域、服务器端的请求
 - 基于Web的应用
 - 多客户端的通信，如即时通信
+- 
+![[image-20211126205558677.png]]
 
-<img src="Untitled.imgs/image-20211126205558677.png" alt="image-20211126205558677" style="zoom: 67%;" />
 
 - Node是对ES标准一个实现，Node也是一个8引擎
 - 通过Node可以使js代码在服务器端执行

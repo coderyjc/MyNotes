@@ -21,7 +21,7 @@ subplot(121); imshow(I); % 显示图像
 subplot(122); imshow(uint8(K)); % 显示频谱图
 ```
 
-<img src=".\傅立叶变换的matlab实现.imgs\image-20210117084412451.png" alt="image-20210117084412451" style="zoom: 50%;" />
+<img src="./傅立叶变换的matlab实现.imgs/image-20210117084412451.png" alt="image-20210117084412451" style="zoom: 50%;" />
 
 > **为什么要除以256 ？**
 >

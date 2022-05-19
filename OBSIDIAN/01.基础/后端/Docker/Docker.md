@@ -1,5 +1,3 @@
-
-
 # Docker上篇
 
 > 来源：[bilibili-狂神说java - Docker最新超详细版教程通俗易懂](https://www.bilibili.com/video/BV1og4y1q7M4)
@@ -168,7 +166,7 @@ Docker Hub（默认是国外的）
 
    ![image-20210625191005181](Docker.imgs/image-20210625191005181.png)
 
-8. 测试hallo world
+
 
    ![image-20210625191347316](Docker.imgs/image-20210625191347316.png)
 
@@ -394,7 +392,7 @@ docker ps -a
 exit            # 直接容器停止并退出
 Ctrl + P + Q    # 容器不停止退出
 ```
-
+![[image-20210627102445188.png]]
 ![image-20210627102445188](Docker.imgs/image-20210627102445188.png)
 
 > 删除容器

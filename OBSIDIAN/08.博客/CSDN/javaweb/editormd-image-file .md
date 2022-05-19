@@ -8,7 +8,7 @@
 
 废话不多说，直接上解决方案。
 
-SpringMVC处理MultipartFile的时候要进行两个地方的配置：
+[[SpringMVC]]处理MultipartFile的时候要进行两个地方的配置：
 
 SpringMVC配置文件中添加
 

@@ -53,10 +53,6 @@
 
 #### 了解 Oracle 内置数据类型
 
-![[image-20200929225629938](ORCL.assets\image-20200929225629938.png]]
-![[image-20200929225715792](ORCL.assets\image-20200929225715792.png]]
-![[image-20200929225748644](ORCL.assets\image-20200929225748644.png]]
-![[image-20200929225816503](ORCL.assets\image-20200929225816503.png]]
 ## ORACLE基本操作
 
 

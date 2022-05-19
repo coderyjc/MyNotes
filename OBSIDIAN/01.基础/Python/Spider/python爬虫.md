@@ -345,9 +345,6 @@ with open(img_path, 'wb') as fp:
 
 识别平台：`http://www.chaojiying.com/user/` 
 
-账号：米米号
-
-密码：Angel米米号
 
 具体代码见`Learning\Python\Spider\03-VertifyCodeAnalysis\01-recognizeVertifyCode.py`
 

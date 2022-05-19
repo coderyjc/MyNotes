@@ -7,15 +7,6 @@
 ## 流程图
 
 
-
-
-
-
-
-
-
-
-
 ## 涉及到的文件
 
 - `/src/permission.js` 在 beforeEach 中判断token是否存在并拉取用户信息

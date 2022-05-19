@@ -14,7 +14,7 @@
 
 ## 简介
 
-SSM： SpringMVC + Spring + MyBatis.
+[[SSM]]： [[SpringMVC]] + [[Spring]] + [[MyBatis]].
 
 SpringMVC: 视图层，也就是界面层，负责接收请求，显示处理结果。
 

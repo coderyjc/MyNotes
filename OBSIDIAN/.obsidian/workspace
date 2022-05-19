@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9126a356e392e789",
+        "id": "965d369a1a38e1ba",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "03.工程/Git/Git.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "springcloud",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280
+    "width": 162
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "03.工程/Git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "03.工程/Git/Git.md"
+              }
             }
           }
         ],
@@ -88,19 +95,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290
+    "width": 290,
+    "collapsed": true
   },
-  "active": "9126a356e392e789",
+  "active": "965d369a1a38e1ba",
   "lastOpenFiles": [
-    "02.算法/格式化输入输出.md",
-    "home.md",
+    "03.工程/Git/Git.md",
+    "01.基础/后端/SpringCloud/SpringCloud.md",
     "01.基础/前端/JavaScript/JavaScript.md",
-    "01.基础/前端/JavaScript/ES6-11.md",
-    "01.基础/前端/JavaScript/正则表达式.pdf",
-    "01.基础/前端/HTML&CSS/HTML&CSS.md",
-    "01.基础/前端/ECharts.js/ECharts.js.md",
-    "01.基础/前端/CSS3/CSS3.md",
-    "01.基础/数据库/MySQL/MySQL高级.md",
-    "01.基础/数据库/MySQL/MySQL基础.md"
+    "04.文档/Obsidian/插件/Plugin/Templater/1.概述.md",
+    "01.基础/后端/Docker/Docker.md",
+    "01.基础/后端/SpringMVC/springMVC.md",
+    "01.基础/后端/Spring/Spring5.md",
+    "01.基础/后端/MyBatis/MyBatis.md",
+    "01.基础/后端/MyBatis/MyBatis逆向工程.md",
+    "01.基础/基础知识/设计模式/Design_Pattern.md"
   ]
 }
