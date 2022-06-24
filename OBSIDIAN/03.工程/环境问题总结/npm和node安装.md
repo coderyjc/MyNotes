@@ -52,15 +52,21 @@ npm config set registry https://registry.npm.taobao.org/
 
 ## 4 配置后可通过下面方式来验证是否成功
 
+```bash
 npm config get registry  
 或者  
 npm info express
+```
+
 
 ## 5 环境变量ENV
 
+```bash
 /home/data/nodejs/node_global/bin
 
 export NODE_GLOBAL=/home/data/nodejs/node_global
 export PATH=${NODE_GLOBAL}/bin:${PATH}  
 
 source /etc/profile
+```
+

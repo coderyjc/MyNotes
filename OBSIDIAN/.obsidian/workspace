@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "965d369a1a38e1ba",
+        "id": "c424435ac71c991e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03.工程/Git/Git.md",
+            "file": "03.工程/环境问题总结/Mongo远程连接.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "springcloud",
+                "query": "$ZSH_CUSTOM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 162
+    "width": 261
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03.工程/Git/Git.md",
+                "file": "03.工程/环境问题总结/Mongo远程连接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03.工程/Git/Git.md"
+                "file": "03.工程/环境问题总结/Mongo远程连接.md"
               }
             }
           }
@@ -95,20 +95,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290,
-    "collapsed": true
+    "width": 290
   },
-  "active": "965d369a1a38e1ba",
+  "active": "c424435ac71c991e",
   "lastOpenFiles": [
-    "03.工程/Git/Git.md",
-    "01.基础/后端/SpringCloud/SpringCloud.md",
-    "01.基础/前端/JavaScript/JavaScript.md",
-    "04.文档/Obsidian/插件/Plugin/Templater/1.概述.md",
-    "01.基础/后端/Docker/Docker.md",
-    "01.基础/后端/SpringMVC/springMVC.md",
-    "01.基础/后端/Spring/Spring5.md",
-    "01.基础/后端/MyBatis/MyBatis.md",
-    "01.基础/后端/MyBatis/MyBatis逆向工程.md",
-    "01.基础/基础知识/设计模式/Design_Pattern.md"
+    "03.工程/环境问题总结/Mongo远程连接.md",
+    "home.md",
+    "03.工程/前端框架/Vue.js/Vue.js-Bug.md",
+    "03.工程/前端框架/Vue.js/Vuex.md",
+    "03.工程/环境问题总结/Docker安装与卸载.md",
+    "03.工程/环境问题总结/vim编辑器搭建.md",
+    "03.工程/环境问题总结/npm和node安装.md",
+    "03.工程/环境问题总结/lInux其他问题.md",
+    "03.工程/环境问题总结/HBuilder连接夜神模拟器.md",
+    "03.工程/环境问题总结/Linux配置Zsh.md"
   ]
 }

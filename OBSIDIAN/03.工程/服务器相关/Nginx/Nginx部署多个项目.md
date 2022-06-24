@@ -1,4 +1,4 @@
-## Nginx通过不同的端口部署多个项目
+## Nginx 通过不同的端口部署多个项目
 
 #nginx
 
@@ -9,7 +9,7 @@
 ```
   1 server {
   2     listen 9091; # 监听9091 端口
-  3     server_name 101.201.64.102; # 服务器名称
+  3     server_name 域名或者ip; # 服务器名称
   4     location / {
   5         root /www/wwwroot/manage/; # 所在文件夹
   6         index index.html; # 根目录

@@ -28,3 +28,14 @@ create_date: 2022-01-31
 	})
 </script>
 ```
+
+> 使用[[vue3]], 导入router之后, 在app.vue 中显示  Cannot use JSX unless the '--jsx' flag is provided.ts(17004)
+
+在项目根目录的jsconfig.json 中添加这一行
+
+```js
+    "jsx": "preserve"
+```
+
+![[Pasted image 20220623201636.png]]
+
