@@ -1,62 +1,143 @@
-BSD通用命令手册
+> 在学习OS的时候翻译了一下linux系统的 man.sh 
+> 
+> 源文档中分段较少, 我在原文的基础上对段落结构进行了略微分段, 并使用markdown对原文进行了略微排版, 以获得更好的阅读体验. 如有歧义, 请以官方文档为主.
+> 
+> 官方文档获取方法: 在linux系统终端输入`man sh`命令.
+>
+> 本人英语和计算机水平有限, 错误之处还请指出. 不胜感激.
+> 
+> 非商用转载请注明来源.
+
+
+# BSD通用命令手册
 
 名称: dash  -- 命令解释器(shell)
 
 概要: 
-    dash [-aCefnuvxIimqVEbp] [+aCefnuvxIimqVEbp] [-o option_name] [+o option_name]
-          [command_file [argument ...]]
-    dash -c [-aCefnuvxIimqVEbp] [+aCefnuvxIimqVEbp] [-o option_name] [+o option_name]
-          command_string [command_name [argument ...]]
-    dash -s [-aCefnuvxIimqVEbp] [+aCefnuvxIimqVEbp] [-o option_name] [+o option_name]
-          [argument ...]
 
+```bash
+    dash [-aCefnuvxIimqVEbp] [+aCefnuvxIimqVEbp] [-o option_name] [+o option_name] [command_file [argument ...]]
+    dash -c [-aCefnuvxIimqVEbp] [+aCefnuvxIimqVEbp] [-o option_name] [+o option_name] command_string [command_name [argument ...]]
+    dash -s [-aCefnuvxIimqVEbp] [+aCefnuvxIimqVEbp] [-o option_name] [+o option_name] [argument ...]
+```
 
-## 介绍
+**介绍**
 
-dash 是标准的系统命令解释器。当前版本的dash是正在更改以符合 POSIX 1003.2 和 1003.2a 规范的shell。这个版本有很多特性，这使它在某些地方看起来和 Korn shell 很相似，但它不是 Korn shell 的克隆（请参阅 ksh(1)）。只有POSIX规范设计的特性,加上一些博伯克利的扩展, 正在合并到这个shell中. 这个帮助页面旨在成为一个教程或者这个shell完整的说明
+dash 是本系统的标准命令解释器. dash当前版本的正在进行修改以符合POSIX1003.2和1003.2a对于shell的规范. 
 
+这个版本有很多特性, 这些特性使它在某些地方看起来和 Korn shell 很相似，但它不是 Korn shell 的克隆(请参阅 ksh(1)). 
+
+只有POSIX规范设计的特性, 加上一些伯克利的扩展, 正在合并到这个shell中. 这个帮助页面旨在成为一个教程或者这个shell完整的说明.
 
 ### 概述
 
-shell是一个命令, 这个命令从中断或者文件中读取命令行, 解释他们, 一般用来执行其他命令. 这是在用户登入到系统的时候运行的程序(即便用户能够通过chsh命令选择不同的shell). 
+shell是一个命令, 这个命令从文件或者终端中读取命令行并解释, 一般用来执行其他命令. 这是在用户登入到系统的时候运行的程序(即便用户能够通过chsh命令(1)选择不同的shell). 
 
-... 
+shell实现了一种语言, 这种语言具有控制流结构, 一种宏除了数据存储外, 还提供各种功能的宏工具, 这种宏工具具有内置的历史命令和行编辑功能. 
 
-命令能够直接敲在运行的shell中, 也能放在一个文件中, 这个文件能够被shell 直接执行
+它结合了许多功能来帮助交互使用，并具有以下优点：这种解释性语言对于交互式和非交互式使用(shell脚本)都是通用的. 
+
+也就是说，命令可以直接键入到正在运行的shell中, 也可以放入文件中，文件可以直接被shell执行.
 
 ### 调用
-A login shell first reads commands from the files /etc/profile and .profile if they exist.
 
-If the environment variable ENV is set on entry to an interactive shell, or is set in the .profile of a login shell, the shell next reads commands from the file named in ENV.
+如果没有参数, 并且shell的标准输入连接到终端(或者设置了-i标志), -c选项没有设置, 则该shell被视为交互式shell. 交互式shell通常在每个命令之前进行提示, 并以不同的方式处理编程和命令错误(如下所述).第一次启动时, shell检查首个参数, 如果它以破折号“-”开头, 则shell也被视为登录shell. 这通常在用户首次登录时由系统自动完成. 登录shell首先从文件 `/etc/profile` 和 .profile 中读取命令(如果他们存在).如果环境变量ENV在交互式shell的入口上设置, 或者在login shell的.profile中设置. shell接下来就会读取在ENV中指定的文件中的命令. 
 
+因此，用户应在.profile文件中放置仅在登录时执行的命令; 在ENV文件中放置针对每个交互式shell执行的命令.
+
+想要设置ENV变量设置为某个文件, 请在主目录的配置文件 .profile 中写入以下行
+
+```bash
+    ENV=$HOME/.shinit; export ENV
+```
+
+替换 “.shinit” 为任何你想要的文件名
+
+如果指定了选项之外的命令行参数, 则shell将第一个参数视为从中读取命令的文件名(shell脚本), 其余参数设置为shell的位置参数($1\$2等). 否则，shell将从其标准输入中读取命令.
 
 ### 参数列表处理
 
+所有具有相应名称的单字母选项都可以用作-o选项的参数. 在下面的描述中, 在单字母选项旁边提供了 -o 的名称. 
+
+指定破折号 “-” 将启用该选项, 而使用加号 “+” 将禁用该选项. 可以从命令行或使用内置(稍后描述)设置以下选项.
+
+|选项|意义|解释|
+|----|----|----|
+| -a | allexport | 导出所有已分配变量 |
+| -c | - |  |
+| -c | - |  |
+| -C | noclobber |  |
+| -e | errexit |  |
+| -f | noglob |  |
+| -n | noexec |  |
+| -v | verbose |  |
+| -x | xtrace |  |
+| -I | ignoreeof |  |
+| -i | interactive |  |
+| -l | - |  |
+| -m | monitor |  |
+| -s | stdin |  |
+| -V | vi |  |
+| -E | emacs |  |
+| -b | notify |  |
+| -p | priv |  |
 
 
 ### 词法结构
 
+shell从文件中按行读取输入, 并从空白(空格和制表符)处和shell特有的特定字符序列(“运算符”)处分解为单词。
 
+有两种类型的操作符：控制操作符和重定向操作符(稍后讨论).
 
-### 引号
+以下是操作符列表：
 
+控制操作符
 
+```bash
+& && ( ) ; ;; | || <newline>
+```
+
+重定向操作符
+
+```bash
+ < > >| << >> <& >& <<- <>
+```
+
+### 引用
+
+引用用于移除shell中某些字符或单词的特殊含义, 如运算符\空格或关键字. 引用有三种类型：匹配的单引号\匹配的双引号和反斜杠。
 
 ### 反斜杠
 
-
+反斜杠保留其后字符的字面含义, 除了⟨newline⟩. 前一个反斜杠⟨newline⟩被视为行的继续.
 
 ### 单引号
 
-
+将字符括在单引号中可以保留所有字符的字面意义(单引号除外, 这使得无法将单引号放在单引号字符串中).
 
 ### 双引号
 
+将字符括在双引号内保留除美元符号($)\反引号(`)和反斜杠(\\)之外的所有字符的字面含义. 双引号中的反斜杠在历史上很奇怪，只用于引用以下字符：
 
+```bash
+$ ` “ \ <newline>
+```
 
-### 逆转单词
+否则它仍然是文字.
 
+### 保留字
 
+保留字是对shell有特殊意义的字，在行首和控制操作符之后识别
+
+以下为保留字：
+
+|      |   |    |   | |
+|---|---|---|---|---|
+| !     |  elif  |  fi    |  while |  case|
+| else  |  for   |  then  |  {     |  }|
+| do    |  done  |  until |  if    |  esac|
+
+我们将会随后讨论他们的含义.
 
 ### 昵称
 

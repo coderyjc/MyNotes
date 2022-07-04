@@ -2,7 +2,7 @@
   "legacyEditor": false,
   "livePreview": true,
   "fileSortOrder": "alphabetical",
-  "attachmentFolderPath": "03.工程/前端项目总结/03.50Projects50Days/assets",
+  "attachmentFolderPath": "03.工程/Python库/assets",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
@@ -12,5 +12,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "useMarkdownLinks": true
 }

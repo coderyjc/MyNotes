@@ -1,4 +1,4 @@
-## 通过 navicat 连接docker中的mongo
+## 通过 navicat连接docker中的mongo
 
 连接之后发现
 

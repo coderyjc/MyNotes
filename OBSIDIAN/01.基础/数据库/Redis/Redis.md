@@ -1,7 +1,5 @@
 # Redis
 
-基本操作都在  `./Redis.xmind` 中了。
-
 ## Jedis
 
 [[Java]]语言操作[[redis]]，需要先导入两个包：
@@ -80,8 +78,6 @@ public class TestKey {
 
 
 
-
-
 > String操作
 
 ```java
@@ -131,7 +127,6 @@ public class TestString {
 ```
 
 
-
 > list 操作
 
 ```java
@@ -173,10 +168,6 @@ public class TestList {
  }
 }
 ```
-
-
-
-
 
 
 
@@ -222,9 +213,6 @@ dstkey的集合
  }
 }
 ```
-
-
-
 
 
 > hash操作

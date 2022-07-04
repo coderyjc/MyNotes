@@ -215,18 +215,6 @@ if __name__ == "__main__":
 - 数据解析
 - 持久化存储
 
-### 正则表达式
-
-非重点，略。
-
-
-
-### bs4解析
-
-非重点，略。
-
-
-
 ### xpath解析【重点】
 
 最常用、最便捷、最高效、最通用。
@@ -294,11 +282,9 @@ xpath表达式(始终返回一个列表)：
 源码见 `Learning\Python\Spider\02-DataAnalysis\02-xpath-SecondhandHouse.py`
 
 
-
 #### 案例二：4K图片解析下载
 
 > 从[高清壁纸网](http://pic.netbian.com/4kfengjing/)中爬取高清壁纸的缩略图
-
 
 
 中文乱码问题的通用解决方案：
@@ -306,7 +292,6 @@ xpath表达式(始终返回一个列表)：
 `img_name.encode('iso-8859-1').decode('gbk')`
 
 或者直接查看页面元数据的编码方式
-
 
 
 创建文件夹和写入图片数据
@@ -635,13 +620,6 @@ if __name__ == "__main__":
     bro.quit()
 ```
 
-### 案例：模拟登录qq空间
-
-
-
-对应 p53
-
-
 
 ### 无头浏览器 + 规避检测
 
@@ -694,13 +672,6 @@ if __name__ == "__main__":
     print(bro.page_source)
     bro.quit()
 ```
-
-### 案例：模拟登录12306
-
-
-
-对应 p55-57
-
 
 
 ## Scrapy框架
@@ -1023,6 +994,3 @@ from scrapy.pipelines.images import ImagesPipeline
 - 重写下载中间件的process_response方法，让该方法对响应对象进行拦截，并篡改response中存储的页面数据
 
 - 在配置文件中开启下载中间件
-
-
-

@@ -6,33 +6,32 @@ create_date: 2022-01-31
 
 #后端 #JavaWeb #SpringBoot #Spring
 
-
 # 路径访问
 
 ## **不使用模板引擎的时候：**
 
 ```yaml
 # 配置文件
-spring: 
-  devtools:
-    restart:
-      enabled: true
-      additional-paths: src/main/java
-  web:
-    resources:
-      static-locations: classpath:/static,classpath:/public,classpath:/resources,classpath:/META-INF/resources
-  mvc:
-    view:
-      prefix: /
+spring:
+devtools:
+restart:
+enabled: true
+additional-paths: src/main/java
+web:
+resources:
+static-locations: classpath:/static,classpath:/public,classpath:/resources,classpath:/META-INF/resources
+mvc:
+view:
+prefix: /
 ```
 
 ```java
 /**
- * @Author: Yan Jingcun
- * @Date: 2021/6/29
- * @Description:
- * @Version: 1.0
- */
+* @Author: Yan Jingcun
+* @Date: 2021/6/29
+* @Description:
+* @Version: 1.0
+*/
 
 package com.jancoyan.commentset.controller;
 
@@ -43,17 +42,17 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class MvcController {
 
-    @GetMapping("/workbench/{file}")
-    public String workbenchResource(@PathVariable(value = "file") String file) {
-        return "workbench/" + file;
-    }
+@GetMapping("/workbench/{file}")
+public String workbenchResource(@PathVariable(value = "file") String file) {
+return "workbench/" + file;
+}
 
-    @GetMapping("/workbench/{file1}/{file2}")
-    public String workbenchResource(
-            @PathVariable(value = "file1") String file1,
-            @PathVariable(value = "file2") String file2) {
-        return "workbench/" + file1 + "/" + file2;
-    }
+@GetMapping("/workbench/{file1}/{file2}")
+public String workbenchResource(
+@PathVariable(value = "file1") String file1,
+@PathVariable(value = "file2") String file2) {
+return "workbench/" + file1 + "/" + file2;
+}
 }
 ```
 
@@ -61,28 +60,28 @@ public class MvcController {
 
 ```java
 # 配置文件
-spring: 
-  thymeleaf:
-    cache: false
-  devtools:
-    restart:
-      enabled: true
-      additional-paths: src/main/java
-  web:
-    resources:
-      static-locations: classpath:/static,classpath:/public,classpath:/resources,classpath:/META-INF/resources
-  mvc:
-    view:
-      prefix: classpath:/templates/
+spring:
+thymeleaf:
+cache: false
+devtools:
+restart:
+enabled: true
+additional-paths: src/main/java
+web:
+resources:
+static-locations: classpath:/static,classpath:/public,classpath:/resources,classpath:/META-INF/resources
+mvc:
+view:
+prefix: classpath:/templates/
 ```
 
 ```java
 /**
- * @Author: Yan Jingcun
- * @Date: 2021/6/29
- * @Description:
- * @Version: 1.0
- */
+* @Author: Yan Jingcun
+* @Date: 2021/6/29
+* @Description:
+* @Version: 1.0
+*/
 
 package com.jancoyan.commentset.controller;
 
@@ -93,35 +92,35 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class MvcController {
 
-    @GetMapping("/workbench/{file}")
-    public String workbenchResource(@PathVariable(value = "file") String file) {
-        return "workbench/" + file;
-    }
+@GetMapping("/workbench/{file}")
+public String workbenchResource(@PathVariable(value = "file") String file) {
+return "workbench/" + file;
+}
 
-    @GetMapping("/workbench/{file1}/{file2}")
-    public String workbenchResource(
-            @PathVariable(value = "file1") String file1,
-            @PathVariable(value = "file2") String file2) {
-        return "workbench/" + file1 + "/" + file2;
-    }
+@GetMapping("/workbench/{file1}/{file2}")
+public String workbenchResource(
+@PathVariable(value = "file1") String file1,
+@PathVariable(value = "file2") String file2) {
+return "workbench/" + file1 + "/" + file2;
+}
 }
 ```
 
 # 详解-不使用模板引擎的时候
 
-![[Pasted image 20220131014431.png]]
+![image-20220131014431](http://blog.evilemperor.top/upload/2022/07/image-20220131014431.png)
 
 ## case 1
 
-![[Pasted image 20220131014449.png]]
+![image-20220131014449](http://blog.evilemperor.top/upload/2022/07/image-20220131014449.png)
 
 ## case 2
 
-![[Pasted image 20220131014506.png]]
+![image-20220131014506](http://blog.evilemperor.top/upload/2022/07/image-20220131014506.png)
 
 ## case 3
 
-![[Pasted image 20220131014521.png]]
+![image-20220131014521](http://blog.evilemperor.top/upload/2022/07/image-20220131014521.png)
 
 1.  “spring.mvc.static-path-pattern”
 
@@ -145,8 +144,8 @@ spring.mvc.static-path-pattern代表的含义是我们应该以什么样的路�
 
 ```xml
 <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-thymeleaf</artifactId>
 </dependency>
 ```
 
@@ -154,8 +153,8 @@ spring.mvc.static-path-pattern代表的含义是我们应该以什么样的路�
 
 ```yaml
 spring:
-   thymeleaf:
-     cache: false
+thymeleaf:
+cache: false
 ```
 
 1.  写Controller
@@ -163,15 +162,15 @@ spring:
 ```java
 @RequestMapping("/test123")
 public String login(User user, HttpServletRequest request){
-	request.setAttribbute("name", "张三");
-	return "/error12.html"
+request.setAttribbute("name", "张三");
+return "/error12.html"
 }
 ```
 
 1.  目录结构
 
-![[Pasted image 20220131014633.png]]
+![image-20220131014633](http://blog.evilemperor.top/upload/2022/07/image-20220131014633.png)
 
 结论：
 
-![[Pasted image 20220131014643.png]]
+![image-20220131014643](http://blog.evilemperor.top/upload/2022/07/image-20220131014643.png)

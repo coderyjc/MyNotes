@@ -3,5 +3,5 @@
 table file.mtime
 where date(today) - file.mtime < 3
 sort file.mtime desc
-limit 10
+limit 20
 ```

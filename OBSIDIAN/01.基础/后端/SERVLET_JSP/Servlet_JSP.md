@@ -8,7 +8,6 @@
 
 动态网页需要使用到服务端脚本语言（JSP）
 
-
 架构。
 
 BS架构：Browser Server
@@ -63,7 +62,6 @@ b.配置catalina_home  指向 tomcat根目录
 其他编码：积累
 
 
-
 jsp：在html中嵌套的java代码 
 
  在项目/WEB-INF/web.xml中设置 默认的 初始页面
@@ -98,11 +96,9 @@ b. 方式二
 
 域名解析过程
 
-<img src="Servlet_JSP.imgs\image-20201128231321842.png" alt="image-20201128231321842" style="zoom:100%;" />
+![[image-20201128231321842.png]]
 
 通过www.test.com访问本机
-
-
 
 方法a. conf/server.xml
 
@@ -126,7 +122,7 @@ www.test.com -> host找映射关系 -> server.xml找Engine的defaultHost ->通�
 
 JSP执行流程
 
-<img src="Servlet_JSP.imgs\image-20201128231352392.png" alt="image-20201128231352392" style="zoom:75%;" />
+![[image-20201128231352392.png]]
 
 jsp- java(Servlet文件) -class  
 
@@ -140,7 +136,6 @@ Jsp 和Servlet 可以相互转换
 其中的index1.jsp就在WebContent目录中；但是WEB-INF中的文件  无法通过客户端（浏览器）直接访问，只能通过请求转发来访问
 
 注意：并不是 任何的内部跳转都能访问WEB-INF；原因是 跳转有2种方式：请求转发 、重定向
-
 
 
 统一字符集编码
@@ -160,8 +155,6 @@ i.将整个项目中的文件 统一设置 （推荐）
 ii.设置 某一个项目
 
 iii.设置单独文件
-
-
 
 JSP的页面元素： HTML  java代码（脚本Scriptlet）、指令、注释
 
@@ -293,9 +286,7 @@ login.jsp  -> check.jsp  ->success.jsp
 
 请求次数的问题
 
-<img src="Servlet_JSP.imgs\image-20201230222208422.png" alt="image-20201230222208422" style="zoom:50%;" />
-
-
+![[image-20201230222208422.png]]
 
 转发、重定向：
 
@@ -341,7 +332,7 @@ b.不能直接获取某一个单独对象，只能一次性将全部的cookie拿
 
 **案例: 使用Cookie实现  记住用户名  功能**
 
-<img src="Servlet_JSP.imgs\image-20201231212221241.png" alt="image-20201231212221241" style="zoom:80%;" />
+![[image-20201231212221241.png]]
 
 第一次登录的时候客户端将信息发送给服务端，服务端产生Cookie，并通过重定向将其发送到客户端主机进行保存，当客户端再次登录的时候读取本地cookie进行用户名的填充
 
@@ -407,7 +398,7 @@ c.电子邮件：浏览、写邮件、退出
 
 session机制：
 
-<img src="Servlet_JSP.imgs\image-20201231214534665.png" alt="image-20201231214534665" style="zoom: 67%;" />
+![[image-20201231214534665.png]]
 
 客户端第一次请求服务端时，（jsessionid-sessionid）服务端会产生一个session对象（用于保存该客户的信息）； 并且每个session对象 都会有一个唯一的 sessionId( 用于区分其他session); 
 
@@ -509,15 +500,12 @@ a.不是内置对象，要使用必须new
 
 b.但是，服务端会**自动**生成一个(服务端自动new一个cookie也只会new这一个Cookie) name=JSESIONID的cookie  并返回给客户端
 
-
-
 cookie和session的区别：
 | | session	 |cookie|
 | --- |----- | --- |
 |保存的位置|	服务端	|	客户端|
 |安全性| 较安全|较不安全|
 |保存的内容| Object| String|
-
 
 
 appliation 全局对象
@@ -536,7 +524,6 @@ String getRealPath(String name): 绝对路径（虚拟路径 相对的绝对路�
 |request  | 请求对象		 | 同一次请求有效，请求转发后有效，重定向后无效 |
 |session  | 会话对象		| 同一次会话有效，无论怎么跳转，都有效；关闭/切换浏览器后无效 ； 从 登陆->退出 之间 全部有效 |
 |appliation| 全局对象		| 全局有效（整个项目有效）切换浏览器 仍然有效；关闭服务、其他项目 无效  ->  想要多个项目共享、重启后仍然有效 ：使用JNDI |
-
 
 
 以上4个对象共有的方法：
@@ -634,11 +621,11 @@ V：View 视图： 用于展示、以及与用户交互。使用html  js  css js
 
 C：Controller 控制器 ：接受请求，将请求跳转到模型进行处理；模型处理完毕后，再将处理的结果返回给 请求处 。 可以用jsp实现，  但是一般建议使用 Servlet实现控制器。
 
-<img src="Servlet_JSP.imgs\image-20210107173548122.png" alt="image-20210107173548122" style="zoom:50%;" />
+![[image-20210107173548122.png]]
 
 对于MVC的理解：
 
-<img src="Servlet_JSP.imgs\image-20210107190727777.png" alt="image-20210107190727777" style="zoom:50%;" />
+![[image-20210107190727777.png]]
 
 Jsp->Java(Servlet)->JSP
 
@@ -653,8 +640,6 @@ Java类必须符合一定的 规范，才是一个servlet：
 
  doPost()：接受 并处 所有post提交方式的请求
 
-
-
 Servlet要想使用，必须配置
 
 Serlvet2.5：web.xml
@@ -665,18 +650,17 @@ servlet映射关系
 
 servlet2.5 映射关系
 
-<img src=".\Servlet_JSP.imgs\image-20210107212542020.png" alt="image-20210107212542020" style="zoom:50%;" />
+![[image-20210107212542020.png]]
 
 servlet3.0映射关系
 
-<img src="Servlet_JSP.imgs\image-20210107212621395.png" alt="image-20210107212621395" style="zoom:50%;" />
+![[image-20210107212621395.png]]
 
 项目的根目录：WebContent 、src
 
 < a href="WelcomeServlet" >所在的jsp是在 WebContent目录中，因此 发出的请求WelcomeServlet  是去请求项目的根目录。
 
 Servlet流程：请求 ->< url-pattern > -> 根据< servlet-mapping >中的< servlet-name > 去匹配  < servlet > 中的< servlet-name >，然后寻找到< servlet-class >，求中将请求交由该< servlet-class >执行。
-
 
 
 纯手工方法创建第一个Servlet
@@ -806,7 +790,7 @@ Servlet API ： 由两个软件包组成： 对应于HTTP协议的软件包、�
 
 Servlet继承关系
 
-<img src="Servlet_JSP.imgs\image-20210107214739439.png" alt="image-20210107214739439" style="zoom:50%;" />
+![[image-20210107214739439.png]]
 
 ServletConfig:接口 
 
@@ -852,13 +836,13 @@ Servlet使用层面：Eclipse中在src创建一个Servlet，然后重写doGet() 
 
 三层之间的关系示例
 
-<img src="Servlet_JSP.imgs\image-20210108084353250.png" alt="image-20210108084353250" style="zoom: 67%;" />
+![[image-20210108084353250.png]]
 
 
 
 三层架构和MVC的关系
 
-<img src="Servlet_JSP.imgs\image-20210108081315318.png" alt="image-20210108081315318" style="zoom:50%;" />
+![[image-20210108081315318.png]]
 
 jsp内置对象如何在servlet中获取？
 
@@ -870,7 +854,7 @@ Application app = request.getServletContext(); // 获取application对象
 
 
 
-<img src="Servlet_JSP.imgs\image-20210108081939431.png" alt="image-20210108081939431" style="zoom:50%;" />
+![[image-20210108081939431.png]]
 
 ### MVC优化
 
@@ -1026,6 +1010,7 @@ where r>=(n-1) *10+1 and  ;
 select * from student  oreder by sno 
 offset (页数-1)*页面大小+1  rows fetch next 页面大小  rows only ;
 ```
+
 
 ## 5. 上传与下载
 
@@ -1250,20 +1235,3 @@ ERROR：只拦截<error-page>发出的请求
 
 过滤器链
 可以配置多个过滤器，过滤器的先后顺序 是由 <filter-mapping>的位置 决定
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

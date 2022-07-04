@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c424435ac71c991e",
+        "id": "acc0e5d55eba88fb",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "03.工程/环境问题总结/Mongo远程连接.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "$ZSH_CUSTOM",
+                "query": "![](Pasted%20image%2020220703192929.png)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +49,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261
+    "width": 261,
+    "collapsed": true
   },
   "right": {
     "id": "8c734ac7cf97795b",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03.工程/环境问题总结/Mongo远程连接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "03.工程/环境问题总结/Mongo远程连接.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -95,19 +89,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290
+    "width": 290,
+    "collapsed": true
   },
-  "active": "c424435ac71c991e",
+  "active": "acc0e5d55eba88fb",
   "lastOpenFiles": [
-    "03.工程/环境问题总结/Mongo远程连接.md",
-    "home.md",
-    "03.工程/前端框架/Vue.js/Vue.js-Bug.md",
-    "03.工程/前端框架/Vue.js/Vuex.md",
-    "03.工程/环境问题总结/Docker安装与卸载.md",
-    "03.工程/环境问题总结/vim编辑器搭建.md",
-    "03.工程/环境问题总结/npm和node安装.md",
-    "03.工程/环境问题总结/lInux其他问题.md",
-    "03.工程/环境问题总结/HBuilder连接夜神模拟器.md",
-    "03.工程/环境问题总结/Linux配置Zsh.md"
+    "04.文档/Linux/sh.ma.translate.md",
+    "04.文档/Linux/sh.man.md",
+    "04.文档/Obsidian/插件/Plugin/Dataview/4.1.查询.md",
+    "04.文档/Obsidian/插件/Plugin/Dataview/2.数据标注.md",
+    "04.文档/Obsidian/插件/Plugin/Dataview/0.遇到的问题.md",
+    "04.文档/Obsidian/插件/Plugin/Templater/2.内置函数.md",
+    "04.文档/Obsidian/插件/Plugin/Templater/1.概述.md",
+    "04.文档/Obsidian/插件/Plugin/Template 文档模板.md",
+    "04.文档/Obsidian/插件/Plugin/Dataview 数据视图.md",
+    "01.基础/Python/Explore/07.文件读写.md"
   ]
 }
