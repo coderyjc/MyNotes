@@ -1,4 +1,4 @@
-> 在学习OS的时候翻译了一下linux系统的 man.sh 
+> 在学习OS的时候翻译了一下 linux系统的 man.sh 
 > 
 > 源文档中分段较少, 我在原文的基础上对段落结构进行了略微分段, 并使用markdown对原文进行了略微排版, 以获得更好的阅读体验. 如有歧义, 请以官方文档为主.
 > 
@@ -6,7 +6,7 @@
 >
 > 本人英语和计算机水平有限, 错误之处还请指出. 不胜感激.
 > 
-> 非商用转载请注明来源.
+> 商用转载请联系授权. 非商用转载请注明来源.
 
 
 # BSD通用命令手册
@@ -353,13 +353,78 @@ case 命令的语法是
 
 ### 将命令组合在一起
 
+可以用 `(list)` 或者 `{list;}` 的方法来组合使用
+
+第一种形式在子 shell 中执行. 分组到列表中的内置命令不会影响当前 shell. 
+
+第二种形式不会派生另一个 shell, 因此效率更高
+
+以这种方式将命令组合在一起允许你重定向它们的输出, 就好像它们是一个程序一样:
+
+```bash
+{ printf " hello " ; printf " world\n" ; } > greeting
+```
+
+请注意，“}”必须跟在控制运算符(此处为“;”)之后, 以便将其识别为保留字而不是另一个命令参数.
+
 ### 函数
+
+函数定义的语法为 
+
+```bash
+name () command
+```
+
+函数定义是一个可执行语句; 在执行时, 它会安装一个名为 name 的函数并返回退出状态为0的状态码. 该命令通常是一个包含在“{”和“}”之间的命令列表
+
+可以使用本地命令将变量声明为函数的局部变量. 这应该作为函数的第一条语句出现, 语法是
+
+```bash
+local [variable | -] ...
+```
+
+局部变量会作为内置命令实现
+
+当一个变量成为局部变量时, 它会从周围范围内具有相同名称的变量中(如果有的话)继承初始值和已导出的只读标志. 否则, 该变量是未设置初始值的. shell 使用动态作用域,因此如果你将变量 x 设置为函数 f 的局部变量, 然后函数 f 调用函数 g, 在 g 中对变量 x 的引用将指向在 f 中声明的变量 x，而不是名为 x 的全局变量.
+
+唯一可以局部化的特殊参数是“-”. 将“-”设置为本地任何通过函数内部的 set 命令更改的 shell 选项, 以便在函数返回时恢复到它们的初始值.
+
+返回命令的语法是
+
+```bash
+return [状态码]
+```
+
+它会终止当前正在执行的函数. Return 将会作为内置命令实现.
 
 ### 变量和参数
 
-### 未知参数
+shell 维护一组参数. 由名称表示的参数称为变量. 启动时, shell 将所有环境变量转换为 shell 变量.
+
+可以用`name=value`设置新变量
+
+用户设置的变量名称必须仅由字母、数字和下划线组成, 并且第一个字符不能是数字. 参数也可以用数字或特殊字符表示, 如下文所述.
+
+### 位置参数
+
+位置参数是由数字 (n > 0) 表示的参数. shell 最初将这些设置为其命令行参数的值, 这些参数遵循 shell 脚本的名称.
+
+内置的 set 命令也可用于设置或重置它们.
 
 ### 特殊参数
+
+特殊参数是由下列特殊字符之一表示的参数. 参数的值列应在字符旁边.
+
+|字符|作用|
+|---|------|
+|*         |  |
+|@         | |
+|#         | |
+|?         | |
+|- (连字符.)| |
+|$         | |
+|!         | |
+|0 (Zero.) | |
 
 ### 词扩展
 
@@ -371,7 +436,7 @@ case 命令的语法是
 
 ### 算数扩展
 
-### 空白符分割
+### 空白分割
 
 ### 路径扩展
 
@@ -381,6 +446,7 @@ case 命令的语法是
 
 ### 命令行编辑
 
+
 ## 退出状态
 
 shell 检测到的错误(例如语法错误)将导致 shell 以非零退出状态退出. 如果 shell 不是交互式 shell, 则 shell 文件的执行将被中止. 否则, shell 将返回最后执行的命令的退出状态, 或者如果 exit 内置函数与数字参数一起使用, 它将返回该参数.
@@ -389,22 +455,21 @@ shell 检测到的错误(例如语法错误)将导致 shell 以非零退出状�
 
 |环境变量 | 解释 |
 |---|---|
-|HOME      | Set automatically by login(1) from the user's login directory in the password file (passwd(4)).  This environment variable also functions as the default argument for the cd builtin.|
-|PATH      | The default search path for executables.  See the above section Path Search.|
-|CDPATH    | The search path used with the cd builtin.|
-|MAIL      | The name of a mail file, that will be checked for the arrival of new mail.  Overridden by MAILPATH.|
-|MAILCHECK | The frequency in seconds that the shell checks for the arrival of mail in the files specified by the MAILPATH or the MAIL file.  If set to 0, the check will occur at each prompt.|
-|MAILPATH  | A colon “:” separated list of file names, for the shell to check for incoming mail.  This environment setting overrides the MAIL setting.  There is a maximum of 10 mailboxes that can be monitored at once.|
-|PS1       | The primary prompt string, which defaults to “$ ”, unless you are the superuser, in which case it defaults to “# ”.|
-|PS2       | The secondary prompt string, which defaults to “> ”.|
-|PS4       | Output before each line when execution trace (set -x) is enabled, defaults to “+ ”.|
-|IFS       | Input Field Separators.  This is normally set to ⟨space⟩, ⟨tab⟩, and ⟨newline⟩.  See the White Space Splitting section for more details.|
-|TERM      | The default terminal setting for the shell.  This is inherited by children of the shell, and is used in the history editing modes.|
-|HISTSIZE  | The number of lines in the history buffer for the shell.|
-|PWD       | The logical value of the current working directory.  This is set by the cd command.|
-|OLDPWD    | The previous logical value of the current working directory.  This is set by the cd command.|
-|PPID      | The process ID of the parent process of the shell.|
-
+|HOME      | 由密码文件 (passwd(4)) 中用户登录目录中的 login(1) 自动设置. 此环境变量还用作 cd 内置函数的默认参数 |
+|PATH      | 可执行文件的默认搜索路径 |
+|CDPATH    | CD内置使用的搜索路径|
+|MAIL      | 邮件文件的名称,将检查新邮件的到达. 会被MAILPATH重写.|
+|MAILCHECK | Shell在邮件路径或邮件文件指定的文件中检查邮件到达的几秒钟之内的频率 |
+|MAILPATH  | 一个由冒号“:”分隔的文件名列表, 供 shell 检查进入的邮件. 此环境设置会覆盖 MAIL 设置. 一次最多可以检查 10 个邮箱. |
+|PS1       | 主要的默认提示字符串, 普通用户是“#”, 超级用户为“$”|
+|PS2       | 第二重要的提示字符串, 默认是 “> ”.|
+|PS4       | 启用执行跟踪 (set -x) 时在每行之前输出, 默认是“+”.|
+|IFS       | 输入字段分隔符. 通常设置为⟨space⟩、⟨tab⟩和⟨newline⟩. 查看更多详细信息, 请参阅空白分割部分.  |
+|TERM      | shell 终端的默认设置. 会被子shell继承, 用于历史编辑模式 |
+|HISTSIZE  | shell 历史缓冲区中的命令行数量. |
+|PWD       | 当前工作目录. 由cd命令设置. |
+|OLDPWD    | 当前工作目录的前一个值. 由cd命令设置.|
+|PPID      | 当前 shell 的父进程的进程ID. |
 
 ## 文件
 
