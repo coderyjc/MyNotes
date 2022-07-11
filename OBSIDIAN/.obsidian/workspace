@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03.工程/后端开源项目学习/Halo/index.md",
+            "file": "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03.工程/后端开源项目学习/Halo/index.md",
+                "file": "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03.工程/后端开源项目学习/Halo/index.md"
+                "file": "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md"
               }
             }
           }
@@ -99,6 +99,8 @@
   },
   "active": "208580ecde9acaae",
   "lastOpenFiles": [
+    "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
+    "08.博客/evilemperor/爬取导航网站的网站.md",
     "03.工程/后端开源项目学习/Halo/index.md"
   ]
 }
