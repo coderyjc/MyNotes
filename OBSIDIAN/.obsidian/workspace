@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "208580ecde9acaae",
+        "id": "dd46892b78375f81",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -53,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200.0107650756836
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,22 +80,28 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "208580ecde9acaae",
+  "active": "dd46892b78375f81",
   "lastOpenFiles": [
+    "home.md",
+    "09.游戏/月圆之夜.md",
+    "01.基础/前端/HTML&CSS/HTML&CSS.md",
+    "01.基础/考研复习/数据结构复习.md",
+    "08.博客/evilemperor/goodnotes笔记配色.md",
+    "01.基础/考研复习/组成原理.md",
+    "08.博客/evilemperor/30secondsofcode-python-string.md",
+    "08.博客/evilemperor/linux卸载预装openjdk并安装新的.md",
     "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
-    "08.博客/evilemperor/爬取导航网站的网站.md",
-    "03.工程/后端开源项目学习/Halo/index.md"
+    "08.博客/evilemperor/部署mc服务器.md"
   ]
 }

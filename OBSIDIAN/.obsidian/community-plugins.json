@@ -3,5 +3,6 @@
   "templater-obsidian",
   "obsidian-kanban",
   "obsidian-annotator",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "oz-clear-unused-images"
 ]

@@ -2,10 +2,10 @@
   "legacyEditor": false,
   "livePreview": true,
   "fileSortOrder": "alphabetical",
-  "attachmentFolderPath": "08.博客/evilemperor/assets",
-  "promptDelete": false,
+  "attachmentFolderPath": "./assets",
+  "promptDelete": true,
   "alwaysUpdateLinks": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "readableLineLength": true,
   "pdfExportSettings": {
     "pageSize": "A4",
@@ -13,5 +13,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "newFileLocation": "current"
 }
