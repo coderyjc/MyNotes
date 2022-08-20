@@ -24,7 +24,7 @@ web.js -> node.js
 - 基于Web的应用
 - 多客户端的通信，如即时通信
 - 
-![[image-20211126205558677.png]]
+![[Untitled.imgs/image-20211126205558677.png]]
 
 
 - Node是对ES标准一个实现，Node也是一个8引擎
@@ -147,7 +147,7 @@ req.fn()
 
 再进一步证明：`arguments.callee `保存当前执行的函数对象，只要打印出这个值即可
 
-![image-20211126220553523](image-20211126220553523.png)
+![image-20211126220553523](Untitled.imgs/image-20211126220553523.png)
 
 
 
