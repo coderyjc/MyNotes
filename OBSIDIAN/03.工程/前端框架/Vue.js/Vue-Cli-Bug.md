@@ -75,4 +75,4 @@ vue中标签写 `<view>` 不会渲染文字，而是应该写 `<div>`
 > We're sorry but readingnotes doesn't work properly without JavaScript enabled. Please enable it to continue.
 
 -   可能是科学上网了
--   [[Axios]] 的 BASE_URL 不对
+-   [[../../../01.基础/前端/6.Vue.js/Axios]] 的 BASE_URL 不对

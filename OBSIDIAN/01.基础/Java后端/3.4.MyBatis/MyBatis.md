@@ -251,16 +251,16 @@ IStudentDao.xml 中添加语句
 
 直接创建新建文件的模板
 
-![[image-20210109101555797.png]]
+![[MyBatis.imgs/image-20210109101555797.png]]
 以后在创建文件的时候可以直接选择这个模板对应的文件了
 
-![[image-20210109101834044.png]]
-![[image-20210109101817847.png]]
+![[MyBatis.imgs/image-20210109101834044.png]]
+![[MyBatis.imgs/image-20210109101817847.png]]
 
 
 同样的方法创建了主配置文件`mybatis-config`
 
-![[image-20210109102158505.png]]
+![[MyBatis.imgs/image-20210109102158505.png]]
 ### 设置在控制台上输出运行日志
 
 在mybatis.xml中添加

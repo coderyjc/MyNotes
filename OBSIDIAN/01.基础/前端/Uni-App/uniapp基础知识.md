@@ -49,7 +49,7 @@ HBuilderX是通用的前端开发工具，但为`uni-app`做了特别强化。
 
 + 选择uni-app,填写项目名称，项目创建的目录
 
-  ![](./images/create.jpg)
+  ![](images/create.jpg)
 
 
 ##### 运行项目
@@ -302,7 +302,7 @@ uni-app中的组件，就像 `HTML` 中的 `div` 、`p`、`span` 等标签的作
 
 ###### 001 - 组件的属性
 
-![](./images/2view.png)
+![](images/2view.png)
 
 ###### 002 - 代码案例
 

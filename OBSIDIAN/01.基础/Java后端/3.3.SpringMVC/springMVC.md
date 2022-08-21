@@ -64,7 +64,7 @@ DispatherServlet: 负责接收用户的所有请求， 用户把请求给了Disp
 
 更改web版本为4.0
 
-![[image-20210111103339072.png]]
+![[SpringMVC.imgs/image-20210111103339072.png]]
 
 
 注册中央调度器DispatcherServlt，需要在tomcat服务器启动后，创建DispatcherServlet对象的实例。
@@ -162,7 +162,7 @@ public class MyController {
 
 上面的过程简化的方式  some.do---DispatcherServlet---MyController
 
-![[image-20210112095419640.png]]
+![[SpringMVC.imgs/image-20210112095419640.png]]
 
 
 用户可以直接通过在地址栏敲入show.jsp直接显示页面，但是这时候页面中并没有获取到数据，此时我们需要隐藏显示结果的视图，也就是将show.jsp放入 `webapp/WEB-INF/view` 下面达到隐藏效果，但是此时在控制器中转发的时候要写完整的路径，所以我们要在springmvc配置文件中进行配置**视图解析器**
@@ -187,7 +187,7 @@ public class MyController {
 
 ### SpringMVC执行流程
 
-![[image-20210113162949692.png]]
+![[SpringMVC.imgs/image-20210113162949692.png]]
 1. 浏览器提交请求到中央调度器
 2. 中央调度器直接将请求转给处理器映射器。
 3. 处理器映射器会根据请求，找到处理该请求的处理器，并将其封装为处理器执行链后返回给中央调度器。
@@ -730,7 +730,7 @@ springmvc容器和spring容器是有关系的，关系已经确定好了。sprin
 
 ### 请求转发和重定向
 
-![[image-20210113103410547.png]]
+![[SpringMVC.imgs/image-20210113103410547.png]]
 请求转发的使用情况：因为我们已经配置了视图解析器，所以在跳转的时候我们不能直接通过 setViewName的方式跳转到view目录以外的目录，为了能够跳转到view以外的目录，我们需要用到请求转发操作。
 
 语法：`modelAndView.setViewName("forward:完整目录")`
@@ -913,7 +913,7 @@ public class GlobalExceptionHandler {
 1. 定义类实现HandlerInterceptor接口
 2. 在springmvc配置文件中，声明拦截器， 让框架知道拦截器的存在。
 
-![[image-20210113155716488.png]]
+![[SpringMVC.imgs/image-20210113155716488.png]]
 实现接口：
 
 ```java
@@ -1000,7 +1000,7 @@ public class MyInterceptor implements HandlerInterceptor {
 
 多个拦截器的执行顺序：
 
-![[image-20210113155834039.png]]
+![[SpringMVC.imgs/image-20210113155834039.png]]
 ```text
 第一个拦截器preHandle=true , 第二个拦截器preHandle=true 
 

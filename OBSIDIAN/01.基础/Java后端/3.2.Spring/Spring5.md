@@ -63,10 +63,10 @@ xml解析、工厂模式、反射
 
 工厂模式：
 
-![[image-20210104163554079.png]]
+![[Spring5.imgs/image-20210104163554079.png]]
 IOC过程
 
-![[image-20210104164919877.png]]
+![[Spring5.imgs/image-20210104164919877.png]]
 ### 2.2 IOC 接口（BeanFactory）
 
 1、IOC 思想基于 IOC 容器完成，IOC 容器底层就是对象工厂 
@@ -632,16 +632,16 @@ public static void main(String[] args) {
 
 使用登录例子说明 AOP：
 
-![[image-20210105160436913.png]]
+![[Spring5.imgs/image-20210105160436913.png]]
 AOP底层使用动态代理
 
 - 有接口情况，使用JDK动态代理
     - 创建接口实现类代理对象增强类的方法
 
-![[image-20210105161355902.png]]
+![[Spring5.imgs/image-20210105161355902.png]]
 - 没有接口情况，使用CGLIB动态代理
 
-![[image-20210105161457964.png]]
+![[Spring5.imgs/image-20210105161457964.png]]
 AOP（JDK动态代理）
 
 <mark>可以不掌握，我们有专门的封装类</mark>
@@ -732,7 +732,7 @@ Spring框架一般都是基于AspectJ实现AOP操作
 
 引入依赖： 
 
-![[image-20210106092108559.png]]
+![[Spring5.imgs/image-20210106092108559.png]]
 切入点表达式：
 
 作用：知道对哪个类里面的哪个方法进行增强
@@ -927,7 +927,7 @@ com.atguigu.spring5.aopxml.Book.buy(..))"/>
 
 1. 引入相关jar包
 
-![[image-20210106104856037.png]]
+![[Spring5.imgs/image-20210106104856037.png]]
 2. 在spring配置文件中配置数据库连接池
 
 ```xml
@@ -1261,7 +1261,7 @@ public class UserService {
 
 在 @Transactional 中可以配置和事务相关的参数
 
-![[image-20210107082520535.png]]
+![[Spring5.imgs/image-20210107082520535.png]]
 比如:
 
 ```java
@@ -1274,8 +1274,8 @@ public class UserService {
 
 记住前两个
 
-![[image-20210107083445897.png]]
-![[image-20210107083102949.png]]
+![[Spring5.imgs/image-20210107083445897.png]]
+![[Spring5.imgs/image-20210107083102949.png]]
 
 
 #### isolation：事务隔离级别
@@ -1292,7 +1292,7 @@ public class UserService {
 
 解决：通过设置事务隔离级别，解决读问题
 
-![[image-20210107083220682.png]]
+![[Spring5.imgs/image-20210107083220682.png]]
 #### timeout：超时时间
 
 事务需要在一定时间内进行提交，如果不提交进行回滚
@@ -1367,7 +1367,7 @@ ApplicationContext context = new AnnotationConfigApplicationContext();
 
 Spring5整合了log4j2。
 
-![[image-20210107141845730.png]]2. 创建log4j2.xml 配置文件，必须是这个名字，不能是别的。
+![[Spring5.imgs/image-20210107141845730.png]]2. 创建log4j2.xml 配置文件，必须是这个名字，不能是别的。
 3. 把下面代码复制过去
 
 ```xml

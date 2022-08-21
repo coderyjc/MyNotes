@@ -14,7 +14,7 @@
 
 2. 按照如下配置配置VM网络，我们要根据子网ip来配置虚拟机的IP地址
 
-![image-20210307192310115](R:\GITHUB\MyNotes\_Typora\_Docs\XShell连接虚拟机.imgs\image-20210307192310115.png)
+![image-20210307192310115](./XShell连接虚拟机.imgs/image-20210307192310115.png)
 
 3. 配置Linux的静态ip
 

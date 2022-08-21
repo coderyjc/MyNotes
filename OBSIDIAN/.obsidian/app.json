@@ -3,7 +3,7 @@
   "livePreview": true,
   "fileSortOrder": "alphabetical",
   "attachmentFolderPath": "./assets",
-  "promptDelete": true,
+  "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
   "readableLineLength": true,

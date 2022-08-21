@@ -34,11 +34,11 @@
 
 这三个东西是可以删掉的。
 
-![image-20210522195312814](image-20210522195312814.png)
+![image-20210522195312814](SpringBoot2.imgs/image-20210522195312814.png)
 
-![image-20210522195858611](image-20210522195858611.png)
+![image-20210522195858611](SpringBoot2.imgs/image-20210522195858611.png)
 
-![image-20210522195908996](image-20210522195908996.png)
+![image-20210522195908996](SpringBoot2.imgs/image-20210522195908996.png)
 
 ### 目录介绍
 
@@ -164,7 +164,7 @@ spring:
 
 举例：
 
-![image-20210522212347297](image-20210522212347297.png)
+![image-20210522212347297](SpringBoot2.imgs/image-20210522212347297.png)
 
 ### 引入外部配置文件信息
 
@@ -209,7 +209,7 @@ aliyun:
 </dependency>
 ```
 
-![[image-20210522222240546.png]]
+![[SpringBoot2.imgs/image-20210522222240546.png]]
 
 ### SpringBoot中的热加载（热部署）
 
@@ -225,7 +225,7 @@ aliyun:
 
 然后
 
-![image-20210522222638870](image-20210522222638870.png)
+![image-20210522222638870](SpringBoot2.imgs/image-20210522222638870.png)
 
 然后重启项目
 
@@ -233,7 +233,7 @@ aliyun:
 
 **通过build重新构建工程**
 
-![image-20210522222854339](image-20210522222854339.png)
+![image-20210522222854339](SpringBoot2.imgs/image-20210522222854339.png)
 
 ## 整合MyBatis
 
@@ -315,7 +315,7 @@ public interface AirMapper {
 @MapperScan(basePackages = "com.gopan.firstspringboot.mapper")
 ```
 
-![image-20210522225226184](image-20210522225226184.png)
+![image-20210522225226184](SpringBoot2.imgs/image-20210522225226184.png)
 
 ```xml
 <!-- 2.3 准备映射文件 -->
@@ -356,11 +356,11 @@ spring:
 
 测试
 
-![image-20210522225743071](image-20210522225743071.png)
+![image-20210522225743071](SpringBoot2.imgs/image-20210522225743071.png)
 
-![[image-20210522225842149.png]]
+![[SpringBoot2.imgs/image-20210522225842149.png]]
 
-![image-20210522230107069](image-20210522230107069.png)
+![image-20210522230107069](SpringBoot2.imgs/image-20210522230107069.png)
 
 
 
@@ -514,11 +514,11 @@ public void findByPaage(){
 
 创建webapp和web-inf存放页面
 
-![image-20210523084138269](image-20210523084138269.png)
+![image-20210523084138269](SpringBoot2.imgs/image-20210523084138269.png)
 
 配置视图解析器
 
-![image-20210523084228494](image-20210523084228494.png)
+![image-20210523084228494](SpringBoot2.imgs/image-20210523084228494.png)
 
-![image-20210523084314258](image-20210523084314258.png)
+![image-20210523084314258](SpringBoot2.imgs/image-20210523084314258.png)
 

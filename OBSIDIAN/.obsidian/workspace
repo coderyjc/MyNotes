@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "dd46892b78375f81",
+        "id": "2b7997e5144038fb",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -49,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.0107650756836
+    "width": 245
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -91,17 +91,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dd46892b78375f81",
+  "active": "2b7997e5144038fb",
   "lastOpenFiles": [
-    "home.md",
     "09.游戏/月圆之夜.md",
-    "01.基础/前端/HTML&CSS/HTML&CSS.md",
-    "01.基础/考研复习/数据结构复习.md",
-    "08.博客/evilemperor/goodnotes笔记配色.md",
-    "01.基础/考研复习/组成原理.md",
-    "08.博客/evilemperor/30secondsofcode-python-string.md",
-    "08.博客/evilemperor/linux卸载预装openjdk并安装新的.md",
-    "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
-    "08.博客/evilemperor/部署mc服务器.md"
+    "03.工程/服务器相关/Nginx/Nginx部署多个项目.md",
+    "03.工程/操作系统/Linux/Linux.md",
+    "03.工程/安卓原生开发/安卓原生开发工作记录.md",
+    "01.基础/前端/WebPack/Webpack.md",
+    "01.基础/前端/CSS3/CSS3.md",
+    "01.基础/前端/2.JavaScript/JavaScript.md",
+    "01.基础/前端/0.Introduction/前端课程体系.md",
+    "home.md",
+    "01.基础/前端/_Introduction/assets/J0PTF[$AFRNN(IU5AR}I(UK.jpg"
   ]
 }

@@ -145,25 +145,25 @@ public class MvcController {
 
 #### 不使用模板引擎的时候
 
-![image-20210824225157238](image-20210824225157238.png)
+![image-20210824225157238](BugRecord.imgs/image-20210824225157238.png)
 
 
 
 case1：
 
-![image-20210824225213525](image-20210824225213525.png)
+![image-20210824225213525](BugRecord.imgs/image-20210824225213525.png)
 
 
 
 case2：
 
-![image-20210824225224036](image-20210824225224036.png)
+![image-20210824225224036](BugRecord.imgs/image-20210824225224036.png)
 
 
 
 case3：
 
-![image-20210824225233916](image-20210824225233916.png)
+![image-20210824225233916](BugRecord.imgs/image-20210824225233916.png)
 
 
 
@@ -204,7 +204,7 @@ spring:
      cache: false
 ```
 
-![image-20210824225415734](image-20210824225415734.png)![image-20210824225434314](image-20210824225434314.png)
+![image-20210824225415734](BugRecord.imgs/image-20210824225415734.png)![image-20210824225434314](BugRecord.imgs/image-20210824225434314.png)
 
 
 
