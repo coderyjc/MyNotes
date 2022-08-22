@@ -7,8 +7,12 @@
         "id": "2b7997e5144038fb",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "04.文档/Linux/sh.ma.translate.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "man.sh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04.文档/Linux/sh.ma.translate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "04.文档/Linux/sh.ma.translate.md"
+              }
             }
           }
         ],
@@ -91,7 +99,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2b7997e5144038fb",
+  "active": "1f74b340a1d27e17",
   "lastOpenFiles": [
     "09.游戏/月圆之夜.md",
     "03.工程/服务器相关/Nginx/Nginx部署多个项目.md",
