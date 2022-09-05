@@ -74,3 +74,16 @@ Vscode提供了`User Snippet` 用户代码片段，让用户可以自定义快�
 "editor.fontLigatures": true,
 ```
 
+
+> 禁止突出显示歧义字符
+
+![](assets/Pasted%20image%2020220904125954.png)
+
+![](assets/Pasted%20image%2020220904130023.png)
+
+禁止突出显示歧义字符
+
+![](assets/Pasted%20image%2020220904130034.png)
+
+![](assets/Pasted%20image%2020220904130048.png)
+

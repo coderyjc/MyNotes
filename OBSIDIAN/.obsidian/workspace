@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2b7997e5144038fb",
+        "id": "067e6b82d07a5c38",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "04.文档/Linux/sh.ma.translate.md",
+            "file": "01.基础/前端/1.HTML&CSS/why_HTML.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "man.sh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,12 +49,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 245
+    "width": 245,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04.文档/Linux/sh.ma.translate.md",
+                "file": "01.基础/前端/1.HTML&CSS/why_HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04.文档/Linux/sh.ma.translate.md"
+                "file": "01.基础/前端/1.HTML&CSS/why_HTML.md"
               }
             }
           }
@@ -99,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1f74b340a1d27e17",
+  "active": "067e6b82d07a5c38",
   "lastOpenFiles": [
-    "09.游戏/月圆之夜.md",
-    "03.工程/服务器相关/Nginx/Nginx部署多个项目.md",
-    "03.工程/操作系统/Linux/Linux.md",
-    "03.工程/安卓原生开发/安卓原生开发工作记录.md",
-    "01.基础/前端/WebPack/Webpack.md",
-    "01.基础/前端/CSS3/CSS3.md",
-    "01.基础/前端/2.JavaScript/JavaScript.md",
-    "01.基础/前端/0.Introduction/前端课程体系.md",
+    "01.基础/前端/1.HTML&CSS/HTML&CSS.md",
+    "01.基础/前端/1.HTML&CSS/why_HTML.md",
+    "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
+    "04.文档/vscode/基本使用/VsCode基础知识.md",
+    "01.基础/前端/1.HTML&CSS/assets/Pasted image 20220902223843.png",
     "home.md",
-    "01.基础/前端/_Introduction/assets/J0PTF[$AFRNN(IU5AR}I(UK.jpg"
+    "08.博客/evilemperor/日常开发常用软件.md",
+    "01.基础/前端/0.Introduction/前端课程体系.md",
+    "08.博客/evilemperor/DTO,VO,POJO,ENTITY 等类的区分.md",
+    "08.博客/evilemperor/springBoot多环境配置.md"
   ]
 }
