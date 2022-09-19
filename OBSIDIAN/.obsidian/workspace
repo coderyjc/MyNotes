@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "067e6b82d07a5c38",
+        "id": "70413140abe88fc2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "01.基础/前端/1.HTML&CSS/why_HTML.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -53,8 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245,
-    "collapsed": true
+    "width": 245
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01.基础/前端/1.HTML&CSS/why_HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01.基础/前端/1.HTML&CSS/why_HTML.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -99,17 +91,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "067e6b82d07a5c38",
+  "active": "70413140abe88fc2",
   "lastOpenFiles": [
-    "01.基础/前端/1.HTML&CSS/HTML&CSS.md",
-    "01.基础/前端/1.HTML&CSS/why_HTML.md",
-    "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
-    "04.文档/vscode/基本使用/VsCode基础知识.md",
-    "01.基础/前端/1.HTML&CSS/assets/Pasted image 20220902223843.png",
-    "home.md",
-    "08.博客/evilemperor/日常开发常用软件.md",
-    "01.基础/前端/0.Introduction/前端课程体系.md",
-    "08.博客/evilemperor/DTO,VO,POJO,ENTITY 等类的区分.md",
-    "08.博客/evilemperor/springBoot多环境配置.md"
+    "02.算法/PTA/格式化输入输出.md",
+    "02.算法/PTA/模板.md",
+    "02.算法/PTA/tips.md",
+    "02.算法/PTA/字符串相关.md",
+    "03.工程/浏览器相关/Chrome浏览器调试问题汇总.md",
+    "03.工程/浏览器相关/FireFox浏览器调试问题汇总.md",
+    "03.工程/浏览器相关/assets/Pasted image 20220131010037.png",
+    "08.博客/evilemperor/bilibili页面无法正常显示问题汇总.md",
+    "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
+    "08.博客/evilemperor/linux卸载预装openjdk并安装新的.md"
   ]
 }
