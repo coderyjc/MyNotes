@@ -1,11 +1,8 @@
-# debug记录日志
+# Servlet&JSP
 
 ### 注意事项
 
 IDEA在update classes and resources 的时候不会更新servlet！！！！！
-
-
-
 
 
 ### HTTP Status 500

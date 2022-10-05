@@ -50,15 +50,11 @@ Epub底层是zip压缩文件，把epub格式文件后缀名改为zip解压之后
   - media-type：文件的媒体类型
   - 例如：< item id="chap01" href="chap01.xhtml" media-type="application/xhtml+xml"/>
 
-
-
 3. < spine toc="ncx">，脊骨，其主要功能是提供书籍的线性阅读次序。由一个子元素构成：
 
 - < itemref idref="">,由一个属性构成：
 - - idref:即参照menifest列出的ID
   - 例如：< itemref idref="chap01"/>
-
-
 
 4. < guide>,指南,依次列出电子书的特定页面, 例如封面、目录、序言等, 属性值指向文件保存地址。一般情况下，epub电子书可以不用该元素。
 
@@ -93,8 +89,4 @@ Epub底层是zip压缩文件，把epub格式文件后缀名改为zip解压之后
 文章的文本。
 
 html格式存放，可修改。
-
-
-
-
 

@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "70413140abe88fc2",
+        "id": "a495654f38a453f2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "08.博客/evilemperor/vuepress.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "08.博客/evilemperor/vuepress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "08.博客/evilemperor/vuepress.md"
+              }
             }
           }
         ],
@@ -88,20 +95,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "70413140abe88fc2",
+  "active": "a495654f38a453f2",
   "lastOpenFiles": [
-    "02.算法/PTA/格式化输入输出.md",
-    "02.算法/PTA/模板.md",
-    "02.算法/PTA/tips.md",
-    "02.算法/PTA/字符串相关.md",
-    "03.工程/浏览器相关/Chrome浏览器调试问题汇总.md",
-    "03.工程/浏览器相关/FireFox浏览器调试问题汇总.md",
-    "03.工程/浏览器相关/assets/Pasted image 20220131010037.png",
-    "08.博客/evilemperor/bilibili页面无法正常显示问题汇总.md",
-    "08.博客/evilemperor/CuteHttpFileServer局域网文件传输服务搭建.md",
-    "08.博客/evilemperor/linux卸载预装openjdk并安装新的.md"
+    "04.文档/前端组件库/Vuepress/VuePress入门指南.md",
+    "08.博客/evilemperor/vuepress.md",
+    "01.基础/数据库/MySQL/MySQL高级.md",
+    "01.基础/数据库/Redis/Redis.md",
+    "01.基础/数据库/ORACLE/ORCL.md",
+    "01.基础/数据库/MongoDB/MongoDB.md",
+    "01.基础/Python/OpenCV/2.jpg",
+    "01.基础/Python/Explore/07.文件读写.md",
+    "01.基础/Python/Explore/06.高级特性.md",
+    "01.基础/Python/Explore/05.类.md"
   ]
 }

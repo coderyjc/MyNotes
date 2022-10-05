@@ -140,7 +140,7 @@ DI：依赖注入（注入属性），需要在创建对象的基础之上完成
     1. null值
 
         ```xml
-    <property name="name">
+        <property name="name">
           <null/>
         </property>
         ```
@@ -605,7 +605,8 @@ expression="org.springframework.stereotype.Controller"/>
 @ComponentScan(basePackages = "com.Jancoyan.spring")
 public class SpringConfig {
 }
-```
+
+```java
 2. 编写测试类
 
 java

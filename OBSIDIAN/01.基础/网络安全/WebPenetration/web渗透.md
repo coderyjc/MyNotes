@@ -10,9 +10,6 @@
 ![image-20211023201039462](web渗透.imgs/image-20211023201039462.png)
 
 
-
-
-
 虚拟机网络改成桥接
 
 然后重新设置虚拟机的ip
@@ -24,7 +21,6 @@ dhclient -r eth0 # 释放eth0的ip
 dhclient -v eth0 # 重新获取ip
 # 如果不行就直接  dhclient eth0
 ```
-
 
 
 ### OWASPBWA的使用
@@ -42,7 +38,6 @@ dhclient -v eth0 # 重新获取ip
 通过 [http://192.168.81.130](http://192.168.81.130/phpmyadmin) 访问到系统管理页面
 
 以上所有访问的用户名均为 `root` 密码为 `owaspbwa`
-
 
 
 我们一般用 ssh 连接 owa靶机，用图形界面操作kali
