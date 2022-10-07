@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "08.博客/evilemperor/vuepress.md",
+            "file": "01.基础/考研复习/操作系统.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08.博客/evilemperor/vuepress.md",
+                "file": "01.基础/考研复习/操作系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08.博客/evilemperor/vuepress.md"
+                "file": "01.基础/考研复习/操作系统.md"
               }
             }
           }
@@ -99,15 +99,15 @@
   },
   "active": "a495654f38a453f2",
   "lastOpenFiles": [
-    "04.文档/前端组件库/Vuepress/VuePress入门指南.md",
+    "01.基础/考研复习/考纲.md",
+    "01.基础/考研复习/数据结构.md",
+    "01.基础/考研复习/操作系统.md",
     "08.博客/evilemperor/vuepress.md",
+    "04.文档/前端组件库/Vuepress/VuePress入门指南.md",
     "01.基础/数据库/MySQL/MySQL高级.md",
     "01.基础/数据库/Redis/Redis.md",
     "01.基础/数据库/ORACLE/ORCL.md",
     "01.基础/数据库/MongoDB/MongoDB.md",
-    "01.基础/Python/OpenCV/2.jpg",
-    "01.基础/Python/Explore/07.文件读写.md",
-    "01.基础/Python/Explore/06.高级特性.md",
-    "01.基础/Python/Explore/05.类.md"
+    "01.基础/Python/OpenCV/2.jpg"
   ]
 }
