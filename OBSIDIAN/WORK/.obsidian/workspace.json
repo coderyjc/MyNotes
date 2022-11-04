@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "92a467a1cc8481eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c47521fe50634d2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04e15840adf632b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3a1cb4f7dc21e56",
+    "type": "split",
+    "children": [
+      {
+        "id": "53b505a8467737a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2988b14426e11db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1f74b340a1d27e17",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#HTML",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 245
+  },
+  "right": {
+    "id": "74c9699ade28f3f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7473eb9910fae944",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f3a381f5286a2b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03.工程/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "1f74b340a1d27e17",
+  "lastOpenFiles": [
+    "home.md",
+    "08.博客/evilemperor/vuepress.md",
+    "03.工程/项目构建工具/Gradle/Gradle.md",
+    "03.工程/操作系统/Linux/Linux.md",
+    "03.工程/服务器相关/Nginx/Nginx部署多个项目.md",
+    "03.工程/浏览器相关/FireFox浏览器调试问题汇总.md",
+    "03.工程/浏览器相关/Chrome浏览器调试问题汇总.md",
+    "03.工程/前端框架/Uni-App/Uni-App-Bug.md",
+    "03.工程/前端框架/Uni-App/Uni-App-ScrollView.md",
+    "03.工程/数据科学/Pandas/Pandas.md"
+  ]
+}
