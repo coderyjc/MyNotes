@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c47521fe50634d2b",
+        "id": "8a859634e8c9953b",
         "type": "tabs",
         "children": [
           {
-            "id": "04e15840adf632b2",
+            "id": "694925bb075e0b60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "md/数据科学/Python/Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78ea1517f5b0bcef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "md/数据库/MySQL/MySQL-Bug.md",
+                "file": "md/Python库/python-os.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/数据库/MySQL/MySQL-Bug.md",
+                "file": "md/Python库/python-os.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/数据库/MySQL/MySQL-Bug.md"
+                "file": "md/Python库/python-os.md"
               }
             }
           }
@@ -118,17 +105,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "78ea1517f5b0bcef",
+  "active": "694925bb075e0b60",
   "lastOpenFiles": [
-    "md/Python库/python-os.md",
     "md/Python库/PyEcharts.md",
-    "md/Git/Git.md",
-    "md/正则表达式/正则表达式.md",
-    "md/小技巧/IDEA/IDEA快捷键.md",
-    "md/项目构建工具/NPM/NPM.md",
-    "md/项目构建工具/Maven/Maven.md",
     "md/项目构建工具/Gradle/Gradle.md",
-    "md/数据库/Redis/Redis-Bug.md",
-    "md/数据库/MySQL/MySQL-Bug.md"
+    "md/项目构建工具/Maven/Maven.md",
+    "md/项目构建工具/NPM/NPM.md",
+    "md/小技巧/IDEA/IDEA快捷键.md",
+    "md/正则表达式/正则表达式.md",
+    "md/浏览器相关/FireFox浏览器调试问题汇总.md",
+    "md/浏览器相关/Chrome浏览器调试问题汇总.md",
+    "md/环境问题总结/HBuilder连接夜神模拟器.md",
+    "md/环境问题总结/Docker安装与卸载.md"
   ]
 }
