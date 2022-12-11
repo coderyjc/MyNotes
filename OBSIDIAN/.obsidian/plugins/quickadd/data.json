@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "id": "358f2500-7c2e-4836-9c17-0c12898cbe49",
+      "name": "daily",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_template/dailynote.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false
+}
