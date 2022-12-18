@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d2f4a20efe047503",
+        "id": "4538d532d47616c4",
         "type": "tabs",
         "children": [
           {
-            "id": "2e02f844dea83986",
+            "id": "4c76b82c536d1ef8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1.收集箱/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1.收集箱/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1.收集箱/README.md"
+              }
             }
           },
           {
@@ -102,25 +109,24 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "2e02f844dea83986",
+  "active": "4c76b82c536d1ef8",
   "lastOpenFiles": [
-    "4.归档/工作/工程/环境问题总结/npm和node安装.md",
-    "4.归档/工作/工程/后端框架/MyBatis/【整合】MyBatis - 整合其他插件.md",
-    "4.归档/工作/工程/后端框架/MyBatis/assets/image-20220131015250.png",
-    "4.归档/工作/工程/后端框架/MyBatis/assets/image-20220131015058.png",
-    "Pasted image 20220131015250.png.md",
-    "4.归档/工作/工程/后端框架/MyBatis/【Bug】MyBatis - Bug.md",
-    "4.归档/工作/工程/后端框架/MyBatis/未命名.md",
-    "4.归档/工作/工程/后端框架/MyBatis/Pasted image 20220131015058.png.md",
-    "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md",
-    "4.归档/工作/工程/前端框架/Vue.js/Vue-Cli.md"
+    "1.收集箱/log.md",
+    "1.收集箱/wechat_notes/精品小说/悟空传（典藏纪念版）-今何在.md",
+    "1.收集箱/wechat_notes/精品小说/龙族Ⅰ：火之晨曦-江南.md",
+    "1.收集箱/wechat_notes/经济理财/半小时漫画经济学系列（共4册）（独家定制版）-陈磊·半小时漫画团队.md",
+    "1.收集箱/wechat_notes/精品小说/三体（全集）-刘慈欣.md",
+    "1.收集箱/wechat_notes/计算机/深入分析Java Web技术内幕-许令波.md",
+    "1.收集箱/wechat_notes/计算机/深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）-周志明.md",
+    "1.收集箱/wechat_notes/计算机/利用Python进行数据分析（原书第2版）-韦斯·麦金尼.md",
+    "1.收集箱/wechat_notes/计算机/操作系统之哲学原理第2版-邹恒明.md",
+    "1.收集箱/wechat_notes/计算机/操作系统导论-雷姆兹·H.阿帕希杜塞尔 安德莉亚·C.阿帕希杜塞尔.md"
   ]
 }

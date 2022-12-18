@@ -4,8 +4,7 @@ skill: Uni-App
 create_date: 2022-01-31
 ---
 
-#前端框架  #Vue 
-
+#前端框架/Uni-App
 
 # 下拉刷新无法正常恢复的问题
 

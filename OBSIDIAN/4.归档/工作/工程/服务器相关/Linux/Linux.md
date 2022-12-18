@@ -4,7 +4,7 @@ skill: Linux
 create_date: 2022-01-31
 ---
 
-#Linux #操作系统 
+#OS/Linux 
 
 # Linux
 

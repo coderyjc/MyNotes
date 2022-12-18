@@ -4,7 +4,7 @@ skill: MyBatis
 create_date: 2022-01-31
 ---
 
-#JavaWeb #后端 #MyBatis
+#JavaWeb #MyBatis #Bug/MyBatis
 
 # MyBatis
 

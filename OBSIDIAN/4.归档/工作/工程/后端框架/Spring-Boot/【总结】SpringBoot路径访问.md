@@ -4,7 +4,7 @@ skill: SpringBoot
 create_date: 2022-01-31
 ---
 
-#后端 #JavaWeb #SpringBoot #Spring
+#JavaWeb #SpringBoot #Spring
 
 # 路径访问
 
