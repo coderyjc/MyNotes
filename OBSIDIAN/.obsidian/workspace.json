@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d0f3e1752988058f",
+        "id": "636412be1e39ad64",
         "type": "tabs",
         "children": [
           {
-            "id": "f54be80587b5bee5",
+            "id": "e67d7401bff20e62",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "2.等待处理/Daily/2022-12-26.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -59,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.51103591918945
+    "width": 330
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -75,8 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Daily/2022-12-26.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -91,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Daily/2022-12-26.md"
-              }
+              "state": {}
             }
           },
           {
@@ -107,24 +102,38 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "f54be80587b5bee5",
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-weread-plugin:Weread": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "e67d7401bff20e62",
   "lastOpenFiles": [
-    "2.等待处理/Dashboard/warehouse.md",
-    "2.等待处理/Daily/2022-12-26.md",
+    "2.等待处理/Daily/未命名.canvas",
     "2.等待处理/Daily/2022-12-25.md",
+    "2.等待处理/Daily/2022-12-26.md",
+    "1.收集箱/wechat_notes/经济理财/半小时漫画经济学系列（共4册）（独家定制版）-陈磊·半小时漫画团队.md",
+    "5.专题研究/装机教程/使用EasyU PE重装系统.md",
     "_template/dailynotes.md",
-    "1.收集箱/log.md",
-    "2.等待处理/Daily/2022-12-12.md",
-    "1.收集箱/README.md",
-    "1.收集箱/wechat_notes/精品小说/悟空传（典藏纪念版）-今何在.md",
-    "1.收集箱/wechat_notes/精品小说/龙族Ⅰ：火之晨曦-江南.md",
-    "1.收集箱/wechat_notes/经济理财/半小时漫画经济学系列（共4册）（独家定制版）-陈磊·半小时漫画团队.md"
+    "5.专题研究/装机教程/assets/IMG20221226121823.jpg",
+    "4.归档/学习/修身/README.md",
+    "5.专题研究/装机教程/assets/image-20221226110143693.png",
+    "5.专题研究/README.md"
   ]
 }

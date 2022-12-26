@@ -2,5 +2,10 @@
   "obsidian-admonition",
   "obsidian-kanban",
   "templater-obsidian",
-  "obsidian-weread-plugin"
+  "obsidian-weread-plugin",
+  "code-block-copy",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-git",
+  "url-into-selection",
+  "tag-wrangler"
 ]
