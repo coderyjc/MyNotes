@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "636412be1e39ad64",
+        "id": "8e9d1a0e5efc2dc8",
         "type": "tabs",
         "children": [
           {
-            "id": "e67d7401bff20e62",
+            "id": "32f03d0f8e90e85e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -123,17 +123,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e67d7401bff20e62",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "4.归档/工作/扩展/装机教程/使用EasyU PE重装系统.md",
+    "4.归档/工作/工程/服务器相关/Linux/Linux.md",
     "2.等待处理/Daily/未命名.canvas",
     "2.等待处理/Daily/2022-12-25.md",
     "2.等待处理/Daily/2022-12-26.md",
     "1.收集箱/wechat_notes/经济理财/半小时漫画经济学系列（共4册）（独家定制版）-陈磊·半小时漫画团队.md",
-    "5.专题研究/装机教程/使用EasyU PE重装系统.md",
     "_template/dailynotes.md",
     "5.专题研究/装机教程/assets/IMG20221226121823.jpg",
     "4.归档/学习/修身/README.md",
-    "5.专题研究/装机教程/assets/image-20221226110143693.png",
-    "5.专题研究/README.md"
+    "5.专题研究/装机教程/assets/image-20221226110143693.png"
   ]
 }
