@@ -8,11 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32f03d0f8e90e85e",
+            "id": "6555bd73eb370298",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md"
+              }
             }
           }
         ]
@@ -53,11 +55,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 330
+    "width": 330,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md"
+              }
             }
           },
           {
@@ -123,17 +130,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "6555bd73eb370298",
   "lastOpenFiles": [
+    "2.等待处理/Daily/2022-12-26.md",
+    "2.等待处理/Daily/2022-12-27.md",
+    "_template/dailynotes.md",
     "4.归档/工作/扩展/装机教程/使用EasyU PE重装系统.md",
     "4.归档/工作/工程/服务器相关/Linux/Linux.md",
     "2.等待处理/Daily/未命名.canvas",
     "2.等待处理/Daily/2022-12-25.md",
-    "2.等待处理/Daily/2022-12-26.md",
     "1.收集箱/wechat_notes/经济理财/半小时漫画经济学系列（共4册）（独家定制版）-陈磊·半小时漫画团队.md",
-    "_template/dailynotes.md",
     "5.专题研究/装机教程/assets/IMG20221226121823.jpg",
-    "4.归档/学习/修身/README.md",
-    "5.专题研究/装机教程/assets/image-20221226110143693.png"
+    "4.归档/学习/修身/README.md"
   ]
 }
