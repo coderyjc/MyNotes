@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "80ef7eec7bb4d552",
+        "id": "89e2c79cdfe67115",
         "type": "tabs",
         "children": [
           {
-            "id": "f052e1bfc4535e57",
+            "id": "c768352bc314cf2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "924660c27cde7947",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md",
-                "mode": "source",
-                "source": false
+                "file": "2.等待处理/Daily/2022-12-27.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md",
+                "file": "2.等待处理/Daily/2022-12-27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md"
+                "file": "2.等待处理/Daily/2022-12-27.md"
               }
             }
           },
@@ -143,17 +128,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "924660c27cde7947",
+  "active": "c768352bc314cf2b",
   "lastOpenFiles": [
-    "1.收集箱/wechat_daily_challenge/人文历史.md",
-    "1.收集箱/wechat_daily_challenge/database.md",
     "_template/dailynotes.md",
-    "1.收集箱/log.md",
     "1.收集箱/README.md",
+    "1.收集箱/log.md",
     "2.等待处理/Daily/2022-12-27.md",
+    "1.收集箱/wechat_notes/文学/戴建业精读世说新语-戴建业.md",
+    "1.收集箱/wechat_daily_challenge/database.md",
+    "1.收集箱/wechat_daily_challenge/人文历史.md",
     "2.等待处理/Dashboard/warehouse.md",
     "2.等待处理/Daily/Archieve/2022-12-25.md",
-    "2.等待处理/Daily/Archieve/2022-12-26.md",
-    "Day Planners/Day Planner-20221227.md"
+    "2.等待处理/Daily/Archieve/2022-12-26.md"
   ]
 }
