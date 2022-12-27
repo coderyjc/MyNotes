@@ -11,8 +11,10 @@
             "id": "bf4278c9f141a776",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md"
+              }
             }
           }
         ]
@@ -73,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md"
+              }
             }
           },
           {
@@ -123,17 +128,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bf4278c9f141a776",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "1.收集箱/README.md",
+    "1.收集箱/wechat_daily_challenge/database.md",
     "_template/dailynotes.md",
     "2.等待处理/Daily/2022-12-27.md",
     "5.专题研究/JavaWeb/Servlet错误.md",
     "5.专题研究/JavaWeb/assets/Pasted image 20221227172926.png",
     "5.专题研究/左神算法课/1 复杂度和简单排序.md",
-    "1.收集箱/README.md",
     "1.收集箱/log.md",
     "1.收集箱/wechat_notes/文学/戴建业精读世说新语-戴建业.md",
-    "1.收集箱/wechat_daily_challenge/database.md",
     "1.收集箱/wechat_daily_challenge/人文历史.md"
   ]
 }
