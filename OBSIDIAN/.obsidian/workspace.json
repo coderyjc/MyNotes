@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "89e2c79cdfe67115",
+        "id": "039dbea52fc80aa2",
         "type": "tabs",
         "children": [
           {
-            "id": "c768352bc314cf2b",
+            "id": "bf4278c9f141a776",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -75,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,13 +123,13 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c768352bc314cf2b",
+  "active": "bf4278c9f141a776",
   "lastOpenFiles": [
+    "_template/dailynotes.md",
+    "2.等待处理/Daily/2022-12-27.md",
     "5.专题研究/JavaWeb/Servlet错误.md",
     "5.专题研究/JavaWeb/assets/Pasted image 20221227172926.png",
-    "2.等待处理/Daily/2022-12-27.md",
     "5.专题研究/左神算法课/1 复杂度和简单排序.md",
-    "_template/dailynotes.md",
     "1.收集箱/README.md",
     "1.收集箱/log.md",
     "1.收集箱/wechat_notes/文学/戴建业精读世说新语-戴建业.md",
