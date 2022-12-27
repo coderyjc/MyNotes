@@ -3,9 +3,9 @@
   "obsidian-kanban",
   "templater-obsidian",
   "obsidian-weread-plugin",
-  "code-block-copy",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
   "url-into-selection",
-  "tag-wrangler"
+  "tag-wrangler",
+  "code-block-copy"
 ]
