@@ -11,11 +11,9 @@
             "id": "c768352bc314cf2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "5.专题研究/左神算法课/1 复杂度和简单排序.md",
-                "mode": "source",
-                "source": false
+                "file": "2.等待处理/Daily/2022-12-27.md"
               }
             }
           }
@@ -61,8 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/左神算法课/1 复杂度和简单排序.md",
+                "file": "2.等待处理/Daily/2022-12-27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/左神算法课/1 复杂度和简单排序.md"
+                "file": "2.等待处理/Daily/2022-12-27.md"
               }
             }
           },
@@ -133,6 +130,7 @@
   },
   "active": "c768352bc314cf2b",
   "lastOpenFiles": [
+    "5.专题研究/左神算法课/1 复杂度和简单排序.md",
     "2.等待处理/Daily/2022-12-27.md",
     "_template/dailynotes.md",
     "1.收集箱/README.md",
@@ -141,7 +139,6 @@
     "1.收集箱/wechat_daily_challenge/database.md",
     "1.收集箱/wechat_daily_challenge/人文历史.md",
     "2.等待处理/Dashboard/warehouse.md",
-    "2.等待处理/Daily/Archieve/2022-12-25.md",
-    "2.等待处理/Daily/Archieve/2022-12-26.md"
+    "2.等待处理/Daily/Archieve/2022-12-25.md"
   ]
 }
