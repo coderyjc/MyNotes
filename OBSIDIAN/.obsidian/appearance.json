@@ -1,7 +1,7 @@
 {
   "baseFontSize": 19,
   "theme": "obsidian",
-  "translucency": true,
+  "translucency": false,
   "cssTheme": "Wasp",
   "monospaceFontFamily": "JetBrains Mono",
   "accentColor": ""
