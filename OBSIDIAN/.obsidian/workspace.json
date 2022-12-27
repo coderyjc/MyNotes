@@ -4,20 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "39aca0bc45b66824",
+        "id": "80ef7eec7bb4d552",
         "type": "tabs",
         "children": [
           {
-            "id": "67e2a05b86ae17f1",
+            "id": "f052e1bfc4535e57",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md"
+                "file": "1.收集箱/wechat_daily_challenge/database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "924660c27cde7947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.收集箱/wechat_daily_challenge/database.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md",
+                "file": "1.收集箱/wechat_daily_challenge/database.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md"
+                "file": "1.收集箱/wechat_daily_challenge/database.md"
               }
             }
           },
@@ -128,17 +143,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "67e2a05b86ae17f1",
+  "active": "924660c27cde7947",
   "lastOpenFiles": [
-    "2.等待处理/Dashboard/warehouse.md",
-    "2.等待处理/Daily/2022-12-27.md",
+    "1.收集箱/wechat_daily_challenge/人文历史.md",
+    "1.收集箱/wechat_daily_challenge/database.md",
     "_template/dailynotes.md",
+    "1.收集箱/log.md",
+    "1.收集箱/README.md",
+    "2.等待处理/Daily/2022-12-27.md",
+    "2.等待处理/Dashboard/warehouse.md",
     "2.等待处理/Daily/Archieve/2022-12-25.md",
     "2.等待处理/Daily/Archieve/2022-12-26.md",
-    "Day Planners/Day Planner-20221227.md",
-    "4.归档/工作/扩展/windows操作/【系统重装】使用EasyU PE重装系统.md",
-    "3.将来可能/README.md",
-    "4.归档/工作/扩展/windows操作/【去更新】win10系统取消自动更新.md",
-    "4.归档/工作/工程/服务器相关/Linux/Linux.md"
+    "Day Planners/Day Planner-20221227.md"
   ]
 }
