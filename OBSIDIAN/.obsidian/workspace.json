@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2b96225548af6ad3",
+        "id": "5db084c59fc73701",
         "type": "tabs",
         "children": [
           {
-            "id": "6aee343f75f1d635",
+            "id": "6dc5cf3a76d3499a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md",
+                "file": "4.归档/工作/基础/devops/git/git.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md",
+                "file": "4.归档/工作/基础/devops/git/git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md"
+                "file": "4.归档/工作/基础/devops/git/git.md"
               }
             }
           },
@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -130,17 +129,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "6aee343f75f1d635",
+  "active": "6dc5cf3a76d3499a",
   "lastOpenFiles": [
-    "4.归档/工作/基础/bigdata/python/python-basic/04.函数式编程.md",
-    "4.归档/工作/基础/bigdata/python/python-basic/01.字符和输入输出.md",
-    "4.归档/工作/基础/about/README.md",
-    "4.归档/工作/基础/about/Plan.md",
-    "4.归档/工作/基础/about/log.md",
-    "4.归档/工作/基础/about/get_info.md",
-    "2.等待处理/Daily/2022-12-28.md",
-    "2.等待处理/Daily/2022-12-27.md",
-    "1.收集箱/wechat_daily_challenge/database.md",
-    "2.等待处理/Dashboard/warehouse.md"
+    "4.归档/工作/基础/devops/docker/docker-basic.md",
+    "4.归档/工作/基础/devops/docker/docker-advanced.md",
+    "4.归档/工作/基础/db/mysql/mysql-basic.md",
+    "4.归档/工作/基础/db/mysql/mysql-advanced.md",
+    "4.归档/工作/基础/db/mongodb/README.md",
+    "4.归档/工作/基础/db/mongodb/mongodb-basic.md",
+    "4.归档/工作/基础/db/redis/README.md",
+    "4.归档/工作/基础/db/redis/jedis.md",
+    "4.归档/工作/基础/bigdata/python/Python知识导图.md",
+    "4.归档/工作/基础/bigdata/python/python-spider/python-spider.md"
   ]
 }

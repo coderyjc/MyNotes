@@ -1,3 +1,6 @@
+
+#mysql #mysql/索引优化 #mysql/查询优化 
+
 # MySQL进阶
 
 ## MySQL架构介绍
