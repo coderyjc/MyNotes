@@ -5,7 +5,7 @@ description: 轮播图组件
 create_date: 2022-01-29
 ---
 
-#前端 #组件 #轮播图
+#前端 #前端/CSS #CSS/动画  #CSS/组件  #CSS/轮播图
 
 > 官网网址[ https://glidejs.com/](https://github.com/jedrzejchalubek/glidejs/)
 

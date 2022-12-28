@@ -1,7 +1,3 @@
----
-sidebar: auto
-sidebarDepth: 3
----
 
 # JavaScript
 

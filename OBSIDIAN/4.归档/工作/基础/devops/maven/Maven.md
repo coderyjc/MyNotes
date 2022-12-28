@@ -1,8 +1,4 @@
----
-sidebar: auto
----
-
-# Maven
+#maven
 
 ![](./assets/Maven.png)
 

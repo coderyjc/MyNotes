@@ -1,7 +1,3 @@
----
-sidebar: auto
-sidebarDepth: 3
----
 
 # CSS3高级
 
@@ -240,8 +236,7 @@ rotate的示意图
 ![image-20211023234325376](image-20211023234325376.png)
 
 
-
-<img src="./CSS3.imgs/flex.png" style="zoom:100%;" />
+![[CSS3.imgs/flex.png]]
 
 ![image-20211024075016336](image-20211024075016336.png)
 
