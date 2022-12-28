@@ -11,9 +11,11 @@
             "id": "bf4278c9f141a776",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md"
+                "file": "1.收集箱/wechat_daily_challenge/database.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#微信读书答题/艺术作品",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -75,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md",
+                "file": "1.收集箱/wechat_daily_challenge/database.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Daily/2022-12-27.md"
+                "file": "1.收集箱/wechat_daily_challenge/database.md"
               }
             }
           },
@@ -130,15 +133,15 @@
   },
   "active": "bf4278c9f141a776",
   "lastOpenFiles": [
+    "2.等待处理/Daily/2022-12-28.md",
+    "2.等待处理/Daily/2022-12-27.md",
+    "1.收集箱/wechat_daily_challenge/database.md",
     "2.等待处理/Dashboard/warehouse.md",
     "1.收集箱/README.md",
-    "1.收集箱/wechat_daily_challenge/database.md",
     "_template/dailynotes.md",
-    "2.等待处理/Daily/2022-12-27.md",
     "5.专题研究/JavaWeb/Servlet错误.md",
     "5.专题研究/JavaWeb/assets/Pasted image 20221227172926.png",
     "5.专题研究/左神算法课/1 复杂度和简单排序.md",
-    "1.收集箱/log.md",
-    "1.收集箱/wechat_notes/文学/戴建业精读世说新语-戴建业.md"
+    "1.收集箱/log.md"
   ]
 }
