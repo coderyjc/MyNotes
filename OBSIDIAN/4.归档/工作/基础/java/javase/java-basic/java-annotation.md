@@ -1,3 +1,5 @@
+#Java/注解
+
 ## 注解
 
 Annotation
@@ -93,11 +95,6 @@ public class MyAnnotationTest {
     public void doOther(){
     }
 }
-```
-
-```java
-
-
 ```
 
 需求：

@@ -1,3 +1,6 @@
+
+> 目前最新版本是Spring6，此版本暂且停止更新
+
 # Spring 5
 
 ## 1. Spring Concepts

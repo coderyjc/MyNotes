@@ -1,7 +1,4 @@
----
-sidebar: auto
-sidebarDepth: 3
----
+#MyBatic
 
 # MyBatis
 
