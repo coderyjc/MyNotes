@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/JavaWeb/Servlet错误.md",
+                "file": "5.专题研究/左神算法课/1 复杂度和简单排序.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a17444c81aa7bdea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/左神算法课/2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/JavaWeb/Servlet错误.md",
+                "file": "5.专题研究/左神算法课/2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/JavaWeb/Servlet错误.md"
+                "file": "5.专题研究/左神算法课/2.md"
               }
             }
           },
@@ -129,8 +142,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "21c3e37686644001",
+  "active": "a17444c81aa7bdea",
   "lastOpenFiles": [
+    "5.专题研究/左神算法课/1 复杂度和简单排序.md",
+    "5.专题研究/JavaWeb/Servlet错误.md",
     "Docker.imgs/image-20210625193259429.png.md",
     "_template/dailynotes.md",
     "2.等待处理/Daily/2022-12-28.md",
@@ -138,8 +153,6 @@
     "4.归档/工作/基础/software/vscode/插件/Plugin/Better Comments 区别注释.md",
     "4.归档/工作/基础/software/vscode/插件/Plugin/Element-ui-helper Element UI 实时帮助.md",
     "4.归档/工作/基础/software/vscode/插件/Plugin/Halcyon Theme 主题.md",
-    "4.归档/工作/基础/software/vscode/插件/Plugin/Visual Studio IntelliCode 代码智能提示.md",
-    "4.归档/工作/基础/software/vscode/插件/Plugin/Waka Time 时间管理.md",
-    "4.归档/工作/基础/software/vscode/插件/Plugin/vscode-intellij-recent-files 最近文件.md"
+    "4.归档/工作/基础/software/vscode/插件/Plugin/Visual Studio IntelliCode 代码智能提示.md"
   ]
 }
