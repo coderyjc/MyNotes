@@ -1,4 +1,3 @@
-
 #前端/CSS #CSS/基础
 
 # CSS基础
@@ -9,13 +8,11 @@
 - css可用来为网页创建样式表, 通过样式表可以对网页进行装饰,所谓层叠, 可以将整个网页想象成是一层一层的结构, 层次高的覆盖层次低的,css就可以分别为网页的各个层次设置样式
 - CSS不是编程语言，不是标记语言，是一种样式表语言。只是一种计算机语言。
 
-CSS官方文档： [https://www.w3.org/TR/?tag=css](https://www.w3.org/TR/?tag=css)
+CSS官方文档： <https://www.w3.org/TR/?tag=css>
 
-CSS推荐文档：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference#%E5%85%B3%E9%94%AE%E5%AD%97%E7%B4%A2%E5%BC%95](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference#%E5%85%B3%E9%94%AE%E5%AD%97%E7%B4%A2%E5%BC%95)
+CSS推荐文档：<https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference#%E5%85%B3%E9%94%AE%E5%AD%97%E7%B4%A2%E5%BC%95>
 
-
-查询CSS属性的可用性:[https://caniuse.com/](https://caniuse.com/)
-
+查询CSS属性的可用性:<https://caniuse.com/>
 
 ### 历史
 
@@ -129,7 +126,6 @@ CSS推荐文档：[https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference#%E
 在vue的开发过程中，每一个组件也有一个style元素，和内部样式非常相似，但是原理并不相同
 :::
 
-
 ### 外部CSS文件中
 
 - 开发中最推荐使用
@@ -177,11 +173,10 @@ link元素是外部资源链接的元素，规定了文档与外部资源你的�
 - href：指向被链接的资源的URL，这个URL可以是绝对的，也可以是相对的
 
 - rel：指定链接的类型，常见的类型：
-    - icon：站点图标
-    - stylesheet CSS样式
+  - icon：站点图标
+  - stylesheet CSS样式
 
-> 其他常见的类型：https://developer.mozilla.org/zh-CN/docs/Web/HTML/Link_types
-
+> 其他常见的类型：<https://developer.mozilla.org/zh-CN/docs/Web/HTML/Link_types>
 
 ## CSS语法
 
@@ -231,7 +226,6 @@ span :
 - a元素可以包含除了他本身的任何元素
 - p不可包含其他任何块元素
 
-
 ## 盒子模型
 
 一个盒子我们会分成几部分, 盒子的大小由以下这些加起来决定
@@ -252,7 +246,7 @@ span :
 要为一个元素设置边框, 必须设置三个样式
 
 - border-width 宽度
-  - 可以分别指定四个边框的宽度, 空格之间用空格隔开, 分别表示 *上左下右* 的边框(顺时针)
+  - 可以分别指定四个边框的宽度, 空格之间用空格隔开, 分别表示 _上左下右_ 的边框(顺时针)
   - 如果设置 3 个值, 则分别设置给 上 左右 下
   - 两个值的话, 就分别设置为 上下 左右
   - 如果指定一个值, 则四个边都是这个值
@@ -431,18 +425,27 @@ float
 可选值
 
 - none 默认值, 在文档流中排列
+
 - right 元素会脱离文档流向右浮动
+
 - left 元素会脱离文档流向左浮动
 
 - 当为一个元素设置浮动以后(float非none), 元素会立即脱离文档流, 脱离以后, 在其下的元素会立即向上移动, 浮动以后会尽量向页面的右上或者左上浮动
+
 - 元素浮动以后, 会**尽量**向页面的左上或右上漂浮, 直到遇见**父元素**的边框或者**其他的浮动元素**
+
 - 如果浮动元素上面是一个没有浮动的块元素, 则浮动元素不会超过块元素
+
 - 如果一行中不足以容纳所有浮动元素, 则会自动换行
+
 - 浮动的元素不会超过它的兄弟元素, 最多对齐
+
 - 浮动的元素不会盖住文字, 文字会自动环绕在元素周围, 所以我们可以通过浮动来设置文字坏绕图片效果
 
 - 在文档流中, 子元素, 默认占据父元素的全部
+
 - 块元素脱离文档流以后, 高度和宽度都被内容撑开
+
 - 内联元素脱离文档流以后会变成块元素
 
 ## 布局
@@ -541,8 +544,6 @@ clear样式 清除其他元素对当前元素产生的影响, 清除以后, 其�
 </style>
 
 ```
-
-
 
 ## 定位
 

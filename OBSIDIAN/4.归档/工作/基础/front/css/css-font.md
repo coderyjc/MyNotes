@@ -1,5 +1,4 @@
-
-#前端/CSS #CSS/字体 
+#前端/CSS #CSS/字体
 
 # 字体和文本
 
@@ -50,13 +49,12 @@
 
 也可以使用`@font-face`指定的可以直接下载字体
 
-
-
 ### font-style 文字斜体
 
 可选值
 
 - normal 默认值, 文字正常显示
+
 - italic 文字会以斜体显示
   - 字体本身支持斜体时，浏览器会直接调用字体本身的斜体字样
 
@@ -161,8 +159,6 @@ tips:
   <p style="text-transform: capitalize;">text transform</p>
 ```
 
-
-
 ![image-20221202093956699](./assets/image-20221202093956699.png)
 
 ## text-decoration 文本修饰
@@ -192,14 +188,13 @@ tips:
 - font-style font-variant font-weight 没有顺序要求，并且都可以省略
 
 - /line-height 可以省略，如果不省略，则必须跟在font-size后面
+
 - font-size和font-family不可以调换顺序，也不能省略
 
 ```css
 font: small-caps italic 700 30px/50px "等线";
 font: 30px/50px "等线";
 ```
-
-
 
 ## 对齐文本
 
@@ -219,8 +214,6 @@ font: 30px/50px "等线";
 ![image-20221202095530172](./assets/image-20221202095530172.png)
 
 ![image-20221202095600232](./assets/image-20221202095600232.png)
-
-
 
 ### test-indent 首行缩进
 

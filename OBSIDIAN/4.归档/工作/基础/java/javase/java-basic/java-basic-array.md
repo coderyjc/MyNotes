@@ -242,7 +242,6 @@ public class ArrayTest08 {
 
 ### 二维数组
 
-
 ```java
 public class ArrayTest11 {
     public static void main(String[] args) {
@@ -318,7 +317,6 @@ public class ArrayTest12 {
 优点：检索效率高。直接通过内存地址定位，效率非常高。
 缺点：随机增删效率较低，数组无法存储大数据量。
 注意：数组最后一个元素的增删效率不受影响。
-
 
 ### 排序和查找
 
@@ -511,7 +509,6 @@ public class StringTest04 {
 ```
 
 ##### 常用方法
-
 
 ```java
 package com.bjpowernode.javase.string;
@@ -814,7 +811,6 @@ String类常用的21个方法。
 - Boolean
 - Character
 
-
 所有数字的父类Number
 照葫芦画瓢：学习Integer，其它的模仿Integer。
 
@@ -1035,7 +1031,6 @@ public class IntegerTest07 {
 
 ```
 
-
 Integer String int三种类型互相转换
 
 ![1593166561323](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\1593166561323.png)
@@ -1153,6 +1148,7 @@ public class DateTest03 {
 ```
 
 获取系统当前时间
+
 - Date d = new Date();
 - 日期格式化：Date --> String
 - yyyy-MM-dd HH:mm:ss SSS
@@ -1230,14 +1226,15 @@ public class BigDecimalTest01 {
 ```
 
 - DecimalFormat数字格式化
+
 ###,###.## 表示加入千分位，保留两个小数。
 ###,###.0000 表示加入千分位，保留4个小数，不够补0
 
 - - BigDecimal
+
 财务软件中通常使用BigDecimal
 
 ### 随机数
-
 
 ```java
 
@@ -1265,15 +1262,16 @@ public class RandomTest01 {
 ```
 
 - 怎么产生int类型随机数。
+
 Random r = new Random();
 int i = r.nextInt();
 
 - 怎么产生某个范围之内的int类型随机数。
+
 Random r = new Random();
 int i = r.nextInt(101); // 产生[0-100]的随机数。
 
 ### 枚举
-
 
 ```java
 public class SwitchTest {
@@ -1432,7 +1430,10 @@ enum Result{
 - 枚举编译之后也是class文件。
 - 枚举类型怎么定义？
 - enum 枚举类型名{
+
 枚举值,枚举值2,枚举值3
 }
+
 - 当一个方法执行结果超过两种情况，并且是一枚一枚可以列举出来
+
 的时候，建议返回值类型设计为枚举类型。
