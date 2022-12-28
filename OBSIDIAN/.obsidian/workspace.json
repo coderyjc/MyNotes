@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "039dbea52fc80aa2",
+        "id": "2b96225548af6ad3",
         "type": "tabs",
         "children": [
           {
-            "id": "bf4278c9f141a776",
+            "id": "6aee343f75f1d635",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md",
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md",
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md"
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md"
               }
             }
           },
@@ -131,17 +130,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bf4278c9f141a776",
+  "active": "6aee343f75f1d635",
   "lastOpenFiles": [
+    "4.归档/工作/基础/bigdata/python/python-basic/04.函数式编程.md",
+    "4.归档/工作/基础/bigdata/python/python-basic/01.字符和输入输出.md",
+    "4.归档/工作/基础/about/README.md",
+    "4.归档/工作/基础/about/Plan.md",
+    "4.归档/工作/基础/about/log.md",
+    "4.归档/工作/基础/about/get_info.md",
     "2.等待处理/Daily/2022-12-28.md",
     "2.等待处理/Daily/2022-12-27.md",
     "1.收集箱/wechat_daily_challenge/database.md",
-    "2.等待处理/Dashboard/warehouse.md",
-    "1.收集箱/README.md",
-    "_template/dailynotes.md",
-    "5.专题研究/JavaWeb/Servlet错误.md",
-    "5.专题研究/JavaWeb/assets/Pasted image 20221227172926.png",
-    "5.专题研究/左神算法课/1 复杂度和简单排序.md",
-    "1.收集箱/log.md"
+    "2.等待处理/Dashboard/warehouse.md"
   ]
 }
