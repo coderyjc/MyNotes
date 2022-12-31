@@ -116,7 +116,7 @@ Nginx
 |技术|主要内容|资源|日期|
 |---|---|---|---|
 |JavaWeb| | [尚硅谷Javaweb2022（42H）](https://www.bilibili.com/video/BV1AS4y177xJ) | 2022.12.27 |
-|Spring5、Spring6| | | |
+|Spring6| | | |
 |SpringMVC| | | |
 |MyBatis(Plus)| | | |
 |SpringBoot 2| | | |
