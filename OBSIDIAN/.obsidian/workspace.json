@@ -8,11 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1157d0060ca2d218",
+            "id": "7e6d17a30c048c7c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "2.等待处理/Daily/2022-12-31.md"
+              }
             }
           }
         ]
@@ -73,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Daily/2022-12-31.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Daily/2022-12-31.md"
+              }
             }
           },
           {
@@ -123,17 +128,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1157d0060ca2d218",
+  "active": "7e6d17a30c048c7c",
   "lastOpenFiles": [
+    "2.等待处理/Daily/Archieve/2022-12-25.md",
+    "2.等待处理/Daily/Archieve/2022-12-26.md",
+    "2.等待处理/Daily/Archieve/2022-12-28.md",
+    "2.等待处理/Daily/Archieve/2022-12-29.md",
+    "2.等待处理/Daily/Archieve/2022-12-30.md",
+    "2.等待处理/Daily/Archieve/2022-12-27.md",
+    "2.等待处理/Daily/2022-12-31.md",
+    "5.专题研究/JavaWeb/Servlet错误.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-array.md",
-    "4.归档/工作/基础/java/javase/java-basic/java-basic-collection.md",
-    "4.归档/工作/基础/java/javase/java-basic/java-basic-io.md",
-    "4.归档/工作/基础/front/css/css-basic.md",
-    "4.归档/工作/基础/front/css/css-font.md",
-    "4.归档/工作/基础/front/css/css-selector.md",
-    "2.等待处理/Daily/2022-12-28.md",
-    "5.专题研究/左神算法课/2 O(nlogn)排序.md",
-    "5.专题研究/左神算法课/1 复杂度和简单排序.md",
-    "5.专题研究/JavaWeb/Servlet错误.md"
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-collection.md"
   ]
 }
