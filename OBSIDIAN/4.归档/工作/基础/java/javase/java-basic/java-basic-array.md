@@ -184,37 +184,19 @@ public class ArrayTest08 {
         // 拷贝目标（拷贝到这个目标数组上）
         int[] dest = new int[20]; // 动态初始化一个长度为20的数组，每一个元素默认值0
 
-        // 调用JDK System类中的arraycopy方法，来完成数组的拷贝
-        //System.arraycopy(src, 1, dest, 3, 2);
-
-        // 遍历目标数组
-        /*
-        for (int i = 0; i < dest.length; i++) {
-            System.out.println(dest[i]); // 0 0 0 11 22 ... 0
-        }
-         */
-
         System.arraycopy(src, 0, dest, 0, src.length);
-        for (int i = 0; i < dest.length; i++) {
-            System.out.println(dest[i]);
-        }
+
 
         // 数组中如果存储的元素是引用，可以拷贝吗？当然可以。
         String[] strs = {"hello", "world!", "study", "java", "oracle", "mysql", "jdbc"};
         String[] newStrs = new String[20];
         System.arraycopy(strs, 0, newStrs, 0, strs.length);
-        for (int i = 0; i < newStrs.length; i++) {
-            System.out.println(newStrs[i]);
-        }
 
         System.out.println("================================");
         Object[] objs = {new Object(), new Object(), new Object()};
         Object[] newObjs = new Object[5];
         // 思考一下：这里拷贝的时候是拷贝对象，还是拷贝对象的地址。（地址。）
         System.arraycopy(objs, 0, newObjs, 0, objs.length);
-        for (int i = 0; i < newObjs.length; i++) {
-            System.out.println(newObjs[i]);
-        }
     }
 }
 
@@ -253,22 +235,9 @@ public class ArrayTest12 {
         // 3个一维数组，每一个一维数组当中4个元素。
         int[][] array = new int[3][4];
 
-        // 二维数组遍历
-        /*
-        for (int i = 0; i < array.length; i++) { // 循环3次。
-            for (int j = 0; j < array[i].length; j++) {
-                System.out.print(array[i][j] + " ");
-            }
-            System.out.println();
-        }
-         */
-
         // 静态初始化
         int[][] a = {{1,2,3,4},{4,5,6,76},{1,23,4}};
         printArray(a);
-
-        // 没有这种语法
-        //printArray({{1,2,3,4},{4,5,6,76},{1,23,4}});
 
         // 可以这样写。
         printArray(new int[][]{{1,2,3,4},{4,5,6,76},{1,23,4}});
@@ -284,7 +253,6 @@ public class ArrayTest12 {
         }
     }
 }
-
 ```
 
 **每次都重写toString和equals方法 ！！！！**
@@ -348,21 +316,23 @@ public class ArraysTest02 {
 
 ```
 
-## 常用类【注意看帮助文档】
+## 常用类
 
 ### String类
 
 ##### 基础认知
 
+`java.lang.String`
+
+String表示字符串类型，属于引用数据类型，不属于基本数据类型。
+
+在java中随便使用双引号括起来的都是String对象。例："abc"，"def"，"hello world!"，这是3个String对象。
+
+java中规定，双引号括起来的字符串，是不可变的，也就是说"abc"自出生到最终死亡，不可变，不能变成"abcd"，也不能变成"ab"
+
+在JDK当中双引号括起来的字符串，例如："abc" "def"都是直接存储在“方法区”的“字符串常量池”当中的。为什么SUN公司把字符串存储在一个“字符串常量池”当中呢。因为字符串在实际的开发中使用太频繁。为了执行效率，所以把字符串放到了`方法区的字符串常量池`当中。
+
 ```java
-/*
-关于Java JDK中内置的一个类：java.lang.String
-    1、String表示字符串类型，属于引用数据类型，不属于基本数据类型。
-    2、在java中随便使用双引号括起来的都是String对象。例如："abc"，"def"，"hello world!"，这是3个String对象。
-    3、java中规定，双引号括起来的字符串，是不可变的，也就是说"abc"自出生到最终死亡，不可变，不能变成"abcd"，也不能变成"ab"
-    4、在JDK当中双引号括起来的字符串，例如："abc" "def"都是直接存储在“方法区”的“字符串常量池”当中的。为什么SUN公司把字符串存储在一个“字符串常量池”当中呢。因为字符串在实际的开发中使用太频繁。为了执行效率，所以把字符串放到了方法区的字符串常量池当中。
-	5、字符串常量池在方法区中
- */
 public class StringTest01 {
     public static void main(String[] args) {
         // 这两行代码表示底层创建了3个字符串对象，都在字符串常量池当中。
@@ -382,12 +352,15 @@ public class StringTest01 {
         String s = "abc";
     }
 }
+```
+
+```java
 
 public class StringTest02 {
     public static void main(String[] args) {
         String s1 = "hello";
         // "hello"是存储在方法区的字符串常量池当中
-        // 所以这个"hello"不会新建。（因为这个对象已经存在了！）
+        // 所以这个"hello"不会新建。（因为这个对象已经存在了。）
         String s2 = "hello";
         // 分析结果是true还是false？
         // == 双等号比较的是不是变量中保存的内存地址？是的。
@@ -412,41 +385,33 @@ public class StringTest02 {
         System.out.println(k.equals("testString")); // 存在空指针异常的风险。不建议这样写。
     }
 }
+```
 
-/*
 分析以下程序，一共创建了几个对象
- */
+```java
 public class StringTest03 {
     public static void main(String[] args) {
-        /*
-        一共3个对象：
-            方法区字符串常量池中有1个："hello"
-            堆内存当中有两个String对象。
-            一共3个。
-         */
         String s1 = new String("hello");
         String s2 = new String("hello");
     }
 }
-
-
-
 ```
+一共3个对象：
+
+- 方法区字符串常量池中有1个："hello"堆内存当中有两个String对象，一共3个。
 
 ##### 构造方法
 
-```java
-package com.bjpowernode.javase.string;
+关于String类中的构造方法。
 
-/**
- * 关于String类中的构造方法。
  *  第一个：String s = new String("");
  *  第二个：String s = ""; 最常用
  *  第三个：String s = new String(char数组);
  *  第四个：String s = new String(char数组,起始下标,长度);
  *  第五个：String s = new String(byte数组);
  *  第六个：String s = new String(byte数组,起始下标,长度)
- */
+
+```java
 public class StringTest04 {
     public static void main(String[] args) {
 
@@ -490,9 +455,10 @@ public class StringTest04 {
 
 ##### 常用方法
 
-```java
-package com.bjpowernode.javase.string;
 
+
+
+```java
 public class StringTest05 {
     public static void main(String[] args) {
 
@@ -518,13 +484,11 @@ public class StringTest05 {
         // 3（掌握）.boolean contains(CharSequence s)
         // 判断前面的字符串中是否包含后面的子字符串。
         System.out.println("HelloWorld.java".contains(".java")); // true
-        System.out.println("http://www.baidu.com".contains("https://")); // false
 
         // 4（掌握）. boolean endsWith(String suffix)
         // 判断当前字符串是否以某个子字符串结尾。
         System.out.println("test.txt".endsWith(".java")); // false
         System.out.println("test.txt".endsWith(".txt")); // true
-        System.out.println("fdsajklfhdkjlsahfjkdsahjklfdss".endsWith("ss")); // true
 
         // 5（掌握）.boolean equals(Object anObject)
         // 比较两个字符串必须使用equals方法，不能使用“==”
@@ -647,7 +611,6 @@ public class StringTest05 {
 
 class Customer {
     // 重写toString()方法
-
     @Override
     public String toString() {
         return "我是一个VIP客户！！！！";
