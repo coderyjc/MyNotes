@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "63ccb419fcd1c3ea",
+        "id": "696535eb55605a4f",
         "type": "tabs",
         "children": [
           {
-            "id": "d60773da2743d10f",
+            "id": "1b17d5b6cc0adb62",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/Redis/redis-basic.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Redis/redis-basic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/Redis/redis-basic.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,17 +122,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "d60773da2743d10f",
+  "active": "1b17d5b6cc0adb62",
   "lastOpenFiles": [
-    "2.等待处理/Daily/2023-01-01.md",
+    "4.归档/工作/基础/java/spring/springmvc/SpringMVC.imgs/image-20210113103410547.png",
+    "4.归档/工作/基础/java/spring/springmvc/SpringMVC.imgs/image-20210111103339072.png",
+    "4.归档/工作/基础/java/spring/springboot/springboot-basic.md",
     "5.专题研究/Redis/redis-basic.md",
+    "2.等待处理/Daily/2023-01-01.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-array.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-basic.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-collection.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-io.md",
-    "4.归档/工作/基础/java/javase/java-basic/java-basic-jdbc.md",
-    "4.归档/工作/基础/java/javase/java-basic/java-basic-multithread.md",
-    "4.归档/工作/基础/java/javase/java-basic/java-basic-oop.md",
-    "4.归档/工作/基础/java/javase/java-basic/java-exception.md"
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-jdbc.md"
   ]
 }
