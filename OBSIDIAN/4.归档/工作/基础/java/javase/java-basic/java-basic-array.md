@@ -741,15 +741,15 @@ public class IntegerTest01 {
 
 以上八种包装类中，重点以java.lang.Integer为代表进行学习，其它的类型照葫芦画瓢就行。
 
-八种包装类中其中6个都是数字对应的包装类，他们的父类都是Number，可以先研究一下Number中公共的方法：
-Number是一个抽象类，无法实例化对象。
+八种包装类中其中6个都是数字对应的包装类，他们的父类都是Number，可以先研究一下Number中公共的方法：Number是一个抽象类，无法实例化对象。
 Number类中有这样的方法：
-byte byteValue() 以 byte 形式返回指定的数值。
-abstract  double doubleValue()以 double 形式返回指定的数值。
-abstract  float floatValue()以 float 形式返回指定的数值。
-abstract  int intValue()以 int 形式返回指定的数值。
-abstract  long longValue()以 long 形式返回指定的数值。
-short shortValue()以 short 形式返回指定的数值。
+- byte byteValue() 以 byte 形式返回指定的数值。
+- abstract  double doubleValue()以 double 形式返回指定的数值。
+- abstract  float floatValue()以 float 形式返回指定的数值。
+- abstract  int intValue()以 int 形式返回指定的数值。
+- abstract  long longValue()以 long 形式返回指定的数值。
+- short shortValue()以 short 形式返回指定的数值。
+
 这些方法其实所有的数字包装类的子类都有，这些方法是负责拆箱的。
 
 ```java
@@ -838,7 +838,6 @@ public class IntegerTest06 {
         System.out.println(x == y); //true
     }
 }
-
 ```
 
 **总结一下以前遇到的经典的异常**
@@ -972,7 +971,6 @@ public class DateTest01 {
         SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");
         Date dateTime = sdf2.parse(time);
         System.out.println(dateTime); //Fri Aug 08 08:08:08 CST 2008
-
     }
 }
 
