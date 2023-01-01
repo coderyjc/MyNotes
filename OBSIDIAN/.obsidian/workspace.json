@@ -11,11 +11,40 @@
             "id": "d60773da2743d10f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/Redis/redis-basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b70b05e9aba23c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/Redis/redis-basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c007585c11629fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/基础/java/javase/java-basic/java-basic-array.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -57,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 345.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -73,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/工作/基础/java/javase/java-basic/java-basic-array.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/工作/基础/java/javase/java-basic/java-basic-array.md"
+              }
             }
           },
           {
@@ -107,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -123,17 +154,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "d60773da2743d10f",
+  "active": "9c007585c11629fa",
   "lastOpenFiles": [
-    "4.归档/README.md",
-    "5.专题研究/README.md",
-    "2.等待处理/Daily/2023-01-01.md",
-    "4.归档/工作/基础/db/redis/jedis.md",
-    "4.归档/工作/基础/db/redis/README.md",
-    "5.专题研究/spring6/spring6.md",
-    "4.归档/工作/基础/algorithm/PTA/格式化输入输出.md",
-    "4.归档/工作/基础/algorithm/PTA/模板.md",
-    "4.归档/工作/基础/algorithm/PTA/字符串相关.md",
-    "4.归档/工作/基础/algorithm/PTA/tips.md"
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-basic.md",
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-collection.md",
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-io.md",
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-jdbc.md",
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-multithread.md",
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-oop.md",
+    "4.归档/工作/基础/java/javase/java-basic/java-exception.md",
+    "4.归档/工作/基础/java/javase/java-basic/java-reflection.md",
+    "4.归档/工作/基础/java/javase/java-basic/java-basic-array.md",
+    "4.归档/工作/基础/java/javase/Java基础知识导图.md"
   ]
 }
