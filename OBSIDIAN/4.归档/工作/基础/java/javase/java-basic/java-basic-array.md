@@ -39,7 +39,7 @@ java中的数组要求数组中元素的类型统一。比如int类型数组只�
 >1.每一个元素的内存地址在空间存储上是连续的。
 >2.每一个元素类型相同，所以占用空间大小一样。
 >3.知道第一个元素内存地址，知道每一个元素占用空间的大小，又知道下标，所以通过一个数学表达式就可以计算出某个下标上元素的内存地址。直接通过内存地址定位 元素，所以数组的检索效率是最高的。
->
+
 
 ```java
 public class ArrayTest01 {
@@ -48,25 +48,21 @@ public class ArrayTest01 {
         int[] a = {1, 100, 10, 20, 55, 689};
 
         // 下标为6表示第7个元素，第7个元素没有，下标越界了。会出现什么异常呢？
-        //System.out.println(a[6]); //ArrayIndexOutOfBoundsException（比较著名的异常。）
-
-        // 从最后一个元素遍历到第1个元素
-        for (int i = a.length - 1; i >= 0; i--) {
-            System.out.println("颠倒顺序输出-->" + a[i]);
-        }
+        //System.out.println(a[6]); //ArrayIndexOutOfBoundsException
     }
 }
+```
 
-/*
- 什么时候采用静态初始化方式，什么时候使用动态初始化方式呢？
-    当你创建数组的时候，确定数组中存储哪些具体的元素时，采用静态初始化方式。
-    当你创建数组的时候，不确定将来数组中存储哪些数据，你可以采用动态初始化的方式，预先分配内存空间。
- */
+什么时候采用静态初始化方式，什么时候使用动态初始化方式呢？
+
+- 当你创建数组的时候，确定数组中存储哪些具体的元素时，采用静态初始化方式。
+- 当你创建数组的时候，不确定将来数组中存储哪些数据，你可以采用动态初始化的方式，预先分配内存空间。
+
+```java
 public class ArrayTest02 {
     public static void main(String[] args) {
-        // 声明/定义一个数组，采用动态初始化的方式创建
+        // 采用动态初始化的方式
         int[] a = new int[4]; // 创建长度为4的int数组，数组中每个元素的默认值是0
-
         Object[] objs = new Object[3]; // 3个长度，动态初始化，所以每个元素默认值是null
 
         // 采用静态初始化的方式
@@ -74,7 +70,6 @@ public class ArrayTest02 {
         for (int i = 0; i < strs2.length; i++) {
             System.out.println(strs2[i]);
         }
-
 
         Object[] objects = {new Object(), new Object(), new Object()};
 
@@ -84,17 +79,17 @@ public class ArrayTest02 {
 
 
 
-// 当一个方法的参数是一个数组的时候，我们还可以采用这种方式传。
+// 当一个方法的参数是一个数组的时候，我们还可以采用这种方式传递参数
 
 public class ArrayTest04 {
     public static void main(String[] args) {
         // 静态初始化一维数组
         int[] a = {1,2,3};
         printArray(a);
-
-        System.out.println("============================");
+        
         // 没有这种语法。
         //printArray({1,2,3});
+        
         // 如果直接传递一个静态数组的话，语法必须这样写。
         printArray(new int[]{1,2,3});
 
@@ -102,7 +97,6 @@ public class ArrayTest04 {
         int[] a2 = new int[4];
         printArray(a2);
 
-        System.out.println("=============================");
         printArray(new int[3]);
     }
 }
@@ -162,26 +156,23 @@ public class ArrayTest07 {
                 bird.sing();
             }
         }
-
     }
 }
-
 ```
 
 ### 数组的扩容和拷贝
 
-```java
+关于一维数组的扩容。
 
-/**
- * 关于一维数组的扩容。
- * 在java开发中，数组长度一旦确定不可变，那么数组满了怎么办？
- *      数组满了，需要扩容。
- *      java中对数组的扩容是：
- *          先新建一个大容量的数组，然后将小容量数组中的数据一个一个拷贝到大数组当中。
- *
- * 结论：数组扩容效率较低。因为涉及到拷贝的问题。所以在以后的开发中请注意：尽可能少的进行数组的拷贝。
- * 可以在创建数组对象的时候预估计以下多长合适，最好预估准确，这样可以减少数组的扩容次数。提高效率。
- */
+在java开发中，数组长度一旦确定不可变，那么数组满了怎么办？扩容。
+
+java中对数组的扩容是：先新建一个大容量的数组，然后将小容量数组中的数据一个一个拷贝到大数组当中。
+
+结论：数组扩容效率较低。因为涉及到拷贝的问题。所以在以后的开发中请注意：尽可能少的进行数组的拷贝。
+
+可以在创建数组对象的时候预估计以下多长合适，最好预估准确，这样可以减少数组的扩容次数。提高效率。
+
+```java
 public class ArrayTest08 {
     public static void main(String[] args) {
         // java中的数组是怎么进行拷贝的呢？
@@ -313,7 +304,7 @@ public class ArrayTest12 {
 import java.util.Arrays;
 
 /**
- * 使用以下SUN公司提供的数组工具类：java.util.Arrays;
+ * 使用以下数组工具类：java.util.Arrays;
  */
 public class ArraysTest01 {
     public static void main(String[] args) {
