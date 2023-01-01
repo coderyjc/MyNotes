@@ -164,7 +164,6 @@ public class MyController {
 
 ![[SpringMVC.imgs/image-20210112095419640.png]]
 
-
 用户可以直接通过在地址栏敲入show.jsp直接显示页面，但是这时候页面中并没有获取到数据，此时我们需要隐藏显示结果的视图，也就是将show.jsp放入 `webapp/WEB-INF/view` 下面达到隐藏效果，但是此时在控制器中转发的时候要写完整的路径，所以我们要在springmvc配置文件中进行配置**视图解析器**
 
 ```xml
@@ -188,6 +187,7 @@ public class MyController {
 ### SpringMVC执行流程
 
 ![[SpringMVC.imgs/image-20210113162949692.png]]
+
 1. 浏览器提交请求到中央调度器
 2. 中央调度器直接将请求转给处理器映射器。
 3. 处理器映射器会根据请求，找到处理该请求的处理器，并将其封装为处理器执行链后返回给中央调度器。
@@ -222,9 +222,7 @@ public class MyController {
         modelAndView.setViewName("show");
         return modelAndView;
     }
-
 }
-
 ```
 
 ---
@@ -401,10 +399,7 @@ springmvc框架通过 DispatcherServlet 调用 MyController的doSome()方法调�
 ### 处理器方法的返回值
 
 
-
 p23 -- 32 学完ajax + jquery 再来看
-
-
 
 ### 解读 < url-pattern />
 
@@ -516,65 +511,6 @@ webapp/static/html, webapp/static/js, webapp/static/images
 <mvc:annotation-driven />
 ```
 
-### 绝对路径和相对路径
-
-具体来讲就是在写路径的时候用“ / ” 还是不用
-
-前端不加后端要加
-
-地址分类：
-1. 绝对地址 ， 带有协议名称的是绝对地址，  http://www.baidu.com , ftp://202.122.23.1
-2. 相对地址， 没有协议开头的，例如 user/some.do  , /user/some.do，相对地址不能独立使用，必须有一个参考地址。 通过参考地址+相对地址本身才能指定资源。
-
-**case 1 ：访问地址不加 "/"**
-
-在你的页面中的，访问地址不加 "/"访问的是： http://localhost:8080/项目名称/ 也就是 *项目地址*
-
-当你的地址没有斜杠开头,例如 user/some.do , 当你点击链接时， 访问地址是当前页面的地址加上链接的地址。例如，在index.jsp发起 user/some.do请求，访问地址变为 http://localhost:8080/ch06_path/user/some.do 也就是 http://localhost:8080/ch06_path/ + user/some.do
-
-index.jsp  访问 user/some.do  ， 返回后，现在的地址为： http://localhost:8080/ch06_path/user/some.do
-
-http://localhost:8080/ch06_path/user/some.do 这个地址的路径：http://localhost:8080/ch06_path/user/  资源：some.do
-
-然后在index.jsp再次点击 user/some.do ，地址就变为 http://localhost:8080/ch06_path/user/user/some.do， 就出错了，找不到资源。
-
-解决方案：
-
-1. 加入${pageContext.request.contextPath}
-2. 加入一个base标签， 是html语言中的标签。 表示当前页面中访问地址的基地址。你的页面中所有 没有“/”开头的地址，都是以base标签中的地址为参考地址。使用base中的地址 + user/some.do 组成访问地址
-
-**最终解决方案：**
-
-在每一个jsp网页中加上以下语句，动态获取项目路径，并且设置为基地址。
-
-```jsp
-<%
-    String basePath = request.getScheme() + "://" +
-            request.getServerName() + ":" + request.getServerPort() +
-            request.getContextPath() + "/";
-%>
-<html>
-<head>
-    <title>Title</title>
-    <base href="<%=basePath%>" />
-</head>
-```
-
-**case 2 ：访问地址加 "/"**
-
-在你的页面中的，访问地址加 "/" 访问的是： http://localhost:8080/ch06_path/index.jsp      
-
-路径： http://localhost:8080/ch06_path/
-
-这样在 index.jsp 点击 /user/some.do, 访问地址变为 http://localhost:8080/user/some.do
-
-参考地址是 你的 *服务器地址* ， 也就是 http://localhost:8080/
-
-
-
-如果你的资源不能访问： 加入EL表达式` ${pageContext.request.contextPath}` 获取当前项目地址
-
-`<a href="${pageContext.request.contextPath}/user/some.do">发起user/some.do的get请求</a>`
 
 ## SSM整合开发
 
@@ -582,7 +518,7 @@ http://localhost:8080/ch06_path/user/some.do 这个地址的路径：http://loca
 
 SSM： SpringMVC + Spring + MyBatis.
 
-SpringMVC:视图层，界面层，负责接收请求，显示处理结果的。
+SpringMVC: 视图层，界面层，负责接收请求，显示处理结果的。
 
 Spring：业务层，管理service，dao，工具类对象的。
 
@@ -619,13 +555,9 @@ springmvc容器和spring容器是有关系的，关系已经确定好了。sprin
 4. 创建包， Controller包， service ，dao，实体类包名创建好
 
 5. 写springmvc，spring，mybatis的配置文件
-	
 	1. springmvc配置文件
-	
 	2. spring配置文件
-
 	3. mybatis主配置文件
-	
 	4. 数据库的属性配置文件
 	
 6. 写代码， dao接口和mapper文件， service和实现类，controller， 实体类。
@@ -731,6 +663,7 @@ springmvc容器和spring容器是有关系的，关系已经确定好了。sprin
 ### 请求转发和重定向
 
 ![[SpringMVC.imgs/image-20210113103410547.png]]
+
 请求转发的使用情况：因为我们已经配置了视图解析器，所以在跳转的时候我们不能直接通过 setViewName的方式跳转到view目录以外的目录，为了能够跳转到view以外的目录，我们需要用到请求转发操作。
 
 语法：`modelAndView.setViewName("forward:完整目录")`
@@ -996,12 +929,11 @@ public class MyInterceptor implements HandlerInterceptor {
 
 拦截器：看做是多个Controller中公用的功能，集中到拦截器统一处理。使用的AOP的思想
 
-
-
 多个拦截器的执行顺序：
 
 ![[SpringMVC.imgs/image-20210113155834039.png]]
-```text
+
+```
 第一个拦截器preHandle=true , 第二个拦截器preHandle=true 
 
 111111-拦截器的MyInterceptor的preHandle()
