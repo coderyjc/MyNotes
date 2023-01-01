@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4a5fd014af0c58b4",
+        "id": "63ccb419fcd1c3ea",
         "type": "tabs",
         "children": [
           {
-            "id": "6473d5d77533001f",
+            "id": "d60773da2743d10f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -61,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 259.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -131,17 +123,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "6473d5d77533001f",
+  "active": "d60773da2743d10f",
   "lastOpenFiles": [
-    "4.归档/工作/基础/about/Plan.md",
+    "4.归档/README.md",
+    "5.专题研究/README.md",
+    "2.等待处理/Daily/2023-01-01.md",
+    "4.归档/工作/基础/db/redis/jedis.md",
+    "4.归档/工作/基础/db/redis/README.md",
     "5.专题研究/spring6/spring6.md",
-    "4.归档/工作/基础/java/spring/spring5/spring5.md",
-    "5.专题研究/JavaWeb/Servlet错误.md",
-    "5.专题研究/JavaWeb/Servlet.md",
-    "4.归档/工作/扩展/windows操作/【系统重装】使用EasyU PE重装系统.md",
-    "4.归档/学习/齐家/README.md",
-    "4.归档/学习/修身/README.md",
-    "4.归档/学习/治国/README.md",
-    "2.等待处理/Daily/2022-12-31.md"
+    "4.归档/工作/基础/algorithm/PTA/格式化输入输出.md",
+    "4.归档/工作/基础/algorithm/PTA/模板.md",
+    "4.归档/工作/基础/algorithm/PTA/字符串相关.md",
+    "4.归档/工作/基础/algorithm/PTA/tips.md"
   ]
 }

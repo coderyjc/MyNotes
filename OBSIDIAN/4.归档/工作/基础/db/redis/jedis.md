@@ -1,5 +1,3 @@
-# Redis
-
 ## Jedis
 
 [[Java]]语言操作[[redis]]，需要先导入两个包：
