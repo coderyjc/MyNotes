@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 345.5,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -114,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -131,6 +133,8 @@
   },
   "active": "80999048c113034a",
   "lastOpenFiles": [
+    "5.专题研究/谈判/掌控谈话.md",
+    "5.专题研究/Redis/redis-basic.md",
     "5.专题研究/Redis/redis-practice.md",
     "HOME.md",
     "4.归档/工作/基础/java/spring/spring5/spring5.md",
@@ -138,8 +142,6 @@
     "4.归档/工作/基础/about/README.md",
     "4.归档/工作/基础/about/get_info.md",
     "4.归档/工作/基础/about/log.md",
-    "4.归档/工作/基础/java/spring/springmvc/springmvc.md",
-    "4.归档/工作/基础/java/spring/springmvc/mvc.md",
-    "4.归档/工作/基础/java/spring/mybatis/MyBatis.md"
+    "4.归档/工作/基础/java/spring/springmvc/springmvc.md"
   ]
 }
