@@ -68,6 +68,11 @@ Redis诞生于2009年全称是**Re**mote **D**ictionary **S**erver 远程词典�
 Redis的官方网站地址：[https://redis.io/](https://redis.io/)
 
 
+## 安装
 
+[[redis-install]]
+
+
+## 常用命令
 
 

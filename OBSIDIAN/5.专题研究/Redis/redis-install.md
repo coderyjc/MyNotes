@@ -209,6 +209,8 @@ redis-cli [options] [commonds]
 安装运行即可，基本不需要配置。
 
 
+![[assets/Pasted image 20230102143533.png]]
+
 ## Docker安装Redis
 
 
