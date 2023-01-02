@@ -118,29 +118,91 @@ redis-server redis.conf
 
 停止服务
 
-```
-# 利用redis-cli来执行 shutdown 命令，即可停止 Redis 服务，
-# 因为之前配置了密码，因此需要通过 -u 来指定密码
-redis-cli -u 333 shutdown
-```
-
-
+找到进程直接kill即可。
 
 ### 设置开机自启
 
+1. 新建一个系统服务文件
+
+```bash
+sudo vim /etc/systemd/system/redis.service
+```
+
+内容如下：
+
+```
+[Unit]
+Description=redis-server
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/redis-server /usr/local/src/redis-6.2.6/redis.conf
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+```
+
+![[assets/Pasted image 20230102115530.png]]
 
 
+2.  重载系统服务
 
+```bash
+sudo systemctl daemon-reload
+```
 
+3. 使用以下命令操作redis
 
+```bash
+# 启动
+systemctl start redis
+# 停止
+systemctl stop redis
+# 重启
+systemctl restart redis
+# 查看状态
+systemctl status redis
+```
 
+执行下面的命令，可以让redis开机自启：
 
+```bash
+systemctl enable redis
+```
 
+## Redis客户端
 
+安装完成Redis，我们就可以操作Redis，实现数据的CRUD了。这需要用到Redis客户端，包括：
 
-## Redis-Desktop-Manager
+-   命令行客户端    
+-   图形化桌面客户端
+-   编程客户端
 
+### 命令行客户端
 
+Redis安装完成后就自带了命令行客户端：redis-cli，使用方式如下
+
+```bash
+redis-cli [options] [commonds]
+```
+
+其中常见的options有：
+
+-   `-h 127.0.0.1`：指定要连接的redis节点的IP地址，默认是127.0.0.1
+-   `-p 6379`：指定要连接的redis节点的端口，默认是6379
+-   `-a 333：指定redis的访问密码
+
+其中的commonds就是Redis的操作命令，例如：
+
+-   `ping`：与redis服务端做心跳测试，服务端正常会返回`pong`
+
+不指定commond时，会进入`redis-cli`的交互控制台：
+
+![[assets/Pasted image 20230102115916.png]]
+
+###  图形化桌面客户端RDM
 
 
 
