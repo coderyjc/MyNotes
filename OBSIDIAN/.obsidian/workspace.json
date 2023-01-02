@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Redis/redis-basic.md",
+                "file": "4.归档/工作/基础/software/idea/plugins-idea.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Redis/redis-basic.md",
+                "file": "4.归档/工作/基础/software/idea/plugins-idea.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Redis/redis-basic.md"
+                "file": "4.归档/工作/基础/software/idea/plugins-idea.md"
               }
             }
           },
@@ -115,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -133,15 +131,15 @@
   },
   "active": "e04b7301d01ad60b",
   "lastOpenFiles": [
-    "5.专题研究/Redis/redis-install.md",
     "5.专题研究/Redis/redis-practice.md",
-    "5.专题研究/Redis/未命名.md",
+    "5.专题研究/Redis/redis-advanced.md",
+    "5.专题研究/Redis/redis-install.md",
     "5.专题研究/Redis/redis-basic.md",
+    "5.专题研究/Redis/未命名.md",
     "5.专题研究/MyBlog项目学习笔记/README.md",
     "5.专题研究/谈判/掌控谈话.md",
     "4.归档/工作/基础/about/get_info.md",
     "4.归档/工作/基础/about/log.md",
-    "4.归档/工作/基础/about/Plan.md",
-    "4.归档/工作/基础/about/README.md"
+    "4.归档/工作/基础/about/Plan.md"
   ]
 }

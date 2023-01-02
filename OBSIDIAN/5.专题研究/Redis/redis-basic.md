@@ -127,7 +127,6 @@ String的常见命令有：
 > [!note]
 > 以上命令除了INCRBYFLOAT 都是常用命令
 
-
 ---
 
 - SET 和GET: 如果key不存在则是新增，如果存在则是修改
@@ -155,7 +154,7 @@ OK
 4) "v3"
 ```
 
--   INCR和INCRBY和DECY
+- INCR和INCRBY和DECY
 
 ```bash
 127.0.0.1:6379> get age 
@@ -178,7 +177,7 @@ OK
 "11"
 ```
 
--   SETNX
+- SETNX
 
 ```bash
 127.0.0.1:6379> help setnx
@@ -200,7 +199,7 @@ OK
 "lisi"
 ```
 
--   SETEX
+- SETEX
 
 ```bash
 127.0.0.1:6379> setex name 10 jack
@@ -226,18 +225,19 @@ Redis的key允许有多个单词形成层级结构，多个单词之间用':'隔
 ```
 项目名：业务名：类型：id
 ```
+
 这个格式并非固定，也可以根据自己的需求来删除或添加词条。
 
 例如我们的项目名称叫 heima，有user和product两种不同类型的数据，我们可以这样定义key：
 
--   user相关的key：**heima:user:1**
--   product相关的key：**heima:product:1**
+- user相关的key：**heima:user:1**
+- product相关的key：**heima:product:1**
 
 如果Value是一个Java对象，例如一个User对象，则可以将对象序列化为JSON字符串后存储：
 
-| **KEY**         | **VALUE**                                 |
-| --------------- | ----------------------------------------- |
-| heima:user:1    | {"id":1, "name": "Jack", "age": 21}       |
+| **KEY**         | **VALUE**                               |
+| --------------- | --------------------------------------- |
+| heima:user:1    | {"id":1, "name": "Jack", "age": 21}     |
 | heima:product:1 | {"id":1, "name": "小米11", "price": 4999} |
 
 一旦我们向redis采用这样的方式存储，那么在可视化界面中，redis会以层级结构来进行存储，形成类似于这样的结构，更加方便Redis获取数据
@@ -259,16 +259,22 @@ Hash结构可以将对象中的每个字段独立存储，可以针对单个字�
 **Hash类型的常见命令**
 
 - HSET key field value：添加或者修改hash类型key的field的值
+
 - HGET key field：获取一个hash类型key的field的值
+
 - HMSET：批量添加多个hash类型key的field的值
+
 - HMGET：批量获取多个hash类型key的field的值
+
 - HGETALL：获取一个hash类型的key中的所有的field和value
+
 - HKEYS：获取一个hash类型的key中的所有的field
+
 - HINCRBY:让一个hash类型key的字段值自增并指定步长
+
 - HSETNX：添加一个hash类型的key的field值，前提是这个field不存在，否则不执行
 
-
--   HSET和HGET
+- HSET和HGET
 
 ```bash
 127.0.0.1:6379> HSET heima:user:3 name Lucy//大key是 heima:user:3 小key是name，小value是Lucy
@@ -283,7 +289,7 @@ Hash结构可以将对象中的每个字段独立存储，可以针对单个字�
 "17"
 ```
 
--   HMSET和HMGET
+- HMSET和HMGET
 
 ```bash
 127.0.0.1:6379> HMSET heima:user:4 name HanMeiMei
@@ -296,7 +302,7 @@ OK
 3) "man"
 ```
 
--   HGETALL
+- HGETALL
 
 ```bash
 127.0.0.1:6379> HGETALL heima:user:4
@@ -308,7 +314,7 @@ OK
 6) "man"
 ```
 
--   HKEYS和HVALS
+- HKEYS和HVALS
 
 ```bash
 127.0.0.1:6379> HKEYS heima:user:4
@@ -321,7 +327,7 @@ OK
 3) "man"
 ```
 
--   HINCRBY
+- HINCRBY
 
 ```bash
 127.0.0.1:6379> HINCRBY  heima:user:4 age 2
@@ -334,7 +340,7 @@ OK
 (integer) 20
 ```
 
--   HSETNX
+- HSETNX
 
 ```bash
 127.0.0.1:6379> HSETNX heima:user4 sex woman
@@ -361,10 +367,10 @@ Redis中的List类型与Java中的LinkedList类似，可以看做是一个双向
 
 特征也与LinkedList类似：
 
-* 有序
-* 元素可以重复
-* 插入和删除快
-* 查询速度一般
+- 有序
+- 元素可以重复
+- 插入和删除快
+- 查询速度一般
 
 常用来存储一个有序数据，例如：朋友圈点赞列表，评论列表等。
 
@@ -379,7 +385,7 @@ Redis中的List类型与Java中的LinkedList类似，可以看做是一个双向
 
 ![[assets/Pasted image 20230102164405.png]]
 
-* LPUSH和RPUSH
+- LPUSH和RPUSH
 
 ```bash
 127.0.0.1:6379> LPUSH users 1 2 3
@@ -388,7 +394,7 @@ Redis中的List类型与Java中的LinkedList类似，可以看做是一个双向
 (integer) 6
 ```
 
-* LPOP和RPOP
+- LPOP和RPOP
 
 ```bash
 127.0.0.1:6379> LPOP users
@@ -397,7 +403,7 @@ Redis中的List类型与Java中的LinkedList类似，可以看做是一个双向
 "6"
 ```
 
-* LRANGE
+- LRANGE
 
 ```bash
 127.0.0.1:6379> LRANGE users 1 2
@@ -409,21 +415,21 @@ Redis中的List类型与Java中的LinkedList类似，可以看做是一个双向
 
 Redis的Set结构与Java中的HashSet类似，可以看做是一个value为null的HashMap。因为也是一个hash表，因此具备与HashSet类似的特征：
 
-* 无序
-* 元素不可重复
-* 查找快
-* 支持交集.并集.差集等功能
+- 无序
+- 元素不可重复
+- 查找快
+- 支持交集.并集.差集等功能
 
 **Set类型的常见命令**
 
-* SADD key member ... ：向set中添加一个或多个元素
-* SREM key member ... : 移除set中的指定元素
-* SCARD key： 返回set中元素的个数
-* SISMEMBER key member：判断一个元素是否存在于set中
-* SMEMBERS：获取set中的所有元素
-* SINTER key1 key2 ... ：求key1与key2的交集
-* SDIFF key1 key2 ... ：求key1与key2的差集
-* SUNION key1 key2 ..：求key1和key2的并集
+- SADD key member ... ：向set中添加一个或多个元素
+- SREM key member ... : 移除set中的指定元素
+- SCARD key： 返回set中元素的个数
+- SISMEMBER key member：判断一个元素是否存在于set中
+- SMEMBERS：获取set中的所有元素
+- SINTER key1 key2 ... ：求key1与key2的交集
+- SDIFF key1 key2 ... ：求key1与key2的差集
+- SUNION key1 key2 ..：求key1和key2的并集
 
 ```bash
 127.0.0.1:6379> sadd s1 a b c
@@ -444,17 +450,17 @@ Redis的Set结构与Java中的HashSet类似，可以看做是一个value为null�
 
 **案例**
 
-* 将下列数据用Redis的Set集合来存储：
-* 张三的好友有：李四.王五.赵六
-* 李四的好友有：王五.麻子.二狗
-* 利用Set的命令实现下列功能：
-* 计算张三的好友有几人
-* 计算张三和李四有哪些共同好友
-* 查询哪些人是张三的好友却不是李四的好友
-* 查询张三和李四的好友总共有哪些人
-* 判断李四是否是张三的好友
-* 判断张三是否是李四的好友
-* 将李四从张三的好友列表中移除
+- 将下列数据用Redis的Set集合来存储：
+- 张三的好友有：李四.王五.赵六
+- 李四的好友有：王五.麻子.二狗
+- 利用Set的命令实现下列功能：
+- 计算张三的好友有几人
+- 计算张三和李四有哪些共同好友
+- 查询哪些人是张三的好友却不是李四的好友
+- 查询张三和李四的好友总共有哪些人
+- 判断李四是否是张三的好友
+- 判断张三是否是李四的好友
+- 将李四从张三的好友列表中移除
 
 ```bash
 127.0.0.1:6379> SADD zs lisi wangwu zhaoliu
@@ -524,12 +530,9 @@ SortedSet的常见命令有：
 - **升序**获取sorted set 中的指定元素的排名：ZRANK key member
 - **降序**获取sorted set 中的指定元素的排名：ZREVRANK key memeber
 
-
-
 ## Java客户端-Jedis
 
-在Redis官网中提供了各种语言的客户端，地址：[https://redis.io/docs/clients/](https://redis.io/docs/clients/)
-
+在Redis官网中提供了各种语言的客户端，地址：<https://redis.io/docs/clients/>
 
 ### Jedis Startup
 
@@ -551,6 +554,7 @@ SortedSet的常见命令有：
     <scope>test</scope>
 </dependency>
 ```
+
 2. 建立连接
 
 新建一个单元测试类，内容如下：
@@ -569,6 +573,7 @@ void setUp() {
     jedis.select(0);
 }
 ```
+
 3. 测试
 
 ```java
@@ -610,7 +615,6 @@ void tearDown() {
 Jedis本身是线程不安全的，并且频繁的创建和销毁连接会有性能损耗，因此我们推荐大家使用Jedis连接池代替Jedis的直连方式
 
 有关池化思想，并不仅仅是这里会使用，很多地方都有，比如说我们的数据库连接池，比如我们tomcat中的线程池，这些都是池化思想的体现。
-
 
 1. 创建Jedis连接池
 
@@ -675,15 +679,15 @@ public class JedisConnectionFacotry {
 
 ## Redis的Java客户端-SpringDataRedis
 
-SpringData是Spring中数据操作的模块，包含对各种数据库的集成，其中对Redis的集成模块就叫做SpringDataRedis，官网地址：https://spring.io/projects/spring-data-redis
+SpringData是Spring中数据操作的模块，包含对各种数据库的集成，其中对Redis的集成模块就叫做SpringDataRedis，官网地址：<https://spring.io/projects/spring-data-redis>
 
-* 提供了对不同Redis客户端的整合（Lettuce和Jedis）
-* 提供了RedisTemplate统一API来操作Redis
-* 支持Redis的发布订阅模型
-* 支持Redis哨兵和Redis集群
-* 支持基于Lettuce的响应式编程
-* 支持基于JDK.JSON.字符串.Spring对象的数据序列化及反序列化
-* 支持基于Redis的JDKCollection实现
+- 提供了对不同Redis客户端的整合（Lettuce和Jedis）
+- 提供了RedisTemplate统一API来操作Redis
+- 支持Redis的发布订阅模型
+- 支持Redis哨兵和Redis集群
+- 支持基于Lettuce的响应式编程
+- 支持基于JDK.JSON.字符串.Spring对象的数据序列化及反序列化
+- 支持基于Redis的JDKCollection实现
 
 SpringDataRedis中提供了RedisTemplate工具类，其中封装了各种对Redis的操作。并且将不同数据类型的操作API封装到了不同的类型中：
 
@@ -760,7 +764,6 @@ SpringDataRedis中提供了RedisTemplate工具类，其中封装了各种对Redi
 </project>
 ```
 
-
 2. 配置文件
 
 ```yml
@@ -799,9 +802,9 @@ class RedisDemoApplicationTests {
 
 SpringDataRedis的使用步骤：
 
--   引入spring-boot-starter-data-redis依赖
--   在application.yml配置Redis信息
--   注入RedisTemplate
+- 引入spring-boot-starter-data-redis依赖
+- 在application.yml配置Redis信息
+- 注入RedisTemplate
 
 ### 数据序列化器
 
@@ -832,4 +835,93 @@ public class RedisConfig {
 }
 ```
 
+### StringRedisTemplate
 
+尽管JSON的序列化方式可以满足我们的需求，但依然存在一些问题，如图：
+
+![[assets/Pasted image 20230102171129.png]]
+
+为了在反序列化时知道对象的类型，JSON序列化器会将类的class类型写入json结果中，存入Redis，会带来额外的内存开销。
+
+为了减少内存的消耗，我们可以采用手动序列化的方式，换句话说，就是不借助默认的序列化器，而是我们自己来控制序列化的动作，同时，我们只采用String的序列化器，这样，在存储value时，我们就不需要在内存中就不用多存储数据，从而节约我们的内存空间
+
+![[assets/Pasted image 20230102171152.png]]
+
+这种用法比较普遍，因此SpringDataRedis就提供了RedisTemplate的子类：StringRedisTemplate，它的key和value的序列化方式默认就是String方式。
+
+省去了我们自定义RedisTemplate的序列化方式的步骤，而是直接使用：
+
+```java
+@SpringBootTest  
+ class RedisStringTests {  
+ ​  
+     @Autowired  
+     private StringRedisTemplate stringRedisTemplate;  
+ ​  
+     @Test  
+     void testString() {  
+         // 写入一条String数据  
+         stringRedisTemplate.opsForValue().set("verify:phone:13600527634", "124143");  
+         // 获取string数据  
+         Object name = stringRedisTemplate.opsForValue().get("name");  
+         System.out.println("name = " + name);  
+     }  
+ ​  
+     private static final ObjectMapper mapper = new ObjectMapper();  
+ ​  
+     @Test  
+     void testSaveUser() throws JsonProcessingException {  
+         // 创建对象  
+         User user = new User("虎哥", 21);  
+         // 手动序列化  
+         String json = mapper.writeValueAsString(user);  
+         // 写入数据  
+         stringRedisTemplate.opsForValue().set("user:200", json);  
+ ​  
+         // 获取数据  
+         String jsonUser = stringRedisTemplate.opsForValue().get("user:200");  
+         // 手动反序列化  
+         User user1 = mapper.readValue(jsonUser, User.class);  
+         System.out.println("user1 = " + user1);  
+     }  
+ ​  
+ }
+```
+
+此时我们再来看一看存储的数据，小伙伴们就会发现那个class数据已经不在了，节约了我们的空间
+
+![[assets/Pasted image 20230102171230.png]]
+
+最后小总结：
+
+RedisTemplate的两种序列化实践方案：
+
+- 方案一：
+  - 自定义RedisTemplate
+  - 修改RedisTemplate的序列化器为GenericJackson2JsonRedisSerializer
+
+- 方案二：
+  - 使用StringRedisTemplate
+  - 写入Redis时，手动把对象序列化为JSON
+  - 读取Redis时，手动把读取到的JSON反序列化为对象
+
+### Hash结构操作
+
+```java
+@SpringBootTest
+class RedisStringTests {
+
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
+
+
+    @Test
+    void testHash() {
+        stringRedisTemplate.opsForHash().put("user:400", "name", "虎哥");
+        stringRedisTemplate.opsForHash().put("user:400", "age", "21");
+
+        Map<Object, Object> entries = stringRedisTemplate.opsForHash().entries("user:400");
+        System.out.println("entries = " + entries);
+    }
+}
+```
