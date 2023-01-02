@@ -204,7 +204,9 @@ redis-cli [options] [commonds]
 
 ###  图形化桌面客户端RDM
 
+在下面这个仓库可以找到安装包：[https://github.com/lework/RedisDesktopManager-Windows/releases](https://github.com/lework/RedisDesktopManager-Windows/releases)
 
+安装运行即可，基本不需要配置。
 
 
 ## Docker安装Redis
