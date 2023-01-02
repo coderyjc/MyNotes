@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md",
+                "file": "5.专题研究/Redis/redis-basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "197c0ceec2cf98c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/Redis/redis-install.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 252.5,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -77,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md",
+                "file": "5.专题研究/Redis/redis-install.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/wechat_daily_challenge/database.md"
+                "file": "5.专题研究/Redis/redis-install.md"
               }
             }
           },
@@ -130,17 +144,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "80999048c113034a",
+  "active": "197c0ceec2cf98c4",
   "lastOpenFiles": [
     "5.专题研究/Redis/redis-basic.md",
+    "2.等待处理/Daily/2023-01-02.md",
+    "2.等待处理/Daily/Archieve/2023-01/2023-01-01.md",
+    "1.收集箱/wechat_daily_challenge/database.md",
     "5.专题研究/谈判/掌控谈话.md",
     "5.专题研究/Redis/redis-practice.md",
     "HOME.md",
     "4.归档/工作/基础/java/spring/spring5/spring5.md",
     "4.归档/工作/基础/about/Plan.md",
-    "4.归档/工作/基础/about/README.md",
-    "4.归档/工作/基础/about/get_info.md",
-    "4.归档/工作/基础/about/log.md",
-    "4.归档/工作/基础/java/spring/springmvc/springmvc.md"
+    "4.归档/工作/基础/about/README.md"
   ]
 }
