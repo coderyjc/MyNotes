@@ -11,8 +11,10 @@
             "id": "d434e6cb0fdd062c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "2.等待处理/Daily/2023-01-03.md"
+              }
             }
           }
         ]
@@ -73,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Daily/2023-01-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Daily/2023-01-03.md"
+              }
             }
           },
           {
