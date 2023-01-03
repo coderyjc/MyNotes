@@ -11,15 +11,26 @@
             "id": "55cc27d9fed66217",
             "type": "leaf",
             "state": {
+              "type": "kanban",
+              "state": {
+                "file": "2.等待处理/Daily/2023-01-03.md"
+              }
+            }
+          },
+          {
+            "id": "49f3fc976e4a95de",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/SprintBoot/SpringBoot知识地图.md",
+                "file": "5.专题研究/hadoop/未命名.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -77,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/SprintBoot/SpringBoot知识地图.md",
+                "file": "5.专题研究/hadoop/未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/SprintBoot/SpringBoot知识地图.md"
+                "file": "5.专题研究/hadoop/未命名.md"
               }
             }
           },
@@ -130,17 +142,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "55cc27d9fed66217",
+  "active": "49f3fc976e4a95de",
   "lastOpenFiles": [
-    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-Bootloader.md",
+    "2.等待处理/Daily/2023-01-03.md",
     "5.专题研究/SprintBoot/SpringBoot知识地图.md",
+    "5.专题研究/黑马点评/2.短信登录.md",
+    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-Bootloader.md",
     "5.专题研究/SprintBoot/principle/SpringBoot-Principle-AutoConfig.md",
     "5.专题研究/SprintBoot/operation/SpringBoot-Operation-AdvancedConfig.md",
     "5.专题研究/SprintBoot/integration/SpringBoot-Integration-Druid.md",
     "5.专题研究/SprintBoot/dev/SpringBoot-Dev-AdvancedConfig.md",
     "5.专题研究/SprintBoot/basic/SpringBoot-Basic-BasicConfig.md",
-    "4.归档/工作/基础/devops/git/git.md",
-    "2.等待处理/Daily/2023-01-03.md",
-    "5.专题研究/黑马点评/0.黑马点评项目简介.md"
+    "4.归档/工作/基础/devops/git/git.md"
   ]
 }
