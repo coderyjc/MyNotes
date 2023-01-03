@@ -25,7 +25,7 @@
 方法3：用UPDATE直接编辑user表
 首先登录MySQL。
 mysql> use mysql；
-mysql> update user set password=password（'123'）where user= 'root' and host = 'localhost'；
+mysql> update user set password=password('333') where user= 'root' and host = 'localhost'；
 mysql> flush privileges；
 
 方法4：在忘记root密码的时候，可以这样

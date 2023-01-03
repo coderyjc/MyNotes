@@ -158,3 +158,10 @@ uploadImg(type) {
       }
     },
 ```
+
+
+## 配置文件相关
+
+> MalformedInputException: Input length = 1
+
+是因为yml配置文件中有中文，删掉中文即可。
