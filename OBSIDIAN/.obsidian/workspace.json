@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a631764ed0b08652",
+        "id": "51911f2f84229709",
         "type": "tabs",
         "children": [
           {
-            "id": "c15f2fa81c16edfd",
+            "id": "d434e6cb0fdd062c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/教师资格证数据分析系统/预先学习.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/教师资格证数据分析系统/预先学习.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/教师资格证数据分析系统/预先学习.md"
-              }
+              "state": {}
             }
           },
           {
@@ -130,17 +123,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c15f2fa81c16edfd",
+  "active": "d434e6cb0fdd062c",
   "lastOpenFiles": [
-    "5.专题研究/SprintBoot/basic/SpringBoot-Basic-QuickStart.md",
-    "5.专题研究/教师资格证数据分析系统/预先学习.md",
     "5.专题研究/SprintBoot/SpringBoot知识地图.md",
+    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-Bootloader.md",
+    "4.归档/工作/基础/java/spring/springboot/springboot-basic.md",
+    "2.等待处理/Dashboard/warehouse.md",
     "2.等待处理/Daily/2023-01-03.md",
+    "5.专题研究/教师资格证数据分析系统/预先学习.md",
+    "5.专题研究/SprintBoot/basic/SpringBoot-Basic-QuickStart.md",
     "5.专题研究/hadoop/未命名.md",
     "5.专题研究/黑马点评/2.短信登录.md",
-    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-Bootloader.md",
-    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-AutoConfig.md",
-    "5.专题研究/SprintBoot/operation/SpringBoot-Operation-AdvancedConfig.md",
-    "5.专题研究/SprintBoot/integration/SpringBoot-Integration-Druid.md"
+    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-AutoConfig.md"
   ]
 }

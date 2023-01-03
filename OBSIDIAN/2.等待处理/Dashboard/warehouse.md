@@ -61,7 +61,6 @@ kanban-plugin: basic
 
 ## 娱乐
 
-- [ ] #flag/游戏  《只狼》
 - [ ] #flag/游戏  生物进化史+《孢子》
 - [x] #flag/游戏 cemu玩塞尔达并且连接手机的传感器和limbo
 - [ ] #flag/电影 新海诚和宫崎骏的电影
