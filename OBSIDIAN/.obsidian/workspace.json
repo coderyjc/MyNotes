@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "84740b93f9dce5a9",
+        "id": "a631764ed0b08652",
         "type": "tabs",
         "children": [
           {
-            "id": "09d866401c7e95f6",
+            "id": "55cc27d9fed66217",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/黑马点评/2.短信登录.md",
+                "file": "5.专题研究/SprintBoot/SpringBoot知识地图.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/黑马点评/2.短信登录.md",
+                "file": "5.专题研究/SprintBoot/SpringBoot知识地图.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/黑马点评/2.短信登录.md"
+                "file": "5.专题研究/SprintBoot/SpringBoot知识地图.md"
               }
             }
           },
@@ -131,17 +130,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "09d866401c7e95f6",
+  "active": "55cc27d9fed66217",
   "lastOpenFiles": [
-    "5.专题研究/黑马点评/1.项目导入.md",
-    "5.专题研究/黑马点评/2.短信登录.md",
-    "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】BugRecord.md",
-    "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md",
-    "5.专题研究/Redis/redis-practice.md",
-    "5.专题研究/黑马点评/0.黑马点评项目简介.md",
-    "5.专题研究/Redis/redis-basic.md",
-    "5.专题研究/Redis/redis-install.md",
+    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-Bootloader.md",
     "5.专题研究/SprintBoot/SpringBoot知识地图.md",
-    "4.归档/工作/工程/数据库/MySQL/【Bug】MySQL-Bug.md"
+    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-AutoConfig.md",
+    "5.专题研究/SprintBoot/operation/SpringBoot-Operation-AdvancedConfig.md",
+    "5.专题研究/SprintBoot/integration/SpringBoot-Integration-Druid.md",
+    "5.专题研究/SprintBoot/dev/SpringBoot-Dev-AdvancedConfig.md",
+    "5.专题研究/SprintBoot/basic/SpringBoot-Basic-BasicConfig.md",
+    "4.归档/工作/基础/devops/git/git.md",
+    "2.等待处理/Daily/2023-01-03.md",
+    "5.专题研究/黑马点评/0.黑马点评项目简介.md"
   ]
 }
