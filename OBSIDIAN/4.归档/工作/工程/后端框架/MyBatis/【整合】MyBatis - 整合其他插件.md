@@ -8,7 +8,6 @@ create_date: 2022-01-31
 
 ### 整合pagehelper和mybatis-plus
 
-在[[SpringBoot]] 中整合。
 
 在SSM中整合pagehelper只需要导入一个依赖，但是Springboot中需要导入三个依赖
 

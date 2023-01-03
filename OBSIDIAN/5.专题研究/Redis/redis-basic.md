@@ -530,7 +530,7 @@ SortedSet的常见命令有：
 - **升序**获取sorted set 中的指定元素的排名：ZRANK key member
 - **降序**获取sorted set 中的指定元素的排名：ZREVRANK key memeber
 
-## Java客户端-Jedis
+## Redis的Java客户端-Jedis
 
 在Redis官网中提供了各种语言的客户端，地址：<https://redis.io/docs/clients/>
 
