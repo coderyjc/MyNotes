@@ -11,11 +11,9 @@
             "id": "d434e6cb0fdd062c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "5.专题研究/黑马点评/2.短信登录.md",
-                "mode": "source",
-                "source": false
+                "file": "2.等待处理/Daily/2023-01-04.md"
               }
             }
           }
@@ -78,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/黑马点评/2.短信登录.md",
+                "file": "2.等待处理/Daily/2023-01-04.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/黑马点评/2.短信登录.md"
+                "file": "2.等待处理/Daily/2023-01-04.md"
               }
             }
           },
@@ -133,6 +131,7 @@
   },
   "active": "d434e6cb0fdd062c",
   "lastOpenFiles": [
+    "5.专题研究/黑马点评/2.短信登录.md",
     "5.专题研究/SprintBoot/basic/SpringBoot-Basic-QuickStart.md",
     "5.专题研究/SprintBoot/SpringBoot知识地图.md",
     "2.等待处理/Daily/2023-01-04.md",
@@ -141,7 +140,6 @@
     "4.归档/工作/基础/java/spring/springboot/springboot-basic.md",
     "2.等待处理/Dashboard/warehouse.md",
     "5.专题研究/教师资格证数据分析系统/预先学习.md",
-    "5.专题研究/hadoop/未命名.md",
-    "5.专题研究/黑马点评/2.短信登录.md"
+    "5.专题研究/hadoop/未命名.md"
   ]
 }
