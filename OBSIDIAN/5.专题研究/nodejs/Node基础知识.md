@@ -156,3 +156,7 @@ process.nextTick(() => {
 ```
 
 
+### globalThis
+
+在新标准中使用globalThis替代global
+
