@@ -2,7 +2,7 @@
 > [!info] Description 
 > 笔记、随手记、知乎文章、公众号文章、社区文章等
 
-#obsidian/obsidian用法 obsidian用法 有什么本地笔记管理软件推荐？ - 韦易笑的回答 - 知乎 https://www.zhihu.com/question/266836039/answer/2728791257
+
 
 #obsidian/dataview  https://zhuanlan.zhihu.com/p/373623264
 

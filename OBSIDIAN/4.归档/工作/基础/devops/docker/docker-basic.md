@@ -214,11 +214,8 @@ DockerServer接收到Docker-Client的指令，就会执行这个命令！
 1. Docker有着比虚拟机更少的抽象层
 2. Docker利用的是宿主机的内核，VM需要的是Guest OS
 
-![[Docker.imgs/image-20210625193259429.png]]
-
 所以说，新建一个容器的时候，docker不需要像虚拟机一样重新加载一个操作系统内核，避免引导。虚拟机是加载Guset OS , 分钟级别的，而docker是利用宿主机的操作系统，省略了这个复杂的过程，秒级。
 
-![[Docker.imgs/image-20210625193639364.png]]
 
 ## Docker常用命令
 
