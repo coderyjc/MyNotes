@@ -93,3 +93,42 @@ console.log(FILE_NAME)
 hello()
 ```
 
+### 实质
+
+实际上，exports是一个对象，向其中添加的属性将会被导出。
+
+在另一个文件中使用require实际上是拿到了这个exports对象，也就是require通过各种查找的方式，最终找到了export对象，并且把这个exports对象赋值给了另一个文件中的变量，这个变量就是exports对象了。
+
+exports的本质就是一种引用赋值，在被引用的文件中修改导出值的时候，在引用的文件中也会变化。
+
+utils.js
+
+```js
+let name = "bar"
+
+exports.name = name
+
+// 2s之后修改
+setTimeout(() => {
+  exports.name = "why"
+  console.log('已修改');
+}, 2000)
+
+```
+
+main.js
+
+```js
+// 探讨require的本质
+const bar = require("./utils")
+console.log(bar.name) // bar
+
+// 4s之后重新获取name
+setTimeout(() => {
+  console.log(bar.name)
+}, 4000)
+```
+
+![[assets/Pasted image 20230105142438.png]]
+
+
