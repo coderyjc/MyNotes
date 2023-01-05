@@ -25,6 +25,8 @@ Node是用什么语言编写的？C、C++、和少部分JS
 
 ## 安装
 
+### 安装Node.js
+
 [node官网](https://nodejs.org/en/)
 
 LTS版本（Long Term Support）：长期支持，相对稳定，线上使用。真正开发一定要使用LTS版本
@@ -41,7 +43,44 @@ Current版本：最新的版本，包含很多新特性
 
 ![[assets/Pasted image 20230104193206.png]]
 
+![[assets/Pasted image 20230104193347.png]]
+
+![[assets/Pasted image 20230104193358.png]]
+
+![[assets/Pasted image 20230104193410.png]]
+
+![[assets/Pasted image 20230104193417.png]]
+
+安装成功
+
+![[assets/Pasted image 20230104193535.png]]
+
+### Node多版本工具nvm的安装
+
+本身不支持windows系统。
+
+有大佬在windows系统中复刻了一个nvm，我们在windows上使用的是nvm。
+
+官网：[https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
+
+- 通过 `nvm install latest` 安装最新的node版本
+- 通过 `nvm list` 展示目前安装的所有版本
+- 通过 `nvm use` 切换版本
+
+![[assets/Pasted image 20230104194510.png]]
+
+![[assets/Pasted image 20230104194529.png]]
+
+![[assets/Pasted image 20230104194615.png]]
+
+点击是即可。
 
 
+### 版本管理工具 n【Mac】
 
+```bash
+npm install -g n
+
+n --version
+```
 

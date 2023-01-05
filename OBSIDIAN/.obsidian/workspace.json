@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "51911f2f84229709",
+        "id": "771858d1dcf0025d",
         "type": "tabs",
         "children": [
           {
-            "id": "d434e6cb0fdd062c",
+            "id": "45ce7e7cb2835511",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "5.专题研究/nodejs/node.js.md",
-                "mode": "source",
-                "source": false
+                "file": "2.等待处理/Daily/2023-01-04.md"
               }
             }
           }
@@ -78,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/nodejs/node.js.md",
+                "file": "2.等待处理/Daily/2023-01-04.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/nodejs/node.js.md"
+                "file": "2.等待处理/Daily/2023-01-04.md"
               }
             }
           },
@@ -131,8 +129,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "d434e6cb0fdd062c",
+  "active": "45ce7e7cb2835511",
   "lastOpenFiles": [
+    "5.专题研究/nodejs/node.js.md",
     "2.等待处理/Daily/2023-01-04.md",
     "5.专题研究/CertificateAnalysis/计划.md",
     "5.专题研究/SprintBoot/SpringBoot知识地图.md",
@@ -141,7 +140,6 @@
     "5.专题研究/Redis/redis-practice.md",
     "5.专题研究/黑马点评/2.短信登录.md",
     "2.等待处理/Daily/2023-01-03.md",
-    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-Bootloader.md",
-    "4.归档/工作/基础/java/spring/springboot/springboot-basic.md"
+    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-Bootloader.md"
   ]
 }
