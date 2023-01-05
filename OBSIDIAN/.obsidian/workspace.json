@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "46508320af6ba93c",
+        "id": "dc36c9e1ea5cb5e2",
         "type": "tabs",
         "children": [
           {
-            "id": "809b301a57d4cee5",
+            "id": "1d7a9f871bb1cbe7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "5.专题研究/nodejs/Node模块化开发.md",
-                "mode": "source",
-                "source": false
+                "file": "2.等待处理/Daily/2023-01-05.md"
               }
             }
           }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/nodejs/Node模块化开发.md",
+                "file": "2.等待处理/Daily/2023-01-05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/nodejs/Node模块化开发.md"
+                "file": "2.等待处理/Daily/2023-01-05.md"
               }
             }
           },
@@ -110,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -130,17 +128,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "809b301a57d4cee5",
+  "active": "1d7a9f871bb1cbe7",
   "lastOpenFiles": [
     "5.专题研究/nodejs/Node基础知识.md",
-    "2.等待处理/Daily/2023-01-05.md",
+    "5.专题研究/nodejs/Nodejs知识地图.md",
     "5.专题研究/nodejs/Node模块化开发.md",
     "5.专题研究/nodejs/ES Module.md",
+    "5.专题研究/SpringBoot/SpringBoot知识地图.md",
+    "4.归档/工作/基础/front/css/CSS知识导图.md",
+    "4.归档/工作/基础/front/css/CSS3.md",
+    "2.等待处理/Daily/2023-01-05.md",
     "2.等待处理/Dashboard/warehouse.md",
-    "1.收集箱/README.md",
-    "1.收集箱/log.md",
-    "HOME.md",
-    "5.专题研究/Redis/redis-install.md",
-    "5.专题研究/Redis/redis-practice.md"
+    "1.收集箱/README.md"
   ]
 }
