@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "771858d1dcf0025d",
+        "id": "67b533856b2cb112",
         "type": "tabs",
         "children": [
           {
-            "id": "45ce7e7cb2835511",
+            "id": "952c26aa3779bcfd",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "2.等待处理/Daily/2023-01-04.md"
+                "file": "5.专题研究/nodejs/node.js.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -59,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Daily/2023-01-04.md",
+                "file": "5.专题研究/nodejs/node.js.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Daily/2023-01-04.md"
+                "file": "5.专题研究/nodejs/node.js.md"
               }
             }
           },
@@ -113,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -129,17 +129,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "45ce7e7cb2835511",
+  "active": "952c26aa3779bcfd",
   "lastOpenFiles": [
+    "5.专题研究/黑马点评/2.短信登录.md",
+    "2.等待处理/Daily/2023-01-05.md",
+    "5.专题研究/黑马点评/1.项目导入.md",
+    "5.专题研究/Redis/redis-practice.md",
+    "5.专题研究/Redis/redis-install.md",
+    "5.专题研究/Redis/redis-basic.md",
     "5.专题研究/nodejs/node.js.md",
     "2.等待处理/Daily/2023-01-04.md",
     "5.专题研究/CertificateAnalysis/计划.md",
-    "5.专题研究/SprintBoot/SpringBoot知识地图.md",
-    "5.专题研究/SprintBoot/basic/SpringBoot-Basic-BasicConfig.md",
-    "5.专题研究/SprintBoot/basic/SpringBoot-Basic-QuickStart.md",
-    "5.专题研究/Redis/redis-practice.md",
-    "5.专题研究/黑马点评/2.短信登录.md",
-    "2.等待处理/Daily/2023-01-03.md",
-    "5.专题研究/SprintBoot/principle/SpringBoot-Principle-Bootloader.md"
+    "5.专题研究/SpringBoot/SpringBoot知识地图.md"
   ]
 }

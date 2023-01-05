@@ -84,3 +84,75 @@ npm install -g n
 n --version
 ```
 
+## 输入输出内容
+
+```java
+// 给程序输入内容
+console.log(process.argv)
+```
+
+```bash
+R:\code\github\workspace\nodejs>node 输入输出.js num=20
+[
+  'E:\\Envrionment\\node\\node.exe',
+  'R:\\code\\github\\workspace\\nodejs\\输入输出.js',
+  'num=20'
+]
+```
+
+为什么叫做argv？
+
+- argc：argument counter 传递参数的个数
+- argv：argument vector 参数响亮
+
+## 常见全局对象
+
+### 特殊全局对象
+```js
+// 特殊的全局对象
+
+// 表示当前的文件所在的目录
+console.log(__dirname)
+
+// 表示当前文件的全路径
+console.log(__filename)
+```
+
+```bash
+R:\code\github\workspace\nodejs>node 输入输出.js
+R:\code\github\workspace\nodejs
+R:\code\github\workspace\nodejs\输入输出.js
+```
+
+### process
+
+
+很大的一个对象，里面包含了很多东西
+
+
+### console
+
+
+### 定时器函数
+
+```js
+// 定时器方法
+
+setInterval(() => {
+
+}, 2000)
+
+setTimeout(() => {
+
+}, 2000)
+
+setImmediate(() => {
+
+}, 2000)
+
+process.nextTick(() => {
+
+})
+```
+
+
