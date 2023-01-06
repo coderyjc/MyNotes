@@ -4,10 +4,19 @@ kanban-plugin: basic
 
 ---
 
+## 近期打算
+
+- [ ] #flag/工具 玩玩via浏览器及其插件
+- [ ] #flag/工具 提取不背单词的背景图片
+- [ ] 收集压缩包密码库
+- [ ] RSS订阅+微信推送成日常观看
+- [ ] #flag/工具 写一个遍历压缩包zip密码的软件，跑在云服务器上
+- [ ] #flag/工具 玩玩安卓的auto.js和exposed框架，还有太极框架
+
+
 ## 核心竞争力
 
 - [ ] #flag/网站 基于自己的电子书打造个人书库网站
-- [ ] #flag/网站 诗词展示网站（极限html+css+js）
 - [ ] #flag/开发 寒假补充数学基础和算法基础
 - [ ] #flag/开发 疯狂建立自己的codebase
 - [ ] 通过gitee或者github部署doc博客
@@ -18,26 +27,19 @@ kanban-plugin: basic
 - [ ] #flag/开发 springcloud项目 https://mp.weixin.qq.com/s/vrSU_7yGR4Hi5zqRIhwJlA
 
 
-## 创作
+## 学习
 
-- [ ] #flag/设计 制作wallpaper的壁纸
-- [ ] #flag/设计 学习PPT然后建立自己的PPT模版
-- [ ] #flag/设计 自己制作typora皮肤和转换为html的皮肤
-- [ ] #flag/设计 JavaScript的canvas库，网页绘图
-- [ ] #flag/设计 PS，敬伟教程
-- [ ] #flag/设计 学习配色和设计，自己写一个obsidian，vscode，typora主题等
-- [ ] #flag/写作 玄幻小说
-- [ ] #flag/写作 模仿龙族写小说
-- [ ] #flag/写作 经常在知乎写回答
+- [ ] #flag/人文 西欧的历史和欧洲侵略史
+- [ ] #flag/人文 听听王德峰的哲学课，中西方文化差异的源头、教育差异等
+- [ ] #flag/读书 四大名著
+- [ ] #flag/读书 使用Obsidian整理读书笔记
+- [ ] #flag/读书 金庸的小说
+- [ ] #flag/读书 哈利波特+王一珉电影解读
 
 
 ## 其他falg
 
-- [ ] 收集压缩包密码库
 - [ ] 注册吾爱破解会员，看看52
-- [ ] 看看阿虚同学的博客，资源，还是资源
-- [ ] 搜刮技术胖和后盾人的资源，顺便看看其他人的
-- [ ] 开发者工具top100 https://mp.weixin.qq.com/s/9DqfP7niFlZLWGmM1jXPpw
 - [ ] 抽时间复盘一下自己的大学生活，各个方面
 - [ ] 研究研究正装的穿法，细节什么的
 - [ ] 用pygame学着写个小游戏，从而练习python开发，这个应该放在python基础之后。
@@ -47,16 +49,11 @@ kanban-plugin: basic
 - [ ] 看看半佛和职业选择相关的视频
 - [ ] 花时间整理一下我的vuepress导航站的搭建过程
 - [ ] 文章同步在csdn和博客园上
-- [ ] webdav
-- [ ] 阅读知乎盐选的文章
-- [ ] RSS订阅+微信推送成日常观看
-- [ ] 学习一些话术, 影响别人
 - [ ] 多邻国学日语，考日语证
 - [ ] 了解一下中国官场，政治的晋升体系
+- [ ] 天文知识
 - [ ] 运自媒体运营
 - [ ] 乐理
-- [ ] 天文知识
-- [ ] 调酒和饮料
 - [ ] 金融，贴近生活的那种
 - [ ] 数学分析，加强数学思维
 - [ ] 密码学
@@ -65,37 +62,27 @@ kanban-plugin: basic
 - [ ] 导入表情包到微信
 
 
-## 学习
-
-- [ ] #flag/人文 西欧的历史和欧洲侵略史
-- [ ] #flag/人文 听听王德峰的哲学课，中西方文化差异的源头、教育差异等
-- [ ] #flag/读书 微信读书发表感想
-- [ ] #flag/读书 四大名著
-- [ ] #flag/读书 整理读书笔记
-- [ ] #flag/读书 《有效学习》
-- [ ] #flag/读书 《亲密关系》
-- [ ] #flag/读书 《我的前半生》
-- [ ] #flag/读书 《自私的基因》
-- [ ] #flag/读书 《我不是教你诈》
-- [ ] #flag/读书 金庸的小说
-- [ ] #flag/读书 哈利波特+王一珉电影解读
-- [ ] #flag/读书 《金瓶梅》
-- [ ] #flag/读书 《卡片笔记写作法》+《有效学习》
-
-
 ## utility
 
 - [ ] #flag/工具 写个PDF去水印的软件
-- [ ] #flag/工具 玩玩via浏览器及其插件
 - [ ] #flag/工具 写一个一键自动生成软著文档的程序
-- [ ] #flag/工具 写一个遍历压缩包zip密码的软件，跑在云服务器上
-- [ ] #flag/工具 玩玩安卓的auto.js和exposed框架，还有太极框架
 - [ ] #flag/工具 手撸一个markdown转为html的解析器
-- [ ] #flag/工具 提取不背单词的背景图片
 - [ ] #flag/工具 学操作系统原理，做游戏修改器
 - [ ] #flag/工具 写Java代码建造mc方块，然后一键作画之类的
-- [ ] #flag/工具 开发一个Windows桌面小组件，用来调用flomoapi从而记录东西
 - [ ] #flag/工具 学做游戏mod
+
+
+## 创作
+
+- [ ] #flag/设计 JavaScript的canvas库，网页绘图
+- [ ] #flag/设计 制作wallpaper的壁纸
+- [ ] #flag/设计 学习PPT然后建立自己的PPT模版
+- [ ] #flag/设计 自己制作typora皮肤和转换为html的皮肤
+- [ ] #flag/设计 PS，敬伟教程
+- [ ] #flag/设计 学习配色和设计，自己写一个obsidian，vscode，typora主题等
+- [ ] #flag/写作 玄幻小说
+- [ ] #flag/写作 模仿龙族写小说
+- [x] #flag/写作 经常在知乎写回答
 
 
 ***
@@ -112,6 +99,22 @@ kanban-plugin: basic
 - [x] #flag/生活 折纸
 - [x] 大整理一次网盘里的文件，硬盘里的文件和照片。
 - [x] 寒假来一个挑战一周读书50h
+- [x] 看看阿虚同学的博客，资源，还是资源
+- [x] 搜刮技术胖和后盾人的资源，顺便看看其他人的
+- [x] webdav
+- [x] 阅读知乎盐选的文章
+- [x] #flag/工具 开发一个Windows桌面小组件，用来调用flomoapi从而记录东西
+- [x] 开发者工具top100 https://mp.weixin.qq.com/s/9DqfP7niFlZLWGmM1jXPpw
+- [ ] #flag/网站 诗词展示网站（极限html+css+js）
+- [x] #flag/读书 《有效学习》
+- [x] #flag/读书 《亲密关系》
+- [x] #flag/读书 《我的前半生》
+- [x] #flag/读书 《我不是教你诈》
+- [x] #flag/读书 《卡片笔记写作法》+《有效学习》
+- [x] #flag/读书 微信读书发表感想
+- [x] #flag/读书 《自私的基因》
+- [x] #flag/读书 《金瓶梅》
+- [x] 学习一些话术, 影响别人
 
 %% kanban:settings
 ```

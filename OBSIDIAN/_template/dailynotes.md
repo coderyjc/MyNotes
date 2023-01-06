@@ -6,6 +6,8 @@ kanban-plugin: basic
 
 ## 信息源
 
+- [ ] [阿旭同学的博客](https://axutongxue.top/)
+- [ ] [[../1.收集箱/resources/知乎严选免费查看的地址|知乎严选]]
 
 
 ## TimeLine
