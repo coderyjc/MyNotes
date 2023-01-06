@@ -1,3 +1,10 @@
+## 环境配置
+
+[[python-annaconda/【安装】Annaconda安装以及镜像源配置|【安装】Annaconda安装以及镜像源配置]]
+
+[[python-annaconda/【Pycharm】使用Annaconda的Base环境|【Pycharm】使用Annaconda的Base环境]]
+
+[[python-annaconda/【配置】Jupyter Notebook|【配置】Jupyter Notebook]]
 
 ## Python基础
 
@@ -20,3 +27,5 @@
 [[python-spider/python-spider|爬虫基础]]
 
 [[python-spider/python-scrapy|scrapy框架]]
+
+

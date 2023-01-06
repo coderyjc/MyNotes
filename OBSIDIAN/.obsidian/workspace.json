@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bc9f95169d89f273",
+        "id": "e30c8b6ad6f2e614",
         "type": "tabs",
         "children": [
           {
-            "id": "b6ab40b5f4720087",
+            "id": "9a8e1b89642c2527",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md"
+              }
             }
           }
         ]
@@ -73,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Dashboard/warehouse.md"
+              }
             }
           },
           {
@@ -107,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -122,17 +128,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "b6ab40b5f4720087",
+  "active": "9a8e1b89642c2527",
   "lastOpenFiles": [
-    "5.专题研究/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
-    "5.专题研究/python-annaconda/【Pycharm】使用Annaconda的Base环境.md",
-    "2.等待处理/Daily/Archieve/2023-01/2023-01-01.md",
-    "2.等待处理/Daily/Archieve/2023-01/2023-01-02.md",
-    "2.等待处理/Daily/2023-01-06.md",
-    "2.等待处理/Daily/Archieve/2023-01/2023-01-05.md",
-    "4.归档/工作/基础/bigdata/python/Python知识导图.md",
-    "4.归档/工作/基础/bigdata/python/python-basic/01.字符和输入输出.md",
-    "5.专题研究/nodejs/Node基础知识.md",
-    "5.专题研究/nodejs/Nodejs知识地图.md"
+    "_template/dailynotes.md",
+    "1.收集箱/README.md",
+    "1.收集箱/log.md",
+    "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md",
+    "HOME.md",
+    "2.等待处理/README.md",
+    "2.等待处理/Dashboard/warehouse.md",
+    "2.等待处理/Dashboard/assets/Pasted image 20230106134020.png",
+    "5.专题研究/MyBlog项目学习笔记/README.md",
+    "2.等待处理/Daily/2023-01-06.md"
   ]
 }
