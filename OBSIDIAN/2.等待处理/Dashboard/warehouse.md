@@ -33,7 +33,6 @@ kanban-plugin: basic
 - [ ] #flag/人文 听听王德峰的哲学课，中西方文化差异的源头、教育差异等
 - [ ] #flag/读书 四大名著
 - [ ] #flag/读书 使用Obsidian整理读书笔记
-- [ ] #flag/读书 金庸的小说
 - [ ] #flag/读书 哈利波特+王一珉电影解读
 
 
@@ -82,7 +81,6 @@ kanban-plugin: basic
 - [ ] #flag/设计 学习配色和设计，自己写一个obsidian，vscode，typora主题等
 - [ ] #flag/写作 玄幻小说
 - [ ] #flag/写作 模仿龙族写小说
-- [x] #flag/写作 经常在知乎写回答
 
 
 ***
@@ -115,6 +113,8 @@ kanban-plugin: basic
 - [x] #flag/读书 《自私的基因》
 - [x] #flag/读书 《金瓶梅》
 - [x] 学习一些话术, 影响别人
+- [x] #flag/写作 经常在知乎写回答
+- [x] #flag/读书 金庸的小说
 
 %% kanban:settings
 ```
