@@ -13,7 +13,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "2.等待处理/Dashboard/warehouse.md"
+                "file": "2.等待处理/Daily/2023-01-07.md"
               }
             }
           }
@@ -75,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Dashboard/warehouse.md",
+                "file": "2.等待处理/Daily/2023-01-07.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Dashboard/warehouse.md"
+                "file": "2.等待处理/Daily/2023-01-07.md"
               }
             }
           },
@@ -130,9 +130,9 @@
   },
   "active": "9a8e1b89642c2527",
   "lastOpenFiles": [
+    "2.等待处理/Dashboard/warehouse.md",
     "_template/dailynotes.md",
     "1.收集箱/resources/知乎严选免费查看的地址.md",
-    "2.等待处理/Dashboard/warehouse.md",
     "_template/java_mvc_method.md",
     "1.收集箱/README.md",
     "1.收集箱/log.md",
