@@ -130,8 +130,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c1e645f568e3a958",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "4.归档/工作/扩展/windows/【目录结构】C盘各种目录介绍.md",
+    "5.专题研究/nodejs/ES Module.md",
     "5.专题研究/nodejs/Node基础知识.md",
     "5.专题研究/nodejs/Node模块化开发.md",
     "2.等待处理/Daily/2023-01-07.md",
@@ -139,8 +141,6 @@
     "_template/dailynotes.md",
     "4.归档/生活/资源搜索/【电子书检索】.md",
     "2.等待处理/README.md",
-    "2.等待处理/Dashboard/warehouse.md",
-    "1.收集箱/resources/知乎严选免费查看的地址.md",
-    "_template/java_mvc_method.md"
+    "2.等待处理/Dashboard/warehouse.md"
   ]
 }
