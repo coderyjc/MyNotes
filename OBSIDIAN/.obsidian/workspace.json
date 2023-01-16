@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "047168ad68c37c5c",
+        "id": "ff2336d35ff6d672",
         "type": "tabs",
         "children": [
           {
-            "id": "c1e645f568e3a958",
+            "id": "bf4a799117334aa7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/nodejs/ES Module.md",
+                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 327.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/nodejs/ES Module.md",
+                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/nodejs/ES Module.md"
+                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md"
               }
             }
           },
@@ -130,17 +130,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "bf4a799117334aa7",
   "lastOpenFiles": [
-    "4.归档/工作/扩展/windows/【目录结构】C盘各种目录介绍.md",
-    "5.专题研究/nodejs/ES Module.md",
-    "5.专题研究/nodejs/Node基础知识.md",
-    "5.专题研究/nodejs/Node模块化开发.md",
-    "2.等待处理/Daily/2023-01-07.md",
-    "2.等待处理/Daily/2023-01-06.md",
-    "_template/dailynotes.md",
-    "4.归档/生活/资源搜索/【电子书检索】.md",
-    "2.等待处理/README.md",
-    "2.等待处理/Dashboard/warehouse.md"
+    "5.专题研究/【Hades】哈迪斯/【关内奖励】限制可以出现的神明的种类.md",
+    "5.专题研究/【Hades】哈迪斯/【关内奖励】指定roll门的奖励.md",
+    "5.专题研究/【Hades】哈迪斯/【关内奖励】自定义力量石榴升级数值.md",
+    "_template/game_hades.md",
+    "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
+    "5.专题研究/【Hades】哈迪斯/【关内奖励】必然可以向卡戎借钱.md",
+    "5.专题研究/【Hades】哈迪斯/【武器】弓2特殊攻击增加10根箭.md",
+    "5.专题研究/【Hades】哈迪斯/【夜之圣镜】自定义BUFF.md",
+    "5.专题研究/【Hades】哈迪斯/【信物】将石榴花的遭遇战次数改为1.md",
+    "5.专题研究/【Hades】哈迪斯/【武器】缩短矛蓄力时间.md"
   ]
 }
