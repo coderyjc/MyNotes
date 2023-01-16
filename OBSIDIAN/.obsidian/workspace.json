@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff2336d35ff6d672",
+        "id": "1cdc316262b87dad",
         "type": "tabs",
         "children": [
           {
-            "id": "bf4a799117334aa7",
+            "id": "c126059603550edb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
+                "file": "5.专题研究/【Hades】哈迪斯/【镜子】BUFF突破升级限制.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
+                "file": "5.专题研究/【Hades】哈迪斯/【镜子】BUFF突破升级限制.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md"
+                "file": "5.专题研究/【Hades】哈迪斯/【镜子】BUFF突破升级限制.md"
               }
             }
           },
@@ -130,17 +130,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "bf4a799117334aa7",
+  "active": "c126059603550edb",
   "lastOpenFiles": [
-    "5.专题研究/【Hades】哈迪斯/【关内奖励】限制可以出现的神明的种类.md",
+    "5.专题研究/【Hades】哈迪斯/【信物】修改信物升级次数.md",
+    "5.专题研究/【Hades】哈迪斯/【镜子】BUFF突破升级限制.md",
+    "5.专题研究/【Hades】哈迪斯/【祝福】卡俄斯祝福默认史诗级.md",
     "5.专题研究/【Hades】哈迪斯/【关内奖励】指定roll门的奖励.md",
+    "5.专题研究/【Hades】哈迪斯/【祝福】限制可以出现的神明的种类.md",
+    "5.专题研究/【Hades】哈迪斯/【祝福】祝福默认英雄级.md",
     "5.专题研究/【Hades】哈迪斯/【关内奖励】自定义力量石榴升级数值.md",
-    "_template/game_hades.md",
-    "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
-    "5.专题研究/【Hades】哈迪斯/【关内奖励】必然可以向卡戎借钱.md",
+    "5.专题研究/【Hades】哈迪斯/【伤害】去除岩浆伤害.md",
     "5.专题研究/【Hades】哈迪斯/【武器】弓2特殊攻击增加10根箭.md",
-    "5.专题研究/【Hades】哈迪斯/【夜之圣镜】自定义BUFF.md",
-    "5.专题研究/【Hades】哈迪斯/【信物】将石榴花的遭遇战次数改为1.md",
-    "5.专题研究/【Hades】哈迪斯/【武器】缩短矛蓄力时间.md"
+    "5.专题研究/【Hades】哈迪斯/【信物】将石榴花的遭遇战次数改为1.md"
   ]
 }
