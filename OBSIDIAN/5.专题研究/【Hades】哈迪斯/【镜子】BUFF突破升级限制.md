@@ -80,45 +80,60 @@
 每一级的花费中添加了两个1，每一级改变的 数值为3，这样每升一级就增加3个死里逃生了，一共5级，升满之后一共15个死里逃生
 
 
-## 举例2：修改必出传奇或者双重祝福
+## 举例2：修改必出史诗天赋
 
-对应的天赋为神之恩赐，对应的对象为：`DuoRarityBoonDropMetaUpgrade`
+对应的天赋为神之骄傲，对应的对象为：`EpicBoonDropMetaUpgrade`
 
 搜索
 
-![[assets/Pasted image 20230116165114.png]]
+![[assets/Pasted image 20230116221307.png]]
 
 可以看出
 
 ```lua
-	DuoRarityBoonDropMetaUpgrade =
+	EpicBoonDropMetaUpgrade =
 	{
 		InheritFrom = { "BaseMetaUpgrade", },
-		Icon = "MirrorIcon_DuoRarityBoon",
+		Icon = "MirrorIcon_EpicBoonChance",
+		RequiredAccumulatedMetaPoints = 1000,
 		Starting = true,
-		Cost = 250, -- 每一次升级花费250黑暗
-		MaxInvestment = 10, -- 最多升10级
-		ShortTotal = "DuoRarityBoonDropMetaUpgrade_ShortTotal",
-		ChangeValue = 1.01, -- 每一次改变1%的几率
+		Cost = 100, -- 每升一级需要花费的黑暗
+		MaxInvestment = 20, -- 最多升20级
+		ShortTotal = "EpicBoonDropMetaUpgrade_ShortTotal",
+		ChangeValue = 1.01, -- 每升一级变动的数值，这里升一级提高1%的几率
 	},
 ```
 
 可以改成：
 
 ```lua
-	DuoRarityBoonDropMetaUpgrade =
+	EpicBoonDropMetaUpgrade =
 	{
 		InheritFrom = { "BaseMetaUpgrade", },
-		Icon = "MirrorIcon_DuoRarityBoon",
+		Icon = "MirrorIcon_EpicBoonChance",
+		RequiredAccumulatedMetaPoints = 1000,
 		Starting = true,
-		Cost = 1, -- 每一次升级花费1黑暗
-		MaxInvestment = 10, -- 最多升10级
-		ShortTotal = "DuoRarityBoonDropMetaUpgrade_ShortTotal",
-		ChangeValue = 1.10, -- 每一次改变10%的几率
+		-- Cost = 100, -- 每升一级需要花费的黑暗
+		Cost = 1, -- 花费1
+		MaxInvestment = 20, -- 最多升20级
+		ShortTotal = "EpicBoonDropMetaUpgrade_ShortTotal",
+		-- ChangeValue = 1.01, -- 每升一级变动的数值，这里升一级提高1%的几率
+		ChangeValue = 1.05, -- 每升一级提高5%的几率
 	},
 ```
 
-这样，10黑暗就可以升到100%几率了。
+这样，20黑暗就可以升到100%几率了。
 
 但是传奇祝福和双重祝福的出现是有前置条件的，改成100%容易造成游戏崩溃，因此最好不要修改太多。
+
+这里改成20次，每次升级提高4%：
+
+![[assets/Pasted image 20230116221438.png]]
+
+
+修改成功，进去关卡看看：
+
+可以看出史诗几率增大了很多。
+
+![[assets/Pasted image 20230116221613.png]]
 
