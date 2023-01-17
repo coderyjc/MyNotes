@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
+                "file": "5.专题研究/【Hades】哈迪斯/【伤害】去除岩浆伤害.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
+                "file": "5.专题研究/【Hades】哈迪斯/【伤害】去除岩浆伤害.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md"
+                "file": "5.专题研究/【Hades】哈迪斯/【伤害】去除岩浆伤害.md"
               }
             }
           },
@@ -131,6 +131,7 @@
   },
   "active": "90b0b87ec8d6f0f7",
   "lastOpenFiles": [
+    "5.专题研究/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md",
     "5.专题研究/【Hades】哈迪斯/【关内奖励】增加地洞出现频率.md",
     "5.专题研究/【Hades】哈迪斯/【祝福】卡俄斯祝福默认史诗级.md",
     "5.专题研究/【Hades】哈迪斯/【信物】遥远的记忆添加吸血效果.md",
@@ -139,7 +140,6 @@
     "5.专题研究/【Hades】哈迪斯/【祝福】限制可以出现的神明的种类.md",
     "5.专题研究/【Hades】哈迪斯/【武器】缩短矛蓄力时间.md",
     "5.专题研究/【Hades】哈迪斯/【武器】炮修改子弹上限.md",
-    "5.专题研究/【Hades】哈迪斯/【武器】炮3无限狙击.md",
-    "5.专题研究/【Hades】哈迪斯/【武器】弓2特殊攻击增加10根箭.md"
+    "5.专题研究/【Hades】哈迪斯/【武器】炮3无限狙击.md"
   ]
 }
