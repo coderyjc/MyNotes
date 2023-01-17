@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "812a8b7057f9294d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【信物】遥远的记忆添加吸血效果.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【信物】遥远的记忆添加吸血效果.md",
+                "file": "5.专题研究/【Hades】哈迪斯/【钓鱼】钓鱼相关修改.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【Hades】哈迪斯/【信物】遥远的记忆添加吸血效果.md"
+                "file": "5.专题研究/【Hades】哈迪斯/【钓鱼】钓鱼相关修改.md"
               }
             }
           },
@@ -142,10 +129,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "812a8b7057f9294d",
+  "active": "05568628c5d73ba7",
   "lastOpenFiles": [
-    "5.专题研究/【Hades】哈迪斯/【钓鱼】钓鱼相关修改.md",
     "5.专题研究/【Hades】哈迪斯/【信物】遥远的记忆添加吸血效果.md",
+    "5.专题研究/【Hades】哈迪斯/【钓鱼】钓鱼相关修改.md",
     "5.专题研究/【Hades】哈迪斯/【关内奖励】增加地洞出现频率.md",
     "5.专题研究/【Hades】哈迪斯/【镜子】BUFF突破升级限制.md",
     "5.专题研究/【Hades】哈迪斯/【信物】修改信物升级次数.md",
