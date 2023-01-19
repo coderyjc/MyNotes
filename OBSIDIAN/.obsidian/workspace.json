@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "05549476ed39f8a3",
+        "id": "b96b11c77e26724a",
         "type": "tabs",
         "children": [
           {
-            "id": "9e4e722fd04d8f61",
+            "id": "14080504e0d821f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/CertificateAnalysis/计划.md",
+                "file": "4.归档/生活/搜索/【电子书检索】.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/CertificateAnalysis/计划.md",
+                "file": "4.归档/生活/搜索/【电子书检索】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/CertificateAnalysis/计划.md"
+                "file": "4.归档/生活/搜索/【电子书检索】.md"
               }
             }
           },
@@ -129,8 +129,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "14080504e0d821f4",
   "lastOpenFiles": [
+    "5.专题研究/CertificateAnalysis/计划.md",
     "5.专题研究/黑马点评/2.短信登录.md",
     "1.收集箱/log.md",
     "1.收集箱/README.md",
@@ -139,7 +140,6 @@
     "2.等待处理/Daily/2023-01-19.md",
     "4.归档/生活/搜索/【电子书检索】.md",
     "4.归档/生活/搜索/【浏览器使用技巧】.md",
-    "4.归档/生活/游戏/【Hades】哈迪斯/【伤害】去除岩浆伤害.md",
-    "4.归档/生活/游戏/【Hades】哈迪斯/【关内奖励】尽快触发死神遭遇战.md"
+    "4.归档/生活/游戏/【Hades】哈迪斯/【伤害】去除岩浆伤害.md"
   ]
 }
