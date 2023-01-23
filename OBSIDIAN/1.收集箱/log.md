@@ -5,3 +5,6 @@
 
 #obsidian/obsidian用法 obsidian用法 有什么本地笔记管理软件推荐？ - 韦易笑的回答 - 知乎 https://www.zhihu.com/question/266836039/answer/2728791257
 
+#Python Python环境和独立运行环境了解一下
+
+

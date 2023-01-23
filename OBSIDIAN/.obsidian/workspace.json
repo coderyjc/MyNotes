@@ -11,8 +11,24 @@
             "id": "d8a24b397d7fe996",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/03.函数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3c70863920d5bf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/QQ消息记录数据分析/项目记录.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "正则表达式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/03.函数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/03.函数.md"
+              }
             }
           },
           {
@@ -124,15 +143,15 @@
   },
   "active": "d8a24b397d7fe996",
   "lastOpenFiles": [
+    "1.收集箱/README.md",
+    "1.收集箱/log.md",
+    "5.专题研究/QQ消息记录数据分析/README.md",
+    "5.专题研究/QQ消息记录数据分析/项目记录.md",
+    "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
+    "4.归档/工作/工程/正则表达式/【正则表达式】匹配java的行内注释.md",
+    "4.归档/工作/基础/bigdata/python/python-basic/07.文件读写.md",
     "4.归档/生活/搜索/【电子书检索】.md",
     "5.专题研究/CertificateAnalysis/计划.md",
-    "5.专题研究/黑马点评/2.短信登录.md",
-    "1.收集箱/log.md",
-    "1.收集箱/README.md",
-    "1.收集箱/articles/诗篇46的秘密.md",
-    "1.收集箱/wechat_daily_challenge/database.md",
-    "2.等待处理/Daily/2023-01-19.md",
-    "4.归档/生活/搜索/【浏览器使用技巧】.md",
-    "4.归档/生活/游戏/【Hades】哈迪斯/【伤害】去除岩浆伤害.md"
+    "5.专题研究/黑马点评/2.短信登录.md"
   ]
 }
