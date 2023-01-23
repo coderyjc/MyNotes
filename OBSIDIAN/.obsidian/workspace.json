@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b96b11c77e26724a",
+        "id": "9cf4ab0cc5d4dfbf",
         "type": "tabs",
         "children": [
           {
-            "id": "14080504e0d821f4",
+            "id": "d8a24b397d7fe996",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/生活/搜索/【电子书检索】.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/生活/搜索/【电子书检索】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4.归档/生活/搜索/【电子书检索】.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,8 +122,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "14080504e0d821f4",
+  "active": "d8a24b397d7fe996",
   "lastOpenFiles": [
+    "4.归档/生活/搜索/【电子书检索】.md",
     "5.专题研究/CertificateAnalysis/计划.md",
     "5.专题研究/黑马点评/2.短信登录.md",
     "1.收集箱/log.md",
@@ -138,7 +132,6 @@
     "1.收集箱/articles/诗篇46的秘密.md",
     "1.收集箱/wechat_daily_challenge/database.md",
     "2.等待处理/Daily/2023-01-19.md",
-    "4.归档/生活/搜索/【电子书检索】.md",
     "4.归档/生活/搜索/【浏览器使用技巧】.md",
     "4.归档/生活/游戏/【Hades】哈迪斯/【伤害】去除岩浆伤害.md"
   ]
