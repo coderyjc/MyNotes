@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/项目记录.md",
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/项目记录.md",
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/项目记录.md"
+                "file": "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md"
               }
             }
           },
@@ -131,15 +131,15 @@
   },
   "active": "d3c70863920d5bf2",
   "lastOpenFiles": [
+    "4.归档/工作/基础/bigdata/python/python-basic/01.字符和输入输出.md",
+    "1.收集箱/README.md",
+    "1.收集箱/log.md",
+    "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
+    "5.专题研究/QQ消息记录数据分析/项目记录.md",
     "4.归档/工作/工程/环境问题总结/Python环境.md",
     "4.归档/工作/工程/数据科学/Python/Python.md",
     "4.归档/工作/基础/bigdata/python/python-basic/03.函数.md",
-    "1.收集箱/README.md",
-    "1.收集箱/log.md",
     "5.专题研究/QQ消息记录数据分析/README.md",
-    "5.专题研究/QQ消息记录数据分析/项目记录.md",
-    "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
-    "4.归档/工作/工程/正则表达式/【正则表达式】匹配java的行内注释.md",
-    "4.归档/工作/基础/bigdata/python/python-basic/07.文件读写.md"
+    "4.归档/工作/工程/正则表达式/【正则表达式】匹配java的行内注释.md"
   ]
 }
