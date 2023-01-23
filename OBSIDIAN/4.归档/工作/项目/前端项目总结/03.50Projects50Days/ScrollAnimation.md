@@ -135,4 +135,4 @@ const top = box.getBoundingClientRect().top
 
 当元素距离最顶部的距离小于视口的 4/5 的时候，以进入的方式加载元素
 
-![[Pasted image 20220622212821.png]]
+![[assets/Pasted image 20220622212821.png]]

@@ -28,7 +28,7 @@ $ echo \
 ```
 
 
-![[Pasted image 20220623131117.png]]
+![[../../项目/前端项目总结/03.50Projects50Days/assets/Pasted image 20220623131117.png]]
 
 ### 安装Docker引擎并测试
 

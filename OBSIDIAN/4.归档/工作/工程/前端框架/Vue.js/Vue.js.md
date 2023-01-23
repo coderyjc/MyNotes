@@ -37,5 +37,5 @@ create_date: 2022-01-31
     "jsx": "preserve"
 ```
 
-![[Pasted image 20220623201636.png]]
+![[../../../项目/前端项目总结/03.50Projects50Days/assets/Pasted image 20220623201636.png]]
 

@@ -2,7 +2,7 @@
 
 连接之后发现
 
-![[Pasted image 20220623143453.png]]
+![[../../项目/前端项目总结/03.50Projects50Days/assets/Pasted image 20220623143453.png]]
 
 
 
@@ -29,7 +29,7 @@ db.createCollection("list")
 show dbs
 ```
 
-![[Pasted image 20220623144750.png]]
+![[../../项目/前端项目总结/03.50Projects50Days/assets/Pasted image 20220623144750.png]]
 
 
 ```bash
@@ -42,4 +42,4 @@ db.createUser({user: "dreamer", pwd: "sleep", roles:["dbOwner"]})
 # 此时就可以连接成功
 ```
 
-![[Pasted image 20220623144831.png]]
+![[../../项目/前端项目总结/03.50Projects50Days/assets/Pasted image 20220623144831.png]]
