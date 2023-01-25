@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9f8a1ac32d62360f",
+        "id": "c491e51f7c5fa7a1",
         "type": "tabs",
         "children": [
           {
-            "id": "33835faffb31d7ea",
+            "id": "5dfddd67856128a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b98ab1cdb410ee6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/工作/工程/环境问题总结/Python环境.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd3d91dfb3842a12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ad10f8213eb3a28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.收集箱/navigation/coder/tools/【网站】正则表达式.md",
+                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pip",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/navigation/coder/tools/【网站】正则表达式.md",
+                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/navigation/coder/tools/【网站】正则表达式.md"
+                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md"
               }
             }
           },
@@ -166,17 +129,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "2ad10f8213eb3a28",
+  "active": "5dfddd67856128a7",
   "lastOpenFiles": [
-    "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
-    "4.归档/工作/工程/环境问题总结/Python环境.md",
     "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
-    "1.收集箱/log.md",
-    "1.收集箱/README.md",
-    "5.专题研究/QQ消息记录数据分析/README.md",
-    "4.归档/工作/项目/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
-    "4.归档/工作/基础/front/components/scrollReveal.js/ScrollReveal.js.md",
-    "4.归档/工作/基础/front/css/css-basic.md",
-    "4.归档/工作/基础/front/css/css-font.md"
+    "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
+    "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
+    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+    "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md",
+    "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
+    "1.收集箱/wechat_notes/精品小说/龙族Ⅰ：火之晨曦-江南.md",
+    "1.收集箱/wechat_notes/个人成长/掌控谈话-克里斯·沃斯 塔尔·拉兹.md",
+    "1.收集箱/wechat_daily_challenge/database.md",
+    "1.收集箱/resources/知乎严选免费查看的地址.md"
   ]
 }
