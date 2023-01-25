@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c491e51f7c5fa7a1",
+        "id": "58b99ee0ea3b1eeb",
         "type": "tabs",
         "children": [
           {
-            "id": "5dfddd67856128a7",
+            "id": "a123354dd0937fce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md"
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md"
               }
             }
           },
@@ -129,17 +129,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "5dfddd67856128a7",
+  "active": "a123354dd0937fce",
   "lastOpenFiles": [
-    "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
-    "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
-    "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
+    "5.专题研究/MyBlog项目学习笔记/README.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md",
+    "4.归档/工作/基础/bigdata/python/python-annaconda/【配置】Jupyter Notebook.md",
+    "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
+    "4.归档/工作/基础/bigdata/python/python-annaconda/【Pycharm】使用Annaconda的Base环境.md",
     "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
-    "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md",
+    "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
+    "4.归档/工作/基础/bigdata/python/python-libs/collections/【Python库】collections.Conter.md",
     "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
-    "1.收集箱/wechat_notes/精品小说/龙族Ⅰ：火之晨曦-江南.md",
-    "1.收集箱/wechat_notes/个人成长/掌控谈话-克里斯·沃斯 塔尔·拉兹.md",
-    "1.收集箱/wechat_daily_challenge/database.md",
-    "1.收集箱/resources/知乎严选免费查看的地址.md"
+    "4.归档/工作/基础/bigdata/python/python-libs/jieba/python-jieba.md"
   ]
 }
