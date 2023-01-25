@@ -29,3 +29,12 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 
 如果直接pip下载慢的话，直接登录所在的软件包管理网站，在目录中查找想要的whl文件，然后使用迅雷新建下载任务，然后下载。
 
+软件包网站：
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+https://pypi.org/project/
+
+比如我要找`ruamel.yaml.clib==0.2.4`可以直接在页面中搜索`ruamel.yaml.clib`
+
+![[assets/Pasted image 20230126000543.png]]
