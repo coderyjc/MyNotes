@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34e9a0b3ded1f111",
+        "id": "477d89ff0970a192",
         "type": "tabs",
         "children": [
           {
-            "id": "9e34ced6e7d6fd2b",
+            "id": "f47d6e50b0765e41",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -129,17 +129,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "9e34ced6e7d6fd2b",
+  "active": "f47d6e50b0765e41",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录.md",
+    "4.归档/工作/基础/bigdata/python/python-annaconda/【Pycharm】使用Annaconda的Base环境.md",
+    "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/assets/Pasted image 20230126002208.png",
     "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
     "4.归档/工作/工程/环境问题总结/Python第三方库安装相关.md",
     "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
     "4.归档/工作/基础/bigdata/python/Python知识导图.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/assets/Pasted image 20230125235200.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/assets/Pasted image 20230125235147.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/assets/Pasted image 20230125235131.png"
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/assets/Pasted image 20230125235200.png"
   ]
 }
