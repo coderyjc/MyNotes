@@ -36,7 +36,7 @@
 ![[assets/Pasted image 20230106113135.png]]
 
 
-3. 这里一定要注意，选择的**不是**`_conda.exe` 而是 `conda.exe`，这个exe在`{Annaconda根目录}/Scripts/conda.exe`
+3. 这里一定要注意，选择的**不是**`_conda.exe` 而是 `conda.exe`，这个exe在`{Annaconda根目录}/Scripts/conda.exe`，实际命令行执行 conda 命令时，执行的是 conda.bat 的脚本。
 
 
 ![[assets/Pasted image 20230106114112.png]]
