@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【Pycharm】使用Annaconda的Base环境.md",
+                "file": "4.归档/工作/基础/bigdata/python/python-libs/collections/【Python库】collections.Conter.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【Pycharm】使用Annaconda的Base环境.md",
+                "file": "4.归档/工作/基础/bigdata/python/python-libs/collections/【Python库】collections.Conter.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【Pycharm】使用Annaconda的Base环境.md"
+                "file": "4.归档/工作/基础/bigdata/python/python-libs/collections/【Python库】collections.Conter.md"
               }
             }
           },
@@ -131,15 +131,15 @@
   },
   "active": "f47d6e50b0765e41",
   "lastOpenFiles": [
+    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+    "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
+    "4.归档/工作/基础/bigdata/python/python-annaconda/【Pycharm】使用Annaconda的Base环境.md",
     "4.归档/工作/基础/bigdata/python/python-annaconda/【配置】Jupyter Notebook.md",
     "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
-    "4.归档/工作/基础/bigdata/python/python-annaconda/【Pycharm】使用Annaconda的Base环境.md",
     "4.归档/工作/工程/环境问题总结/Python第三方库安装相关.md",
     "4.归档/工作/基础/bigdata/python/python-libs/collections/【Python库】collections.Conter.md",
-    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
     "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md",
-    "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md"
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md"
   ]
 }
