@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7c6313f2d6ff7bb",
+        "id": "2579cf25b4eac8cb",
         "type": "tabs",
         "children": [
           {
-            "id": "39438570b44cdeaf",
+            "id": "2b5f74449f50fbc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/经济学-生活常识篇/02.货币的起源.md",
+                "file": "5.专题研究/经济学-生活常识/03.五险一金.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/经济学-生活常识篇/02.货币的起源.md",
+                "file": "5.专题研究/经济学-生活常识/03.五险一金.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/经济学-生活常识篇/02.货币的起源.md"
+                "file": "5.专题研究/经济学-生活常识/03.五险一金.md"
               }
             }
           },
@@ -129,17 +129,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "39438570b44cdeaf",
+  "active": "2b5f74449f50fbc8",
   "lastOpenFiles": [
-    "5.专题研究/经济学-生活常识篇/01.经济发展史.md",
-    "5.专题研究/经济学-生活常识篇/02.货币的起源.md",
-    "4.归档/工作/基础/bigdata/python/python-libs/collections/【Python库】collections.Conter.md",
-    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+    "4.归档/生活/搜索/【浏览器使用技巧】.md",
+    "4.归档/生活/搜索/【电子书检索】.md",
+    "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
+    "4.归档/生活/游戏/【Hades】哈迪斯/【信物】修改信物升级次数.md",
+    "4.归档/生活/游戏/【Hades】哈迪斯/【武器】炮3无限狙击.md",
+    "4.归档/生活/游戏/【Hades】哈迪斯/【关内奖励】增加地洞出现频率.md",
     "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
-    "4.归档/工作/基础/bigdata/python/python-annaconda/【Pycharm】使用Annaconda的Base环境.md",
-    "4.归档/工作/基础/bigdata/python/python-annaconda/【配置】Jupyter Notebook.md",
-    "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
-    "4.归档/工作/工程/环境问题总结/Python第三方库安装相关.md",
+    "5.专题研究/QQ消息记录数据分析/README.md",
+    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
     "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md"
   ]
 }
