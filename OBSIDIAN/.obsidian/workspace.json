@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2579cf25b4eac8cb",
+        "id": "191c310d83e93214",
         "type": "tabs",
         "children": [
           {
-            "id": "0d63e24d506946f0",
+            "id": "52e49e1f6018ac4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/经济学-生活常识/03.五险一金.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -61,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 309.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/03.五险一金.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/经济学-生活常识/03.五险一金.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,17 +122,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0d63e24d506946f0",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "4.归档/工作/扩展/windows/【移动硬盘】硬盘传数据的时候直接拔出来后显示未初始化.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
     "5.专题研究/经济学-生活常识/03.五险一金.md",
+    "4.归档/工作/扩展/windows/【移动硬盘】硬盘传数据的时候直接拔出来后显示未初始化.md",
     "4.归档/生活/搜索/【浏览器使用技巧】.md",
     "4.归档/生活/搜索/【电子书检索】.md",
     "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
     "4.归档/生活/游戏/【Hades】哈迪斯/【信物】修改信物升级次数.md",
     "4.归档/生活/游戏/【Hades】哈迪斯/【武器】炮3无限狙击.md",
     "4.归档/生活/游戏/【Hades】哈迪斯/【关内奖励】增加地洞出现频率.md",
-    "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
-    "5.专题研究/QQ消息记录数据分析/README.md"
+    "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md"
   ]
 }
