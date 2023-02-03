@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3e14466881d83d09",
+        "id": "6756e36062275968",
         "type": "tabs",
         "children": [
           {
-            "id": "4397556f431b1498",
+            "id": "60d34b3a472e3b61",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/工作/基础/db/mysql/mysql-basic.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CSS/选择器",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/基础/db/mysql/mysql-basic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4.归档/工作/基础/db/mysql/mysql-basic.md"
-              }
+              "state": {}
             }
           },
           {
@@ -130,8 +122,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a4c7ff5f1eb0069f",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "4.归档/工作/基础/db/mysql/mysql-basic.md",
     "4.归档/工作/基础/front/express/Express.js.md",
     "HOME.md",
     "4.归档/工作/项目/前端项目总结/02.圣诞节商品导航站/圣诞节商品导航站.md",
@@ -140,7 +133,6 @@
     "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
     "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
     "5.专题研究/经济学-生活常识/02.货币的起源.md",
-    "5.专题研究/经济学-生活常识/01.经济发展史.md",
-    "5.专题研究/test/index.md"
+    "5.专题研究/经济学-生活常识/01.经济发展史.md"
   ]
 }
