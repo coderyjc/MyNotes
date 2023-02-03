@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "191c310d83e93214",
+        "id": "3e14466881d83d09",
         "type": "tabs",
         "children": [
           {
-            "id": "52e49e1f6018ac4b",
+            "id": "4397556f431b1498",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/03.五险一金.md",
+                "file": "4.归档/工作/基础/db/mysql/mysql-basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#CSS/选择器",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/03.五险一金.md",
+                "file": "4.归档/工作/基础/db/mysql/mysql-basic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/03.五险一金.md"
+                "file": "4.归档/工作/基础/db/mysql/mysql-basic.md"
               }
             }
           },
@@ -114,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -129,17 +130,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "52e49e1f6018ac4b",
+  "active": "a4c7ff5f1eb0069f",
   "lastOpenFiles": [
+    "4.归档/工作/基础/front/express/Express.js.md",
+    "HOME.md",
+    "4.归档/工作/项目/前端项目总结/02.圣诞节商品导航站/圣诞节商品导航站.md",
+    "4.归档/工作/基础/devops/linux/sh.ma.translate.md",
+    "1.收集箱/README.md",
+    "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
+    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
     "5.专题研究/经济学-生活常识/02.货币的起源.md",
-    "5.专题研究/经济学-生活常识/03.五险一金.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
-    "4.归档/工作/扩展/windows/【移动硬盘】硬盘传数据的时候直接拔出来后显示未初始化.md",
-    "4.归档/生活/搜索/【浏览器使用技巧】.md",
-    "4.归档/生活/搜索/【电子书检索】.md",
-    "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
-    "4.归档/生活/游戏/【Hades】哈迪斯/【信物】修改信物升级次数.md",
-    "4.归档/生活/游戏/【Hades】哈迪斯/【武器】炮3无限狙击.md",
-    "4.归档/生活/游戏/【Hades】哈迪斯/【关内奖励】增加地洞出现频率.md"
+    "5.专题研究/经济学-生活常识/01.经济发展史.md",
+    "5.专题研究/test/index.md"
   ]
 }
