@@ -11,8 +11,12 @@
             "id": "60d34b3a472e3b61",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "HOME.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOME.md"
+              }
             }
           },
           {
@@ -122,7 +129,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "60d34b3a472e3b61",
   "lastOpenFiles": [
     "4.归档/工作/基础/db/mysql/mysql-basic.md",
     "4.归档/工作/基础/front/express/Express.js.md",
