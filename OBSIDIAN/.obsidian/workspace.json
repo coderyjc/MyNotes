@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-instruction/advancement.md",
+                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/advancement.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-instruction/advancement.md",
+                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-instruction/advancement.md"
+                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md"
               }
             }
           },
@@ -142,12 +141,12 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "22b490245e7fe40e",
+  "active": "dd0d4763be08bf76",
   "lastOpenFiles": [
+    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/advancement.md",
     "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
     "_template/game_mc_instruction.md",
     "_template/game_hades.md",
-    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-instruction/advancement.md",
     "4.归档/生活/游戏/【MC】我的世界/指令索引.md",
     "1.收集箱/wechat_notes/个人成长/我不是教你诈-刘墉.md",
     "1.收集箱/wechat_notes/个人成长/非暴力沟通（修订版）-马歇尔·卢森堡.md",

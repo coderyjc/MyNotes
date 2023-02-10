@@ -1,3 +1,6 @@
+> 我的世界指令 wiki
+> https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4
+
 ## 格式介绍
 
 ```
@@ -17,7 +20,7 @@
 
 >A
 
-[[minecraft-instruction/advancement|advancment]] 给与和移除玩家的进度
+[[minecraft-command/advancement|advancment]] 给与和移除玩家的进度
 
 
 
