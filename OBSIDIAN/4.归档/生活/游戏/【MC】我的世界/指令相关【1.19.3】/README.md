@@ -20,10 +20,13 @@
 
 >A
 
-[[minecraft-command/advancement|advancment]] 给与和移除玩家的进度
-
-
+[[minecraft-command/advancement|advancment]] 
 
 >B
+
+
+> E
+
+[[minecraft-command/effect|effect]] 
 
 

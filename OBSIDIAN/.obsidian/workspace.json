@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f7f08b848d408518",
+        "id": "b33f8156aaa59c22",
         "type": "tabs",
         "children": [
           {
-            "id": "dd0d4763be08bf76",
+            "id": "262fc6cd93550dc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "22b490245e7fe40e",
+            "id": "d9bf7d9f372aca47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/advancement.md",
+                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/effect.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
+                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/effect.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md"
+                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/effect.md"
               }
             }
           },
@@ -141,17 +142,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "dd0d4763be08bf76",
+  "active": "d9bf7d9f372aca47",
   "lastOpenFiles": [
-    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/advancement.md",
     "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
+    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/effect.md",
+    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/advancement.md",
     "_template/game_mc_instruction.md",
     "_template/game_hades.md",
     "4.归档/生活/游戏/【MC】我的世界/指令索引.md",
     "1.收集箱/wechat_notes/个人成长/我不是教你诈-刘墉.md",
     "1.收集箱/wechat_notes/个人成长/非暴力沟通（修订版）-马歇尔·卢森堡.md",
     "未命名.md",
-    "1.收集箱/log.md",
-    "1.收集箱/wechat_notes/历史/我的前半生（全本）-爱新觉罗·溥仪.md"
+    "1.收集箱/log.md"
   ]
 }
