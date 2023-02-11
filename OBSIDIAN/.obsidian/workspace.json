@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b33f8156aaa59c22",
+        "id": "27009dae2f7bea3c",
         "type": "tabs",
         "children": [
           {
-            "id": "262fc6cd93550dc7",
+            "id": "ba110ed574470e5b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9bf7d9f372aca47",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "2.等待处理/Dashboard/warehouse.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.50909423828125,
-    "collapsed": true
+    "width": 309.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -89,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Dashboard/warehouse.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Dashboard/warehouse.md"
-              }
+              "state": {}
             }
           },
           {
@@ -141,17 +122,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "a4c7ff5f1eb0069f",
+  "active": "ba110ed574470e5b",
   "lastOpenFiles": [
-    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/effect.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
+    "HOME.md",
     "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
+    "2.等待处理/Dashboard/warehouse.md",
+    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/effect.md",
     "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/minecraft-command/advancement.md",
     "_template/game_mc_instruction.md",
     "_template/game_hades.md",
     "4.归档/生活/游戏/【MC】我的世界/指令索引.md",
-    "1.收集箱/wechat_notes/个人成长/我不是教你诈-刘墉.md",
-    "1.收集箱/wechat_notes/个人成长/非暴力沟通（修订版）-马歇尔·卢森堡.md",
-    "未命名.md",
-    "1.收集箱/log.md"
+    "1.收集箱/wechat_notes/个人成长/我不是教你诈-刘墉.md"
   ]
 }
