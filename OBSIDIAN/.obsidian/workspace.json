@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4572ac03d8c61d66",
+        "id": "6ccc380e540eff45",
         "type": "tabs",
         "children": [
           {
-            "id": "be2344ac555c466e",
+            "id": "cc2167cea16a85bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/wechat_notes/index.md",
+                "file": "5.专题研究/经济学-生活常识/04.交税.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/wechat_notes/index.md",
+                "file": "5.专题研究/经济学-生活常识/04.交税.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/wechat_notes/index.md"
+                "file": "5.专题研究/经济学-生活常识/04.交税.md"
               }
             }
           },
@@ -130,17 +130,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "be2344ac555c466e",
+  "active": "cc2167cea16a85bc",
   "lastOpenFiles": [
-    "5.专题研究/经济学-生活常识/04.交税.md",
     "5.专题研究/经济学-生活常识/03.五险一金.md",
+    "1.收集箱/wechat_notes/文学/82年生的金智英（再版）-赵南柱.md",
+    "1.收集箱/wechat_notes/index.md",
+    "5.专题研究/经济学-生活常识/04.交税.md",
     "HOME.md",
     "5.专题研究/经济学-生活常识/02.货币的起源.md",
     "5.专题研究/经济学-生活常识/01.经济发展史.md",
     "3.将来可能/README.md",
     "2.等待处理/README.md",
-    "2.等待处理/Dashboard/warehouse.md",
-    "2.等待处理/Daily/Archieve/2023-02/2023-02-03.md",
-    "2.等待处理/Daily/Archieve/2023-01/2023-01-06.md"
+    "2.等待处理/Dashboard/warehouse.md"
   ]
 }
