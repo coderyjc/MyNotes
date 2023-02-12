@@ -1,6 +1,4 @@
 
-## 书籍列表
-
 ```dataview
 table
 	category as "类型"
