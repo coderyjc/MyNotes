@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/07.借贷相关.md",
+                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.50909423828125
+    "width": 309.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/07.借贷相关.md",
+                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/07.借贷相关.md"
+                "file": "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md"
               }
             }
           },
@@ -114,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -132,15 +132,15 @@
   },
   "active": "58805dc9cf119d83",
   "lastOpenFiles": [
+    "2.等待处理/Daily/2023-02-13.md",
     "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+    "5.专题研究/经济学-生活常识/07.借贷相关.md",
     "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
     "5.专题研究/经济学-生活常识/06.人口与经济.md",
-    "5.专题研究/经济学-生活常识/07.借贷相关.md",
     "5.专题研究/经济学-生活常识/05.土地和房产.md",
     "4.归档/学习/治国/README.md",
     "1.收集箱/wechat_notes/index.md",
     "5.专题研究/经济学-生活常识/01.经济发展史.md",
-    "4.归档/学习/治国/经济学/index.md",
-    "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md"
+    "4.归档/学习/治国/经济学/index.md"
   ]
 }
