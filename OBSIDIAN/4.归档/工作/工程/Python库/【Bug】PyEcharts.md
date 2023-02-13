@@ -1,3 +1,4 @@
+
 ### PyEcarts 的数据源中添加了numpy类型的数据后，只显示legend，不显示数据
 
 ```python

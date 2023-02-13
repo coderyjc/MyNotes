@@ -4,14 +4,9 @@
 
 #obsidian/dataview  https://zhuanlan.zhihu.com/p/373623264
 
----
+https://github.com/dmscode/Obsidian-Templates
 
 #压缩密码破解 #52pojie https://www.52pojie.cn/thread-1478639-1-1.html 
 
-#学习/修身/演讲和口才 你读过哪几本锻炼口才的书籍值得推荐？ - PM小王的回答 - 知乎 https://www.zhihu.com/question/453670566/answer/2169475868
-
 #vuepress #github_pages https://www.jianshu.com/p/1f199ee49e4c
-
----
-
 
