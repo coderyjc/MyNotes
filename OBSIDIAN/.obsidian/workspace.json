@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
+                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
+                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md"
+                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md"
               }
             }
           },
@@ -114,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -129,17 +131,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "a4c7ff5f1eb0069f",
+  "active": "e116178f69d8cc69",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
+    "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
+    "4.归档/工作/工程/环境问题总结/Python第三方库安装相关.md",
+    "4.归档/工作/工程/数据库/MySQL/【Bug】MySQL-Bug.md",
+    "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】BugRecord.md",
     "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
     "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
     "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
     "5.专题研究/【经济学】金融危机/03.南海泡沫.md",
-    "5.专题研究/【经济学】金融危机/02.郁金香泡沫.md",
-    "5.专题研究/【经济学】金融危机/01.明斯基时刻.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
-    "2.等待处理/Daily/2023-02-13.md",
-    "5.专题研究/QQ消息记录数据分析/README.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md"
+    "5.专题研究/【经济学】金融危机/02.郁金香泡沫.md"
   ]
 }
