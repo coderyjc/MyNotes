@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f9224a0798c8e3f7",
+        "id": "2b6b5bf3849ad582",
         "type": "tabs",
         "children": [
           {
-            "id": "7672e0b7a1e4f046",
+            "id": "e116178f69d8cc69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/02.郁金香泡沫.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.50909423828125,
-    "collapsed": true
+    "width": 281.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/02.郁金香泡沫.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/02.郁金香泡沫.md"
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md"
               }
             }
           },
@@ -115,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -131,17 +129,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "7672e0b7a1e4f046",
+  "active": "a4c7ff5f1eb0069f",
   "lastOpenFiles": [
-    "5.专题研究/【经济学】金融危机/01.明斯基时刻.md",
-    "5.专题研究/【经济学】金融危机/02.郁金香泡沫.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
-    "2.等待处理/Daily/2023-02-13.md",
     "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
     "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
     "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
+    "5.专题研究/【经济学】金融危机/03.南海泡沫.md",
+    "5.专题研究/【经济学】金融危机/02.郁金香泡沫.md",
+    "5.专题研究/【经济学】金融危机/01.明斯基时刻.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
+    "2.等待处理/Daily/2023-02-13.md",
     "5.专题研究/QQ消息记录数据分析/README.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md",
-    "4.归档/工作/基础/bigdata/python/python-libs/collections/【Python库】collections.Conter.md"
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/计划.md"
   ]
 }
