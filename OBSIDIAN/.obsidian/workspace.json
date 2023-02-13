@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "55e55ba92764e49b",
+        "id": "5701c5c5e6c01b03",
         "type": "tabs",
         "children": [
           {
-            "id": "baf554887d91d8c1",
+            "id": "0699a963482b032c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/工程/环境问题总结/Python第三方库安装相关.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,11 +57,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 309.50909423828125
+    "width": 281.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/工作/工程/环境问题总结/Python第三方库安装相关.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/工作/工程/环境问题总结/Python第三方库安装相关.md"
+              }
             }
           },
           {
@@ -122,17 +130,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "baf554887d91d8c1",
+  "active": "0699a963482b032c",
   "lastOpenFiles": [
-    "4.归档/学习/4.平天下/经济学/【经济学】生活常识/03.五险一金.md",
-    "4.归档/学习/4.平天下/经济学/【经济学】生活常识/02.货币的起源.md",
-    "4.归档/学习/4.平天下/经济学/【经济学】生活常识/01.经济发展史.md",
-    "4.归档/学习/4.平天下/经济学/index.md",
-    "HOME.md",
-    "4.归档/学习/4.平天下/经济学/【经济学】生活常识/07.借贷相关.md",
-    "5.专题研究/经济学-生活常识/08.消费心理学.md",
-    "2.等待处理/Daily/2023-02-13.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
+    "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
+    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+    "5.专题研究/MyBlog项目学习笔记/README.md",
+    "5.专题研究/【经济学】金融危机/明斯基时刻.md",
     "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
-    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md"
+    "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
+    "4.归档/学习/4.平天下/经济学/index.md",
+    "4.归档/学习/4.平天下/经济学/【经济学】生活常识/07.借贷相关.md",
+    "4.归档/学习/4.平天下/经济学/【经济学】生活常识/06.人口与经济.md"
   ]
 }
