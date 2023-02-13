@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6ccc380e540eff45",
+        "id": "8ea786bfffe776ad",
         "type": "tabs",
         "children": [
           {
-            "id": "cc2167cea16a85bc",
+            "id": "a39d983672bc9864",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/04.交税.md",
+                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/04.交税.md",
+                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/经济学-生活常识/04.交税.md"
+                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md"
               }
             }
           },
@@ -130,17 +130,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "cc2167cea16a85bc",
+  "active": "a39d983672bc9864",
   "lastOpenFiles": [
-    "5.专题研究/经济学-生活常识/03.五险一金.md",
-    "1.收集箱/wechat_notes/文学/82年生的金智英（再版）-赵南柱.md",
-    "1.收集箱/wechat_notes/index.md",
-    "5.专题研究/经济学-生活常识/04.交税.md",
-    "HOME.md",
-    "5.专题研究/经济学-生活常识/02.货币的起源.md",
-    "5.专题研究/经济学-生活常识/01.经济发展史.md",
-    "3.将来可能/README.md",
-    "2.等待处理/README.md",
-    "2.等待处理/Dashboard/warehouse.md"
+    "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
+    "5.专题研究/SpringBoot/integration/SpringBoot-Integration-SSMP.md",
+    "5.专题研究/SpringBoot/integration/SpringBoot-Integration-MyBatisPlus.md",
+    "5.专题研究/SpringBoot/integration/SpringBoot-Integration-MyBatis.md",
+    "5.专题研究/SpringBoot/basic/SpringBoot-Basic-BasicConfig.md",
+    "5.专题研究/SpringBoot/basic/SpringBoot-Basic-QuickStart.md",
+    "2.等待处理/Dashboard/warehouse.md",
+    "2.等待处理/Daily/2023-02-13.md",
+    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+    "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md"
   ]
 }
