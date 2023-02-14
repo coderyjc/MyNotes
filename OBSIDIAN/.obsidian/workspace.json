@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dc40bc37e8916f6a",
+        "id": "a607a784a22f9124",
         "type": "tabs",
         "children": [
           {
-            "id": "02598f56b57f0abe",
+            "id": "f792e942cbc1353a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
+                "file": "5.专题研究/nodejs/Node基础知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
+                "file": "5.专题研究/nodejs/Node基础知识.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md"
+                "file": "5.专题研究/nodejs/Node基础知识.md"
               }
             }
           },
@@ -130,17 +130,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "02598f56b57f0abe",
+  "active": "f792e942cbc1353a",
   "lastOpenFiles": [
-    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
-    "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
-    "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
-    "1.收集箱/wechat_notes/index.md",
-    "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
-    "2.等待处理/Dashboard/warehouse.md",
-    "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
-    "5.专题研究/【经济学】金融危机/07.美国大萧条.md",
-    "5.专题研究/【经济学】金融危机/05.【1837年】美国大恐慌.md",
-    "5.专题研究/【经济学】金融危机/04.【1720年】密西西比泡沫.md"
+    "5.专题研究/SpringBoot/SpringBoot知识地图.md",
+    "4.归档/工作/工程/后端框架/MyBatis/【整合】MyBatis - 整合其他插件.md",
+    "4.归档/工作/工程/后端框架/MyBatis/【Bug】MyBatis - Bug.md",
+    "4.归档/工作/工程/前端框架/Vue.js/Vue.js.md",
+    "4.归档/工作/工程/前端框架/Vue.js/Vue-Cli.md",
+    "4.归档/工作/工程/前端框架/Vue.js/ElemetUI.md",
+    "4.归档/工作/工程/前端框架/Uni-App/基础操作.md",
+    "4.归档/工作/工程/前端框架/Uni-App/Uni-App-Bug.md",
+    "4.归档/工作/基础/bigdata/python/python-basic/python-os.md",
+    "4.归档/工作/工程/Python库/【Bug】PyEcharts.md"
   ]
 }
