@@ -4,20 +4,13 @@ kanban-plugin: basic
 
 ---
 
-## 近期打算
-
-- [x] #flag/工具 玩玩via浏览器及其插件
-- [ ] 收集压缩包密码库
-- [ ] #flag/工具 写一个遍历压缩包zip密码的软件，跑在云服务器上
-- [ ] 花时间整理一下我的vuepress导航站的搭建过程
-
-
 ## 核心竞争力
 
 - [ ] #flag/开发 寒假补充数学基础和算法基础
 - [ ] #flag/开发 疯狂建立自己的codebase
 - [ ] 通过gitee或者github部署doc博客
 - [ ] 写一个解读某开源项目的电子书 MyBlog
+- [ ] 花时间整理一下我的vuepress导航站的搭建过程
 - [ ] 学习vim, 然后安装vscode和idea中的vim插件，从而**提高开发效率**
 - [ ] 制作自己的OS和编译器，在自己的OS里运行自己写的程序
 - [ ] 学学windows相关的知识，系统实现方面，以及其文件系统，各个Ｃ盘中的文件夹的作用。
@@ -36,7 +29,7 @@ kanban-plugin: basic
 ## utility
 
 - [ ] #flag/工具 写个PDF去水印的软件
-- [ ] #flag/工具 写一个一键自动生成软著文档的PyQT程序
+- [x] #flag/工具 【已经有了更成熟的解决方案了】写一个一键自动生成软著文档的PyQT程序
 - [ ] #flag/工具 手撸一个markdown转为html的解析器
 - [ ] #flag/工具 学操作系统原理，做游戏修改器
 - [ ] #flag/工具 写Java代码建造mc方块，然后一键作画之类的
@@ -65,6 +58,10 @@ kanban-plugin: basic
 - [ ] 导入表情包到微信
 
 
+## 近期打算
+
+
+
 ## 创作
 
 - [ ] #flag/设计 JavaScript的canvas库，网页绘图
@@ -81,6 +78,9 @@ kanban-plugin: basic
 
 ## 归档
 
+- [x] #flag/工具 玩玩via浏览器及其插件
+- [x] 收集压缩包密码库
+- [x] #flag/工具 写一个遍历压缩包zip密码的软件，跑在云服务器上
 - [x] #flag/游戏 cemu玩塞尔达并且连接手机的传感器和limbo
 - [x] #flag/电视剧 《九号秘事》
 - [x] 把自己的毕设开源
