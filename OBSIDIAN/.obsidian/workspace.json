@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3c554e26c43cc5c0",
+        "id": "dc40bc37e8916f6a",
         "type": "tabs",
         "children": [
           {
-            "id": "05d035bdb1de7054",
+            "id": "02598f56b57f0abe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
+                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
+                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md"
+                "file": "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md"
               }
             }
           },
@@ -130,17 +130,17 @@
       "obsidian-weread-plugin:Weread": false
     }
   },
-  "active": "05d035bdb1de7054",
+  "active": "02598f56b57f0abe",
   "lastOpenFiles": [
+    "5.专题研究/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+    "5.专题研究/QQ消息记录数据分析/01.项目框架分析.md",
+    "5.专题研究/QQ消息记录数据分析/03.将数据展现在前端.md",
+    "1.收集箱/wechat_notes/index.md",
+    "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
     "2.等待处理/Dashboard/warehouse.md",
     "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
     "5.专题研究/【经济学】金融危机/07.美国大萧条.md",
     "5.专题研究/【经济学】金融危机/05.【1837年】美国大恐慌.md",
-    "5.专题研究/【经济学】金融危机/04.【1720年】密西西比泡沫.md",
-    "5.专题研究/【经济学】金融危机/03.【1720年】南海泡沫.md",
-    "5.专题研究/【经济学】金融危机/02.【17世纪】郁金香泡沫.md",
-    "5.专题研究/【经济学】金融危机/01.明斯基时刻.md",
-    "HOME.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md"
+    "5.专题研究/【经济学】金融危机/04.【1720年】密西西比泡沫.md"
   ]
 }
