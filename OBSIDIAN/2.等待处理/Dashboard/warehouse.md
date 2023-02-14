@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## 核心竞争力
 
-- [x] 通过gitee或者github部署doc博客
 - [ ] 写一个解读某开源项目的电子书 MyBlog
 - [ ] 花时间整理一下我的vuepress导航站的搭建过程
 - [ ] 学习vim, 然后安装vscode和idea中的vim插件，从而**提高开发效率**
@@ -25,11 +24,10 @@ kanban-plugin: basic
 
 ## utility
 
-- [ ] #flag/工具 写个PDF去水印的软件
 - [ ] #flag/工具 手撸一个markdown转为html的解析器
 - [ ] #flag/工具 学操作系统原理，做游戏修改器
 - [ ] #flag/工具 写Java代码建造mc方块，然后一键作画之类的
-- [ ] #flag/工具 学做游戏mod
+- [ ] #flag/工具 学做mc游戏mod
 
 
 ## 其他falg
@@ -43,15 +41,14 @@ kanban-plugin: basic
 - [ ] 文章同步在csdn和博客园上
 - [ ] 多邻国学日语，考日语证
 - [ ] 了解一下中国官场，政治的晋升体系
-- [ ] 天文知识
 - [ ] 运自媒体运营
 - [ ] 乐理
+- [ ] 天文知识
 - [ ] 金融，贴近生活的那种
 - [ ] 数学分析，加强数学思维
 - [ ] 密码学
 - [ ] 厨师理论
 - [ ] 英语翻译
-- [ ] 导入表情包到微信
 
 
 ## 近期打算
@@ -108,6 +105,9 @@ kanban-plugin: basic
 - [x] #flag/开发 疯狂建立自己的codebase
 - [x] #flag/人文 听听王德峰的哲学课，中西方文化差异的源头、教育差异等
 - [x] #flag/工具 【已经有了更成熟的解决方案了】写一个一键自动生成软著文档的PyQT程序
+- [x] 通过gitee或者github部署doc博客
+- [x] #flag/工具 写个PDF去水印的软件
+- [x] 导入表情包到微信
 
 %% kanban:settings
 ```
