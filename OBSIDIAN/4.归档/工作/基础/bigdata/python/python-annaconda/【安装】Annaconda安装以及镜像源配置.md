@@ -102,7 +102,7 @@ conda config --set show_channel_urls yes
 
 将内容替换为以下内容
 
-```
+```text
 channels:
   - defaults
 show_channel_urls: true
