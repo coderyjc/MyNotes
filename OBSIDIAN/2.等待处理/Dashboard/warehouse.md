@@ -6,9 +6,7 @@ kanban-plugin: basic
 
 ## 核心竞争力
 
-- [ ] #flag/开发 寒假补充数学基础和算法基础
-- [ ] #flag/开发 疯狂建立自己的codebase
-- [ ] 通过gitee或者github部署doc博客
+- [x] 通过gitee或者github部署doc博客
 - [ ] 写一个解读某开源项目的电子书 MyBlog
 - [ ] 花时间整理一下我的vuepress导航站的搭建过程
 - [ ] 学习vim, 然后安装vscode和idea中的vim插件，从而**提高开发效率**
@@ -20,7 +18,6 @@ kanban-plugin: basic
 ## 学习
 
 - [ ] #flag/人文 西欧的历史和欧洲侵略史
-- [x] #flag/人文 听听王德峰的哲学课，中西方文化差异的源头、教育差异等
 - [ ] #flag/读书 四大名著
 - [ ] #flag/读书 使用Obsidian整理读书笔记
 - [ ] #flag/读书 哈利波特+王一珉电影解读
@@ -29,7 +26,6 @@ kanban-plugin: basic
 ## utility
 
 - [ ] #flag/工具 写个PDF去水印的软件
-- [x] #flag/工具 【已经有了更成熟的解决方案了】写一个一键自动生成软著文档的PyQT程序
 - [ ] #flag/工具 手撸一个markdown转为html的解析器
 - [ ] #flag/工具 学操作系统原理，做游戏修改器
 - [ ] #flag/工具 写Java代码建造mc方块，然后一键作画之类的
@@ -109,6 +105,9 @@ kanban-plugin: basic
 - [x] 学习一些话术, 影响别人
 - [x] #flag/写作 经常在知乎写回答
 - [x] #flag/读书 金庸的小说
+- [x] #flag/开发 疯狂建立自己的codebase
+- [x] #flag/人文 听听王德峰的哲学课，中西方文化差异的源头、教育差异等
+- [x] #flag/工具 【已经有了更成熟的解决方案了】写一个一键自动生成软著文档的PyQT程序
 
 %% kanban:settings
 ```
