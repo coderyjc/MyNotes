@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
+                "file": "5.专题研究/【经济学】金融危机/07.美国大萧条.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
+                "file": "5.专题研究/【经济学】金融危机/07.美国大萧条.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md"
+                "file": "5.专题研究/【经济学】金融危机/07.美国大萧条.md"
               }
             }
           },
@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -132,15 +131,15 @@
   },
   "active": "af5c31571ebfc9c3",
   "lastOpenFiles": [
-    "5.专题研究/【经济学】金融危机/07.美国大萧条.md",
     "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
+    "5.专题研究/【经济学】金融危机/05.【1837年】美国大恐慌.md",
+    "5.专题研究/【经济学】金融危机/04.【1720年】密西西比泡沫.md",
+    "HOME.md",
+    "5.专题研究/【经济学】金融危机/07.美国大萧条.md",
     "5.专题研究/nodejs/Node基础知识.md",
     "5.专题研究/SpringBoot/SpringBoot知识地图.md",
     "4.归档/工作/工程/后端框架/MyBatis/【整合】MyBatis - 整合其他插件.md",
     "4.归档/工作/工程/后端框架/MyBatis/【Bug】MyBatis - Bug.md",
-    "4.归档/工作/工程/前端框架/Vue.js/Vue.js.md",
-    "4.归档/工作/工程/前端框架/Vue.js/Vue-Cli.md",
-    "4.归档/工作/工程/前端框架/Vue.js/ElemetUI.md",
-    "4.归档/工作/工程/前端框架/Uni-App/基础操作.md"
+    "4.归档/工作/工程/前端框架/Vue.js/Vue.js.md"
   ]
 }
