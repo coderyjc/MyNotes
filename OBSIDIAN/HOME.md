@@ -10,9 +10,8 @@ await dv.view("_plugin/dataview/notes_count_view")
 ```
 
 
-## 创建热力图
+## 笔记热力图
 
 ```dataviewjs
 await dv.view("_plugin/dataview/notes_heatmap")
 ```
-
