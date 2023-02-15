@@ -10,7 +10,6 @@ kanban-plugin: basic
 - [ ] 花时间整理一下我的vuepress导航站的搭建过程
 - [ ] 学习vim, 然后安装vscode和idea中的vim插件，从而**提高开发效率**
 - [ ] 制作自己的OS和编译器，在自己的OS里运行自己写的程序
-- [ ] 学学windows相关的知识，系统实现方面，以及其文件系统，各个Ｃ盘中的文件夹的作用。
 - [ ] #flag/开发 springcloud项目 https://mp.weixin.qq.com/s/vrSU_7yGR4Hi5zqRIhwJlA
 
 
@@ -18,7 +17,7 @@ kanban-plugin: basic
 
 - [ ] #flag/人文 西欧的历史和欧洲侵略史
 - [ ] #flag/读书 四大名著
-- [ ] #flag/读书 使用Obsidian整理读书笔记
+- [x] #flag/读书 使用Obsidian整理读书笔记
 - [ ] #flag/读书 哈利波特+王一珉电影解读
 
 
