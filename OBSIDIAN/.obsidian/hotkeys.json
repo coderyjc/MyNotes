@@ -1,1 +1,11 @@
-{}
+{
+  "note-refactor-obsidian:app:extract-selection-first-line": [],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ]
+}

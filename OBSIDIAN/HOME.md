@@ -15,3 +15,7 @@ await dv.view("_plugin/dataview/notes_count_view")
 ```dataviewjs
 await dv.view("_plugin/dataview/notes_heatmap")
 ```
+
+
+
+

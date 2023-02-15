@@ -1,7 +1,6 @@
 [
   "obsidian-admonition",
   "obsidian-kanban",
-  "templater-obsidian",
   "obsidian-weread-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
@@ -12,5 +11,6 @@
   "note-refactor-obsidian",
   "obsidian-image-toolkit",
   "dataview",
-  "obsidian-charts"
+  "obsidian-charts",
+  "templater-obsidian"
 ]
