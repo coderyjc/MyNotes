@@ -11,8 +11,12 @@
             "id": "e82f28e7328c1880",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/Chrome插件开发/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/Chrome插件开发/index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/Chrome插件开发/index.md"
+              }
             }
           },
           {
