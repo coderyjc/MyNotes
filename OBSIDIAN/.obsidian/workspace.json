@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1b8202728c9387fc",
+        "id": "783227a409480540",
         "type": "tabs",
         "children": [
           {
-            "id": "e82f28e7328c1880",
+            "id": "b512423435a5e7d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/生活/搜索/【电子书检索】.md",
+                "file": "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25406a19d6a39e80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/生活/搜索/【电子书检索】.md",
+                "file": "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/生活/搜索/【电子书检索】.md"
+                "file": "1.收集箱/navigation/coder/tools/【nav】正则表达式.md"
               }
             }
           },
@@ -129,17 +142,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e82f28e7328c1880",
+  "active": "25406a19d6a39e80",
   "lastOpenFiles": [
+    "1.收集箱/navigation/nav.md",
+    "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
+    "1.收集箱/log.md",
+    "1.收集箱/articles/axutongxue.md",
+    "1.收集箱/README.md",
+    "2.等待处理/Daily/2023-02-18.md",
+    "4.归档/生活/搜索/【电子书检索】.md",
     "5.专题研究/Chrome插件开发/index.md",
     "_plugin/template/text-center.md",
-    "index.md",
-    "_plugin/template/game_hades.md",
-    "_plugin/template/dailynotes.md",
-    "HOME.md",
-    "_plugin/template/beautify_random_gradient.md",
-    "_plugin/template/game_mc_instruction.md",
-    "_plugin/template/java_mvc_method.md",
-    "5.专题研究/【经济学】金融危机/03.【1720年】南海泡沫.md"
+    "index.md"
   ]
 }

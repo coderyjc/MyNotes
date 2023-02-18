@@ -1,5 +1,5 @@
 {
-  "template": "_template/dailynotes",
+  "template": "_plugin/template/dailynotes",
   "folder": "2.等待处理/Daily",
   "autorun": false
 }
