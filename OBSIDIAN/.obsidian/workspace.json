@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "33530775101c5c82",
+        "id": "610389d355832032",
         "type": "tabs",
         "children": [
           {
-            "id": "2fb6966429c95133",
+            "id": "72baa1f8bc65906a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/navigation/temp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "193313987614c202",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.收集箱/navigation/nav.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/navigation/temp.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/navigation/temp.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -141,17 +129,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2fb6966429c95133",
+  "active": "72baa1f8bc65906a",
   "lastOpenFiles": [
-    "1.收集箱/navigation/coder/tools/代码美化.md",
-    "1.收集箱/navigation/coder/tools/正则表达式.md",
     "1.收集箱/navigation/nav.md",
     "1.收集箱/navigation/temp.md",
-    "1.收集箱/navigation/coder/tools/未命名.md",
-    "5.专题研究/nodejs/Node基础知识.md",
-    "4.归档/工作/工程/环境问题总结/npm和node安装.md",
-    "_plugin/template/nav.md",
-    "1.收集箱/log.md",
-    "1.收集箱/articles/axutongxue.md"
+    "1.收集箱/navigation/media/音频工具.md",
+    "1.收集箱/navigation/media/咨讯.md",
+    "1.收集箱/navigation/media/二维码生成.md",
+    "1.收集箱/navigation/media/文案神器.md",
+    "1.收集箱/navigation/media/综合工具.md",
+    "1.收集箱/navigation/media/数据相关.md",
+    "1.收集箱/navigation/resource/工具.md",
+    "1.收集箱/navigation/resource/软件插件.md"
   ]
 }
