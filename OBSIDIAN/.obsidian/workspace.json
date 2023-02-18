@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Chrome插件开发/index.md",
+                "file": "4.归档/生活/搜索/【电子书检索】.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Chrome插件开发/index.md",
+                "file": "4.归档/生活/搜索/【电子书检索】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Chrome插件开发/index.md"
+                "file": "4.归档/生活/搜索/【电子书检索】.md"
               }
             }
           },
@@ -131,6 +131,7 @@
   },
   "active": "e82f28e7328c1880",
   "lastOpenFiles": [
+    "5.专题研究/Chrome插件开发/index.md",
     "_plugin/template/text-center.md",
     "index.md",
     "_plugin/template/game_hades.md",
@@ -139,7 +140,6 @@
     "_plugin/template/beautify_random_gradient.md",
     "_plugin/template/game_mc_instruction.md",
     "_plugin/template/java_mvc_method.md",
-    "5.专题研究/【经济学】金融危机/03.【1720年】南海泡沫.md",
-    "4.归档/工作/基础/front/js/js.md"
+    "5.专题研究/【经济学】金融危机/03.【1720年】南海泡沫.md"
   ]
 }
