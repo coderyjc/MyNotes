@@ -1,0 +1,77 @@
+/* 
+@Author   : 咖啡豆  
+@contact  : https://coffeetea.top/  
+@File     : 多彩小丸子标签.css  
+@Software : vscode  
+@Date     : 2022-08-09 23:15:00  
+@upDate   : 2023-01-27 16:35:47
+@Desc     : 修改标签样式为小丸子和多彩显示  
+@Desc     : 样式:root的注释掉就关掉了，要用的样式打开  
+*/  
+  
+  
+/* border-radius变量  */:root {  
+  /* 圆角-数字越大圆角越圆 */  /* --border-radius-wanzi: 0.5rem;  */  --border-radius-wanzi: 0.8rem!important;  
+}  
+  
+/* 样式1-七彩虹-不用的时候注释代码即可*/  
+:root {  
+  --font-color: white;  
+  --background-color-1: red;  
+  --background-color-2: orange;  
+  --background-color-3: #F4D00C;  
+  --background-color-4: green;  
+  --background-color-5: #00bbff;  
+  --background-color-6: blue;  
+  --background-color-7: purple;  
+}  
+  
+/* 样式2-Vue-渐变色-不用的时候注释代码即可 *//* :root {  
+  --font-color: white;  --background-color-1: #1f4d03;  --background-color-2: #548c14;  --background-color-3: #84bf41;  --background-color-4: #94d44a;  --background-color-5: #a1e751;  --background-color-6: #9fe251;  --background-color-7: #b2e07d;} */  
+  
+.tag:not(.token) {  
+  background-color: var(--text-accent);  
+  border: none;  
+  color: var(--font-color);  
+  font-size: 0.875rem; /* 14px 调整在v1.0.0 版本中的样式 */  /* padding: 1px 8px; */  padding: 2px 8px; /* 2022-08-10 12:57:05 */  
+  text-align: center;  
+  text-decoration: none;  
+  display: inline-block;  
+  margin: 0px 0px;  
+  cursor: pointer;  
+  border-radius: var(--border-radius-wanzi);  
+}  
+  
+/* 配色设置 *//* 设置.markdown-reading-view 下第1个.tag背景色*/  
+.markdown-reading-view .tag:not(.token):first-child {  
+  /* 背景颜色为变量 1 */  background-color: var(--background-color-1);  
+}  
+  
+/* 设置.markdown-reading-view 下第2个.tag背景色*/  
+.markdown-reading-view .tag:not(.token):nth-child(2) {  
+  /* 背景颜色为变量 2 */  background-color: var(--background-color-2);  
+}  
+  
+/* 设置.markdown-reading-view 下第3个.tag背景色*/  
+.markdown-reading-view .tag:not(.token):nth-child(3) {  
+  /* 背景颜色为变量 3 */  background-color: var(--background-color-3);  
+}  
+  
+/* 设置.markdown-reading-view 下第4个.tag背景色*/  
+.markdown-reading-view .tag:not(.token):nth-child(4) {  
+  /* 背景颜色为变量 4 */  background-color: var(--background-color-4);  
+}  
+  
+/* 设置.markdown-reading-view 下第5个.tag背景色*/  
+.markdown-reading-view .tag:not(.token):nth-child(5) {  
+  /* 背景颜色为变量 5 */  background-color: var(--background-color-5);  
+}  
+  
+/* 设置.markdown-reading-view 下第6个.tag背景色 */.markdown-reading-view .tag:not(.token):nth-child(6) {  
+  /* 背景颜色为变量 6 */  background-color: var(--background-color-6);  
+}  
+  
+/* 设置.markdown-reading-view 下第7个.tag背景色*/  
+.markdown-reading-view .tag:not(.token):nth-child(7) {  
+  /* 背景颜色为变量 7 */  background-color: var(--background-color-7);  
+}

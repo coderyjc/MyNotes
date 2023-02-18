@@ -16,5 +16,5 @@
   "useMarkdownLinks": false,
   "newLinkFormat": "relative",
   "newFileLocation": "current",
-  "showInlineTitle": false
+  "showInlineTitle": true
 }
