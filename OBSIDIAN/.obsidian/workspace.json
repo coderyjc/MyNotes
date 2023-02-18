@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "783227a409480540",
+        "id": "cec3d5ca92bd2c38",
         "type": "tabs",
         "children": [
           {
-            "id": "b512423435a5e7d5",
+            "id": "243f88632700f986",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25406a19d6a39e80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
+                "file": "5.专题研究/nodejs/Node基础知识.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "node 安装",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,11 +57,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 281.50909423828125
+    "width": 281.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -90,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
+                "file": "5.专题研究/nodejs/Node基础知识.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/navigation/coder/tools/【nav】正则表达式.md"
+                "file": "5.专题研究/nodejs/Node基础知识.md"
               }
             }
           },
@@ -142,17 +131,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "25406a19d6a39e80",
+  "active": "243f88632700f986",
   "lastOpenFiles": [
+    "4.归档/工作/工程/环境问题总结/npm和node安装.md",
+    "1.收集箱/navigation/coder/tools/正则表达式.md",
     "1.收集箱/navigation/nav.md",
-    "1.收集箱/navigation/coder/tools/【nav】正则表达式.md",
+    "_plugin/template/nav.md",
     "1.收集箱/log.md",
     "1.收集箱/articles/axutongxue.md",
     "1.收集箱/README.md",
     "2.等待处理/Daily/2023-02-18.md",
     "4.归档/生活/搜索/【电子书检索】.md",
-    "5.专题研究/Chrome插件开发/index.md",
-    "_plugin/template/text-center.md",
-    "index.md"
+    "5.专题研究/Chrome插件开发/index.md"
   ]
 }
