@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Python/函数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -129,17 +130,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "72baa1f8bc65906a",
+  "active": "1f74b340a1d27e17",
   "lastOpenFiles": [
     "1.收集箱/navigation/nav.md",
-    "1.收集箱/navigation/temp.md",
-    "1.收集箱/navigation/media/音频工具.md",
-    "1.收集箱/navigation/media/咨讯.md",
-    "1.收集箱/navigation/media/二维码生成.md",
-    "1.收集箱/navigation/media/文案神器.md",
-    "1.收集箱/navigation/media/综合工具.md",
-    "1.收集箱/navigation/media/数据相关.md",
-    "1.收集箱/navigation/resource/工具.md",
-    "1.收集箱/navigation/resource/软件插件.md"
+    "1.收集箱/navigation/coder/其他工具.md",
+    "1.收集箱/navigation/coder/正则相关.md",
+    "1.收集箱/navigation/coder/综合工具.md",
+    "1.收集箱/navigation/coder/编码转换.md",
+    "1.收集箱/navigation/coder/CSS生成工具.md",
+    "1.收集箱/navigation/coder/Json解析.md",
+    "1.收集箱/navigation/coder/代码加密.md",
+    "1.收集箱/navigation/coder/代码运行.md",
+    "1.收集箱/navigation/coder/代码美化.md"
   ]
 }

@@ -3,17 +3,31 @@
 HOME
 </div>
 
+```dataviewjs
+let nofold = '!"10 归档/Template"'
+let allFile = dv.pages(nofold).file
+let totalMd = "共创建 "+
+	allFile.length+" 篇文档"
+let totalTag = allFile.etags.distinct().length+" 个标签"
+let totalTask = allFile.tasks.length+" 个待办 <br><br>"
+dv.paragraph(
+	totalMd+"、"+totalTag+"、"+totalTask
+)
+```
+
+## 最近编辑
+
+```dataview
+table WITHOUT ID 
+	file.link AS "标题",file.mtime as "时间"
+sort 
+	file.mtime desc
+limit 5
+```
 
 ## 数量分布图
 ```dataviewjs
 await dv.view("_plugin/dataview/notes_count_view")
-```
-
-
-## 笔记热力图
-
-```dataviewjs
-await dv.view("_plugin/dataview/notes_heatmap")
 ```
 
 
