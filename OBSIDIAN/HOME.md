@@ -13,12 +13,11 @@ let totalTask = allFile.tasks.length+" 个待办 <br><br>"
 dv.paragraph(
 	totalMd+"、"+totalTag+"、"+totalTask
 )
-```
-## 最近编辑
+``` 
 
 ```dataview
 table WITHOUT ID 
-	file.link AS "标题",file.mtime as "时间"
+	file.link AS "最近编辑",file.mtime as "时间"
 sort 
 	file.mtime desc
 limit 5

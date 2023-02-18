@@ -1,10 +1,10 @@
 {
   "baseFontSize": 16,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "translucency": true,
-  "cssTheme": "primary",
+  "cssTheme": "Prism",
   "monospaceFontFamily": "JetBrains Mono",
-  "accentColor": "",
+  "accentColor": "#0071eb",
   "nativeMenus": false,
   "showViewHeader": true,
   "enabledCssSnippets": []

@@ -26,6 +26,9 @@
 
 body {
     background: linear-gradient(135deg, var(--mica-base-bg-start), var(--mica-base-bg-end));
+
+    --file-header-justify: left;
+    --file-line-width: 100%;
 }
 
 .workspace > .workspace-split {
@@ -90,20 +93,23 @@ body {
     color: white;
 }
 
-.workspace-tab-header-inner-icon {
+/* .workspace-tab-header-inner-icon {
     margin-top: 7px;
-}
+} */
 
 .workspace-leaf-resize-handle {
     background: transparent;
 }
 
 .workspace {
-    padding-top: 6px;
+    padding-top: 24px;
+}
+
+.workspace-ribbon.mod-left {
+    margin-top: 48px;
 }
 
 .workspace-split {
-    /* margin-top: 6px; */
     background: linear-gradient(135deg, var(--mica-content-bg-start), var(--mica-content-bg-end));
     background-attachment: fixed;
 }
@@ -181,7 +187,7 @@ body {
 }
 
 body:not(.is-mobile) .workspace-leaf-content[data-type="markdown"] .view-actions .view-action svg {
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 .workspace > .workspace-split {
@@ -196,26 +202,89 @@ body:not(.is-mobile) .workspace-leaf-content[data-type="markdown"] .view-actions
 
 /* scroll */
 
-::-webkit-scrollbar {
+body:not(.native-scrollbars) ::-webkit-scrollbar {
     width: 6px;
 }
 
-.workspace-leaf-content .nav-header + *:hover::-webkit-scrollbar-thumb {
+body:not(.native-scrollbars) .workspace-leaf-content .nav-header + *:hover::-webkit-scrollbar-thumb {
     border: none;
     /* background-color: var(--scrollbar-thumb-bg); */
 }
 
-.workspace-leaf-content .view-content:hover *::-webkit-scrollbar-thumb {
+body:not(.native-scrollbars) .workspace-leaf-content .view-content:hover *::-webkit-scrollbar-thumb {
     border: none;
     /* background-color: var(--scrollbar-thumb-bg); */
 }
 
-::-webkit-scrollbar-thumb {
+body:not(.native-scrollbars) ::-webkit-scrollbar-thumb {
     border-radius: 0;
     background-clip: content-box;
     border-left: 4px solid transparent;
     /* background-color: var(--mica-border); */
     transition: background-color 0.2s;
+}
+
+/* view header wrangling */
+
+.view-header {
+    height: 48px;
+    max-height: 48px;
+    min-height: 48px;
+}
+
+.view-header-title-parent {
+    display: none;
+}
+
+/* mod top buttons */
+
+.sidebar-toggle-button.mod-left {
+    top: 24px;
+}
+
+.workspace-ribbon.mod-left:before {
+    display: none;
+}
+
+.is-hidden-frameless:not(.is-fullscreen) .titlebar-button-container.mod-right,
+.is-hidden-frameless:not(.is-fullscreen) .titlebar-button-container.mod-left,
+.is-hidden-frameless:not(.is-fullscreen).is-focused .titlebar-button-container.mod-right,
+.is-hidden-frameless:not(.is-fullscreen).is-focused .titlebar-button-container.mod-left {
+    background-color: transparent;
+}
+
+.titlebar-button {
+    height: 24px;
+}
+
+/* tabs */
+
+.mod-root .workspace-tab-header {
+    border-radius: 0;
+}
+
+.mod-root .workspace-tab-header-container-inner {
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+.mod-root .workspace-tab-header-container-inner::before, .mod-root .workspace-tab-header-container-inner::after,
+.workspace-split.mod-root .workspace-tab-header.is-active::before, .workspace-split.mod-root .workspace-tab-header.is-active::after {
+    display: none;
+}
+
+.workspace .mod-root .workspace-tab-header-container-inner .workspace-tab-header {
+    padding-left: 8px;
+}
+
+.workspace-tab-header.is-active {
+    box-shadow: none;
+    background: var(--mica-base-bg-start);
+}
+
+.workspace-tab-header-new-tab {
+    margin-left: 8px;
 }
 
 /* nav */
@@ -245,6 +314,10 @@ body:not(.is-mobile) .workspace-leaf-content[data-type="markdown"] .view-actions
 
 .nav-file-title:hover, .nav-folder-title:hover {
 
+}
+
+.nav-files-container .nav-folder.mod-root {
+    padding: 0 4px;
 }
 
 .nav-file-title.is-active {
@@ -302,6 +375,12 @@ body:not(.is-mobile) .workspace-leaf-content[data-type="markdown"] .view-actions
     }
 }
 
+/* sidebar toggle move */
+
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container {
+    padding-right: calc(var(--frame-right-space) + 8px);
+}
+
 /* change note header to match h1 */
 
 body:not(.plugin-sliding-panes):not(.is-mobile) .workspace-leaf-content[data-type="markdown"] .view-header {
@@ -340,31 +419,34 @@ body:not(.plugin-sliding-panes):not(.is-mobile) .workspace-leaf-content[data-typ
 .titlebar {
 }
 
-.titlebar .titlebar-text {
+.titlebar .titlebar-text, 
+.is-hidden-frameless .titlebar .titlebar-text {
+    display: block;
     text-align: left;
     width: auto;
-    left: 100px;
-    padding-left: 22px;
+    left: 64px;
+    line-height: 24px;
     z-index: 5;
+    font-weight: normal;
+    padding: 0;
 }
 
 .mod-macos .titlebar .titlebar-text {
-    left: 200px;
+    left: 136px;
 }
 
 .titlebar .titlebar-text::after {
     z-index: 5;
     opacity: 0.7;
-    content: " - https://tmz.io/sodalite v0.6.5";
+    content: " - https://tmz.io/sodalite v0.7.0";
 }
 
 /* status bar */
 
 .status-bar {
-    border: none;
-    position: absolute;
-    margin-top: -18px;
-    right: 100px;
+    bottom: auto;
+    top: 0;
+    right: 136px;
     font-size: 12px;
 }
 
@@ -558,6 +640,30 @@ body:not(.plugin-sliding-panes):not(.is-mobile) .workspace-leaf-content[data-typ
     margin-top: 56px;
 }
 
+/* fix search with scroll below */
+
+body:not(.is-mobile) .workspace-leaf-content .document-search-container {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background: transparent;
+    backdrop-filter: blur(18px);
+    background: 
+        linear-gradient(135deg, var(--mica-content-bg-start-transparent),
+        var(--mica-content-bg-end-transparent)) !important;
+    background-attachment: fixed !important;
+    min-width: 400px;
+    padding: 12px;
+    border: 1px solid #404040;
+}
+
+.document-search-close-button {
+    padding: 0;
+    margin-top: -4px;
+    margin-right: -8px;
+    margin-left: 8px;
+}
+
 /* graph */
 
 .graph-controls {
@@ -572,7 +678,7 @@ body:not(.plugin-sliding-panes):not(.is-mobile) .workspace-leaf-content[data-typ
 }
 
 body:not(.is-mobile) .workspace-split.mod-root .graph-controls {
-    top: 32px;
+    top: 48px;
 }
 
 .graph-controls.is-close {
