@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "232c287c88203ab6",
+        "id": "679122358da0d002",
         "type": "tabs",
         "children": [
           {
-            "id": "80179f4460457a6c",
+            "id": "690768b0ebc9f307",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
+                "file": "5.专题研究/SpringBoot/SpringBoot知识地图.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
+                "file": "5.专题研究/SpringBoot/SpringBoot知识地图.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md"
+                "file": "5.专题研究/SpringBoot/SpringBoot知识地图.md"
               }
             }
           },
@@ -126,20 +126,21 @@
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "privacy-glasses:Toggle Privacy Glasses": false
     }
   },
-  "active": "80179f4460457a6c",
+  "active": "690768b0ebc9f307",
   "lastOpenFiles": [
-    "5.专题研究/【经济学】金融危机/04.【1720年】密西西比泡沫.md",
-    "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
     "HOME.md",
+    "5.专题研究/【经济学】金融危机/01.明斯基时刻.md",
+    "5.专题研究/【经济学】金融危机/07.【1929-1933年】美国大萧条.md",
+    "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
     "5.专题研究/【经济学】金融危机/05.【1837年】美国大恐慌.md",
+    "5.专题研究/【经济学】金融危机/08.石油危机.md",
+    "1.收集箱/navigation/resource/聚合导航.md",
+    "5.专题研究/【经济学】金融危机/04.【1720年】密西西比泡沫.md",
     "4.归档/工作/基础/bigdata/python/python-basic/python-os.md",
-    "5.专题研究/【经济学】金融危机/02.【17世纪】郁金香泡沫.md",
-    "4.归档/工作/基础/bigdata/python/python-basic/02.常用数据类型.md",
-    "4.归档/工作/基础/bigdata/python/python-basic/01.字符和输入输出.md",
-    "4.归档/工作/基础/bigdata/python/python-basic/04.函数式编程.md",
-    "4.归档/工作/基础/bigdata/python/python-basic/06.高级特性.md"
+    "5.专题研究/【经济学】金融危机/02.【17世纪】郁金香泡沫.md"
   ]
 }
