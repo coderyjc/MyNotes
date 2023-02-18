@@ -2,7 +2,10 @@
   "baseFontSize": 16,
   "theme": "moonstone",
   "translucency": true,
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "primary",
   "monospaceFontFamily": "JetBrains Mono",
-  "accentColor": ""
+  "accentColor": "",
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "enabledCssSnippets": []
 }

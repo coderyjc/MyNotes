@@ -15,5 +15,6 @@
   },
   "useMarkdownLinks": false,
   "newLinkFormat": "relative",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "showInlineTitle": false
 }

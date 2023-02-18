@@ -4,7 +4,7 @@ HOME
 </div>
 
 ```dataviewjs
-let nofold = '!"10 归档/Template"'
+let nofold = '!"_plugin"'
 let allFile = dv.pages(nofold).file
 let totalMd = "共创建 "+
 	allFile.length+" 篇文档"
@@ -14,7 +14,6 @@ dv.paragraph(
 	totalMd+"、"+totalTag+"、"+totalTask
 )
 ```
-
 ## 最近编辑
 
 ```dataview

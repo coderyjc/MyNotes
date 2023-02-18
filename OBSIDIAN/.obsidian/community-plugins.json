@@ -7,10 +7,11 @@
   "url-into-selection",
   "tag-wrangler",
   "code-block-copy",
-  "markdown-prettifier",
   "note-refactor-obsidian",
   "obsidian-image-toolkit",
   "dataview",
   "obsidian-charts",
-  "templater-obsidian"
+  "templater-obsidian",
+  "supercharged-links-obsidian",
+  "obsidian-style-settings"
 ]

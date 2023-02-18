@@ -1,0 +1,10 @@
+{
+  "primary-ceciliamay@@vault-title__titlebar": false,
+  "primary-ceciliamay@@hide__sidedockribbon": "show__sidedockribbon",
+  "primary-ceciliamay@@statusbar": "show__status-bar",
+  "primary-ceciliamay@@linewrap-file__file-explorer": false,
+  "primary-ceciliamay@@vault-title__file-explorer": false,
+  "primary-ceciliamay@@hide__note-header": false,
+  "primary-ceciliamay@@hide__metadata-box": false,
+  "primary-ceciliamay@@header-size__preset": "header-size__original"
+}

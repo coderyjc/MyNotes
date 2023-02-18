@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "610389d355832032",
+        "id": "0dcccc450c389a5c",
         "type": "tabs",
         "children": [
           {
-            "id": "72baa1f8bc65906a",
+            "id": "16632b86e518198a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Python/函数",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,8 +109,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,28 +117,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
+      "canvas:Create new canvas": true,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "1f74b340a1d27e17",
+  "active": "3f3a381f5286a2b5",
   "lastOpenFiles": [
+    "4.归档/生活/搜索/【电子书检索】.md",
+    "4.归档/生活/搜索/【浏览器使用技巧】.md",
+    "HOME.md",
     "1.收集箱/navigation/nav.md",
     "1.收集箱/navigation/coder/其他工具.md",
     "1.收集箱/navigation/coder/正则相关.md",
     "1.收集箱/navigation/coder/综合工具.md",
     "1.收集箱/navigation/coder/编码转换.md",
     "1.收集箱/navigation/coder/CSS生成工具.md",
-    "1.收集箱/navigation/coder/Json解析.md",
-    "1.收集箱/navigation/coder/代码加密.md",
-    "1.收集箱/navigation/coder/代码运行.md",
-    "1.收集箱/navigation/coder/代码美化.md"
+    "1.收集箱/navigation/coder/Json解析.md"
   ]
 }

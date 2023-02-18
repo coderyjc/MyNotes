@@ -1,0 +1,14 @@
+# Intellij
+*.iml
+.idea
+
+# npm
+node_modules
+package-lock.json
+
+# build
+*.js.map
+data.json
+
+# Mac OS
+.DS_Store
