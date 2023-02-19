@@ -4,7 +4,7 @@
       "id": "homepage:open-homepage",
       "icon": "lucide-home",
       "name": "Homepage: Open homepage",
-      "showButtons": "both"
+      "showButtons": "mobile"
     }
   ],
   "desktop": true,

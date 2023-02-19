@@ -1,6 +1,5 @@
 ---
 banner: "_plugin/banners/rainy-day-bird.gif"
-banner_icon: 💌
 banner_y: 0.24416
 banner_x: 0.50168
 ---

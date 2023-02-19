@@ -248,7 +248,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "HOME.md"
+                    "file": "_plugin/components/Colorful-Clock.md"
                   }
                 }
               },
@@ -276,7 +276,7 @@
           {
             "id": "7473eb9910fae944",
             "type": "tabs",
-            "dimension": 58.64745011086474,
+            "dimension": 40.02217294900222,
             "children": [
               {
                 "id": "3f3a381f5286a2b5",
@@ -284,7 +284,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "HOME.md",
+                    "file": "_plugin/components/Colorful-Clock.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -322,7 +322,7 @@
           {
             "id": "3b62a95e52da1e77",
             "type": "tabs",
-            "dimension": 41.352549889135254,
+            "dimension": 59.97782705099778,
             "children": [
               {
                 "id": "ce47e50dc511ac08",
@@ -354,7 +354,7 @@
           "privacy-glasses:Toggle Privacy Glasses": false
         }
       },
-      "active": "295c5d5e9b818a36"
+      "active": "e2988b14426e11db"
     }
   },
   "active": "HOME"

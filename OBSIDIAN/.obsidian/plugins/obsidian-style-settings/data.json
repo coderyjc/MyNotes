@@ -96,7 +96,7 @@
   "blue-topaz-theme@@circular-checkbox": true,
   "blue-topaz-theme@@checkbox-size": "0.9rem",
   "blue-topaz-theme@@loading-page-style-option": "loading-custom-text",
-  "blue-topaz-theme@@loading-diy-text": "\"欢迎来到Blue Topaz 世界！𓃟𓃠𓃬𓃭𓃮𓃯𓃰𓃱𓃲𓃵𓃶𓄇𓄿𓅀𓅂𓅃𓅘𓅙𓅚𓅛𓅜𓅝𓅞𓅟𓅠𓅡𓅢𓅣𓅤𓅥𓅦𓅧𓅨𓅩𓅪𓅫𓅬𓅭\"",
+  "blue-topaz-theme@@loading-diy-text": "\"竹影扫阶尘不动，雁渡寒潭水无痕。\"",
   "blue-topaz-theme@@tag-click": true,
   "blue-topaz-theme@@head-tag-style": true,
   "blue-topaz-theme@@tag-style-option": "rainbow-tag",
@@ -127,5 +127,6 @@
   "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-bt-default",
   "Blue-Topaz-Codebox-Highlight@@mute-code-indent-line": true,
   "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
-  "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-default-style"
+  "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-default-style",
+  "blue-topaz-theme@@toggle-bg-panel-page": false
 }
