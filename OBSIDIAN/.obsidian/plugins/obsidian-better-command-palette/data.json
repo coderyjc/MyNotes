@@ -1,0 +1,27 @@
+{
+  "closeWithBackspace": true,
+  "fileSearchPrefix": "/",
+  "tagSearchPrefix": "#",
+  "suggestionLimit": 50,
+  "recentAbovePinned": true,
+  "hyperKeyOverride": false,
+  "macros": [
+    {
+      "name": "Macro 1",
+      "commandIds": [
+        "workspace:split-vertical",
+        "editor:focus-right"
+      ],
+      "delay": 200
+    }
+  ],
+  "hotkeyStyle": "auto",
+  "createNewFileMod": "Shift",
+  "createNewPaneMod": "Mod",
+  "hiddenCommands": [
+    "app:open-help",
+    "workspace:edit-file-title"
+  ],
+  "hiddenFiles": [],
+  "hiddenTags": []
+}

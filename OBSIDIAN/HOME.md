@@ -17,13 +17,33 @@ dv.paragraph(
 )
 ``` 
 
+
+
+````ad-flex
+<div>
+
+### 最近编辑
 ```dataview
-table WITHOUT ID 
-	file.link AS "最近编辑",file.mtime as "时间"
-sort 
-	file.mtime desc
+table WITHOUT ID file.link AS "标题",file.mtime as "时间"
+from !"模板" and !"kanban"
+sort file.mtime desc
 limit 5
 ```
+</div>
+
+<div>
+
+### 三天内创建的笔记
+```dataview
+table file.ctime as 创建时间
+from ""
+where date(today) - file.ctime <=dur(3 days)
+sort file.ctime desc
+limit 5
+```
+</div>
+````
+
 
 ## 数量分布图
 

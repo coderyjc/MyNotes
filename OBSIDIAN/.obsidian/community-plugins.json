@@ -1,5 +1,4 @@
 [
-  "obsidian-admonition",
   "obsidian-kanban",
   "obsidian-weread-plugin",
   "cm-editor-syntax-highlight-obsidian",
@@ -23,5 +22,9 @@
   "customizable-page-header-buttons",
   "metaedit",
   "obsidian-advanced-uri",
-  "obsidian-react-components"
+  "obsidian-react-components",
+  "obsidian-better-codeblock",
+  "obsidian-better-command-palette",
+  "editing-toolbar",
+  "obsidian-admonition"
 ]

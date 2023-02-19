@@ -1,14 +1,215 @@
 {
   "choices": [
     {
-      "id": "358f2500-7c2e-4836-9c17-0c12898cbe49",
-      "name": "daily",
-      "type": "Template",
-      "command": false,
-      "templatePath": "_template/dailynote.md",
-      "fileNameFormat": {
+      "id": "2f9f18b1-c339-4b24-bdbb-cc13b7c42261",
+      "name": "随笔记录",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "20-Diary/{{DATE:YYYY-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "88-Template/tp/tp-日记模板-心情.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{DATE:HH:mm}} {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## ✏随笔感悟",
+        "insertAtEnd": true,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
         "enabled": false,
-        "format": ""
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "1331d6d4-4efe-4d24-b585-80a9de29b397",
+      "name": "添加任务",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "20-Diary/任务看板.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{VALUE:请输入要添加的任务}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## 收集箱",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "c2efaeca-133b-4362-804e-c4ad5565b8ae",
+      "name": "打开今天日记",
+      "type": "Macro",
+      "command": true,
+      "macroId": "9655dda4-4148-471e-8979-7539d4d6a59d"
+    },
+    {
+      "id": "aa6840fd-9b83-4d4a-87d6-2b6471c1009b",
+      "name": "打开任务看板",
+      "type": "Macro",
+      "command": true,
+      "macroId": "96067d39-1c22-4c96-9100-829814ac3251"
+    },
+    {
+      "id": "a6d84a1e-926f-417c-82ad-6b1f647a5339",
+      "name": "重载主页",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ffb32b42-d2fe-42ed-9331-22a317f4a28a"
+    },
+    {
+      "id": "99739b95-977f-4a34-a32c-21393389e065",
+      "name": "生成便签",
+      "type": "Macro",
+      "command": true,
+      "macroId": "dfb35a63-6aa2-44db-8ca4-a7e7c56eb546"
+    },
+    {
+      "id": "b3db048c-5629-437d-bff9-83468e7f7318",
+      "name": "刷新主页",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8375d67f-9460-4b6f-90f8-5355af1c6668"
+    },
+    {
+      "id": "54554a65-e278-435a-88cc-b16661c6da14",
+      "name": "添加主页便签",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d6904063-5a10-497f-aff6-43ec1cb8f1af"
+    },
+    {
+      "id": "eedf2ca2-9f3a-4735-9eb6-e8127ca889a6",
+      "name": "添加电影-IMDB",
+      "type": "Macro",
+      "command": true,
+      "macroId": "0095cb47-bd58-4e1e-b546-4b47dc664f94"
+    },
+    {
+      "id": "19402f67-f691-4b0f-9975-f8203e74be96",
+      "name": "添加豆瓣图书资源-douban",
+      "type": "Macro",
+      "command": true,
+      "macroId": "aefa1c1c-3436-4462-bfea-3411d8308d2c"
+    },
+    {
+      "id": "aabcb6ad-5faa-45fb-a713-deddc27bc384",
+      "name": "添加豆瓣电影-douban",
+      "type": "Macro",
+      "command": true,
+      "macroId": "37d4988e-4b8b-4878-8959-65416ac262e3"
+    },
+    {
+      "id": "021fa656-15d1-4082-b2d0-2228b7c61f68",
+      "name": "memos-popover",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d0d4ced8-94d2-4f26-9e8b-defd8d087193"
+    },
+    {
+      "id": "ec8144ef-93b6-4b8e-8bf7-49fe8abe140d",
+      "name": "悬浮大纲",
+      "type": "Macro",
+      "command": true,
+      "macroId": "6ebf2888-7abc-4cca-a4b6-9ab633b211ca"
+    },
+    {
+      "id": "03fe5f51-8fd2-46c6-bdc8-6d4d50f894e7",
+      "name": "获取插件列表",
+      "type": "Macro",
+      "command": true,
+      "macroId": "0f3e8714-a92b-4fc8-9e4e-ddb3c68a2fd8"
+    },
+    {
+      "id": "e6bd2f03-b085-42c1-8ee0-4b0a47a1b80e",
+      "name": "库中库",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8477b3fc-f46b-40e1-aab8-443969aa5a4a"
+    },
+    {
+      "id": "fe31fa1a-99c5-4b58-9001-1cac23a2b9b5",
+      "name": "打开主页",
+      "type": "Macro",
+      "command": true,
+      "macroId": "04a61b45-2bac-4645-b06d-32d43c661091"
+    },
+    {
+      "id": "27d06043-87de-47b1-a058-cf6ff596b9c1",
+      "name": "刷新面板",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215"
+    },
+    {
+      "id": "cd0405e7-6489-4e6a-beb1-07dac8f9a188",
+      "name": "play music",
+      "type": "Macro",
+      "command": true,
+      "macroId": "0e4a5a36-3d1c-4430-82c7-e7ff6682b088"
+    },
+    {
+      "id": "9858a60b-c362-434f-a71d-a55816668bd7",
+      "name": "主题设置",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8f7eb649-553c-4115-803a-b05e98ead7f7"
+    },
+    {
+      "id": "79944a6f-1f8e-409d-b4e7-98674eb1b607",
+      "name": "切换视图",
+      "type": "Macro",
+      "command": true,
+      "macroId": "cf968099-4a09-4f21-9eb3-1820dcb6f1c9"
+    },
+    {
+      "id": "6224cb2b-a57e-41f9-99ad-a30f553042ec",
+      "name": "收拢侧边栏",
+      "type": "Macro",
+      "command": true,
+      "macroId": "70c6d19b-c724-4db8-8785-0491e1c4ebe3"
+    },
+    {
+      "id": "e97130ed-3df6-4c31-98ad-dd8f66820985",
+      "name": "inbox",
+      "type": "Template",
+      "command": true,
+      "templatePath": "88-Template/tp/tp-笔记收集箱.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "untitled"
       },
       "folder": {
         "enabled": false,
@@ -17,7 +218,48 @@
         "createInSameFolderAsActiveFile": false
       },
       "appendLink": false,
-      "incrementFileName": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "deec549a-d2dd-4e1d-b87e-c5abdfdc2802",
+      "name": "切换明暗",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ebf7a10a-351e-489f-b393-2c46b39a4cee"
+    },
+    {
+      "id": "1cffa909-d496-4eec-9f7f-134c11092528",
+      "name": "内联转yaml",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{MACRO:dv内联字段转yaml}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
@@ -27,7 +269,679 @@
       "openFileInMode": "default"
     }
   ],
-  "macros": [],
-  "inputPrompt": "single-line",
+  "macros": [
+    {
+      "name": "打开今天笔记",
+      "id": "9655dda4-4148-471e-8979-7539d4d6a59d",
+      "commands": [
+        {
+          "name": "Workspaces Plus: Load: Diary",
+          "type": "Obsidian",
+          "id": "a09bb550-f273-4a52-b951-f3af9b6a9ef1",
+          "commandId": "workspaces-plus:Diary"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "06023af6-2ab6-46c1-ba8e-0b73f987e176",
+          "time": 800
+        },
+        {
+          "name": "日记: 打开/创建今天的日记",
+          "type": "Obsidian",
+          "id": "d3f464a7-7091-42f5-ae0e-db6fe458d878",
+          "commandId": "daily-notes"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "6e4f9839-c78a-45b4-ab2d-7bc881b590e4",
+          "time": 300
+        },
+        {
+          "name": "Obsidian Memos: Focus On Memos Editor",
+          "type": "Obsidian",
+          "id": "37fc4999-bade-4afe-bd6c-86f296423fa2",
+          "commandId": "obsidian-memos:focus-on-memos-editor"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "打开看板",
+      "id": "96067d39-1c22-4c96-9100-829814ac3251",
+      "commands": [
+        {
+          "name": "Workspaces Plus: Load: kanban",
+          "type": "Obsidian",
+          "id": "5a92a49f-f682-4771-86b6-64676154cf61",
+          "commandId": "workspaces-plus:kanban"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Home工作区",
+      "id": "8375d67f-9460-4b6f-90f8-5355af1c6668",
+      "commands": [
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "fc377b74-ed4a-4289-b365-298855ece976",
+          "time": 500
+        },
+        {
+          "name": "fetchhomepage",
+          "type": "UserScript",
+          "id": "e0945b1a-0def-4561-ae45-fdefc1ade009",
+          "path": "88-Template/script/fetchhomepage.js",
+          "settings": {
+            "": "",
+            "Enter the city name": "武汉",
+            "City name": ""
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "0a4e2484-6dbf-4bbd-af82-2040ecd7acee",
+          "time": 300
+        },
+        {
+          "name": "Homepage: Open homepage",
+          "type": "Obsidian",
+          "id": "e1e66c39-8248-431e-b3dc-83430e1f6283",
+          "commandId": "homepage:open-homepage"
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "重新获取主页数据",
+      "id": "ffb32b42-d2fe-42ed-9331-22a317f4a28a",
+      "commands": [
+        {
+          "name": "refreshhomepage",
+          "type": "UserScript",
+          "id": "512c2c0b-7d72-401b-b620-431f7aae96e3",
+          "path": "88-Template/script/refreshhomepage.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "9d4918a2-a690-4a89-9d20-a3adfd348655",
+          "time": 500
+        },
+        {
+          "name": "fetchhomepage",
+          "type": "UserScript",
+          "id": "2ca88f5a-c2be-4d75-92f9-a8c94fa97238",
+          "path": "88-Template/script/fetchhomepage.js",
+          "settings": {
+            "City name": ""
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "3385f735-b0ee-4fba-a0d8-dc331a55063f",
+          "time": 500
+        },
+        {
+          "name": "Workspaces Plus: Load: Home",
+          "type": "Obsidian",
+          "id": "d24a4d7f-0668-4af1-9c74-0e7f2722567a",
+          "commandId": "workspaces-plus:Home"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "生成notice",
+      "id": "dfb35a63-6aa2-44db-8ca4-a7e7c56eb546",
+      "commands": [
+        {
+          "name": "notice",
+          "type": "UserScript",
+          "id": "904ecc88-08ea-4905-8c8e-431c262d2e4c",
+          "path": "88-Template/script/notice.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "添加首页便签",
+      "id": "d6904063-5a10-497f-aff6-43ec1cb8f1af",
+      "commands": [
+        {
+          "name": "changeSticky",
+          "type": "UserScript",
+          "id": "8182fca2-8a9d-4cd2-8273-50148dc868da",
+          "path": "88-Template/script/changeSticky.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "电影卡片",
+      "id": "0095cb47-bd58-4e1e-b546-4b47dc664f94",
+      "commands": [
+        {
+          "name": "movies",
+          "type": "UserScript",
+          "id": "c14a8077-f272-4949-ba06-902baa1be88d",
+          "path": "88-Template/script/movies.js",
+          "settings": {
+            "OMDb API Key": "6a1b43dc"
+          }
+        },
+        {
+          "name": "movie日记",
+          "type": "NestedChoice",
+          "id": "459410d9-7d8e-49b4-85eb-50c58414634f",
+          "choice": {
+            "id": "b0fa1144-ccbc-4f60-a529-5b51d4202308",
+            "name": "movie日记",
+            "type": "Template",
+            "command": false,
+            "templatePath": "88-Template/tp/tp-movie.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "30-Reading"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "豆瓣读书",
+      "id": "aefa1c1c-3436-4462-bfea-3411d8308d2c",
+      "commands": [
+        {
+          "name": "bookfromdouban",
+          "type": "UserScript",
+          "id": "92608671-6537-4cbf-9c7e-6f2289e65d9d",
+          "path": "88-Template/script/bookfromdouban.js",
+          "settings": {}
+        },
+        {
+          "name": "豆瓣读书笔记",
+          "type": "NestedChoice",
+          "id": "39abc935-9da6-41f0-ad32-674f067b94bf",
+          "choice": {
+            "id": "d4ece824-3493-4a75-8303-d0312f2a1904",
+            "name": "豆瓣读书笔记",
+            "type": "Template",
+            "command": false,
+            "templatePath": "88-Template/tp/tp-book-callout.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "《{{VALUE:filename}}》"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "30-Reading"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "豆瓣电影",
+      "id": "37d4988e-4b8b-4878-8959-65416ac262e3",
+      "commands": [
+        {
+          "name": "moviefromdouban",
+          "type": "UserScript",
+          "id": "7aba3c8d-2fda-40fe-8b08-e2a93f64f44a",
+          "path": "88-Template/script/moviefromdouban.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "02da16ca-586c-4217-86fc-45a609e4da31",
+          "time": 100
+        },
+        {
+          "name": "豆瓣电影",
+          "type": "NestedChoice",
+          "id": "41127692-e1eb-4c94-b5ae-5e5179681db5",
+          "choice": {
+            "id": "9a91280f-76aa-4f2f-8252-c2c653241671",
+            "name": "豆瓣电影",
+            "type": "Template",
+            "command": false,
+            "templatePath": "88-Template/tp/tp-movie-douban.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "30-Reading"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "悬浮memos",
+      "id": "d0d4ced8-94d2-4f26-9e8b-defd8d087193",
+      "commands": [
+        {
+          "name": "Hover Editor: Open new Hover Editor",
+          "type": "Obsidian",
+          "id": "87219468-aaff-47e0-8319-c4f6d8f90bb7",
+          "commandId": "obsidian-hover-editor:open-new-popover"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "8ad62a7a-2d80-4c27-be91-9a0201b5a505",
+          "time": 300
+        },
+        {
+          "name": "Obsidian Memos: Open Memos",
+          "type": "Obsidian",
+          "id": "1626d032-c1df-42c8-b8c1-382fee73891c",
+          "commandId": "obsidian-memos:open-memos"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "0435dbdf-7dea-4e98-a9f3-0f614707ae71",
+          "time": 500
+        },
+        {
+          "name": "Hover Editor: Restore active Hover Editor",
+          "type": "Obsidian",
+          "id": "21779864-056e-4a9e-8f2a-d569ae51b6d0",
+          "commandId": "obsidian-hover-editor:restore-active-popover"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "834de2c3-7d88-4726-8956-18e3b6ff379d",
+          "time": 200
+        },
+        {
+          "name": "将当前面板移动至新窗口",
+          "type": "Obsidian",
+          "id": "26f26f19-2580-40ac-a348-2b6b1c12e3be",
+          "commandId": "workspace:move-to-new-window"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "1a28a3ad-68eb-4cad-a674-50e15ba1d4f0",
+          "time": 300
+        },
+        {
+          "name": "将当前窗口置顶",
+          "type": "Obsidian",
+          "id": "78ac987a-6346-429f-ac42-1eaf8ee56445",
+          "commandId": "window:toggle-always-on-top"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "悬浮大纲",
+      "id": "6ebf2888-7abc-4cca-a4b6-9ab633b211ca",
+      "commands": [
+        {
+          "name": "大纲: 打开当前文件的大纲",
+          "type": "Obsidian",
+          "id": "f7b14dfa-1504-44ba-ad68-25622b0d93d3",
+          "commandId": "outline:open-for-current"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "80a30e7c-0603-4ad5-b6cb-1562967ea1aa",
+          "time": 200
+        },
+        {
+          "name": "Hover Editor: Convert active pane to Hover Editor",
+          "type": "Obsidian",
+          "id": "d9f552b7-da28-4a19-a449-d95f59ab90c4",
+          "commandId": "obsidian-hover-editor:convert-active-pane-to-popover"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "获取插件列表",
+      "id": "0f3e8714-a92b-4fc8-9e4e-ddb3c68a2fd8",
+      "commands": [
+        {
+          "name": "生成插件列表",
+          "type": "NestedChoice",
+          "id": "18bce855-2e06-4d4b-be43-8ff915b60d8a",
+          "choice": {
+            "id": "ba20fbf9-0d76-4c99-a7ac-e0d7dd22dfd0",
+            "name": "生成插件列表",
+            "type": "Template",
+            "command": false,
+            "templatePath": "88-Template/FastStart-GenerateListOfInstalledPlugins.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "示例库内置的插件列表"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "88-Template"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "preview"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "库中库",
+      "id": "8477b3fc-f46b-40e1-aab8-443969aa5a4a",
+      "commands": [
+        {
+          "name": "openOb",
+          "type": "UserScript",
+          "id": "857e31c6-a3f2-4ff6-a8af-41a64e65988a",
+          "path": "88-Template/script/openOb.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "打开主页",
+      "id": "04a61b45-2bac-4645-b06d-32d43c661091",
+      "commands": [
+        {
+          "name": "关闭当前面板",
+          "type": "Obsidian",
+          "id": "6b348f35-2ed2-45c0-a40f-2771925ca7c8",
+          "commandId": "workspace:close"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "f3d72134-00a7-4f36-8cff-5ce7f059c003",
+          "time": 100
+        },
+        {
+          "name": "Hotkeys for specific files: Open 88-Template/home",
+          "type": "Obsidian",
+          "id": "2f836a98-ed51-4443-8b3f-bc0e91df1101",
+          "commandId": "obsidian-hotkeys-for-specific-files:88-Template/home.md"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "刷新页面",
+      "id": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215",
+      "commands": [
+        {
+          "name": "关闭当前面板",
+          "type": "Obsidian",
+          "id": "5e6b09dd-794b-443e-bcaf-ecf27ce1f7e0",
+          "commandId": "workspace:close"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "da696b89-59a8-4c64-833b-561e34d86203",
+          "time": 500
+        },
+        {
+          "name": "重新打开上一个关闭的面板",
+          "type": "Obsidian",
+          "id": "3fd5ed39-ef42-4d18-9a9b-06d18d87f35b",
+          "commandId": "workspace:undo-close-pane"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "open music",
+      "id": "0e4a5a36-3d1c-4430-82c7-e7ff6682b088",
+      "commands": [
+        {
+          "name": "左右拆分",
+          "type": "Obsidian",
+          "id": "31fd9bc7-8f78-431d-922c-73ca866e6acb",
+          "commandId": "workspace:split-vertical"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "df23fbbf-b58e-48df-a883-783a02535694",
+          "time": 100
+        },
+        {
+          "name": "Hotkeys for specific files: Open 88-Template/🎵Music",
+          "type": "Obsidian",
+          "id": "19f9de5f-5375-4e0a-b239-7ccdfd871d19",
+          "commandId": "obsidian-hotkeys-for-specific-files:88-Template/🎵Music.md"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "4fdf6f59-a3ea-4dfc-8317-86f9f95e6963",
+          "time": 500
+        },
+        {
+          "name": "Hover Editor: Convert active pane to Hover Editor",
+          "type": "Obsidian",
+          "id": "73f5f803-1fd1-4ce8-ab42-3b0c1f35b9c7",
+          "commandId": "obsidian-hover-editor:convert-active-pane-to-popover"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "544da47b-45a0-46a1-93b0-ca2bb3ab9b39",
+          "time": 300
+        },
+        {
+          "name": "Hover Editor: Restore active Hover Editor",
+          "type": "Obsidian",
+          "id": "86f9b0b4-6214-4b96-8c48-3d66f98d8c3a",
+          "commandId": "obsidian-hover-editor:restore-active-popover"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "b55863a3-edc2-4a1e-bffe-654e309d9b52",
+          "time": 100
+        },
+        {
+          "name": "将当前面板移动至新窗口",
+          "type": "Obsidian",
+          "id": "e316bbe5-ac3b-4e19-8dca-a74785aba785",
+          "commandId": "workspace:move-to-new-window"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "c60e3ced-d471-4edd-a507-e56f6bdb1a8b",
+          "time": 300
+        },
+        {
+          "name": "将当前窗口置顶",
+          "type": "Obsidian",
+          "id": "9be9e91d-60e0-4eb8-a510-1876837d9282",
+          "commandId": "window:toggle-always-on-top"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "主题设置",
+      "id": "8f7eb649-553c-4115-803a-b05e98ead7f7",
+      "commands": [
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "03ddbe79-f73c-469e-afb2-dd93eee54363",
+          "time": 100
+        },
+        {
+          "name": "New tab",
+          "type": "Obsidian",
+          "id": "51e555d8-2110-4440-9a2b-57b479477a42",
+          "commandId": "workspace:new-tab"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "666bff67-04b9-4e85-8a9e-0178eb0230a9",
+          "time": 100
+        },
+        {
+          "name": "Focus on tab group to the left",
+          "type": "Obsidian",
+          "id": "93670ad5-55cd-4596-a537-cf0c5adc68b0",
+          "commandId": "editor:focus-left"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "88c88f2e-399b-4e1c-8890-7a0415ace5b8",
+          "time": 300
+        },
+        {
+          "name": "Style Settings: Show style settings view",
+          "type": "Obsidian",
+          "id": "4b511d22-be89-4fde-b044-2b8214ec63ad",
+          "commandId": "obsidian-style-settings:show-style-settings-leaf"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "切换视图",
+      "id": "cf968099-4a09-4f21-9eb3-1820dcb6f1c9",
+      "commands": [
+        {
+          "name": "SwitchViews",
+          "type": "UserScript",
+          "id": "63f6da3f-254a-4033-adab-bbc689f5b5e1",
+          "path": "88-Template/script/SwitchViews.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "收起侧面板",
+      "id": "70c6d19b-c724-4db8-8785-0491e1c4ebe3",
+      "commands": [
+        {
+          "name": "折叠/展开左侧边栏",
+          "type": "Obsidian",
+          "id": "082dcdf8-89b7-4ef2-a926-92915132456a",
+          "commandId": "app:toggle-left-sidebar"
+        },
+        {
+          "name": "折叠/展开右侧边栏",
+          "type": "Obsidian",
+          "id": "dc79c133-3701-47fd-a075-98c7a4c06d19",
+          "commandId": "app:toggle-right-sidebar"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "切换明暗模式",
+      "id": "ebf7a10a-351e-489f-b393-2c46b39a4cee",
+      "commands": [
+        {
+          "name": "SwitcLightdark",
+          "type": "UserScript",
+          "id": "55729e83-9b1c-43ac-bacc-c2f9a253d986",
+          "path": "88-Template/script/SwitcLightdark.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "dv内联字段转yaml",
+      "id": "eec5fb02-fd11-4fd7-b6e7-cd085d86986b",
+      "commands": [
+        {
+          "name": "changeInlineToYaml",
+          "type": "UserScript",
+          "id": "335ba083-4e89-4562-b748-5a579cfe9d7b",
+          "path": "88-Template/script/changeInlineToYaml.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "multi-line",
   "devMode": false
 }
