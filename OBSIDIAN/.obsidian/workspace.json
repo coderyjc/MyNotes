@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "42ac131079a77153",
+        "id": "4b8d6909594f551d",
         "type": "tabs",
         "children": [
           {
-            "id": "77ec8a3523ef428c",
+            "id": "ca5e447c28a3e419",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/wechat_notes/index.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -32,7 +32,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 70.84257206208426,
+        "dimension": 47.671840354767184,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -64,7 +64,7 @@
       {
         "id": "233f80f3239e3bbe",
         "type": "tabs",
-        "dimension": 29.15742793791574,
+        "dimension": 52.328159645232816,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/wechat_notes/index.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/wechat_notes/index.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,17 +150,17 @@
       "privacy-glasses:Toggle Privacy Glasses": false
     }
   },
-  "active": "77ec8a3523ef428c",
+  "active": "ca5e447c28a3e419",
   "lastOpenFiles": [
-    "1.收集箱/wechat_notes/哲学宗教/哲学家们都干了些什么-林欣浩.md",
-    "1.收集箱/wechat_notes/index.md",
-    "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md",
-    "5.专题研究/【经济学】金融危机/05.【1837年】美国大恐慌.md",
-    "5.专题研究/【经济学】金融危机/02.【17世纪】郁金香泡沫.md",
+    "1.收集箱/dashboard/warehouse.md",
+    "1.收集箱/dashboard/manage-tag.md",
     "HOME.md",
-    "4.归档/工作/工程/后端框架/MyBatis/【整合】MyBatis - 整合其他插件.md",
-    "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot路径访问.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
-    "2.等待处理/Daily/2023-02-18.md"
+    "1.收集箱/wechat_notes/index.md",
+    "1.收集箱/log.md",
+    "1.收集箱/README.md",
+    "2.等待处理/README.md",
+    "_plugin/banners/rainy-day-bird-2.gif",
+    "1.收集箱/wechat_notes/哲学宗教/哲学家们都干了些什么-林欣浩.md",
+    "5.专题研究/【经济学】金融危机/06.【1907年】美国银行危机.md"
   ]
 }

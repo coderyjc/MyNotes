@@ -1,6 +1,6 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "fileSortOrder": "alphabetical",
   "attachmentFolderPath": "./assets",
   "promptDelete": false,
@@ -16,5 +16,6 @@
   "useMarkdownLinks": false,
   "newLinkFormat": "relative",
   "newFileLocation": "current",
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "showFrontmatter": false
 }

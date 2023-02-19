@@ -19,5 +19,8 @@
   "calendar",
   "homepage",
   "obsidian-memos",
-  "obsidian-dynamic-toc"
+  "obsidian-dynamic-toc",
+  "customizable-page-header-buttons",
+  "metaedit",
+  "obsidian-advanced-uri"
 ]

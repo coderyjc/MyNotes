@@ -1,0 +1,15 @@
+{
+  "enabledButtons": [
+    {
+      "id": "homepage:open-homepage",
+      "icon": "lucide-home",
+      "name": "Homepage: Open homepage",
+      "showButtons": "both"
+    }
+  ],
+  "desktop": true,
+  "titleLeft": [],
+  "titleRight": [],
+  "titleCenter": [],
+  "paneRelief": false
+}

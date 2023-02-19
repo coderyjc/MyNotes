@@ -7,7 +7,9 @@
   "accentColor": "#0071eb",
   "nativeMenus": false,
   "showViewHeader": true,
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "【边栏图标】sidepane"
+  ],
   "textFontFamily": "LXGW WenKai GB Screen R",
   "interfaceFontFamily": "LXGW WenKai GB Screen R"
 }

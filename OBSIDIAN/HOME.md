@@ -1,8 +1,8 @@
 ---
 banner: "_plugin/banners/rainy-day-bird.gif"
 banner_icon: 💌
-banner_y: 0.304
-banner_x: 0.50094
+banner_y: 0.24416
+banner_x: 0.50168
 ---
 
 ```dataviewjs
@@ -26,10 +26,8 @@ limit 5
 ```
 
 ## 数量分布图
+
 ```dataviewjs
 await dv.view("_plugin/dataview/notes_count_view")
 ```
-
-
-
 
