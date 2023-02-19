@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1c836723226b443",
+        "id": "679122358da0d002",
         "type": "tabs",
         "children": [
           {
-            "id": "85e12d5fe9762ddc",
+            "id": "690768b0ebc9f307",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,7 +16,7 @@
                 "file": "HOME.md",
                 "mode": "preview",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,17 +149,17 @@
       "privacy-glasses:Toggle Privacy Glasses": false
     }
   },
-  "active": "85e12d5fe9762ddc",
+  "active": "690768b0ebc9f307",
   "lastOpenFiles": [
+    "1.收集箱/dashboard/tag-retrieve.md",
+    "1.收集箱/dashboard/tag-summary.md",
+    "1.收集箱/dashboard/warehouse.md",
+    "1.收集箱/wechat_notes/index.md",
+    "1.收集箱/wechat_notes/经济理财/半小时漫画经济学（第1册生活常识篇）-陈磊·半小时漫画团队.md",
+    "HOME.md",
     "_plugin/reactjs/返回当前活动笔记的所有反向链接.md",
     "_plugin/reactjs/slidegallery.md",
     "_plugin/reactjs/ReactJS.md",
-    "_plugin/reactjs/react_weather.md",
-    "_plugin/reactjs/react_music.md",
-    "_plugin/reactjs/react_cat.md",
-    "_plugin/reactjs/react_buttons.md",
-    "_plugin/reactjs/moc.md",
-    "_plugin/reactjs/ColorfulClock.md",
-    "_plugin/components/Colorful-Clock.md"
+    "_plugin/reactjs/react_weather.md"
   ]
 }
