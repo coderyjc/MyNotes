@@ -28,5 +28,7 @@
   "editing-toolbar",
   "obsidian-admonition",
   "obsidian-table-generator",
-  "obsidian-echarts"
+  "obsidian-echarts",
+  "obsidian-reveal-active-file",
+  "obsidian-sortable"
 ]

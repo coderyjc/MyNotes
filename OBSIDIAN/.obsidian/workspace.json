@@ -4,21 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "679122358da0d002",
+        "id": "170f98f933e45bf2",
         "type": "tabs",
         "children": [
           {
-            "id": "690768b0ebc9f307",
+            "id": "97d42700aa06f7a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
+              "type": "empty",
+              "state": {}
+            },
+            "group": "ae30f39b4ded3d3c"
+          }
+        ]
+      },
+      {
+        "id": "0bcf00acf028f642",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bc7986fec612945",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            },
+            "group": "ae30f39b4ded3d3c"
           }
         ]
       }
@@ -71,9 +82,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "HOME.md"
-              }
+              "state": {}
             }
           },
           {
@@ -107,7 +116,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,17 +158,17 @@
       "privacy-glasses:Toggle Privacy Glasses": false
     }
   },
-  "active": "690768b0ebc9f307",
+  "active": "97d42700aa06f7a9",
   "lastOpenFiles": [
-    "1.收集箱/dashboard/tag-retrieve.md",
-    "1.收集箱/dashboard/tag-summary.md",
-    "1.收集箱/dashboard/warehouse.md",
+    "1.收集箱/wechat_notes/心理/斯坦福高效睡眠法-西野精治.md",
+    "1.收集箱/wechat_notes/心理/学会提问（原书第12版）-尼尔·布朗 斯图尔特·基利.md",
+    "1.收集箱/wechat_notes/个人成长/掌控谈话-克里斯·沃斯 塔尔·拉兹.md",
+    "1.收集箱/wechat_notes/个人成长/我不是教你诈-刘墉.md",
+    "1.收集箱/wechat_notes/哲学宗教/哲学家们都干了些什么-林欣浩.md",
     "1.收集箱/wechat_notes/index.md",
-    "1.收集箱/wechat_notes/经济理财/半小时漫画经济学（第1册生活常识篇）-陈磊·半小时漫画团队.md",
-    "HOME.md",
-    "_plugin/reactjs/返回当前活动笔记的所有反向链接.md",
-    "_plugin/reactjs/slidegallery.md",
-    "_plugin/reactjs/ReactJS.md",
-    "_plugin/reactjs/react_weather.md"
+    "1.收集箱/wechat_notes/心理/认知觉醒：开启自我改变的原动力-周岭.md",
+    "1.收集箱/wechat_notes/心理/被讨厌的勇气：“自我启发之父”阿德勒的哲学课-岸见一郎 古贺史健.md",
+    "_plugin/banners/book-banner.gif",
+    "_plugin/banners/rainy-day-bird.gif"
   ]
 }
