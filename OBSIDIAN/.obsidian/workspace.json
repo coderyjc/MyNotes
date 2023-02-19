@@ -32,6 +32,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
+        "dimension": 47.671840354767184,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -55,6 +56,34 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "233f80f3239e3bbe",
+        "type": "tabs",
+        "dimension": 52.328159645232816,
+        "children": [
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HOME.md"
+              }
+            }
+          },
+          {
+            "id": "fa96d77fdb3539ea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -90,24 +119,11 @@
             }
           },
           {
-            "id": "a4c7ff5f1eb0069f",
+            "id": "4a674e7e834588f4",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "HOME.md"
-              }
-            }
-          },
-          {
-            "id": "fa96d77fdb3539ea",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
@@ -119,6 +135,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "obsidian-memos:Memos": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "canvas:Create new canvas": true,
@@ -133,15 +151,15 @@
   },
   "active": "690768b0ebc9f307",
   "lastOpenFiles": [
+    "2.等待处理/Daily/2023-02-18.md",
+    "HOME.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-basic.md",
     "4.归档/工作/基础/java/javase/Java知识导图.md",
     "4.归档/工作/基础/db/redis/README.md",
     "4.归档/工作/基础/db/mysql/mysql-basic.md",
     "5.专题研究/SpringBoot/SpringBoot知识地图.md",
-    "HOME.md",
     "3.将来可能/README.md",
     "3.将来可能/MyBlog项目学习笔记/README.md",
-    "1.收集箱/navigation/resource/聚合导航.md",
-    "5.专题研究/【经济学】金融危机/01.明斯基时刻.md"
+    "1.收集箱/navigation/resource/聚合导航.md"
   ]
 }

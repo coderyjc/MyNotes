@@ -1,7 +1,8 @@
-
-<div style="padding: 1.2em 1em; font-size: 1.8rem; text-align: center; border-radius: 6px; font-weight: 700; background: linear-gradient(105deg, #EF32D9, #89FFFD); color: #111116;">
-HOME
-</div>
+---
+banner: "_plugin/banners/rainy-day-bird.gif"
+banner_icon: 💌
+banner_y: 0.304
+---
 
 ```dataviewjs
 let nofold = '!"_plugin"'
