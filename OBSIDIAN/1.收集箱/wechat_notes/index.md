@@ -13,10 +13,10 @@ banner_icon:
 const groups =  dv.pages('#读书').groupBy(p => p.category?.split('-')[0])
 for (let group of groups) {
 	dv.header(3, group.key);
-	dv.table(["Name","author","publisher", "NoteCount"],
+	dv.table(["Name","author", "NoteCount"],
 		group.rows
 			.sort(k => k.noteCount, 'desc')
-			.map(k => [k.file.link,k.author,k.publish, k.noteCount]))
+			.map(k => [k.file.link,k.author, k.noteCount]))
 }
 
 ```
@@ -25,8 +25,8 @@ for (let group of groups) {
 
 > [!cards|banner] ## 视图看板
 >```dataview
-table without id ("![](" + cover + ")") as Cover,file.link as Name, author as Author,publish,noteCount as NoteCount
+table without id ("![](" + cover + ")") as Cover,file.link as Name, author as Author,noteCount as NoteCount
 from #读书
-where !contains(file.folder, "88-Template") 
-sort NoteCount desc
+where !contains(file.folder, "_plugin") 
+sort noteCount desc
 >```

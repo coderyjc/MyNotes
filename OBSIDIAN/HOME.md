@@ -32,9 +32,6 @@ setting.anotherCity = "梁山";//添加另外一个城市
 dv.view("_plugin/dataviewjs/dv_weatherView",setting)
 ```
 
-
-
-
 ````ad-flex
 <div>
 

@@ -248,7 +248,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "_plugin/components/Colorful-Clock.md"
+                    "file": "HOME.md"
                   }
                 }
               },
@@ -276,7 +276,7 @@
           {
             "id": "7473eb9910fae944",
             "type": "tabs",
-            "dimension": 40.02217294900222,
+            "dimension": 35.58758314855876,
             "children": [
               {
                 "id": "3f3a381f5286a2b5",
@@ -284,7 +284,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "_plugin/components/Colorful-Clock.md",
+                    "file": "HOME.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -311,7 +311,7 @@
                   "state": {
                     "file": "_plugin/components/Colorful-Clock.md",
                     "mode": "preview",
-                    "backlinks": true,
+                    "backlinks": false,
                     "source": false
                   }
                 }
@@ -322,7 +322,7 @@
           {
             "id": "3b62a95e52da1e77",
             "type": "tabs",
-            "dimension": 59.97782705099778,
+            "dimension": 64.41241685144125,
             "children": [
               {
                 "id": "ce47e50dc511ac08",
@@ -340,11 +340,12 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "webpage-html-export:Export Vault to HTML": false,
           "homepage:Open homepage": false,
           "obsidian-memos:Memos": false,
           "switcher:打开快速切换": true,
           "graph:查看关系图谱": false,
-          "canvas:Create new canvas": true,
           "daily-notes:打开/创建今天的日记": false,
           "templates:插入模板": true,
           "command-palette:打开命令面板": true,

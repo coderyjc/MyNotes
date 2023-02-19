@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/03.【1720年】南海泡沫.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/03.【1720年】南海泡沫.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -100,7 +100,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 40.02217294900222,
+        "dimension": 35.58758314855876,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【经济学】金融危机/03.【1720年】南海泡沫.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,14 +126,27 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "690768b0ebc9f307",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_plugin/components/Colorful-Clock.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "3b62a95e52da1e77",
         "type": "tabs",
-        "dimension": 59.97782705099778,
+        "dimension": 64.41241685144125,
         "children": [
           {
             "id": "ce47e50dc511ac08",
@@ -147,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,7 +170,6 @@
       "obsidian-memos:Memos": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": true,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
@@ -168,17 +179,17 @@
       "privacy-glasses:Toggle Privacy Glasses": false
     }
   },
-  "active": "295c5d5e9b818a36",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/【经济学】金融危机/02.【17世纪】郁金香泡沫.md",
-    "HOME.md",
     "_plugin/components/Colorful-Clock.md",
-    "2.等待处理/README.md",
+    "HOME.md",
+    "1.收集箱/wechat_notes/文学/82年生的金智英（再版）.md",
+    "1.收集箱/wechat_notes/科学技术/数学思维.md",
+    "1.收集箱/wechat_notes/科学技术/万物发明指南.md",
     "1.收集箱/wechat_notes/index.md",
-    "1.收集箱/wechat_notes/科学技术/万物发明指南-瑞安·诺思.md",
-    "1.收集箱/wechat_notes/计算机/操作系统导论-雷姆兹·H.阿帕希杜塞尔 安德莉亚·C.阿帕希杜塞尔.md",
-    "1.收集箱/wechat_notes/计算机/利用Python进行数据分析（原书第2版）-韦斯·麦金尼.md",
-    "1.收集箱/wechat_notes/个人成长/我不是教你诈-刘墉.md",
-    "1.收集箱/wechat_notes/哲学宗教/哲学家们都干了些什么-林欣浩.md"
+    "1.收集箱/wechat_notes/精品小说/三体（全集）-刘慈欣.md",
+    "1.收集箱/wechat_notes/艺术/摄影笔记-宁思潇潇.md",
+    "2.等待处理/README.md",
+    "1.收集箱/resources/知乎严选免费查看的地址.md"
   ]
 }
