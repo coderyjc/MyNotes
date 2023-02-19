@@ -83,4 +83,3 @@ springboot 默认的静态资源的值有四个：
 ![[image-20220131015250.png]]
 
 详解可以查看[[../Spring-Boot/【总结】SpringBoot路径访问]]
-

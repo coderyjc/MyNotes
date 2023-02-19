@@ -1,9 +1,7 @@
+---
+cssClasses: cards cards-align-bottom cards-2-3 table-100
+---
 
-```dataview
-table
-	category as "类型"
-from 
-	"1.收集箱/wechat_notes"
-sort
-	lastReadDate desc
-```
+```dataviewjs
+dv.table(["封面","书名", "作者", "类型", "评分"], dv.pages("#读书")
+    .map(b => [("![](" + b.cover + ")")

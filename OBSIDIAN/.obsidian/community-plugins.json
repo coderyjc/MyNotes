@@ -8,7 +8,6 @@
   "tag-wrangler",
   "code-block-copy",
   "note-refactor-obsidian",
-  "obsidian-image-toolkit",
   "dataview",
   "obsidian-charts",
   "templater-obsidian",
@@ -19,5 +18,6 @@
   "obsidian-banners",
   "calendar",
   "homepage",
-  "obsidian-memos"
+  "obsidian-memos",
+  "obsidian-dynamic-toc"
 ]
