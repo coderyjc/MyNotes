@@ -33,7 +33,7 @@
   "blue-topaz-theme@@background-image-settings-command-palette-switch": true,
   "blue-topaz-theme@@background-image-settings-command-palette-same-as-workplace": true,
   "blue-topaz-theme@@bg-panel-page-option": "panel-page-bg-theme-dark-bulb",
-  "blue-topaz-theme@@left-ribbon-style": "hide-left-ribbon-retention-drawer",
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
   "blue-topaz-theme@@layout-style-options": "layout-style-options-default",
   "blue-topaz-theme@@search-bar-style-option": "bt-search-bar-bottom",
   "blue-topaz-theme@@scrollbar-style-option": "hover-scrollbars",
