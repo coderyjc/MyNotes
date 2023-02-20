@@ -50,10 +50,6 @@ kanban-plugin: basic
 - [ ] 英语翻译
 
 
-## 近期打算
-
-
-
 ## 创作
 
 - [ ] #flag/设计 JavaScript的canvas库，网页绘图

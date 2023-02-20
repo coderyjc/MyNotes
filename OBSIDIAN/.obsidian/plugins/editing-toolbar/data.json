@@ -225,6 +225,11 @@
       "id": "copy-document-as-html:copy-as-html",
       "name": "Copy document as HTML: Copy current document to clipboard",
       "icon": "remix-FileCopyLine"
+    },
+    {
+      "id": "workspace:split-horizontal",
+      "name": "上下分屏",
+      "icon": "lucide-separator-horizontal"
     }
   ],
   "appendMethod": "workspace",
@@ -232,7 +237,7 @@
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
-  "cMenuWidth": 554,
+  "cMenuWidth": 606,
   "cMenuFontColor": "#92cddc",
   "cMenuBackgroundColor": "#d2cbff",
   "autohide": false
