@@ -1,9 +1,8 @@
 ---
 banner: "_plugin/banners/rainy-day-bird.gif"
 banner_y: 0.24416
-banner_x: 0.50168
+banner_x: 0.6145
 ---
-
 
 ```dataviewjs
 let nofold = '!"_plugin"'
@@ -16,6 +15,7 @@ dv.paragraph(
 	totalMd+"、"+totalTag+"、"+totalTask
 )
 ``` 
+
 
 ```dataviewjs
 let setting = {};

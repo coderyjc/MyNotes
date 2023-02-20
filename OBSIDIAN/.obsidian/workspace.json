@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/服务器相关【1.19.3】/2.服务器安装forge.md",
+                "file": "_plugin/reactjs/ColorfulClock.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/服务器相关【1.19.3】/2.服务器安装forge.md"
+                "file": "_plugin/reactjs/ColorfulClock.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/生活/游戏/【MC】我的世界/服务器相关【1.19.3】/2.服务器安装forge.md",
+                "file": "_plugin/reactjs/ColorfulClock.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,15 +181,15 @@
   },
   "active": "295c5d5e9b818a36",
   "lastOpenFiles": [
+    "_plugin/reactjs/react_weather.md",
+    "_plugin/reactjs/ColorfulClock.md",
+    "_plugin/components/Colorful-Clock.md",
     "HOME.md",
     "4.归档/生活/游戏/【MC】我的世界/服务器相关【1.19.3】/2.服务器安装forge.md",
     "4.归档/生活/游戏/【MC】我的世界/服务器相关【1.19.3】/1.搭建MC服务器.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-basic.md",
     "4.归档/工作/基础/java/javase/Java知识导图.md",
     "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
-    "5.专题研究/Chrome插件开发/index.md",
-    "1.收集箱/dashboard/warehouse.md",
-    "4.归档/学习/4.平天下/经济学/index.md",
-    "4.归档/学习/3.治国/README.md"
+    "5.专题研究/Chrome插件开发/index.md"
   ]
 }
