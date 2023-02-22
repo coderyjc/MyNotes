@@ -95,7 +95,7 @@
   "blue-topaz-theme@@link-click": true,
   "blue-topaz-theme@@circular-checkbox": true,
   "blue-topaz-theme@@checkbox-size": "0.9rem",
-  "blue-topaz-theme@@loading-page-style-option": "loading-custom-text",
+  "blue-topaz-theme@@loading-page-style-option": "loading-animation-cat",
   "blue-topaz-theme@@loading-diy-text": "\"竹影扫阶尘不动，雁渡寒潭水无痕。\"",
   "blue-topaz-theme@@tag-click": true,
   "blue-topaz-theme@@head-tag-style": true,
