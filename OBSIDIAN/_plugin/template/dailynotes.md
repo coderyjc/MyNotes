@@ -14,3 +14,23 @@ week: <% tp.date.now("YYYY-WW") %>
 
 << [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]] | [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]>>
 
+
+
+- [ ] 
+
+
+
+
+上午：
+- C + DS
+- LeetCode
+
+下午：
+- OS
+- CN
+- CO
+- DB
+- 软件工程
+
+晚上：
+- 毕设
