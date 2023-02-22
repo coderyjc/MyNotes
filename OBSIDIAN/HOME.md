@@ -1,7 +1,7 @@
 ---
 banner: "_plugin/banners/rainy-day-bird.gif"
 banner_y: 0.24416
-banner_x: 0.6145
+banner_x: 0.60389
 ---
 
 ```dataviewjs
