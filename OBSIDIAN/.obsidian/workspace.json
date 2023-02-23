@@ -8,19 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0caae996138c64f8",
+            "id": "295c5d5e9b818a36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/操作系统/_README.md",
+                "file": "HOME.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0f34a4de0d2f5e83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/缓慢进化的人性/惯性定律.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/操作系统/_README.md"
+                "file": "5.专题研究/缓慢进化的人性/惯性定律.md"
               }
             }
           },
@@ -91,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125,
-    "collapsed": true
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/操作系统/_README.md",
+                "file": "5.专题研究/缓慢进化的人性/惯性定律.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,10 +195,22 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "0caae996138c64f8",
+  "active": "0f34a4de0d2f5e83",
   "lastOpenFiles": [
-    "5.专题研究/操作系统/持久性.md",
+    "HOME.md",
+    "5.专题研究/缓慢进化的人性/惯性定律.md",
+    "5.专题研究/缓慢进化的人性",
+    "5.专题研究/操作系统/进程.md",
     "5.专题研究/操作系统/_README.md",
+    "5.专题研究/操作系统/虚拟化.md",
+    "5.专题研究/操作系统/分布式系统.md",
+    "5.专题研究/操作系统/数据完整性.md",
+    "5.专题研究/操作系统/日志结构文件系统.md",
+    "5.专题研究/操作系统/崩溃一致性.md",
+    "5.专题研究/操作系统/持久性.md",
+    "5.专题研究/操作系统/文件系统.md",
+    "5.专题研究/操作系统/磁盘驱动器.md",
+    "5.专题研究/操作系统/IO设备.md",
     "5.专题研究/操作系统/基于事件的并发.md",
     "5.专题研究/操作系统/常见的并发问题.md",
     "5.专题研究/操作系统/信号量.md",
@@ -194,28 +218,17 @@
     "5.专题研究/操作系统/锁.md",
     "5.专题研究/操作系统/并发.md",
     "5.专题研究/操作系统/线程.md",
-    "5.专题研究/操作系统/虚拟化.md",
     "5.专题研究/操作系统/虚拟内存的其他方法.md",
     "5.专题研究/操作系统/段页式存储管理.md",
     "5.专题研究/操作系统/内存地址转换.md",
     "5.专题研究/操作系统/虚拟内存.md",
     "5.专题研究/操作系统/虚拟CPU.md",
     "5.专题研究/操作系统/进程调度算法.md",
-    "5.专题研究/操作系统/进程.md",
-    "5.专题研究/操作系统/关键问题.md",
     "5.专题研究/操作系统/持久性",
     "5.专题研究/操作系统/并发",
     "5.专题研究/操作系统/虚拟化",
-    "HOME.md",
     "5.专题研究/操作系统导论/未命名",
     "5.专题研究/操作系统",
-    "2.等待处理/Daily/2023-02-23.md",
-    "5.专题研究/PySpark/README.md",
-    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
-    "4.归档/生活/游戏/【Hades】哈迪斯/【伤害】去除岩浆伤害.md",
-    "_plugin/template/dailynotes.md",
-    "1.收集箱/wechat_notes/个人成长/我不是教你诈.md",
-    "_plugin/components/Colorful-Clock.md",
     "_plugin/banners/rainy-day-bird-2.gif",
     "_plugin/banners/rainy-day-bird.gif",
     "_plugin/banners/book-banner.gif",
