@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f5fa7cc7b73212bc",
+        "id": "8390a579f85544b9",
         "type": "tabs",
         "children": [
           {
-            "id": "3b7c3edde1fc0539",
+            "id": "0caae996138c64f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/操作系统/_README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -27,7 +32,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 73.28159645232816,
+        "dimension": 61.86252771618626,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -59,14 +64,16 @@
       {
         "id": "233f80f3239e3bbe",
         "type": "tabs",
-        "dimension": 26.718403547671844,
+        "dimension": 38.13747228381374,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/操作系统/_README.md"
+              }
             }
           },
           {
@@ -84,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.50909423828125
+    "width": 261.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -101,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/操作系统/_README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,9 +183,17 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "3b7c3edde1fc0539",
+  "active": "0caae996138c64f8",
   "lastOpenFiles": [
+    "5.专题研究/操作系统/虚拟化.md",
+    "5.专题研究/操作系统/关键问题.md",
+    "5.专题研究/操作系统/_README.md",
+    "5.专题研究/操作系统/持久性",
+    "5.专题研究/操作系统/并发",
+    "5.专题研究/操作系统/虚拟化",
     "HOME.md",
+    "5.专题研究/操作系统导论/未命名",
+    "5.专题研究/操作系统",
     "2.等待处理/Daily/2023-02-23.md",
     "5.专题研究/PySpark/README.md",
     "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
