@@ -1,6 +1,5 @@
 ---
 creation date: <% tp.file.creation_date() %>
-modification date: <%+ tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags: DailyNote
 banner: "_plugin/banners/daily-note-banner.gif"
 banner_y: 0.5536
@@ -16,21 +15,10 @@ week: <% tp.date.now("YYYY-WW") %>
 
 
 
-- [ ] 
+- [ ] C+DS -> LeetCode
+- [ ] OS -> 《操作系统导论》
+- [ ] CN -> 小林Coding
+- [ ] CO -> 《深入理解计算机系统》
+- [ ] DB
 
 
-
-
-上午：
-- C + DS
-- LeetCode
-
-下午：
-- OS
-- CN
-- CO
-- DB
-- 软件工程
-
-晚上：
-- 毕设

@@ -22,7 +22,7 @@ let setting = {};
 //在和风天气中创建的 Api key
 setting.key = "dc0f31ac6f37484f88e3e7d45b84e403";
 setting.city = "";//城市名 为空自动定位
-setting.icon = true;//是否显示图标true false
+setting.icon = false;//是否显示图标true false
 setting.days = 3 ;//天气预报天数1-7
 setting.headerLevel = 3;//添加标题的等级
 setting.addDesc = true;//是否添加描述true false
