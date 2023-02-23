@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1cbcdf3bc1bd2a3c",
+        "id": "8390a579f85544b9",
         "type": "tabs",
         "children": [
           {
-            "id": "68deee9519e7230a",
+            "id": "295c5d5e9b818a36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_plugin/template/dailynotes.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_plugin/template/dailynotes.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_plugin/template/dailynotes.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,15 +181,17 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "68deee9519e7230a",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "_plugin/template/game_hades.md",
-    "_plugin/template/nav.md",
     "2.等待处理/Daily/2023-02-23.md",
     "_plugin/template/dailynotes.md",
+    "1.收集箱/wechat_notes/个人成长/我不是教你诈.md",
+    "HOME.md",
+    "_plugin/components/Colorful-Clock.md",
+    "_plugin/template/game_hades.md",
+    "_plugin/template/nav.md",
     "2.等待处理/Daily/2023-02-22.md",
     "2.等待处理/Tasks/index.md",
-    "HOME.md",
     "_plugin/banners/rainy-day-bird-2.gif",
     "_plugin/banners/rainy-day-bird.gif",
     "_plugin/banners/book-banner.gif",
