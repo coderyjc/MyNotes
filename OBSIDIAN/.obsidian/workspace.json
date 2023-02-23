@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8390a579f85544b9",
+        "id": "f5fa7cc7b73212bc",
         "type": "tabs",
         "children": [
           {
-            "id": "295c5d5e9b818a36",
+            "id": "3b7c3edde1fc0539",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -32,7 +27,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 61.86252771618626,
+        "dimension": 73.28159645232816,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -64,16 +59,14 @@
       {
         "id": "233f80f3239e3bbe",
         "type": "tabs",
-        "dimension": 38.13747228381374,
+        "dimension": 26.718403547671844,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "HOME.md"
-              }
+              "state": {}
             }
           },
           {
@@ -91,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125
+    "width": 277.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -108,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,12 +173,15 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "3b7c3edde1fc0539",
   "lastOpenFiles": [
+    "HOME.md",
     "2.等待处理/Daily/2023-02-23.md",
+    "5.专题研究/PySpark/README.md",
+    "4.归档/生活/游戏/【MC】我的世界/指令相关【1.19.3】/README.md",
+    "4.归档/生活/游戏/【Hades】哈迪斯/【伤害】去除岩浆伤害.md",
     "_plugin/template/dailynotes.md",
     "1.收集箱/wechat_notes/个人成长/我不是教你诈.md",
-    "HOME.md",
     "_plugin/components/Colorful-Clock.md",
     "_plugin/template/game_hades.md",
     "_plugin/template/nav.md",
