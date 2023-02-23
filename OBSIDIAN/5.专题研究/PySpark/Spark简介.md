@@ -65,8 +65,76 @@ Spark 的版本已经更新到 Spark 3.2.0（截止日期2021.10.13），支持�
 
 ### 通用性强
 
+在 Spark 的基础上，Spark 还提供了包括Spark SQL、Spark Streaming、MLib 及GraphX在内的多个工具库，我们可以在一个应用中无缝地使用这些工具库。
 
+![[assets/Pasted image 20230223211012.png]]
 
 ### 运行方式
+
+Spark 支持多种运行方式，包括在 Hadoop 和 Mesos 上，也支持 Standalone的独立运行模式，同时也可以运行在云Kubernetes（Spark2.3开始支持）上。
+
+i、文件系统：LocalFS、HDFS、Hive、text、parquet、orc、json、csv
+ii、数据库RDBMs： mysql、Oracle、mssql
+iii、NOSQL数据库：HBase、ES、Redis
+iv、消息对象：Kafka
+
+对于数据源而言，Spark 支持从HDFS、HBase、Cassandra 及 Kafka 等多种途径获取数据。
+
+## Spark框架模块
+
+整个Spark 框架模块包含：Spark Core、 Spark SQL、 Spark Streaming、 Spark GraphX、 Spark MLlib，而后四项的能力都是建立在核心引擎之上
+
+![[assets/Pasted image 20230223211158.png]]
+
+Spark Core：Spark的核心，Spark核心功能均由Spark Core模块提供，是Spark运行的基础。Spark Core以RDD为数据抽象，提供Python、Java、Scala、R语言的API，可以编程进行海量离线数据批处理计算。
+
+SparkSQL：基于SparkCore之上，提供结构化数据的处理模块。SparkSQL支持以SQL语言对数据进行处理，SparkSQL本身针对离线计算场景。同时基于SparkSQL，Spark提供了StructuredStreaming模块，可以以SparkSQL为基础，进行数据的流式计算。
+
+SparkStreaming：以SparkCore为基础，提供数据的流式计算功能。
+
+MLlib：以SparkCore为基础，进行机器学习计算，内置了大量的机器学习库和API算法等。方便用户以分布式计算的模式进行机器学习计算。
+
+GraphX：以SparkCore为基础，进行图计算，提供了大量的图计算API，方便用于以分布式计算模式进行图计算。
+
+## 运行模式
+
+Spark提供多种运行模式，包括：
+
+Local模式（单机）
+- 本地模式就是以一个独立的进程，通过其内部的多个线程来模拟整个Spark运行时环境
+
+Standalone模式（集群）
+- Spark中的各个角色以独立进程的形式存在，并组成Spark集群环境
+
+Hadoop YARN模式（集群）
+- Spark中的各个角色运行在YARN的容器内部，并组成Spark集群环境
+
+Kubernetes模式（容器集群）
+- Spark中的各个角色运行在Kubernetes的容器内部，并组成Spark集群环境
+
+云服务模式（运行在云平台上）
+
+
+## 架构角色
+
+### YARN角色回顾
+
+YARN主要有4类角色，从2个层面去看：
+
+资源管理层面
+- 集群资源管理者（Master）：ResourceManager
+- 单机资源管理者（Worker）：NodeManager
+
+任务计算层面
+- 单任务管理者（Master）：ApplicationMaster
+- 单任务执行者（Worker）：Task（容器内计算框架的工作角色）
+
+![[assets/Pasted image 20230223212601.png]]
+
+### Spark运行角色
+
+![[assets/Pasted image 20230223212702.png]]
+
+![[assets/Pasted image 20230223212725.png]]
 
 

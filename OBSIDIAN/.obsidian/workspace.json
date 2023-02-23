@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/PySpark/Spark简介.md",
+                "file": "5.专题研究/PySpark/_README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/PySpark/Spark简介.md",
+                "file": "5.专题研究/PySpark/_README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/PySpark/Spark简介.md"
+                "file": "5.专题研究/PySpark/_README.md"
               }
             }
           },
@@ -177,18 +177,22 @@
   },
   "active": "50c08881d6b9205a",
   "lastOpenFiles": [
+    "5.专题研究/PySpark/Spark环境搭建和入门案例.md",
+    "5.专题研究/PySpark/_README.md",
+    "5.专题研究/PySpark/Spark简介.md",
+    "5.专题研究/PySpark/assets/Pasted image 20230223212725.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223212702.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223212601.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223211158.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223211012.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223210909.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223210548.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223205501.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223205305.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223205124.png",
-    "5.专题研究/PySpark/assets/Pasted image 20230223204913.png",
     "5.专题研究/PySpark/assets",
-    "5.专题研究/PySpark/_README.md",
     "5.专题研究/操作系统/_README.md",
-    "5.专题研究/PySpark/Spark简介.md",
     "5.专题研究/PySpark/Spark基本原理.md",
-    "5.专题研究/PySpark/Spark环境搭建和入门案例.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
     "5.专题研究/Django/StartUp.md",
     "4.归档/工作/基础/software/idea/jetbrains-idea.md",
@@ -214,10 +218,6 @@
     "5.专题研究/操作系统/并发",
     "5.专题研究/操作系统/虚拟化",
     "5.专题研究/操作系统导论/未命名",
-    "5.专题研究/操作系统",
-    "_plugin/banners/rainy-day-bird-2.gif",
-    "_plugin/banners/rainy-day-bird.gif",
-    "_plugin/banners/book-banner.gif",
-    "_plugin/banners/daily-note-banner.gif"
+    "5.专题研究/操作系统"
   ]
 }
