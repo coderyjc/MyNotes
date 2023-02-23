@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/PySpark/README.md",
+                "file": "5.专题研究/PySpark/Spark简介.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125
+    "width": 261.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/PySpark/README.md",
+                "file": "5.专题研究/PySpark/Spark简介.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/PySpark/README.md"
+                "file": "5.专题研究/PySpark/Spark简介.md"
               }
             }
           },
@@ -152,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,6 +177,18 @@
   },
   "active": "50c08881d6b9205a",
   "lastOpenFiles": [
+    "5.专题研究/PySpark/assets/Pasted image 20230223210909.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223210548.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223205501.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223205305.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223205124.png",
+    "5.专题研究/PySpark/assets/Pasted image 20230223204913.png",
+    "5.专题研究/PySpark/assets",
+    "5.专题研究/PySpark/_README.md",
+    "5.专题研究/操作系统/_README.md",
+    "5.专题研究/PySpark/Spark简介.md",
+    "5.专题研究/PySpark/Spark基本原理.md",
+    "5.专题研究/PySpark/Spark环境搭建和入门案例.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
     "5.专题研究/Django/StartUp.md",
     "4.归档/工作/基础/software/idea/jetbrains-idea.md",
@@ -182,7 +196,6 @@
     "5.专题研究/缓慢进化的人性/惯性定律.md",
     "5.专题研究/缓慢进化的人性",
     "5.专题研究/操作系统/进程.md",
-    "5.专题研究/操作系统/_README.md",
     "5.专题研究/操作系统/虚拟化.md",
     "5.专题研究/操作系统/分布式系统.md",
     "5.专题研究/操作系统/数据完整性.md",
@@ -197,11 +210,6 @@
     "5.专题研究/操作系统/信号量.md",
     "5.专题研究/操作系统/条件变量.md",
     "5.专题研究/操作系统/锁.md",
-    "5.专题研究/操作系统/并发.md",
-    "5.专题研究/操作系统/线程.md",
-    "5.专题研究/操作系统/虚拟内存的其他方法.md",
-    "5.专题研究/操作系统/段页式存储管理.md",
-    "5.专题研究/操作系统/内存地址转换.md",
     "5.专题研究/操作系统/持久性",
     "5.专题研究/操作系统/并发",
     "5.专题研究/操作系统/虚拟化",
