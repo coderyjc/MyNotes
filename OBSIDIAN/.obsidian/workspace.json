@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -32,7 +32,6 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 61.86252771618626,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -60,34 +59,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "233f80f3239e3bbe",
-        "type": "tabs",
-        "dimension": 38.13747228381374,
-        "children": [
-          {
-            "id": "a4c7ff5f1eb0069f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "HOME.md"
-              }
-            }
-          },
-          {
-            "id": "fa96d77fdb3539ea",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +71,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 35.58758314855876,
+        "dimension": 58.09312638580931,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -108,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +99,16 @@
             }
           },
           {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md"
+              }
+            }
+          },
+          {
             "id": "690768b0ebc9f307",
             "type": "leaf",
             "state": {
@@ -139,6 +120,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa96d77fdb3539ea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -146,7 +138,7 @@
       {
         "id": "3b62a95e52da1e77",
         "type": "tabs",
-        "dimension": 64.41241685144125,
+        "dimension": 41.90687361419069,
         "children": [
           {
             "id": "ce47e50dc511ac08",
@@ -181,10 +173,13 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "295c5d5e9b818a36",
   "lastOpenFiles": [
-    "5.专题研究/缓慢进化的人性/惯性定律.md",
+    "4.归档/工作/基础/software/idea/jetbrains-idea.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
+    "5.专题研究/Django/StartUp.md",
     "HOME.md",
+    "5.专题研究/缓慢进化的人性/惯性定律.md",
     "5.专题研究/缓慢进化的人性",
     "5.专题研究/操作系统/进程.md",
     "5.专题研究/操作系统/_README.md",
@@ -207,9 +202,6 @@
     "5.专题研究/操作系统/虚拟内存的其他方法.md",
     "5.专题研究/操作系统/段页式存储管理.md",
     "5.专题研究/操作系统/内存地址转换.md",
-    "5.专题研究/操作系统/虚拟内存.md",
-    "5.专题研究/操作系统/虚拟CPU.md",
-    "5.专题研究/操作系统/进程调度算法.md",
     "5.专题研究/操作系统/持久性",
     "5.专题研究/操作系统/并发",
     "5.专题研究/操作系统/虚拟化",

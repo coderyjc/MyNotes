@@ -1,8 +1,9 @@
-::: tip
+```ad-note
 <u>参考</u>了 [bilibili -【尚硅谷】IDEA2022全新版教程，兼容JDK17（快速上手Java开发利器）](https://www.bilibili.com/video/BV1CK411d7aA)
 
 并非直接CV，而是手动复现了所有的操作，并在其基础上进行了**补充和改写**。
-:::
+
+```
 
 #开发工具/IDEA
 
