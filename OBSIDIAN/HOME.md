@@ -1,5 +1,5 @@
 ---
-banner: '_plugin/banners/rainy-day-bird.gif'
+banner: "_plugin/banners/rainy-day-bird.gif"
 banner_y: 0.176
 banner_x: 0.59714
 ---
