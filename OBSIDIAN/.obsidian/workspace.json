@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -145,7 +144,7 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "1f74b340a1d27e17",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
     "4.归档/工作/基础/software/vscode/README.md",
     "4.归档/工作/基础/software/pycharm/plugin-pycharm.md",
