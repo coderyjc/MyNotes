@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
+                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,12 +182,16 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "295c5d5e9b818a36",
   "lastOpenFiles": [
+    "HOME.md",
+    "5.专题研究/pta/数据结构与算法题目集/6-1.单链表逆转.md",
+    "5.专题研究/pta/数据结构与算法题目集/_README.md",
+    "5.专题研究/pta/数据结构与算法题目集",
+    "5.专题研究/pta",
     "5.专题研究/操作系统/进程调度算法.md",
     "5.专题研究/操作系统/_README.md",
     "5.专题研究/操作系统/进程.md",
-    "HOME.md",
     "5.专题研究/leetcode/_README.md",
     "5.专题研究/leetcode/1.两数之和.md",
     "5.专题研究/leetcode/assets/Pasted image 20230224183555.png",
@@ -222,12 +227,8 @@
     "5.专题研究/操作系统/崩溃一致性.md",
     "5.专题研究/操作系统/持久性.md",
     "5.专题研究/操作系统/文件系统.md",
-    "5.专题研究/操作系统/磁盘驱动器.md",
-    "5.专题研究/操作系统/IO设备.md",
     "5.专题研究/操作系统/持久性",
     "5.专题研究/操作系统/并发",
-    "5.专题研究/操作系统/虚拟化",
-    "5.专题研究/操作系统导论/未命名",
-    "5.专题研究/操作系统"
+    "5.专题研究/操作系统/虚拟化"
   ]
 }
