@@ -79,7 +79,7 @@ call plug#end()
 
 打开 https://vimawesome.com/plugin/nerdtree-red 
 
-![[Pasted image 20220619130124.png]]
+![[assets/Pasted image 20220619130124.png]]
 
 在 `.vimrc` 中加入 `Plug 'scrooloose/nerdtree'`
 
@@ -90,11 +90,11 @@ call plug#end()
 
 如图
 
-![[Pasted image 20220619130325.png]]
+![[assets/Pasted image 20220619130325.png]]
 
 输入PlugInstall命令之后显示, 成功
 
-![[Pasted image 20220619130412.png]]
+![[assets/Pasted image 20220619130412.png]]
 
 在`/vimrc` 中添加 `autocmd VimEnter * NERDTree` 设置自启动
 

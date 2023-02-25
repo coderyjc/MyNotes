@@ -2,15 +2,15 @@
 
 设置
 
-![[Pasted image 20220429152732.png]]
+![[assets/Pasted image 20220429152732.png]]
 
-![[Pasted image 20220429152837.png]]
+![[assets/Pasted image 20220429152837.png]]
 
 ```
 nox_adb connect 127.0.0.1:62001  
 ```
 
-![[Pasted image 20220429154304.png]]
+![[assets/Pasted image 20220429154304.png]]
 
 ### 由于目标计算机积极拒绝，无法连接
 

@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md",
+                "file": "HOME.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "12b53ba50b33ae76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md"
+                "file": "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md"
               }
             }
           },
@@ -108,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md",
+                "file": "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,9 +195,13 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "295c5d5e9b818a36",
+  "active": "12b53ba50b33ae76",
   "lastOpenFiles": [
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225125231.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225124739.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225124610.png",
     "HOME.md",
+    "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md",
     "5.专题研究/pta/数据结构与算法题目集/6-1.单链表逆转.md",
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集",
@@ -212,8 +229,6 @@
     "5.专题研究/PySpark/assets/Pasted image 20230223212702.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223212601.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223211158.png",
-    "5.专题研究/PySpark/assets/Pasted image 20230223211012.png",
-    "5.专题研究/PySpark/assets/Pasted image 20230223210909.png",
     "5.专题研究/PySpark/assets",
     "5.专题研究/PySpark/Spark基本原理.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
@@ -225,8 +240,6 @@
     "5.专题研究/操作系统/数据完整性.md",
     "5.专题研究/操作系统/日志结构文件系统.md",
     "5.专题研究/操作系统/崩溃一致性.md",
-    "5.专题研究/操作系统/持久性.md",
-    "5.专题研究/操作系统/文件系统.md",
     "5.专题研究/操作系统/持久性",
     "5.专题研究/操作系统/并发",
     "5.专题研究/操作系统/虚拟化"
