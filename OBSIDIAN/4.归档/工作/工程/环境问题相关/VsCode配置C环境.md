@@ -96,3 +96,46 @@ g++ hello.cpp
 
 然后产生一个`launch.json`文件
 
+直接替换！！
+
+```ad-warning
+title:注意
+- miDebuggerPath要换成自己的路径
+- preLaunchTask要替换成自己的字段，就是之前配置的tasks.json中的label字段
+```
+
+```json
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch",
+      "preLaunchTask": "C/C++: g++.exe build active file",//调试前执行的任务，就是之前配置的tasks.json中的label字段
+      "type": "cppdbg",//配置类型，只能为cppdbg
+      "request": "launch",//请求配置类型，可以为launch（启动）或attach（附加）
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",//调试程序的路径名称
+      "args": [],//调试传递参数
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,//true显示外置的控制台窗口，false显示内置终端
+      "MIMode": "gdb",
+      "miDebuggerPath": "F:\\env\\mingw64\\bin\\gdb.exe",
+      "setupCommands": [
+          {
+              "description": "Enable pretty-printing for gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+          }
+      ]
+    }
+  ]
+}
+```
+
+最后，打了断点之后能够显示变量和正常运行，即为配置成功
+
+![[assets/Pasted image 20230225164820.png]]
