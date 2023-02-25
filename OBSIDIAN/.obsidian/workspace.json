@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125
+    "width": 261.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -174,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,6 +199,7 @@
   },
   "active": "12b53ba50b33ae76",
   "lastOpenFiles": [
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225125919.png",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225125231.png",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225124739.png",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225124610.png",
@@ -228,7 +231,6 @@
     "5.专题研究/PySpark/assets/Pasted image 20230223212725.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223212702.png",
     "5.专题研究/PySpark/assets/Pasted image 20230223212601.png",
-    "5.专题研究/PySpark/assets/Pasted image 20230223211158.png",
     "5.专题研究/PySpark/assets",
     "5.专题研究/PySpark/Spark基本原理.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
