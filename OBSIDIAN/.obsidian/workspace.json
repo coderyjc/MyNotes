@@ -13,19 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "12b53ba50b33ae76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md",
                 "mode": "source",
                 "backlinks": false,
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125,
-    "collapsed": true
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -197,14 +182,21 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "12b53ba50b33ae76",
+  "active": "295c5d5e9b818a36",
   "lastOpenFiles": [
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225125919.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225125231.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225124739.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225124610.png",
-    "HOME.md",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225164105.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225163216.png",
     "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225163510.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225163408.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162742.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162636.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162533.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162447.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162408.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162238.png",
+    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162343.png",
+    "HOME.md",
     "5.专题研究/pta/数据结构与算法题目集/6-1.单链表逆转.md",
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集",
@@ -214,23 +206,16 @@
     "5.专题研究/操作系统/进程.md",
     "5.专题研究/leetcode/_README.md",
     "5.专题研究/leetcode/1.两数之和.md",
-    "5.专题研究/leetcode/assets/Pasted image 20230224183555.png",
     "5.专题研究/leetcode/assets",
     "_plugin/template/algorithm_leetcode.md",
     "5.专题研究/leetcode",
     "1.收集箱/log.md",
-    "5.专题研究/操作系统/assets/Pasted image 20230224085422.png",
     "1.收集箱/wechat_notes/计算机/操作系统导论.md",
-    "5.专题研究/操作系统/assets/Pasted image 20230224085024.png",
-    "5.专题研究/操作系统/assets/Pasted image 20230224084948.png",
     "5.专题研究/操作系统/assets",
     "5.专题研究/操作系统/虚拟化.md",
     "5.专题研究/PySpark/Spark环境搭建和入门案例.md",
     "5.专题研究/PySpark/_README.md",
     "5.专题研究/PySpark/Spark简介.md",
-    "5.专题研究/PySpark/assets/Pasted image 20230223212725.png",
-    "5.专题研究/PySpark/assets/Pasted image 20230223212702.png",
-    "5.专题研究/PySpark/assets/Pasted image 20230223212601.png",
     "5.专题研究/PySpark/assets",
     "5.专题研究/PySpark/Spark基本原理.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
