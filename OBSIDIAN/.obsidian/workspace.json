@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/操作系统/进程调度算法.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/操作系统/进程调度算法.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/操作系统/进程调度算法.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,10 +181,10 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "295c5d5e9b818a36",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/操作系统/_README.md",
     "5.专题研究/操作系统/进程调度算法.md",
+    "5.专题研究/操作系统/_README.md",
     "5.专题研究/操作系统/进程.md",
     "HOME.md",
     "5.专题研究/leetcode/_README.md",
