@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Daily/2023-02-25.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125,
-    "collapsed": true
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Daily/2023-02-25.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Daily/2023-02-25.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -124,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,11 +144,19 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/02.更改项目架构 1.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站",
+    "HOME.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/01.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/日报",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/周报",
     "2.等待处理/Daily/未命名.md",
     "2.等待处理/Daily/2023-02-25.md",
-    "HOME.md",
     "4.归档/工作/基础/software/vscode/README.md",
     "4.归档/工作/基础/software/pycharm/plugin-pycharm.md",
     "4.归档/工作/基础/software/Obsidian/Plugin/Template 文档模板.md",
@@ -161,8 +167,6 @@
     "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
     "_plugin/components/Colorful-Clock.md",
     "5.专题研究/缓慢进化的人性/惯性定律.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/02.更改项目架构.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/01.部署项目框架.md",
     "3.将来可能/PySpark/Spark简介.md",
     "3.将来可能/PySpark/Spark环境搭建和入门案例.md",
     "3.将来可能/PySpark/Spark基本原理.md",
@@ -184,15 +188,9 @@
     "5.专题研究/pta/数据结构与算法题目集",
     "5.专题研究/pta",
     "5.专题研究/操作系统/进程调度算法.md",
-    "5.专题研究/操作系统/_README.md",
-    "5.专题研究/操作系统/进程.md",
     "5.专题研究/leetcode/assets",
     "5.专题研究/leetcode",
     "5.专题研究/操作系统/assets",
-    "3.将来可能/PySpark/assets",
-    "5.专题研究/缓慢进化的人性",
-    "5.专题研究/操作系统/持久性",
-    "5.专题研究/操作系统/并发",
-    "5.专题研究/操作系统/虚拟化"
+    "3.将来可能/PySpark/assets"
   ]
 }
