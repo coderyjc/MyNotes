@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "38eabe26499842a3",
+        "id": "625e35d817b35d84",
         "type": "tabs",
         "children": [
           {
-            "id": "56b42f7145f1f969",
+            "id": "4186d6b7503ccc77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/python-pandas/_README.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/python-pandas/_README.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/python-pandas/_README.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -127,6 +127,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "periodic-notes:Open today": false,
       "privacy-glasses:Hide all": false,
       "privacy-glasses:Reveal non-private": false,
       "privacy-glasses:Reveal all": false,
@@ -140,17 +141,23 @@
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": true,
-      "periodic-notes:Open today": false,
-      "periodic-notes:Open this week": false
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "56b42f7145f1f969",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "4.归档/工作/学习周刊/2023-07.md",
+    "4.归档/工作/学习周刊/2023-08.md",
+    "2.等待处理/Diary/Weekly/2023-W09.md",
+    "_plugin/template/weeklynotes.md",
+    "_plugin/template/game_mc_instruction.md",
+    "_plugin/template/dailynotes.md",
+    "4.归档/工作/学习周刊",
+    "2.等待处理/README.md",
+    "HOME.md",
     "2.等待处理/Diary/2023-02-26.md",
     "5.专题研究/python-pandas/_README.md",
     "2.等待处理/Diary/delete.md",
-    "2.等待处理/Diary/Weekly/2023-W09.md",
     "5.专题研究/Django/URL分发.md",
     "2.等待处理/Diary/Weekly",
     "5.专题研究/Django/_README.md",
@@ -173,25 +180,17 @@
     "2.等待处理/Diary/Archieve/2023-02/2023-02-25.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/2023-08.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
-    "HOME.md",
     "5.专题研究/Django/第一个单元测试.md",
     "5.专题研究/Django/第一个视图函数和模版引擎.md",
     "5.专题研究/Django/模型设计.md",
     "5.专题研究/Django/创建Django项目.md",
-    "5.专题研究/Django/Django环境搭建.md",
-    "5.专题研究/Django/PyCharm构建Django项目.md",
     "5.专题研究/python-pandas",
-    "5.专题研究/Django/Django中ur.md",
     "5.专题研究/Django/assets",
-    "4.归档/工作/工程/环境问题相关/Python第三方库安装相关.md",
     "5.专题研究/Django",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/02.更改项目架构 1.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/日报",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/周报",
-    "5.专题研究/pta/数据结构与算法题目集",
-    "5.专题研究/pta"
+    "5.专题研究/pta/数据结构与算法题目集"
   ]
 }

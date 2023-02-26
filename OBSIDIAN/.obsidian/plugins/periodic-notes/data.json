@@ -8,10 +8,10 @@
     "enabled": true
   },
   "weekly": {
-    "format": "",
-    "template": "",
-    "folder": "",
-    "enabled": false
+    "format": "gggg-WW",
+    "template": "_plugin/template/weeklynotes.md",
+    "folder": "4.归档/工作/学习周刊",
+    "enabled": true
   },
   "monthly": {
     "format": "",
