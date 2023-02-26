@@ -1,3 +1,7 @@
+```ad-note
+更多内容查看https://github.com/pythonzhichan/django-beginners-guide/blob/master/AdvancedConcepts.md
+```
+
 我们将从 **myproject** 目录中编写 **urls.py** 开始：
 
 **myproject/urls.py**
@@ -35,4 +39,127 @@ def url(regex, view, kwargs=None, name=None):
 -   **view**： 视图函数被用来处理用户请求，同时它还可以是 **django.conf.urls.include** 函数的返回值，它将引用一个外部的**urls.py**文件，例如，你可以使用它来定义一组特定于应用的 URLs，使用前缀将其包含在根 URLconf 中。我们会在后面继续探讨这个概念。
 -   **kwargs**：传递给目标视图函数的任意关键字参数，它通常用于在可重用视图上进行一些简单的定制，我们不是经常使用它。
 -   **name:**： 该 URL 的唯一标识符。这是一个非常重要的特征。要始终记得为你的 URLs 命名。所以，很重要的一点是：不要在 views(视图) 或者 templates(模板) 中硬编码 URL，而是通过它的名字去引用 URL。
+
+```ad-tip
+如果你想给用户个人主页设置一个很酷的主页的URL，那么避免与静态资源冲突最简单的方法是添加一个前缀，例如：/u/vitorfs，或者像 Medium 一样使用 @ 作为前缀 /@vitorfs/。
+```
+
+url解析：
+
+```python
+url(r'^boards/(?P<pk>\d+)/$', views.board_topics, name='board_topics')
+```
+
+正则表达式中的 `\d+` 会匹配一个任意大小的整数值。这个整数值用来从数据库中取到 指定的 **Board**。现在注意我们这样写这个正则表达式 `(?P<pk>\d+)`，这是告诉 Django 将捕获到的值放入名为 **pk** 的关键字参数中。
+
+这个pk必须和视图函数中的参数pk相对应。
+
+```python
+def board_topics(request, pk):
+    # do something...
+```
+
+```ad-note
+PK or ID？ PK 表示主键（Primary key），这是访问模型的主键ID的简写方法，所有Django模型都有这个属性，更多的时候，使用pk属性和使用id是一样的，这是因为如果我们没有给model定义主键时，Django将自动创建一个 AutoField 类型的字段，名字叫做 id，它就是主键。  
+如果你给model定义了一个不同的主键，例如，假设 email 是你的主键，你就可以这样访问：obj.email 或者 obj.pk，二者是等价的。
+```
+
+## 使用URLs API
+
+urls.py
+
+```python
+from django.contrib import admin  
+from django.urls import path, re_path  
+  
+from boards import views  
+  
+urlpatterns = [  
+    path("admin/", admin.site.urls),  
+    re_path(r'^$', views.home, name='home'),  
+    re_path(r'^boards/(?P<pk>\d+)/$', views.board_topics, name='board_topics')  
+]
+```
+
+
+在boards/views.py中创建视图函数
+
+```python
+def board_topics(req, pk):  
+    board = Board.objects.get(pk=pk)  
+    return render(req, 'topics.html', {'board': board})
+```
+
+
+在 **templates** 目录中，创建一个名为 **topics.html** 的模板
+
+```html
+{% load static %}<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ board.name }}</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  </head>
+  <body>
+    <div class="container">
+      <ol class="breadcrumb my-4">
+        <li class="breadcrumb-item">Boards</li>
+        <li class="breadcrumb-item active">{{ board.name }}</li>
+      </ol>
+    </div>
+  </body>
+</html>
+```
+
+浏览器访问http://127.0.0.1:8000/boards/1/应该出现以下页面：
+
+![[assets/Pasted image 20230226140423.png]]
+
+---
+
+编辑测试单元
+
+test.py
+
+```python
+class BoardTopicTests(TestCase):  
+    def setUp(self):  
+        Board.objects.create(name='Django', description='Django Board')  
+  
+    def test_board_topics_view_success_status_code(self):  
+        url = reverse('board_topics', kwargs={'pk': 1})  
+        resp = self.client.get(url)  
+        self.assertEquals(resp.status_code, 200)  
+  
+    def test_board_topics_view_not_found_status_code(self):  
+        url = reverse('board_topics', kwargs={'pk': 99})  
+        resp = self.client.get(url)  
+        self.assertEquals(resp.status_code, 404)  
+  
+    def test_board_topics_url_resolves_board_topics_view(self):  
+        view = resolve('/boards/1/')  
+        self.assertEquals(view.func, board_topics)
+```
+
+
+这里需要注意几件事情。这次我们使用了 `setUp` 方法。在这个方法中，我们创建了一个 **Board** 实例来用于测试。我们必须这样做，因为 Django 的测试机制不会针对当前数据库跑你的测试。运行 Django 测试时会即时创建一个新的数据库，应用所有的model(模型)迁移 ，运行测试完成后会销毁这个用于测试的数据库。
+
+因此在 `setUp` 方法中，我们准备了运行测试的环境，用来模拟场景。
+
+-   `test_board_topics_view_success_status_code` 方法：测试 Django 是否对于现有的 **Board** 返回 status code(状态码) 200(成功)。
+-   `test_board_topics_view_not_found_status_code` 方法：测试 Django 是否对于不存在于数据库的 **Board** 返回 status code 404(页面未找到)。
+-   `test_board_topics_url_resolves_board_topics_view`  方法：测试 Django 是否使用了正确的视图函数去渲染 topics。
+
+现在来运行一下测试：
+
+```text
+python manage.py test
+```
+
+输出了错误
+
+![[assets/Pasted image 20230226141740.png]]
+
+![[assets/Pasted image 20230226141743.png]]
 
