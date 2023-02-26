@@ -1,8 +1,12 @@
-
+```ad-note
 pandas 教程
 
-https://github.com/datawhalechina/joyful-pandas
+项目地址： https://github.com/datawhalechina/joyful-pandas
 
-http://joyfulpandas.datawhale.club/
+电子书地址：http://joyfulpandas.datawhale.club/
+
+参考答案：https://gyhhaha.github.io/pd-book/solution1.html
+```
+
 
 
