@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9ebe91c335f48242",
+        "id": "e4aad0adc31d2f3e",
         "type": "tabs",
         "children": [
           {
-            "id": "41d7b4456b45a92b",
+            "id": "87018cf85264f2a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125
+    "width": 340.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -144,19 +144,23 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "41d7b4456b45a92b",
+  "active": "87018cf85264f2a8",
   "lastOpenFiles": [
+    "5.专题研究/Django/Django中ur.md",
+    "5.专题研究/Django/创建Django项目.md",
+    "5.专题研究/Django/PyCharm构建Django项目.md",
+    "5.专题研究/Django/assets/Pasted image 20230226092645.png",
+    "5.专题研究/Django/assets/Pasted image 20230226092630.png",
+    "5.专题研究/Django/assets/Pasted image 20230226092602.png",
+    "5.专题研究/Django/assets/Pasted image 20230226092518.png",
+    "5.专题研究/Django/assets/Pasted image 20230226092455.png",
+    "5.专题研究/Django/_README.md",
+    "5.专题研究/Django/Django环境搭建.md",
     "5.专题研究/Django/assets/Pasted image 20230226090151.png",
     "5.专题研究/Django/assets/Pasted image 20230226085704.png",
     "5.专题研究/Django/assets/Pasted image 20230226085425.png",
     "5.专题研究/Django/assets/Pasted image 20230226085417.png",
-    "5.专题研究/Django/_README.md",
-    "5.专题研究/Django/创建Django项目.md",
-    "5.专题研究/Django/Django环境搭建.md",
     "5.专题研究/Django/assets/Pasted image 20230226084722.png",
-    "5.专题研究/Django/assets/Pasted image 20230226084533.png",
-    "5.专题研究/Django/assets/Pasted image 20230226084238.png",
-    "5.专题研究/Django/assets/Pasted image 20230226084152.png",
     "5.专题研究/Django/assets",
     "4.归档/工作/工程/环境问题相关/Python第三方库安装相关.md",
     "HOME.md",
@@ -185,10 +189,6 @@
     "3.将来可能/PySpark/Spark简介.md",
     "3.将来可能/PySpark/Spark环境搭建和入门案例.md",
     "3.将来可能/PySpark/Spark基本原理.md",
-    "4.归档/工作/工程/环境问题相关/HBuilder连接夜神模拟器.md",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225164820.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225164105.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225163216.png",
     "5.专题研究/pta/数据结构与算法题目集",
     "5.专题研究/pta",
     "5.专题研究/leetcode/assets"

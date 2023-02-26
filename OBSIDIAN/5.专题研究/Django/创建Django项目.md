@@ -92,3 +92,70 @@ dashboard文件夹结构是：
 
 要想让我们的应用程序运行，应该先把自己的项目名称添加到配置文件中
 
+```python
+INSTALLED_APPS = [
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+
+    # 以下是自定义app
+    "dashboard",
+]
+
+```
+
+使用前面漫画正方形和圆圈的比喻，黄色的圆圈就是我们的**boards**应用程序，**django.contrib.admin, django.contrib.auth**等就是红色的圆圈。
+
+
+## Hello World
+
+==创建视图==
+
+编辑应用程序`dashboard`中的`views.py`
+
+```python
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse('Hello World')
+```
+
+视图是接收`httprequest`对象并返回一个`httpresponse`对象的Python函数。接收 _request_ 作为参数并返回 _response_ 作为结果。
+
+这个视图返回一个字符串信息
+
+==告诉服务器什么时候返回这个视图==
+
+应该在项目层面管理url，而不是应用层面。
+
+因此应该在项目管理所在的文件夹编写相关代码。
+
+`urls.py`
+
+```ad-tip
+title: django中url、path和re_path
+url是Django 1.x中的写法，在Django2.1中，开始舍弃Django1.x中的url写法。
+在Django2.x中，描写url配置的有两个函数path和re_path，re_path()函数可以看做是django 1.x中得url函数，即可以在路径中使用正则。
+```
+
+
+```python
+from django.contrib import admin
+from django.urls import path, re_path
+
+# 导入dashboard应用中的views视图
+from dashboard import views
+
+
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    re_path(r'^$', views.home, name='home'),
+    re_path(r'^admin/', admin.site.urls),
+]
+```
+
+现在，Django使用**正则表达式**来匹配请求的URL。对于我们的**home**视图，我使用`^$` 正则，它将匹配一个空路径，也就是主页（这个URL：[http://127.0.0.1:8000](https://kgithub.com/http://127.0.0.1:8000) ）。如果我想匹配的URL是 **[http://127.0.0.1:8000/homepage/** ，那么我的URL正则表达式就会是：`url(/pythonzhichan/django-beginners-guide/blob/master/r'^homepage/$', views.home, name='home')`。
+
