@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3766a4ac8f4b974",
+        "id": "bd68b284bfb18d6a",
         "type": "tabs",
         "children": [
           {
-            "id": "13b8c7c6d2fd0be9",
+            "id": "0c05f5a42fa37b83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Django/Django-admin.md",
+                "file": "5.专题研究/Django/URL分发.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125
+    "width": 261.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Django/Django-admin.md",
+                "file": "5.专题研究/Django/URL分发.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Django/Django-admin.md"
+                "file": "5.专题研究/Django/URL分发.md"
               }
             }
           },
@@ -123,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,11 +146,23 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "0c05f5a42fa37b83",
   "lastOpenFiles": [
     "5.专题研究/Django/_README.md",
-    "5.专题研究/Django/Django-admin.md",
+    "2.等待处理/Daily/2023-02-26.md",
     "5.专题研究/Django/静态文件设置.md",
+    "5.专题研究/Django/Django-admin.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
+    "5.专题研究/Django/URL分发.md",
+    "5.专题研究/Django/系统设计.md",
+    "2.等待处理/Daily/Archieve/2023-02/2023-02-25.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/2023-08.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
+    "5.专题研究/Django/assets/Pasted image 20230226130616.png",
+    "5.专题研究/Django/assets/Pasted image 20230226130604.png",
+    "5.专题研究/Django/assets/Pasted image 20230226130554.png",
+    "5.专题研究/Django/assets/Pasted image 20230226130453.png",
+    "5.专题研究/Django/assets/Pasted image 20230226125944.png",
     "HOME.md",
     "5.专题研究/Django/assets/Pasted image 20230226125329.png",
     "5.专题研究/Django/assets/Pasted image 20230226124927.png",
@@ -157,19 +171,10 @@
     "5.专题研究/Django/assets/Pasted image 20230226124343.png",
     "5.专题研究/Django/第一个单元测试.md",
     "5.专题研究/Django/第一个视图函数和模版引擎.md",
-    "5.专题研究/Django/assets/Pasted image 20230226122414.png",
-    "5.专题研究/Django/assets/Pasted image 20230226122228.png",
     "5.专题研究/Django/模型设计.md",
     "5.专题研究/Django/创建Django项目.md",
     "5.专题研究/Django/Django环境搭建.md",
     "5.专题研究/Django/PyCharm构建Django项目.md",
-    "5.专题研究/Django/assets/Pasted image 20230226115040.png",
-    "5.专题研究/Django/assets/Pasted image 20230226105638.png",
-    "5.专题研究/Django/assets/Pasted image 20230226105357.png",
-    "5.专题研究/Django/系统设计.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/01.md",
     "5.专题研究/python-pandas/_README.md",
     "5.专题研究/python-pandas",
     "5.专题研究/Django/Django中ur.md",
@@ -183,12 +188,9 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/周报",
     "2.等待处理/Daily/未命名.md",
-    "2.等待处理/Daily/2023-02-25.md",
     "4.归档/工作/基础/software/vscode/README.md",
     "4.归档/工作/基础/software/pycharm/plugin-pycharm.md",
     "4.归档/工作/基础/software/Obsidian/Plugin/Template 文档模板.md",
-    "4.归档/工作/基础/software/Obsidian/Plugin/Dataview 数据视图.md",
-    "4.归档/工作/基础/software/Obsidian/README.md",
     "5.专题研究/pta/数据结构与算法题目集",
     "5.专题研究/pta",
     "5.专题研究/leetcode/assets"

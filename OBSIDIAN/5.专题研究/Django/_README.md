@@ -19,3 +19,6 @@
 [[静态文件设置|静态文件设置--利用Bootstrap]]
 
 [[Django-admin]]
+
+[[URL分发]]
+
