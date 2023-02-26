@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bd68b284bfb18d6a",
+        "id": "38eabe26499842a3",
         "type": "tabs",
         "children": [
           {
-            "id": "0c05f5a42fa37b83",
+            "id": "56b42f7145f1f969",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Django/模版复用.md",
+                "file": "5.专题研究/python-pandas/_README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125,
-    "collapsed": true
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Django/模版复用.md",
+                "file": "5.专题研究/python-pandas/_README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Django/模版复用.md"
+                "file": "5.专题研究/python-pandas/_README.md"
               }
             }
           },
@@ -120,12 +119,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,19 +136,26 @@
       "obsidian-memos:Memos": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "periodic-notes:Open today": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "0c05f5a42fa37b83",
+  "active": "56b42f7145f1f969",
   "lastOpenFiles": [
-    "5.专题研究/Django/_README.md",
-    "5.专题研究/Django/模版复用.md",
+    "2.等待处理/Diary/2023-02-26.md",
+    "2.等待处理/Diary/delete.md",
+    "2.等待处理/Diary/Weekly/2023-W09.md",
     "5.专题研究/Django/URL分发.md",
+    "2.等待处理/Diary/Weekly",
+    "5.专题研究/Django/_README.md",
+    "5.专题研究/Django/表单处理.md",
+    "5.专题研究/Django/模版复用.md",
+    "5.专题研究/Django/assets/Pasted image 20230226150748.png",
     "5.专题研究/Django/assets/Pasted image 20230226145243.png",
     "5.专题研究/Django/assets/Pasted image 20230226144557.png",
     "5.专题研究/Django/assets/Pasted image 20230226144137.png",
@@ -160,15 +165,13 @@
     "5.专题研究/Django/assets/Pasted image 20230226141743.png",
     "5.专题研究/Django/assets/Pasted image 20230226141740.png",
     "5.专题研究/Django/assets/Pasted image 20230226140423.png",
-    "2.等待处理/Daily/2023-02-26.md",
     "5.专题研究/Django/静态文件设置.md",
     "5.专题研究/Django/Django-admin.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
     "5.专题研究/Django/系统设计.md",
-    "2.等待处理/Daily/Archieve/2023-02/2023-02-25.md",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-25.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/2023-08.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
-    "5.专题研究/Django/assets/Pasted image 20230226130616.png",
     "HOME.md",
     "5.专题研究/Django/第一个单元测试.md",
     "5.专题研究/Django/第一个视图函数和模版引擎.md",
@@ -188,11 +191,7 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/日报",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/周报",
-    "2.等待处理/Daily/未命名.md",
-    "4.归档/工作/基础/software/vscode/README.md",
-    "4.归档/工作/基础/software/pycharm/plugin-pycharm.md",
     "5.专题研究/pta/数据结构与算法题目集",
-    "5.专题研究/pta",
-    "5.专题研究/leetcode/assets"
+    "5.专题研究/pta"
   ]
 }
