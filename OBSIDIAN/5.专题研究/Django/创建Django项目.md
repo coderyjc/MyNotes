@@ -157,5 +157,5 @@ urlpatterns = [
 ]
 ```
 
-现在，Django使用**正则表达式**来匹配请求的URL。对于我们的**home**视图，我使用`^$` 正则，它将匹配一个空路径，也就是主页（这个URL：[http://127.0.0.1:8000](https://kgithub.com/http://127.0.0.1:8000) ）。如果我想匹配的URL是 **[http://127.0.0.1:8000/homepage/** ，那么我的URL正则表达式就会是：`url(/pythonzhichan/django-beginners-guide/blob/master/r'^homepage/$', views.home, name='home')`。
+现在，Django使用**正则表达式**来匹配请求的URL。对于我们的**home**视图，我使用`^$` 正则，它将匹配一个空路径，也就是主页（这个URL：[http://127.0.0.1:8000](https://kgithub.com/http://127.0.0.1:8000) ）。如果我想匹配的URL是 **http://127.0.0.1:8000/homepage/** ，那么我的URL正则表达式就会是：`url(r'^homepage/$', views.home, name='home')`。
 
