@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b3766a4ac8f4b974",
+        "id": "9ebe91c335f48242",
         "type": "tabs",
         "children": [
           {
-            "id": "13b8c7c6d2fd0be9",
+            "id": "41d7b4456b45a92b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
+                "file": "5.专题研究/Django/创建Django项目.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "5.专题研究/Django/创建Django项目.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "5.专题研究/Django/创建Django项目.md"
               }
             }
           },
@@ -144,13 +144,28 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "41d7b4456b45a92b",
   "lastOpenFiles": [
+    "5.专题研究/Django/assets/Pasted image 20230226090151.png",
+    "5.专题研究/Django/assets/Pasted image 20230226085704.png",
+    "5.专题研究/Django/assets/Pasted image 20230226085425.png",
+    "5.专题研究/Django/assets/Pasted image 20230226085417.png",
+    "5.专题研究/Django/_README.md",
+    "5.专题研究/Django/创建Django项目.md",
+    "5.专题研究/Django/Django环境搭建.md",
+    "5.专题研究/Django/assets/Pasted image 20230226084722.png",
+    "5.专题研究/Django/assets/Pasted image 20230226084533.png",
+    "5.专题研究/Django/assets/Pasted image 20230226084238.png",
+    "5.专题研究/Django/assets/Pasted image 20230226084152.png",
+    "5.专题研究/Django/assets",
+    "4.归档/工作/工程/环境问题相关/Python第三方库安装相关.md",
+    "HOME.md",
+    "5.专题研究/Django",
+    "5.专题研究/未命名",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/02.更改项目架构 1.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站",
-    "HOME.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/01.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/日报",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录",
@@ -171,26 +186,11 @@
     "3.将来可能/PySpark/Spark环境搭建和入门案例.md",
     "3.将来可能/PySpark/Spark基本原理.md",
     "4.归档/工作/工程/环境问题相关/HBuilder连接夜神模拟器.md",
-    "4.归档/工作/工程/环境问题相关/Docker安装与卸载.md",
-    "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225164820.png",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225164105.png",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225163216.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225163510.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225163408.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162742.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162636.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162533.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162447.png",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230225162408.png",
-    "5.专题研究/pta/数据结构与算法题目集/6-1.单链表逆转.md",
-    "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集",
     "5.专题研究/pta",
-    "5.专题研究/操作系统/进程调度算法.md",
-    "5.专题研究/leetcode/assets",
-    "5.专题研究/leetcode",
-    "5.专题研究/操作系统/assets",
-    "3.将来可能/PySpark/assets"
+    "5.专题研究/leetcode/assets"
   ]
 }
