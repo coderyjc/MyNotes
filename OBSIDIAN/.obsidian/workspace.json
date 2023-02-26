@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "045b3e64c4074c93",
+        "id": "2d6992cadb1e37ae",
         "type": "tabs",
         "children": [
           {
-            "id": "fa59cd1e49f91040",
+            "id": "c68c607f21dcf9c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Django/模型设计.md",
+                "file": "5.专题研究/Django/第一个视图函数和模版引擎.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Django/模型设计.md",
+                "file": "5.专题研究/Django/第一个视图函数和模版引擎.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Django/模型设计.md"
+                "file": "5.专题研究/Django/第一个视图函数和模版引擎.md"
               }
             }
           },
@@ -144,13 +144,18 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "fa59cd1e49f91040",
+  "active": "c68c607f21dcf9c1",
   "lastOpenFiles": [
+    "5.专题研究/Django/_README.md",
+    "5.专题研究/Django/第一个视图函数和模版引擎.md",
+    "5.专题研究/Django/模型设计.md",
+    "5.专题研究/Django/创建Django项目.md",
+    "5.专题研究/Django/Django环境搭建.md",
+    "5.专题研究/Django/PyCharm构建Django项目.md",
+    "5.专题研究/Django/assets/Pasted image 20230226115040.png",
     "5.专题研究/Django/assets/Pasted image 20230226105638.png",
     "5.专题研究/Django/assets/Pasted image 20230226105357.png",
     "5.专题研究/Django/assets/Pasted image 20230226104155.png",
-    "5.专题研究/Django/_README.md",
-    "5.专题研究/Django/模型设计.md",
     "5.专题研究/Django/系统设计.md",
     "5.专题研究/Django/assets/Pasted image 20230226102319.png",
     "5.专题研究/Django/assets/Pasted image 20230226102310.png",
@@ -158,17 +163,12 @@
     "5.专题研究/Django/assets/Pasted image 20230226102239.png",
     "5.专题研究/Django/assets/Pasted image 20230226102210.png",
     "5.专题研究/Django/assets/Pasted image 20230226102133.png",
-    "5.专题研究/Django/assets/Pasted image 20230226101935.png",
-    "5.专题研究/Django/assets/Pasted image 20230226101441.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/01.md",
     "5.专题研究/python-pandas/_README.md",
     "5.专题研究/python-pandas",
-    "5.专题研究/Django/创建Django项目.md",
     "5.专题研究/Django/Django中ur.md",
-    "5.专题研究/Django/PyCharm构建Django项目.md",
-    "5.专题研究/Django/Django环境搭建.md",
     "5.专题研究/Django/assets",
     "4.归档/工作/工程/环境问题相关/Python第三方库安装相关.md",
     "HOME.md",
