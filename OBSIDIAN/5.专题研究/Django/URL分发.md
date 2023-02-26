@@ -64,7 +64,8 @@ PK or ID？ PK 表示主键（Primary key），这是访问模型的主键ID的�
 如果你给model定义了一个不同的主键，例如，假设 email 是你的主键，你就可以这样访问：obj.email 或者 obj.pk，二者是等价的。
 ```
 
-## 使用URLs API
+## 使用URLs API 
+
 
 urls.py
 
@@ -116,7 +117,7 @@ def board_topics(req, pk):
 
 ![[assets/Pasted image 20230226140423.png]]
 
----
+## 创建404的响应
 
 编辑测试单元
 
@@ -162,4 +163,199 @@ python manage.py test
 ![[assets/Pasted image 20230226141740.png]]
 
 ![[assets/Pasted image 20230226141743.png]]
+
+看到了一个错误：“boards.models.DoesNotExist: Board matching query does not exist.”
+
+在 `DEBUG=False` 的生产环境中，访问者会看到一个 **500 Internal Server Error** 的页面。但是这不是我们希望得到的。
+
+我们想要一个 **404 Page Not Found** 的页面。让我们来重写我们的视图函数。
+
+views.py
+
+```python
+from django.shortcuts import render
+from django.http import Http404
+from .models import Board
+
+def home(request):
+    # code suppressed for brevity
+
+def board_topics(request, pk):
+    try:
+        board = Board.objects.get(pk=pk)
+    except Board.DoesNotExist:
+        raise Http404
+    return render(request, 'topics.html', {'board': board})
+```
+
+重新测试一下
+
+![[assets/Pasted image 20230226142022.png]]
+
+现在是404了
+
+![[assets/Pasted image 20230226142033.png]]
+
+ Django 有一个快捷方式去得到一个对象，或者返回一个不存在的对象 404。
+
+因此让我们再来重写一下 **board_topics** 函数：
+
+```python
+from django.shortcuts import render, get_object_or_404
+from .models import Board
+
+def home(request):
+    # code suppressed for brevity
+
+def board_topics(request, pk):
+    board = get_object_or_404(Board, pk=pk)
+    return render(request, 'topics.html', {'board': board})
+```
+
+依然成功
+
+## 创建导航链接
+
+![[assets/Pasted image 20230226142407.png]]
+
+boards/test.py
+
+```python
+class HomeTests(TestCase):
+    def setUp(self):
+        self.board = Board.objects.create(name='Django', description='Django board.')
+        url = reverse('home')
+        self.response = self.client.get(url)
+
+    def test_home_view_status_code(self):
+        self.assertEquals(self.response.status_code, 200)
+
+    def test_home_url_resolves_home_view(self):
+        view = resolve('/')
+        self.assertEquals(view.func, home)
+
+    def test_home_view_contains_link_to_topics_page(self):
+        board_topics_url = reverse('board_topics', kwargs={'pk': self.board.pk})
+        self.assertContains(self.response, 'href="{0}"'.format(board_topics_url))
+```
+
+现在我们同样在 **HomeTests** 中添加了 **setUp** 方法。这是因为我们现在需要一个 **Board** 实例，并且我们将 **url** 和 **response** 移到了 **setUp**，所以我们能在新测试中重用相同的 response。
+
+这里的新测试是 **test_home_view_contains_link_to_topics_page**。我们使用 **assertContains** 方法来测试 response 主体部分是否包含给定的文本。我们在测试中使用的文本是 `a` 标签的 `href` 部分。所以基本上我们是在测试 response 主体是否包含文本 `href="/boards/1/"`。
+
+![[assets/Pasted image 20230226144137.png]]
+
+现在进行测试是报错的，因为我们的html模版中还没有写相关的逻辑
+
+接下来编写index.html，更改tbody标签的内容
+
+```html
+<!-- code suppressed for brevity -->
+<tbody>
+  {% for board in boards %}
+    <tr>
+      <td>
+        <a href="{% url 'board_topics' board.pk %}">{{ board.name }}</a>
+        <small class="text-muted d-block">{{ board.description }}</small>
+      </td>
+      <td class="align-middle">0</td>
+      <td class="align-middle">0</td>
+      <td></td>
+    </tr>
+  {% endfor %}
+</tbody>
+<!-- code suppressed for brevity -->
+```
+
+始终使用 `{% url %}` 模板标签去写应用的 URL。第一个参数是 URL 的名字(定义在 URLconf， 即 **urls.py**)，然后你可以根据需求传递任意数量的参数。
+
+现在已经可以点击链接了。
+
+![[assets/Pasted image 20230226144557.png]]
+
+## 创建返回链接
+
+可以先写测试
+
+```python
+def test_board_topics_view_contains_link_back_to_homepage(self):  
+    board_topics_url = reverse('board_topics', kwargs={'pk': 1})  
+    resp = self.client.get(board_topics_url)  
+    homepage_url = reverse('home')  
+    self.assertContains(resp, 'href="{0}"'.format(homepage_url))
+```
+
+当然现在也是不行的，因为我们还没有创建相关的模版引擎
+
+修改topics.html
+
+```html
+{% load static %}  
+<!DOCTYPE html>  
+<html>  
+  <head>  
+      <title>{{ board.name }}</title>  
+      <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">  
+      <!-- code suppressed for brevity -->  
+  </head>  
+  <body>  
+    <div class="container">  
+      <ol class="breadcrumb my-4">  
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Boards</a></li>  
+        <li class="breadcrumb-item active">{{ board.name }}</li>  
+      </ol>  
+    </div>  
+  </body>  
+</html>
+```
+
+重新打开得到：
+
+![[assets/Pasted image 20230226145243.png]]
+
+| **主键 自增字段** |                                                                     |
+| ----------------- |:-------------------------------------------------------------------:|
+| 正则表达式        |                            `(?P<pk>\d+)`                            |
+| 举例              | `url(r'^questions/(?P<pk>\d+)/$', views.question, name='question')` |
+| 有效 URL          |                          `/questions/934/`                          |
+| 捕获数据          |                          ` {'pk': '934'}`                           |
+
+
+| **Slug 字段** |
+| ------------- |:-------------:|
+| 正则表达式 | `(?P<slug>[-\w]+)` |
+| 举例 | `url(r'^posts/(?P<slug>[-\w]+)/$', views.post, name='post')` |
+| 有效 URL| `/posts/hello-world/` |
+|捕获数据|`{'slug': 'hello-world'}`|
+
+| **有主键的 Slug 字段** |
+| ------------- |:-------------:|
+| 正则表达式    |  `(?P<slug>[-\w]+)-(?P<pk>\d+)` | 
+| 举例     |`url(r'^blog/(?P<slug>[-\w]+)-(?P<pk>\d+)/$', views.blog_post, name='blog_post')`  |
+| 有效 URL|`/blog/hello-world-159/`  |
+|捕获数据|`{'slug': 'hello-world', 'pk': '159'}`|
+
+
+| **Django 用户名** |
+| ------------- |:-------------:|
+| 正则表达式    | `(?P<username>[\w.@+-]+)` | 
+| 举例     |`url(r'^profile/(?P<username>[\w.@+-]+)/$', views.user_profile, name='user_profile')` |
+| 有效 URL|`/profile/vitorfs/` |
+|捕获数据|` {'username': 'vitorfs'}`|
+
+
+| **Year** |
+| ------------- |:-------------:|
+| 正则表达式    |  `(?P<year>[0-9]{4})` | 
+| 举例     | `url(r'^articles/(?P<year>[0-9]{4})/$', views.year_archive, name='year')` |
+| 有效 URL| `/articles/2016/` |
+|捕获数据| `{'year': '2016'}`|
+
+
+|**Year / Month**|
+| ------------- |:-------------:|
+| 正则表达式    |  `(?P<year>[0-9]{4})/(?P<month>[0-9]{2})` | 
+| 举例     |  `url(r'^articles/(?P<year>[0-9]{4})/(?P<month>[0-9]{2})/$', views.month_archive, name='month')`|
+| 有效 URL| `/articles/2016/01/` |
+|捕获数据| `{'year': '2016', 'month': '01'}`|
 

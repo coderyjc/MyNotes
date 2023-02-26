@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Django/URL分发.md",
+                "file": "5.专题研究/Django/模版复用.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Django/URL分发.md",
+                "file": "5.专题研究/Django/模版复用.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Django/URL分发.md"
+                "file": "5.专题研究/Django/模版复用.md"
               }
             }
           },
@@ -148,28 +148,28 @@
   },
   "active": "0c05f5a42fa37b83",
   "lastOpenFiles": [
+    "5.专题研究/Django/_README.md",
+    "5.专题研究/Django/模版复用.md",
+    "5.专题研究/Django/URL分发.md",
+    "5.专题研究/Django/assets/Pasted image 20230226145243.png",
+    "5.专题研究/Django/assets/Pasted image 20230226144557.png",
+    "5.专题研究/Django/assets/Pasted image 20230226144137.png",
+    "5.专题研究/Django/assets/Pasted image 20230226142407.png",
+    "5.专题研究/Django/assets/Pasted image 20230226142033.png",
+    "5.专题研究/Django/assets/Pasted image 20230226142022.png",
     "5.专题研究/Django/assets/Pasted image 20230226141743.png",
     "5.专题研究/Django/assets/Pasted image 20230226141740.png",
     "5.专题研究/Django/assets/Pasted image 20230226140423.png",
-    "5.专题研究/Django/_README.md",
     "2.等待处理/Daily/2023-02-26.md",
     "5.专题研究/Django/静态文件设置.md",
     "5.专题研究/Django/Django-admin.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
-    "5.专题研究/Django/URL分发.md",
     "5.专题研究/Django/系统设计.md",
     "2.等待处理/Daily/Archieve/2023-02/2023-02-25.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/2023-08.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
     "5.专题研究/Django/assets/Pasted image 20230226130616.png",
-    "5.专题研究/Django/assets/Pasted image 20230226130604.png",
-    "5.专题研究/Django/assets/Pasted image 20230226130554.png",
-    "5.专题研究/Django/assets/Pasted image 20230226130453.png",
-    "5.专题研究/Django/assets/Pasted image 20230226125944.png",
     "HOME.md",
-    "5.专题研究/Django/assets/Pasted image 20230226125329.png",
-    "5.专题研究/Django/assets/Pasted image 20230226124927.png",
-    "5.专题研究/Django/assets/Pasted image 20230226125243.png",
     "5.专题研究/Django/第一个单元测试.md",
     "5.专题研究/Django/第一个视图函数和模版引擎.md",
     "5.专题研究/Django/模型设计.md",
