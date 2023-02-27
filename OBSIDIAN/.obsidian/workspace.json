@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/nodejs/Nodejs知识地图.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a7f1849cf9c339f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/nodejs/NPM包管理工具.md",
+                "file": "5.专题研究/nodejs&npm/NPM包管理工具.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/nodejs/NPM包管理工具.md",
+                "file": "5.专题研究/nodejs&npm/NPM包管理工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/nodejs/NPM包管理工具.md"
+                "file": "5.专题研究/nodejs&npm/NPM包管理工具.md"
               }
             }
           },
@@ -133,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -158,20 +144,24 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "a7f1849cf9c339f2",
+  "active": "fa96d77fdb3539ea",
   "lastOpenFiles": [
-    "5.专题研究/nodejs/Nodejs知识地图.md",
+    "2.等待处理/Diary/2023-02-27.md",
+    "5.专题研究/nodejs&npm/NPM包管理工具.md",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227124828.png",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227124737.png",
+    "4.归档/工作/基础/front/vue/vue-basic/vue-basic.md",
+    "5.专题研究/nodejs&npm/Nodejs知识地图.md",
     "5.专题研究/nodejs/NPM包管理工具.md",
-    "5.专题研究/nodejs/Node基础知识.md",
-    "5.专题研究/nodejs/Node模块化开发.md",
-    "5.专题研究/nodejs/ES Module.md",
-    "5.专题研究/nodejs/assets/Pasted image 20230227122511.png",
-    "5.专题研究/nodejs/assets/Pasted image 20230227122504.png",
-    "5.专题研究/nodejs/assets/Pasted image 20230227122453.png",
+    "5.专题研究/nodejs&npm/Node基础知识.md",
+    "5.专题研究/nodejs&npm/Node模块化开发.md",
+    "5.专题研究/nodejs&npm/ES Module.md",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227122511.png",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227122504.png",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227122453.png",
     "4.归档/工作/学习周刊/2023-08.md",
     "HOME.md",
     "2.等待处理/Diary/2023-02-26.md",
-    "2.等待处理/Diary/2023-02-27.md",
     "undefined.md",
     "5.专题研究/Django/表单处理.md",
     "5.专题研究/Django/静态文件设置.md",
@@ -187,17 +177,12 @@
     "5.专题研究/Django/Django环境搭建.md",
     "4.归档/工作/基础/front/vue/vue.js/Vue-Cli.md",
     "4.归档/工作/基础/front/vue/vue.js/Axios.md",
-    "4.归档/工作/基础/front/vue/vue-basic/vue-basic.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
-    "4.归档/工作/工程/项目构建工具/NPM/【Bug】NPM.md",
     "4.归档/工作/学习周刊",
     "2.等待处理/Diary/Weekly",
     "5.专题研究/Django/assets/Pasted image 20230226150748.png",
     "5.专题研究/Django/assets/Pasted image 20230226145243.png",
     "5.专题研究/Django/assets/Pasted image 20230226144557.png",
     "5.专题研究/Django/assets/Pasted image 20230226144137.png",
-    "5.专题研究/Django/assets/Pasted image 20230226142407.png",
-    "5.专题研究/Django/assets/Pasted image 20230226142033.png",
     "5.专题研究/python-pandas",
     "5.专题研究/Django/assets",
     "5.专题研究/Django",
