@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/nodejs&npm/NPM包管理工具.md",
+                "file": "5.专题研究/nodejs&npm/Yarn包管理工具.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/nodejs&npm/NPM包管理工具.md",
+                "file": "5.专题研究/nodejs&npm/Yarn包管理工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/nodejs&npm/NPM包管理工具.md"
+                "file": "5.专题研究/nodejs&npm/Yarn包管理工具.md"
               }
             }
           },
@@ -146,23 +146,27 @@
   },
   "active": "5313673c0a3e6c0d",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-02-27.md",
+    "5.专题研究/nodejs&npm/Nodejs知识地图.md",
+    "5.专题研究/nodejs&npm/Yarn包管理工具.md",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227142142.png",
     "5.专题研究/nodejs&npm/NPM包管理工具.md",
-    "5.专题研究/nodejs&npm/assets/Pasted image 20230227131644.png",
+    "HOME.md",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227140712.png",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227140341.png",
     "5.专题研究/nodejs&npm/Node模块化开发.md",
+    "5.专题研究/nodejs&npm/Node基础知识.md",
+    "2.等待处理/Diary/2023-02-27.md",
+    "5.专题研究/nodejs&npm/assets/Pasted image 20230227131644.png",
     "4.归档/工作/基础/java/spring/mybatis/MyBatis.md",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227124828.png",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227124737.png",
     "4.归档/工作/基础/front/vue/vue-basic/vue-basic.md",
-    "5.专题研究/nodejs&npm/Nodejs知识地图.md",
     "5.专题研究/nodejs/NPM包管理工具.md",
-    "5.专题研究/nodejs&npm/Node基础知识.md",
     "5.专题研究/nodejs&npm/ES Module.md",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227122511.png",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227122504.png",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227122453.png",
     "4.归档/工作/学习周刊/2023-08.md",
-    "HOME.md",
     "2.等待处理/Diary/2023-02-26.md",
     "undefined.md",
     "5.专题研究/Django/表单处理.md",
@@ -177,12 +181,8 @@
     "5.专题研究/Django/创建Django项目.md",
     "5.专题研究/Django/_README.md",
     "5.专题研究/Django/Django环境搭建.md",
-    "4.归档/工作/基础/front/vue/vue.js/Vue-Cli.md",
     "4.归档/工作/学习周刊",
     "2.等待处理/Diary/Weekly",
-    "5.专题研究/Django/assets/Pasted image 20230226150748.png",
-    "5.专题研究/Django/assets/Pasted image 20230226145243.png",
-    "5.专题研究/Django/assets/Pasted image 20230226144557.png",
     "5.专题研究/python-pandas",
     "5.专题研究/Django/assets",
     "5.专题研究/Django",
