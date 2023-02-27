@@ -30,3 +30,35 @@ performant npm 高性能NPM
 
 ![[assets/Pasted image 20230227153834.png]]
 
+安装pnpm
+
+```bash
+npm install -g pnpm
+```
+
+![[assets/Pasted image 20230227154845.png]]
+
+更多命令和用法可以参考pnpm的官网 https://pnpm.io/zh/
+
+## store存储位置
+
+在pnpm7.0之前，统一的存储位置是 ~/.pnpm-score中的；
+
+在pnpm7.0之后，统一的存储位置进行了更改：`<pnpm home directory>/store`
+
+在 Linux 上，默认是 ~/.local/share/pnpm/store
+在 Windows 上： %LOCALAPPDATA%/pnpm/store
+在 macOS 上： ~/Library/pnpm/store
+
+我们可以通过一些终端命令获取这个目录：获取当前活跃的store目录
+
+```bash
+pnpm store path
+```
+
+另外一个非常重要的store命令是prune（修剪）：从store中删除当前未被引用的包来释放store的空间
+
+```bash
+pnpm store prune
+```
+
