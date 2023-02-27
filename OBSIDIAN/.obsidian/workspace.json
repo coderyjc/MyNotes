@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3766a4ac8f4b974",
+        "id": "8d597563d738575c",
         "type": "tabs",
         "children": [
           {
-            "id": "13b8c7c6d2fd0be9",
+            "id": "ced70a6fe3724359",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/nodejs/ES Module.md",
+                "file": "5.专题研究/nodejs/Nodejs知识地图.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/nodejs/ES Module.md",
+                "file": "5.专题研究/nodejs/Nodejs知识地图.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/nodejs/ES Module.md"
+                "file": "5.专题研究/nodejs/Nodejs知识地图.md"
               }
             }
           },
@@ -144,36 +144,37 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "ced70a6fe3724359",
   "lastOpenFiles": [
-    "HOME.md",
+    "5.专题研究/nodejs/Node模块化开发.md",
     "5.专题研究/nodejs/ES Module.md",
+    "4.归档/工作/学习周刊/2023-08.md",
     "5.专题研究/nodejs/Nodejs知识地图.md",
     "5.专题研究/nodejs/Node基础知识.md",
-    "5.专题研究/nodejs/Node模块化开发.md",
+    "HOME.md",
+    "2.等待处理/Diary/2023-02-26.md",
+    "2.等待处理/Diary/2023-02-27.md",
+    "undefined.md",
+    "5.专题研究/Django/表单处理.md",
+    "5.专题研究/Django/静态文件设置.md",
+    "_plugin/template/insert_python_code.md",
+    "5.专题研究/Django/assets/Pasted image 20230227084854.png",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-13.md",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-18.md",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-23.md",
+    "5.专题研究/Django/第一个单元测试.md",
+    "5.专题研究/Django/模版复用.md",
+    "5.专题研究/Django/创建Django项目.md",
+    "5.专题研究/Django/_README.md",
+    "5.专题研究/Django/Django环境搭建.md",
     "4.归档/工作/基础/front/vue/vue.js/Vue-Cli.md",
     "4.归档/工作/基础/front/vue/vue.js/Axios.md",
     "4.归档/工作/基础/front/vue/vue-basic/vue-basic.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
     "4.归档/工作/工程/项目构建工具/NPM/【Bug】NPM.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
-    "4.归档/工作/学习周刊/2023-07.md",
-    "4.归档/工作/学习周刊/2023-08.md",
-    "2.等待处理/Diary/2023-02-26.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md",
-    "2.等待处理/Diary/Weekly/2023-W09.md",
-    "_plugin/template/weeklynotes.md",
-    "_plugin/template/game_mc_instruction.md",
-    "_plugin/template/dailynotes.md",
     "4.归档/工作/学习周刊",
-    "2.等待处理/README.md",
-    "5.专题研究/python-pandas/_README.md",
-    "2.等待处理/Diary/delete.md",
-    "5.专题研究/Django/URL分发.md",
     "2.等待处理/Diary/Weekly",
-    "5.专题研究/Django/_README.md",
-    "5.专题研究/Django/表单处理.md",
-    "5.专题研究/Django/模版复用.md",
     "5.专题研究/Django/assets/Pasted image 20230226150748.png",
     "5.专题研究/Django/assets/Pasted image 20230226145243.png",
     "5.专题研究/Django/assets/Pasted image 20230226144557.png",
@@ -183,7 +184,6 @@
     "5.专题研究/Django/assets/Pasted image 20230226142022.png",
     "5.专题研究/Django/assets/Pasted image 20230226141743.png",
     "5.专题研究/Django/assets/Pasted image 20230226141740.png",
-    "5.专题研究/Django/assets/Pasted image 20230226140423.png",
     "5.专题研究/python-pandas",
     "5.专题研究/Django/assets",
     "5.专题研究/Django",

@@ -4,7 +4,7 @@
       "id": "2f9f18b1-c339-4b24-bdbb-cc13b7c42261",
       "name": "随笔记录",
       "type": "Capture",
-      "command": true,
+      "command": false,
       "appendLink": false,
       "captureTo": "20-Diary/{{DATE:YYYY-MM-DD}}.md",
       "captureToActiveFile": false,
@@ -38,7 +38,7 @@
       "id": "1331d6d4-4efe-4d24-b585-80a9de29b397",
       "name": "添加任务",
       "type": "Capture",
-      "command": true,
+      "command": false,
       "appendLink": false,
       "captureTo": "20-Diary/任务看板.md",
       "captureToActiveFile": false,
@@ -72,140 +72,168 @@
       "id": "c2efaeca-133b-4362-804e-c4ad5565b8ae",
       "name": "打开今天日记",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "9655dda4-4148-471e-8979-7539d4d6a59d"
+    },
+    {
+      "id": "bee65855-6ad5-4345-8b88-21ed9a756ecd",
+      "name": "insert python code",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_plugin/template/insert_python_code.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Append to the bottom of the file",
+      "setFileExistsBehavior": false
     },
     {
       "id": "aa6840fd-9b83-4d4a-87d6-2b6471c1009b",
       "name": "打开任务看板",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "96067d39-1c22-4c96-9100-829814ac3251"
     },
     {
       "id": "a6d84a1e-926f-417c-82ad-6b1f647a5339",
       "name": "重载主页",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "ffb32b42-d2fe-42ed-9331-22a317f4a28a"
     },
     {
       "id": "99739b95-977f-4a34-a32c-21393389e065",
       "name": "生成便签",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "dfb35a63-6aa2-44db-8ca4-a7e7c56eb546"
     },
     {
       "id": "b3db048c-5629-437d-bff9-83468e7f7318",
       "name": "刷新主页",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "8375d67f-9460-4b6f-90f8-5355af1c6668"
     },
     {
       "id": "54554a65-e278-435a-88cc-b16661c6da14",
       "name": "添加主页便签",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "d6904063-5a10-497f-aff6-43ec1cb8f1af"
     },
     {
       "id": "eedf2ca2-9f3a-4735-9eb6-e8127ca889a6",
       "name": "添加电影-IMDB",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "0095cb47-bd58-4e1e-b546-4b47dc664f94"
     },
     {
       "id": "19402f67-f691-4b0f-9975-f8203e74be96",
       "name": "添加豆瓣图书资源-douban",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "aefa1c1c-3436-4462-bfea-3411d8308d2c"
     },
     {
       "id": "aabcb6ad-5faa-45fb-a713-deddc27bc384",
       "name": "添加豆瓣电影-douban",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "37d4988e-4b8b-4878-8959-65416ac262e3"
     },
     {
       "id": "021fa656-15d1-4082-b2d0-2228b7c61f68",
       "name": "memos-popover",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "d0d4ced8-94d2-4f26-9e8b-defd8d087193"
     },
     {
       "id": "ec8144ef-93b6-4b8e-8bf7-49fe8abe140d",
       "name": "悬浮大纲",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "6ebf2888-7abc-4cca-a4b6-9ab633b211ca"
     },
     {
       "id": "03fe5f51-8fd2-46c6-bdc8-6d4d50f894e7",
       "name": "获取插件列表",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "0f3e8714-a92b-4fc8-9e4e-ddb3c68a2fd8"
     },
     {
       "id": "e6bd2f03-b085-42c1-8ee0-4b0a47a1b80e",
       "name": "库中库",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "8477b3fc-f46b-40e1-aab8-443969aa5a4a"
     },
     {
       "id": "fe31fa1a-99c5-4b58-9001-1cac23a2b9b5",
       "name": "打开主页",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "04a61b45-2bac-4645-b06d-32d43c661091"
     },
     {
       "id": "27d06043-87de-47b1-a058-cf6ff596b9c1",
       "name": "刷新面板",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215"
     },
     {
       "id": "cd0405e7-6489-4e6a-beb1-07dac8f9a188",
       "name": "play music",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "0e4a5a36-3d1c-4430-82c7-e7ff6682b088"
     },
     {
       "id": "9858a60b-c362-434f-a71d-a55816668bd7",
       "name": "主题设置",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "8f7eb649-553c-4115-803a-b05e98ead7f7"
     },
     {
       "id": "79944a6f-1f8e-409d-b4e7-98674eb1b607",
       "name": "切换视图",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "cf968099-4a09-4f21-9eb3-1820dcb6f1c9"
     },
     {
       "id": "6224cb2b-a57e-41f9-99ad-a30f553042ec",
       "name": "收拢侧边栏",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "70c6d19b-c724-4db8-8785-0491e1c4ebe3"
     },
     {
       "id": "e97130ed-3df6-4c31-98ad-dd8f66820985",
       "name": "inbox",
       "type": "Template",
-      "command": true,
+      "command": false,
       "templatePath": "88-Template/tp/tp-笔记收集箱.md",
       "fileNameFormat": {
         "enabled": true,
@@ -218,27 +246,28 @@
         "createInSameFolderAsActiveFile": false
       },
       "appendLink": false,
-      "incrementFileName": true,
       "openFileInNewTab": {
         "enabled": true,
         "direction": "vertical",
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "setFileExistsBehavior": true,
+      "fileExistsMode": "Increment the file name"
     },
     {
       "id": "deec549a-d2dd-4e1d-b87e-c5abdfdc2802",
       "name": "切换明暗",
       "type": "Macro",
-      "command": true,
+      "command": false,
       "macroId": "ebf7a10a-351e-489f-b393-2c46b39a4cee"
     },
     {
       "id": "1cffa909-d496-4eec-9f7f-134c11092528",
       "name": "内联转yaml",
       "type": "Capture",
-      "command": true,
+      "command": false,
       "appendLink": false,
       "captureTo": "",
       "captureToActiveFile": true,
@@ -461,14 +490,15 @@
               "createInSameFolderAsActiveFile": false
             },
             "appendLink": false,
-            "incrementFileName": true,
             "openFileInNewTab": {
               "enabled": false,
               "direction": "vertical",
               "focus": true
             },
             "openFile": false,
-            "openFileInMode": "default"
+            "openFileInMode": "default",
+            "setFileExistsBehavior": true,
+            "fileExistsMode": "Increment the file name"
           }
         }
       ],
@@ -508,14 +538,15 @@
               "createInSameFolderAsActiveFile": false
             },
             "appendLink": false,
-            "incrementFileName": true,
             "openFileInNewTab": {
               "enabled": false,
               "direction": "vertical",
               "focus": true
             },
             "openFile": false,
-            "openFileInMode": "default"
+            "openFileInMode": "default",
+            "setFileExistsBehavior": true,
+            "fileExistsMode": "Increment the file name"
           }
         }
       ],
@@ -561,14 +592,15 @@
               "createInSameFolderAsActiveFile": false
             },
             "appendLink": false,
-            "incrementFileName": false,
             "openFileInNewTab": {
               "enabled": false,
               "direction": "vertical",
               "focus": true
             },
             "openFile": false,
-            "openFileInMode": "default"
+            "openFileInMode": "default",
+            "setFileExistsBehavior": true,
+            "fileExistsMode": "Increment the file name"
           }
         }
       ],
@@ -687,14 +719,15 @@
               "createInSameFolderAsActiveFile": false
             },
             "appendLink": false,
-            "incrementFileName": false,
             "openFileInNewTab": {
               "enabled": false,
               "direction": "vertical",
               "focus": true
             },
             "openFile": false,
-            "openFileInMode": "preview"
+            "openFileInMode": "preview",
+            "setFileExistsBehavior": true,
+            "fileExistsMode": "Increment the file name"
           }
         }
       ],
@@ -943,5 +976,12 @@
     }
   ],
   "inputPrompt": "multi-line",
-  "devMode": false
+  "devMode": false,
+  "templateFolderPath": "_plugin/template",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true
+  }
 }

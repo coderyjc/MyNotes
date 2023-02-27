@@ -103,7 +103,7 @@ R:\code\github\workspace\nodejs>node 输入输出.js num=20
 为什么叫做argv？
 
 - argc：argument counter 传递参数的个数
-- argv：argument vector 参数响亮
+- argv：argument vector 参数向量
 
 ## 常见全局对象
 

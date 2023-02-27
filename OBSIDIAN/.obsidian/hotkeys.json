@@ -15,5 +15,13 @@
       ],
       "key": "P"
     }
+  ],
+  "templater-obsidian:_plugin/template/insert_python_code.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
+    }
   ]
 }
