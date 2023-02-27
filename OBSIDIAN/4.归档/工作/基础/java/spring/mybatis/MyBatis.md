@@ -1,4 +1,4 @@
-#MyBatic
+#MyBatis 
 
 # MyBatis
 
