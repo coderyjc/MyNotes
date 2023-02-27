@@ -6,3 +6,4 @@ yarn 是为了弥补 早期npm 的一些缺陷而出现的；
 
 ![[assets/Pasted image 20230227142142.png]]
 
+yarn也是生成node_modules

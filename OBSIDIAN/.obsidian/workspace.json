@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5313673c0a3e6c0d",
+            "id": "3306bc8c8b5722f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/nodejs&npm/Yarn包管理工具.md",
+                "file": "5.专题研究/nodejs&npm/_Nodejs知识地图.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -71,6 +71,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
+        "dimension": 63.41463414634146,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/nodejs&npm/Yarn包管理工具.md",
+                "file": "5.专题研究/nodejs&npm/_Nodejs知识地图.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,16 +96,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/nodejs&npm/Yarn包管理工具.md"
+                "file": "5.专题研究/nodejs&npm/_Nodejs知识地图.md"
               }
-            }
-          },
-          {
-            "id": "4a674e7e834588f4",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           },
           {
@@ -120,6 +113,21 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "5418eccf73ebbdb1",
+        "type": "tabs",
+        "dimension": 36.58536585365854,
+        "children": [
+          {
+            "id": "4a674e7e834588f4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,18 +152,21 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "5313673c0a3e6c0d",
+  "active": "3306bc8c8b5722f1",
   "lastOpenFiles": [
-    "5.专题研究/nodejs&npm/Nodejs知识地图.md",
+    "5.专题研究/nodejs&npm/Npx命令行工具.md",
+    "5.专题研究/nodejs&npm/Node模块化开发.md",
+    "5.专题研究/nodejs&npm/_Nodejs知识地图.md",
+    "5.专题研究/nodejs&npm/CNPM包管理工具.md",
+    "2.等待处理/Diary/2023-02-27.md",
+    "2.等待处理/Diary/2023-02-26.md",
+    "5.专题研究/nodejs&npm/NPM包管理工具.md",
     "5.专题研究/nodejs&npm/Yarn包管理工具.md",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227142142.png",
-    "5.专题研究/nodejs&npm/NPM包管理工具.md",
     "HOME.md",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227140712.png",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227140341.png",
-    "5.专题研究/nodejs&npm/Node模块化开发.md",
     "5.专题研究/nodejs&npm/Node基础知识.md",
-    "2.等待处理/Diary/2023-02-27.md",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227131644.png",
     "4.归档/工作/基础/java/spring/mybatis/MyBatis.md",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227124828.png",
@@ -167,7 +178,6 @@
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227122504.png",
     "5.专题研究/nodejs&npm/assets/Pasted image 20230227122453.png",
     "4.归档/工作/学习周刊/2023-08.md",
-    "2.等待处理/Diary/2023-02-26.md",
     "undefined.md",
     "5.专题研究/Django/表单处理.md",
     "5.专题研究/Django/静态文件设置.md",
@@ -180,7 +190,6 @@
     "5.专题研究/Django/模版复用.md",
     "5.专题研究/Django/创建Django项目.md",
     "5.专题研究/Django/_README.md",
-    "5.专题研究/Django/Django环境搭建.md",
     "4.归档/工作/学习周刊",
     "2.等待处理/Diary/Weekly",
     "5.专题研究/python-pandas",
