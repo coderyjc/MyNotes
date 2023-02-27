@@ -79,3 +79,26 @@ import * as util from "./utils.js"
 ```
 
 
+## 其他导入导出
+
+如果我们想要把一个文件作为工具文件，则可以这样写
+
+```js
+export function getUserList(){
+  console.log("getUserList")
+}
+
+export function getPostList(){
+  console.log("getPostList")
+}
+```
+
+导入：
+
+```js
+import {getUserList, getPostList} from './utils.js'
+
+getUserList()
+getPostList()
+```
+
