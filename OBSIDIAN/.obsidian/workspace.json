@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/工作/工程/环境问题相关/npm和node安装.md",
-                "mode": "preview",
+                "file": "5.专题研究/nodejs/ES Module.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -49,17 +49,16 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "npm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/工程/环境问题相关/npm和node安装.md",
+                "file": "5.专题研究/nodejs/ES Module.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/工程/环境问题相关/npm和node安装.md"
+                "file": "5.专题研究/nodejs/ES Module.md"
               }
             }
           },
@@ -147,12 +146,19 @@
   },
   "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
-    "4.归档/工作/工程/项目构建工具/NPM/【Bug】NPM.md",
     "HOME.md",
+    "5.专题研究/nodejs/ES Module.md",
+    "5.专题研究/nodejs/Nodejs知识地图.md",
+    "5.专题研究/nodejs/Node基础知识.md",
+    "5.专题研究/nodejs/Node模块化开发.md",
+    "4.归档/工作/基础/front/vue/vue.js/Vue-Cli.md",
+    "4.归档/工作/基础/front/vue/vue.js/Axios.md",
+    "4.归档/工作/基础/front/vue/vue-basic/vue-basic.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
+    "4.归档/工作/工程/项目构建工具/NPM/【Bug】NPM.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/数据源分析.md",
     "4.归档/工作/学习周刊/2023-07.md",
     "4.归档/工作/学习周刊/2023-08.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/系统设计.md",
     "2.等待处理/Diary/2023-02-26.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md",
     "2.等待处理/Diary/Weekly/2023-W09.md",
@@ -178,13 +184,6 @@
     "5.专题研究/Django/assets/Pasted image 20230226141743.png",
     "5.专题研究/Django/assets/Pasted image 20230226141740.png",
     "5.专题研究/Django/assets/Pasted image 20230226140423.png",
-    "5.专题研究/Django/静态文件设置.md",
-    "5.专题研究/Django/Django-admin.md",
-    "5.专题研究/Django/系统设计.md",
-    "2.等待处理/Diary/Archieve/2023-02/2023-02-25.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/周报/2023-08.md",
-    "5.专题研究/Django/第一个单元测试.md",
-    "5.专题研究/Django/第一个视图函数和模版引擎.md",
     "5.专题研究/python-pandas",
     "5.专题研究/Django/assets",
     "5.专题研究/Django",
