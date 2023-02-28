@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f641575352b70d0",
+        "id": "b3766a4ac8f4b974",
         "type": "tabs",
         "children": [
           {
-            "id": "3306bc8c8b5722f1",
+            "id": "13b8c7c6d2fd0be9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#MyBatic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +71,6 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 63.41463414634146,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -101,6 +100,14 @@
             }
           },
           {
+            "id": "4a674e7e834588f4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
             "id": "fa96d77fdb3539ea",
             "type": "leaf",
             "state": {
@@ -113,26 +120,10 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "5418eccf73ebbdb1",
-        "type": "tabs",
-        "dimension": 36.58536585365854,
-        "children": [
-          {
-            "id": "4a674e7e834588f4",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,8 +144,12 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "3306bc8c8b5722f1",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "5.专题研究/webpack/assets/Pasted image 20230228090818.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228090418.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228090007.png",
+    "5.专题研究/webpack/assets",
     "HOME.md",
     "4.归档/工作/基础/front/nodejs&npm/PNPM包管理工具.md",
     "5.专题研究/webpack/webpack.md",
@@ -176,8 +171,6 @@
     "4.归档/工作/基础/front/nodejs&npm/Node基础知识.md",
     "4.归档/工作/基础/front/nodejs&npm/assets/Pasted image 20230227131644.png",
     "4.归档/工作/基础/java/spring/mybatis/MyBatis.md",
-    "4.归档/工作/基础/front/nodejs&npm/assets/Pasted image 20230227124828.png",
-    "4.归档/工作/基础/front/nodejs&npm/assets/Pasted image 20230227124737.png",
     "4.归档/工作/基础/front/vue/vue-basic/vue-basic.md",
     "5.专题研究/nodejs/NPM包管理工具.md",
     "4.归档/工作/基础/front/nodejs&npm/ES Module.md",
@@ -190,7 +183,6 @@
     "2.等待处理/Diary/Archieve/2023-02/2023-02-18.md",
     "2.等待处理/Diary/Archieve/2023-02/2023-02-23.md",
     "5.专题研究/Django/第一个单元测试.md",
-    "5.专题研究/Django/模版复用.md",
     "4.归档/工作/学习周刊",
     "2.等待处理/Diary/Weekly",
     "5.专题研究/python-pandas",
@@ -199,7 +191,6 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/日报",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/周报",
-    "5.专题研究/pta/数据结构与算法题目集"
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/周报"
   ]
 }
