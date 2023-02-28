@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b3766a4ac8f4b974",
+        "id": "debbb3f6755e7cd7",
         "type": "tabs",
         "children": [
           {
-            "id": "13b8c7c6d2fd0be9",
+            "id": "018bb61571bc3b4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/webpack/webpack.md",
-                "mode": "source",
+                "file": "5.专题研究/webpack/less工具.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/webpack/webpack.md",
+                "file": "5.专题研究/webpack/less工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/webpack/webpack.md"
+                "file": "5.专题研究/webpack/less工具.md"
               }
             }
           },
@@ -144,22 +144,29 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/webpack/_webpack.md",
+    "5.专题研究/webpack/less工具.md",
+    "5.专题研究/webpack/Node的path模块.md",
+    "5.专题研究/webpack/Webpack搭建本地服务器.md",
+    "5.专题研究/webpack/Webpack常见的插件和模式.md",
+    "5.专题研究/webpack/Webpack打包img&js&vue.md",
+    "5.专题研究/webpack/post-css工具.md",
+    "5.专题研究/webpack/使用Webpack进行打包.md",
+    "5.专题研究/webpack/认识Webpack.md",
+    "5.专题研究/webpack/assets/Pasted image 20230228135227.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228135154.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228134439.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228134130.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228133835.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228133756.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228133604.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228133547.png",
+    "5.专题研究/webpack/assets/Pasted image 20230228132548.png",
     "5.专题研究/webpack/assets/Pasted image 20230228125848.png",
     "HOME.md",
-    "5.专题研究/webpack/webpack.md",
-    "5.专题研究/webpack/assets/Pasted image 20230228125300.png",
-    "5.专题研究/webpack/assets/Pasted image 20230228123635.png",
-    "5.专题研究/webpack/assets/Pasted image 20230228123304.png",
-    "5.专题研究/webpack/assets/Pasted image 20230228123111.png",
-    "5.专题研究/webpack/assets/Pasted image 20230228122908.png",
-    "5.专题研究/webpack/assets/Pasted image 20230228122716.png",
     "2.等待处理/Diary/2023-02-28.md",
-    "5.专题研究/webpack/assets/Pasted image 20230228104845.png",
-    "5.专题研究/webpack/assets/Pasted image 20230228102743.png",
-    "5.专题研究/webpack/assets/Pasted image 20230228102736.png",
-    "5.专题研究/webpack/assets/Pasted image 20230228102734.png",
     "2.等待处理/Diary/2023-02-27.md",
     "5.专题研究/webpack/assets",
     "4.归档/工作/基础/front/nodejs&npm/PNPM包管理工具.md",
@@ -176,13 +183,6 @@
     "5.专题研究/nodejs/NPM包管理工具.md",
     "4.归档/工作/基础/front/nodejs&npm/ES Module.md",
     "4.归档/工作/学习周刊/2023-08.md",
-    "undefined.md",
-    "5.专题研究/Django/表单处理.md",
-    "5.专题研究/Django/静态文件设置.md",
-    "_plugin/template/insert_python_code.md",
-    "2.等待处理/Diary/Archieve/2023-02/2023-02-13.md",
-    "2.等待处理/Diary/Archieve/2023-02/2023-02-18.md",
-    "2.等待处理/Diary/Archieve/2023-02/2023-02-23.md",
     "4.归档/工作/学习周刊",
     "2.等待处理/Diary/Weekly",
     "5.专题研究/python-pandas",
