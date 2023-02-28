@@ -297,12 +297,25 @@ npm install vue-loader
 
 webpack.config.js
 
+vue项目比较特殊，需要引入一个插件：VueLoaderPlugin
+
+
 ```js
+const {VueLoaderPlugin} = require('vue-loader/dist/index')
+
+//....
       {
         test: /\.vue$/,
         use: [ "vue-loader"]
       },
+//....
+
+plugins: [
+    new VueLoaderPlugin()
+  ]
 ```
+
+![[assets/Pasted image 20230228151636.png]]
 
 main.js 中引入vue
 
@@ -326,4 +339,9 @@ index.html中创建挂载点
 ```bash
 npm run build
 ```
+
+![[assets/Pasted image 20230228151715.png]]
+
+成功
+
 
