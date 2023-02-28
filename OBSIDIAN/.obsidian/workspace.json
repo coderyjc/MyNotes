@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b3766a4ac8f4b974",
+        "id": "271cb45c219f02ee",
         "type": "tabs",
         "children": [
           {
-            "id": "13b8c7c6d2fd0be9",
+            "id": "cb6c9677a6a3abfb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md"
-              }
+              "state": {}
             }
           },
           {
@@ -141,11 +133,11 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "cb6c9677a6a3abfb",
   "lastOpenFiles": [
+    "5.专题研究/python-pandas/Pandas预备知识.md",
     "HOME.md",
     "5.专题研究/python-pandas/_Pandas.md",
-    "5.专题研究/python-pandas/Pandas预备知识.md",
     "5.专题研究/python-pandas/Pandas基础.md",
     "5.专题研究/python-pandas/连接.md",
     "5.专题研究/vue.js/_vue.js.md",
