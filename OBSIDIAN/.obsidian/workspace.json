@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md",
+                "file": "5.专题研究/python-pandas/_Pandas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md",
+                "file": "5.专题研究/python-pandas/_Pandas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md"
+                "file": "5.专题研究/python-pandas/_Pandas.md"
               }
             }
           },
@@ -119,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -143,13 +143,16 @@
   },
   "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-02-28.md",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-27.md",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-26.md",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-25.md",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-23.md",
     "HOME.md",
-    "5.专题研究/vue.js/Vue-Cli.md",
     "5.专题研究/vue.js/_vue.js.md",
+    "5.专题研究/vue.js/Vue-Cli.md",
     "4.归档/工作/基础/front/components/Axios.md",
     "4.归档/工作/基础/front/webpack/_webpack.md",
-    "2.等待处理/Diary/2023-02-27.md",
-    "2.等待处理/Diary/2023-02-28.md",
     "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185320.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185129.png",
@@ -176,10 +179,7 @@
     "4.归档/工作/基础/front/nodejs&npm/_Nodejs知识地图.md",
     "4.归档/工作/基础/front/nodejs&npm/Node模块化开发.md",
     "4.归档/工作/基础/front/nodejs&npm/CNPM包管理工具.md",
-    "2.等待处理/Diary/2023-02-26.md",
     "4.归档/工作/基础/front/nodejs&npm/NPM包管理工具.md",
-    "4.归档/工作/基础/front/nodejs&npm/Yarn包管理工具.md",
-    "4.归档/工作/基础/front/nodejs&npm/Node基础知识.md",
     "4.归档/工作/学习周刊",
     "2.等待处理/Diary/Weekly",
     "5.专题研究/python-pandas",
