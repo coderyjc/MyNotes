@@ -390,8 +390,75 @@ module.exports = {
 
 ## post-css工具
 
+假设我们要设置css属性： `user-select: none`，该属性的作用是，用户鼠标悬浮在元素上的时候不显示任何交互动作（文字不能被选中和复制），但是这个属性在不同的浏览器中的设置是不一样的，比如 `-ms-user-select:none`，`--webkit-user-select:none`
 
+我们需要一个工具，当我们设置了这个元素之后，自动帮我们添加上在不同浏览器上的属性，这个工具就是`postcss`（的autoprefixer插件）
 
+安装post-css
+
+```bash
+npm install postcss-loader -D
+```
+
+安装autoprefixer插件
+
+```bash
+npm install autoprefixer -D
+```
+
+### 整合配置的post-css
+
+**webpack.config.js** 
+
+```js
+use: [
+  'style-loader', 
+  'css-loader',
+  {
+	loader: 'postcss-loader',
+	options: {
+	  postcssOptions: {
+		plugins: [
+		  require('autoprefixer')
+		]
+	  }
+	}
+  }
+]
+```
+
+![[assets/Pasted image 20230228122716.png]]
+
+**div.css**
+
+```css
+.content{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  user-select: none;
+}
+```
+
+css中只写了一个user-select，但是构建完成的网站中显示如下：
+
+![[assets/Pasted image 20230228122908.png]]
+
+### 单独配置的post-css文件
+
+webpack.config.js 中
+
+![[assets/Pasted image 20230228123111.png]]
+
+另外在根目录创建文件 postcss.config.js
+
+```js
+module.exports = {
+  plugins: [
+    require('autoprefixer')
+  ]
+}
+```
 
 
 
