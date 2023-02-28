@@ -336,6 +336,7 @@ npm install less-loader -D
 
 ```js
 import "../css/div.css"
+import "../css/title.less"
 
 const divEl = document.createElement('div')
 divEl.textContent = 'Hello World!'
@@ -347,6 +348,10 @@ const titleEl = document.createElement('div')
 titleEl.textContent = 'TITLE'
 titleEl.classList.add('title')
 document.body.append(titleEl)
+```
+
+```ad-warning
+一定不要忘了引入less文件
 ```
 
 **config.js**
@@ -379,10 +384,11 @@ module.exports = {
 }
 ```
 
+成果如图：
 
+![[assets/Pasted image 20230228104845.png]]
 
-
-## post-css工具处理
+## post-css工具
 
 
 
