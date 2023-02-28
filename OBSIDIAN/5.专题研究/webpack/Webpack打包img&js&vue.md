@@ -246,8 +246,84 @@ module.exports = {
 
 进行构建
 
+![[assets/Pasted image 20230228143959.png]]
 
+变成了ES5的语法（const变成了var）
 
 ## Vue
 
+在src中创建文件夹`src/vue_demo`，创建文件`App.vue`
+
+```vue
+<template>
+  <div>
+    <h2 class="title">{{ title }}</h2>
+    <p class="content">this is content...</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data(){
+    return {
+      title: "Title"
+    }
+  }
+}
+</script>
+
+<style>
+.title{
+  color: red;
+  font-weight: 800;
+}
+.content{
+  color: grey;;
+}
+</style>
+```
+
+安装vue框架，因为开发和生产环境都要用到，因此直接安装
+
+```bash
+npm install vue
+```
+
+安装webpack进行解析的loader并配置
+
+```bash
+npm install vue-loader
+```
+
+webpack.config.js
+
+```js
+      {
+        test: /\.vue$/,
+        use: [ "vue-loader"]
+      },
+```
+
+main.js 中引入vue
+
+```js
+import { createApp } from "vue";
+import App from "./vue_demo/App.vue"
+
+createApp(App).mount('#app')
+```
+
+index.html中创建挂载点
+
+```html
+<body>
+  <div id="app"></div>
+</body>
+```
+
+项目构建
+
+```bash
+npm run build
+```
 
