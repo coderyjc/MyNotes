@@ -390,6 +390,10 @@ module.exports = {
 
 ## post-css工具
 
+```ad-attention
+我们在开发的时候基本上不适用 autoprefixer，而是使用post-preset-env
+```
+
 假设我们要设置css属性： `user-select: none`，该属性的作用是，用户鼠标悬浮在元素上的时候不显示任何交互动作（文字不能被选中和复制），但是这个属性在不同的浏览器中的设置是不一样的，比如 `-ms-user-select:none`，`--webkit-user-select:none`
 
 我们需要一个工具，当我们设置了这个元素之后，自动帮我们添加上在不同浏览器上的属性，这个工具就是`postcss`（的autoprefixer插件）
@@ -459,6 +463,88 @@ module.exports = {
   ]
 }
 ```
+
+同理
+
+![[assets/Pasted image 20230228123304.png]]
+
+
+### postcss-preset-env
+
+事实上，在配置postcss-loader时，我们配置插件并不需要使用autoprefixer。我们可以使用另外一个插件：postcss-preset-env
+
+postcss-preset-env也是一个postcss的插件，它可以帮助我们将一些现代的CSS特性，转成大多数浏览器认识的CSS，并且会根据目标浏览器或者运行时环境添加所需的polyfill；也包括会自动帮助我们添加autoprefixer（所以相当于已经内置了autoprefixer）；
+
+首先，我们需要安装postcss-preset-env：
+
+```bash
+npm install postcss-preset-env -D
+```
+
+直接在postcss.config.js 中引入插件
+
+```js
+module.exports = {
+  plugins: [
+    require('postcss-preset-env')
+  ]
+}
+```
+
+效果是一样的
+
+![[assets/Pasted image 20230228123635.png]]
+
+## Webpack打包img&js&vue
+
+### 打包图片
+
+加载图片有两种方式：
+1. img元素，设置src属性；
+2. 其他元素（比如div），设置background-image的css属性；
+
+
+以前打包图片需要自己安装file-loader，但是现在用不着了，因为已经webpack已经为我们内置了。但是如果我们直接把图片import进来，会导致webpack把他认为是一个js模块，因此我们应该进行相应的配置来告诉webpack。
+
+```js
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        type: "asset"
+      }
+```
+
+![[assets/Pasted image 20230228125300.png]]
+
+资源模块类型(**asset** module type)，通过添加 4 种新的模块类型，来替换所有这些 loader：
+- asset/resource 发送一个单独的文件并导出 URL。之前通过使用 file-loader 实现；
+- asset/inline 导出一个资源的 data URI。之前通过使用 url-loader 实现；
+- asset/source 导出资源的源代码。之前通过使用 raw-loader 实现；
+- asset 在导出一个 data URI 和发送一个单独的文件之间自动选择。之前通过使用 url-loader，并且配置资源体积限制实现；
+
+测试：
+
+拷贝一张图片到img中
+
+add_div.js中新增
+
+```js
+// 新增图片
+const imgEl = document.createElement('img')
+imgEl.src = '/src/img/bird.png'
+document.body.append(imgEl)
+```
+
+直接构建项目
+
+![[assets/Pasted image 20230228125848.png]]
+
+
+## Webpack常见的插件和模式
+
+
+
+
+## Webpack搭建本地服务器
 
 
 
