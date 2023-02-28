@@ -1,4 +1,4 @@
-## Webpack打包img&js&vue
+## WebPack 打包 Img
 
 ### 打包图片
 
@@ -182,3 +182,72 @@ webpack.config.js
 
 
 ![[assets/Pasted image 20230228135154.png]]
+
+## Babel
+
+```ad-attention
+我们在开发的时候基本上不适用 autoprefixer，而是使用post-preset-env
+```
+
+Babel是一个工具链，主要用于旧浏览器或者环境中将ECMAScript 2015+代码转换为向后兼容版本的JavaScript；包括：语法转换、源代码转换等
+
+默认打包的时候，如果自己写的是es6，那么打包之后的代码也是es6代码，如果想要将es6的代码转化为es5的代码，应该使用babel
+
+### 命令行直接使用
+
+
+![[assets/Pasted image 20230228140946.png]]
+
+
+Babel配置方法和PostCSS极其相似。
+
+首先安装babel-loader
+
+@babel/core是babel的核心代码，必须安装；
+@babel/cli是命令行使用babel的工具
+
+```bash
+npm install @babel/cli @babel/core -D
+npm i babel-loader -D
+```
+
+### 方法一二：整合配置、抽取文件配置同postcss
+
+平时基本不用，略
+
+![[assets/Pasted image 20230228141005.png]]
+
+### 方法三：使用预设单独配置【推荐】
+
+```bash
+npm install @babel/preset-env -D
+```
+
+webpack.config.js 中
+
+```js
+      {
+        test: /\.js$/,
+        use: ['babel-loader']
+      }
+```
+
+![[assets/Pasted image 20230228141619.png]]
+
+另外在根目录创建文件 babel.config.js
+
+```js
+module.exports = {
+  presets: [
+    "@babel/preset-env"
+  ]
+}
+```
+
+进行构建
+
+
+
+## Vue
+
+

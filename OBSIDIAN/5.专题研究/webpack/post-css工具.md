@@ -1,4 +1,4 @@
-## post-css工具
+## Post-css工具
 
 ```ad-attention
 我们在开发的时候基本上不适用 autoprefixer，而是使用post-preset-env
@@ -14,15 +14,16 @@
 npm install postcss-loader -D
 ```
 
+
+### 整合配置的post-css
+
+**webpack.config.js** 
+
 安装autoprefixer插件
 
 ```bash
 npm install autoprefixer -D
 ```
-
-### 整合配置的post-css
-
-**webpack.config.js** 
 
 ```js
 use: [
