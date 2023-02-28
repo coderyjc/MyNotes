@@ -119,9 +119,28 @@ module.exports = {
 
  DefinePlugin允许在编译时创建配置的全局常量，是一个webpack内置的插件（不需要单独安装）：
 
+```js
+const {DefinePlugin} = require('webpack')
+// ......
+    new DefinePlugin({
+      BASE_URL: '"./"'
+    })
+```
 
+重新构建
+
+![[assets/Pasted image 20230228182452.png]]
+
+成功
 
 ### mode模式配置
 
+Mode配置选项，可以告知webpack使用相应模式的内置优化：
+- 默认值是production（什么都不设置的情况下）；
+- 可选值有：'none' | 'development' | 'production'；
 
+![[assets/Pasted image 20230228182600.png]]
 
+以下可以了解
+
+![[assets/Pasted image 20230228182653.png]]
