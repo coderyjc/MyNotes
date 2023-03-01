@@ -138,11 +138,17 @@
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "40 - Obsidian/主页/000_Nutstore Flash Download Guide.html.nssyncsc",
+    "40 - Obsidian/主页",
+    "40 - Obsidian/000_Nutstore Flash Download Guide.html.nssyncsc",
+    "40 - Obsidian",
+    "obsidian.zip",
     "4.归档/工作/工程/浏览器相关/FireFox访问问题.md",
     "HOME.md",
     "5.专题研究/python-pandas/Pandas预备知识.md",
@@ -176,7 +182,6 @@
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183727.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183633.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183547.png",
-    "4.归档/工作/基础/front/webpack/Webpack打包img&js&vue.md",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182653.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182600.png",
     "4.归档/工作/基础/front/webpack/assets",
@@ -184,10 +189,6 @@
     "2.等待处理/Diary/Weekly",
     "5.专题研究/python-pandas",
     "5.专题研究/Django/assets",
-    "5.专题研究/Django",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/日报",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/周报"
+    "5.专题研究/Django"
   ]
 }
