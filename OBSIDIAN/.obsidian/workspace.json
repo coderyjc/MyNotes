@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md",
+                "file": "HOME.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
-          },
-          {
-            "id": "52ae91e266e221f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/vue.js/vue_basic.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125,
-    "collapsed": true
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -93,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/vue.js/vue_basic.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/vue.js/vue_basic.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -138,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,8 +142,10 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "52ae91e266e221f9",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "40 - Obsidian/主页/00. 主页.md",
+    "40 - Obsidian/主页/00. 主页.md.nssyncsc",
     "5.专题研究/vue.js/assets/Pasted image 20230301164255.png",
     "5.专题研究/vue.js/assets/Pasted image 20230301163851.png",
     "5.专题研究/vue.js/assets",
@@ -202,9 +188,7 @@
     "4.归档/工作/基础/front/webpack/assets/Webpack.png",
     "_remotely-save-metadata-on-remote.json.nssyncsc",
     "4.归档/工作/基础/front/webpack/resource/Webpack.xmind",
-    "4.归档/工作/基础/front/webpack/resource",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185320.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185129.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185058.png"
+    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185129.png"
   ]
 }
