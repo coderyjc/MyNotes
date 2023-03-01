@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
+                "file": "5.专题研究/vue.js/_vue.js.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
+                "file": "5.专题研究/vue.js/_vue.js.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md"
+                "file": "5.专题研究/vue.js/_vue.js.md"
               }
             }
           },
@@ -124,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,15 +146,15 @@
   },
   "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-03-01.md",
+    "HOME.md",
     "5.专题研究/python-pandas/Pandas预备知识.md",
+    "5.专题研究/python-pandas/_Pandas.md",
+    "2.等待处理/Diary/2023-03-01.md",
     "4.归档/工作/工程/Python库/assets/000_Nutstore Flash Download Guide.html.nssyncsc",
     "4.归档/工作/工程/Python库/assets",
     "4.归档/工作/工程/Python库/000_Nutstore Flash Download Guide.html.nssyncsc",
     "4.归档/工作/工程/Python库",
-    "5.专题研究/python-pandas/_Pandas.md",
     "4.归档/工作/工程/Python/ipython历史记录保存.md",
-    "HOME.md",
     "4.归档/工作/扩展/windows/【软件配置】Windows Terminal美化.md",
     "_remotely-save-metadata-on-remote.json",
     "4.归档/工作/扩展/windows/【软件配置】Windows Terminal自动补全.md",
