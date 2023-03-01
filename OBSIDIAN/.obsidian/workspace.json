@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125,
-    "collapsed": true
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -124,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,8 +142,17 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/vue.js/_vue.js.md",
+    "5.专题研究/vue.js/vue_advance.md",
+    "5.专题研究/vue.js/axios.md",
+    "5.专题研究/vue.js/pinia.md",
+    "5.专题研究/vue.js/vuex.md",
+    "5.专题研究/vue.js/vue_router.md",
+    "5.专题研究/vue.js/vue_composition.md",
+    "5.专题研究/vue.js/vue_component.md",
+    "5.专题研究/vue.js/vue_basic.md",
     "HOME.md",
     "5.专题研究/python-pandas/Pandas预备知识.md",
     "5.专题研究/python-pandas/_Pandas.md",
@@ -171,19 +178,11 @@
     "4.归档/工作/基础/front/webpack/认识Webpack.md",
     "4.归档/工作/基础/front/webpack/使用Webpack进行打包.md",
     "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
-    "4.归档/工作/基础/front/webpack/Webpack打包img&js&vue.md",
-    "4.归档/工作/基础/front/webpack/Webpack常见的插件和模式.md",
     "_remotely-save-metadata-on-remote.json.nssyncsc",
-    "4.归档/工作/基础/front/webpack/resolve模块解析.md",
-    "4.归档/工作/基础/front/webpack/post-css工具.md",
-    "4.归档/工作/基础/front/webpack/Node的path模块.md",
-    "4.归档/工作/基础/front/webpack/less工具.md",
     "4.归档/工作/基础/front/webpack/resource/Webpack.xmind",
     "4.归档/工作/基础/front/webpack/resource",
     "4.归档/工作/基础/front/webpack/新建文件夹",
     "3.将来可能/Webpack.xmind",
-    "4.归档/工作/工程/浏览器相关/FireFox访问问题.md",
-    "5.专题研究/python-pandas/连接.md",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185320.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185129.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185058.png",
