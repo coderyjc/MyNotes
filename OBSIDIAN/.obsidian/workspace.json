@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3766a4ac8f4b974",
+        "id": "a73cbcae84b8fb6d",
         "type": "tabs",
         "children": [
           {
-            "id": "13b8c7c6d2fd0be9",
+            "id": "5da9667856fe8b79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
+                "file": "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md"
               }
             }
           },
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -142,15 +143,28 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "5da9667856fe8b79",
   "lastOpenFiles": [
+    "4.归档/工作/基础/front/webpack/Webpack常见的插件和模式.md",
+    "4.归档/工作/基础/front/webpack/resolve模块解析.md",
+    "4.归档/工作/基础/front/webpack/Webpack打包img&js&vue.md",
+    "4.归档/工作/基础/front/webpack/post-css工具.md",
+    "4.归档/工作/基础/front/webpack/_webpack.md",
+    "4.归档/工作/基础/front/webpack/less工具.md",
+    "4.归档/工作/基础/front/webpack/使用Webpack进行打包.md",
+    "4.归档/工作/基础/front/webpack/认识Webpack.md",
+    "4.归档/工作/基础/front/webpack/Node的path模块.md",
+    "4.归档/工作/基础/front/webpack/resource/Webpack.xmind",
+    "4.归档/工作/基础/front/webpack/resource",
+    "4.归档/工作/基础/front/webpack/新建文件夹",
+    "3.将来可能/Webpack.xmind",
+    "HOME.md",
     "40 - Obsidian/主页/000_Nutstore Flash Download Guide.html.nssyncsc",
     "40 - Obsidian/主页",
     "40 - Obsidian/000_Nutstore Flash Download Guide.html.nssyncsc",
     "40 - Obsidian",
     "obsidian.zip",
     "4.归档/工作/工程/浏览器相关/FireFox访问问题.md",
-    "HOME.md",
     "5.专题研究/python-pandas/Pandas预备知识.md",
     "5.专题研究/python-pandas/_Pandas.md",
     "5.专题研究/python-pandas/Pandas基础.md",
@@ -166,14 +180,6 @@
     "5.专题研究/python-pandas/分组.md",
     "5.专题研究/python-pandas/索引.md",
     "2.等待处理/Diary/2023-02-28.md",
-    "2.等待处理/Diary/Archieve/2023-02/2023-02-27.md",
-    "2.等待处理/Diary/Archieve/2023-02/2023-02-26.md",
-    "2.等待处理/Diary/Archieve/2023-02/2023-02-25.md",
-    "2.等待处理/Diary/Archieve/2023-02/2023-02-23.md",
-    "5.专题研究/vue.js/Vue-Cli.md",
-    "4.归档/工作/基础/front/components/Axios.md",
-    "4.归档/工作/基础/front/webpack/_webpack.md",
-    "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185320.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185129.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185058.png",
@@ -184,11 +190,6 @@
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183547.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182653.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182600.png",
-    "4.归档/工作/基础/front/webpack/assets",
-    "4.归档/工作/学习周刊",
-    "2.等待处理/Diary/Weekly",
-    "5.专题研究/python-pandas",
-    "5.专题研究/Django/assets",
-    "5.专题研究/Django"
+    "4.归档/工作/基础/front/webpack/assets"
   ]
 }
