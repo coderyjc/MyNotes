@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "271cb45c219f02ee",
+        "id": "b3766a4ac8f4b974",
         "type": "tabs",
         "children": [
           {
-            "id": "cb6c9677a6a3abfb",
+            "id": "13b8c7c6d2fd0be9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "HOME.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOME.md"
+              }
             }
           },
           {
@@ -133,10 +141,11 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "cb6c9677a6a3abfb",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/python-pandas/Pandas预备知识.md",
+    "4.归档/工作/工程/浏览器相关/FireFox访问问题.md",
     "HOME.md",
+    "5.专题研究/python-pandas/Pandas预备知识.md",
     "5.专题研究/python-pandas/_Pandas.md",
     "5.专题研究/python-pandas/Pandas基础.md",
     "5.专题研究/python-pandas/连接.md",
@@ -168,7 +177,6 @@
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183633.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183547.png",
     "4.归档/工作/基础/front/webpack/Webpack打包img&js&vue.md",
-    "4.归档/工作/基础/front/webpack/Webpack常见的插件和模式.md",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182653.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182600.png",
     "4.归档/工作/基础/front/webpack/assets",
