@@ -370,3 +370,267 @@ Out[24]: 0.5488135039273248
 
 ### np数组的变形与合并
 
+```python
+
+In [1]: import numpy as np
+
+In [2]: np.zeros( (2,3) ).T
+Out[2]:
+array([[0., 0.],
+       [0., 0.],
+       [0., 0.]])
+
+In [3]: np.r_[np.zeros((2,3)), np.zeros(2,3)]
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-3-c8127c0dadd9> in <module>
+----> 1 np.r_[np.zeros((2,3)), np.zeros(2,3)]
+
+TypeError: Cannot interpret '3' as a data type
+
+In [4]: np.r_[np.zeros((2,3)), np.zeros((2,3))]
+Out[4]:
+array([[0., 0., 0.],
+       [0., 0., 0.],
+       [0., 0., 0.],
+       [0., 0., 0.]])
+
+In [5]: np.c_[np.zeros((2,3)), np.zeros((2,3))]
+Out[5]:
+array([[0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0.]])
+
+In [6]: # 一维数组和二维数组进行合并时，应当把其视作列向量，在长度匹配的情况下只能
+   ...: 够使用左右合并的 c_ 操作：
+
+In [7]: try:
+   ...:     np.r_[np.array([0,0]), np.zeros((2,1))]
+   ...: except Exception as e:
+   ...:     msg = e
+   ...:
+
+In [8]: msg
+Out[8]: ValueError('all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 1 has 2 dimension(s)')
+
+In [9]: np.r_[np.array([0,0]), np.zeros(2)]
+Out[9]: array([0., 0., 0., 0.])
+
+In [10]: np.r_[np.array([1,2]), np.zeros(2)]
+Out[10]: array([1., 2., 0., 0.])
+
+In [11]: np.r_[np.array([1,2]), np.zeros((2,3))]
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-11-cba1ec987bbf> in <module>
+----> 1 np.r_[np.array([1,2]), np.zeros((2,3))]
+
+F:\env\Annaconda\lib\site-packages\numpy\lib\index_tricks.py in __getitem__(self, key)
+    411                 objs[k] = objs[k].astype(final_dtype)
+    412
+--> 413         res = self.concatenate(tuple(objs), axis=axis)
+    414
+    415         if matrix:
+
+<__array_function__ internals> in concatenate(*args, **kwargs)
+
+ValueError: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 1 has 2 dimension(s)
+
+In [12]: np.c_[np.array([1,2]), np.zeros((2,3))]
+Out[12]:
+array([[1., 0., 0., 0.],
+       [2., 0., 0., 0.]])
+
+In [13]: # reshape 能够帮助用户把原数组按照新的维度重新排列。在使用时有两种模式，
+    ...: 分别为 C 模式和 F 模式，分别以逐行和逐列的顺序进行填充读取。
+
+In [14]: target = np.arange(8).reshape(2,4)
+
+In [15]: target
+Out[15]:
+array([[0, 1, 2, 3],
+       [4, 5, 6, 7]])
+
+In [16]: target = np.arange(8).reshape((2,4), order='C')
+
+In [17]: target
+Out[17]:
+array([[0, 1, 2, 3],
+       [4, 5, 6, 7]])
+
+In [18]: target = np.arange(8).reshape((2,4), order='R')
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-18-ad5cf92f04bc> in <module>
+----> 1 target = np.arange(8).reshape((2,4), order='R')
+
+ValueError: order must be one of 'C', 'F', 'A', or 'K' (got 'R')
+
+In [19]: target = np.arange(8).reshape((4,2), order='R')
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-19-fcf7c3bb1353> in <module>
+----> 1 target = np.arange(8).reshape((4,2), order='R')
+
+ValueError: order must be one of 'C', 'F', 'A', or 'K' (got 'R')
+
+In [20]: target = np.arange(8).reshape((4,2), order='F')
+
+In [21]: target
+Out[21]:
+array([[0, 4],
+       [1, 5],
+       [2, 6],
+       [3, 7]])
+
+In [22]: # 特别地，由于被调用数组的大小是确定的， reshape 允许有一个维度存在空缺，
+    ...: 此时只需填充-1即可
+
+In [23]: target.reshape((4, -1))
+Out[23]:
+array([[0, 4],
+       [1, 5],
+       [2, 6],
+       [3, 7]])
+
+In [24]: #  下面将n*1大小的数组转换为1维数组
+
+In [25]: target = np.ones((3,1))
+
+In [26]: target
+Out[26]:
+array([[1.],
+       [1.],
+       [1.]])
+
+In [27]: target.reshape(-1)
+Out[27]: array([1., 1., 1.])
+
+In [28]: #-------------------------------
+
+In [29]: # 数组的切片模式支持使用slice类型的start:end:step切片，还可以直接传入列表
+    ...: 指定某个维度的索引进行切片
+
+In [30]: target = np.arange(9).reshape(3,3)
+
+In [31]: target
+Out[31]:
+array([[0, 1, 2],
+       [3, 4, 5],
+       [6, 7, 8]])
+
+In [32]: target[: -1: [0, 2]]
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-32-d0f6a457598f> in <module>
+----> 1 target[: -1: [0, 2]]
+
+TypeError: slice indices must be integers or None or have an __index__ method
+
+In [33]: target[: -1, [0, 2]]
+Out[33]:
+array([[0, 2],
+       [3, 5]])
+
+In [34]: # 此外，还可以利用 np.ix_ 在对应的维度上使用布尔索引，但此时不能使用 slic
+    ...: e 切片
+
+In [35]: target[np.ix_([True, False, True], [True, False, True])]
+Out[35]:
+array([[0, 2],
+       [6, 8]])
+
+In [36]: target[np.ix_([1,2], [True, False, True])]
+Out[36]:
+array([[3, 5],
+       [6, 8]])
+
+In [37]: # 当数组维度为1维时，可以直接进行布尔索引，而无需 np.ix_
+
+In [38]: new = target.reshape(-1)
+
+In [39]: new[new % 2 == 0]
+Out[39]: array([0, 2, 4, 6, 8])
+
+```
+
+### 常用函数
+
+```python
+In [1]: # where
+
+In [2]: a = np.array([-1, 1, -1, 0])
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-2-1e6b58c8dad2> in <module>
+----> 1 a = np.array([-1, 1, -1, 0])
+
+NameError: name 'np' is not defined
+
+In [3]: import numpy as np
+
+In [4]: a = np.array([-1, 1, -1, 0])
+
+In [5]: np.where(a>0, a, 5)
+Out[5]: array([5, 1, 5, 5])
+
+In [6]: # nonzero, argmax, argmin
+
+In [7]: # 返回索引，nonzero返回非零索引，另外两个分别返回最大和最小数的索引
+
+In [8]: a = np.array([-2, -5, 0, 1, 3, -1])
+
+In [9]: np.nonzero(1)
+Out[9]: (array([0], dtype=int64),)
+
+In [10]: np.nonzero(a)
+Out[10]: (array([0, 1, 3, 4, 5], dtype=int64),)
+
+In [11]: a.argmax()
+Out[11]: 4
+
+In [12]: a.argmin()
+Out[12]: 1
+
+In [13]: # any, all
+
+In [14]: a = np.array([0, 1])
+
+In [15]: a.any()
+Out[15]: True
+
+In [16]: a.all()
+Out[16]: False
+
+In [17]: # cumprod, cumsum, diff
+
+In [18]: a = np.array([1,2,3])
+
+In [19]: a.cumprod()
+Out[19]: array([1, 2, 6], dtype=int32)
+
+In [20]: a.cumsum()
+Out[20]: array([1, 3, 6], dtype=int32)
+
+In [21]: np.diff(a)
+Out[21]: array([1, 1])
+
+In [22]: # 统计函数
+
+In [23]: target = np.arange(5)
+
+In [24]: target
+Out[24]: array([0, 1, 2, 3, 4])
+
+In [25]: target.max()
+Out[25]: 4
+
+In [26]: target.min()
+Out[26]: 0
+
+In [27]: np.quantile(target, 0.5)
+Out[27]: 2.0
+
+In [28]: # 但是对于含有缺失值的数组，它们返回的结果也是缺失值，如果需要略过缺失值
+    ...: ，必须使用 nan* 类型的函数，上述的几个统计函数都有对应的 nan* 函数。
+```
+
