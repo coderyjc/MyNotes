@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
+                "file": "4.归档/工作/扩展/windows/【软件配置】Windows Terminal美化.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125,
-    "collapsed": true
+    "width": 384.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
+                "file": "4.归档/工作/扩展/windows/【软件配置】Windows Terminal美化.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md"
+                "file": "4.归档/工作/扩展/windows/【软件配置】Windows Terminal美化.md"
               }
             }
           },
@@ -120,12 +119,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,13 +142,21 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "4.归档/工作/扩展/windows/【软件配置】Windows Terminal自动补全.md",
+    "4.归档/工作/扩展/windows/assets/Pasted image 20230301104043.png",
+    "4.归档/工作/扩展/windows/【软件配置】Windows Terminal美化.md",
+    "4.归档/工作/扩展/windows/assets/Pasted image 20230301103851.png",
+    "2.等待处理/Diary/2023-03-01.md",
+    "4.归档/工作/扩展/windows/【目录结构】C盘各种目录介绍.md",
+    "4.归档/工作/扩展/windows/【移动硬盘】硬盘传数据的时候直接拔出来后显示未初始化.md",
+    "4.归档/工作/扩展/windows/【系统重装】使用EasyU PE重装系统.md",
+    "HOME.md",
+    "5.专题研究/python-pandas/缺失数据.md",
     "5.专题研究/python-pandas/Pandas基础.md",
     "5.专题研究/python-pandas/Pandas预备知识.md",
     "5.专题研究/python-pandas/_Pandas.md",
-    "HOME.md",
-    "2.等待处理/Diary/2023-03-01.md",
     "2.等待处理/Diary/Archieve/2023-02/2023-02-28.md",
     "4.归档/工作/基础/front/webpack/_webpack.md",
     "4.归档/工作/基础/front/webpack/assets/Webpack.png",
@@ -176,21 +182,12 @@
     "4.归档/工作/工程/浏览器相关/FireFox访问问题.md",
     "5.专题研究/python-pandas/连接.md",
     "5.专题研究/vue.js/_vue.js.md",
-    "5.专题研究/pta/数据结构与算法题目集/_README.md",
-    "5.专题研究/pta/数据结构与算法题目集/6-1.单链表逆转.md",
-    "5.专题研究/python-pandas/时序数据.md",
-    "5.专题研究/python-pandas/分类数据.md",
-    "5.专题研究/python-pandas/文本数据.md",
-    "5.专题研究/python-pandas/缺失数据.md",
-    "5.专题研究/python-pandas/变形.md",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185320.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185129.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185058.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183907.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183851.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183727.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183633.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183547.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182653.png"
+    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183633.png"
   ]
 }
