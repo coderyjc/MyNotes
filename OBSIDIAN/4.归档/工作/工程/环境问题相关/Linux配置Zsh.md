@@ -98,7 +98,7 @@ exec `which zsh` -l           		# 设置登录为zsh
 
 > vim ~/.oh-my-zsh/themes/ys.zsh-theme  
 > 修改49行以下内容，去掉主机名  
-> ![[Pasted image 20220604230305.png]]
+> ![[../Python/assets/Pasted image 20220604230305.png]]
 
 ### 安装插件
 

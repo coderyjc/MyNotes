@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1224783d894f62c5",
+        "id": "b3766a4ac8f4b974",
         "type": "tabs",
         "children": [
           {
-            "id": "0447fb8abf71ec84",
+            "id": "13b8c7c6d2fd0be9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -57,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.50909423828125
+    "width": 261.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -73,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/python-pandas/Pandas预备知识.md"
+              }
             }
           },
           {
@@ -111,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,8 +143,12 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "0447fb8abf71ec84",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "5.专题研究/python-pandas/_Pandas.md",
+    "5.专题研究/python-pandas/Pandas预备知识.md",
+    "4.归档/工作/工程/Python/ipython历史记录保存.md",
+    "HOME.md",
     "4.归档/工作/扩展/windows/【软件配置】Windows Terminal美化.md",
     "2.等待处理/Diary/2023-03-01.md",
     "_remotely-save-metadata-on-remote.json",
@@ -145,11 +158,8 @@
     "4.归档/工作/扩展/windows/【目录结构】C盘各种目录介绍.md",
     "4.归档/工作/扩展/windows/【移动硬盘】硬盘传数据的时候直接拔出来后显示未初始化.md",
     "4.归档/工作/扩展/windows/【系统重装】使用EasyU PE重装系统.md",
-    "HOME.md",
     "5.专题研究/python-pandas/缺失数据.md",
     "5.专题研究/python-pandas/Pandas基础.md",
-    "5.专题研究/python-pandas/Pandas预备知识.md",
-    "5.专题研究/python-pandas/_Pandas.md",
     "2.等待处理/Diary/Archieve/2023-02/2023-02-28.md",
     "4.归档/工作/基础/front/webpack/_webpack.md",
     "4.归档/工作/基础/front/webpack/assets/Webpack.png",

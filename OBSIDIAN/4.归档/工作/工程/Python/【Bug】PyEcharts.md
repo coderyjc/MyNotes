@@ -14,7 +14,7 @@ type_1_count.append(temp) # 添加了这个数据
 ```
 
 
-![[Pasted image 20220521211402.png]]
+![[assets/Pasted image 20220521211402.png]]
 
 原因：pyecharts 中的数据源的整形数据类型必须是int类型，而不是numpy的类型，我在上面用了numpy的sum
 
