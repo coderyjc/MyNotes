@@ -14,13 +14,27 @@
               "type": "markdown",
               "state": {
                 "file": "5.专题研究/vue.js/_vue.js.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "52ae91e266e221f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/vue.js/vue_basic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md",
+                "file": "5.专题研究/vue.js/vue_basic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/vue.js/_vue.js.md"
+                "file": "5.专题研究/vue.js/vue_basic.md"
               }
             }
           },
@@ -144,18 +158,27 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "52ae91e266e221f9",
   "lastOpenFiles": [
-    "5.专题研究/vue.js/vue_basic.md",
+    "5.专题研究/vue.js/assets/Pasted image 20230301164255.png",
+    "5.专题研究/vue.js/assets/Pasted image 20230301163851.png",
+    "5.专题研究/vue.js/assets",
     "5.专题研究/vue.js/_vue.js.md",
-    "HOME.md",
-    "5.专题研究/vue.js/vue_advance.md",
-    "5.专题研究/vue.js/axios.md",
     "5.专题研究/vue.js/pinia.md",
-    "5.专题研究/vue.js/vuex.md",
-    "5.专题研究/vue.js/vue_router.md",
-    "5.专题研究/vue.js/vue_composition.md",
+    "5.专题研究/vue.js/axios.md",
+    "5.专题研究/vue.js/vue_basic.md",
     "5.专题研究/vue.js/vue_component.md",
+    "5.专题研究/vue.js/vue_composition.md",
+    "5.专题研究/vue.js/vue_router.md",
+    "HOME.md",
+    "4.归档/工作/学习周刊/2023-08.md",
+    "4.归档/工作/学习周刊/2023-07.md",
+    "4.归档/工作/学习周刊/assets/Pasted image 20230301162010.png",
+    "4.归档/工作/学习周刊/assets/Pasted image 20230301162002.png",
+    "4.归档/工作/学习周刊/assets/Pasted image 20230301160840.png",
+    "4.归档/工作/学习周刊/assets",
+    "5.专题研究/vue.js/vue_advance.md",
+    "5.专题研究/vue.js/vuex.md",
     "5.专题研究/python-pandas/Pandas预备知识.md",
     "5.专题研究/python-pandas/_Pandas.md",
     "2.等待处理/Diary/2023-03-01.md",
@@ -177,20 +200,11 @@
     "2.等待处理/Diary/Archieve/2023-02/2023-02-28.md",
     "4.归档/工作/基础/front/webpack/_webpack.md",
     "4.归档/工作/基础/front/webpack/assets/Webpack.png",
-    "4.归档/工作/基础/front/webpack/认识Webpack.md",
-    "4.归档/工作/基础/front/webpack/使用Webpack进行打包.md",
-    "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
     "_remotely-save-metadata-on-remote.json.nssyncsc",
     "4.归档/工作/基础/front/webpack/resource/Webpack.xmind",
     "4.归档/工作/基础/front/webpack/resource",
-    "4.归档/工作/基础/front/webpack/新建文件夹",
-    "3.将来可能/Webpack.xmind",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185320.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185129.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185058.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183907.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183851.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183727.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183633.png"
+    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185058.png"
   ]
 }
