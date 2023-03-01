@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a73cbcae84b8fb6d",
+        "id": "b3766a4ac8f4b974",
         "type": "tabs",
         "children": [
           {
-            "id": "5da9667856fe8b79",
+            "id": "13b8c7c6d2fd0be9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
-                "mode": "preview",
+                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125
+    "width": 261.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
+                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md"
+                "file": "5.专题研究/python-pandas/Pandas预备知识.md"
               }
             }
           },
@@ -128,6 +129,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "periodic-notes:Open today": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "webpage-html-export:Export Vault to HTML": false,
@@ -139,35 +141,39 @@
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": true,
-      "remotely-save:Remotely Save": false
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "5da9667856fe8b79",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "4.归档/工作/基础/front/webpack/Webpack常见的插件和模式.md",
-    "4.归档/工作/基础/front/webpack/resolve模块解析.md",
-    "4.归档/工作/基础/front/webpack/Webpack打包img&js&vue.md",
-    "4.归档/工作/基础/front/webpack/post-css工具.md",
+    "5.专题研究/python-pandas/Pandas基础.md",
+    "5.专题研究/python-pandas/Pandas预备知识.md",
+    "5.专题研究/python-pandas/_Pandas.md",
+    "HOME.md",
+    "2.等待处理/Diary/2023-03-01.md",
+    "2.等待处理/Diary/Archieve/2023-02/2023-02-28.md",
     "4.归档/工作/基础/front/webpack/_webpack.md",
-    "4.归档/工作/基础/front/webpack/less工具.md",
-    "4.归档/工作/基础/front/webpack/使用Webpack进行打包.md",
+    "4.归档/工作/基础/front/webpack/assets/Webpack.png",
     "4.归档/工作/基础/front/webpack/认识Webpack.md",
+    "4.归档/工作/基础/front/webpack/使用Webpack进行打包.md",
+    "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md",
+    "4.归档/工作/基础/front/webpack/Webpack打包img&js&vue.md",
+    "4.归档/工作/基础/front/webpack/Webpack常见的插件和模式.md",
+    "_remotely-save-metadata-on-remote.json",
+    "_remotely-save-metadata-on-remote.json.nssyncsc",
+    "4.归档/工作/基础/front/webpack/resolve模块解析.md",
+    "4.归档/工作/基础/front/webpack/post-css工具.md",
     "4.归档/工作/基础/front/webpack/Node的path模块.md",
+    "4.归档/工作/基础/front/webpack/less工具.md",
     "4.归档/工作/基础/front/webpack/resource/Webpack.xmind",
     "4.归档/工作/基础/front/webpack/resource",
     "4.归档/工作/基础/front/webpack/新建文件夹",
     "3.将来可能/Webpack.xmind",
-    "HOME.md",
     "40 - Obsidian/主页/000_Nutstore Flash Download Guide.html.nssyncsc",
     "40 - Obsidian/主页",
     "40 - Obsidian/000_Nutstore Flash Download Guide.html.nssyncsc",
     "40 - Obsidian",
-    "obsidian.zip",
     "4.归档/工作/工程/浏览器相关/FireFox访问问题.md",
-    "5.专题研究/python-pandas/Pandas预备知识.md",
-    "5.专题研究/python-pandas/_Pandas.md",
-    "5.专题研究/python-pandas/Pandas基础.md",
     "5.专题研究/python-pandas/连接.md",
     "5.专题研究/vue.js/_vue.js.md",
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
@@ -177,9 +183,6 @@
     "5.专题研究/python-pandas/文本数据.md",
     "5.专题研究/python-pandas/缺失数据.md",
     "5.专题研究/python-pandas/变形.md",
-    "5.专题研究/python-pandas/分组.md",
-    "5.专题研究/python-pandas/索引.md",
-    "2.等待处理/Diary/2023-02-28.md",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185320.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185129.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228185058.png",
@@ -188,8 +191,6 @@
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183727.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183633.png",
     "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228183547.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182653.png",
-    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182600.png",
-    "4.归档/工作/基础/front/webpack/assets"
+    "4.归档/工作/基础/front/webpack/assets/Pasted image 20230228182653.png"
   ]
 }
