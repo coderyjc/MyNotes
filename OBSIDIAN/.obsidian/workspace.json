@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "4b43291b97b0d7de",
+        "id": "b3766a4ac8f4b974",
         "type": "tabs",
         "children": [
           {
-            "id": "882d23c41219c995",
+            "id": "13b8c7c6d2fd0be9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/6-4.链式表的按序号查找.md",
+                "file": "5.专题研究/pta/测试用例类型总结.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4b9855c2bf60a445",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/pta/AlgorithmNote.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/6-4.链式表的按序号查找.md",
+                "file": "5.专题研究/pta/AlgorithmNote.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/6-4.链式表的按序号查找.md"
+                "file": "5.专题研究/pta/AlgorithmNote.md"
               }
             }
           },
@@ -142,14 +156,16 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "882d23c41219c995",
+  "active": "4b9855c2bf60a445",
   "lastOpenFiles": [
+    "5.专题研究/pta/测试用例类型总结.md",
+    "5.专题研究/pta/AlgorithmNote.md",
+    "HOME.md",
+    "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集/6-3.求链表的表长.md",
     "5.专题研究/pta/数据结构与算法题目集/6-5.链式表操作集.md",
-    "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集/6-4.链式表的按序号查找.md",
     "5.专题研究/pta/数据结构与算法题目集/6-2.顺序表操作集.md",
-    "HOME.md",
     "2.等待处理/Diary/2023-03-02.md",
     "2.等待处理/Diary/2023-03-01.md",
     "2.等待处理/Diary/Archieve/2023-02/2023-02-28.md",
@@ -181,8 +197,6 @@
     "4.归档/工作/工程/Python库/assets",
     "4.归档/工作/工程/Python库/000_Nutstore Flash Download Guide.html.nssyncsc",
     "4.归档/工作/工程/Python库",
-    "4.归档/工作/工程/Python/ipython历史记录保存.md",
-    "4.归档/工作/扩展/windows/【软件配置】Windows Terminal美化.md",
     "4.归档/工作/扩展/windows/assets/Pasted image 20230301104043.png",
     "4.归档/工作/扩展/windows/assets/Pasted image 20230301103851.png",
     "4.归档/工作/基础/front/webpack/assets/Webpack.png",
