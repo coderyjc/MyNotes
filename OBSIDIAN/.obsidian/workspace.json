@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "5.专题研究/pta/测试用例类型总结.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/pta/AlgorithmNote.md",
+                "file": "5.专题研究/pta/测试用例类型总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/pta/AlgorithmNote.md"
+                "file": "5.专题研究/pta/测试用例类型总结.md"
               }
             }
           },
@@ -156,10 +155,10 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "4b9855c2bf60a445",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
-    "5.专题研究/pta/测试用例类型总结.md",
     "5.专题研究/pta/AlgorithmNote.md",
+    "5.专题研究/pta/测试用例类型总结.md",
     "HOME.md",
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集/6-3.求链表的表长.md",
