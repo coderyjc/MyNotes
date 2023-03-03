@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "_plugin/template",
+  "templates_folder": "0.plugin/template",
   "templates_pairs": [
     [
       "",
@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "_plugin/templatejs",
+  "user_scripts_folder": "0.plugin/templatejs",
   "enable_folder_templates": true,
   "folder_templates": [],
   "syntax_highlighting": true,

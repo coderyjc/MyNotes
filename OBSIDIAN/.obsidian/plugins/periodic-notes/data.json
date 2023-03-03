@@ -4,12 +4,12 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "folder": "2.等待处理/Diary",
-    "template": "_plugin/template/dailynotes",
+    "template": "0.plugin/template/dailynotes.md",
     "enabled": true
   },
   "weekly": {
     "format": "gggg-WW",
-    "template": "_plugin/template/weeklynotes.md",
+    "template": "0.plugin/template/weeklynotes.md",
     "folder": "4.归档/工作/学习周刊",
     "enabled": true
   },
