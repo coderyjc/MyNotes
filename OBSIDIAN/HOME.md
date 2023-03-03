@@ -1,5 +1,5 @@
 ---
-banner: "_plugin/banners/rainy-day-bird.gif"
+banner: "0.plugin/banners/rainy-day-bird.gif"
 banner_y: 0.176
 banner_x: 0.59618
 ---
@@ -29,7 +29,7 @@ setting.addDesc = true;//是否添加描述true false
 setting.onlyToday = false;//是否只在当天显示
 setting.anotherCity = "梁山";//添加另外一个城市
 //脚本文件 weatherView.js 所在路径
-dv.view("_plugin/dataviewjs/dv_weatherView",setting)
+dv.view("0.plugin/dataviewjs/dv_weatherView",setting)
 ```
 
 ````ad-flex
@@ -56,11 +56,3 @@ limit 5
 ```
 </div>
 ````
-
-
-## 数量分布图
-
-```dataviewjs
-await dv.view("_plugin/dataview/notes_count_view")
-```
-
