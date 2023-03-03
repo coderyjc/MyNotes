@@ -156,19 +156,151 @@ v-once用于指定元素或者组件只渲染一次, 当数据发生变化时，
 
 ### v-cloak
 
+保持在元素上直到关联组件实例结束编译
 
+ 和 CSS 规则如` [v-cloak] { display: none } `一起用时，这个指令可以隐藏未编译的 Mustache 标签直到组件实例准备完毕
 
-
-### v-memo
-
-
+![[assets/Pasted image 20230303212111.png]]
 
 ### v-bind
 
+动态绑定元素属性
+
+```html
+<img :src="showImgUrl" alt="">
+```
+
+动态绑定class
+
+```html
+
+  <div id="app">
+    <!-- 1.基本绑定class -->
+    <h2 :class="classes">Hello World</h2>
+
+    <!-- 2.动态class可以写对象语法 -->
+    <button :class=" isActive ? 'active': '' " @click="btnClick">我是按钮</button>
+
+    <!-- 2.1.对象语法的基本使用(掌握) -->
+    <button :class="{ active: isActive }" @click="btnClick">我是按钮</button>
+
+    <!-- 2.2.对象语法的多个键值对 -->
+    <button :class="{ active: isActive, why: true, kobe: false }" @click="btnClick">我是按钮</button>
+    
+    <!-- 2.3.动态绑定的class是可以和普通的class同时的使用 -->
+    <button class="abc cba" :class="{ active: isActive, why: true, kobe: false }" @click="btnClick">我是按钮</button>
+    
+    <!-- 2.4.动态绑定的class是可以和普通的class同时的使用 -->
+    <button class="abc cba" :class="getDynamicClasses()" @click="btnClick">我是按钮</button>
+
+    <!-- 3.动态class可以写数组语法(了解) -->
+    <h2 :class="['abc', 'cba']">Hello Array</h2>
+    <h2 :class="['abc', className]">Hello Array</h2>
+    <h2 :class="['abc', className, isActive? 'active': '']">Hello Array</h2>
+    <h2 :class="['abc', className, { active: isActive }]">Hello Array</h2>
+  </div>
+  
+  <script src="../lib/vue.js"></script>
+  <script>
+    // 1.创建app
+    const app = Vue.createApp({
+      // data: option api
+      data: function() {
+        return {
+          classes: "abc cba nba",
+          isActive: false,
+          className: "why"
+        }
+      },
+
+      methods: {
+        btnClick: function() {
+          this.isActive = !this.isActive
+        },
+
+        getDynamicClasses: function() {
+          return { active: this.isActive, why: true, kobe: false }
+        }
+      }
+    })
+
+    // 2.挂载app
+    app.mount("#app")
+  </script>
+```
+
+绑定style
+
+```html
+  <div id="app">
+    <!-- 1.普通的html写法 -->
+    <h2 style="color: red; font-size: 30px;">哈哈哈哈</h2>
+
+    <!-- 2.style中的某些值, 来自data中 -->
+    <!-- 2.1.动态绑定style, 在后面跟上 对象类型 (重要)-->
+    <h2 v-bind:style="{ color: fontColor, fontSize: fontSize + 'px' }">哈哈哈哈</h2>
+    <!-- 2.2.动态的绑定属性, 这个属性是一个对象 -->
+    <h2 :style="objStyle">呵呵呵呵</h2>
+
+    <!-- 3.style的数组语法 -->
+    <h2 :style="[objStyle, { backgroundColor: 'purple' }]">嘿嘿嘿嘿</h2>
+  </div>
+  
+  <script src="../lib/vue.js"></script>
+  <script>
+    // 1.创建app
+    const app = Vue.createApp({
+      // data: option api
+      data: function() {
+        return {
+          fontColor: "blue",
+          fontSize: 10,
+          objStyle: {
+            fontSize: '50px',
+            color: "green"
+          }
+        }
+      },
+    })
+    // 2.挂载app
+    app.mount("#app")
+  </script>
+
+```
+
+绑定属性名
+
+```html
+<h2 :[name]="'aaaa'">Hello World</h2>
 
 
+data: function() {
+	return {
+	  name: "class"
+	}
+  },
+```
 
+绑定对象
 
+```html
+<h2 :name="name" :age="age" :height="height">Hello World</h2>
+<!--两种方式效果是一样的。 v-bind绑定对象: 给组件传递参数 -->
+<h2 v-bind="infos">Hello Bind</h2>
+
+```
+
+```js
+  data: function() {
+	return {
+	  infos: { name: "why", age: 18, height: 1.88, address: "广州市" },
+
+	  name: "why",
+	  age: 18,
+	  height: 1.88
+	}
+  },
+```
 
 
 ## Options API
