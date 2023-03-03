@@ -4,56 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3766a4ac8f4b974",
+        "id": "a281e1edd19702fd",
         "type": "tabs",
         "children": [
           {
-            "id": "13b8c7c6d2fd0be9",
+            "id": "6b82a3e38c6964b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
-          },
-          {
-            "id": "f5937ba32a24c3fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/云服务器相关/七牛云搭建Obsidian存储.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            },
-            "group": "cdf43bbd70c19a50"
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "3724a03664ce811d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a204bffc2a707e1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/云服务器相关/七牛云搭建Obsidian存储.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            },
-            "group": "cdf43bbd70c19a50"
           }
         ]
       }
@@ -97,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125,
-    "collapsed": true
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -114,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/云服务器相关/七牛云搭建Obsidian存储.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/云服务器相关/七牛云搭建Obsidian存储.md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,22 +135,22 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "f5937ba32a24c3fb",
+  "active": "6b82a3e38c6964b8",
   "lastOpenFiles": [
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303195306.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303195240.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303195131.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303195110.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303194749.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303194713.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303194500.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303194348.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303194101.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303194010.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303193920.png",
-    "5.专题研究/云服务器相关/assets",
     "HOME.md",
+    "5.专题研究/云服务器相关/域名的购买和认证.md",
     "5.专题研究/云服务器相关/七牛云搭建Obsidian存储.md",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303201436.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303201400.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303201103.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303201024.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303200818.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303200632.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303200302.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303200224.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303195454.png",
+    "5.专题研究/云服务器相关/assets/Pasted image 20230303195402.png",
+    "5.专题研究/云服务器相关/assets",
     "5.专题研究/云服务器相关",
     "5.专题研究/未命名",
     "0.plugin/components/Colorful-Clock.md",
@@ -219,7 +175,6 @@
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集/6-3.求链表的表长.md",
     "5.专题研究/pta/数据结构与算法题目集/6-5.链式表操作集.md",
-    "5.专题研究/pta/数据结构与算法题目集/6-4.链式表的按序号查找.md",
     "_remotely-save-metadata-on-remote.json",
     "40 - Obsidian/主页/00. 主页.md.nssyncsc",
     "5.专题研究/vue.js/assets",
