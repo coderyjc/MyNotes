@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a281e1edd19702fd",
+        "id": "b3766a4ac8f4b974",
         "type": "tabs",
         "children": [
           {
-            "id": "6b82a3e38c6964b8",
+            "id": "13b8c7c6d2fd0be9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/vue.js/vue_basic.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/vue.js/vue_basic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/vue.js/vue_basic.md"
+              }
             }
           },
           {
@@ -135,8 +143,9 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "6b82a3e38c6964b8",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "5.专题研究/vue.js/_vue.js.md",
     "HOME.md",
     "5.专题研究/云服务器相关/域名的购买和认证.md",
     "5.专题研究/云服务器相关/七牛云搭建Obsidian存储.md",
@@ -168,7 +177,6 @@
     "5.专题研究/pta/AlgorithmNote.md",
     "5.专题研究/pta/测试用例类型总结.md",
     "5.专题研究/pta/STL相关代码模版.md",
-    "5.专题研究/vue.js/_vue.js.md",
     "5.专题研究/python-pandas/_Pandas.md",
     "2.等待处理/Diary/2023-03-01.md",
     "5.专题研究/pta/输入相关问题.md",
