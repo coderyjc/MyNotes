@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b3766a4ac8f4b974",
+        "id": "9df3e090df0c1a84",
         "type": "tabs",
         "children": [
           {
-            "id": "13b8c7c6d2fd0be9",
+            "id": "d5d44edfb16cd786",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125
+    "width": 261.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -143,11 +144,12 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "13b8c7c6d2fd0be9",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/vue.js/assets/Pasted image 20230303212111.png",
+    "5.专题研究/vue.js/vue_basic.md",
     "5.专题研究/vue.js/_vue.js.md",
     "HOME.md",
+    "5.专题研究/vue.js/assets/Pasted image 20230303212111.png",
     "5.专题研究/云服务器相关/域名的购买和认证.md",
     "5.专题研究/云服务器相关/七牛云搭建Obsidian存储.md",
     "5.专题研究/云服务器相关/assets/Pasted image 20230303201436.png",
@@ -159,7 +161,6 @@
     "5.专题研究/云服务器相关/assets/Pasted image 20230303200302.png",
     "5.专题研究/云服务器相关/assets/Pasted image 20230303200224.png",
     "5.专题研究/云服务器相关/assets/Pasted image 20230303195454.png",
-    "5.专题研究/云服务器相关/assets/Pasted image 20230303195402.png",
     "5.专题研究/云服务器相关/assets",
     "5.专题研究/云服务器相关",
     "5.专题研究/未命名",
