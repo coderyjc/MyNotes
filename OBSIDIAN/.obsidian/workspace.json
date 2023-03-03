@@ -13,41 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/pta/AlgorithmNote.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e47c6996cef991eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/Django/_README.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c63ed6495d7c2b0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/pta/输入相关问题.md",
+                "file": "5.专题研究/vue.js/vue_basic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Django/_README.md",
+                "file": "5.专题研究/vue.js/vue_basic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Django/_README.md"
+                "file": "5.专题研究/vue.js/vue_basic.md"
               }
             }
           },
@@ -146,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,11 +142,12 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "5.专题研究/vue.js/_vue.js.md",
+    "HOME.md",
     "5.专题研究/python-pandas/_Pandas.md",
     "2.等待处理/Diary/2023-03-01.md",
-    "HOME.md",
     "5.专题研究/pta/STL相关代码模版.md",
     "5.专题研究/pta/AlgorithmNote.md",
     "5.专题研究/pta/输入相关问题.md",
@@ -194,7 +168,6 @@
     "5.专题研究/vue.js/assets/Pasted image 20230301164255.png",
     "5.专题研究/vue.js/assets/Pasted image 20230301163851.png",
     "5.专题研究/vue.js/assets",
-    "5.专题研究/vue.js/_vue.js.md",
     "5.专题研究/vue.js/pinia.md",
     "5.专题研究/vue.js/axios.md",
     "5.专题研究/vue.js/vue_basic.md",
