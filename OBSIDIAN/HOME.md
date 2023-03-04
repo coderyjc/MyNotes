@@ -4,6 +4,7 @@ banner_y: 0.176
 banner_x: 0.5759
 ---
 
+
 ```dataviewjs
 let nofold = '!"_plugin"'
 let allFile = dv.pages(nofold).file

@@ -1,3 +1,8 @@
+---
+desc: 初探
+complete: true
+---
+
 ## Vue初探
 
 ### MVVM模型

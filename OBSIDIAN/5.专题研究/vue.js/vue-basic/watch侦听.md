@@ -1,3 +1,8 @@
+---
+desc: watch侦听事件
+complete: false
+---
+
 ## watch侦听
 
 ### watch入门

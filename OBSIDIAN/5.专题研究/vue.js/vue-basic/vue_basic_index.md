@@ -1,38 +1,32 @@
 ---
-cate: 
-desc: 
-complete: false
+desc: 目录
+complete: true
 ---
 
 ## 章节完成 情况
 
-
-```dataviewjs
-dv.table(
-	["cate", "desc", "complete"],
-	dv.pagePaths("/")
-)
+```dataview
+table without id
+	desc, complete
+where contains(file.path, "vue-basic")
 ```
 
+## 目录
 
+[[Vue初探]]
 
+[[模板语法]]
 
-## 链接
+[[事件绑定]]
 
-[[5.专题研究/vue.js/vue-basic/Vue初探]]
+[[条件渲染]]
 
-[[5.专题研究/vue.js/vue-basic/模板语法]]
+[[列表渲染]]
 
-[[5.专题研究/vue.js/vue-basic/事件绑定]]
+[[计算属性]]
 
-[[5.专题研究/vue.js/vue-basic/条件渲染]]
+[[watch侦听]]
 
-[[5.专题研究/vue.js/vue-basic/列表渲染]]
+[[双向绑定]]
 
-[[5.专题研究/vue.js/vue-basic/计算属性]]
-
-[[5.专题研究/vue.js/vue-basic/watch侦听]]
-
-[[5.专题研究/vue.js/vue-basic/双向绑定]]
-
-[[5.专题研究/vue.js/vue-basic/组件化开发入门]]
+[[组件化开发入门]]
