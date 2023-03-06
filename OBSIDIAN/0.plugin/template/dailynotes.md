@@ -18,10 +18,9 @@ week: <% tp.date.now("YYYY-WW") %>
 > 
 
 
-- [ ] C+DS -> LeetCode
-- [ ] OS -> 《操作系统导论》
+- [ ] C+DS -> PTA
+- [ ] OS -> 《操作系统导论》主要 + 
 - [ ] CN -> 小林Coding
 - [ ] CO -> 《深入理解计算机系统》
-- [ ] DB
-
+- [ ] DB -> 《数据库教材》
 

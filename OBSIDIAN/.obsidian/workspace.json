@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2023-03-06.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "2.等待处理/Diary/2023-03-06.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "2.等待处理/Diary/2023-03-06.md"
               }
             }
           },
@@ -128,23 +128,41 @@
   "left-ribbon": {
     "hiddenItems": {
       "remotely-save:Remotely Save": false,
-      "periodic-notes:Open today": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "homepage:Open homepage": false,
-      "obsidian-memos:Memos": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-03-06.md",
+    "4.归档/工作/基础/java/spring/mybatis/MyBatis逆向工程.md",
     "HOME.md",
+    "5.专题研究/云服务器相关/域名的购买和认证.md",
+    "5.专题研究/云服务器相关/七牛云搭建Obsidian存储.md",
+    "5.专题研究/pta/AlgorithmNote.md",
+    "5.专题研究/pta/数据结构与算法题目集/6-2.顺序表操作集.md",
+    "5.专题研究/pta/数据结构与算法题目集/6-5.链式表操作集.md",
+    "5.专题研究/pta/数据结构与算法题目集/6-4.链式表的按序号查找.md",
+    "5.专题研究/pta/数据结构与算法题目集/6-3.求链表的表长.md",
+    "5.专题研究/pta/输入相关问题.md",
+    "5.专题研究/pta/测试用例类型总结.md",
+    "5.专题研究/pta/STL相关代码模版.md",
+    "0.plugin/template/dailynotes.md",
+    "4.归档/工作/学习周刊/2023-08.md",
+    "4.归档/工作/学习周刊/2023-07.md",
+    "0.plugin/template/weeklynotes.md",
+    "2.等待处理/Diary/2023-03-05.md",
+    "2.等待处理/Diary/2023-03-04.md",
     "4.归档/工作/基础/db/mysql/MySQL高级-索引优化分析.md",
     "4.归档/工作/基础/front/js/正则表达式.pdf",
     "4.归档/工作/基础/front/js/ES6-11.md",
@@ -153,24 +171,6 @@
     "4.归档/工作/基础/front/jquery/Ajax.md",
     "4.归档/工作/基础/front/html/html.md",
     "4.归档/工作/基础/devops/maven/Maven.md",
-    "4.归档/工作/基础/devops/docker/docker-basic.md",
-    "4.归档/工作/基础/devops/docker/docker-advanced.md",
-    "4.归档/工作/基础/db/redis/README.md",
-    "4.归档/工作/基础/db/mysql/-mysql-advanced.md",
-    "4.归档/工作/基础/db/mysql/MySQL高级-MySQL架构介绍.md",
-    "4.归档/工作/基础/db/mysql/索引优化分析.md",
-    "4.归档/工作/基础/db/mysql/-mysql-basic.md",
-    "4.归档/工作/基础/db/mysql/DBA命令（了解）.md",
-    "4.归档/工作/基础/db/mysql/存储引擎（了解）.md",
-    "4.归档/工作/基础/db/mysql/数据库设计三范式.md",
-    "4.归档/工作/基础/db/mysql/MySQL-视图(view).md",
-    "4.归档/工作/基础/db/mysql/MySQL-索引.md",
-    "4.归档/工作/基础/db/mysql/MySQL-事务(Transaction).md",
-    "4.归档/工作/基础/db/mysql/MySQL-约束(Constraint).md",
-    "4.归档/工作/基础/db/mysql/MySQL-表的创建.md",
-    "4.归档/工作/基础/db/mysql/MySQL-查询.md",
-    "4.归档/工作/基础/db/mysql/MySQL-准备工作.md",
-    "4.归档/工作/基础/about/README.md",
     "5.专题研究/vue.js/vue-basic",
     "5.专题研究/vue.js/vue-basic/assets/Pasted image 20230303212111.png",
     "5.专题研究/云服务器相关/assets/Pasted image 20230303201436.png",

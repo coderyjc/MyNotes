@@ -1,6 +1,6 @@
 ---
 tags: WeeklyNote
-banner: "_plugin/banners/daily-note-banner.gif"
+banner: "0.plugin/banners/daily-note-banner.gif"
 banner_y: 0.5536
 banner_x: 0.50168
 cssclass: noyaml
