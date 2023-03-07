@@ -27,6 +27,6 @@ where contains(file.path, "vue-basic")
 
 [[watch侦听]]
 
-[[双向绑定]]
+[[v-model双向绑定]]
 
 [[组件化开发入门]]
