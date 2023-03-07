@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md",
+                "file": "2.等待处理/Diary/2023-03-07.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.50909423828125,
-    "collapsed": true
+    "width": 277.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md",
+                "file": "2.等待处理/Diary/2023-03-07.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md"
+                "file": "2.等待处理/Diary/2023-03-07.md"
               }
             }
           },
