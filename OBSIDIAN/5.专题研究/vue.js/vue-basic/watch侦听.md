@@ -12,3 +12,6 @@ complete: false
 侦听器的用法如下：
 - 选项：watch
 - 类型：`{ [key: string]: string | Function | Object | Array}`
+
+
+
