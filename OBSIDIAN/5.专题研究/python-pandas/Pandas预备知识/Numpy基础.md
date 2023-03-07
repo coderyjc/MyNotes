@@ -1,195 +1,6 @@
-```python
-import pandas
-```
+## np数组的构造
 
-## Python基础
-
-### 列表推导式和条件赋值
-
-假设我们要生成一个列表
-
-```python
-In [8]: def my_func(x):
-   ...:     return 2*x
-   ...:
-
-In [9]: for i in range(5):
-   ...:     L.append(my_func(i))
-   ...:
-
-In [10]: L
-Out[10]: [0, 2, 4, 6, 8]
-```
-
-简单写法
-
-```python
-In [11]: [my_func(x) for x in range(5)]
-Out[11]: [0, 2, 4, 6, 8]
-```
-
-多层嵌套
-
-```python
-In [12]: [m+'-'+n for m in ['a', 'c'] for n in ['c','d']]
-Out[12]: ['a-c', 'a-d', 'c-c', 'c-d']
-```
-
-除此之外，另一个实用的语法糖是带有 if 选择的条件赋值，其形式为 `value = a if condition else b`
-
-```python
-In [13]: value = 'cat' if 2 > 1 else 'dog'
-
-In [14]: value
-Out[14]: 'cat'
-```
-
-举例：截断列表中超过5的元素，即超过5的用5代替，小于5的保留原来的值
-
-```python
-In [15]: L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-In [16]: [i if i <= 5 else 5 for i in L]
-Out[16]: [1, 2, 3, 4, 5, 5, 5, 5, 5]
-```
-
-
-### 匿名函数与map方法
-
-函数映射关系比较简单的函数，可以使用匿名函数，比如：
-
-```python
-In [17]: my_fun = lambda x: 5*x
-
-In [18]: my_fun(8)
-Out[18]: 40
-```
-
-```python
-In [19]: multi_fun = lambda a, b: a * b
-
-In [20]: multi_fun(5, 6)
-Out[20]: 30
-```
-
-上述只是举例，说是匿名函数，还是给它起了一个名字的，真正使用的时候不会命名的，如下：
-
-```python
-# 0-4的平方列表
-In [21]: [(lambda x: x*x)(i) for i in range(5)]
-Out[21]: [0, 1, 4, 9, 16]
-```
-
-对于上述的这种列表推导式的匿名函数映射， Python 中提供了 map 函数来完成，它返回的是一个 map 对象，需要通过 list 转为列表：
-
-```python
-In [22]: list(map(lambda x: x*x, range(5)))
-Out[22]: [0, 1, 4, 9, 16]
-```
-
-对于多个输入值的函数映射，可以通过追加迭代对象实现
-
-```python
-In [23]: list(map(lambda a,b:str(a)+'_'+str(b), range(5), list('abcde')))
-Out[23]: ['0_a', '1_b', '2_c', '3_d', '4_e']
-```
-
-### zip对象和enumerate方法
-
-zip函数能够把多个可迭代对象打包成一个元组构成的可迭代对象，它返回了一个 `zip` 对象，通过 `tuple`, `list` 可以得到相应的打包结果：
-
-
-```python
-In [24]: L1, L2, L3 = list('abc'), list('def'), list('ghi')
-
-In [25]: list(zip(L1, L2, L3))
-Out[25]: [('a', 'd', 'g'), ('b', 'e', 'h'), ('c', 'f', 'i')]
-```
-
-```python
-In [26]: tuple(zip(L1, L2, L3))
-Out[26]: (('a', 'd', 'g'), ('b', 'e', 'h'), ('c', 'f', 'i'))
-```
-
-```python
-# 往往会在循环迭代的时候用到zip函数
-
-In [27]: for i,j,k in zip(L1, L2, L3):
-    ...:         print(i, j, k)
-    ...:
-a d g
-b e h
-c f i
-```
-
-enumerate 是一种特殊的打包，它可以在迭代时绑定迭代元素的遍历序号：
-
-```python
-In [28]: L = list('abcdefghij')
-
-In [29]:
-
-In [29]: for index, value in enumerate(L):
-    ...:         print(index, value)
-    ...:
-0 a
-1 b
-2 c
-3 d
-4 e
-5 f
-6 g
-7 h
-8 i
-9 j
-```
-
-
-```python
-# zip对象也能简单实现这个功能
-
-In [30]: for index,value in zip(range(len(L)), L):
-    ...:         print(index, value)
-    ...:
-0 a
-1 b
-2 c
-3 d
-4 e
-5 f
-6 g
-7 h
-8 i
-9 j
-
-```
-
-当需要对两个列表建立字典映射，可以使用zip对象
-
-```python
-In [31]: L1, L2= list('abc'), list('def')
-
-In [32]: dict(zip(L1, L2))
-Out[32]: {'a': 'd', 'b': 'e', 'c': 'f'}
-```
-
-也可以使用* 操作符和zip联合使用进行解压
-
-```python
-In [33]: L1, L2= list('abc'), list('def')
-
-In [34]: zipped = list(zip(L1, L2))
-
-In [35]: print(zipped)
-[('a', 'd'), ('b', 'e'), ('c', 'f')]
-
-In [36]: list(zip(*zipped))
-Out[36]: [('a', 'b', 'c'), ('d', 'e', 'f')]
-```
-
-## Numpy基础
-
-### np数组的构造
+### 通过array构造
 
 最一般的方法：通过array构造
 
@@ -203,7 +14,7 @@ In [38]: np.array([1, 2, 3, 4, 5])
 Out[38]: array([1, 2, 3, 4, 5])
 ```
 
-【a】等差序列 `np.linspave` `np.arange`
+### 【a】等差序列 `np.linspave` `np.arange`
 
 ```python
 # 起始，终止（包含），样本个数
@@ -217,7 +28,7 @@ In [40]: np.arange(1, 5, 2)
 Out[40]: array([1, 3])
 ```
 
-【b】特殊矩阵 `zeros`, `eye`, `full`
+### 【b】特殊矩阵 `zeros`, `eye`, `full`
 
 ```python
 # 传入元组表示各维度的大小
@@ -263,7 +74,7 @@ array([[3, 2, 1],
 ```
 
 
-随机矩阵 `np.random`
+### 随机矩阵 `np.random`
 
 常用的随机生成函数：
 
@@ -352,7 +163,7 @@ In [18]: # 当返回的元素个数与原列表相同时，不放回抽样等价
 In [19]: np.random.permutation(my_list)
 Out[19]: array(['d', 'b', 'a', 'c'], dtype='<U1')
 
-In [20]: # 随即种子，能够固定随机数的输出结果
+In [20]: # 随机种子，能够固定随机数的输出结果
 
 In [21]: np.random.seed(0)
 
@@ -368,25 +179,22 @@ Out[24]: 0.5488135039273248
 
 ```
 
-### np数组的变形与合并
+## np数组的变形与合并
+
+```python
+In [1]: import numpy as np
+```
+
+
 
 ```python
 
-In [1]: import numpy as np
 
 In [2]: np.zeros( (2,3) ).T
 Out[2]:
 array([[0., 0.],
        [0., 0.],
        [0., 0.]])
-
-In [3]: np.r_[np.zeros((2,3)), np.zeros(2,3)]
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-<ipython-input-3-c8127c0dadd9> in <module>
-----> 1 np.r_[np.zeros((2,3)), np.zeros(2,3)]
-
-TypeError: Cannot interpret '3' as a data type
 
 In [4]: np.r_[np.zeros((2,3)), np.zeros((2,3))]
 Out[4]:
@@ -418,30 +226,12 @@ Out[9]: array([0., 0., 0., 0.])
 In [10]: np.r_[np.array([1,2]), np.zeros(2)]
 Out[10]: array([1., 2., 0., 0.])
 
-In [11]: np.r_[np.array([1,2]), np.zeros((2,3))]
----------------------------------------------------------------------------
-ValueError                                Traceback (most recent call last)
-<ipython-input-11-cba1ec987bbf> in <module>
-----> 1 np.r_[np.array([1,2]), np.zeros((2,3))]
-
-F:\env\Annaconda\lib\site-packages\numpy\lib\index_tricks.py in __getitem__(self, key)
-    411                 objs[k] = objs[k].astype(final_dtype)
-    412
---> 413         res = self.concatenate(tuple(objs), axis=axis)
-    414
-    415         if matrix:
-
-<__array_function__ internals> in concatenate(*args, **kwargs)
-
-ValueError: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 1 has 2 dimension(s)
-
 In [12]: np.c_[np.array([1,2]), np.zeros((2,3))]
 Out[12]:
 array([[1., 0., 0., 0.],
        [2., 0., 0., 0.]])
 
-In [13]: # reshape 能够帮助用户把原数组按照新的维度重新排列。在使用时有两种模式，
-    ...: 分别为 C 模式和 F 模式，分别以逐行和逐列的顺序进行填充读取。
+In [13]: # reshape 能够帮助用户把原数组按照新的维度重新排列。在使用时有两种模式，分别为 C 模式和 F 模式，分别以逐行和逐列的顺序进行填充读取。
 
 In [14]: target = np.arange(8).reshape(2,4)
 
@@ -456,22 +246,6 @@ In [17]: target
 Out[17]:
 array([[0, 1, 2, 3],
        [4, 5, 6, 7]])
-
-In [18]: target = np.arange(8).reshape((2,4), order='R')
----------------------------------------------------------------------------
-ValueError                                Traceback (most recent call last)
-<ipython-input-18-ad5cf92f04bc> in <module>
-----> 1 target = np.arange(8).reshape((2,4), order='R')
-
-ValueError: order must be one of 'C', 'F', 'A', or 'K' (got 'R')
-
-In [19]: target = np.arange(8).reshape((4,2), order='R')
----------------------------------------------------------------------------
-ValueError                                Traceback (most recent call last)
-<ipython-input-19-fcf7c3bb1353> in <module>
-----> 1 target = np.arange(8).reshape((4,2), order='R')
-
-ValueError: order must be one of 'C', 'F', 'A', or 'K' (got 'R')
 
 In [20]: target = np.arange(8).reshape((4,2), order='F')
 
@@ -518,21 +292,12 @@ array([[0, 1, 2],
        [3, 4, 5],
        [6, 7, 8]])
 
-In [32]: target[: -1: [0, 2]]
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-<ipython-input-32-d0f6a457598f> in <module>
-----> 1 target[: -1: [0, 2]]
-
-TypeError: slice indices must be integers or None or have an __index__ method
-
 In [33]: target[: -1, [0, 2]]
 Out[33]:
 array([[0, 2],
        [3, 5]])
 
-In [34]: # 此外，还可以利用 np.ix_ 在对应的维度上使用布尔索引，但此时不能使用 slic
-    ...: e 切片
+In [34]: # 此外，还可以利用 np.ix_ 在对应的维度上使用布尔索引，但此时不能使用 slice 切片
 
 In [35]: target[np.ix_([True, False, True], [True, False, True])]
 Out[35]:
@@ -553,28 +318,24 @@ Out[39]: array([0, 2, 4, 6, 8])
 
 ```
 
-### 常用函数
+## 常用函数
+
+### where
 
 ```python
 In [1]: # where
-
-In [2]: a = np.array([-1, 1, -1, 0])
----------------------------------------------------------------------------
-NameError                                 Traceback (most recent call last)
-<ipython-input-2-1e6b58c8dad2> in <module>
-----> 1 a = np.array([-1, 1, -1, 0])
-
-NameError: name 'np' is not defined
-
-In [3]: import numpy as np
 
 In [4]: a = np.array([-1, 1, -1, 0])
 
 In [5]: np.where(a>0, a, 5)
 Out[5]: array([5, 1, 5, 5])
 
-In [6]: # nonzero, argmax, argmin
+```
 
+
+### nonzero, argmax, argmin
+
+```python
 In [7]: # 返回索引，nonzero返回非零索引，另外两个分别返回最大和最小数的索引
 
 In [8]: a = np.array([-2, -5, 0, 1, 3, -1])
@@ -601,8 +362,11 @@ Out[15]: True
 In [16]: a.all()
 Out[16]: False
 
-In [17]: # cumprod, cumsum, diff
+```
 
+### cumprod, cumsum, diff
+
+```python
 In [18]: a = np.array([1,2,3])
 
 In [19]: a.cumprod()
@@ -630,6 +394,62 @@ Out[26]: 0
 In [27]: np.quantile(target, 0.5)
 Out[27]: 2.0
 
-In [28]: # 但是对于含有缺失值的数组，它们返回的结果也是缺失值，如果需要略过缺失值必须使用 nan* 类型的函数，上述的几个统计函数都有对应的 nan* 函数。
+
 ```
+
+但是对于含有缺失值的数组，它们返回的结果也是缺失值，如果需要略过缺失值必须使用 nan* 类型的函数，上述的几个统计函数都有对应的 nan* 函数。也就是函数的名称必须以`nan`开头
+
+```python
+In [3]: target = np.array([1, 2, np.nan])
+
+In [4]: target
+Out[4]: array([ 1.,  2., nan])
+
+In [5]: target.max()
+Out[5]: nan
+
+In [6]: np.nanmax(target)
+Out[6]: 2.0
+
+In [7]: np.nanquantile(target, 0.5)
+Out[7]: 1.5
+
+```
+
+对于协方差和相关系数分别可以利用 `cov, corrcoef` 如下计算：
+
+```python
+In [8]: target1 = np.array([1, 3, 5, 9])
+
+In [9]: target2 = np.array([1, 5, 3, -9])
+
+In [10]: np.cov(target1, target2)
+Out[10]:
+array([[ 11.66666667, -16.66666667],
+       [-16.66666667,  38.66666667]])
+
+In [11]: np.corrcoef(target1, target2)
+Out[11]:
+array([[ 1.        , -0.78470603],
+       [-0.78470603,  1.        ]])
+```
+
+最后，需要说明二维 `Numpy` 数组中统计函数的 `axis` 参数，它能够进行某一个维度下的统计特征计算，当 `axis=0` 时结果为列的统计指标，当 `axis=1` 时结果为行的统计指标：
+
+```python
+In [12]: target = np.arange(1, 10).reshape(3, -1)
+
+In [13]: target
+Out[13]:
+array([[1, 2, 3],
+       [4, 5, 6],
+       [7, 8, 9]])
+
+In [14]: target.sum(0)
+Out[14]: array([12, 15, 18])
+
+In [15]: target.sum(1)
+Out[15]: array([ 6, 15, 24])
+```
+
 

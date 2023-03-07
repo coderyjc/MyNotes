@@ -9,7 +9,7 @@ pandas 教程
 ```
 
 
-[[5.专题研究/python-pandas/Pandas预备知识]]
+[[Pandas预备知识/_Pandas预备知识]]
 
 [[5.专题研究/python-pandas/Pandas基础]]
 

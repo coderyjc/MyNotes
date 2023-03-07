@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc7887d46aaccfba",
+        "id": "25bc149e013bae26",
         "type": "tabs",
         "children": [
           {
-            "id": "c9a1742dc6fbecfb",
+            "id": "ae9950399937ca72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
+                "file": "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md",
+                "file": "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/python-pandas/Pandas预备知识.md"
+                "file": "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -144,11 +144,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c9a1742dc6fbecfb",
+  "active": "ae9950399937ca72",
   "lastOpenFiles": [
-    "5.专题研究/python-pandas/_Pandas.md",
-    "5.专题研究/python-pandas/Pandas预备知识.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Pandas预备知识-练习.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Python基础.md",
+    "5.专题研究/python-pandas/Pandas预备知识/_Pandas预备知识.md",
     "2.等待处理/Diary/2023-03-07.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md",
+    "5.专题研究/python-pandas/_Pandas.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Pandas预备知识 - 练习.md",
+    "5.专题研究/python-pandas/Pandas预备知识",
+    "5.专题研究/python-pandas/Pandas基础.md",
     "5.专题研究/vue.js/vue-basic/vue_basic_index.md",
     "5.专题研究/vue.js/_vue.js.md",
     "5.专题研究/vue.js/pinia.md",
@@ -169,11 +175,6 @@
     "5.专题研究/vue.js/vuex.md",
     "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
     "2.等待处理/Diary/2023-03-04.md",
-    "2.等待处理/Diary/2023-03-03.md",
-    "2.等待处理/Diary/2023-03-06.md",
-    "5.专题研究/vue.js/axios.md",
-    "5.专题研究/vue.js/vue_component.md",
-    "HOME.md",
     "4.归档/工作/基础/front/js/正则表达式.pdf",
     "5.专题研究/vue.js/vue-basic",
     "5.专题研究/vue.js/vue-basic/assets/Pasted image 20230303212111.png",
@@ -190,7 +191,6 @@
     "5.专题研究/云服务器相关",
     "_remotely-save-metadata-on-remote.json",
     "40 - Obsidian/主页/00. 主页.md.nssyncsc",
-    "5.专题研究/vue.js/vue-basic/assets",
-    "4.归档/工作/学习周刊/assets"
+    "5.专题研究/vue.js/vue-basic/assets"
   ]
 }
