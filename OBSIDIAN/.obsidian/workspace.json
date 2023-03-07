@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-07.md",
+                "file": "5.专题研究/人际关系/和导师/如何和导师交流.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "81b19cebd65c7df4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/人际关系/和导师/交流记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.50909423828125
+    "width": 277.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-07.md",
+                "file": "5.专题研究/人际关系/和导师/如何和导师交流.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-07.md"
+                "file": "5.专题研究/人际关系/和导师/如何和导师交流.md"
               }
             }
           },
@@ -123,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -142,9 +157,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "b8957ffce80faffc",
   "lastOpenFiles": [
-    "5.专题研究/交流",
+    "5.专题研究/人际关系/和导师/交流记录.md",
+    "5.专题研究/人际关系/和导师/如何和导师交流.md",
+    "2.等待处理/Diary/2023-03-07.md",
+    "5.专题研究/人际关系/和导师",
+    "5.专题研究/人际关系",
     "5.专题研究/vue.js/vue-basic/watch侦听.md",
     "5.专题研究/vue.js/vue-basic/Vue初探.md",
     "5.专题研究/vue.js/vue-basic/事件绑定.md",
@@ -158,7 +177,6 @@
     "5.专题研究/vue.js/vuex.md",
     "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
     "5.专题研究/vue.js/vue_advance.md",
-    "2.等待处理/Diary/2023-03-07.md",
     "2.等待处理/Diary/2023-03-04.md",
     "2.等待处理/Diary/2023-03-03.md",
     "2.等待处理/Diary/2023-03-06.md",
@@ -169,7 +187,6 @@
     "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2023-03-05.md",
     "4.归档/工作/基础/java/spring/mybatis/MyBatis逆向工程.md",
-    "5.专题研究/云服务器相关/域名的购买和认证.md",
     "4.归档/工作/基础/front/js/正则表达式.pdf",
     "5.专题研究/vue.js/vue-basic",
     "5.专题研究/vue.js/vue-basic/assets/Pasted image 20230303212111.png",
@@ -187,7 +204,6 @@
     "_remotely-save-metadata-on-remote.json",
     "40 - Obsidian/主页/00. 主页.md.nssyncsc",
     "5.专题研究/vue.js/vue-basic/assets",
-    "4.归档/工作/学习周刊/assets",
-    "4.归档/工作/工程/Python库/assets/000_Nutstore Flash Download Guide.html.nssyncsc"
+    "4.归档/工作/学习周刊/assets"
   ]
 }
