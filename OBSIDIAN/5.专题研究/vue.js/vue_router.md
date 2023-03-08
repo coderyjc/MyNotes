@@ -47,7 +47,7 @@
 
 URL的hash也就是锚点(#), 本质上是改变window.location的href属性， 我们可以通过直接赋值location.hash来改变href, 但是页面不发生刷新；
 
-hash的优势就是兼容性更好，在老版IE中都可以运行，但是缺陷是有一个#，显得不像一个真实的路径。
+hash的优势就是兼容性更好，在老版IE中都可以运行，但是**缺陷是有一个#**，显得不像一个真实的路径。
 
 ![[assets/Pasted image 20230308132326.png]]
 
@@ -58,6 +58,10 @@ history接口是HTML5新增的, 它有六种模式改变URL而不刷新页面：
 - go：向前或向后改变路径；
 - forward：向前改变路径；
 - back：向后改变路径
+
+history模式不显示路径
+
+![[assets/Pasted image 20230308134752.png]]
 
 ### 认识vue-router
 
@@ -139,22 +143,139 @@ app.vue 使用router-view
 
 ## router-link
 
-使用组件`router-link`
+### 默认路径
 
+默认情况下, 进入网站的首页, 我们希望`<router-view>`渲染首页的内容，但是我们的实现中, 默认没有显示首页组件, 必须让用户点击才可以
 
+如何可以让路径默认跳到到首页, 并且`<router-view>`渲染首页组件呢?
 
+![[assets/Pasted image 20230308134633.png]]
 
+path配置的是根路径: /，redirect是重定向, 也就是我们将根路径重定向到/home的路径下
+
+### router-link的属性
+
+to属性：
+- 是一个字符串，或者是一个对象
+
+replace属性：
+- 设置 replace 属性的话，当点击时，会调用 router.replace()，而不是 router.push()；
+
+active-class属性：
+- 设置激活a元素后应用的class，默认是router-link-active
+
+exact-active-class属性：
+- 链接精准激活时，应用于渲染的 `<a>` 的 class，默认是router-link-exact-active
 
 ## 路由懒加载
 
+当打包构建应用时，JavaScript 包会变得非常大，影响页面加载，如果我们能把不同路由对应的组件分割成不同的代码块，然后当路由被访问的时候才加载对应组件，这样就会更加高效，也可以提高首屏的渲染效率；
+
+这里还是我们前面讲到过的webpack的分包知识，而Vue Router默认就支持动态来导入组件：
+因为component可以传入一个组件，也可以接收一个函数，该函数需要返回一个Promise，而import函数就是返回一个Promise；
+
+```js
+// 路由的懒加载
+const Home = () => import("../Views/Home.vue")
+const About = () => import("../Views/About.vue")
+
+// 也可以这样写
+
+const routes = [
+    { path: "/home", component: () => import("../Views/Home.vue") },
+    { path: "/about", component: () => import("../Views/About.vue") },
+]
+
+```
 
 ## 动态路由和路由嵌套
 
+### 动态路由基本匹配
+
+渲染用户id
+
+Vue Router中，我们可以在路径中使用一个动态字段来实现，我们称之为 **路径参数**；
+
+```js
+{
+	path: '/user/:id',
+	component: () => import('../pages/User.vue')
+}
+```
+
+在router/link中实现跳转
+
+```html
+<router-link to="/user/123">用户123</router-link>
+```
+
+### 获取动态路由的值
+
+在template中，直接通过 `$route.params` 获取值；是route，不是router，router是大对象，route是小对象
+
+在created中，通过 `this.$route.params` 获取值；
+
+在setup中，我们要使用 vue-router库给我们提供的一个hook useRoute；该Hook会返回一个Route对象，对象中保存着当前路由相关的值；
+
+```js
+import { useRoute } from 'vue-router'
+
+route = useRoute()
+```
+
+**如何在跳转的时候同时获取到跳转之前和跳转之后的值动态路由的值？**
+
+使用`onBeforeRouteUpdate`
+
+```js
+  import { useRoute, onBeforeRouteUpdate } from 'vue-router'
+  
+  // 获取route跳转id
+  onBeforeRouteUpdate((to, from) => {
+    console.log("from:", from.params.id)
+    console.log("to:", to.params.id)
+  })
+```
+
+### NotFound
+
+对于哪些没有匹配到的路由，我们通常会匹配到固定的某个页面，比如NotFound的错误页面中，这个时候我们可编写一个动态路由用于匹配所有的页面；
+
+在路由表的最后添加
+
+```js
+{
+  path: "/:pathMatch(.*)*",
+  component: () => import("../Views/NotFound.vue")
+}
+```
+
+表示当匹配以上匹配不到的所有url
+
+```ad-note
+注意：我在/:pathMatch(.*)后面又加了一个 *；
+它们的区别在于解析的时候，是否解析 / 
+加上会转化为数组，不加就是url格式
+
+![[assets/Pasted image 20230308142319.png]]
+```
+
+在404组件中可以通过 `$route.params.pathMatch`获取到传入的参数：
+
+```html
+<h2>NotFound: 您当前的路径{{ $route.params.pathMatch }}不正确, 请输入正确的路径!</h2>
+```
 
 ## 编程式导航
+
+使用函数进行跳转
+
+
 
 
 ## 动态管理路由对象
 
 
-## 路有导航守卫钩子
+
+
+## 路由导航守卫钩子
