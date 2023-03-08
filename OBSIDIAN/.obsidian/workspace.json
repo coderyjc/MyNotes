@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a17a15dfe49d93f",
+        "id": "b9bc2e870d0bcf65",
         "type": "tabs",
         "children": [
           {
-            "id": "4fefec8ea69f09bc",
+            "id": "517faa0fef36bc64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-08.md",
+                "file": "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.50909423828125
+    "width": 277.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-08.md",
+                "file": "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-08.md"
+                "file": "5.专题研究/vue.js/vue-basic/组件化开发入门.md"
               }
             }
           },
@@ -123,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,21 +146,23 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "HOME.md",
+    "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
+    "5.专题研究/vue.js/vue_component.md",
+    "5.专题研究/vue.js/_vue.js.md",
     "2.等待处理/Diary/2023-03-08.md",
-    "2.等待处理/Diary/2023-03-03.md",
-    "2.等待处理/Diary/2023-03-07.md",
-    "5.专题研究/人际关系/和同学/2023.03.07晚-浩博.md",
-    "5.专题研究/人际关系/和同学/【未完成】和贺运佳.md",
-    "5.专题研究/人际关系/和同学/【未完成】和浩南.md",
-    "5.专题研究/人际关系/和同学",
+    "HOME.md",
     "5.专题研究/vue.js/vue-basic/vue_basic_index.md",
     "5.专题研究/vue.js/vue-basic/v-model双向绑定.md",
+    "5.专题研究/vue.js/vue-basic/模板语法.md",
+    "5.专题研究/人际关系/和同学/【未完成】和贺运佳.md",
+    "5.专题研究/人际关系/和同学/2023.03.07晚-浩博.md",
+    "2.等待处理/Diary/2023-03-03.md",
+    "2.等待处理/Diary/2023-03-07.md",
+    "5.专题研究/人际关系/和同学/【未完成】和浩南.md",
+    "5.专题研究/人际关系/和同学",
     "5.专题研究/vue.js/vue-basic/列表渲染.md",
     "5.专题研究/vue.js/vue-basic/事件绑定.md",
     "5.专题研究/vue.js/vue-basic/计算属性.md",
-    "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
-    "5.专题研究/vue.js/vue-basic/模板语法.md",
     "5.专题研究/vue.js/vue-basic/条件渲染.md",
     "5.专题研究/vue.js/vue-basic/watch侦听.md",
     "5.专题研究/python-pandas/Pandas预备知识/Pandas预备知识-练习.md",
@@ -169,9 +173,7 @@
     "5.专题研究/python-pandas/Pandas预备知识/Pandas预备知识 - 练习.md",
     "5.专题研究/python-pandas/Pandas预备知识",
     "5.专题研究/python-pandas/Pandas基础.md",
-    "5.专题研究/vue.js/_vue.js.md",
     "5.专题研究/vue.js/pinia.md",
-    "5.专题研究/vue.js/vue_advance.md",
     "5.专题研究/人际关系/和导师",
     "5.专题研究/人际关系",
     "4.归档/工作/基础/front/js/正则表达式.pdf",

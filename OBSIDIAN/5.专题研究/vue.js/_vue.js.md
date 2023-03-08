@@ -1,6 +1,6 @@
 
 
-[[vue-basic/vue_basic_index]]
+[[vue-basic/vue_basic_index|vue基础]]
 
 [[5.专题研究/vue.js/vue_component]]
 
