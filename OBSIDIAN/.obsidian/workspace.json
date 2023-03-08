@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "32717b37fc098a10",
+        "id": "8e86e726d8671b06",
         "type": "tabs",
         "children": [
           {
-            "id": "ba586cdc9d3fecc3",
+            "id": "f2f9c2c9ce7f6924",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/vue.js/vuex.md",
+                "file": "4.归档/工作/学习周刊/2023-10.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/vue.js/vuex.md",
+                "file": "4.归档/工作/学习周刊/2023-10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/vue.js/vuex.md"
+                "file": "4.归档/工作/学习周刊/2023-10.md"
               }
             }
           },
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,15 +142,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ba586cdc9d3fecc3",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/vue.js/vue_router.md",
-    "5.专题研究/vue.js/vue_composition.md",
-    "5.专题研究/vue.js/vuex.md",
-    "5.专题研究/vue.js/pinia.md",
-    "5.专题研究/vue.js/_vue.js.md",
-    "5.专题研究/vue.js/axios.md",
-    "5.专题研究/vue.js/vue_advance.md",
+    "4.归档/工作/学习周刊/2023-08.md",
+    "4.归档/工作/学习周刊/2023-10.md",
+    "4.归档/工作/学习周刊/2023-07.md",
+    "4.归档/工作/基础/software/pycharm/plugin-pycharm.md",
+    "4.归档/工作/基础/software/idea/jetbrains-idea.md",
+    "4.归档/工作/基础/software/idea/plugins-idea.md",
+    "4.归档/工作/基础/other/Matlab/MATLAB.md",
+    "4.归档/工作/基础/middleware/tomcat/Tomcat.md",
+    "4.归档/工作/基础/devops/docker/docker-basic.md",
+    "4.归档/工作/基础/devops/docker/docker-advanced.md",
+    "4.归档/工作/基础/db/mysql/-mysql-advanced.md",
+    "4.归档/工作/基础/db/mysql/-mysql-basic.md",
+    "4.归档/工作/基础/db/mongodb/README.md",
+    "4.归档/工作/基础/db/mongodb/mongodb-basic.md",
+    "4.归档/工作/基础/cloud-computing/README.md",
+    "4.归档/工作/基础/bigdata/python/python-spider/python-spider.md",
+    "4.归档/工作/基础/bigdata/python/python-spider/python-scrapy.md",
+    "4.归档/工作/基础/bigdata/python/python-libs/collections/【Python库】collections.Conter.md",
+    "4.归档/工作/基础/bigdata/python/python-basic/01.字符和输入输出.md",
+    "4.归档/工作/基础/about/Plan.md",
+    "4.归档/工作/基础/about/README.md",
+    "4.归档/工作/基础/about/log.md",
+    "4.归档/工作/基础/about/get_info.md",
+    "4.归档/工作/基础/algorithm/PTA/tips.md",
+    "4.归档/工作/基础/algorithm/PTA/字符串相关.md",
+    "5.专题研究/vue.js/vue-basic/vue_basic_index.md",
+    "5.专题研究/vue.js/assets/Pasted image 20230308160022.png",
+    "5.专题研究/vue.js/assets/Pasted image 20230308160016.png",
     "5.专题研究/vue.js/assets/Pasted image 20230308150719.png",
     "5.专题研究/vue.js/assets/Pasted image 20230308150712.png",
     "5.专题研究/vue.js/assets/Pasted image 20230308150709.png",
@@ -160,30 +180,9 @@
     "5.专题研究/vue.js/assets/Pasted image 20230308142318.png",
     "5.专题研究/vue.js/assets/Pasted image 20230308134752.png",
     "5.专题研究/vue.js/assets/Pasted image 20230308134633.png",
-    "5.专题研究/vue.js/assets/Pasted image 20230308132326.png",
     "5.专题研究/vue.js/assets",
-    "5.专题研究/vue.js/vue-component/vue_component_index.md",
-    "5.专题研究/vue.js/vue-component/知识补充.md",
-    "5.专题研究/vue.js/vue-component/Slot非父子通信.md",
-    "5.专题研究/vue.js/vue-component/组件嵌套和通信.md",
-    "5.专题研究/vue.js/vue-component/assets/Pasted image 20230308113807.png",
     "5.专题研究/vue.js/vue-component/assets",
-    "5.专题研究/vue.js/vue-basic/Vue-Cli.md",
-    "5.专题研究/vue.js/vue-basic/jsconfig.md",
-    "5.专题研究/vue.js/vue-basic/vue_basic_index.md",
-    "5.专题研究/vue.js/vue-basic/watch侦听.md",
-    "5.专题研究/vue.js/vue-basic/Vue初探.md",
-    "5.专题研究/vue.js/vue-basic/模板语法.md",
-    "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
-    "5.专题研究/vue.js/vue-basic/条件渲染.md",
-    "5.专题研究/vue.js/vue-basic/计算属性.md",
-    "5.专题研究/vue.js/vue-basic/事件绑定.md",
     "5.专题研究/vue.js/vue-component",
-    "4.归档/工作/工程/前端框架/Vue.js/Vue-Cli-bug.md",
-    "2.等待处理/Diary/2023-03-08.md",
-    "HOME.md",
-    "5.专题研究/vue.js/vue-basic/v-model双向绑定.md",
-    "5.专题研究/人际关系/和同学/【未完成】和贺运佳.md",
     "5.专题研究/人际关系/和同学",
     "5.专题研究/python-pandas/Pandas预备知识",
     "5.专题研究/人际关系/和导师",
