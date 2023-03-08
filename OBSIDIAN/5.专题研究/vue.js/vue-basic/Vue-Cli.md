@@ -19,7 +19,7 @@ Vue create [name]
 ```
 
 
-### 创建项目的过程
+### 创建项目的过程-Vue-Cli
 
 ![[assets/Pasted image 20230308091433.png]]
 
@@ -29,11 +29,52 @@ Vue create [name]
 
 ![[assets/Pasted image 20230308091445.png]]
 
-### 项目的目录结构
+==项目的目录结构==
 
 ![[assets/Pasted image 20230308091505.png]]
 
 ![[assets/Pasted image 20230308091509.png]]
+
+
+### 创建项目的过程-Npm
+
+vue-cli创建的项目默认是使用webpack进行管理的，npm创建的项目默认使用vite进行管理。
+
+```bash
+npm init vue@latest
+```
+
+创建过程
+
+```bash
+PS D:\code\github\workspace\vue> npm init vue@latest
+Need to install the following packages:
+  create-vue@3.6.1
+Ok to proceed? (y) y
+
+Vue.js - The Progressive JavaScript Framework
+
+√ Project name: ... vue-project
+√ Add TypeScript? ... No / Yes
+√ Add JSX Support? ... No / Yes
+√ Add Vue Router for Single Page Application development? ... No / Yes
+√ Add Pinia for state management? ... No / Yes
+√ Add Vitest for Unit Testing? ... No / Yes
+√ Add an End-to-End Testing Solution? » No
+√ Add ESLint for code quality? ... No / Yes
+
+Scaffolding project in D:\code\github\workspace\vue\vue-project...
+
+Done. Now run:
+
+  cd vue-project
+  npm install
+  npm run dev
+```
+
+![[assets/Pasted image 20230308105017.png]]
+
+创建成功的项目默认通过vite打包。
 
 
 
@@ -82,8 +123,15 @@ vue.esm-bundler: runtime + compile, 对template进行编译
 
 ### 补充
 
-补充: 单文件Vue style是有自己的作用域
+**单文件Vue style是有自己的作用域**
 
 style -> scoped
 
-补充: vite创建一个Vue项目
+```html
+<style scoped>
+
+</style>
+```
+
+**vite创建一个Vue项目**
+
