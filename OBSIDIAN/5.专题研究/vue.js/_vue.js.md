@@ -2,7 +2,7 @@
 
 [[vue-basic/vue_basic_index|vue基础]]
 
-[[5.专题研究/vue.js/vue_component]]
+[[vue-component/vue_component_index|Vue-组件]]
 
 [[5.专题研究/vue.js/vue_composition]]
 
