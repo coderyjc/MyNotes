@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.50909423828125
+    "width": 277.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -145,6 +146,8 @@
   },
   "active": "aa4c149931fd7264",
   "lastOpenFiles": [
+    "5.专题研究/vue.js/assets/Pasted image 20230308132326.png",
+    "5.专题研究/vue.js/assets",
     "5.专题研究/vue.js/axios.md",
     "5.专题研究/vue.js/pinia.md",
     "5.专题研究/vue.js/vue_router.md",
@@ -182,14 +185,12 @@
     "HOME.md",
     "5.专题研究/vue.js/vue-basic/v-model双向绑定.md",
     "5.专题研究/人际关系/和同学/【未完成】和贺运佳.md",
-    "5.专题研究/人际关系/和同学/2023.03.07晚-浩博.md",
     "5.专题研究/人际关系/和同学",
     "5.专题研究/python-pandas/Pandas预备知识",
     "5.专题研究/人际关系/和导师",
     "5.专题研究/人际关系",
     "4.归档/工作/基础/front/js/正则表达式.pdf",
     "5.专题研究/vue.js/vue-basic",
-    "5.专题研究/云服务器相关/assets",
-    "5.专题研究/云服务器相关"
+    "5.专题研究/云服务器相关/assets"
   ]
 }
