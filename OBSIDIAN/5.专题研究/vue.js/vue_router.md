@@ -268,14 +268,113 @@ route = useRoute()
 
 ## 编程式导航
 
-使用函数进行跳转
+使用函数控制跳转关系
+
+```js
+  // 监听元素的点击
+  function homeSpanClick() {
+    // 跳转到首页
+    // router.push("/home")
+    router.push({
+      // name: "home"
+      path: "/home"
+    })
+  }
+  
+  function aboutBtnClick() {
+    // 跳转到关于
+    router.push({
+      path: "/about",
+      query: {
+        name: "why",
+        age: 18
+      }
+    })
+  }
+
+```
+
+query是进行跳转的时候进行参数传递的方式。
+
+在页面中通过 `$route.query` 来获取参数：
+
+```html
+<h2>query {{ $route.query.name }}<h2>
+```
+
+### 路由替换
+
+使用push的特点是压入一个新的页面，那么在用户点击返回时，上一个页面还可以回退，但是如果我们希望当前页面是一个替换操作，那么可以使用replace
+
+![[assets/Pasted image 20230308143243.png]]
+
+### 页面的前进后退
+
+```js
+// 向前移动一条记录，和router.forward()相同
+router.go(1)
+
+// 向后移动一条记录，和router.back()相同
+router.go(-1)
 
 
-
+// 如果传递的参数过大或者过小，不会按照最大或者最小的进行路由，而是直接显示失败。
+```
 
 ## 动态管理路由对象
 
+### 动态添加路由对象
+
+某些情况下我们可能需要动态的来添加路由：比如根据用户不同的权限，注册不同的路由；这个时候我们可以使用一个方法 addRoute；
+
+根据用户角色判断是否添加路由：
+
+router/index.js
+
+```js
+if (isAdmin) {
+  // 一级路由
+  router.addRoute({
+    path: "/admin",
+    component: () => import("../Views/Admin.vue")
+  })
+
+  // 添加vip页面
+  router.addRoute("home", {
+    path: "vip",
+    component: () => import("../Views/HomeVip.vue")
+  })
+}
+
+```
+
+
+### 二级路由
+
+router/index.js
 
 
 
 ## 路由导航守卫钩子
+
+router/index.js
+
+```js
+// 2.路由导航守卫
+// 进行任何的路由跳转之前, 传入的beforeEach中的函数都会被回调
+// 需求: 进入到订单(order)页面时, 判断用户是否登录(isLogin -> localStorage保存token)
+// 情况一: 用户没有登录, 那么跳转到登录页面, 进行登录的操作
+// 情况二: 用户已经登录, 那么直接进入到订单页面
+router.beforeEach((to, from) => {
+  // 1.进入到任何别的页面时, 都跳转到login页面
+  // if (to.path !== "/login") {
+  //   return "/login"
+  // }
+
+  // 2.进入到订单页面时, 判断用户是否登录
+  const token = localStorage.getItem("token")
+  if (to.path === "/order" && !token) {
+    return "/login"
+  }
+})
+```
