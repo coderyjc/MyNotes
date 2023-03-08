@@ -1,5 +1,3 @@
-# pinia
-
 ## Pinia对比Vuex
 
 
@@ -11,4 +9,6 @@
 
 ## Getters
 
+
 ## Actions
+
