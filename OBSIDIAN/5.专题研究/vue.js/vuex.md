@@ -181,7 +181,6 @@ computed: {
 
 ```
 
-
 ## Getters
 
 ### 使用getters
@@ -245,10 +244,73 @@ getFriendById(state) {
 <h2>id-111的朋友信息: {{ $store.getters.getFriendById(111) }}</h2>
 ```
 
+### mapGetters
 
+```html
+<h2>doubleCounter: {{ doubleCounter }}</h2>
+<h2>friendsTotalAge: {{ totalAge }}</h2>
+<h2>message: {{ message }}</h2>
+```
+
+
+```js
+  import { mapGetters } from 'vuex'
+
+  export default {
+    computed: {
+      ...mapGetters(["doubleCounter", "totalAge"]),
+      ...mapGetters(["getFriendById"])
+    }
+  }
+```
 
 ## Mutations
 
+重要的原则: 不要在mutation方法中执行异步操作
+
+ 更改 Vuex 的 store 中的状态的唯一方法是提交 mutation：
+
+### mutation携带数据
+
+mutation-type.js 定义常量
+
+```js
+export const CHANGE_INFO = "changeInfo"
+```
+
+定义mutations
+
+```js
+import { CHANGE_INFO } from './mutation_types'
+
+mutations: {
+    changeName(state, payload) {
+      state.name = payload
+    },
+    [CHANGE_INFO](state, newInfo) {
+      state.level = newInfo.level
+      state.name = newInfo.name
+    },
+},
+```
+
+使用mutations
+
+```js
+changeName() {
+	this.$store.commit("changeName", "王小波")
+  },
+  changeInfo() {
+	this.$store.commit(CHANGE_INFO, {
+	  name: "王二",
+	  level: 200
+	})
+}
+```
+
+### mapMutations
+
+有点麻烦，略。
 
 ## Actions
 
