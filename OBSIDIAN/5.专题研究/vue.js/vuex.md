@@ -184,8 +184,66 @@ computed: {
 
 ## Getters
 
+### 使用getters
+
 数据需要一定的变化才能提供出去。
 
+假设state中有一些朋友的信息，你要从这些信息中计算他们的年龄总数并用getters返回
+
+store/index.js
+
+```js
+state: () => ({
+    friends: [
+      { id: 111, name: "why", age: 20 },
+      { id: 112, name: "kobe", age: 30 },
+      { id: 113, name: "james", age: 25 }
+    ],
+  }),
+getters: {
+	totalAge(state) {
+	  return state.friends.reduce((preValue, item) => {
+		return preValue + item.age
+	  }, 0)
+	},
+}
+```
+
+template中使用
+
+```html
+<h2>friendsTotalAge: {{ $store.getters.totalAge }}</h2>
+```
+
+### getters的嵌套
+
+```js
+message(state, getters) {
+  return `name:${state.name} level:${state.level} friendTotalAge:${getters.totalAge}`
+},
+```
+
+
+```html
+<h2>message: {{ $store.getters.message }}</h2>
+```
+
+
+### getters返回函数
+
+```js
+// getters是可以返回一个函数的, 调用这个函数可以传入参数(了解)
+getFriendById(state) {
+  return function(id) {
+	const friend = state.friends.find(item => item.id === id)
+	return friend
+  }
+}
+```
+
+```html
+<h2>id-111的朋友信息: {{ $store.getters.getFriendById(111) }}</h2>
+```
 
 
 
