@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-09.md",
+                "file": "5.专题研究/vue.js/vuex.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-09.md",
+                "file": "5.专题研究/vue.js/vuex.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-09.md"
+                "file": "5.专题研究/vue.js/vuex.md"
               }
             }
           },
@@ -124,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,8 +146,9 @@
   },
   "active": "ac6daf743e88ac0a",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-03-08.md",
+    "HOME.md",
     "2.等待处理/Diary/2023-03-09.md",
+    "2.等待处理/Diary/2023-03-08.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据源分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
@@ -172,7 +174,6 @@
     "4.归档/工作/基础/db/mysql/-mysql-advanced.md",
     "4.归档/工作/基础/db/mysql/-mysql-basic.md",
     "4.归档/工作/基础/db/mongodb/README.md",
-    "4.归档/工作/基础/db/mongodb/mongodb-basic.md",
     "5.专题研究/vue.js/assets/Pasted image 20230308160022.png",
     "5.专题研究/vue.js/assets/Pasted image 20230308160016.png",
     "5.专题研究/vue.js/assets/Pasted image 20230308150719.png",
