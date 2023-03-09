@@ -299,8 +299,8 @@ mutations: {
 ```js
 changeName() {
 	this.$store.commit("changeName", "王小波")
-  },
-  changeInfo() {
+},
+changeInfo() {
 	this.$store.commit(CHANGE_INFO, {
 	  name: "王二",
 	  level: 200
@@ -313,6 +313,7 @@ changeName() {
 有点麻烦，略。
 
 ## Actions
+
 
 
 ## Modules
