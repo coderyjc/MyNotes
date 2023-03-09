@@ -314,6 +314,210 @@ changeInfo() {
 
 ## Actions
 
+Action提交的是mutation，而不是直接变更状态；Action**可以包含任意异步操作**；
+
+Action的参数是`context`
+- context是一个和store实例均有相同方法和属性的context对象；
+- 所以我们可以从其中获取到commit方法来提交一个mutation，或者通过 context.state 和 context.getters 来获取 state 和 getters；
+
+### actions的分发操作
+
+action的调用方式是“分发” dispatch
+
+==定义actions==
+
+```js
+actions: {
+    incrementAction(context) {
+      context.commit("increment")
+    },
+    changeNameAction(context, payload) {
+      context.commit("changeName", payload)
+    },
+}
+```
+
+==分发操作：==
+
+```js
+  counterBtnClick() {
+	this.$store.dispatch("incrementAction")
+  },
+  nameBtnClick() {
+	this.$store.dispatch("changeNameAction", "aaa")
+  }
+```
+
+### action也有辅助函数
+
+具体写法和state、getters相同
+
+![[assets/Pasted image 20230309142610.png]]
+
+![[assets/Pasted image 20230309142613.png]]
+
+### actions的异步操作
+
+我们可以通过让action返回Promise，在Promise的then中来处理完成后的操作；
+
+store/index.js
+
+```js
+  actions: {
+    fetchHomeMultidataAction(context) {
+      return new Promise(async (resolve, reject) => {
+        const res = await fetch("http://123.207.32.32:8000/home/multidata")
+        const data = await res.json()
+        
+        // 修改state数据
+        context.commit("changeBanners", data.data.banner.list)
+        context.commit("changeRecommends", data.data.recommend.list)
+
+        resolve("aaaaa")
+      })
+    }
+  }
+
+```
+
+vue
+
+```js
+import { useStore } from 'vuex'
+
+// 告诉Vuex发起网络请求
+const store = useStore()
+store.dispatch("fetchHomeMultidataAction").then(res => {
+  console.log("home中的then被回调:", res)
+})
+```
 
 
 ## Modules
+
+什么是Module？
+- 由于使用单一状态树，应用的所有状态会集中到一个比较大的对象，当应用变得非常复杂时，store 对象就有可能变得相当臃肿；
+- 为了解决以上问题，Vuex 允许我们将 store 分割成模块（module）；
+- 每个模块拥有自己的 state、mutation、action、getter、甚至是嵌套子模块；
+
+
+store/modules/counter.js
+
+```js
+const counter = {
+  namespaced: true,
+  state: () => ({
+    count: 99
+  }),
+  mutations: {
+    incrementCount(state) {
+      console.log(state)
+      state.count++
+    }
+  },
+  getters: {
+    doubleCount(state, getters, rootState) {
+      return state.count + rootState.rootCounter
+    }
+  },
+  actions: {
+    incrementCountAction(context) {
+      context.commit("incrementCount")
+    }
+  }
+}
+
+export default counter
+
+```
+
+store/modules/home.js
+
+```js
+export default {
+  state: () => ({
+    // 服务器数据
+    banners: [],
+    recommends: []
+  }),
+  mutations: {
+    changeBanners(state, banners) {
+      state.banners = banners
+    },
+    changeRecommends(state, recommends) {
+      state.recommends = recommends
+    }
+  },
+  actions: {
+    fetchHomeMultidataAction(context) {
+      return new Promise(async (resolve, reject) => {
+        const res = await fetch("http://123.207.32.32:8000/home/multidata")
+        const data = await res.json()
+        
+        // 修改state数据
+        context.commit("changeBanners", data.data.banner.list)
+        context.commit("changeRecommends", data.data.recommend.list)
+
+        resolve("aaaaa")
+      })
+    }
+  }
+}
+
+```
+
+store/index.js
+
+```js
+import homeModule from './modules/home'
+import counterModule from './modules/counter'
+
+const store = createStore({
+  state: () => ({
+  }),
+  getters: {
+  },
+  mutations: {
+  },
+  actions: {
+  },
+  modules: {
+    home: homeModule,
+    counter: counterModule
+  }
+})
+```
+
+使用：
+
+==不带命名空间==：
+
+```html
+<!-- 1.使用state时, 是需要state.moduleName.xxx -->
+<h2>Counter模块的counter: {{ $store.state.counter.count }}</h2>
+<!-- 2.使用getters时, 是直接getters.xxx -->
+<h2>Counter模块的doubleCounter: {{ $store.getters.doubleCount }}</h2>
+```
+
+```js
+// 派发事件时, 默认也是不需要跟模块名称
+// 提交mutation时, 默认也是不需要跟模块名称
+function incrementCount() {
+	store.dispatch("incrementCountAction")
+}
+```
+
+==带有命名空间==：
+
+【本例的counter.js中namespace:true】
+
+```html
+    <!-- 1.使用state时, 是需要state.moduleName.xxx -->
+    <h2>Counter模块的counter: {{ $store.state.counter.count }}</h2>
+    <!-- 2.使用getters时, 是直接getters.xxx -->
+    <h2>Counter模块的doubleCounter: {{ $store.getters["counter/doubleCount"] }}</h2>
+```
+
+```js
+
+```
