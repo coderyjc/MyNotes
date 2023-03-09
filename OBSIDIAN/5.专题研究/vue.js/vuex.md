@@ -268,7 +268,7 @@ getFriendById(state) {
 
 重要的原则: 不要在mutation方法中执行异步操作
 
- 更改 Vuex 的 store 中的状态的唯一方法是提交 mutation：
+更改 Vuex 的 store 中的状态的唯一方法是提交 mutation：
 
 ### mutation携带数据
 
@@ -512,12 +512,22 @@ function incrementCount() {
 【本例的counter.js中namespace:true】
 
 ```html
-    <!-- 1.使用state时, 是需要state.moduleName.xxx -->
-    <h2>Counter模块的counter: {{ $store.state.counter.count }}</h2>
-    <!-- 2.使用getters时, 是直接getters.xxx -->
-    <h2>Counter模块的doubleCounter: {{ $store.getters["counter/doubleCount"] }}</h2>
+<!-- 1.使用state时, 是需要state.moduleName.xxx -->
+<h2>Counter模块的counter: {{ $store.state.counter.count }}</h2>
+<!-- 2.使用getters时, 是直接getters.xxx -->
+<h2>Counter模块的doubleCounter: {{ $store.getters["counter/doubleCount"] }}</h2>
 ```
 
 ```js
+import { useStore } from 'vuex'
 
+// 告诉Vuex发起网络请求
+const store = useStore()
+// 派发事件时, 默认也是不需要跟模块名称
+// 提交mutation时, 默认也是不需要跟模块名称
+function incrementCount() {
+	store.dispatch("counter/incrementCountAction")
+}
 ```
+
+
