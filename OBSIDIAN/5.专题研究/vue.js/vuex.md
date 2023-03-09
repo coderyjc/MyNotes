@@ -125,10 +125,68 @@ const store = createStore({
 })
 ```
 
+### mapState
 
+一般来讲都是映射到计算属性中。
+
+假设我们有store：
+
+store/index.js
+
+```js
+const store = createStore({
+	state: () => ({
+		counter: 0,
+		name: "codery",
+		level: 100,
+		avatarURL: "http://xxxx"
+	})
+})
+```
+
+vue
+
+==方法一==
+
+```html
+<!-- 2.计算属性(映射状态: 数组语法) -->
+<h2>name: {{ name }}</h2>
+<h2>level: {{ level }}</h2>
+```
+
+```js
+computed: {
+  ...mapState(["name", "level", "avatarURL"]),
+}
+```
+
+### 在setup中使用mapState
+
+```html
+<h2>name: {{ name }}</h2>
+<h2>level: {{ level }}</h2>
+```
+
+```js
+  import { toRefs } from 'vue'
+  import { mapState, useStore } from 'vuex'
+
+  // 直接对store.state进行解构
+  const store = useStore()
+  const { name, level } = toRefs(store.state)
+
+  function incrementLevel() {
+    store.state.level++
+  }
+
+```
 
 
 ## Getters
+
+数据需要一定的变化才能提供出去。
+
+
 
 
 ## Mutations
