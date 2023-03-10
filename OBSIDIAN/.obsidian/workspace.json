@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
+                "file": "4.归档/工作/基础/front/webpack/less工具.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "less",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,11 +71,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 277.50909423828125
+    "width": 317.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -91,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
+                "file": "4.归档/工作/基础/front/webpack/less工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md"
+                "file": "4.归档/工作/基础/front/webpack/less工具.md"
               }
             }
           },
@@ -156,11 +157,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "e72c1251b4d3a28f",
   "lastOpenFiles": [
+    "4.归档/工作/基础/front/webpack/_webpack.md",
+    "4.归档/工作/基础/front/webpack/less工具.md",
+    "5.专题研究/vue.js/vuex.md",
+    "5.专题研究/vue.js/vue_composition.md",
+    "5.专题研究/vue.js/vue_router.md",
+    "5.专题研究/vue.js/pinia.md",
+    "5.专题研究/vue.js/axios.md",
+    "5.专题研究/vue.js/vue_advance.md",
+    "4.归档/工作/工程/环境问题相关/vue-cli安装sass.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230310093233.png",
@@ -175,20 +185,12 @@
     "4.归档/工作/工程/前端框架/Vue.js/Vue-Cli-bug.md",
     "HOME.md",
     "2.等待处理/Diary/2023-03-10.md",
-    "5.专题研究/vue.js/vue_router.md",
-    "5.专题研究/vue.js/vue_composition.md",
-    "5.专题研究/vue.js/vue_advance.md",
-    "5.专题研究/vue.js/axios.md",
-    "5.专题研究/vue.js/pinia.md",
     "2.等待处理/Diary/2023-03-09.md",
     "5.专题研究/缓慢进化的人性/惯性定律.md",
     "4.归档/工作/工程/index.md",
     "5.专题研究/vue.js/assets/Pasted image 20230309151333.png",
-    "5.专题研究/vue.js/vuex.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-08.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-05.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-03.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-04.md",
     "2.等待处理/Diary/Archieve/2023-03",
     "5.专题研究/vue.js/assets/Pasted image 20230309142613.png",
     "5.专题研究/vue.js/assets/Pasted image 20230309142610.png",
