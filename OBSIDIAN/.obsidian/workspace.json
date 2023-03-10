@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79ee7d4a981db448",
+            "id": "e72c1251b4d3a28f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "e72c1251b4d3a28f",
+            "id": "1004d719fa407678",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,8 +32,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "8c83fe50949bb152",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md"
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md"
               }
             }
           },
@@ -156,20 +170,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "1004d719fa407678",
   "lastOpenFiles": [
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
-    "4.归档/工作/工程/前端框架/Vue.js/Vue.js-Bug.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230310093233.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230310093223.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230310093204.png",
+    "4.归档/工作/基础/software/vscode/基本使用/VsCode基础知识.md",
+    "4.归档/工作/工程/前端框架/Vue.js/Vue.js-Bug.md",
     "4.归档/工作/工程/前端框架/Vue.js/assets/Pasted image 20230310084246.png",
     "4.归档/工作/工程/前端框架/Vue.js/Vuex.md",
     "4.归档/工作/工程/前端框架/Vue.js/assets/Pasted image 20220623201636.png",
     "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
     "4.归档/工作/工程/前端框架/Vue.js/Vue-Cli-bug.md",
     "HOME.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
     "2.等待处理/Diary/2023-03-10.md",
     "5.专题研究/vue.js/vue_router.md",
     "5.专题研究/vue.js/vue_composition.md",
@@ -185,16 +203,12 @@
     "2.等待处理/Diary/Archieve/2023-03/2023-03-05.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-03.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-04.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-02.md",
     "2.等待处理/Diary/Archieve/2023-03",
     "5.专题研究/vue.js/assets/Pasted image 20230309142613.png",
     "5.专题研究/vue.js/assets/Pasted image 20230309142610.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230308221339.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/未命名",
     "5.专题研究/vue.js/assets/Pasted image 20230308160022.png",
-    "5.专题研究/vue.js/assets/Pasted image 20230308160016.png",
-    "5.专题研究/vue.js/assets/Pasted image 20230308150719.png",
-    "5.专题研究/vue.js/assets/Pasted image 20230308150712.png",
     "5.专题研究/vue.js/assets",
     "5.专题研究/vue.js/vue-component/assets",
     "5.专题研究/vue.js/vue-component",
