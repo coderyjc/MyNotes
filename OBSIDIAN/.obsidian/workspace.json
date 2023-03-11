@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "4eae55cee6c34561",
+        "id": "95c18f2ba40f4361",
         "type": "tabs",
         "children": [
           {
-            "id": "364747125650ad43",
+            "id": "17ef128ee10844b0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/工程/Python/【Bug】PyEcharts.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "92e64a2bc885465e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/工程/Python/Pandas-Bug.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/工作/工程/Python/Pandas-Bug.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/工作/工程/Python/Pandas-Bug.md"
+              }
             }
           },
           {
@@ -135,15 +157,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "364747125650ad43",
+  "active": "92e64a2bc885465e",
   "lastOpenFiles": [
+    "4.归档/工作/工程/Python/Pandas-Bug.md",
+    "4.归档/工作/工程/Python/【Bug】PyEcharts.md",
+    "4.归档/工作/工程/Python/ipython历史记录保存.md",
+    "2.等待处理/Diary/2023-03-11.md",
     "4.归档/工作/工程/前端框架/Vue.js/Vue.js-Bug.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
-    "2.等待处理/Diary/2023-03-11.md",
     "2.等待处理/Diary/2023-03-10.md",
     "4.归档/工作/基础/front/webpack/less工具.md",
     "4.归档/工作/基础/front/webpack/_webpack.md",
@@ -165,10 +190,7 @@
     "4.归档/工作/工程/前端框架/Vue.js/Vue-Cli-bug.md",
     "HOME.md",
     "2.等待处理/Diary/2023-03-09.md",
-    "5.专题研究/缓慢进化的人性/惯性定律.md",
-    "4.归档/工作/工程/index.md",
     "5.专题研究/vue.js/assets/Pasted image 20230309151333.png",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-08.md",
     "2.等待处理/Diary/Archieve/2023-03",
     "5.专题研究/vue.js/assets/Pasted image 20230309142613.png",
     "5.专题研究/vue.js/assets/Pasted image 20230309142610.png",
