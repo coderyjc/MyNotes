@@ -71,3 +71,6 @@ const option = {
 
 
 
+### Internal server error: Cannot read properties of undefined (reading 'url')
+
+浏览器有缓存，重启一下项目就行了
