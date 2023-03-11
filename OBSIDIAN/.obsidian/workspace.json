@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90ab44107ba8d96e",
+            "id": "4bc6a07c3bb4df4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-11.md",
+                "file": "5.专题研究/调剂复试/调剂攻略01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "4bc6a07c3bb4df4e",
+            "id": "00d7a59c00c570f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/调剂/调剂攻略01.md",
+                "file": "5.专题研究/调剂复试/面试问题总结.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8d74a22d0a66b8d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/调剂复试/调剂笔记.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -76,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.50909423828125,
+    "width": 280.50909423828125,
     "collapsed": true
   },
   "right": {
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂/调剂攻略01.md",
+                "file": "5.专题研究/调剂复试/面试问题总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂/调剂攻略01.md"
+                "file": "5.专题研究/调剂复试/面试问题总结.md"
               }
             }
           },
@@ -158,11 +171,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4bc6a07c3bb4df4e",
+  "active": "00d7a59c00c570f1",
   "lastOpenFiles": [
+    "5.专题研究/调剂复试/调剂攻略01.md",
+    "5.专题研究/调剂复试/面试问题总结.md",
+    "5.专题研究/调剂复试/调剂笔记.md",
+    "5.专题研究/调剂复试/assets/Pasted image 20230311193945.png",
+    "5.专题研究/调剂复试/assets/Pasted image 20230311193859.png",
+    "5.专题研究/调剂复试/assets",
     "2.等待处理/Diary/2023-03-11.md",
-    "5.专题研究/调剂/调剂攻略01.md",
-    "5.专题研究/调剂",
+    "5.专题研究/调剂复试",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
@@ -190,21 +208,16 @@
     "4.归档/工作/工程/前端框架/Vue.js/Vuex.md",
     "4.归档/工作/工程/前端框架/Vue.js/assets/Pasted image 20220623201636.png",
     "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
-    "4.归档/工作/工程/前端框架/Vue.js/Vue-Cli-bug.md",
-    "HOME.md",
     "5.专题研究/vue.js/assets/Pasted image 20230309151333.png",
     "2.等待处理/Diary/Archieve/2023-03",
     "5.专题研究/vue.js/assets/Pasted image 20230309142613.png",
     "5.专题研究/vue.js/assets/Pasted image 20230309142610.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230308221339.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/未命名",
-    "5.专题研究/vue.js/assets/Pasted image 20230308160022.png",
     "5.专题研究/vue.js/assets",
     "5.专题研究/vue.js/vue-component/assets",
     "5.专题研究/vue.js/vue-component",
     "5.专题研究/人际关系/和同学",
     "5.专题研究/python-pandas/Pandas预备知识",
-    "5.专题研究/人际关系/和导师",
-    "5.专题研究/人际关系"
+    "5.专题研究/人际关系/和导师"
   ]
 }
