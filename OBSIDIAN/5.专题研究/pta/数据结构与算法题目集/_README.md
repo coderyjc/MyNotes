@@ -65,3 +65,5 @@ a.c:86:3: warning: ignoring return value of ‘system’, declared with attribut
 
 https://blog.csdn.net/L_T_W_Y/article/details/108407686
 
+7-5 堆中的路径
+
