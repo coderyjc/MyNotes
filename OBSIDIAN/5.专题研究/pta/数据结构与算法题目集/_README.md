@@ -59,3 +59,9 @@ a.c:86:3: warning: ignoring return value of ‘system’, declared with attribut
    system("pause");
    ^~~~~~~~~~~~~~~
 ```
+
+
+二叉搜索树相关介绍
+
+https://blog.csdn.net/L_T_W_Y/article/details/108407686
+
