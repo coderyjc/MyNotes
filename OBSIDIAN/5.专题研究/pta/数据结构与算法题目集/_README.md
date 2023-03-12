@@ -73,6 +73,8 @@ https://blog.csdn.net/xiaomucgwlmx/article/details/103522410
 
 邻接矩阵的dfs遍历 https://blog.csdn.net/jeffleo/article/details/53309286
 
-7-7 六度空间，最大值的时候运行超时
+7-7 六度空间，最大值的时候运行超时或者段错误
+
+
 
 
