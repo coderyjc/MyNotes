@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d25ab95ab304cd8f",
+        "id": "eda30c5d3b3d8b0d",
         "type": "tabs",
         "children": [
           {
-            "id": "f649c25c84b9b3e7",
+            "id": "9f23cd052edc8441",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/7-12 排序.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/7-12 排序.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/pta/数据结构与算法题目集/7-12 排序.md"
-              }
+              "state": {}
             }
           },
           {
@@ -143,7 +135,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f649c25c84b9b3e7",
+  "active": "9f23cd052edc8441",
   "lastOpenFiles": [
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集/7-12 排序.md",

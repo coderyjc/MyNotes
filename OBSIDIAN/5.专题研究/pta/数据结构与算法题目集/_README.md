@@ -19,13 +19,12 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 [[7-9 旅游规划]]
 
 
-
-
-
 [[7-12 排序]]
 
 
+7-17 汉诺塔的非递归实现
 
+核心就是用栈保存状态
 
 
 
