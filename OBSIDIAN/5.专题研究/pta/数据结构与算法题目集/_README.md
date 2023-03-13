@@ -18,6 +18,10 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 [[7-9 旅游规划]]
 
+7-10 公路村村通
+
+
+
 
 [[7-12 排序]]
 
@@ -26,8 +30,11 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 核心就是用栈保存状态
 
+7-18 银行业务队列简单模拟
 
+直接分情况讨论输出就行
 
+https://blog.csdn.net/qq_46139801/article/details/117349666
 
 
 
