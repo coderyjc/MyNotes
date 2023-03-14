@@ -28,6 +28,7 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 [[7-23 还原二叉树]]
 
+[[7-25 朋友圈]]
 
 [[7-26 Windows消息队列]]
 
