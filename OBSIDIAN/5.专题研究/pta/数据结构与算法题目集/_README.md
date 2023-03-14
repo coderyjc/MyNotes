@@ -28,9 +28,5 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 [[7-26 Windows消息队列]]
 
-7-29 修理牧场
-
-
-
 [[7-52 两个有序链表序列的交集]]
 
