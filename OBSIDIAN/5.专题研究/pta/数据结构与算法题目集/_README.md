@@ -34,25 +34,12 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 
 
-
-
-
-
 [[7-42 整型关键字的散列映射]]
 
 
 [[7-45 航空公司VIP客户查询]]
 
-
-
-7-46 新浪微博热门话题
-
-C++set的用法 http://c.biancheng.net/view/7194.html
-C++ string find的用法 https://blog.csdn.net/Hao_ge_666/article/details/90695409
-
-
-
-
+[[7-46 新浪微博热门话题]]
 
 [[7-47 打印选课学生名单]]
 
