@@ -32,6 +32,11 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 [[7-26 Windows消息队列]]
 
+7-47 打印选课学生名单
+
+一开始写的，过不去最后一个，把大部分IO改成scanf和printf才过去。
+
+
 
 7-49 打印学生选课清单
 
