@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7a73039315f73a37",
+        "id": "d82043782d005841",
         "type": "tabs",
         "children": [
           {
-            "id": "91d0e1da6cb71a07",
+            "id": "fbe0124b9b33054d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/pta/STL相关代码模版.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/pta/STL相关代码模版.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/pta/STL相关代码模版.md"
-              }
+              "state": {}
             }
           },
           {
@@ -142,8 +134,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "fbe0124b9b33054d",
   "lastOpenFiles": [
+    "5.专题研究/pta/STL相关代码模版.md",
     "5.专题研究/pta/测试用例类型总结.md",
     "5.专题研究/pta/输入输出相关问题.md",
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
@@ -169,7 +162,6 @@
     "1.收集箱/wechat_notes/精品小说/沧浪之水.md",
     "4.归档/工作/基础/software/vscode/插件/Plugin/Monokai Pro 主题.md",
     "5.专题研究/pta/数据结构与算法题目集/7-1 最大子列和问题.md",
-    "5.专题研究/pta/STL相关代码模版.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204901.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204810.png",
     "4.归档/工作/基础/algorithm/数据结构",
