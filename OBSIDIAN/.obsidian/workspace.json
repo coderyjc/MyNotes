@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d82043782d005841",
+        "id": "2f10e708c031be6d",
         "type": "tabs",
         "children": [
           {
-            "id": "fbe0124b9b33054d",
+            "id": "1479c26cabb50bb8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/pta/数据结构与算法题目集/_README.md"
+              }
             }
           },
           {
@@ -134,12 +142,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fbe0124b9b33054d",
+  "active": "1479c26cabb50bb8",
   "lastOpenFiles": [
+    "5.专题研究/pta/数据结构与算法题目集/7-30 目录树.md",
+    "5.专题研究/pta/数据结构与算法题目集/_README.md",
+    "HOME.md",
     "5.专题研究/pta/STL相关代码模版.md",
     "5.专题研究/pta/测试用例类型总结.md",
     "5.专题研究/pta/输入输出相关问题.md",
-    "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集/7-25 朋友圈.md",
     "5.专题研究/pta/数据结构与算法题目集/7-26 Windows消息队列.md",
     "5.专题研究/pta/数据结构与算法题目集/7-42 整型关键字的散列映射.md",
@@ -158,10 +168,8 @@
     "4.归档/工作/学习周刊/2023-11.md",
     "4.归档/工作/学习周刊/2023-10.md",
     "5.专题研究/pta/数据结构与算法题目集/7-44 基于词频的文件相似度.md",
-    "HOME.md",
     "1.收集箱/wechat_notes/精品小说/沧浪之水.md",
     "4.归档/工作/基础/software/vscode/插件/Plugin/Monokai Pro 主题.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-1 最大子列和问题.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204901.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204810.png",
     "4.归档/工作/基础/algorithm/数据结构",
