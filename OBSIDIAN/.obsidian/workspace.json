@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2f10e708c031be6d",
+        "id": "a8ff786185351829",
         "type": "tabs",
         "children": [
           {
-            "id": "1479c26cabb50bb8",
+            "id": "c84bfe9c352ee587",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-16.md",
+                "file": "2.等待处理/Diary/2023-03-17.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-16.md",
+                "file": "2.等待处理/Diary/2023-03-17.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-16.md"
+                "file": "2.等待处理/Diary/2023-03-17.md"
               }
             }
           },
@@ -142,34 +142,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1479c26cabb50bb8",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/vue.js/vuex.md",
+    "2.等待处理/Diary/2023-03-17.md",
+    "5.专题研究/md.zip",
+    "5.专题研究/5.专题研究.zip",
+    "5.专题研究/vue.js/vue_router.md",
+    "5.专题研究/vue.js/vue_composition.md",
+    "5.专题研究/vue.js/pinia.md",
+    "5.专题研究/vue.js/vue_advance.md",
+    "5.专题研究/Django/静态文件设置.md",
+    "5.专题研究/Django/表单处理.md",
+    "5.专题研究/Django/第一个视图函数和模版引擎.md",
+    "5.专题研究/Django/系统设计.md",
+    "5.专题研究/Django/模版复用.md",
+    "5.专题研究/Django/URL分发.md",
+    "5.专题研究/Django/PyCharm构建Django项目.md",
+    "5.专题研究/Django/Django-admin.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Python基础.md",
+    "5.专题研究/python-pandas/Pandas预备知识/_Pandas预备知识.md",
+    "5.专题研究/python-pandas/_Pandas.md",
+    "5.专题研究/python-pandas/变形.md",
+    "5.专题研究/vue.js/vue-basic/条件渲染.md",
+    "5.专题研究/vue.js/vue-basic/事件绑定.md",
+    "2.等待处理/Diary/2023-03-16.md",
     "5.专题研究/pta/数据结构与算法题目集/7-44 基于词频的文件相似度.md",
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集/7-30 目录树.md",
     "HOME.md",
-    "5.专题研究/pta/STL相关代码模版.md",
-    "5.专题研究/pta/测试用例类型总结.md",
-    "5.专题研究/pta/输入输出相关问题.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-25 朋友圈.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-26 Windows消息队列.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-42 整型关键字的散列映射.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-45 航空公司VIP客户查询.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-46 新浪微博热门话题.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-47 打印选课学生名单.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-49 打印学生选课清单.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-52 两个有序链表序列的交集.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-40 奥运排行榜.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-22 堆栈模拟队列.md",
-    "5.专题研究/pta/数据结构与算法题目集/未命名.md",
-    "4.归档/工作/基础/java/javase/java-basic/java-reflection.md",
-    "4.归档/工作/基础/other/设计模式/Design_Pattern.md",
-    "2.等待处理/Diary/2023-03-16.md",
-    "2.等待处理/Diary/2023-03-15.md",
-    "4.归档/工作/学习周刊/2023-11.md",
-    "4.归档/工作/学习周刊/2023-10.md",
-    "1.收集箱/wechat_notes/精品小说/沧浪之水.md",
-    "4.归档/工作/基础/software/vscode/插件/Plugin/Monokai Pro 主题.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204901.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204810.png",
     "4.归档/工作/基础/algorithm/数据结构",
@@ -187,8 +189,6 @@
     "4.归档/工作/基础/algorithm/图论/assets",
     "5.专题研究/数据库原理",
     "5.专题研究/调剂复试/assets",
-    "5.专题研究/调剂复试",
-    "2.等待处理/Diary/Archieve/2023-03",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/未命名"
+    "5.专题研究/调剂复试"
   ]
 }
