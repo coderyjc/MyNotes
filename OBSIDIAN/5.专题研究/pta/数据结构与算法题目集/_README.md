@@ -26,6 +26,8 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 [[7-18 银行业务队列简单模拟]]
 
+[[7-22 堆栈模拟队列]]
+
 [[7-23 还原二叉树]]
 
 [[7-25 朋友圈]]
