@@ -36,6 +36,8 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 [[7-30 目录树]]
 
+[[7-31 笛卡尔树]]
+
 [[7-40 奥运排行榜]]
 
 
