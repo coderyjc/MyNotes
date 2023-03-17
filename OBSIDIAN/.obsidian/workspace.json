@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5903c84beb1ca460",
+        "id": "01cbe854a60654a6",
         "type": "tabs",
         "children": [
           {
-            "id": "c1737502e8663089",
+            "id": "8b9a3c77327703da",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/pta/数据结构与算法题目集/7-32 哥尼斯堡的“七桥问题”.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/pta/数据结构与算法题目集/7-32 哥尼斯堡的“七桥问题”.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/pta/数据结构与算法题目集/7-32 哥尼斯堡的“七桥问题”.md"
+              }
             }
           },
           {
@@ -134,11 +142,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c1737502e8663089",
+  "active": "8b9a3c77327703da",
   "lastOpenFiles": [
+    "5.专题研究/pta/数据结构与算法题目集/_README.md",
+    "5.专题研究/pta/数据结构与算法题目集/7-32 哥尼斯堡的“七桥问题”.md",
     "4.归档/工作/基础/algorithm/图论/Prim算法.md",
     "5.专题研究/pta/数据结构与算法题目集/7-50 畅通工程之局部最小花费问题.md",
-    "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/AlgorithmNote.md",
     "5.专题研究/pta/STL相关代码模版.md",
     "4.归档/工作/基础/algorithm/PTA/模板.md",
@@ -163,7 +172,6 @@
     "5.专题研究/vue.js/vue_composition.md",
     "5.专题研究/vue.js/pinia.md",
     "5.专题研究/vue.js/vue_advance.md",
-    "5.专题研究/Django/静态文件设置.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204901.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204810.png",
     "4.归档/工作/基础/algorithm/数据结构",
