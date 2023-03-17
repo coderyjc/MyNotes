@@ -44,6 +44,7 @@ https://pintia.cn/problem-sets/15/exam/problems/type/6
 
 [[7-42 整型关键字的散列映射]]
 
+[[7-43 字符串关键字的散列映射]]
 
 [[7-44 基于词频的文件相似度]]
 
