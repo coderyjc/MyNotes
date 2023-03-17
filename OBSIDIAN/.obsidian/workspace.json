@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "无向图",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,6 +146,8 @@
   "active": "c84bfe9c352ee587",
   "lastOpenFiles": [
     "5.专题研究/pta/数据结构与算法题目集/7-10 公路村村通.md",
+    "4.归档/工作/基础/algorithm/图论/Kruskal算法.md",
+    "5.专题研究/pta/数据结构与算法题目集/7-9 旅游规划.md",
     "2.等待处理/Diary/2023-03-17.md",
     "5.专题研究/vue.js/vuex.md",
     "5.专题研究/md.zip",
@@ -171,8 +173,6 @@
     "5.专题研究/vue.js/vue-basic/事件绑定.md",
     "2.等待处理/Diary/2023-03-16.md",
     "5.专题研究/pta/数据结构与算法题目集/7-44 基于词频的文件相似度.md",
-    "5.专题研究/pta/数据结构与算法题目集/_README.md",
-    "5.专题研究/pta/数据结构与算法题目集/7-30 目录树.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204901.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204810.png",
     "4.归档/工作/基础/algorithm/数据结构",
