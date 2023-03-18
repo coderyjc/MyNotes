@@ -1,4 +1,4 @@
-# string
+# string 字符串
 
 #STL/string 
 
