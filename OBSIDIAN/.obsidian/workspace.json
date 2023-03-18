@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3b9258d6c5abdc44",
+        "id": "baab491f7a9776e7",
         "type": "tabs",
         "children": [
           {
-            "id": "9387556047b94b46",
+            "id": "aca39f809c0a9c46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2023-03-18.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zlib",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-18.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2023-03-18.md"
-              }
+              "state": {}
             }
           },
           {
@@ -142,10 +135,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "aca39f809c0a9c46",
   "lastOpenFiles": [
-    "HOME.md",
+    "4.归档/生活/搜索/zlib合集.md",
+    "4.归档/工作/学习周刊/2023-11.md",
     "2.等待处理/Diary/2023-03-18.md",
+    "HOME.md",
     "5.专题研究/pta/数据结构与算法题目集/_README.md",
     "5.专题研究/pta/数据结构与算法题目集/7-32 哥尼斯堡的“七桥问题”.md",
     "4.归档/工作/基础/algorithm/图论/Prim算法.md",
@@ -170,8 +165,6 @@
     "5.专题研究/vue.js/vuex.md",
     "5.专题研究/md.zip",
     "5.专题研究/5.专题研究.zip",
-    "5.专题研究/vue.js/vue_router.md",
-    "5.专题研究/vue.js/vue_composition.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204901.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230314204810.png",
     "4.归档/工作/基础/algorithm/数据结构",

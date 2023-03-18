@@ -12,7 +12,7 @@ zlib镜像：
 https://bbs.ohzz.org/
 https://1login.to/
 
-
+https://zlib.yibook.org/
 
 
 zlib配置小工具：
