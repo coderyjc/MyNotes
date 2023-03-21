@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "250c2c9f4244830d",
+        "id": "cf68123d7da113fc",
         "type": "tabs",
         "children": [
           {
-            "id": "35a19badc3c82210",
+            "id": "93b919822ba9c507",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
+                "file": "4.归档/工作/工程/服务器相关/Nginx/Nginx部署多个项目.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "4.归档/工作/工程/服务器相关/Nginx/Nginx部署多个项目.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "4.归档/工作/工程/服务器相关/Nginx/Nginx部署多个项目.md"
               }
             }
           },
@@ -144,6 +144,12 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "4.归档/工作/工程/服务器相关/Nginx/nginx无法绑定到80端口.md",
+    "4.归档/工作/工程/服务器相关/Nginx/assets/Pasted image 20230321095842.png",
+    "4.归档/工作/工程/服务器相关/Nginx/assets/Pasted image 20230321095748.png",
+    "4.归档/工作/工程/服务器相关/Nginx/Nginx部署多个项目.md",
+    "4.归档/工作/基础/middleware/nginx/Nginx.md",
+    "3.将来可能/黑马点评/1.项目导入.md",
     "2.等待处理/Diary/2023-03-21.md",
     "2.等待处理/Diary/2023-03-20.md",
     "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md",
@@ -156,7 +162,6 @@
     "4.归档/工作/扩展/windows/assets/Pasted image 20230320154640.png",
     "4.归档/工作/扩展/windows/assets/Pasted image 20230320154348.png",
     "4.归档/工作/扩展/windows/assets/Pasted image 20230320154304.png",
-    "4.归档/工作/扩展/windows/assets/Pasted image 20230320153647.png",
     "5.专题研究/Algorithm/数据结构/并查集.md",
     "2.等待处理/Diary/2023-03-19.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
@@ -170,17 +175,11 @@
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-7 六度空间.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-21 求前缀表达式的值.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-46 新浪微博热门话题.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets/Pasted image 20230319152911.png",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-48 银行排队问题之单窗口“夹塞”版.md",
     "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
     "5.专题研究/Algorithm/PTA/测试用例类型总结.md",
     "5.专题研究/Algorithm/STL/queue.md",
-    "5.专题研究/缓慢进化的人性/惯性定律.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md",
-    "5.专题研究/Algorithm/PTA/CodeBase.md",
-    "5.专题研究/Algorithm/PTA/AlgorithmNote.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-5 堆中的路径.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集",
     "5.专题研究/Algorithm/PTA/assets",
     "5.专题研究/Algorithm/PTA",
