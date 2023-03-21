@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "2dc347412ecc6369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/学习周刊/2023-12.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/学习周刊/2023-06.md",
+                "file": "4.归档/工作/学习周刊/2023-12.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/学习周刊/2023-06.md"
+                "file": "4.归档/工作/学习周刊/2023-12.md"
               }
             }
           },
@@ -142,13 +156,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d019ff50f3c8c79",
+  "active": "2dc347412ecc6369",
   "lastOpenFiles": [
+    "4.归档/工作/学习周刊/assets/Pasted image 20230321154458.png",
+    "4.归档/工作/学习周刊/2023-05.md",
+    "4.归档/工作/学习周刊/2023-06.md",
+    "4.归档/工作/学习周刊/assets/Pasted image 20230321153239.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321150706.png",
     "4.归档/工作/学习周刊/2023-07.md",
     "4.归档/工作/学习周刊/2023-09.md",
     "4.归档/工作/学习周刊/2023-08.md",
-    "4.归档/工作/学习周刊/2023-06.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321150137.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321145920.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321145637.png",
@@ -160,8 +177,6 @@
     "4.归档/工作/学习周刊/2023-12.md",
     "4.归档/工作/学习周刊/2023-11.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321130901.png",
-    "4.归档/工作/学习周刊/assets/Pasted image 20230321125933.png",
-    "4.归档/工作/学习周刊/assets/Pasted image 20230321125546.png",
     "2.等待处理/Diary/2023-03-21.md",
     "4.归档/工作/工程/服务器相关/Nginx/Nginx部署多个项目.md",
     "4.归档/工作/工程/服务器相关/Nginx/nginx无法绑定到80端口.md",
@@ -179,7 +194,6 @@
     "HOME.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-20 表达式转换.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-18 银行业务队列简单模拟.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集",
     "5.专题研究/Algorithm/PTA/assets",
