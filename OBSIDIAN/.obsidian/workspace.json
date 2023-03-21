@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/工作/基础/devops/linux/sh.ma.translate.md",
-                "mode": "preview",
+                "file": "HOME.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "man.sh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/基础/devops/linux/sh.ma.translate.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/基础/devops/linux/sh.ma.translate.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -143,10 +142,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35a19badc3c82210",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md",
+    "2.等待处理/Diary/2023-03-21.md",
     "2.等待处理/Diary/2023-03-20.md",
+    "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md",
     "4.归档/工作/扩展/windows/【WSL2】Windows安装WSL2.md",
     "4.归档/工作/扩展/windows/assets/Pasted image 20230320155250.png",
     "4.归档/工作/扩展/windows/assets/Pasted image 20230320154812.png",
@@ -181,7 +181,6 @@
     "5.专题研究/Algorithm/PTA/CodeBase.md",
     "5.专题研究/Algorithm/PTA/AlgorithmNote.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-5 堆中的路径.md",
-    "5.专题研究/Algorithm/STL/deque.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集",
     "5.专题研究/Algorithm/PTA/assets",
     "5.专题研究/Algorithm/PTA",
