@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "72bf56a0cd4aefce",
+        "id": "0850343badb5c225",
         "type": "tabs",
         "children": [
           {
-            "id": "b63d74f15e8688bc",
+            "id": "3bf79fd07a474739",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "pip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -53,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -73,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md"
+              }
             }
           },
           {
@@ -134,8 +143,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b63d74f15e8688bc",
+  "active": "3bf79fd07a474739",
   "lastOpenFiles": [
+    "4.归档/工作/基础/bigdata/python/python-spider/python-scrapy.md",
+    "4.归档/工作/基础/software/vscode/插件/Plugin/Pylance自动格式化python代码.md",
+    "4.归档/工作/基础/bigdata/python/python-spider/python-spider.md",
+    "4.归档/工作/工程/环境问题相关/Python第三方库安装相关.md",
+    "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Python基础.md",
+    "5.专题研究/python-pandas/Pandas预备知识/_Pandas预备知识.md",
+    "2.等待处理/Diary/2023-03-21.md",
     "4.归档/工作/学习周刊/2023-06.md",
     "4.归档/工作/学习周刊/2023-12.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321154458.png",
@@ -154,7 +171,6 @@
     "4.归档/工作/学习周刊/assets/Pasted image 20230321141720.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321141405.png",
     "4.归档/工作/学习周刊/2023-11.md",
-    "2.等待处理/Diary/2023-03-21.md",
     "4.归档/工作/工程/服务器相关/Nginx/Nginx部署多个项目.md",
     "4.归档/工作/工程/服务器相关/Nginx/nginx无法绑定到80端口.md",
     "4.归档/工作/基础/middleware/nginx/Nginx.md",
@@ -165,12 +181,6 @@
     "5.专题研究/Algorithm/数据结构/并查集.md",
     "2.等待处理/Diary/2023-03-19.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
-    "5.专题研究/调剂复试/面试问题总结【英文】.md",
-    "5.专题研究/数据库原理/数据库原理.md",
-    "5.专题研究/调剂复试/如何选择导师.md",
-    "HOME.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-20 表达式转换.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集",
     "5.专题研究/Algorithm/PTA/assets",
