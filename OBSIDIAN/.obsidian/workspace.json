@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ee4b56d97c9af40e",
+        "id": "92856c86f47c9c8c",
         "type": "tabs",
         "children": [
           {
-            "id": "a587b3eb75486fb9",
+            "id": "8d019ff50f3c8c79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/工作/学习周刊/2023-10.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5f643244d67443d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/工作/学习周刊/2023-12.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/学习周刊/2023-12.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4.归档/工作/学习周刊/2023-12.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,14 +134,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5f643244d67443d8",
+  "active": "8d019ff50f3c8c79",
   "lastOpenFiles": [
-    "4.归档/工作/学习周刊/2023-11.md",
-    "4.归档/工作/学习周刊/2023-12.md",
     "4.归档/工作/学习周刊/2023-10.md",
+    "4.归档/工作/学习周刊/2023-07.md",
+    "4.归档/工作/学习周刊/assets/Pasted image 20230321142209.png",
+    "4.归档/工作/学习周刊/assets/Pasted image 20230321141720.png",
+    "4.归档/工作/学习周刊/assets/Pasted image 20230321141405.png",
+    "4.归档/工作/学习周刊/2023-12.md",
+    "4.归档/工作/学习周刊/2023-11.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321130901.png",
     "4.归档/工作/学习周刊/2023-09.md",
-    "4.归档/工作/学习周刊/2023-07.md",
     "4.归档/工作/学习周刊/2023-08.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321125933.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321125546.png",
@@ -179,9 +160,6 @@
     "2.等待处理/Diary/2023-03-20.md",
     "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md",
     "4.归档/工作/扩展/windows/【WSL2】Windows安装WSL2.md",
-    "4.归档/工作/扩展/windows/assets/Pasted image 20230320155250.png",
-    "4.归档/工作/扩展/windows/assets/Pasted image 20230320154812.png",
-    "4.归档/工作/扩展/windows/assets/Pasted image 20230320154752.png",
     "5.专题研究/Algorithm/数据结构/并查集.md",
     "2.等待处理/Diary/2023-03-19.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
@@ -193,7 +171,6 @@
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-18 银行业务队列简单模拟.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-7 六度空间.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-21 求前缀表达式的值.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集",
     "5.专题研究/Algorithm/PTA/assets",
