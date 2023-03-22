@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "28d4c5e26716199f",
+        "id": "7b212ea3a2844275",
         "type": "tabs",
         "children": [
           {
-            "id": "a1f83c7b5d9f11a2",
+            "id": "2b854c4ce077b174",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/navigation/coder/代码美化.md",
+                "file": "2.等待处理/Diary/2023-03-22.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/navigation/coder/代码美化.md",
+                "file": "2.等待处理/Diary/2023-03-22.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/navigation/coder/代码美化.md"
+                "file": "2.等待处理/Diary/2023-03-22.md"
               }
             }
           },
@@ -142,10 +142,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "2b854c4ce077b174",
   "lastOpenFiles": [
-    "1.收集箱/navigation/coder/代码运行.md",
+    "2.等待处理/Diary/2023-03-22.md",
+    "1.收集箱/dashboard/tag-retrieve.md",
     "1.收集箱/navigation/coder/代码美化.md",
+    "1.收集箱/navigation/coder/代码运行.md",
     "1.收集箱/navigation/coder/assets/Pasted image 20230322092530.png",
     "1.收集箱/navigation/coder/assets/Pasted image 20230322092414.png",
     "1.收集箱/navigation/coder/综合工具.md",
@@ -169,8 +171,6 @@
     "1.收集箱/navigation/design/LOGO.md",
     "1.收集箱/navigation/nav.md",
     "1.收集箱/dashboard/tag-summary.md",
-    "1.收集箱/dashboard/tag-retrieve.md",
-    "2.等待处理/Diary/2023-03-22.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-21.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321154458.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321153239.png",
