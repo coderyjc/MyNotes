@@ -1,5 +1,5 @@
 ---
-searchTerm: 网址导航
+searchTerm: CSS
 searchType: tags
 searchDate: "2022-05-30"
 ---
@@ -537,6 +537,3 @@ dv.paragraph("<strong>No Pages Modified On That Date</strong>")
 
 }
 ```
-
-
-注：该脚本来源于Cuman的Blue Topaz example vault，一个十分值得学习的示例库. 你可以前往[此地址](https://github.com/cumany/Blue-topaz-examples)下载该库。
