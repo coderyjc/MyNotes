@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4f33fc7cb98bf6af",
+        "id": "28d4c5e26716199f",
         "type": "tabs",
         "children": [
           {
-            "id": "0960134c8bfd4261",
+            "id": "a1f83c7b5d9f11a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/navigation/coder/正则相关.md",
-                "mode": "preview",
+                "file": "1.收集箱/navigation/coder/代码美化.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/navigation/coder/正则相关.md",
+                "file": "1.收集箱/navigation/coder/代码美化.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/navigation/coder/正则相关.md"
+                "file": "1.收集箱/navigation/coder/代码美化.md"
               }
             }
           },
@@ -142,34 +142,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "a1f83c7b5d9f11a2",
   "lastOpenFiles": [
+    "1.收集箱/navigation/coder/assets/Pasted image 20230322092530.png",
+    "1.收集箱/navigation/coder/assets/Pasted image 20230322092414.png",
+    "1.收集箱/navigation/coder/综合工具.md",
+    "1.收集箱/navigation/coder/正则相关.md",
+    "1.收集箱/navigation/coder/Json解析.md",
+    "1.收集箱/navigation/coder/代码加密.md",
+    "1.收集箱/navigation/coder/代码美化.md",
+    "1.收集箱/navigation/coder/画图工具.md",
+    "1.收集箱/navigation/coder/其他工具.md",
+    "1.收集箱/navigation/coder/编码转换.md",
+    "1.收集箱/navigation/coder/CSS生成工具.md",
+    "1.收集箱/navigation/resource/工具.md",
+    "1.收集箱/navigation/coder/assets/Pasted image 20230322085954.png",
+    "1.收集箱/navigation/media/数据相关.md",
+    "1.收集箱/navigation/media/二维码生成.md",
+    "1.收集箱/navigation/design/平面素材.md",
+    "1.收集箱/navigation/design/格式转换.md",
+    "1.收集箱/navigation/design/设计导航.md",
+    "1.收集箱/navigation/design/影音素材.md",
+    "1.收集箱/navigation/design/图片搜索.md",
+    "1.收集箱/navigation/design/图库.md",
+    "1.收集箱/navigation/design/LOGO.md",
+    "1.收集箱/navigation/coder/代码运行.md",
     "1.收集箱/navigation/nav.md",
     "1.收集箱/dashboard/tag-summary.md",
     "1.收集箱/dashboard/tag-retrieve.md",
     "2.等待处理/Diary/2023-03-22.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-21.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-20.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-19.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-18.md",
-    "5.专题研究/缓慢进化的人性/惯性定律.md",
-    "4.归档/学习/2.齐家/README.md",
-    "5.专题研究/Django/PyCharm构建Django项目.md",
-    "HOME.md",
-    "4.归档/工作/工程/环境问题相关/Docker安装与卸载.md",
-    "4.归档/工作/工程/Python/Pandas-Bug.md",
-    "4.归档/工作/工程/Python/ipython历史记录保存.md",
-    "4.归档/工作/工程/Python/【Bug】PyEcharts.md",
-    "4.归档/工作/基础/db/mysql/索引优化分析.md",
-    "4.归档/工作/基础/db/mysql/数据库设计三范式.md",
-    "4.归档/工作/基础/db/mysql/DBA命令（了解）.md",
-    "4.归档/工作/基础/db/mysql/MySQL高级-MySQL架构介绍.md",
-    "4.归档/工作/基础/db/mysql/存储引擎（了解）.md",
-    "4.归档/工作/基础/db/mysql/MySQL高级-索引优化分析.md",
-    "4.归档/工作/基础/db/mysql/-mysql-advanced.md",
-    "4.归档/工作/基础/db/mysql/-mysql-basic.md",
-    "4.归档/工作/基础/bigdata/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
-    "4.归档/工作/工程/环境问题相关/Python第三方库安装相关.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321154458.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321153239.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321150706.png",
@@ -178,8 +180,6 @@
     "4.归档/工作/学习周刊/assets/Pasted image 20230321145637.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321145601.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230321142209.png",
-    "4.归档/工作/学习周刊/assets/Pasted image 20230321141720.png",
-    "4.归档/工作/学习周刊/assets/Pasted image 20230321141405.png",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集",
     "5.专题研究/Algorithm/PTA/assets",
