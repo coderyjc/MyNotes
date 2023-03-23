@@ -34,5 +34,6 @@
   "media-extended",
   "mx-bili-plugin",
   "periodic-notes",
-  "remotely-save"
+  "remotely-save",
+  "obsidian-local-rest-api"
 ]
