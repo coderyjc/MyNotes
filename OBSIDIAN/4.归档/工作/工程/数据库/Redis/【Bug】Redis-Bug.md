@@ -4,7 +4,7 @@ skill: Redis
 create_date: 2022-01-31
 ---
 
-#数据库 #Redis #NoSQL
+#Database #Database/Redis #Database/NoSQL
 
 # Redis
 
