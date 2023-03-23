@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "9c3263f609078757",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.50909423828125
+    "width": 271.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -73,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md"
+              }
             }
           },
           {
@@ -115,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -130,15 +146,25 @@
       "obsidian-weread-plugin:Weread": false,
       "templater-obsidian:Templater": true,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "9c3263f609078757",
   "lastOpenFiles": [
+    "0.plugin/excalidraw/assets/Pasted Image 20230323204351_901.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323203707_406.png",
+    "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323203659_922.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323203200_453.png",
+    "0.plugin/excalidraw/assets",
+    "1.收集箱/README.md",
+    "1.收集箱/log.md",
+    "0.plugin/excalidraw/Drawing 2023-03-23 20.05.21.excalidraw.md",
+    "1.收集箱/simpread_clipper/inbox/1-3000 + 小时积累的学习工作流.md",
     "0.plugin/excalidraw",
     "1.收集箱/simpread_clipper/inbox/3-Obsidian 的高级玩法 _ 打造能跳转到任何格式文件的笔记 - 掘金.md",
     "1.收集箱/simpread_clipper/inbox/4-007 如何构建自己的笔记系统？.md",
-    "1.收集箱/simpread_clipper/inbox/1-3000 + 小时积累的学习工作流.md",
     "2.等待处理/Diary/2023-03-23.md",
     "1.收集箱/simpread_clipper/inbox/Mathtype 7_5 破解版下载附安装教程及激活码.md",
     "2.等待处理/Diary/2023-03-22.md",
@@ -161,10 +187,6 @@
     "5.专题研究/Django/PyCharm构建Django项目.md",
     "5.专题研究/Django/Django环境搭建.md",
     "5.专题研究/Django/Django环境搭建.html",
-    "5.专题研究/Django/_README.md",
-    "3.将来可能/PySpark/_README.md",
-    "3.将来可能/PySpark/Spark基本原理.md",
-    "3.将来可能/leetcode/1.两数之和.md",
     "1.收集箱/simpread_clipper/inbox",
     "1.收集箱/simpread_clipper",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323081209.png",
@@ -173,13 +195,8 @@
     "1.收集箱/navigation/coder/assets/Pasted image 20230323080526.png",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323080404.png",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323080211.png",
-    "1.收集箱/navigation/coder/assets/Pasted image 20230322165601.png",
-    "1.收集箱/navigation/coder/assets/Pasted image 20230322165554.png",
-    "1.收集箱/navigation/coder/assets/Pasted image 20230322165548.png",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集",
-    "5.专题研究/Algorithm/PTA/assets",
-    "5.专题研究/Algorithm/PTA",
-    "5.专题研究/Algorithm/算法专栏/assets"
+    "5.专题研究/Algorithm/PTA/assets"
   ]
 }
