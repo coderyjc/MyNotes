@@ -11,8 +11,13 @@
             "id": "ccacd761d7ddf871",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -73,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/Mathtype 7_5 破解版下载附安装教程及激活码.md",
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/Mathtype 7_5 破解版下载附安装教程及激活码.md"
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md"
               }
             }
           },
@@ -136,10 +141,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "ccacd761d7ddf871",
   "lastOpenFiles": [
-    "4.归档/工作/基础/software/tools/MythType.md",
+    "5.专题研究/调剂复试/面试问题总结【英文】.md",
+    "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "1.收集箱/simpread_clipper/inbox/Mathtype 7_5 破解版下载附安装教程及激活码.md",
+    "4.归档/工作/基础/software/tools/MythType.md",
     "4.归档/工作/学习周刊/2023-12.md",
     "4.归档/工作/基础/software/tools",
     "1.收集箱/simpread_clipper/inbox/简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
@@ -167,8 +174,6 @@
     "4.归档/工作/工程/浏览器相关/FireFox访问问题.md",
     "4.归档/工作/工程/浏览器相关/Chrome浏览器调试问题汇总.md",
     "1.收集箱/simpread_clipper/inbox",
-    "简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
-    "/简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
     "1.收集箱/simpread_clipper",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323081209.png",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323081011.png",
