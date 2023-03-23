@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c59ffe301e3db0a9",
+        "id": "82b2fa251dd4e9b2",
         "type": "tabs",
         "children": [
           {
-            "id": "3b87963633c160af",
+            "id": "95d6255906903cca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/navigation/design/配色网站.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/navigation/design/配色网站.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/navigation/design/配色网站.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -145,6 +145,7 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "1.收集箱/navigation/design/配色网站.md",
     "1.收集箱/navigation/design/LOGO.md",
     "1.收集箱/navigation/design/UI设计.md",
     "1.收集箱/wechat_daily_challenge/database.md",
@@ -176,7 +177,6 @@
     "1.收集箱/navigation/coder/网络工具.md",
     "2.等待处理/Diary/2023-03-23.md",
     "2.等待处理/Diary/2023-03-22.md",
-    "HOME.md",
     "1.收集箱/navigation/coder/assets/Pasted image 20230322165601.png",
     "1.收集箱/navigation/coder/assets/Pasted image 20230322165554.png",
     "1.收集箱/navigation/coder/assets/Pasted image 20230322165548.png",
