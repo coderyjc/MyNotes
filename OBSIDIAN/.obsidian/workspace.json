@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e26a0d35ffea806d",
+        "id": "23ceea9d3670d773",
         "type": "tabs",
         "children": [
           {
-            "id": "b6c80d041ad0b2e2",
+            "id": "465485c1ac70e1f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-23.md",
+                "file": "4.归档/工作/学习周刊/2023-12.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-23.md",
+                "file": "4.归档/工作/学习周刊/2023-12.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-23.md"
+                "file": "4.归档/工作/学习周刊/2023-12.md"
               }
             }
           },
@@ -141,8 +141,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "465485c1ac70e1f6",
   "lastOpenFiles": [
+    "4.归档/工作/学习周刊/assets/Pasted image 20230323163246.png",
+    "4.归档/工作/学习周刊/2023/2023-07.md",
+    "4.归档/工作/学习周刊/2023/2023-05.md",
+    "4.归档/工作/学习周刊/2023-12.md",
+    "4.归档/工作/学习周刊/2023",
+    "2.等待处理/Diary/2023-03-23.md",
+    "2.等待处理/Diary/delete.md",
+    "HOME.md",
+    "5.专题研究/Django/URL分发.md",
+    "5.专题研究/Django/Django-admin.md",
+    "5.专题研究/Django/PyCharm构建Django项目.md",
+    "5.专题研究/Django/Django环境搭建.md",
+    "5.专题研究/Django/Django环境搭建.html",
+    "5.专题研究/Django/_README.md",
+    "3.将来可能/PySpark/_README.md",
+    "3.将来可能/PySpark/Spark基本原理.md",
+    "3.将来可能/leetcode/1.两数之和.md",
+    "3.将来可能/leetcode/_README.md",
+    "2.等待处理/Diary/2023-03-22.md",
     "1.收集箱/navigation/resource/软件插件.md",
     "4.归档/工作/工程/浏览器相关/【Chrome】Your Connection is not private.md",
     "4.归档/工作/工程/浏览器相关/FireFox浏览器调试问题汇总.md",
@@ -151,26 +170,9 @@
     "1.收集箱/simpread_clipper/inbox/简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
     "1.收集箱/simpread_clipper/inbox",
     "简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
-    "HOME.md",
     "/简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
     "1.收集箱/simpread_clipper",
-    "4.归档/工作/学习周刊/2023-06.md",
-    "4.归档/工作/学习周刊/2023-09.md",
-    "1.收集箱/navigation/design/配色网站.md",
-    "1.收集箱/navigation/design/LOGO.md",
-    "1.收集箱/navigation/design/UI设计.md",
-    "1.收集箱/wechat_daily_challenge/database.md",
-    "1.收集箱/resources/诗篇46的秘密.md",
-    "1.收集箱/resources/知乎严选免费查看的地址.md",
-    "1.收集箱/resources/axutongxue.md",
-    "1.收集箱/navigation/nav.md",
-    "1.收集箱/navigation/design/图片工具.md",
-    "1.收集箱/navigation/design/图片搜索.md",
-    "1.收集箱/navigation/design/影音素材.md",
-    "1.收集箱/navigation/design/平面素材.md",
-    "1.收集箱/navigation/design/图标库.md",
-    "1.收集箱/navigation/coder/编码转换.md",
-    "1.收集箱/navigation/coder/综合工具.md",
+    "4.归档/工作/学习周刊/2023/2023-06.md",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323081209.png",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323081011.png",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323080719.png",
@@ -186,8 +188,6 @@
     "5.专题研究/Algorithm/PTA/assets",
     "5.专题研究/Algorithm/PTA",
     "5.专题研究/Algorithm/算法专栏/assets",
-    "5.专题研究/Algorithm/数据结构",
-    "5.专题研究/Algorithm/算法专栏",
-    "5.专题研究/Algorithm/STL"
+    "5.专题研究/Algorithm/数据结构"
   ]
 }
