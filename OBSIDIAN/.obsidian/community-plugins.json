@@ -35,5 +35,6 @@
   "mx-bili-plugin",
   "periodic-notes",
   "remotely-save",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "obsidian-excalidraw-plugin"
 ]
