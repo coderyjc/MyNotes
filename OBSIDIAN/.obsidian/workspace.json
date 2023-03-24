@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Algorithm/数据结构/并查集.md",
+                "file": "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
-          },
-          {
-            "id": "4307855f29d5f115",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/Algorithm/数据结构/_index.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.50909423828125
+    "width": 310.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Algorithm/数据结构/_index.md",
+                "file": "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Algorithm/数据结构/_index.md"
+                "file": "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md"
               }
             }
           },
@@ -156,10 +142,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4307855f29d5f115",
+  "active": "b11795e4dab6fc3a",
   "lastOpenFiles": [
+    "1.收集箱/simpread_clipper/inbox/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
+    "1.收集箱/simpread_clipper/inbox/11-计算机考研复试面试常问问题 数据结构篇（下）.md",
+    "1.收集箱/simpread_clipper/inbox/10-计算机考研复试面试常问问题 数据结构篇（上）.md",
+    "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
     "5.专题研究/Algorithm/数据结构/并查集.md",
     "5.专题研究/Algorithm/数据结构/_index.md",
+    "5.专题研究/Algorithm/PTA/CodeBase.md",
+    "5.专题研究/Algorithm/PTA/AlgorithmNote.md",
+    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
     "HOME.md",
     "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
     "2.等待处理/Diary/2023-03-24.md",
@@ -180,20 +173,13 @@
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
-    "1.收集箱/resources/诗篇46的秘密.md",
-    "1.收集箱/resources/axutongxue.md",
     "0.plugin/excalidraw/assets/Pasted Image 20230323204716_937.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323204351_901.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323203707_406.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323203659_922.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323203200_453.png",
     "0.plugin/excalidraw/assets",
-    "1.收集箱/README.md",
-    "1.收集箱/log.md",
-    "0.plugin/excalidraw/Drawing 2023-03-23 20.05.21.excalidraw.md",
-    "1.收集箱/simpread_clipper/inbox/1-3000 + 小时积累的学习工作流.md",
     "0.plugin/excalidraw",
-    "1.收集箱/simpread_clipper/inbox/3-Obsidian 的高级玩法 _ 打造能跳转到任何格式文件的笔记 - 掘金.md",
     "4.归档/工作/基础/software/tools",
     "4.归档/工作/学习周刊/assets/Pasted image 20230323163246.png",
     "4.归档/工作/学习周刊/2023",
