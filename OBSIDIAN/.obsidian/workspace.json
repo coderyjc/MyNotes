@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "57dba5422291a6bc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b11795e4dab6fc3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/调剂复试/面试问题总结【英文】.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "c0a761e7d36197a5",
         "type": "tabs",
         "children": [
@@ -32,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/调剂复试/自我介绍.md",
-                "mode": "source",
+                "file": "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -81,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.50909423828125,
-    "collapsed": true
+    "width": 310.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -98,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/自我介绍.md",
+                "file": "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂复试/自我介绍.md"
+                "file": "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md"
               }
             }
           },
@@ -165,8 +145,9 @@
   },
   "active": "ee96f52a34692924",
   "lastOpenFiles": [
-    "5.专题研究/调剂复试/面试问题总结【英文】.md",
     "5.专题研究/调剂复试/自我介绍.md",
+    "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
+    "5.专题研究/调剂复试/面试问题总结【英文】.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
     "1.收集箱/simpread_clipper/inbox/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
@@ -190,7 +171,6 @@
     "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md",
     "4.归档/工作/基础/software/idea/jetbrains-idea.md",
     "1.收集箱/navigation/coder/网络工具.md",
-    "4.归档/工作/项目/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
