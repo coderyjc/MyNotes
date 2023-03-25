@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "343c10642bedbf0e",
+        "id": "c05cf72cc3da8032",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba5eff158c49546",
+            "id": "875ce2876a25e9b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-25.md",
+                "file": "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-25.md",
+                "file": "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-25.md"
+                "file": "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md"
               }
             }
           },
@@ -143,10 +143,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9ba5eff158c49546",
+  "active": "875ce2876a25e9b8",
   "lastOpenFiles": [
-    "5.专题研究/调剂复试/_复试和调剂相关问题.md",
+    "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md",
+    "1.收集箱/simpread_clipper/repo/1-3000 + 小时积累的学习工作流.md",
+    "1.收集箱/simpread_clipper/repo",
+    "1.收集箱/simpread_clipper/inbox/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
+    "1.收集箱/simpread_clipper/inbox/11-计算机考研复试面试常问问题 数据结构篇（下）.md",
+    "1.收集箱/simpread_clipper/inbox/10-计算机考研复试面试常问问题 数据结构篇（上）.md",
+    "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
     "2.等待处理/Diary/2023-03-25.md",
+    "5.专题研究/调剂复试/_复试和调剂相关问题.md",
     "5.专题研究/调剂复试/自我介绍.md",
     "5.专题研究/调剂复试/面试问题总结【英文】.md",
     "2.等待处理/Diary/2023-03-23.md",
@@ -162,15 +169,9 @@
     "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
     "5.专题研究/面试问题总结【中文】.md",
     "5.专题研究/★现自与科哲.md",
-    "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
-    "1.收集箱/simpread_clipper/inbox/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
-    "1.收集箱/simpread_clipper/inbox/11-计算机考研复试面试常问问题 数据结构篇（下）.md",
-    "1.收集箱/simpread_clipper/inbox/10-计算机考研复试面试常问问题 数据结构篇（上）.md",
     "5.专题研究/Algorithm/数据结构/并查集.md",
     "5.专题研究/Algorithm/数据结构/_index.md",
     "5.专题研究/Algorithm/PTA/CodeBase.md",
-    "5.专题研究/Algorithm/PTA/AlgorithmNote.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
@@ -189,7 +190,6 @@
     "1.收集箱/simpread_clipper",
     "1.收集箱/navigation/coder/assets/Pasted image 20230323081209.png",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集",
-    "5.专题研究/Algorithm/PTA/assets"
+    "5.专题研究/Algorithm/PTA/数据结构与算法题目集"
   ]
 }
