@@ -36,5 +36,6 @@
   "periodic-notes",
   "remotely-save",
   "obsidian-local-rest-api",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "better-word-count"
 ]

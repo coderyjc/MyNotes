@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0a761e7d36197a5",
+        "id": "343c10642bedbf0e",
         "type": "tabs",
         "children": [
           {
-            "id": "8a9b64eca58a2a18",
+            "id": "9ba5eff158c49546",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/调剂复试/自我介绍.md",
+                "file": "2.等待处理/Diary/2023-03-25.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.50909423828125,
-    "collapsed": true
+    "width": 310.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/自我介绍.md",
+                "file": "2.等待处理/Diary/2023-03-25.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂复试/自我介绍.md"
+                "file": "2.等待处理/Diary/2023-03-25.md"
               }
             }
           },
@@ -120,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -144,20 +143,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8a9b64eca58a2a18",
+  "active": "9ba5eff158c49546",
   "lastOpenFiles": [
+    "5.专题研究/调剂复试/_复试和调剂相关问题.md",
     "2.等待处理/Diary/2023-03-25.md",
+    "5.专题研究/调剂复试/自我介绍.md",
     "5.专题研究/调剂复试/面试问题总结【英文】.md",
     "2.等待处理/Diary/2023-03-23.md",
     "2.等待处理/Diary/2023-03-24.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-17.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-16.md",
-    "5.专题研究/调剂复试/自我介绍.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "5.专题研究/调剂复试/调剂记录日志.md",
     "5.专题研究/调剂复试/调剂时间线.md",
     "5.专题研究/调剂复试/如何选择导师.md",
-    "5.专题研究/调剂复试/_复试和调剂相关问题.md",
     "HOME.md",
     "5.专题研究/调剂复试/调剂邮件模板.md",
     "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
