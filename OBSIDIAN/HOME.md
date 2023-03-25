@@ -10,10 +10,11 @@ var i = [dv.pages().length,
 		 dv.pages(`"4.归档"`).length,
 		 dv.pages(`"5.专题研究"`).length,
 		 dv.pages(`"1.收集箱/wechat_notes"`).length,
+		 dv.pages(`"0.plugin"`).length,
 		 dv.pages().file.etags.distinct().length]
 
 dv.paragraph(`总共有 **${i[0]}** 篇文档，共计 **1,873,542** 字`)
-dv.paragraph(`其中==已归档笔记== **${i[1]}** 篇，==正在进行的笔记== **${i[2]}** 篇，==读书笔记== **${i[3]}** 篇，==标签==  **${i[4]}**个`)
+dv.paragraph(`其中==已归档笔记== **${i[1]}** 篇，==正在进行的笔记== **${i[2]}** 篇，==读书笔记== **${i[3]}** 篇，==插件相关== **${i[4]}** 篇，==标签==  **${i[5]}**个`)
 
 ```
 
