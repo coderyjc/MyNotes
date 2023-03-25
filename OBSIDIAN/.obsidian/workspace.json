@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2023-03-25.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
+                "file": "2.等待处理/Diary/2023-03-25.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md"
+                "file": "2.等待处理/Diary/2023-03-25.md"
               }
             }
           },
@@ -143,12 +143,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ee96f52a34692924",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/调剂复试/自我介绍.md",
-    "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
-    "5.专题研究/调剂复试/面试问题总结【英文】.md",
+    "2.等待处理/Diary/2023-03-24.md",
+    "2.等待处理/Diary/2023-03-25.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
+    "5.专题研究/调剂复试/面试问题总结【英文】.md",
+    "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
+    "5.专题研究/调剂复试/自我介绍.md",
     "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
     "1.收集箱/simpread_clipper/inbox/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
     "1.收集箱/simpread_clipper/inbox/11-计算机考研复试面试常问问题 数据结构篇（下）.md",
@@ -160,7 +162,6 @@
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
     "HOME.md",
     "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
-    "2.等待处理/Diary/2023-03-24.md",
     "0.plugin/reactjs/ReactJS.md",
     "4.归档/工作/项目/前端项目总结/02.圣诞节商品导航站/圣诞节商品导航站.md",
     "4.归档/工作/基础/devops/git/github.md",
@@ -170,7 +171,6 @@
     "4.归档/工作/工程/数据库/Redis/【Bug】Redis-Bug.md",
     "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md",
     "4.归档/工作/基础/software/idea/jetbrains-idea.md",
-    "1.收集箱/navigation/coder/网络工具.md",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
