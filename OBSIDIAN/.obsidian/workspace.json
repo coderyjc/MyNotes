@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.50909423828125,
-    "collapsed": true
+    "width": 303.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -166,8 +165,9 @@
   },
   "active": "245a70e23235acd6",
   "lastOpenFiles": [
-    "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
+    "5.专题研究/Algorithm/算法专栏/KMP算法.md",
     "5.专题研究/调剂复试/数据结构面试题.md",
+    "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
     "1.收集箱/simpread_clipper/inbox/10-计算机考研复试面试常问问题 数据结构篇（上）.md",
     "1.收集箱/simpread_clipper/inbox/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
     "2.等待处理/Diary/2023-03-26.md",
@@ -194,7 +194,6 @@
     "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
     "5.专题研究/面试问题总结【中文】.md",
     "5.专题研究/★现自与科哲.md",
-    "5.专题研究/Algorithm/数据结构/并查集.md",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
