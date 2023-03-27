@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
+                "file": "5.专题研究/调剂复试/_复试和调剂相关问题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
+                "file": "5.专题研究/调剂复试/_复试和调剂相关问题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md"
+                "file": "5.专题研究/调剂复试/_复试和调剂相关问题.md"
               }
             }
           },
@@ -147,9 +147,15 @@
   "active": "245a70e23235acd6",
   "lastOpenFiles": [
     "5.专题研究/调剂复试/如何选择导师.md",
+    "5.专题研究/调剂复试/数据结构与算法面试题.md",
+    "5.专题研究/调剂复试/自我介绍.md",
+    "5.专题研究/调剂复试/调剂时间线.md",
+    "5.专题研究/调剂复试/调剂邮件模板.md",
+    "5.专题研究/调剂复试/面试中的其他问题.md",
+    "5.专题研究/调剂复试/_复试和调剂相关问题.md",
+    "2.等待处理/Diary/2023-03-27.md",
     "2.等待处理/Diary/2023-03-26.md",
     "1.收集箱/simpread_clipper/inbox/11-计算机考研复试面试常问问题 数据结构篇（下）.md",
-    "5.专题研究/调剂复试/数据结构与算法面试题.md",
     "1.收集箱/simpread_clipper/inbox/10-计算机考研复试面试常问问题 数据结构篇（上）.md",
     "1.收集箱/simpread_clipper/inbox/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
     "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
@@ -161,8 +167,6 @@
     "2.等待处理/Diary/2023-03-25.md",
     "1.收集箱/simpread_clipper/repo/1-3000 + 小时积累的学习工作流.md",
     "1.收集箱/simpread_clipper/repo",
-    "5.专题研究/调剂复试/_复试和调剂相关问题.md",
-    "5.专题研究/调剂复试/自我介绍.md",
     "5.专题研究/调剂复试/面试问题总结【英文】.md",
     "2.等待处理/Diary/2023-03-23.md",
     "2.等待处理/Diary/2023-03-24.md",
@@ -170,11 +174,7 @@
     "2.等待处理/Diary/Archieve/2023-03/2023-03-16.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "5.专题研究/调剂复试/调剂记录日志.md",
-    "5.专题研究/调剂复试/调剂时间线.md",
-    "5.专题研究/调剂复试/调剂邮件模板.md",
     "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
-    "5.专题研究/面试问题总结【中文】.md",
-    "5.专题研究/★现自与科哲.md",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
