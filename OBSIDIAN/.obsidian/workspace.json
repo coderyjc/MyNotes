@@ -13,6 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "118730568a2eb0cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "460f91ff249a12e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
                 "mode": "source",
                 "backlinks": false,
@@ -62,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.50909423828125
+    "width": 303.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -144,21 +164,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "245a70e23235acd6",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/调剂复试/如何选择导师.md",
+    "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
+    "1.收集箱/simpread_clipper/inbox/19-一般面试关于数据结构的时候，都会问一些什么问题？.md",
     "5.专题研究/调剂复试/数据结构与算法面试题.md",
-    "5.专题研究/调剂复试/面试中的其他问题.md",
-    "5.专题研究/调剂复试/调剂时间线.md",
+    "1.收集箱/simpread_clipper/inbox/20-计算机考研_保研复试重点整理-数据结构篇 - 知乎.md",
+    "1.收集箱/simpread_clipper/inbox/21-计算机数据结构面试常问问题（适合考研复试，保研复试）  【背诵版】.md",
+    "1.收集箱/simpread_clipper/inbox/22-数据结构常见问题_数据结构复试常问问题.md",
+    "1.收集箱/simpread_clipper/inbox/23-(6 条消息) 数据结构面试、数据结构考研复试——常见问题以及回答_数据结构常问问题_小葵向前冲的博客 - CSDN 博客.md",
     "5.专题研究/调剂复试/_复试和调剂相关问题.md",
-    "5.专题研究/调剂复试/自我介绍.md",
+    "5.专题研究/调剂复试/如何选择导师.md",
+    "5.专题研究/调剂复试/面试中的其他问题.md",
     "5.专题研究/调剂复试/调剂邮件模板.md",
+    "5.专题研究/调剂复试/调剂记录日志.md",
+    "5.专题研究/调剂复试/调剂时间线.md",
+    "5.专题研究/调剂复试/自我介绍.md",
     "2.等待处理/Diary/2023-03-27.md",
     "2.等待处理/Diary/2023-03-26.md",
     "1.收集箱/simpread_clipper/inbox/11-计算机考研复试面试常问问题 数据结构篇（下）.md",
     "1.收集箱/simpread_clipper/inbox/10-计算机考研复试面试常问问题 数据结构篇（上）.md",
     "1.收集箱/simpread_clipper/inbox/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
-    "1.收集箱/simpread_clipper/inbox/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
     "5.专题研究/Algorithm/算法专栏/KMP算法.md",
     "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md",
     "HOME.md",
@@ -169,12 +195,6 @@
     "1.收集箱/simpread_clipper/repo",
     "5.专题研究/调剂复试/面试问题总结【英文】.md",
     "2.等待处理/Diary/2023-03-23.md",
-    "2.等待处理/Diary/2023-03-24.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-17.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-16.md",
-    "5.专题研究/调剂复试/面试问题总结【中文】.md",
-    "5.专题研究/调剂复试/调剂记录日志.md",
-    "5.专题研究/调剂复试/【HE】面试问题总结【中文】.md",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
