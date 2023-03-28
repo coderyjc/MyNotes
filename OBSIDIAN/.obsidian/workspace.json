@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b0ebad6e23a4d450",
+        "id": "5ef6418133f597a6",
         "type": "tabs",
         "children": [
           {
-            "id": "e6db429f23ec9496",
+            "id": "540f45c8d92a88b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/调剂复试/面试中的其他问题.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/面试中的其他问题.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂复试/面试中的其他问题.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -143,34 +143,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e6db429f23ec9496",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/python-pandas/分类数据.md",
+    "5.专题研究/python-pandas/分组.md",
+    "5.专题研究/python-pandas/文本数据.md",
+    "5.专题研究/python-pandas/变形.md",
+    "5.专题研究/python-pandas/时序数据.md",
+    "5.专题研究/Django/_README.md",
+    "5.专题研究/Django/Django-admin.md",
+    "5.专题研究/Django/第一个单元测试.md",
+    "5.专题研究/Django/模型设计.md",
+    "5.专题研究/Django/PyCharm构建Django项目.md",
+    "5.专题研究/Django/Django环境搭建.md",
+    "5.专题研究/Django/创建Django项目.md",
+    "5.专题研究/Django/第一个视图函数和模版引擎.md",
+    "5.专题研究/python-pandas/_Pandas.md",
+    "5.专题研究/python-pandas/Pandas基础.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Python基础.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Pandas预备知识-练习.md",
+    "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md",
+    "5.专题研究/python-pandas/Pandas预备知识/_Pandas预备知识.md",
+    "2.等待处理/Diary/2023-03-28.md",
+    "2.等待处理/Diary/Archieve/2023-03/2023-03-26.md",
+    "2.等待处理/Diary/2023-03-27.md.nssyncsc",
+    "2.等待处理/Diary/Archieve/2023-03/2023-03-23.md",
+    "2.等待处理/Diary/Archieve/2023-03/2023-03-27.md",
+    "2.等待处理/Diary/Archieve/2023-03/2023-03-25.md",
     "5.专题研究/调剂复试/assets/Pasted image 20230328195027.png",
     "5.专题研究/调剂复试/调剂邮件模板.md",
     "5.专题研究/调剂复试/调剂记录日志.md",
-    "5.专题研究/调剂复试/调剂时间线.md",
-    "5.专题研究/调剂复试/自我介绍.md",
-    "5.专题研究/调剂复试/数据结构与算法面试题.md",
-    "1.收集箱/simpread_clipper/repo/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
-    "5.专题研究/调剂复试/如何选择导师.md",
-    "5.专题研究/调剂复试/面试中的其他问题.md",
-    "5.专题研究/调剂复试/_复试和调剂相关问题.md",
-    "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md",
-    "1.收集箱/simpread_clipper/repo/23-数据结构面试、数据结构考研复试.md",
-    "1.收集箱/simpread_clipper/repo/22-数据结构常见问题_数据结构复试常问问题.md",
-    "1.收集箱/simpread_clipper/repo/21-计算机数据结构面试常问问题（适合考研复试，保研复试）  【背诵版】.md",
-    "1.收集箱/simpread_clipper/repo/20-计算机考研_保研复试重点整理-数据结构篇 - 知乎.md",
-    "1.收集箱/simpread_clipper/repo/19-一般面试关于数据结构的时候，都会问一些什么问题？.md",
-    "1.收集箱/simpread_clipper/repo/12-计算机考研复试常见面试题汇总：数据结构+操作系统+计网+数据库.md",
-    "1.收集箱/simpread_clipper/repo/11-计算机考研复试面试常问问题 数据结构篇（下）.md",
-    "1.收集箱/simpread_clipper/repo/10-计算机考研复试面试常问问题 数据结构篇（上）.md",
-    "1.收集箱/simpread_clipper/repo/1-3000 + 小时积累的学习工作流.md",
-    "1.收集箱/wechat_notes/个人成长/优秀的绵羊.md",
-    "2.等待处理/Diary/2023-03-28.md",
-    "2.等待处理/Diary/2023-03-27.md",
-    "1.收集箱/wechat_notes/哲学宗教/半小时漫画中国哲学史（套装全2册）.md",
-    "2.等待处理/Diary/2023-03-26.md",
-    "5.专题研究/Algorithm/算法专栏/KMP算法.md",
     "2.等待处理/Diary/assets/Pasted image 20230326102209.png",
     "2.等待处理/Diary/assets",
     "1.收集箱/simpread_clipper/repo",
@@ -185,11 +187,9 @@
     "0.plugin/excalidraw/assets",
     "0.plugin/excalidraw",
     "4.归档/工作/基础/software/tools",
-    "4.归档/工作/学习周刊/assets/Pasted image 20230323163246.png",
     "4.归档/工作/学习周刊/2023",
     "5.专题研究/Django/Django环境搭建.html",
     "1.收集箱/simpread_clipper/inbox",
-    "1.收集箱/simpread_clipper",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets"
+    "1.收集箱/simpread_clipper"
   ]
 }
