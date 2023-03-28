@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
+                "file": "5.专题研究/调剂复试/面试中的其他问题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
+                "file": "5.专题研究/调剂复试/面试中的其他问题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md"
+                "file": "5.专题研究/调剂复试/面试中的其他问题.md"
               }
             }
           },
@@ -146,15 +145,15 @@
   },
   "active": "e6db429f23ec9496",
   "lastOpenFiles": [
-    "1.收集箱/simpread_clipper/repo/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
-    "5.专题研究/调剂复试/数据结构与算法面试题.md",
-    "5.专题研究/调剂复试/如何选择导师.md",
-    "5.专题研究/调剂复试/调剂时间线.md",
+    "5.专题研究/调剂复试/调剂邮件模板.md",
     "5.专题研究/调剂复试/调剂记录日志.md",
+    "5.专题研究/调剂复试/调剂时间线.md",
     "5.专题研究/调剂复试/自我介绍.md",
+    "5.专题研究/调剂复试/数据结构与算法面试题.md",
+    "1.收集箱/simpread_clipper/repo/9-计算机考研复试常问问题 数据结构篇_考研数据结构面试题.md",
+    "5.专题研究/调剂复试/如何选择导师.md",
     "5.专题研究/调剂复试/面试中的其他问题.md",
     "5.专题研究/调剂复试/_复试和调剂相关问题.md",
-    "5.专题研究/调剂复试/调剂邮件模板.md",
     "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md",
     "1.收集箱/simpread_clipper/repo/23-数据结构面试、数据结构考研复试.md",
     "1.收集箱/simpread_clipper/repo/22-数据结构常见问题_数据结构复试常问问题.md",
