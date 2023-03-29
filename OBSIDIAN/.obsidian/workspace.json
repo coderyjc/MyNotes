@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5e5e962d64cf6ab8",
+        "id": "0ef78d3b8920c0fa",
         "type": "tabs",
         "children": [
           {
-            "id": "7c9c774f2fba0e00",
+            "id": "7097288dfecb3bf9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md"
-              }
+              "state": {}
             }
           },
           {
@@ -143,11 +135,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "7097288dfecb3bf9",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-03-29.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
-    "2.等待处理/Diary/2023-03-29.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
     "5.专题研究/python-pandas/_Pandas.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md",
