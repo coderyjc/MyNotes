@@ -11,8 +11,13 @@
             "id": "7097288dfecb3bf9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md"
+              }
             }
           },
           {
@@ -137,6 +145,13 @@
   },
   "active": "7097288dfecb3bf9",
   "lastOpenFiles": [
+    "5.专题研究/调剂复试/面试中的其他问题.md",
+    "5.专题研究/调剂复试/自我介绍.md",
+    "5.专题研究/调剂复试/数据结构与算法面试题.md",
+    "5.专题研究/调剂复试/如何选择导师.md",
+    "5.专题研究/调剂复试/调剂邮件模板.md",
+    "5.专题研究/调剂复试/调剂记录日志.md",
+    "5.专题研究/调剂复试/_复试和调剂相关问题.md",
     "2.等待处理/Diary/2023-03-29.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
@@ -156,13 +171,6 @@
     "5.专题研究/Django/第一个单元测试.md",
     "5.专题研究/Django/模型设计.md",
     "5.专题研究/Django/PyCharm构建Django项目.md",
-    "5.专题研究/Django/Django环境搭建.md",
-    "5.专题研究/Django/创建Django项目.md",
-    "5.专题研究/Django/第一个视图函数和模版引擎.md",
-    "5.专题研究/python-pandas/Pandas基础.md",
-    "5.专题研究/python-pandas/Pandas预备知识/Python基础.md",
-    "5.专题研究/python-pandas/Pandas预备知识/Pandas预备知识-练习.md",
-    "5.专题研究/python-pandas/Pandas预备知识/Numpy基础.md",
     "2.等待处理/Diary/2023-03-27.md.nssyncsc",
     "5.专题研究/调剂复试/assets/Pasted image 20230328195027.png",
     "2.等待处理/Diary/assets/Pasted image 20230326102209.png",
