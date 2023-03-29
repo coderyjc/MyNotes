@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5ef6418133f597a6",
+        "id": "5e5e962d64cf6ab8",
         "type": "tabs",
         "children": [
           {
-            "id": "540f45c8d92a88b0",
+            "id": "7c9c774f2fba0e00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7be111952e0e080b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2023-03-29.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-29.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-03-29.md"
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md"
               }
             }
           },
@@ -159,12 +145,12 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
-    "2.等待处理/Diary/2023-03-29.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
+    "2.等待处理/Diary/2023-03-29.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
     "5.专题研究/python-pandas/_Pandas.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
     "2.等待处理/Diary/2023-03-28.md",
