@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0ef78d3b8920c0fa",
+        "id": "7c0b9d1e6ee0c279",
         "type": "tabs",
         "children": [
           {
-            "id": "7097288dfecb3bf9",
+            "id": "ebb20bc9497d1d20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "32b0d3a01ebe3628",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,13 +135,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "32b0d3a01ebe3628",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/调剂复试/数据结构与算法面试题.md",
+    "4.归档/生活/搜索/zlib合集.md",
+    "4.归档/工作/学习周刊/2023/2023-11.md",
+    "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "5.专题研究/调剂复试/面试问题总结【英文】.md",
     "2.等待处理/Diary/2023-03-30.md",
-    "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "5.专题研究/调剂复试/面试中的其他问题.md",
-    "5.专题研究/调剂复试/数据结构与算法面试题.md",
     "5.专题研究/调剂复试/调剂记录日志.md",
     "5.专题研究/调剂复试/自我介绍.md",
     "2.等待处理/Diary/2023-03-29.md",
@@ -183,8 +163,6 @@
     "5.专题研究/python-pandas/文本数据.md",
     "5.专题研究/python-pandas/变形.md",
     "5.专题研究/python-pandas/时序数据.md",
-    "5.专题研究/Django/_README.md",
-    "5.专题研究/Django/Django-admin.md",
     "2.等待处理/Diary/2023-03-27.md.nssyncsc",
     "5.专题研究/调剂复试/assets/Pasted image 20230328195027.png",
     "2.等待处理/Diary/assets/Pasted image 20230326102209.png",
