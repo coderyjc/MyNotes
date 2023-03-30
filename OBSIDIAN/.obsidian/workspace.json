@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/调剂复试/面试问题总结【英文】.md",
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/面试问题总结【英文】.md",
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂复试/面试问题总结【英文】.md"
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -157,8 +157,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "32b0d3a01ebe3628",
   "lastOpenFiles": [
+    "5.专题研究/调剂复试/面试问题总结【英文】.md",
+    "2.等待处理/Diary/2023-03-30.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "5.专题研究/调剂复试/面试中的其他问题.md",
     "5.专题研究/调剂复试/数据结构与算法面试题.md",
@@ -183,8 +185,6 @@
     "5.专题研究/python-pandas/时序数据.md",
     "5.专题研究/Django/_README.md",
     "5.专题研究/Django/Django-admin.md",
-    "5.专题研究/Django/第一个单元测试.md",
-    "5.专题研究/Django/模型设计.md",
     "2.等待处理/Diary/2023-03-27.md.nssyncsc",
     "5.专题研究/调剂复试/assets/Pasted image 20230328195027.png",
     "2.等待处理/Diary/assets/Pasted image 20230326102209.png",
