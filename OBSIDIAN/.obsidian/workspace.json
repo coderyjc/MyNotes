@@ -11,8 +11,13 @@
             "id": "ebb20bc9497d1d20",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/调剂复试/面试问题总结【中文】.md"
+              }
             }
           },
           {
@@ -135,14 +143,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "ebb20bc9497d1d20",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-03-30.md",
     "5.专题研究/调剂复试/数据结构与算法面试题.md",
     "4.归档/生活/搜索/zlib合集.md",
     "4.归档/工作/学习周刊/2023/2023-11.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "5.专题研究/调剂复试/面试问题总结【英文】.md",
-    "2.等待处理/Diary/2023-03-30.md",
     "5.专题研究/调剂复试/面试中的其他问题.md",
     "5.专题研究/调剂复试/调剂记录日志.md",
     "5.专题研究/调剂复试/自我介绍.md",
