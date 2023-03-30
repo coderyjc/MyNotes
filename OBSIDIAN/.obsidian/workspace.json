@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.50909423828125
+    "width": 303.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -144,7 +145,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a4c7ff5f1eb0069f",
+  "active": "ebb20bc9497d1d20",
   "lastOpenFiles": [
     "2.等待处理/Diary/2023-03-30.md",
     "5.专题研究/调剂复试/面试问题总结【英文】.md",
