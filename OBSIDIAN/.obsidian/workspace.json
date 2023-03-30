@@ -14,13 +14,27 @@
               "type": "markdown",
               "state": {
                 "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "32b0d3a01ebe3628",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/调剂复试/面试问题总结【英文】.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md",
+                "file": "5.专题研究/调剂复试/面试问题总结【英文】.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/调剂复试/数据结构与算法面试题.md"
+                "file": "5.专题研究/调剂复试/面试问题总结【英文】.md"
               }
             }
           },
@@ -119,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -143,16 +157,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7097288dfecb3bf9",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/调剂复试/面试问题总结【中文】.md",
     "5.专题研究/调剂复试/面试中的其他问题.md",
-    "5.专题研究/调剂复试/自我介绍.md",
     "5.专题研究/调剂复试/数据结构与算法面试题.md",
+    "5.专题研究/调剂复试/调剂记录日志.md",
+    "5.专题研究/调剂复试/自我介绍.md",
+    "2.等待处理/Diary/2023-03-29.md",
     "5.专题研究/调剂复试/如何选择导师.md",
     "5.专题研究/调剂复试/调剂邮件模板.md",
-    "5.专题研究/调剂复试/调剂记录日志.md",
     "5.专题研究/调剂复试/_复试和调剂相关问题.md",
-    "2.等待处理/Diary/2023-03-29.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
@@ -170,7 +185,6 @@
     "5.专题研究/Django/Django-admin.md",
     "5.专题研究/Django/第一个单元测试.md",
     "5.专题研究/Django/模型设计.md",
-    "5.专题研究/Django/PyCharm构建Django项目.md",
     "2.等待处理/Diary/2023-03-27.md.nssyncsc",
     "5.专题研究/调剂复试/assets/Pasted image 20230328195027.png",
     "2.等待处理/Diary/assets/Pasted image 20230326102209.png",
