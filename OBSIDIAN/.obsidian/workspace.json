@@ -4,15 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "81939cb600697fb8",
+        "id": "cee97afe819628ed",
         "type": "tabs",
         "children": [
           {
-            "id": "fb24c7530ab52ba5",
+            "id": "878ba58db021032f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/vscode/插件/Plugin/node-snippets 代码生成.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "65227351a47cd735",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c69d78ddd3a2e51d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/vscode/插件/VsCode主题图标类插件合集.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "04061df2d50716a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/vscode/插件/VsCode功能增强类插件合集.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "792381a2a0c5fd78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/vscode/插件/VsCode代码格式化类插件合集.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则表达式",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.50909423828125
+    "width": 388.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -66,6 +116,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
+        "dimension": 67.40576496674058,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -73,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/vscode/插件/Plugin/node-snippets 代码生成.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/vscode/插件/Plugin/node-snippets 代码生成.md"
+              }
             }
           },
           {
@@ -112,10 +166,26 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "5b041cfb196c93db",
+        "type": "tabs",
+        "dimension": 32.59423503325942,
+        "children": [
+          {
+            "id": "d4e6e7e28c1d7e02",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -130,58 +200,58 @@
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
       "templater-obsidian:Templater": true,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "fb24c7530ab52ba5",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "0.plugin/template/dailynotes.md",
-    "2.等待处理/Diary/2023-03-31.md",
-    "4.归档/工作/基础/software/vscode/插件/index.md",
-    "5.专题研究/SpringBoot/SpringBoot知识地图.md",
-    "4.归档/工作/工程/正则表达式/正则表达式学习.md",
-    "1.收集箱/simpread_clipper/inbox/1-python正则表达式精讲--分组 - 知乎.md",
-    "4.归档/工作/学习周刊/2023/2023-12.md",
-    "4.归档/工作/学习周刊/2023-13.md",
+    "5.专题研究/vscode/插件/Plugin/Monokai Pro 主题.md",
+    "5.专题研究/vscode/插件/VsCode主题图标类插件合集.md",
+    "5.专题研究/vscode/插件/Plugin/Material Icon Theme 图标.md",
+    "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331153528.png",
+    "5.专题研究/vscode/插件/Plugin/Live Sass Compiler SASS自动翻译.md",
+    "5.专题研究/vscode/插件/VsCode功能增强类插件合集.md",
+    "5.专题研究/vscode/插件/VsCode代码格式化类插件合集.md",
+    "5.专题研究/vscode/插件/Plugin/Live Preview 实时预览【开发中】.md",
+    "5.专题研究/vscode/插件/Plugin/JavaScript Snippet Pack 代码片段.md",
+    "5.专题研究/vscode/插件/Plugin/Import Cost 显示包大小.md",
+    "5.专题研究/vscode/插件/Plugin/HTML CSS Support 语言支持.md",
+    "5.专题研究/vscode/插件/Plugin/Halcyon Theme 主题.md",
+    "5.专题研究/vscode/插件/Plugin/Font Awesome Gallery 字体库扩展.md",
+    "5.专题研究/vscode/插件/Plugin/Dyno File Utils 文件助手.md",
+    "5.专题研究/vscode/插件/Plugin/EditorConfig for VS Code 编辑器扩展设置.md",
+    "5.专题研究/vscode/插件/Plugin/Element Plus Snippets Element 代码提示.md",
+    "5.专题研究/vscode/插件/Plugin/Element-ui-helper Element UI 实时帮助.md",
+    "5.专题研究/vscode/插件/Plugin/Fluent Icons 编辑器图标.md",
+    "5.专题研究/vscode/插件/Plugin/DotENV 语法高亮方案.md",
+    "5.专题研究/vscode/插件/Plugin/DevPro - High Contrast 高对比度主题.md",
+    "5.专题研究/vscode/插件/Plugin/CSS Peek css 查看.md",
+    "5.专题研究/vscode/插件组合/ESLint+Prettier 最强格式化.md",
+    "5.专题研究/vscode/插件/Plugin/Chinese Lorem 产生繁体字.md",
+    "5.专题研究/vscode/插件/Plugin/Browse Lite 内置浏览器.md",
+    "5.专题研究/vscode/插件/Plugin/Bracket Pair Colorizer 2 彩虹括号配对.md",
+    "5.专题研究/vscode/插件/Plugin/Better Comments 区别注释.md",
+    "5.专题研究/vscode/插件/Plugin/Auto Rename Tag 自动重命名标签.md",
+    "5.专题研究/chrome/plugins",
+    "5.专题研究/chrome",
     "4.归档/工作/学习周刊/assets/Pasted image 20230331090210.png",
-    "4.归档/工作/工程/index.md",
-    "4.归档/工作/工程/正则表达式/【正则表达式】校验时间和日期格式.md",
-    "4.归档/工作/工程/正则表达式/【正则表达式】匹配java的行内注释.md",
-    "4.归档/学习/1.修身/备考/考研调剂复试/面试中的其他问题.md",
     "4.归档/学习/1.修身/备考",
-    "4.归档/学习/1.修身/备考/考研调剂复试/面试问题总结【英文】.md",
-    "4.归档/学习/1.修身/备考/考研调剂复试/面试问题总结【中文】.md",
-    "4.归档/学习/1.修身/读书/推理小说阅读顺序.md",
-    "2.等待处理/Diary/2023-03-28.md",
-    "2.等待处理/Diary/2023-03-29.md",
-    "2.等待处理/Diary/2023-03-30.md",
-    "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md",
     "4.归档/学习/1.修身/读书/resources/推理小说路线.xmind",
-    "1.收集箱/simpread_clipper/repo/1-阅读推理小说的阅读顺序是什么.md",
     "4.归档/学习/1.修身/读书/assets/推理小说阅读.png",
     "4.归档/学习/1.修身/读书/assets",
     "4.归档/学习/1.修身/读书/resources/推理小说系统阅读.xmind",
     "4.归档/学习/1.修身/读书/resources",
     "4.归档/学习/1.修身/读书",
-    "1.收集箱/simpread_clipper/inbox/阅读推理小说的阅读顺序是什么？.md",
-    "4.归档/学习/1.修身/备考/考研调剂复试/数据结构与算法面试题.md",
-    "4.归档/生活/搜索/zlib合集.md",
-    "4.归档/工作/学习周刊/2023/2023-11.md",
-    "4.归档/学习/1.修身/备考/考研调剂复试/调剂记录日志.md",
-    "4.归档/学习/1.修身/备考/考研调剂复试/自我介绍.md",
     "2.等待处理/Diary/2023-03-27.md.nssyncsc",
     "4.归档/学习/1.修身/备考/考研调剂复试/assets/Pasted image 20230328195027.png",
     "2.等待处理/Diary/assets/Pasted image 20230326102209.png",
     "2.等待处理/Diary/assets",
-    "1.收集箱/simpread_clipper/repo",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323204716_937.png",
-    "0.plugin/excalidraw/assets/Pasted Image 20230323204351_901.png",
-    "0.plugin/excalidraw/assets/Pasted Image 20230323203707_406.png",
-    "0.plugin/excalidraw/assets"
+    "0.plugin/excalidraw/assets/Pasted Image 20230323204351_901.png"
   ]
 }
