@@ -18,5 +18,4 @@ week: <% tp.date.now("YYYY-WW") %>
 > 
 
 
-- [ ] C+DS -> PTA
 - [ ] 毕设
