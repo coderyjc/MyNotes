@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "source",
+                "file": "2.等待处理/Diary/2023-03-31.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "2.等待处理/Diary/2023-03-31.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "2.等待处理/Diary/2023-03-31.md"
               }
             }
           }
@@ -166,10 +166,23 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "d6011f7896471b22",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-03-31.md",
     "HOME.md",
+    "2.等待处理/Diary/2023-03-31.md",
+    "2.等待处理/Diary/Archieve/2022-12/2022-12-25.md",
+    "2.等待处理/Diary/Archieve/2022-12/2022-12-26.md",
+    "2.等待处理/Diary/Archieve/2022-12/2022-12-27.md",
+    "2.等待处理/Diary/Archieve/2022-12/2022-12-28.md",
+    "2.等待处理/Diary/Archieve/2022-12/2022-12-29.md",
+    "2.等待处理/Diary/Archieve/2022-12/2022-12-30.md",
+    "2.等待处理/Diary/Archieve/2022-12/2022-12-31.md",
+    "2.等待处理/Diary/Archieve/2023-01/2023-01-02.md",
+    "2.等待处理/Diary/Archieve/2023-01/2023-01-03.md",
+    "2.等待处理/Diary/Archieve/2023-01/2023-01-04.md",
+    "2.等待处理/Diary/Archieve/2023-01/2023-01-05.md",
+    "2.等待处理/Diary/Archieve/2023-01/2023-01-06.md",
+    "2.等待处理/Diary/Archieve/2023-01/2023-01-19.md",
     "1.收集箱/dashboard/warehouse.md",
     "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
     "1.收集箱/dashboard/tag-retrieve.md",
@@ -181,20 +194,7 @@
     "5.专题研究/Algorithm/PTA/CodeBase.md",
     "5.专题研究/Algorithm/PTA/AlgorithmNote.md",
     "2.等待处理/Diary/delete.md",
-    "5.专题研究/vscode/插件/VsCode代码格式化类插件合集.md",
-    "5.专题研究/vscode/插件/VsCode功能增强类插件合集.md",
-    "5.专题研究/vscode/插件/Plugin/Highlight Matching Tag 配对标签高亮.md",
     "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331160657.png",
-    "5.专题研究/vscode/插件组合/ESLint+Prettier 最强格式化.md",
-    "5.专题研究/vscode/基本使用/常用快捷键.md",
-    "5.专题研究/vscode/基本使用/VsCode基础知识.md",
-    "5.专题研究/vscode/插件/VsCode主题图标类插件合集.md",
-    "5.专题研究/vscode/插件/Plugin/【未整理】ESLint 代码格式化.md",
-    "1.收集箱/navigation/coder/代码美化.md",
-    "5.专题研究/vscode/插件/Plugin/Zoom Bar 缩放栏.md",
-    "5.专题研究/vscode/插件/Plugin/Waka Time 时间管理.md",
-    "5.专题研究/vscode/插件/Plugin/Vue Language Features Vue特性支持.md",
-    "5.专题研究/vscode/插件/Plugin/vscode-intellij-recent-files 最近文件.md",
     "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331153528.png",
     "5.专题研究/chrome/plugins",
     "5.专题研究/chrome",
