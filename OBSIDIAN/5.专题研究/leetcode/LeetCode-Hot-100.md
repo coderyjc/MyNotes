@@ -1,5 +1,5 @@
 
-## LeetCode最热100题
+## LeetCode-Hot-100
 
 ```dataview
 list
