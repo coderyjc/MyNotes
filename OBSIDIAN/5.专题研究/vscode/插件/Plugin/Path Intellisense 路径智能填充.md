@@ -1,5 +1,5 @@
 ---
-type: 代码生成
+type: 代码格式化
 name: Path Intellisense 路径智能填充
 ootb: 0
 recommendation: 7

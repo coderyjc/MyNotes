@@ -4,61 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cee97afe819628ed",
+        "id": "3e46badba349efdb",
         "type": "tabs",
         "children": [
           {
-            "id": "878ba58db021032f",
+            "id": "d6011f7896471b22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/vscode/插件/Plugin/node-snippets 代码生成.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "65227351a47cd735",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c69d78ddd3a2e51d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/vscode/插件/VsCode主题图标类插件合集.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "04061df2d50716a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/vscode/插件/VsCode功能增强类插件合集.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "792381a2a0c5fd78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/vscode/插件/VsCode代码格式化类插件合集.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -107,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.50909423828125
+    "width": 244.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -116,7 +71,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 67.40576496674058,
+        "dimension": 34.25720620842572,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -124,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/vscode/插件/Plugin/node-snippets 代码生成.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,16 +87,6 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a4c7ff5f1eb0069f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "5.专题研究/vscode/插件/Plugin/node-snippets 代码生成.md"
               }
             }
           },
@@ -165,12 +110,29 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "6cade4ed91fb2679",
+        "type": "tabs",
+        "dimension": 34.25720620842572,
+        "children": [
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HOME.md"
+              }
+            }
+          }
+        ]
       },
       {
         "id": "5b041cfb196c93db",
         "type": "tabs",
-        "dimension": 32.59423503325942,
+        "dimension": 31.48558758314856,
         "children": [
           {
             "id": "d4e6e7e28c1d7e02",
@@ -184,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,35 +166,36 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "d6011f7896471b22",
   "lastOpenFiles": [
-    "5.专题研究/vscode/插件/Plugin/Monokai Pro 主题.md",
-    "5.专题研究/vscode/插件/VsCode主题图标类插件合集.md",
-    "5.专题研究/vscode/插件/Plugin/Material Icon Theme 图标.md",
-    "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331153528.png",
-    "5.专题研究/vscode/插件/Plugin/Live Sass Compiler SASS自动翻译.md",
-    "5.专题研究/vscode/插件/VsCode功能增强类插件合集.md",
+    "2.等待处理/Diary/2023-03-31.md",
+    "HOME.md",
+    "1.收集箱/dashboard/warehouse.md",
+    "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
+    "1.收集箱/dashboard/tag-retrieve.md",
+    "1.收集箱/dashboard/tag-summary.md",
+    "2.等待处理/Diary/2023-03-30.md",
+    "2.等待处理/Diary/Archieve/2023-03/2023-03-10.md",
+    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
+    "5.专题研究/Algorithm/PTA/测试用例类型总结.md",
+    "5.专题研究/Algorithm/PTA/CodeBase.md",
+    "5.专题研究/Algorithm/PTA/AlgorithmNote.md",
+    "2.等待处理/Diary/delete.md",
     "5.专题研究/vscode/插件/VsCode代码格式化类插件合集.md",
-    "5.专题研究/vscode/插件/Plugin/Live Preview 实时预览【开发中】.md",
-    "5.专题研究/vscode/插件/Plugin/JavaScript Snippet Pack 代码片段.md",
-    "5.专题研究/vscode/插件/Plugin/Import Cost 显示包大小.md",
-    "5.专题研究/vscode/插件/Plugin/HTML CSS Support 语言支持.md",
-    "5.专题研究/vscode/插件/Plugin/Halcyon Theme 主题.md",
-    "5.专题研究/vscode/插件/Plugin/Font Awesome Gallery 字体库扩展.md",
-    "5.专题研究/vscode/插件/Plugin/Dyno File Utils 文件助手.md",
-    "5.专题研究/vscode/插件/Plugin/EditorConfig for VS Code 编辑器扩展设置.md",
-    "5.专题研究/vscode/插件/Plugin/Element Plus Snippets Element 代码提示.md",
-    "5.专题研究/vscode/插件/Plugin/Element-ui-helper Element UI 实时帮助.md",
-    "5.专题研究/vscode/插件/Plugin/Fluent Icons 编辑器图标.md",
-    "5.专题研究/vscode/插件/Plugin/DotENV 语法高亮方案.md",
-    "5.专题研究/vscode/插件/Plugin/DevPro - High Contrast 高对比度主题.md",
-    "5.专题研究/vscode/插件/Plugin/CSS Peek css 查看.md",
+    "5.专题研究/vscode/插件/VsCode功能增强类插件合集.md",
+    "5.专题研究/vscode/插件/Plugin/Highlight Matching Tag 配对标签高亮.md",
+    "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331160657.png",
     "5.专题研究/vscode/插件组合/ESLint+Prettier 最强格式化.md",
-    "5.专题研究/vscode/插件/Plugin/Chinese Lorem 产生繁体字.md",
-    "5.专题研究/vscode/插件/Plugin/Browse Lite 内置浏览器.md",
-    "5.专题研究/vscode/插件/Plugin/Bracket Pair Colorizer 2 彩虹括号配对.md",
-    "5.专题研究/vscode/插件/Plugin/Better Comments 区别注释.md",
-    "5.专题研究/vscode/插件/Plugin/Auto Rename Tag 自动重命名标签.md",
+    "5.专题研究/vscode/基本使用/常用快捷键.md",
+    "5.专题研究/vscode/基本使用/VsCode基础知识.md",
+    "5.专题研究/vscode/插件/VsCode主题图标类插件合集.md",
+    "5.专题研究/vscode/插件/Plugin/【未整理】ESLint 代码格式化.md",
+    "1.收集箱/navigation/coder/代码美化.md",
+    "5.专题研究/vscode/插件/Plugin/Zoom Bar 缩放栏.md",
+    "5.专题研究/vscode/插件/Plugin/Waka Time 时间管理.md",
+    "5.专题研究/vscode/插件/Plugin/Vue Language Features Vue特性支持.md",
+    "5.专题研究/vscode/插件/Plugin/vscode-intellij-recent-files 最近文件.md",
+    "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331153528.png",
     "5.专题研究/chrome/plugins",
     "5.专题研究/chrome",
     "4.归档/工作/学习周刊/assets/Pasted image 20230331090210.png",
@@ -251,7 +213,6 @@
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
-    "0.plugin/excalidraw/assets/Pasted Image 20230323204716_937.png",
-    "0.plugin/excalidraw/assets/Pasted Image 20230323204351_901.png"
+    "0.plugin/excalidraw/assets/Pasted Image 20230323204716_937.png"
   ]
 }

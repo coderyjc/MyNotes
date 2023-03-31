@@ -1,5 +1,5 @@
 ---
-type: 代码提示
+type: 代码格式化
 name: Tabnine AI 代码智能提示
 ootb: 1
 recommendation: 9

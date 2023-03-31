@@ -18,6 +18,15 @@ dv.paragraph(`其中==已归档笔记== **${i[1]}** 篇，==正在进行的笔�
 
 ```
 
+最近的任务：
+
+```dataview
+task undo
+from "2.deng"
+
+```
+
+
 ```dataviewjs
 let setting = {};
 //在和风天气中创建的 Api key
@@ -32,28 +41,3 @@ setting.anotherCity = "梁山";//添加另外一个城市
 //脚本文件 weatherView.js 所在路径
 dv.view("0.plugin/dataviewjs/dv_weatherView",setting)
 ```
-
-````ad-flex
-<div>
-
-### 最近编辑
-```dataview
-table WITHOUT ID file.link AS "标题",file.mtime as "时间"
-from !"模板" and !"kanban"
-sort file.mtime desc
-limit 5
-```
-</div>
-
-<div>
-
-### 三天内创建的笔记
-```dataview
-table file.ctime as 创建时间
-from ""
-where date(today) - file.ctime <=dur(3 days)
-sort file.ctime desc
-limit 5
-```
-</div>
-````

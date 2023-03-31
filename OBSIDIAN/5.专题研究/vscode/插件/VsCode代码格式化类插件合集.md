@@ -13,6 +13,21 @@
 
 [[Plugin/DotENV 语法高亮方案]]
 
+[[Plugin/Paste JSON as Code JSON粘贴]]
+
+[[Plugin/Path Autocomplete 路径填充]]
+
+[[Plugin/Path Intellisense 路径智能填充]]
+
+[[Plugin/Pylance自动格式化python代码]]
+
+[[Plugin/SCSS Formatter 格式化]]
+
+[[Plugin/Template String Converter 模板字符串转换]]
+
+[[Plugin/Visual Studio IntelliCode 代码智能提示]]
+
+[[Plugin/Highlight Matching Tag 配对标签高亮]]
 
 ## 代码生成
 

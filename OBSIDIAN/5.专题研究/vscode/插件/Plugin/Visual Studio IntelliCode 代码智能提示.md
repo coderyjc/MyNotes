@@ -1,5 +1,5 @@
 ---
-type: 代码提示
+type: 代码格式化
 name: Visual Studio IntelliCode 代码智能提示
 ootb: 0
 recommendation: 8

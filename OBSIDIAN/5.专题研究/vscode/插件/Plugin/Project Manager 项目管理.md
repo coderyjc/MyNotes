@@ -1,5 +1,5 @@
 ---
-type: 功能扩展
+type: 功能增强
 name: Project Manager 项目管理
 ootb: 0
 recommendation: 7

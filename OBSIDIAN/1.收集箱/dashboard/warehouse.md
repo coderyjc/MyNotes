@@ -6,19 +6,9 @@ kanban-plugin: basic
 
 ## 核心竞争力
 
-- [ ] 写一个解读某开源项目的电子书 MyBlog
-- [ ] 花时间整理一下我的vuepress导航站的搭建过程
+- [ ] 整理一下我的vuepress导航站的搭建过程
 - [ ] 学习vim, 然后安装vscode和idea中的vim插件，从而**提高开发效率**
 - [ ] 制作自己的OS和编译器，在自己的OS里运行自己写的程序
-- [ ] #flag/开发 springcloud项目 https://mp.weixin.qq.com/s/vrSU_7yGR4Hi5zqRIhwJlA
-
-
-## 学习
-
-- [ ] #flag/人文 西欧的历史和欧洲侵略史
-- [ ] #flag/读书 四大名著
-- [x] #flag/读书 使用Obsidian整理读书笔记
-- [ ] #flag/读书 哈利波特+王一珉电影解读
 
 
 ## utility
@@ -36,11 +26,10 @@ kanban-plugin: basic
 - [ ] 用pygame学着写个小游戏，从而练习python开发，这个应该放在python基础之后。
 - [ ] 了解一下衣服的品种，面料什么的
 - [ ] 了解一下生活中必备的法律知识
-- [ ] 看看半佛和职业选择相关的视频
 - [ ] 文章同步在csdn和博客园上
 - [ ] 多邻国学日语，考日语证
 - [ ] 了解一下中国官场，政治的晋升体系
-- [ ] 运自媒体运营
+- [ ] 自媒体运营
 - [ ] 乐理
 - [ ] 天文知识
 - [ ] 金融，贴近生活的那种
@@ -60,6 +49,13 @@ kanban-plugin: basic
 - [ ] #flag/设计 学习配色和设计，自己写一个obsidian，vscode，typora主题等
 - [ ] #flag/写作 玄幻小说
 - [ ] #flag/写作 模仿龙族写小说
+
+
+## 学习
+
+- [ ] #flag/人文 西欧的历史和欧洲侵略史
+- [ ] #flag/读书 四大名著
+- [ ] #flag/读书 哈利波特+王一珉电影解读
 
 
 ***
@@ -85,7 +81,6 @@ kanban-plugin: basic
 - [x] 阅读知乎盐选的文章
 - [x] #flag/工具 开发一个Windows桌面小组件，用来调用flomoapi从而记录东西
 - [x] 开发者工具top100 https://mp.weixin.qq.com/s/9DqfP7niFlZLWGmM1jXPpw
-- [ ] #flag/网站 诗词展示网站（极限html+css+js）
 - [x] #flag/读书 《有效学习》
 - [x] #flag/读书 《亲密关系》
 - [x] #flag/读书 《我的前半生》
@@ -103,6 +98,7 @@ kanban-plugin: basic
 - [x] 通过gitee或者github部署doc博客
 - [x] #flag/工具 写个PDF去水印的软件
 - [x] 导入表情包到微信
+- [x] #flag/读书 使用Obsidian整理读书笔记
 
 %% kanban:settings
 ```

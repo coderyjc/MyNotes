@@ -1,5 +1,5 @@
 ---
-type: 
+type: 代码格式化
 name: Template String Converter 模板字符串转换
 ootb: 1
 recommendation: 7

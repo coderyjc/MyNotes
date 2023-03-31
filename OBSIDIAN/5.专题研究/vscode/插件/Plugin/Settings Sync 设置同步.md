@@ -1,5 +1,5 @@
 ---
-type: 功能扩展
+type: 功能增强
 name: Settings Sync 设置同步
 ootb: 0
 recommendation: 8

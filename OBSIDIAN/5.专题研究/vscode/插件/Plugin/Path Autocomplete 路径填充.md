@@ -1,5 +1,5 @@
 ---
-type: 代码补全
+type: 代码格式化
 name: Path Autocomplete 路径填充
 ootb: 1
 recommendation: 7

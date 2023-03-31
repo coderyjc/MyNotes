@@ -1,5 +1,5 @@
 ---
-type: 代码可视化
+type: 代码格式化
 name: SCSS Formatter 格式化
 ootb: 1
 recommendation: 7
