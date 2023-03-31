@@ -13,34 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/0-阅读推理小说的阅读顺序是什么？.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "03a1b8393de58b85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/1-阅读推理小说的阅读顺序是什么.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4f75ad7073ed3b7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "4.归档/学习/1.修身/读书/推理小说阅读顺序.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -104,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/0-阅读推理小说的阅读顺序是什么？.md",
+                "file": "4.归档/学习/1.修身/读书/推理小说阅读顺序.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/0-阅读推理小说的阅读顺序是什么？.md"
+                "file": "4.归档/学习/1.修身/读书/推理小说阅读顺序.md"
               }
             }
           },
@@ -170,20 +144,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "1ae8858c6f8338ce",
   "lastOpenFiles": [
-    "1.收集箱/simpread_clipper/inbox/1-阅读推理小说的阅读顺序是什么.md",
-    "1.收集箱/simpread_clipper/inbox/0-阅读推理小说的阅读顺序是什么？.md",
+    "2.等待处理/Diary/2023-03-31.md",
+    "2.等待处理/Diary/2023-03-28.md",
+    "2.等待处理/Diary/2023-03-29.md",
+    "2.等待处理/Diary/2023-03-30.md",
+    "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md",
+    "4.归档/学习/1.修身/读书/resources/推理小说路线.xmind",
     "4.归档/学习/1.修身/读书/推理小说阅读顺序.md",
+    "1.收集箱/simpread_clipper/repo/1-阅读推理小说的阅读顺序是什么.md",
+    "4.归档/学习/1.修身/读书/assets/推理小说阅读.png",
     "4.归档/学习/1.修身/读书/assets",
     "4.归档/学习/1.修身/读书/resources/推理小说系统阅读.xmind",
     "4.归档/学习/1.修身/读书/resources",
     "4.归档/学习/1.修身/读书",
     "1.收集箱/simpread_clipper/inbox/阅读推理小说的阅读顺序是什么？.md",
-    "2.等待处理/Diary/2023-03-31.md",
     "0.plugin/template/dailynotes.md",
     "5.专题研究/调剂复试/面试问题总结【中文】.md",
-    "2.等待处理/Diary/2023-03-30.md",
     "5.专题研究/调剂复试/面试问题总结【英文】.md",
     "5.专题研究/调剂复试/数据结构与算法面试题.md",
     "4.归档/生活/搜索/zlib合集.md",
@@ -191,7 +169,6 @@
     "5.专题研究/调剂复试/面试中的其他问题.md",
     "5.专题研究/调剂复试/调剂记录日志.md",
     "5.专题研究/调剂复试/自我介绍.md",
-    "2.等待处理/Diary/2023-03-29.md",
     "5.专题研究/调剂复试/如何选择导师.md",
     "5.专题研究/调剂复试/调剂邮件模板.md",
     "5.专题研究/调剂复试/_复试和调剂相关问题.md",
@@ -213,9 +190,7 @@
     "0.plugin/excalidraw/assets/Pasted Image 20230323204351_901.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323203707_406.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323203659_922.png",
-    "0.plugin/excalidraw/assets/Pasted Image 20230323203200_453.png",
     "0.plugin/excalidraw/assets",
-    "0.plugin/excalidraw",
-    "4.归档/工作/基础/software/tools"
+    "0.plugin/excalidraw"
   ]
 }
