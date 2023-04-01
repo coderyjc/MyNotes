@@ -321,7 +321,213 @@
         }
       },
       "active": "13b8c7c6d2fd0be9"
+    },
+    "阅读": {
+      "main": {
+        "id": "92a467a1cc8481eb",
+        "type": "split",
+        "children": [
+          {
+            "id": "eaead76030adbb91",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa6ce16bd9337aa2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "5.专题研究/无人生还/Character.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "acee4d6cd9a3dd8e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5a9683f757accbc2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "5.专题研究/无人生还/Backgrounds.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "c3a1cb4f7dc21e56",
+        "type": "split",
+        "children": [
+          {
+            "id": "53b505a8467737a9",
+            "type": "tabs",
+            "dimension": 63.52549889135255,
+            "children": [
+              {
+                "id": "e2988b14426e11db",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "1f74b340a1d27e17",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "e8213347f7a47403",
+            "type": "tabs",
+            "dimension": 36.47450110864745,
+            "children": [
+              {
+                "id": "e9db2f7147d73767",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 279.50909423828125
+      },
+      "right": {
+        "id": "74c9699ade28f3f2",
+        "type": "split",
+        "children": [
+          {
+            "id": "7473eb9910fae944",
+            "type": "tabs",
+            "dimension": 36.14190687361419,
+            "children": [
+              {
+                "id": "3f3a381f5286a2b5",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "5.专题研究/无人生还/Character.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "4a674e7e834588f4",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "fa96d77fdb3539ea",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "6cade4ed91fb2679",
+            "type": "tabs",
+            "dimension": 31.37472283813747,
+            "children": [
+              {
+                "id": "a4c7ff5f1eb0069f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "5.专题研究/无人生还/Character.md"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "5b041cfb196c93db",
+            "type": "tabs",
+            "dimension": 32.48337028824834,
+            "children": [
+              {
+                "id": "d4e6e7e28c1d7e02",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 313.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "webpage-html-export:Export Vault to HTML": false,
+          "remotely-save:Remotely Save": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": false,
+          "periodic-notes:Open today": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": true,
+          "command-palette:打开命令面板": true,
+          "obsidian-weread-plugin:Weread": false,
+          "workspaces:管理工作区布局": false,
+          "templater-obsidian:Templater": true,
+          "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+          "obsidian-memos:Memos": false
+        }
+      },
+      "active": "e2988b14426e11db"
     }
   },
-  "active": "HOME"
+  "active": "阅读"
 }
