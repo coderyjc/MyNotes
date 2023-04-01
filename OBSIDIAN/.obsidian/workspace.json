@@ -4,67 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "eaead76030adbb91",
+        "id": "b3766a4ac8f4b974",
         "type": "tabs",
-        "dimension": 49.93872549019608,
         "children": [
           {
-            "id": "aa6ce16bd9337aa2",
+            "id": "13b8c7c6d2fd0be9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/无人生还/Character.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ]
-      },
-      {
-        "id": "b923e7e3383b33b5",
-        "type": "split",
-        "dimension": 50.06127450980392,
-        "children": [
-          {
-            "id": "acee4d6cd9a3dd8e",
-            "type": "tabs",
-            "dimension": 44.345898004434595,
-            "children": [
-              {
-                "id": "5a9683f757accbc2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "5.专题研究/无人生还/士兵岛.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": true
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "35a46796c15ff546",
-            "type": "tabs",
-            "dimension": 55.654101995565405,
-            "children": [
-              {
-                "id": "e9db2f7147d73767",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -96,7 +52,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -106,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.50909423828125,
-    "collapsed": true
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -116,7 +71,6 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 36.14190687361419,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -124,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/无人生还/Character.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,6 +86,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HOME.md"
               }
             }
           },
@@ -156,75 +120,42 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "6cade4ed91fb2679",
-        "type": "tabs",
-        "dimension": 31.37472283813747,
-        "children": [
-          {
-            "id": "a4c7ff5f1eb0069f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "5.专题研究/无人生还/Character.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "5b041cfb196c93db",
-        "type": "tabs",
-        "dimension": 32.48337028824834,
-        "children": [
-          {
-            "id": "d4e6e7e28c1d7e02",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "webpage-html-export:Export Vault to HTML": false,
       "remotely-save:Remotely Save": false,
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-memos:Memos": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "periodic-notes:Open today": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "obsidian-weread-plugin:Weread": false,
       "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": true,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false
+      "obsidian-weread-plugin:Weread": false,
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "aa6ce16bd9337aa2",
+  "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
-    "5.专题研究/无人生还/士兵岛.md",
+    "5.专题研究/无人生还/罗杰斯先生和太太.md",
     "5.专题研究/无人生还/Character.md",
+    "5.专题研究/无人生还/安东尼·马斯顿.md",
+    "5.专题研究/无人生还/埃米莉·布伦特.md",
+    "5.专题研究/无人生还/阿姆斯特朗.md",
+    "5.专题研究/无人生还/士兵岛.md",
     "5.专题研究/无人生还/布洛尔.md",
     "5.专题研究/无人生还/瓦格雷夫.md",
-    "5.专题研究/无人生还/罗杰斯先生和太太.md",
-    "5.专题研究/无人生还/安东尼·马斯顿.md",
     "5.专题研究/无人生还/麦克阿瑟.md",
     "5.专题研究/无人生还/菲利普·隆巴德.md",
     "5.专题研究/无人生还/维拉·克莱索恩.md",
-    "5.专题研究/无人生还/埃米莉·布伦特.md",
-    "5.专题研究/无人生还/阿姆斯特朗.md",
     "5.专题研究/无人生还/弗雷德·纳拉科特.md",
     "2.等待处理/Diary/2023-04-01.md",
     "HOME.md",
