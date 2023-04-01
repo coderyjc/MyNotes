@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "094c98df6d93e2e2",
+        "id": "eaead76030adbb91",
         "type": "tabs",
+        "dimension": 49.93872549019608,
         "children": [
           {
-            "id": "c0126da1d26f2e70",
+            "id": "aa6ce16bd9337aa2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-01.md",
+                "file": "5.专题研究/无人生还/Character.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -21,6 +22,49 @@
             }
           }
         ]
+      },
+      {
+        "id": "b923e7e3383b33b5",
+        "type": "split",
+        "dimension": 50.06127450980392,
+        "children": [
+          {
+            "id": "acee4d6cd9a3dd8e",
+            "type": "tabs",
+            "dimension": 44.345898004434595,
+            "children": [
+              {
+                "id": "5a9683f757accbc2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "5.专题研究/无人生还/士兵岛.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "35a46796c15ff546",
+            "type": "tabs",
+            "dimension": 55.654101995565405,
+            "children": [
+              {
+                "id": "e9db2f7147d73767",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -52,7 +96,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -62,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50909423828125
+    "width": 279.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -71,7 +116,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 60.08869179600887,
+        "dimension": 36.14190687361419,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -79,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-01.md",
+                "file": "5.专题研究/无人生还/Character.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,16 +132,6 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a4c7ff5f1eb0069f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2023-04-01.md"
               }
             }
           },
@@ -120,15 +155,32 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
-        "id": "3d7a58f2d07132f2",
+        "id": "6cade4ed91fb2679",
         "type": "tabs",
-        "dimension": 39.91130820399113,
+        "dimension": 31.37472283813747,
         "children": [
           {
-            "id": "cda6174c83f77bad",
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5.专题研究/无人生还/Character.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5b041cfb196c93db",
+        "type": "tabs",
+        "dimension": 32.48337028824834,
+        "children": [
+          {
+            "id": "d4e6e7e28c1d7e02",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -139,30 +191,36 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 313.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
-      "periodic-notes:Open today": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-memos:Memos": false,
+      "remotely-save:Remotely Save": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
+      "periodic-notes:Open today": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": true
+      "workspaces:管理工作区布局": false,
+      "templater-obsidian:Templater": true,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "c0126da1d26f2e70",
+  "active": "aa6ce16bd9337aa2",
   "lastOpenFiles": [
-    "HOME.md",
+    "5.专题研究/无人生还/弗雷德·纳拉科特.md",
+    "5.专题研究/无人生还/Character.md",
+    "5.专题研究/无人生还/维拉·克莱索恩.md",
+    "5.专题研究/无人生还/罗杰斯先生和太太.md",
+    "5.专题研究/无人生还/士兵岛.md",
     "2.等待处理/Diary/2023-04-01.md",
+    "HOME.md",
     "0.plugin/dataviewjs/DEMO.md",
     "4.归档/工作/基础/software/vscode/插件/Plugin/ESLint 代码格式化.md",
     "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
@@ -172,21 +230,16 @@
     "5.专题研究/vscode/插件/Plugin/未命名.md",
     "4.归档/工作/基础/software/vscode/插件/VsCode代码格式化类插件合集.md",
     "4.归档/工作/基础/software/vscode/插件/Plugin/Auto Close Tag 自动关闭标签.md",
-    "5.专题研究/无人生还/Character.md",
-    "5.专题研究/无人生还/士兵岛.md",
-    "5.专题研究/无人生还/罗杰斯先生和太太.md",
     "5.专题研究/无人生还/瓦格雷夫.md",
     "5.专题研究/无人生还/安东尼·马斯顿.md",
     "5.专题研究/无人生还/阿姆斯特朗.md",
     "5.专题研究/无人生还/麦克阿瑟.md",
     "5.专题研究/无人生还/菲利普·隆巴德.md",
     "5.专题研究/无人生还/埃米莉·布伦特.md",
-    "5.专题研究/无人生还/维拉·克莱索恩.md",
     "5.专题研究/无人生还/康斯坦斯·卡尔明顿.md",
     "5.专题研究/无人生还/莫里斯.md",
     "5.专题研究/无人生还/欧文.md",
     "5.专题研究/无人生还/Backgrounds.md",
-    "1.收集箱/dashboard/tag-retrieve.md",
     "5.专题研究/无人生还",
     "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401090242.png",
     "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401085458.png",
