@@ -23,5 +23,13 @@
       ],
       "key": "I"
     }
+  ],
+  "editing-toolbar:editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
   ]
 }

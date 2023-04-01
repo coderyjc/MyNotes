@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9f21ba5863fc2aa7",
+        "id": "2a9491d704f1969f",
         "type": "tabs",
         "children": [
           {
-            "id": "985ec165b680f032",
+            "id": "5b2098f87d26b49d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-01.md",
-                "mode": "preview",
+                "file": "5.专题研究/chrome/plugins/Saladict - Pop-up Dictionary.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -71,7 +71,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 34.25720620842572,
+        "dimension": 36.14190687361419,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-01.md",
+                "file": "5.专题研究/chrome/plugins/Saladict - Pop-up Dictionary.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
       {
         "id": "6cade4ed91fb2679",
         "type": "tabs",
-        "dimension": 34.25720620842572,
+        "dimension": 31.37472283813747,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-01.md"
+                "file": "5.专题研究/chrome/plugins/Saladict - Pop-up Dictionary.md"
               }
             }
           }
@@ -132,7 +132,7 @@
       {
         "id": "5b041cfb196c93db",
         "type": "tabs",
-        "dimension": 31.48558758314856,
+        "dimension": 32.48337028824834,
         "children": [
           {
             "id": "d4e6e7e28c1d7e02",
@@ -166,53 +166,53 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "985ec165b680f032",
+  "active": "5b2098f87d26b49d",
   "lastOpenFiles": [
+    "5.专题研究/chrome/plugins/assets/Pasted image 20230401085405.png",
+    "5.专题研究/chrome/plugins/RSSHub Radar.md",
+    "5.专题研究/chrome/plugins/Saladict - Pop-up Dictionary.md",
+    "5.专题研究/chrome/plugins/assets/Pasted image 20230401085314.png",
+    "5.专题研究/chrome/plugins/HDS-HLS Video Downloader.md",
+    "5.专题研究/chrome/plugins/ImageAssistant Batch Image Downloader.md",
+    "5.专题研究/chrome/plugins/assets/Pasted image 20230401085052.png",
+    "5.专题研究/chrome/plugins/Git Master.md",
+    "5.专题研究/chrome/Chrome插件合集.md",
+    "5.专题研究/chrome/plugins/Adblock Plus.md",
+    "5.专题研究/chrome/plugins/assets/Pasted image 20230401084941.png",
+    "5.专题研究/chrome/plugins/Dark Reader.md",
+    "5.专题研究/chrome/plugins/assets/Pasted image 20230401084844.png",
+    "5.专题研究/chrome/plugins/assets/Pasted image 20230401084822.png",
+    "4.归档/学习/1.修身/备考/考研调剂复试/面试问题总结【中文】.md",
+    "4.归档/学习/1.修身/备考/考研调剂复试/面试问题总结【英文】.md",
+    "5.专题研究/chrome/plugins/assets/Pasted image 20230401083333.png",
     "HOME.md",
-    "1.收集箱/dashboard/warehouse.md",
     "2.等待处理/Diary/2023-04-01.md",
+    "5.专题研究/chrome/plugins/微信读书助手.md",
+    "5.专题研究/chrome/plugins/WakaTime.md",
+    "5.专题研究/chrome/plugins/Tampermonkey.md",
+    "5.专题研究/chrome/plugins/Stylus.md",
+    "5.专题研究/chrome/plugins/Toby for Chrome.md",
+    "5.专题研究/chrome/plugins/SimpRead - Reader View.md",
+    "5.专题研究/chrome/plugins/assets/Pasted image 20230401082717.png",
+    "5.专题研究/chrome/plugins/assets",
+    "1.收集箱/dashboard/warehouse.md",
     "5.专题研究/操作系统/IO设备.md",
     "5.专题研究/操作系统/信号量.md",
     "5.专题研究/操作系统/基于事件的并发.md",
     "5.专题研究/操作系统/内存地址转换.md",
     "5.专题研究/leetcode/1.两数之和.md",
     "5.专题研究/leetcode/LeetCode-Hot-100.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/数组、栈和队列.md",
-    "5.专题研究/Algorithm/PTA/贪心算法.md",
-    "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/图.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/哈希.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/输入输出相关问题.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/贪心算法.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/树.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/排序.md",
-    "5.专题研究/Algorithm/PTA/图.md",
-    "5.专题研究/Algorithm/PTA/排序.md",
-    "5.专题研究/Algorithm/PTA/树.md",
-    "5.专题研究/Algorithm/PTA/数组、栈和队列.md",
-    "5.专题研究/Algorithm/PTA/哈希.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-50 畅通工程之局部最小花费问题.md",
     "5.专题研究/Algorithm/PTA/assets/Pasted image 20211224160318.png",
     "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331160657.png",
     "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331153528.png",
     "5.专题研究/chrome/plugins",
     "5.专题研究/chrome",
-    "4.归档/工作/学习周刊/assets/Pasted image 20230331090210.png",
     "4.归档/学习/1.修身/备考",
     "4.归档/学习/1.修身/读书/resources/推理小说路线.xmind",
-    "4.归档/学习/1.修身/读书/assets/推理小说阅读.png",
     "4.归档/学习/1.修身/读书/assets",
     "4.归档/学习/1.修身/读书/resources/推理小说系统阅读.xmind",
     "4.归档/学习/1.修身/读书/resources",
     "4.归档/学习/1.修身/读书",
-    "2.等待处理/Diary/2023-03-27.md.nssyncsc",
-    "4.归档/学习/1.修身/备考/考研调剂复试/assets/Pasted image 20230328195027.png",
-    "2.等待处理/Diary/assets/Pasted image 20230326102209.png",
-    "2.等待处理/Diary/assets",
-    "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
-    "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
-    "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png"
+    "2.等待处理/Diary/2023-03-27.md.nssyncsc"
   ]
 }
