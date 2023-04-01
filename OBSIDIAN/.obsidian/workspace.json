@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
+                "file": "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3000dfc3742dc52e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/工程/后端框架/MyBatisPlus/UnsatisfiedDependencyException.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
+                "file": "4.归档/工作/工程/后端框架/MyBatisPlus/UnsatisfiedDependencyException.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md"
+                "file": "4.归档/工作/工程/后端框架/MyBatisPlus/UnsatisfiedDependencyException.md"
               }
             }
           },
@@ -159,12 +173,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "3000dfc3742dc52e",
   "lastOpenFiles": [
     "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md",
+    "4.归档/工作/工程/后端框架/MyBatisPlus/UnsatisfiedDependencyException.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
     "4.归档/工作/工程/后端框架/MyBatisPlus.md",
     "4.归档/工作/工程/后端框架/MyBatisPlus",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
     "2.等待处理/Diary/2023-04-01.md",
     "HOME.md",
     "4.归档/工作/基础/software/idea/下载MySQL驱动太慢.md",
@@ -199,7 +214,6 @@
     "5.专题研究/无人生还/麦克阿瑟.md",
     "5.专题研究/无人生还/菲利普·隆巴德.md",
     "5.专题研究/无人生还/维拉·克莱索恩.md",
-    "5.专题研究/无人生还/弗雷德·纳拉科特.md",
     "5.专题研究/无人生还",
     "4.归档/工作/基础/software/chrome/plugins/assets",
     "4.归档/工作/基础/software/chrome/plugins",
