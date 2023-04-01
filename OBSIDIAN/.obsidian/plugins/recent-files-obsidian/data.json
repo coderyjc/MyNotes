@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-04-01",
-      "path": "2.等待处理/Diary/2023-04-01.md"
-    },
-    {
       "basename": "5.创建后端项目",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md"
+    },
+    {
+      "basename": "NoClassDefFoundError",
+      "path": "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md"
+    },
+    {
+      "basename": "2023-04-01",
+      "path": "2.等待处理/Diary/2023-04-01.md"
     },
     {
       "basename": "HOME",
@@ -35,10 +39,6 @@
     {
       "basename": "1.数据分析类别分析",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md"
-    },
-    {
-      "basename": "1.数据可视化类别分析",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md"
     }
   ],
   "omittedPaths": [],
