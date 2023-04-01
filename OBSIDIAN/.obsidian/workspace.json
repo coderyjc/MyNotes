@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -71,6 +71,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
+        "dimension": 64.52328159645234,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md"
               }
             }
           },
@@ -120,6 +121,21 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "cd55f74ab80fe7b6",
+        "type": "tabs",
+        "dimension": 35.47671840354767,
+        "children": [
+          {
+            "id": "12e544afbaff830e",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,11 +144,9 @@
   "left-ribbon": {
     "hiddenItems": {
       "remotely-save:Remotely Save": false,
-      "periodic-notes:Open today": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-memos:Memos": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -140,11 +154,34 @@
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "13b8c7c6d2fd0be9",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230401153410.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230401153150.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
+    "5.专题研究/SprintBoot-Demo/SpringBoot讲义.md",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301175355482.png",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301175101812.png",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301174751845.png",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301174241310.png",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301174133248.png",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301171437817.png",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301171025615.png",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301170723057.png",
+    "5.专题研究/SprintBoot-Demo/img/image-20220301170600716.png",
+    "5.专题研究/SprintBoot-Demo/img",
+    "2.等待处理/Diary/2023-04-01.md",
+    "5.专题研究/SprintBoot-Demo",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md",
     "5.专题研究/无人生还/罗杰斯先生和太太.md",
     "5.专题研究/无人生还/Character.md",
     "5.专题研究/无人生还/安东尼·马斯顿.md",
@@ -157,39 +194,18 @@
     "5.专题研究/无人生还/菲利普·隆巴德.md",
     "5.专题研究/无人生还/维拉·克莱索恩.md",
     "5.专题研究/无人生还/弗雷德·纳拉科特.md",
-    "2.等待处理/Diary/2023-04-01.md",
     "HOME.md",
     "0.plugin/dataviewjs/DEMO.md",
     "4.归档/工作/基础/software/vscode/插件/Plugin/ESLint 代码格式化.md",
     "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
     "2.等待处理/Diary/Archieve/2023-03/2023-03-31.md",
-    "4.归档/工作/基础/software/vscode/插件/Plugin/Auto Import 自动导包.md",
-    "4.归档/工作/基础/software/vscode/插件/Plugin/Prettier - Code formatter 代码格式化.md",
-    "5.专题研究/vscode/插件/Plugin/未命名.md",
-    "4.归档/工作/基础/software/vscode/插件/VsCode代码格式化类插件合集.md",
-    "4.归档/工作/基础/software/vscode/插件/Plugin/Auto Close Tag 自动关闭标签.md",
-    "5.专题研究/无人生还/康斯坦斯·卡尔明顿.md",
-    "5.专题研究/无人生还/莫里斯.md",
-    "5.专题研究/无人生还/欧文.md",
     "5.专题研究/无人生还",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401090242.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401085458.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401085422.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401085405.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401085314.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401085052.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401084941.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401084844.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401084822.png",
-    "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401083333.png",
     "4.归档/工作/基础/software/chrome/plugins/assets",
     "4.归档/工作/基础/software/chrome/plugins",
     "4.归档/工作/基础/software/chrome",
     "4.归档/学习/1.修身/备考",
     "4.归档/学习/1.修身/阅读方法论/resources/推理小说路线.xmind",
     "4.归档/学习/1.修身/阅读方法论/assets",
-    "4.归档/学习/1.修身/阅读方法论/resources/推理小说系统阅读.xmind",
-    "4.归档/学习/1.修身/阅读方法论/resources",
-    "4.归档/学习/1.修身/阅读方法论"
+    "4.归档/学习/1.修身/阅读方法论/resources/推理小说系统阅读.xmind"
   ]
 }
