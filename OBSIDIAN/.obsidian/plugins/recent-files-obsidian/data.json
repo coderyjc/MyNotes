@@ -5,6 +5,14 @@
       "path": "2.等待处理/Diary/2023-04-01.md"
     },
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "warehouse",
+      "path": "1.收集箱/dashboard/warehouse.md"
+    },
+    {
       "basename": "IO设备",
       "path": "5.专题研究/操作系统/IO设备.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "7-1 最大子列和问题",
       "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md"
-    },
-    {
-      "basename": "_README",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md"
-    },
-    {
-      "basename": "数组、栈和队列",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/数组、栈和队列.md"
     }
   ],
   "omittedPaths": [],

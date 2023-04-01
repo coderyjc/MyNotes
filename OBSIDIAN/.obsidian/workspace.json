@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6b2ab859528db1ad",
+        "id": "9f21ba5863fc2aa7",
         "type": "tabs",
         "children": [
           {
-            "id": "5ef17374873605e2",
+            "id": "985ec165b680f032",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "2.等待处理/Diary/2023-04-01.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -166,8 +166,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5ef17374873605e2",
+  "active": "985ec165b680f032",
   "lastOpenFiles": [
+    "HOME.md",
+    "1.收集箱/dashboard/warehouse.md",
+    "2.等待处理/Diary/2023-04-01.md",
     "5.专题研究/操作系统/IO设备.md",
     "5.专题研究/操作系统/信号量.md",
     "5.专题研究/操作系统/基于事件的并发.md",
@@ -185,15 +188,12 @@
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/贪心算法.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/树.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/排序.md",
-    "HOME.md",
     "5.专题研究/Algorithm/PTA/图.md",
     "5.专题研究/Algorithm/PTA/排序.md",
     "5.专题研究/Algorithm/PTA/树.md",
     "5.专题研究/Algorithm/PTA/数组、栈和队列.md",
     "5.专题研究/Algorithm/PTA/哈希.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-50 畅通工程之局部最小花费问题.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-48 银行排队问题之单窗口“夹塞”版.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-12 排序.md",
     "5.专题研究/Algorithm/PTA/assets/Pasted image 20211224160318.png",
     "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331160657.png",
     "5.专题研究/vscode/插件/Plugin/assets/Pasted image 20230331153528.png",
