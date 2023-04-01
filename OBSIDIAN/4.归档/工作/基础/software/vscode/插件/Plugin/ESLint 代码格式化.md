@@ -8,12 +8,9 @@ create_date: 2022-01-26
 
 ![[assets/Pasted image 20220126205749.png]]
 
-# ESLint 代码格式化
+# ESLint 代码检查
 
-https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+插件地址： https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
-## 特点
+官网： https://eslint.org/
 
-
-
-## 配置

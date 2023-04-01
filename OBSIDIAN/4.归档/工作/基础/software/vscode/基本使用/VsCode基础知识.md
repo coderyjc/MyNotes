@@ -27,7 +27,7 @@
 
 #### 代码格式
 
-代码美化主要我使用的是 [[../插件/Plugin/【未整理】Prettier - Code formatter 代码格式化]] ，并需要在项目目录创建配置文件`.prettierrc`基本内容如下
+代码美化主要我使用的是 [[../插件/Plugin/Prettier - Code formatter 代码格式化]] ，并需要在项目目录创建配置文件`.prettierrc`基本内容如下
 
 ```
 {

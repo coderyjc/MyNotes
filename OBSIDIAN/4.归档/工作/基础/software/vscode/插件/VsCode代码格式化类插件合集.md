@@ -29,6 +29,8 @@
 
 [[Plugin/Highlight Matching Tag 配对标签高亮]]
 
+[[Plugin/Prettier - Code formatter 代码格式化]]
+
 ## 代码生成
 
 [[Plugin/Element Plus Snippets Element 代码提示]]

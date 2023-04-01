@@ -4,35 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eaead76030adbb91",
+        "id": "094c98df6d93e2e2",
         "type": "tabs",
         "children": [
           {
-            "id": "aa6ce16bd9337aa2",
+            "id": "c0126da1d26f2e70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/无人生还/罗杰斯先生和太太.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "acee4d6cd9a3dd8e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5a9683f757accbc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/无人生还/士兵岛.md",
+                "file": "2.等待处理/Diary/2023-04-01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -51,7 +32,6 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 63.52549889135255,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -72,32 +52,17 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
         ]
-      },
-      {
-        "id": "e8213347f7a47403",
-        "type": "tabs",
-        "dimension": 36.47450110864745,
-        "children": [
-          {
-            "id": "e9db2f7147d73767",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 279.50909423828125
+    "width": 261.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -106,7 +71,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 36.14190687361419,
+        "dimension": 60.08869179600887,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -114,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/无人生还/罗杰斯先生和太太.md",
+                "file": "2.等待处理/Diary/2023-04-01.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +87,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2.等待处理/Diary/2023-04-01.md"
               }
             }
           },
@@ -145,32 +120,15 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "6cade4ed91fb2679",
+        "id": "3d7a58f2d07132f2",
         "type": "tabs",
-        "dimension": 31.37472283813747,
+        "dimension": 39.91130820399113,
         "children": [
           {
-            "id": "a4c7ff5f1eb0069f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "5.专题研究/无人生还/罗杰斯先生和太太.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "5b041cfb196c93db",
-        "type": "tabs",
-        "dimension": 32.48337028824834,
-        "children": [
-          {
-            "id": "d4e6e7e28c1d7e02",
+            "id": "cda6174c83f77bad",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -181,56 +139,55 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "webpage-html-export:Export Vault to HTML": false,
       "remotely-save:Remotely Save": false,
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-memos:Memos": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "periodic-notes:Open today": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "obsidian-weread-plugin:Weread": false,
       "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": true,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false
+      "obsidian-weread-plugin:Weread": false,
+      "templater-obsidian:Templater": true
     }
   },
-  "active": "aa6ce16bd9337aa2",
+  "active": "c0126da1d26f2e70",
   "lastOpenFiles": [
+    "HOME.md",
+    "2.等待处理/Diary/2023-04-01.md",
+    "0.plugin/dataviewjs/DEMO.md",
+    "4.归档/工作/基础/software/vscode/插件/Plugin/ESLint 代码格式化.md",
+    "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
+    "2.等待处理/Diary/Archieve/2023-03/2023-03-31.md",
+    "4.归档/工作/基础/software/vscode/插件/Plugin/Auto Import 自动导包.md",
+    "4.归档/工作/基础/software/vscode/插件/Plugin/Prettier - Code formatter 代码格式化.md",
+    "5.专题研究/vscode/插件/Plugin/未命名.md",
+    "4.归档/工作/基础/software/vscode/插件/VsCode代码格式化类插件合集.md",
+    "4.归档/工作/基础/software/vscode/插件/Plugin/Auto Close Tag 自动关闭标签.md",
     "5.专题研究/无人生还/Character.md",
+    "5.专题研究/无人生还/士兵岛.md",
     "5.专题研究/无人生还/罗杰斯先生和太太.md",
     "5.专题研究/无人生还/瓦格雷夫.md",
     "5.专题研究/无人生还/安东尼·马斯顿.md",
     "5.专题研究/无人生还/阿姆斯特朗.md",
     "5.专题研究/无人生还/麦克阿瑟.md",
     "5.专题研究/无人生还/菲利普·隆巴德.md",
-    "5.专题研究/无人生还/士兵岛.md",
     "5.专题研究/无人生还/埃米莉·布伦特.md",
     "5.专题研究/无人生还/维拉·克莱索恩.md",
     "5.专题研究/无人生还/康斯坦斯·卡尔明顿.md",
     "5.专题研究/无人生还/莫里斯.md",
     "5.专题研究/无人生还/欧文.md",
     "5.专题研究/无人生还/Backgrounds.md",
-    "HOME.md",
     "1.收集箱/dashboard/tag-retrieve.md",
-    "2.等待处理/Diary/2023-04-01.md",
     "5.专题研究/无人生还",
-    "4.归档/学习/1.修身/README.md",
-    "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
-    "5.专题研究/vscode/插件/Plugin/【未整理】Prettier - Code formatter 代码格式化.md",
-    "2.等待处理/Diary/Archieve/2023-03/2023-03-31.md",
-    "5.专题研究/vscode/插件组合/ESLint+Prettier 最强格式化.md",
-    "5.专题研究/vscode/README.md",
-    "5.专题研究/vscode/插件/Plugin/【未整理】ESLint 代码格式化.md",
-    "5.专题研究/vscode/插件/VsCode主题图标类插件合集.md",
-    "4.归档/工作/基础/software/chrome/Chrome插件合集.md",
     "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401090242.png",
     "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401085458.png",
     "4.归档/工作/基础/software/chrome/plugins/assets/Pasted image 20230401085422.png",
