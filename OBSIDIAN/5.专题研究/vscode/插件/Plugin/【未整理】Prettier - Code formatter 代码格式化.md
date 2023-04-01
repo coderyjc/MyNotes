@@ -1,5 +1,5 @@
 ---
-type: 代码提示
+type: 代码格式化
 name: Prettier - Code formatter 代码格式化
 ootb: 0
 recommendation: 8
@@ -10,12 +10,14 @@ create_date: 2022-01-27
 
 # Prettier - Code formatter 代码格式化
 
-https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+插件：https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
-## 特点
-
-格式化代码
+官网：https://www.prettier.cn/docs
 
 ## 配置
 
-先不看了，等有时间搞一个合集
+### 配置文件
+
+
+
+### 配置字段
