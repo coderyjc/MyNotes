@@ -5,16 +5,20 @@
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md"
     },
     {
+      "basename": "MyBatis",
+      "path": "4.归档/工作/基础/java/spring/mybatis/MyBatis.md"
+    },
+    {
+      "basename": "NoClassDefFoundError",
+      "path": "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md"
+    },
+    {
       "basename": "2023-04-02",
       "path": "2.等待处理/Diary/2023-04-02.md"
     },
     {
       "basename": "UnsatisfiedDependencyException",
       "path": "4.归档/工作/工程/后端框架/MyBatisPlus/UnsatisfiedDependencyException.md"
-    },
-    {
-      "basename": "NoClassDefFoundError",
-      "path": "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md"
     },
     {
       "basename": "2023-04-01",
@@ -35,10 +39,6 @@
     {
       "basename": "plugins-idea",
       "path": "4.归档/工作/基础/software/idea/plugins-idea.md"
-    },
-    {
-      "basename": "4.构建图标组件",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md"
     }
   ],
   "omittedPaths": [],
