@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "2023-04-02",
       "path": "2.等待处理/Diary/2023-04-02.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "_README",
       "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     },
     {
       "basename": "0.目前存在的问题",
