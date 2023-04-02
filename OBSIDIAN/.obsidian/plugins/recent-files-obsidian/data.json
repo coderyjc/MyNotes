@@ -5,16 +5,24 @@
       "path": "2.等待处理/Diary/2023-04-02.md"
     },
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "0.目前存在的问题",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
+    },
+    {
+      "basename": "【数据分析】面试成绩数据分析",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md"
+    },
+    {
       "basename": "2023-04-01",
       "path": "2.等待处理/Diary/2023-04-01.md"
     },
     {
       "basename": "5.创建后端项目",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md"
-    },
-    {
-      "basename": "0.目前存在的问题",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
     },
     {
       "basename": "1.数据分析类别分析",
@@ -31,14 +39,6 @@
     {
       "basename": "3.挑选echart模版",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.挑选echart模版.md"
-    },
-    {
-      "basename": "MyBatis",
-      "path": "4.归档/工作/基础/java/spring/mybatis/MyBatis.md"
-    },
-    {
-      "basename": "NoClassDefFoundError",
-      "path": "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md"
     }
   ],
   "omittedPaths": [],
