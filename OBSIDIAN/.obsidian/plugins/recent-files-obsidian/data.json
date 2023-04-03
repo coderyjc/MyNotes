@@ -5,6 +5,10 @@
       "path": "5.专题研究/【悬疑推理】无人生还/Timeline.md"
     },
     {
+      "basename": "麦克阿瑟",
+      "path": "5.专题研究/【悬疑推理】无人生还/麦克阿瑟.md"
+    },
+    {
       "basename": "Character",
       "path": "5.专题研究/【悬疑推理】无人生还/Character.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "线性表",
       "path": "5.专题研究/Algorithm/数据结构/线性表.md"
-    },
-    {
-      "basename": "数组",
-      "path": "5.专题研究/Algorithm/数据结构/数组.md"
     }
   ],
   "omittedPaths": [],
