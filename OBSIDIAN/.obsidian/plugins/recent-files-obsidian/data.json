@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-04-03",
-      "path": "2.等待处理/Diary/2023-04-03.md"
+      "basename": "_index",
+      "path": "5.专题研究/Algorithm/数据结构/_index.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "攻略1",
+      "path": "5.专题研究/南京旅游规划/攻略1.md"
     },
     {
-      "basename": "vue_advance",
-      "path": "5.专题研究/vue.js/vue_advance.md"
+      "basename": "树",
+      "path": "5.专题研究/Algorithm/数据结构/树.md"
     },
     {
-      "basename": "vuex",
-      "path": "5.专题研究/vue.js/vuex.md"
+      "basename": "数组",
+      "path": "5.专题研究/Algorithm/数据结构/数组.md"
     },
     {
-      "basename": "vue_router",
-      "path": "5.专题研究/vue.js/vue_router.md"
+      "basename": "哈夫曼树生成算法",
+      "path": "5.专题研究/Algorithm/算法专栏/哈夫曼树生成算法.md"
     },
     {
-      "basename": "vue_composition",
-      "path": "5.专题研究/vue.js/vue_composition.md"
+      "basename": "图",
+      "path": "5.专题研究/Algorithm/数据结构/图.md"
     },
     {
-      "basename": "pinia",
-      "path": "5.专题研究/vue.js/pinia.md"
+      "basename": "DFS",
+      "path": "5.专题研究/Algorithm/算法专栏/DFS.md"
     },
     {
-      "basename": "axios",
-      "path": "5.专题研究/vue.js/axios.md"
+      "basename": "BFS",
+      "path": "5.专题研究/Algorithm/算法专栏/BFS.md"
     },
     {
-      "basename": "SpringBoot知识地图",
-      "path": "5.专题研究/SpringBoot/SpringBoot知识地图.md"
+      "basename": "并查集",
+      "path": "5.专题研究/Algorithm/数据结构/并查集.md"
     },
     {
-      "basename": "Character",
-      "path": "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/Character.md"
+      "basename": "串",
+      "path": "5.专题研究/Algorithm/数据结构/串.md"
     }
   ],
   "omittedPaths": [],
