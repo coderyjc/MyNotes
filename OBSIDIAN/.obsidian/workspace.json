@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4a038632706c7810",
+        "id": "7c681a73c20b42d5",
         "type": "tabs",
         "children": [
           {
-            "id": "e5a57fb5e6f6fd75",
+            "id": "ff04b1a6635ce163",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "2.等待处理/Diary/2023-04-03.md"
               }
             }
           }
@@ -156,7 +156,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "periodic-notes:Open today": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
@@ -164,14 +163,29 @@
       "workspaces:管理工作区布局": false,
       "templater-obsidian:Templater": true,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "e5a57fb5e6f6fd75",
+  "active": "ff04b1a6635ce163",
   "lastOpenFiles": [
-    "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.旧系统的主要功能概述.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
     "2.等待处理/Diary/2023-04-03.md",
+    "2.等待处理/Diary/2023-04-01.md",
+    "2.等待处理/Diary/2023-04-02.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.相关echart模版.md",
+    "HOME.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403184104.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403183957.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403183808.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403183706.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403183655.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
+    "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
     "2.等待处理/Tasks/index.md",
     "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
     "1.收集箱/simpread_clipper/inbox/1-python正则表达式精讲--分组 - 知乎.md",
@@ -186,15 +200,6 @@
     "5.专题研究/操作系统/条件变量.md",
     "5.专题研究/操作系统/磁盘驱动器.md",
     "5.专题研究/操作系统/线程.md",
-    "5.专题研究/操作系统/虚拟CPU.md",
-    "5.专题研究/操作系统/虚拟化.md",
-    "5.专题研究/操作系统/虚拟内存.md",
-    "5.专题研究/操作系统/_README.md",
-    "5.专题研究/操作系统/信号量.md",
-    "5.专题研究/操作系统/基于事件的并发.md",
-    "5.专题研究/操作系统/持久性.md",
-    "5.专题研究/vue.js/vuex.md",
-    "5.专题研究/vue.js/vue_router.md",
     "5.专题研究/南京旅游规划",
     "4.归档/学习/1.修身/读书笔记",
     "2.等待处理/Diary/Archieve/2023-04",
@@ -204,11 +209,6 @@
     "4.归档/工作/基础/software/idea/assets/Pasted image 20230401162619.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230401153410.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230401153150.png",
-    "5.专题研究/SprintBoot-Demo/img/image-20220301175355482.png",
-    "5.专题研究/SprintBoot-Demo/img/image-20220301175101812.png",
-    "5.专题研究/SprintBoot-Demo/img/image-20220301174751845.png",
-    "5.专题研究/SprintBoot-Demo/img/image-20220301174241310.png",
-    "5.专题研究/SprintBoot-Demo/img/image-20220301174133248.png",
     "5.专题研究/SprintBoot-Demo/img",
     "5.专题研究/SprintBoot-Demo",
     "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还",
