@@ -4,51 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e2d7f7c00519bfa6",
+        "id": "2b269a2e5112062f",
         "type": "tabs",
-        "dimension": 64.03249630723782,
         "children": [
           {
-            "id": "c5bae5cc20f0b48a",
+            "id": "5c6f38dbd618dad5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【悬疑推理】无人生还/Backgrounds.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "96853f373f1b1016",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/【悬疑推理】无人生还/Timeline.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "6ad59a9b85ddcb7f",
-        "type": "tabs",
-        "dimension": 35.967503692762186,
-        "children": [
-          {
-            "id": "5a6ac48cb9130e7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/【悬疑推理】无人生还/Character.md",
+                "file": "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -114,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【悬疑推理】无人生还/Timeline.md",
+                "file": "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【悬疑推理】无人生还/Timeline.md"
+                "file": "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md"
               }
             }
           }
@@ -202,34 +167,34 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "5c6f38dbd618dad5",
   "lastOpenFiles": [
-    "5.专题研究/【悬疑推理】无人生还/麦克阿瑟.md",
-    "5.专题研究/【悬疑推理】无人生还/Timeline.md",
-    "5.专题研究/【悬疑推理】无人生还/Character.md",
-    "5.专题研究/【悬疑推理】无人生还/Backgrounds.md",
-    "5.专题研究/【悬疑推理】无人生还/士兵岛.md",
-    "5.专题研究/【悬疑推理】无人生还/埃米莉·布伦特.md",
-    "2.等待处理/Diary/2023-04-03.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
-    "2.等待处理/Tasks/index.md",
-    "5.专题研究/Algorithm/数据结构/数组.md",
-    "5.专题研究/Algorithm/数据结构/并查集.md",
-    "5.专题研究/Algorithm/算法专栏/Kruskal算法.md",
-    "5.专题研究/Algorithm/数据结构/图.md",
-    "5.专题研究/Algorithm/数据结构/栈.md",
-    "HOME.md",
-    "5.专题研究/Algorithm/数据结构/串.md",
-    "5.专题研究/Algorithm/数据结构/哈希表（散列表）.md",
+    "1.收集箱/simpread_clipper/inbox/1-python正则表达式精讲--分组 - 知乎.md",
+    "1.收集箱/simpread_clipper/inbox/5-如何更好地管理「标签页」，我选择 Toby - 少数派.md",
+    "1.收集箱/simpread_clipper/inbox/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md",
+    "5.专题研究/操作系统/崩溃一致性.md",
+    "5.专题研究/操作系统/常见的并发问题.md",
+    "5.专题研究/操作系统/数据完整性.md",
+    "5.专题研究/操作系统/文件系统.md",
+    "5.专题研究/操作系统/内存地址转换.md",
+    "5.专题研究/操作系统/锁.md",
+    "5.专题研究/操作系统/条件变量.md",
+    "5.专题研究/操作系统/磁盘驱动器.md",
+    "5.专题研究/操作系统/线程.md",
+    "5.专题研究/操作系统/虚拟CPU.md",
+    "5.专题研究/操作系统/虚拟化.md",
+    "5.专题研究/操作系统/虚拟内存.md",
     "5.专题研究/操作系统/_README.md",
-    "5.专题研究/Algorithm/数据结构/_index.md",
-    "5.专题研究/Algorithm/数据结构/二叉树.md",
-    "5.专题研究/Algorithm/算法专栏/排序算法.md",
-    "5.专题研究/Algorithm/算法专栏/快速排序.md",
-    "5.专题研究/Algorithm/算法专栏/冒泡排序.md",
-    "5.专题研究/Algorithm/算法专栏/希尔排序.md",
-    "5.专题研究/Algorithm/算法专栏/折半插入排序.md",
-    "5.专题研究/Algorithm/算法专栏/直接插入排序.md",
+    "5.专题研究/操作系统/信号量.md",
+    "5.专题研究/操作系统/基于事件的并发.md",
+    "5.专题研究/操作系统/持久性.md",
+    "5.专题研究/vue.js/vuex.md",
+    "5.专题研究/vue.js/vue_router.md",
+    "5.专题研究/vue.js/vue_composition.md",
+    "5.专题研究/vue.js/vue_advance.md",
+    "5.专题研究/vue.js/pinia.md",
+    "5.专题研究/vue.js/axios.md",
+    "5.专题研究/vue.js/vue-component/组件嵌套和通信.md",
     "5.专题研究/南京旅游规划",
     "4.归档/学习/1.修身/读书笔记",
     "2.等待处理/Diary/Archieve/2023-04",
@@ -246,7 +211,7 @@
     "5.专题研究/SprintBoot-Demo/img/image-20220301174133248.png",
     "5.专题研究/SprintBoot-Demo/img",
     "5.专题研究/SprintBoot-Demo",
-    "5.专题研究/【悬疑推理】无人生还",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还",
     "4.归档/工作/基础/software/chrome/plugins/assets",
     "4.归档/工作/基础/software/chrome/plugins",
     "4.归档/工作/基础/software/chrome"

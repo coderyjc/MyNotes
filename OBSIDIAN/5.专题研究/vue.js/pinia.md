@@ -82,9 +82,6 @@ export default useCounter
 ```
 
 
-
-
-
 ## State
 
 
