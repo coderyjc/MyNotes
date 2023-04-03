@@ -6,7 +6,7 @@
       {
         "id": "c441526f884d0155",
         "type": "tabs",
-        "dimension": 46.0171568627451,
+        "dimension": 41.72794117647059,
         "children": [
           {
             "id": "986ba01876764701",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -27,7 +27,7 @@
       {
         "id": "356269e120526d70",
         "type": "tabs",
-        "dimension": 53.982843137254896,
+        "dimension": 58.27205882352941,
         "children": [
           {
             "id": "fb2d6ac79f7d4011",
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.50909423828125,
-    "collapsed": true
+    "width": 244.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md"
+                "file": "2.等待处理/Diary/2023-04-03.md"
               }
             }
           }
@@ -191,16 +190,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "986ba01876764701",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403204814.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403204722.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403191015.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/Drawing 2023-04-03 20.06.14.excalidraw.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/Drawing 2023-04-03 20.06.14.excalidraw.md.nssyncsc",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403191015.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403183808.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403191543.png",
     "5.专题研究/【悬疑推理】东方快车谋杀案",
@@ -232,8 +233,6 @@
     "4.归档/学习/1.修身/读书笔记",
     "2.等待处理/Diary/Archieve/2023-04",
     "4.归档/工作/工程/后端框架/MyBatisPlus",
-    "4.归档/工作/基础/software/idea/assets/Pasted image 20230401162902.png",
-    "4.归档/工作/基础/software/idea/assets/Pasted image 20230401162840.png",
     "5.专题研究/SprintBoot-Demo/img",
     "5.专题研究/SprintBoot-Demo",
     "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还",
