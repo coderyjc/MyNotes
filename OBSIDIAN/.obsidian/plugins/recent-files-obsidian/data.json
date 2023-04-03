@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "2023-04-03",
       "path": "2.等待处理/Diary/2023-04-03.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "排序算法",
       "path": "5.专题研究/Algorithm/算法专栏/排序算法.md"
-    },
-    {
-      "basename": "快速排序",
-      "path": "5.专题研究/Algorithm/算法专栏/快速排序.md"
     }
   ],
   "omittedPaths": [],
