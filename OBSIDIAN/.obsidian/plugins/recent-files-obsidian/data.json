@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-04-03",
+      "path": "2.等待处理/Diary/2023-04-03.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
       "basename": "推理小说阅读顺序",
       "path": "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "文件系统",
       "path": "5.专题研究/操作系统/文件系统.md"
-    },
-    {
-      "basename": "内存地址转换",
-      "path": "5.专题研究/操作系统/内存地址转换.md"
-    },
-    {
-      "basename": "锁",
-      "path": "5.专题研究/操作系统/锁.md"
     }
   ],
   "omittedPaths": [],

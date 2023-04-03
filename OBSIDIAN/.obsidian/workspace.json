@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md"
+                "file": "2.等待处理/Diary/2023-04-03.md"
               }
             }
           }
@@ -167,8 +167,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5c6f38dbd618dad5",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/2023-04-03.md",
+    "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
     "1.收集箱/simpread_clipper/inbox/1-python正则表达式精讲--分组 - 知乎.md",
     "1.收集箱/simpread_clipper/inbox/5-如何更好地管理「标签页」，我选择 Toby - 少数派.md",
     "1.收集箱/simpread_clipper/inbox/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md",
@@ -192,9 +195,6 @@
     "5.专题研究/vue.js/vue_router.md",
     "5.专题研究/vue.js/vue_composition.md",
     "5.专题研究/vue.js/vue_advance.md",
-    "5.专题研究/vue.js/pinia.md",
-    "5.专题研究/vue.js/axios.md",
-    "5.专题研究/vue.js/vue-component/组件嵌套和通信.md",
     "5.专题研究/南京旅游规划",
     "4.归档/学习/1.修身/读书笔记",
     "2.等待处理/Diary/Archieve/2023-04",
