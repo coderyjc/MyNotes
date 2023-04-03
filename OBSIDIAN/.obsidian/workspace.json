@@ -4,35 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eaead76030adbb91",
+        "id": "7b7993aeebb67448",
         "type": "tabs",
         "children": [
           {
-            "id": "aa6ce16bd9337aa2",
+            "id": "1c59699edf6cad1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/无人生还/维拉·克莱索恩.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "acee4d6cd9a3dd8e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5a9683f757accbc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/无人生还/士兵岛.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -51,7 +32,6 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 63.52549889135255,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -79,21 +59,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "e8213347f7a47403",
-        "type": "tabs",
-        "dimension": 36.47450110864745,
-        "children": [
-          {
-            "id": "e9db2f7147d73767",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/无人生还/维拉·克莱索恩.md",
+                "file": "2.等待处理/Diary/2023-04-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/无人生还/维拉·克莱索恩.md"
+                "file": "2.等待处理/Diary/2023-04-03.md"
               }
             }
           }
@@ -202,35 +167,36 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "aa6ce16bd9337aa2",
+  "active": "1c59699edf6cad1b",
   "lastOpenFiles": [
-    "5.专题研究/无人生还/Character.md",
-    "5.专题研究/无人生还/布洛尔.md",
-    "5.专题研究/无人生还/菲利普·隆巴德.md",
-    "5.专题研究/无人生还/阿姆斯特朗.md",
-    "5.专题研究/无人生还/瓦格雷夫.md",
-    "5.专题研究/无人生还/埃米莉·布伦特.md",
-    "5.专题研究/无人生还/罗杰斯先生和太太.md",
-    "5.专题研究/无人生还/麦克阿瑟.md",
-    "5.专题研究/无人生还/士兵岛.md",
-    "5.专题研究/无人生还/Backgrounds.md",
+    "HOME.md",
+    "5.专题研究/vue.js/vue_advance.md",
+    "5.专题研究/vue.js/vuex.md",
+    "5.专题研究/vue.js/vue_router.md",
+    "5.专题研究/vue.js/vue_composition.md",
+    "5.专题研究/vue.js/pinia.md",
+    "5.专题研究/vue.js/axios.md",
+    "5.专题研究/SpringBoot/SpringBoot知识地图.md",
+    "4.归档/学习/1.修身/读书笔记",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/Character.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/埃米莉·布伦特.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/Backgrounds.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/布洛尔.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/罗杰斯先生和太太.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/麦克阿瑟.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/菲利普·隆巴德.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/阿姆斯特朗.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/瓦格雷夫.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/维拉·克莱索恩.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/安东尼·马斯顿.md",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/士兵岛.md",
     "2.等待处理/Diary/2023-04-03.md",
     "2.等待处理/Diary/Archieve/2023-04",
     "2.等待处理/Diary/2023-04-02.md",
-    "HOME.md",
     "5.专题研究/Algorithm/数据结构/并查集.md",
     "5.专题研究/Algorithm/数据结构/_index.md",
     "5.专题研究/Algorithm/算法专栏/Kruskal算法.md",
     "5.专题研究/Algorithm/算法专栏/Prim算法.md",
-    "5.专题研究/Algorithm/算法专栏/KMP算法.md",
-    "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md",
-    "2.等待处理/Diary/2023-04-01.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据分析类别分析.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化类别分析.md",
     "4.归档/工作/工程/后端框架/MyBatisPlus",
     "4.归档/工作/基础/software/idea/assets/Pasted image 20230401162902.png",
     "4.归档/工作/基础/software/idea/assets/Pasted image 20230401162840.png",
@@ -244,11 +210,10 @@
     "5.专题研究/SprintBoot-Demo/img/image-20220301174133248.png",
     "5.专题研究/SprintBoot-Demo/img",
     "5.专题研究/SprintBoot-Demo",
-    "5.专题研究/无人生还",
+    "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还",
     "4.归档/工作/基础/software/chrome/plugins/assets",
     "4.归档/工作/基础/software/chrome/plugins",
     "4.归档/工作/基础/software/chrome",
-    "4.归档/学习/1.修身/备考",
-    "4.归档/学习/1.修身/阅读方法论/resources/推理小说路线.xmind"
+    "4.归档/学习/1.修身/备考"
   ]
 }
