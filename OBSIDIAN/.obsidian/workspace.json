@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2b269a2e5112062f",
+        "id": "4a038632706c7810",
         "type": "tabs",
         "children": [
           {
-            "id": "5c6f38dbd618dad5",
+            "id": "e5a57fb5e6f6fd75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+                "file": "HOME.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
+                "file": "HOME.md"
               }
             }
           }
@@ -167,8 +167,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "e5a57fb5e6f6fd75",
   "lastOpenFiles": [
+    "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
     "2.等待处理/Diary/2023-04-03.md",
     "2.等待处理/Tasks/index.md",
     "4.归档/学习/1.修身/阅读方法论/推理小说阅读顺序.md",
@@ -193,8 +195,6 @@
     "5.专题研究/操作系统/持久性.md",
     "5.专题研究/vue.js/vuex.md",
     "5.专题研究/vue.js/vue_router.md",
-    "5.专题研究/vue.js/vue_composition.md",
-    "5.专题研究/vue.js/vue_advance.md",
     "5.专题研究/南京旅游规划",
     "4.归档/学习/1.修身/读书笔记",
     "2.等待处理/Diary/Archieve/2023-04",

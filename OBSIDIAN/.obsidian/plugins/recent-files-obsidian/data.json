@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "Drawing 2023-03-23 20.22.39.excalidraw",
+      "path": "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md"
+    },
+    {
       "basename": "0.目前存在的问题",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "崩溃一致性",
       "path": "5.专题研究/操作系统/崩溃一致性.md"
-    },
-    {
-      "basename": "常见的并发问题",
-      "path": "5.专题研究/操作系统/常见的并发问题.md"
-    },
-    {
-      "basename": "数据完整性",
-      "path": "5.专题研究/操作系统/数据完整性.md"
     }
   ],
   "omittedPaths": [],
