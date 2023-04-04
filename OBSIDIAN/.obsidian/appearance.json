@@ -2,9 +2,9 @@
   "baseFontSize": 16,
   "theme": "moonstone",
   "translucency": false,
-  "cssTheme": "Mado 11",
+  "cssTheme": "Prism",
   "monospaceFontFamily": "JetBrains Mono",
-  "accentColor": "#5d5f69",
+  "accentColor": "#727583",
   "nativeMenus": false,
   "showViewHeader": true,
   "enabledCssSnippets": [
