@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b09b1f77877022a7",
+        "id": "0b5a8f3d582e8201",
         "type": "tabs",
         "children": [
           {
-            "id": "07458dbbc75937e9",
+            "id": "cbaefbc018aec0bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,19 +167,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "cbaefbc018aec0bc",
   "lastOpenFiles": [
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md",
+    "2.等待处理/Diary/2023-04-04.md",
+    "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/delete.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.相关echart模版.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md",
     "HOME.md",
     "1.收集箱/wechat_notes/精品小说/无人生还（同名英剧原著）.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
-    "2.等待处理/Diary/2023-04-04.md",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-03.md",
-    "2.等待处理/Diary/delete.md",
-    "2.等待处理/Tasks/index.md",
     "5.专题研究/考研/复试线/中国计量大学.md",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092947.png",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092934.png",
@@ -211,7 +212,6 @@
     "1.收集箱/simpread_clipper/inbox/1-python正则表达式精讲--分组 - 知乎.md",
     "1.收集箱/simpread_clipper/inbox/5-如何更好地管理「标签页」，我选择 Toby - 少数派.md",
     "1.收集箱/simpread_clipper/inbox/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md",
-    "5.专题研究/操作系统/崩溃一致性.md",
     "5.专题研究/南京旅游规划",
     "4.归档/学习/1.修身/读书笔记",
     "2.等待处理/Diary/Archieve/2023-04"

@@ -5,8 +5,28 @@
       "path": "2.等待处理/Diary/2023-04-04.md"
     },
     {
+      "basename": "1.系统的主要功能概述",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md"
+    },
+    {
       "basename": "0.目前存在的问题",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
+    },
+    {
+      "basename": "01.部署项目框架",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md"
+    },
+    {
+      "basename": "中国计量大学",
+      "path": "5.专题研究/考研/复试线/中国计量大学.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
+      "basename": "delete",
+      "path": "2.等待处理/Diary/delete.md"
     },
     {
       "basename": "3.相关echart模版",
@@ -19,26 +39,6 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "2.熟悉前端框架，删除部分界面",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md"
-    },
-    {
-      "basename": "1.系统的主要功能概述",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md"
-    },
-    {
-      "basename": "2023-04-03",
-      "path": "2.等待处理/Diary/Archieve/2023-04/2023-04-03.md"
-    },
-    {
-      "basename": "delete",
-      "path": "2.等待处理/Diary/delete.md"
-    },
-    {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
     }
   ],
   "omittedPaths": [],
