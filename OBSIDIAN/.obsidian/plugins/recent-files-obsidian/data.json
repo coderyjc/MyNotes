@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-04-05",
+      "path": "2.等待处理/Diary/2023-04-05.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
+      "basename": "delete",
+      "path": "2.等待处理/Diary/delete.md"
+    },
+    {
       "basename": "2023-04-04",
       "path": "2.等待处理/Diary/2023-04-04.md"
     },
@@ -21,24 +33,12 @@
       "path": "5.专题研究/考研/复试线/中国计量大学.md"
     },
     {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
-    },
-    {
-      "basename": "delete",
-      "path": "2.等待处理/Diary/delete.md"
-    },
-    {
       "basename": "3.相关echart模版",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.相关echart模版.md"
     },
     {
       "basename": "1.数据可视化图表",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     }
   ],
   "omittedPaths": [],
