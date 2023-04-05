@@ -5,12 +5,32 @@
       "path": "2.等待处理/Diary/2023-04-05.md"
     },
     {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
+      "basename": "6.笔试成绩管理",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md"
+    },
+    {
+      "basename": "UnsatisfiedDependencyException",
+      "path": "4.归档/工作/工程/后端框架/MyBatisPlus/UnsatisfiedDependencyException.md"
+    },
+    {
+      "basename": "BindingException",
+      "path": "4.归档/工作/工程/后端框架/MyBatisPlus/BindingException.md"
+    },
+    {
+      "basename": "5.创建后端项目",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md"
+    },
+    {
+      "basename": "NoClassDefFoundError",
+      "path": "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md"
     },
     {
       "basename": "delete",
       "path": "2.等待处理/Diary/delete.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
     },
     {
       "basename": "2023-04-04",
@@ -19,26 +39,6 @@
     {
       "basename": "1.系统的主要功能概述",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md"
-    },
-    {
-      "basename": "0.目前存在的问题",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
-    },
-    {
-      "basename": "01.部署项目框架",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md"
-    },
-    {
-      "basename": "中国计量大学",
-      "path": "5.专题研究/考研/复试线/中国计量大学.md"
-    },
-    {
-      "basename": "3.相关echart模版",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.相关echart模版.md"
-    },
-    {
-      "basename": "1.数据可视化图表",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md"
     }
   ],
   "omittedPaths": [],
