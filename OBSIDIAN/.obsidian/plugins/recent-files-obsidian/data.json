@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-04-07",
+      "path": "2.等待处理/Diary/2023-04-07.md"
+    },
+    {
       "basename": "2023-04-06",
       "path": "2.等待处理/Diary/2023-04-06.md"
+    },
+    {
+      "basename": "vue_composition",
+      "path": "5.专题研究/vue.js/vue_composition.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "axios",
+      "path": "5.专题研究/vue.js/axios.md"
+    },
+    {
+      "basename": "Slot非父子通信",
+      "path": "5.专题研究/vue.js/vue-component/Slot非父子通信.md"
+    },
+    {
+      "basename": "组件化开发入门",
+      "path": "5.专题研究/vue.js/vue-basic/组件化开发入门.md"
     },
     {
       "basename": "2023-04-05",
@@ -13,32 +37,8 @@
       "path": "2.等待处理/Diary/2023-04-04.md"
     },
     {
-      "basename": "vue_composition",
-      "path": "5.专题研究/vue.js/vue_composition.md"
-    },
-    {
       "basename": "vue_advance",
       "path": "5.专题研究/vue.js/vue_advance.md"
-    },
-    {
-      "basename": "pinia",
-      "path": "5.专题研究/vue.js/pinia.md"
-    },
-    {
-      "basename": "axios",
-      "path": "5.专题研究/vue.js/axios.md"
-    },
-    {
-      "basename": "6.笔试成绩管理",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md"
-    },
-    {
-      "basename": "Vue3",
-      "path": "4.归档/工作/工程/前端框架/Vue.js/Vue3.md"
-    },
-    {
-      "basename": "Vuex",
-      "path": "4.归档/工作/工程/前端框架/Vue.js/Vuex.md"
     }
   ],
   "omittedPaths": [],
