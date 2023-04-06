@@ -5,6 +5,14 @@
       "path": "2.等待处理/Diary/2023-04-06.md"
     },
     {
+      "basename": "6.笔试成绩管理",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md"
+    },
+    {
+      "basename": "SQLTrick",
+      "path": "4.归档/工作/工程/数据库/MySQL/SQLTrick.md"
+    },
+    {
       "basename": "HOME",
       "path": "HOME.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "2023-04-04",
       "path": "2.等待处理/Diary/2023-04-04.md"
-    },
-    {
-      "basename": "6.笔试成绩管理",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md"
     },
     {
       "basename": "UnsatisfiedDependencyException",
@@ -35,10 +39,6 @@
     {
       "basename": "NoClassDefFoundError",
       "path": "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md"
-    },
-    {
-      "basename": "delete",
-      "path": "2.等待处理/Diary/delete.md"
     }
   ],
   "omittedPaths": [],
