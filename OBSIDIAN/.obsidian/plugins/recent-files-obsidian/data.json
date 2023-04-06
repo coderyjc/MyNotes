@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "vue_composition",
+      "path": "5.专题研究/vue.js/vue_composition.md"
+    },
+    {
+      "basename": "vue_advance",
+      "path": "5.专题研究/vue.js/vue_advance.md"
+    },
+    {
+      "basename": "pinia",
+      "path": "5.专题研究/vue.js/pinia.md"
+    },
+    {
+      "basename": "axios",
+      "path": "5.专题研究/vue.js/axios.md"
+    },
+    {
       "basename": "2023-04-06",
       "path": "2.等待处理/Diary/2023-04-06.md"
     },
@@ -23,22 +39,6 @@
     {
       "basename": "ElemetUI",
       "path": "4.归档/工作/工程/前端框架/Vue.js/ElemetUI.md"
-    },
-    {
-      "basename": "SQLTrick",
-      "path": "4.归档/工作/工程/数据库/MySQL/SQLTrick.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "2023-04-05",
-      "path": "2.等待处理/Diary/2023-04-05.md"
-    },
-    {
-      "basename": "2023-04-04",
-      "path": "2.等待处理/Diary/2023-04-04.md"
     }
   ],
   "omittedPaths": [],
