@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/工程/前端框架/Element/Element Plus.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/工程/前端框架/Element/Element Plus.md"
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md"
               }
             }
           },
@@ -182,8 +183,9 @@
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
     "2.等待处理/Diary/2023-04-07.md",
-    "4.归档/工作/工程/前端框架/Element/Element Plus.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
+    "4.归档/工作/工程/后端框架/EasyPOI",
+    "4.归档/工作/工程/前端框架/Element/Element Plus.md",
     "4.归档/工作/工程/前端框架/Element/ElemetUI.md",
     "4.归档/工作/工程/前端框架/Element",
     "2.等待处理/Diary/2023-04-06.md",
@@ -210,7 +212,6 @@
     "2.等待处理/Diary/delete.md",
     "2.等待处理/Tasks/index.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/回收站/01.部署项目框架.md",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092947.png",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092934.png",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092920.png",
@@ -225,7 +226,6 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/Drawing 2023-04-03 20.06.14.excalidraw.md.nssyncsc",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403183808.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403191543.png",
-    "5.专题研究/【悬疑推理】东方快车谋杀案",
-    "5.专题研究/南京旅游规划"
+    "5.专题研究/【悬疑推理】东方快车谋杀案"
   ]
 }
