@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md",
+                "file": "4.归档/工作/工程/前端框架/Axios/Axios.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md",
+                "file": "4.归档/工作/工程/前端框架/Axios/Axios.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md"
+                "file": "4.归档/工作/工程/前端框架/Axios/Axios.md"
               }
             }
           },
@@ -168,13 +168,15 @@
   },
   "active": "5e599e4d5efefc08",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
+    "2.等待处理/Diary/2023-04-07.md",
+    "4.归档/工作/工程/前端框架/Axios/Axios.md",
+    "4.归档/工作/工程/前端框架/Axios",
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407153342.png",
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407150840.png",
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407150709.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
     "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md",
     "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md",
-    "2.等待处理/Diary/2023-04-07.md",
     "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】BugRecord.md",
     "4.归档/工作/工程/前端框架/Element/Element Plus.md",
     "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot路径访问.md",
@@ -211,8 +213,6 @@
     "1.收集箱/simpread_clipper/md",
     "2.等待处理/Diary/2023-04-05.md.nssyncsc",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403204814.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403204722.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/Drawing 2023-04-03 20.06.14.excalidraw.md.nssyncsc",
-    "5.专题研究/【悬疑推理】东方快车谋杀案"
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/Drawing 2023-04-03 20.06.14.excalidraw.md.nssyncsc"
   ]
 }
