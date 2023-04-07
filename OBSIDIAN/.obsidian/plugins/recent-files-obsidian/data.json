@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-04-07",
+      "path": "2.等待处理/Diary/2023-04-07.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "Axios",
       "path": "4.归档/工作/工程/前端框架/Axios/Axios.md"
     },
     {
       "basename": "6.笔试成绩管理",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md"
-    },
-    {
-      "basename": "2023-04-07",
-      "path": "2.等待处理/Diary/2023-04-07.md"
     },
     {
       "basename": "【总结】SpringBoot接收各种参数",
@@ -35,10 +39,6 @@
     {
       "basename": "ElemetUI",
       "path": "4.归档/工作/工程/前端框架/Element/ElemetUI.md"
-    },
-    {
-      "basename": "2023-04-06",
-      "path": "2.等待处理/Diary/2023-04-06.md"
     }
   ],
   "omittedPaths": [],
