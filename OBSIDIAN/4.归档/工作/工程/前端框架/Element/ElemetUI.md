@@ -9,7 +9,7 @@ create_date: 2022-01-31
 # ElemetUI
 
 
->表单验证Validator的callback中一直拿不到value
+### 表单验证Validator的callback中一直拿不到value
 
 有以下几种可能：
 
@@ -19,7 +19,7 @@ create_date: 2022-01-31
 -   绑定的属性没有在data中声明；
 -   没有在`<el-form>`上指定model。
 
-> ColorPicker 的颜色格式问题
+### ColorPicker 的颜色格式问题
 
 这个组件颜色格式
 
