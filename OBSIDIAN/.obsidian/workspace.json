@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "b33c20b8f1fe42e1",
+        "id": "5f76d651e23ff8ed",
         "type": "tabs",
         "children": [
           {
-            "id": "3780c6eba25da2a3",
+            "id": "5e599e4d5efefc08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/工作/工程/前端框架/Element/Element Plus.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "37badcc0ca47d131",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
+                "file": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.50909423828125
+    "width": 329.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -93,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
+                "file": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md"
+                "file": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md"
               }
             }
           },
@@ -180,12 +166,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "5e599e4d5efefc08",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-04-07.md",
+    "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407150840.png",
+    "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407150709.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
-    "4.归档/工作/工程/后端框架/EasyPOI",
+    "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md",
+    "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md",
+    "2.等待处理/Diary/2023-04-07.md",
+    "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】BugRecord.md",
     "4.归档/工作/工程/前端框架/Element/Element Plus.md",
+    "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot路径访问.md",
+    "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407144522.png",
+    "4.归档/工作/工程/后端框架/EasyPOI",
     "4.归档/工作/工程/前端框架/Element/ElemetUI.md",
     "4.归档/工作/工程/前端框架/Element",
     "2.等待处理/Diary/2023-04-06.md",
@@ -208,10 +201,6 @@
     "4.归档/工作/工程/后端框架/MyBatisPlus/assets/Pasted image 20230405180249.png",
     "4.归档/工作/工程/后端框架/MyBatisPlus/assets",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
-    "4.归档/工作/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md",
-    "2.等待处理/Diary/delete.md",
-    "2.等待处理/Tasks/index.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092947.png",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092934.png",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092920.png",
@@ -224,8 +213,6 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403204722.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403191015.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/Drawing 2023-04-03 20.06.14.excalidraw.md.nssyncsc",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403183808.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230403191543.png",
     "5.专题研究/【悬疑推理】东方快车谋杀案"
   ]
 }

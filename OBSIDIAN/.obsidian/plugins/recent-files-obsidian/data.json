@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "【总结】SpringBoot接收各种参数",
+      "path": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md"
+    },
+    {
       "basename": "6.笔试成绩管理",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md"
+    },
+    {
+      "basename": "【Bug】SpringBoot-Bug",
+      "path": "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md"
     },
     {
       "basename": "2023-04-07",
       "path": "2.等待处理/Diary/2023-04-07.md"
     },
     {
+      "basename": "【Bug】BugRecord",
+      "path": "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】BugRecord.md"
+    },
+    {
       "basename": "Element Plus",
       "path": "4.归档/工作/工程/前端框架/Element/Element Plus.md"
+    },
+    {
+      "basename": "【总结】SpringBoot路径访问",
+      "path": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot路径访问.md"
     },
     {
       "basename": "ElemetUI",
@@ -23,22 +39,6 @@
     {
       "basename": "vue_composition",
       "path": "5.专题研究/vue.js/vue_composition.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "axios",
-      "path": "5.专题研究/vue.js/axios.md"
-    },
-    {
-      "basename": "Slot非父子通信",
-      "path": "5.专题研究/vue.js/vue-component/Slot非父子通信.md"
-    },
-    {
-      "basename": "组件化开发入门",
-      "path": "5.专题研究/vue.js/vue-basic/组件化开发入门.md"
     }
   ],
   "omittedPaths": [],

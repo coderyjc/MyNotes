@@ -9,7 +9,7 @@ create_date: 2022-01-31
 
 ## 网络请求相关
 
-> Invalid character found in the request target
+### Invalid character found in the request target
 
 情景：
 
@@ -28,7 +28,7 @@ ion()%7B%0A++++axi
 
 **原因：**
 
-SpringBoot 2.0.0 以上都采用内置[[../../../基础/middleware/tomcat/Tomcat]]8.0以上版本，而tomcat8.0以上版本遵从RFC规范添加了对Url的特殊字符的限制，url中只允许包含英文字母(a-zA-Z)、数字(0-9)、-_.~四个特殊字符以及保留字符( ! * ’ ( ) ; : @ & = + $ , / ? # [ ] ) (262+10+4+18=84)这84个字符,请求中出现了{}大括号或者[],所以tomcat报错。设置RelaxedQueryChars允许此字符(建议)，设置requestTargetAllows选项(Tomcat 8.5中不推荐)。 根据Tomcat文档，下面提供一种方法来设置松弛的QueryChars属性* ———————————————— 版权声明：本文为CSDN博主「崔雨田」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。 原文链接：[](https://blog.csdn.net/qq_41291945/article/details/105126610)[https://blog.csdn.net/qq_41291945/article/details/105126610](https://blog.csdn.net/qq_41291945/article/details/105126610)
+SpringBoot 2.0.0 以上都采用内置[[../../../基础/middleware/tomcat/Tomcat]]8.0以上版本，而tomcat8.0以上版本遵从RFC规范添加了对Url的特殊字符的限制，url中只允许包含英文字母(a-zA-Z)、数字(0-9)、-_.~四个特殊字符以及保留字符( ! * ’ ( ) ; : @ & = + $ , / ? # [ ] ) (262+10+4+18=84)这84个字符,请求中出现了{}大括号或者[],所以tomcat报错。设置RelaxedQueryChars允许此字符(建议)，设置requestTargetAllows选项(Tomcat 8.5中不推荐)。 根据Tomcat文档，下面提供一种方法来设置松弛的QueryChars属性* 
 
 **解决方案：**
 
@@ -37,18 +37,13 @@ SpringBoot 2.0.0 以上都采用内置[[../../../基础/middleware/tomcat/Tomcat
 ```java
 @Bean
 public ConfigurableServletWebServerFactory webServerFactory() {
-    TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory();
-    factory.addConnectorCustomizers(new TomcatConnectorCustomizer() {
-        @Override
-        public void customize(Connector connector) {
-            connector.setProperty("relaxedQueryChars", "|{}[]");
-        }
-    });
-    return factory;
+	TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory();
+	factory.addConnectorCustomizers(connector -> connector.setProperty("relaxedQueryChars", "|{}[]"));
+	return factory;
 }
 ```
 
->400 Bad Request "org.springframework.web.bind.MissingServletRequestParameterException: **Required request parameter 'id' for method parameter type String is not present**
+### 400 Bad Request "org.springframework.web.bind.MissingServletRequestParameterException: **Required request parameter 'id' for method parameter type String is not present**
 
 说我这个参数没有提供 ，我看了一下请求，确实没有提供。
 
@@ -65,7 +60,7 @@ server:
   max-http-header-size: 128KB
 ```
 
-> 后台接受图片文件
+### 后台接受图片文件
 
 后端接受 MultipartFile 类型的文件
 
@@ -162,6 +157,6 @@ uploadImg(type) {
 
 ## 配置文件相关
 
-> MalformedInputException: Input length = 1
+### MalformedInputException: Input length = 1
 
 是因为yml配置文件中有中文，删掉中文即可。
