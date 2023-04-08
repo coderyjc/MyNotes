@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0a25ebc56db9b655",
+            "id": "1f043060ad782b8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
-                "mode": "source",
+                "file": "2.等待处理/Diary/Archieve/2023-04-08.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+                "file": "2.等待处理/Diary/Archieve/2023-04-08.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
+                "file": "2.等待处理/Diary/Archieve/2023-04-08.md"
               }
             }
           },
@@ -166,10 +166,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0a25ebc56db9b655",
+  "active": "1f043060ad782b8b",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-04-08.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
+    "4.归档/工作/工程/数据库/MySQL/SQLTrick.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/7.面试成绩管理.md",
+    "2.等待处理/Diary/Archieve/2023-04-08.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+    "2.等待处理/Diary/delete.md",
+    "2.等待处理/Diary/Archieve/2023-04/2023-04-06.md",
+    "2.等待处理/Diary/Archieve/2023-04/2023-04-02.md",
+    "2.等待处理/Diary/Archieve/2023-04/2023-04-04.md",
+    "2.等待处理/Diary/Archieve/2023-04/2023-04-01.md",
+    "2.等待处理/Diary/Archieve/2023-04/2023-04-05.md",
     "4.归档/工作/工程/后端框架/EasyPOI/EasyPOI.md",
     "4.归档/工作/工程/后端框架/EasyPOI/assets/Pasted image 20230408150302.png",
     "4.归档/工作/工程/后端框架/EasyPOI/assets/Pasted image 20230408150055.png",
@@ -178,8 +187,7 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/4.构建图标组件.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
-    "2.等待处理/Diary/2023-04-07.md",
+    "2.等待处理/Diary/Archieve/2023-04/2023-04-07.md",
     "HOME.md",
     "4.归档/工作/工程/前端框架/Axios/Axios.md",
     "4.归档/工作/工程/前端框架/Axios",
@@ -195,15 +203,8 @@
     "4.归档/工作/工程/后端框架/EasyPOI",
     "4.归档/工作/工程/前端框架/Element/ElemetUI.md",
     "4.归档/工作/工程/前端框架/Element",
-    "2.等待处理/Diary/2023-04-06.md",
     "5.专题研究/vue.js/vue_composition.md",
-    "5.专题研究/vue.js/axios.md",
-    "5.专题研究/vue.js/vue-component/Slot非父子通信.md",
-    "5.专题研究/vue.js/vue-basic/组件化开发入门.md",
-    "2.等待处理/Diary/2023-04-05.md",
-    "2.等待处理/Diary/2023-04-04.md",
     "5.专题研究/vue.js/assets/Pasted image 20230406205853.png",
-    "5.专题研究/vue.js/vue_advance.md",
     "4.归档/工作/工程/后端框架/MyBatisPlus/assets/Pasted image 20230405180249.png",
     "4.归档/工作/工程/后端框架/MyBatisPlus/assets",
     "5.专题研究/考研/复试线/assets/Pasted image 20230404092947.png",
