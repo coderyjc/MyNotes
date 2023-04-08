@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-04-07",
-      "path": "2.等待处理/Diary/2023-04-07.md"
+      "basename": "2023-04-08",
+      "path": "2.等待处理/Diary/2023-04-08.md"
     },
     {
       "basename": "HOME",
       "path": "HOME.md"
+    },
+    {
+      "basename": "2023-04-07",
+      "path": "2.等待处理/Diary/2023-04-07.md"
     },
     {
       "basename": "Axios",
@@ -35,10 +39,6 @@
     {
       "basename": "【总结】SpringBoot路径访问",
       "path": "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot路径访问.md"
-    },
-    {
-      "basename": "ElemetUI",
-      "path": "4.归档/工作/工程/前端框架/Element/ElemetUI.md"
     }
   ],
   "omittedPaths": [],
