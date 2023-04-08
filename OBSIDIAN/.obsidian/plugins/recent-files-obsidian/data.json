@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "8.证书管理",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/8.证书管理.md"
-    },
-    {
-      "basename": "2023-04-08",
-      "path": "2.等待处理/Diary/Archieve/2023-04-08.md"
+      "basename": "2023-04-09",
+      "path": "2.等待处理/Diary/2023-04-09.md"
     },
     {
       "basename": "HOME",
       "path": "HOME.md"
+    },
+    {
+      "basename": "2023-04-08",
+      "path": "2.等待处理/Diary/Archieve/2023-04/2023-04-08.md"
+    },
+    {
+      "basename": "8.证书管理",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/8.证书管理.md"
     },
     {
       "basename": "7.面试成绩管理",
@@ -35,10 +39,6 @@
     {
       "basename": "index",
       "path": "2.等待处理/Tasks/index.md"
-    },
-    {
-      "basename": "delete",
-      "path": "2.等待处理/Diary/delete.md"
     }
   ],
   "omittedPaths": [],
