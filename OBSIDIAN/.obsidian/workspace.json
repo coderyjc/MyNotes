@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/Archieve/2023-04-08.md",
-                "mode": "preview",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/8.证书管理.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/Archieve/2023-04-08.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/8.证书管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/Archieve/2023-04-08.md"
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/8.证书管理.md"
               }
             }
           },
@@ -168,11 +168,12 @@
   },
   "active": "1f043060ad782b8b",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230408215659.png",
+    "2.等待处理/Diary/Archieve/2023-04-08.md",
     "HOME.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/8.证书管理.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/7.面试成绩管理.md",
     "1.收集箱/wechat_notes/文学/变形记.md",
-    "2.等待处理/Diary/Archieve/2023-04-08.md",
     "4.归档/工作/工程/数据库/MySQL/SQLTrick.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
@@ -200,7 +201,6 @@
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407150709.png",
     "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md",
     "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md",
-    "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】BugRecord.md",
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407144522.png",
     "4.归档/工作/工程/后端框架/EasyPOI",
     "4.归档/工作/工程/前端框架/Element",
