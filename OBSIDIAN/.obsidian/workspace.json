@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b340a34066fa2f37",
+        "id": "e606c9c889906962",
         "type": "tabs",
         "children": [
           {
-            "id": "72837f812ea45f50",
+            "id": "73e57e65a5918adc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-09.md",
+                "file": "5.专题研究/南京旅游规划/坐飞机注意事项.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-09.md",
+                "file": "5.专题研究/南京旅游规划/坐飞机注意事项.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-09.md"
+                "file": "5.专题研究/南京旅游规划/坐飞机注意事项.md"
               }
             }
           },
@@ -166,17 +166,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "73e57e65a5918adc",
   "lastOpenFiles": [
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+    "5.专题研究/南京旅游规划/旅游攻略.md",
+    "5.专题研究/南京旅游规划/坐飞机注意事项.md",
+    "5.专题研究/南京旅游规划/未命名.md.nssyncsc",
+    "HOME.md",
     "2.等待处理/Diary/2023-04-09.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
     "4.归档/工作/工程/数据库/MySQL/SQLTrick.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/6.笔试成绩管理.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/7.面试成绩管理.md",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-08.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/8.证书管理.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230408215659.png",
-    "HOME.md",
     "1.收集箱/wechat_notes/文学/变形记.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
     "2.等待处理/Tasks/index.md",
@@ -195,13 +198,10 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-07.md",
-    "4.归档/工作/工程/前端框架/Axios/Axios.md",
     "4.归档/工作/工程/前端框架/Axios",
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407153342.png",
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407150840.png",
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407150709.png",
-    "4.归档/工作/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md",
-    "4.归档/工作/工程/后端框架/Spring-Boot/【总结】SpringBoot接收各种参数.md",
     "4.归档/工作/工程/后端框架/Spring-Boot/assets/Pasted image 20230407144522.png",
     "4.归档/工作/工程/后端框架/EasyPOI",
     "4.归档/工作/工程/前端框架/Element",
@@ -212,7 +212,6 @@
     "5.专题研究/考研/复试线/assets",
     "5.专题研究/考研/复试线",
     "5.专题研究/考研",
-    "1.收集箱/simpread_clipper/md",
-    "2.等待处理/Diary/2023-04-05.md.nssyncsc"
+    "1.收集箱/simpread_clipper/md"
   ]
 }
