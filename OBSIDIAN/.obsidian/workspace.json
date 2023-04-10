@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-10.md",
-                "mode": "source",
+                "file": "5.专题研究/南京旅游规划/计划.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jetbrain",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-10.md",
+                "file": "5.专题研究/南京旅游规划/计划.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-10.md"
+                "file": "5.专题研究/南京旅游规划/计划.md"
               }
             }
           },
@@ -169,18 +168,18 @@
   },
   "active": "d62714c740a30ee0",
   "lastOpenFiles": [
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
-    "2.等待处理/Diary/2023-04-10.md",
-    "2.等待处理/Diary/2023-04-09.md",
-    "5.专题研究/南京旅游规划/旅游攻略.md",
-    "5.专题研究/南京旅游规划/计划.md",
     "5.专题研究/南京旅游规划/消费记录.md",
+    "5.专题研究/南京旅游规划/计划.md",
+    "5.专题研究/南京旅游规划/坐飞机注意事项.md",
+    "5.专题研究/南京旅游规划/旅游攻略.md",
+    "2.等待处理/Diary/2023-04-10.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+    "2.等待处理/Diary/2023-04-09.md",
     "5.专题研究/南京旅游规划/assets/Pasted image 20230409215407.png",
     "5.专题研究/南京旅游规划/assets/Pasted image 20230409214945.png",
     "5.专题研究/南京旅游规划/assets/Pasted image 20230409214310.png",
     "5.专题研究/南京旅游规划/assets/Pasted image 20230409214055.png",
     "5.专题研究/南京旅游规划/assets/Pasted image 20230409214224.png",
-    "5.专题研究/南京旅游规划/坐飞机注意事项.md",
     "5.专题研究/南京旅游规划/assets/Pasted image 20230409210448.png",
     "5.专题研究/南京旅游规划/assets/Pasted image 20230409185631.png",
     "5.专题研究/南京旅游规划/assets/Pasted image 20230409213820.png",
