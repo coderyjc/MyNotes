@@ -9,7 +9,7 @@ complete: true
 
 通常情况下，我们也经常称Vue是一个MVVM的框架，Vue官方其实有说明，Vue虽然并没有完全遵守MVVM的模型，但是整个设计是受到它的启发的。
 
-![[vue-basic/assets/Pasted image 20230301163851.png]]
+![[assets/Pasted image 20230301163851.png]]
 
 ### 引入方法
 
