@@ -1,3 +1,10 @@
+## 2023-4-20 更新
+
+
+Z-library 镜像网站  https://zlibrary.ga/
+
+YLibrary-zlib的离线书库 https://blog.yibook.org/post/ylibrary/
+
 ## 2023-3-30更新
 
 1、如果你有科学上网手段，我建议大家使用官网进行下载。原因是Z-lib的数据库仍在不断更新，提供的域名也更稳定，使用官网绝对是最安全和可靠的。
