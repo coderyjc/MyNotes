@@ -1,40 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "SpringBoot+EasyPOI进行导入导出",
+      "path": "4.归档/工作/基础/java/libs/easypoi/SpringBoot+EasyPOI进行导入导出.md"
+    },
+    {
       "basename": "2023-04-20",
       "path": "2.等待处理/Diary/2023-04-20.md"
     },
     {
-      "basename": "坐飞机注意事项",
-      "path": "5.专题研究/南京旅游规划/坐飞机注意事项.md"
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
-      "basename": "消费记录",
-      "path": "5.专题研究/南京旅游规划/消费记录.md"
+      "basename": "16-如何把 Markdown 文件批量转换为 pdf？",
+      "path": "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md"
     },
     {
-      "basename": "计划",
-      "path": "5.专题研究/南京旅游规划/计划.md"
+      "basename": "1-python正则表达式精讲--分组 - 知乎",
+      "path": "1.收集箱/simpread_clipper/repo/1-python正则表达式精讲--分组 - 知乎.md"
     },
     {
-      "basename": "2023-16",
-      "path": "4.归档/工作/学习周刊/2023-16.md"
+      "basename": "6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客",
+      "path": "1.收集箱/simpread_clipper/repo/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md"
     },
     {
-      "basename": "AI产品目录",
-      "path": "4.归档/学习/1.修身/AI产品/AI产品目录.md"
+      "basename": "5-如何更好地管理「标签页」，我选择 Toby - 少数派",
+      "path": "1.收集箱/simpread_clipper/repo/5-如何更好地管理「标签页」，我选择 Toby - 少数派.md"
     },
     {
-      "basename": "2023-15",
-      "path": "4.归档/工作/学习周刊/2023-15.md"
+      "basename": "使用Webpack进行打包",
+      "path": "4.归档/工作/基础/front/webpack/使用Webpack进行打包.md"
     },
     {
-      "basename": "2023-14",
-      "path": "4.归档/工作/学习周刊/2023-14.md"
+      "basename": "Webpack搭建本地服务器",
+      "path": "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md"
     },
     {
-      "basename": "【浏览器使用技巧】",
-      "path": "4.归档/生活/搜索/【浏览器使用技巧】.md"
+      "basename": "认识Webpack",
+      "path": "4.归档/工作/基础/front/webpack/认识Webpack.md"
     }
   ],
   "omittedPaths": [],

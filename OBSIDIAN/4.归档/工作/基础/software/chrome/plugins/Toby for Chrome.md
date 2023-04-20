@@ -10,5 +10,5 @@ site: https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdoj
 
 相关链接
 
-- [[../../../../../../1.收集箱/simpread_clipper/inbox/5-如何更好地管理「标签页」，我选择 Toby - 少数派]]
+- [[../../../../../../1.收集箱/simpread_clipper/repo/5-如何更好地管理「标签页」，我选择 Toby - 少数派]]
 
