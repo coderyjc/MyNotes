@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "SpringBoot+EasyPOI进行导入导出",
-      "path": "4.归档/工作/基础/java/libs/easypoi/SpringBoot+EasyPOI进行导入导出.md"
-    },
-    {
       "basename": "2023-04-20",
       "path": "2.等待处理/Diary/2023-04-20.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "Java知识导图",
+      "path": "4.归档/工作/基础/java/javase/Java知识导图.md"
     },
     {
-      "basename": "16-如何把 Markdown 文件批量转换为 pdf？",
-      "path": "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md"
+      "basename": "java-map遍历方式总结",
+      "path": "4.归档/工作/基础/java/javase/java-summary/java-map遍历方式总结.md"
     },
     {
-      "basename": "1-python正则表达式精讲--分组 - 知乎",
-      "path": "1.收集箱/simpread_clipper/repo/1-python正则表达式精讲--分组 - 知乎.md"
+      "basename": "java-basic-collection",
+      "path": "4.归档/工作/基础/java/javase/java-basic/java-basic-collection.md"
     },
     {
-      "basename": "6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客",
-      "path": "1.收集箱/simpread_clipper/repo/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md"
+      "basename": "java-reflection",
+      "path": "4.归档/工作/基础/java/javase/java-basic/java-reflection.md"
     },
     {
-      "basename": "5-如何更好地管理「标签页」，我选择 Toby - 少数派",
-      "path": "1.收集箱/simpread_clipper/repo/5-如何更好地管理「标签页」，我选择 Toby - 少数派.md"
+      "basename": "java-exception",
+      "path": "4.归档/工作/基础/java/javase/java-basic/java-exception.md"
     },
     {
-      "basename": "使用Webpack进行打包",
-      "path": "4.归档/工作/基础/front/webpack/使用Webpack进行打包.md"
+      "basename": "java-basic-io",
+      "path": "4.归档/工作/基础/java/javase/java-basic/java-basic-io.md"
     },
     {
-      "basename": "Webpack搭建本地服务器",
-      "path": "4.归档/工作/基础/front/webpack/Webpack搭建本地服务器.md"
+      "basename": "java-basic-basic",
+      "path": "4.归档/工作/基础/java/javase/java-basic/java-basic-basic.md"
     },
     {
-      "basename": "认识Webpack",
-      "path": "4.归档/工作/基础/front/webpack/认识Webpack.md"
+      "basename": "java-basic-multithread",
+      "path": "4.归档/工作/基础/java/javase/java-basic/java-basic-multithread.md"
+    },
+    {
+      "basename": "1.SpringBoot+EasyPOI进行基本导入导出",
+      "path": "4.归档/工作/基础/java/libs/easypoi/1.SpringBoot+EasyPOI进行基本导入导出.md"
     }
   ],
   "omittedPaths": [],
