@@ -17,15 +17,11 @@ kanban-plugin: basic
 
 - [ ] #flag/工具 手撸一个markdown转为html的解析器
 - [ ] #flag/工具 学操作系统原理，做游戏修改器
-- [ ] #flag/工具 写Java代码建造mc方块，然后一键作画之类的
-- [ ] #flag/工具 学做mc游戏mod
 
 
 ## 其他falg
 
-- [ ] 抽时间复盘一下自己的大学生活，各个方面
 - [ ] 研究研究正装的穿法，细节什么的
-- [ ] 用pygame学着写个小游戏，从而练习python开发，这个应该放在python基础之后。
 - [ ] 了解一下衣服的品种，面料什么的
 - [ ] 了解一下生活中必备的法律知识
 - [ ] 文章同步在csdn和博客园上
@@ -101,6 +97,7 @@ kanban-plugin: basic
 - [x] #flag/工具 写个PDF去水印的软件
 - [x] 导入表情包到微信
 - [x] #flag/读书 使用Obsidian整理读书笔记
+- [x] 抽时间复盘一下自己的大学生活，各个方面
 
 %% kanban:settings
 ```
