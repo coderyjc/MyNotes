@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4ad805b08bf1f08f",
+        "id": "ec201f7ed4c00e26",
         "type": "tabs",
         "children": [
           {
-            "id": "f5e0cbdc65ec6808",
+            "id": "88754aa2b785e9ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "2.等待处理/Diary/2023-04-20.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -167,8 +167,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f5e0cbdc65ec6808",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/南京旅游规划/未命名.md",
+    "5.专题研究/南京旅游规划/坐飞机注意事项.md",
+    "5.专题研究/南京旅游规划/消费记录.md",
+    "5.专题研究/南京旅游规划/计划.md",
+    "2.等待处理/Diary/2023-04-20.md",
     "4.归档/工作/学习周刊/2023-16.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230420090712.png",
     "4.归档/学习/1.修身/AI产品/AI产品目录.md",
@@ -183,7 +188,6 @@
     "4.归档/工作/学习周刊/2023-13.md",
     "4.归档/学习/1.修身/AI产品/Prompt Engineering.md",
     "4.归档/学习/1.修身/AI产品/assets/Pasted image 20230420090045.png",
-    "2.等待处理/Diary/2023-04-20.md",
     "HOME.md",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-15.md",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-16.md",
@@ -202,9 +206,6 @@
     "2.等待处理/Diary/Archieve/2023-04/2023-04-17.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
     "2.等待处理/Tasks/index.md",
-    "2.等待处理/Diary/Archieve/2023-04/2023-04-08.md",
-    "2.等待处理/Diary/delete.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/15.数据大屏.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230418202608.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/assets/Pasted image 20230415200755.png",
     "4.归档/生活/旅行",

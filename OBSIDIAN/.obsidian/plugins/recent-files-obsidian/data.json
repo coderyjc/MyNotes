@@ -5,6 +5,18 @@
       "path": "2.等待处理/Diary/2023-04-20.md"
     },
     {
+      "basename": "坐飞机注意事项",
+      "path": "5.专题研究/南京旅游规划/坐飞机注意事项.md"
+    },
+    {
+      "basename": "消费记录",
+      "path": "5.专题研究/南京旅游规划/消费记录.md"
+    },
+    {
+      "basename": "计划",
+      "path": "5.专题研究/南京旅游规划/计划.md"
+    },
+    {
       "basename": "2023-16",
       "path": "4.归档/工作/学习周刊/2023-16.md"
     },
@@ -23,22 +35,6 @@
     {
       "basename": "【浏览器使用技巧】",
       "path": "4.归档/生活/搜索/【浏览器使用技巧】.md"
-    },
-    {
-      "basename": "zlib合集",
-      "path": "4.归档/生活/搜索/zlib合集.md"
-    },
-    {
-      "basename": "2023-13",
-      "path": "4.归档/工作/学习周刊/2023-13.md"
-    },
-    {
-      "basename": "Prompt Engineering",
-      "path": "4.归档/学习/1.修身/AI产品/Prompt Engineering.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     }
   ],
   "omittedPaths": [],
