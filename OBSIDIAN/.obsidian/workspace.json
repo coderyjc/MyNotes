@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "92712617de8e2dcd",
+        "id": "61a4cea5a222bf38",
         "type": "tabs",
         "children": [
           {
-            "id": "73ecaf88a90934ef",
+            "id": "ebddb3873492d786",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2023-04-21.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -74,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2023-04-21.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2023-04-21.md"
+              }
             }
           },
           {
@@ -160,15 +168,18 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "HOME.md",
+    "2.等待处理/Diary/2023-04-21.md",
+    "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/delete.md",
+    "1.收集箱/dashboard/warehouse.md",
     "4.归档/生活/旅行/南京旅游规划/计划.md",
     "4.归档/生活/旅行/南京旅游规划/消费记录.md",
-    "2.等待处理/Diary/2023-04-21.md",
     "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2023-04-20.md",
     "0.plugin/template/game_hades.md",
     "1.收集箱/simpread_clipper/inbox/16-如何把 Markdown 文件批量转换为 pdf？.md",
     "1.收集箱/simpread_clipper/inbox/18-SpringBoot实现文件的上传和下载 - 简书.md",
-    "1.收集箱/dashboard/warehouse.md",
     "4.归档/工作/学习周刊/2023-16.md",
     "4.归档/工作/学习周刊/2023-14.md",
     "4.归档/工作/学习周刊/2023-15.md",
@@ -185,11 +196,8 @@
     "4.归档/工作/基础/java/javase/java-basic/java-exception.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-io.md",
     "4.归档/工作/基础/java/javase/java-basic/java-basic-basic.md",
-    "4.归档/工作/基础/java/javase/java-basic/java-basic-multithread.md",
-    "4.归档/工作/基础/java/libs/easypoi/1.SpringBoot+EasyPOI进行基本导入导出.md",
     "4.归档/工作/基础/java/libs/easypoi",
     "4.归档/工作/基础/java/libs",
-    "HOME.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230420090712.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230420090532.png",
     "4.归档/工作/学习周刊/assets/Pasted image 20230420090455.png",

@@ -19,6 +19,17 @@ kanban-plugin: basic
 - [ ] #flag/工具 学操作系统原理，做游戏修改器
 
 
+## 创作
+
+- [x] #flag/设计 JavaScript的canvas库，网页绘图
+- [ ] #flag/设计 学习PPT然后建立自己的PPT模版
+- [ ] #flag/设计 自己制作typora皮肤和转换为html的皮肤
+- [x] #flag/设计 PS，敬伟教程
+- [ ] #flag/设计 学习配色和设计，自己写一个obsidian，vscode，typora主题等
+- [ ] #flag/写作 玄幻小说
+- [ ] #flag/写作 模仿龙族写小说
+
+
 ## 其他falg
 
 - [ ] 研究研究正装的穿法，细节什么的
@@ -35,18 +46,6 @@ kanban-plugin: basic
 - [ ] 密码学
 - [ ] 厨师理论
 - [ ] 英语翻译
-
-
-## 创作
-
-- [ ] #flag/设计 JavaScript的canvas库，网页绘图
-- [ ] #flag/设计 制作wallpaper的壁纸
-- [ ] #flag/设计 学习PPT然后建立自己的PPT模版
-- [ ] #flag/设计 自己制作typora皮肤和转换为html的皮肤
-- [ ] #flag/设计 PS，敬伟教程
-- [ ] #flag/设计 学习配色和设计，自己写一个obsidian，vscode，typora主题等
-- [ ] #flag/写作 玄幻小说
-- [ ] #flag/写作 模仿龙族写小说
 
 
 ## 学习
