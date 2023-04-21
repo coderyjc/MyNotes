@@ -66,3 +66,10 @@ Ref： https://zhuanlan.zhihu.com/p/347990778
 
 这样，每次提交commit之后就能同步更新了。
 
+---
+
+```ad-attention
+title: 注意
+这里的 theme 从 git clone 下来之后由于自带`.git`文件，直接push到repo的时候会导致识别不出来，就是文件夹上有一个小箭头。
+这时候build的时候会找不到相关的layout，因此
+```
