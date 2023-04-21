@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2.等待处理/Diary/2023-04-21.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -58,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,7 +167,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "1f74b340a1d27e17",
   "lastOpenFiles": [
     "HOME.md",
     "2.等待处理/Diary/2023-04-21.md",
