@@ -26,6 +26,43 @@
 
 文件夹中执行 `hexo init <folder>`
 
-直接把一堆文件放文件夹里。
+直接把一堆文件放root文件夹里。
 
+```bash
+git add .
+git commit -m "init"
+git push
+```
+
+## 在vercel中登录github，选择git仓库并选择仓库
+
+```ad-note
+Ref： https://zhuanlan.zhihu.com/p/347990778
+```
+
+![[assets/Pasted image 20230421144530.png]]
+
+## 使用自定义域名
+
+在项目设置中添加自定义域名
+
+![[assets/Pasted image 20230421144944.png]]
+
+会提示不正确的设置，不用管，直接在自己的域名管理上添加CNAME解析即可
+
+![[assets/Pasted image 20230421145047.png]]
+
+添加成功
+
+![[assets/Pasted image 20230421145303.png]]
+
+回到vercel，部署成功
+
+![[assets/Pasted image 20230421145434.png]]
+
+可以成功访问。
+
+![[assets/Pasted image 20230421145546.png]]
+
+这样，每次提交commit之后就能同步更新了。
 
