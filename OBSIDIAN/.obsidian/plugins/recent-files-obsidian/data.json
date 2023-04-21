@@ -5,14 +5,6 @@
       "path": "2.等待处理/Diary/2023-04-21.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "vercel博客部署",
-      "path": "4.归档/工作/扩展/vercel博客部署/vercel博客部署.md"
-    },
-    {
       "basename": "index",
       "path": "2.等待处理/Tasks/index.md"
     },
@@ -21,24 +13,32 @@
       "path": "2.等待处理/Diary/delete.md"
     },
     {
+      "basename": "database",
+      "path": "1.收集箱/wechat_daily_challenge/database.md"
+    },
+    {
       "basename": "warehouse",
       "path": "1.收集箱/dashboard/warehouse.md"
     },
     {
-      "basename": "计划",
-      "path": "4.归档/生活/旅行/南京旅游规划/计划.md"
-    },
-    {
-      "basename": "消费记录",
-      "path": "4.归档/生活/旅行/南京旅游规划/消费记录.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "2023-04-20",
       "path": "2.等待处理/Diary/2023-04-20.md"
+    },
+    {
+      "basename": "vercel博客部署",
+      "path": "4.归档/工作/扩展/博客相关/vercel博客部署/vercel博客部署.md"
+    },
+    {
+      "basename": "Hexo添加搜索文章功能",
+      "path": "4.归档/工作/扩展/博客相关/Hexo/Hexo添加搜索文章功能.md"
+    },
+    {
+      "basename": "计划",
+      "path": "4.归档/生活/旅行/南京旅游规划/计划.md"
     }
   ],
   "omittedPaths": [],

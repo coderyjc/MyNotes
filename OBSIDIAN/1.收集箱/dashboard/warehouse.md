@@ -21,10 +21,8 @@ kanban-plugin: basic
 
 ## 创作
 
-- [x] #flag/设计 JavaScript的canvas库，网页绘图
 - [ ] #flag/设计 学习PPT然后建立自己的PPT模版
 - [ ] #flag/设计 自己制作typora皮肤和转换为html的皮肤
-- [x] #flag/设计 PS，敬伟教程
 - [ ] #flag/设计 学习配色和设计，自己写一个obsidian，vscode，typora主题等
 - [ ] #flag/写作 玄幻小说
 - [ ] #flag/写作 模仿龙族写小说
@@ -97,6 +95,8 @@ kanban-plugin: basic
 - [x] 导入表情包到微信
 - [x] #flag/读书 使用Obsidian整理读书笔记
 - [x] 抽时间复盘一下自己的大学生活，各个方面
+- [x] #flag/设计 JavaScript的canvas库，网页绘图
+- [x] #flag/设计 PS，敬伟教程
 
 %% kanban:settings
 ```
