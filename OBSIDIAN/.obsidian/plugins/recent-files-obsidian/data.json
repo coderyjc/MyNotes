@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vercel博客部署",
+      "path": "5.专题研究/vercel博客部署/vercel博客部署.md"
+    },
+    {
       "basename": "2023-04-21",
       "path": "2.等待处理/Diary/2023-04-21.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "2023-04-20",
       "path": "2.等待处理/Diary/2023-04-20.md"
-    },
-    {
-      "basename": "game_hades",
-      "path": "0.plugin/template/game_hades.md"
     }
   ],
   "omittedPaths": [],
