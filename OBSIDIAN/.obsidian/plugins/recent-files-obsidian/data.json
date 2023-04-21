@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "计划",
+      "path": "4.归档/生活/旅行/南京旅游规划/计划.md"
+    },
+    {
+      "basename": "消费记录",
+      "path": "4.归档/生活/旅行/南京旅游规划/消费记录.md"
+    },
+    {
       "basename": "2023-04-21",
       "path": "2.等待处理/Diary/2023-04-21.md"
     },
     {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
       "basename": "2023-04-20",
       "path": "2.等待处理/Diary/2023-04-20.md"
+    },
+    {
+      "basename": "game_hades",
+      "path": "0.plugin/template/game_hades.md"
     },
     {
       "basename": "16-如何把 Markdown 文件批量转换为 pdf？",
@@ -23,22 +39,6 @@
     {
       "basename": "2023-16",
       "path": "4.归档/工作/学习周刊/2023-16.md"
-    },
-    {
-      "basename": "2023-14",
-      "path": "4.归档/工作/学习周刊/2023-14.md"
-    },
-    {
-      "basename": "2023-15",
-      "path": "4.归档/工作/学习周刊/2023-15.md"
-    },
-    {
-      "basename": "zlib合集",
-      "path": "4.归档/生活/搜索/zlib合集.md"
-    },
-    {
-      "basename": "串的暴力匹配算法",
-      "path": "5.专题研究/Algorithm/算法专栏/串的暴力匹配算法.md"
     }
   ],
   "omittedPaths": [],
