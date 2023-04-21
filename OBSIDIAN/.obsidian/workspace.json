@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
+                "file": "2.等待处理/Diary/2023-04-21.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "2.等待处理/Diary/2023-04-21.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "2.等待处理/Diary/2023-04-21.md"
               }
             }
           },
@@ -166,7 +166,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dfcb4770ad1e07f9",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
     "4.归档/工作/扩展/vercel博客部署/vercel博客部署.md",
     "2.等待处理/Diary/2023-04-21.md",
