@@ -71,5 +71,11 @@ Ref： https://zhuanlan.zhihu.com/p/347990778
 ```ad-attention
 title: 注意
 这里的 theme 从 git clone 下来之后由于自带`.git`文件，直接push到repo的时候会导致识别不出来，就是文件夹上有一个小箭头。
-这时候build的时候会找不到相关的layout，因此
+这时候build的时候会找不到相关的layout，因此要最好删除`.git`和`LICENSE`文件。之后把文件push to repo
+```
+
+
+```ad-attention
+title: 注意
+hexo theme下载之后需要保证`_config.yml`中`theme`标签和`themes/*`里面的文件夹名字相同，否则无法加载主题。
 ```
