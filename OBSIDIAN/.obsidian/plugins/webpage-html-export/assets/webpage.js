@@ -324,3 +324,9 @@ jQuery(function()
 	// $("html").css("visibility", "visible");
 	// $("html").css("background-color", "var(--background-primary)");
 });
+
+
+// -------------------------- GRAPH VIEW --------------------------
+
+
+
