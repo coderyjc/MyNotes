@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2023-04-22.md"
     },
     {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
       "basename": "zlib合集",
       "path": "4.归档/生活/搜索/zlib合集.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
     },
     {
       "basename": "2023-04-21",
