@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/1.修身/AI产品/AI产品目录.md",
+                "file": "2.等待处理/Diary/2023-04-22.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/1.修身/AI产品/AI产品目录.md",
+                "file": "2.等待处理/Diary/2023-04-22.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/1.修身/AI产品/AI产品目录.md"
+                "file": "2.等待处理/Diary/2023-04-22.md"
               }
             }
           },
@@ -168,11 +168,14 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/2023-04-22.md",
+    "2.等待处理/Diary/2023-04-21.md",
+    "4.归档/学习/1.修身/AI产品/AI产品目录.md",
     "4.归档/工作/学习周刊/2023-14.md",
     "4.归档/工作/学习周刊/2023-13.md",
     "4.归档/工作/学习周刊/2023-15.md",
     "4.归档/工作/学习周刊/2023-16.md",
-    "2.等待处理/Diary/2023-04-21.md",
     "HOME.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/摘要.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第1章 绪论.md",
@@ -184,7 +187,6 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第3章 系统需求分析.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第2章 系统关键技术.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文",
-    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/delete.md",
     "1.收集箱/wechat_daily_challenge/database.md",
     "1.收集箱/dashboard/warehouse.md",
@@ -204,8 +206,6 @@
     "4.归档/工作/扩展/博客相关/vercel博客部署",
     "4.归档/生活/旅行/南京旅游规划/计划.md",
     "4.归档/生活/旅行/南京旅游规划/消费记录.md",
-    "0.plugin/template/dailynotes.md",
-    "0.plugin/template/game_hades.md",
     "4.归档/工作/学习周刊/assets/Pasted image 20230420145150.png",
     "4.归档/工作/基础/java/javase/java-summary",
     "4.归档/工作/基础/java/libs/easypoi",
