@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2023-04-22.md"
     },
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "index",
       "path": "2.等待处理/Tasks/index.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "第1章 绪论",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第1章 绪论.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     }
   ],
   "omittedPaths": [],
