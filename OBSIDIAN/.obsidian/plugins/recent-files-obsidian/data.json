@@ -5,6 +5,18 @@
       "path": "2.等待处理/Diary/2023-04-23.md"
     },
     {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
+      "basename": "delete",
+      "path": "2.等待处理/Diary/delete.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "1.系统的主要功能概述",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md"
     },
@@ -27,18 +39,6 @@
     {
       "basename": "zlib合集",
       "path": "4.归档/生活/搜索/zlib合集.md"
-    },
-    {
-      "basename": "参考项目",
-      "path": "5.专题研究/CSAPP/参考项目.md"
-    },
-    {
-      "basename": "OS",
-      "path": "4.归档/工作/基础/other/OS/OS.md"
-    },
-    {
-      "basename": "2023-04-06",
-      "path": "2.等待处理/Diary/Archieve/2023-04/2023-04-06.md"
     }
   ],
   "omittedPaths": [],
