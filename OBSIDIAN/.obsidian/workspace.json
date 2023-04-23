@@ -11,8 +11,13 @@
             "id": "82100788efe80b72",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2023-04-23.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -74,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2023-04-23.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2023-04-23.md"
+              }
             }
           },
           {
@@ -162,8 +170,8 @@
   "lastOpenFiles": [
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
     "2.等待处理/Diary/2023-04-23.md",
-    "2.等待处理/Diary/2023-04-22.md",
     "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/2023-04-22.md",
     "4.归档/生活/搜索/zlib合集.md",
     "5.专题研究/CSAPP/参考项目.md",
     "4.归档/工作/基础/other/OS/OS.md",
