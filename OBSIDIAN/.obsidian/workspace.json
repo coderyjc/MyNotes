@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-23.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2023-04-24.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-23.md",
+                "file": "2.等待处理/Diary/2023-04-24.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-04-23.md"
+                "file": "2.等待处理/Diary/2023-04-24.md"
               }
             }
           },
@@ -168,8 +168,9 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2023-04-23.md",
+    "2.等待处理/Diary/2023-04-24.md",
+    "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/delete.md",
     "HOME.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
@@ -194,7 +195,6 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第1章 绪论.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/index.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第7章 总结与展望.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第6章 系统测试.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文",
     "4.归档/工作/扩展/博客相关/Hexo",
     "4.归档/工作/扩展/博客相关",
