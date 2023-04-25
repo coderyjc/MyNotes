@@ -3,16 +3,10 @@ wordCount: 0
 ---
 
 ```dataviewjs
-i = dv.pages(`"5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"`).filter(p => p.wordCount).sum(p => p.wordCount)
-
+let sum = 0
+dv.pages(`"5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"`).filter(p => sum += p.wordCount)
+dv.paragraph(`当前已经写了==${sum}==字`)
 ```
-
-
-```dataview
-table wordCount
-from "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"
-```
-
 
 [[摘要]]
 
@@ -31,5 +25,3 @@ from "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业�
 [[第7章 总结与展望]]
 
 [[参考文献、致谢]]
-
-[[致谢]]
