@@ -1,3 +1,18 @@
+---
+wordCount: 0
+---
+
+```dataviewjs
+i = dv.pages(`"5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"`).filter(p => p.wordCount).sum(p => p.wordCount)
+
+```
+
+
+```dataview
+table wordCount
+from "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"
+```
+
 
 [[摘要]]
 
