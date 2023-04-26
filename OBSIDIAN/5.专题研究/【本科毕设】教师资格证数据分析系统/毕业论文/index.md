@@ -2,11 +2,19 @@
 wordCount: 0
 ---
 
+
+```dataview
+table wordCount
+from "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"
+```
+
+
 ```dataviewjs
 let sum = 0
 dv.pages(`"5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"`).filter(p => sum += p.wordCount)
-dv.paragraph(`当前已经写了==${sum}==字`)
+dv.paragraph(`sum: ==${sum}==`)
 ```
+
 
 [[摘要]]
 
