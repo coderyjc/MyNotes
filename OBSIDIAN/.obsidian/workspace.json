@@ -4,38 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3749883dfd75ba29",
+        "id": "ff60ef9a658a8af8",
         "type": "tabs",
-        "dimension": 25.555555555555554,
         "children": [
           {
-            "id": "7373dbc6e5095aa0",
+            "id": "2f110ccdb28c2b6b",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230426164149.png"
-              }
-            },
-            "group": "d72f2ddfd6731f3c"
-          }
-        ]
-      },
-      {
-        "id": "1a2d544ac940d34d",
-        "type": "tabs",
-        "dimension": 74.44444444444444,
-        "children": [
-          {
-            "id": "05e4e715ab46c80f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230426164149.png"
-              }
-            },
-            "group": "d72f2ddfd6731f3c"
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -79,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5079231262207,
-    "collapsed": true
+    "width": 295.5079231262207
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -97,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230426164149.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,9 +105,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230426164149.png"
-              }
+              "state": {}
             }
           },
           {
@@ -185,9 +159,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7373dbc6e5095aa0",
+  "active": "2f110ccdb28c2b6b",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第5章 系统的实现.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/index.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第4章 系统设计.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230426164149.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230427165003.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230426162703.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230427164932.png",
@@ -197,11 +174,8 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230427164753.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230427164737.png",
     "2.等待处理/Diary/2023-04-27.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第5章 系统的实现.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第6章 系统测试.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/index.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230427162433.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230427161447.png",
     "2.等待处理/Diary/2023-04-26.md",
     "2.等待处理/Tasks/index.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第3章 系统需求分析.md",
