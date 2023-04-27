@@ -19,7 +19,7 @@ dv.paragraph(`字符数: ==${sumChar}==`)
 
 
 ```dataview
-table wordCount as 字数, charCount as 字符数
+table wordCount as 字数, charCount as 字符数, done as 完成情况
 from "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"
 ```
 
