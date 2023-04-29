@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-04-30",
+      "path": "2.等待处理/Diary/2023-04-30.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
+      "basename": "delete",
+      "path": "2.等待处理/Diary/delete.md"
+    },
+    {
       "basename": "2023-04-29",
       "path": "2.等待处理/Diary/2023-04-29.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
+      "basename": "2023-04-28",
+      "path": "2.等待处理/Diary/Archieve/2023-04/2023-04-28.md"
     },
     {
       "basename": "摘要",
@@ -19,26 +39,6 @@
     {
       "basename": "第7章 总结与展望",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第7章 总结与展望.md"
-    },
-    {
-      "basename": "第6章 系统测试",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第6章 系统测试.md"
-    },
-    {
-      "basename": "第5章 系统的实现",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第5章 系统的实现.md"
-    },
-    {
-      "basename": "2023-04-28",
-      "path": "2.等待处理/Diary/2023-04-28.md"
-    },
-    {
-      "basename": "Pasted image 20230428120329",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428120329.png"
-    },
-    {
-      "basename": "第3章 系统需求分析",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第3章 系统需求分析.md"
     }
   ],
   "omittedPaths": [],
