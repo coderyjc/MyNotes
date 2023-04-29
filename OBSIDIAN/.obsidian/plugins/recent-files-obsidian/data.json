@@ -5,16 +5,16 @@
       "path": "2.等待处理/Diary/2023-04-30.md"
     },
     {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
-    },
-    {
       "basename": "delete",
       "path": "2.等待处理/Diary/delete.md"
     },
     {
       "basename": "2023-04-29",
       "path": "2.等待处理/Diary/2023-04-29.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
     },
     {
       "basename": "dailynotes",
