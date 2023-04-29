@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "661065c34c2bdb69",
+        "id": "59dca64fc8f0b2f2",
         "type": "tabs",
         "children": [
           {
-            "id": "ed9c0f349d3edb4f",
+            "id": "4e4df4e7d8887898",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "2.等待处理/Diary/2023-04-29.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -167,7 +167,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "4e4df4e7d8887898",
   "lastOpenFiles": [
     "2.等待处理/Diary/2023-04-29.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/参考文献、致谢.md",
