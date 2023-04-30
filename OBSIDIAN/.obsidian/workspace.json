@@ -4,21 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "51e228d5ede1998b",
+        "id": "7bb33ee711094433",
         "type": "tabs",
+        "dimension": 49.11206368646663,
         "children": [
           {
-            "id": "03272bf2b25c61a7",
+            "id": "d2b2fbb2ef9f98d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
+                "file": "5.专题研究/考研/考研择校/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
-            }
+            },
+            "group": "20645c4d480ab637"
+          }
+        ]
+      },
+      {
+        "id": "c58bba6119a192af",
+        "type": "tabs",
+        "dimension": 50.88793631353338,
+        "children": [
+          {
+            "id": "05d3c4dd2f25a45d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/考研/考研择校/index.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            },
+            "group": "20645c4d480ab637"
           }
         ]
       }
@@ -62,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5079231262207
+    "width": 258.5079231262207,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
+                "file": "5.专题研究/考研/考研择校/index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md"
+                "file": "5.专题研究/考研/考研择校/index.md"
               }
             }
           },
@@ -167,13 +191,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "03272bf2b25c61a7",
+  "active": "d2b2fbb2ef9f98d7",
   "lastOpenFiles": [
-    "1.收集箱/simpread_clipper/inbox/2023 软科中国大学排名，各省 TOP 高校出炉！.md",
-    "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年暨南大学计算机考研考情分析.md",
-    "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
-    "1.收集箱/simpread_clipper/repo/16-如何把 Markdown 文件批量转换为 pdf？.md",
+    "5.专题研究/考研/考研择校/assets/Pasted image 20230430201518.png",
     "2.等待处理/Diary/2023-04-30.md",
+    "5.专题研究/考研/考研择校/index.md",
+    "5.专题研究/考研/考研择校/assets/Pasted image 20230430200334.png",
+    "5.专题研究/考研/考研择校/assets/Pasted image 20230430200330.png",
+    "5.专题研究/考研/考研择校/assets/Pasted image 20230430200218.png",
+    "5.专题研究/考研/考研择校/assets",
+    "5.专题研究/考研/考研择校/2023 软科中国大学排名，各省 TOP 高校出炉！.md",
+    "5.专题研究/考研/考研择校/考情分析/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
+    "5.专题研究/考研/考研择校/考情分析/考情分析 _ 2023 年暨南大学计算机考研考情分析.md",
+    "5.专题研究/考研/考研择校/复试线/中国计量大学.md",
+    "5.专题研究/考研/考研择校/考情分析",
+    "5.专题研究/考研/考研择校/学校汇总",
+    "1.收集箱/simpread_clipper/repo/16-如何把 Markdown 文件批量转换为 pdf？.md",
     "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md",
     "4.归档/工作/扩展/AI产品/Prompt Engineering.md",
     "4.归档/工作/扩展/AI产品/AI产品目录.md",
@@ -197,23 +230,14 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230425155606.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第1章 绪论.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/摘要.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/faq.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/index.md",
-    "5.专题研究/CSAPP/参考项目.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125857.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125811.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125609.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125530.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125240.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125145.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets",
     "5.专题研究/CSAPP",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文",
     "4.归档/工作/扩展/博客相关/Hexo",
     "4.归档/工作/扩展/博客相关",
-    "4.归档/工作/扩展/博客相关/vercel博客部署/assets",
-    "4.归档/工作/扩展/博客相关/vercel博客部署",
-    "4.归档/工作/基础/java/javase/java-summary",
-    "4.归档/工作/基础/java/libs/easypoi"
+    "4.归档/工作/扩展/博客相关/vercel博客部署/assets"
   ]
 }
