@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "70b5f80475f39f6c",
+        "id": "10fb5c400fcb5ed0",
         "type": "tabs",
         "children": [
           {
-            "id": "463a3dbf1201a865",
+            "id": "b3a5496516ca4047",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第4章 系统设计.md",
+                "file": "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5079231262207
+    "width": 258.5079231262207,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第4章 系统设计.md",
+                "file": "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第4章 系统设计.md"
+                "file": "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md"
               }
             }
           },
@@ -146,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,10 +168,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "b3a5496516ca4047",
   "lastOpenFiles": [
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第5章 系统的实现.md",
+    "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md",
+    "4.归档/工作/扩展/AI产品/Prompt Engineering.md",
+    "4.归档/工作/扩展/AI产品/AI产品目录.md",
     "2.等待处理/Diary/2023-04-30.md",
+    "5.专题研究/操作系统/分布式系统.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第4章 系统设计.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230430140152.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230430140022.png",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第5章 系统的实现.md",
     "5.专题研究/考研/考研择校",
     "2.等待处理/Diary/delete.md",
     "2.等待处理/Diary/2023-04-29.md",
@@ -177,7 +186,6 @@
     "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-28.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/参考文献、致谢.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第4章 系统设计.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第7章 总结与展望.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第6章 系统测试.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428120329.png",
@@ -195,15 +203,10 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125530.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125240.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125145.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428124748.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428123119.png",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-27.md",
     "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md",
     "HOME.md",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-25.md",
-    "2.等待处理/Diary/Archieve/2023-04/2023-04-26.md",
-    "2.等待处理/Diary/Archieve/2023-04/2023-04-24.md",
-    "4.归档/工作/学习周刊/2023-13.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets",
     "5.专题研究/CSAPP",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文",

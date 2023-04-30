@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Prompt Engineering-吴恩达",
+      "path": "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md"
+    },
+    {
+      "basename": "Prompt Engineering",
+      "path": "4.归档/工作/扩展/AI产品/Prompt Engineering.md"
+    },
+    {
+      "basename": "AI产品目录",
+      "path": "4.归档/工作/扩展/AI产品/AI产品目录.md"
+    },
+    {
+      "basename": "2023-04-30",
+      "path": "2.等待处理/Diary/2023-04-30.md"
+    },
+    {
+      "basename": "分布式系统",
+      "path": "5.专题研究/操作系统/分布式系统.md"
+    },
+    {
       "basename": "第4章 系统设计",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第4章 系统设计.md"
     },
     {
       "basename": "第5章 系统的实现",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第5章 系统的实现.md"
-    },
-    {
-      "basename": "2023-04-30",
-      "path": "2.等待处理/Diary/2023-04-30.md"
     },
     {
       "basename": "delete",
@@ -23,22 +39,6 @@
     {
       "basename": "index",
       "path": "2.等待处理/Tasks/index.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
-    },
-    {
-      "basename": "2023-04-28",
-      "path": "2.等待处理/Diary/Archieve/2023-04/2023-04-28.md"
-    },
-    {
-      "basename": "摘要",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/摘要.md"
-    },
-    {
-      "basename": "参考文献、致谢",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/参考文献、致谢.md"
     }
   ],
   "omittedPaths": [],
