@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "10fb5c400fcb5ed0",
+        "id": "51e228d5ede1998b",
         "type": "tabs",
         "children": [
           {
-            "id": "b3a5496516ca4047",
+            "id": "03272bf2b25c61a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md",
+                "file": "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5079231262207,
-    "collapsed": true
+    "width": 258.5079231262207
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md",
+                "file": "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md"
+                "file": "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md"
               }
             }
           },
@@ -168,12 +167,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b3a5496516ca4047",
+  "active": "03272bf2b25c61a7",
   "lastOpenFiles": [
+    "1.收集箱/simpread_clipper/inbox/2023 软科中国大学排名，各省 TOP 高校出炉！.md",
+    "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年暨南大学计算机考研考情分析.md",
+    "1.收集箱/simpread_clipper/inbox/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
+    "1.收集箱/simpread_clipper/repo/16-如何把 Markdown 文件批量转换为 pdf？.md",
+    "2.等待处理/Diary/2023-04-30.md",
     "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md",
     "4.归档/工作/扩展/AI产品/Prompt Engineering.md",
     "4.归档/工作/扩展/AI产品/AI产品目录.md",
-    "2.等待处理/Diary/2023-04-30.md",
     "5.专题研究/操作系统/分布式系统.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第4章 系统设计.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230430140152.png",
@@ -203,10 +206,6 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125530.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125240.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125145.png",
-    "2.等待处理/Diary/Archieve/2023-04/2023-04-27.md",
-    "4.归档/工作/工程/环境问题相关/VsCode配置C环境.md",
-    "HOME.md",
-    "2.等待处理/Diary/Archieve/2023-04/2023-04-25.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets",
     "5.专题研究/CSAPP",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文",
