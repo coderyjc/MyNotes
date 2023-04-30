@@ -4,44 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "7bb33ee711094433",
+        "id": "9be4beb765a5bedb",
         "type": "tabs",
-        "dimension": 49.11206368646663,
+        "dimension": 42.03431372549019,
         "children": [
           {
-            "id": "d2b2fbb2ef9f98d7",
+            "id": "1af262993b21f21c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研/考研择校/index.md",
+                "file": "5.专题研究/考研/考研择校/学校汇总/暨南大学.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
-            },
-            "group": "20645c4d480ab637"
+            }
           }
         ]
       },
       {
-        "id": "c58bba6119a192af",
+        "id": "0d532a0d0acac211",
         "type": "tabs",
-        "dimension": 50.88793631353338,
+        "dimension": 57.96568627450981,
         "children": [
           {
-            "id": "05d3c4dd2f25a45d",
+            "id": "d10210c8a110461c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研/考研择校/index.md",
+                "file": "5.专题研究/考研/考研择校/考情分析/考情分析 _ 2023 年暨南大学计算机考研考情分析.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
-            },
-            "group": "20645c4d480ab637"
+            }
           }
         ]
       }
@@ -103,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研/考研择校/index.md",
+                "file": "5.专题研究/考研/考研择校/学校汇总/暨南大学.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研/考研择校/index.md"
+                "file": "5.专题研究/考研/考研择校/学校汇总/暨南大学.md"
               }
             }
           },
@@ -191,18 +189,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d2b2fbb2ef9f98d7",
+  "active": "1af262993b21f21c",
   "lastOpenFiles": [
+    "5.专题研究/考研/考研择校/考情分析/考情分析 _ 2023 年暨南大学计算机考研考情分析.md",
+    "5.专题研究/考研/考研择校/学校汇总/暨南大学.md",
+    "5.专题研究/考研/考研择校/index.md",
+    "5.专题研究/考研/考研择校/考情分析/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
+    "5.专题研究/考研/考研择校/学校汇总/未命名.md",
     "5.专题研究/考研/考研择校/assets/Pasted image 20230430201518.png",
     "2.等待处理/Diary/2023-04-30.md",
-    "5.专题研究/考研/考研择校/index.md",
     "5.专题研究/考研/考研择校/assets/Pasted image 20230430200334.png",
     "5.专题研究/考研/考研择校/assets/Pasted image 20230430200330.png",
     "5.专题研究/考研/考研择校/assets/Pasted image 20230430200218.png",
     "5.专题研究/考研/考研择校/assets",
     "5.专题研究/考研/考研择校/2023 软科中国大学排名，各省 TOP 高校出炉！.md",
-    "5.专题研究/考研/考研择校/考情分析/考情分析 _ 2023 年西南交通大学计算机考研考情分析.md",
-    "5.专题研究/考研/考研择校/考情分析/考情分析 _ 2023 年暨南大学计算机考研考情分析.md",
     "5.专题研究/考研/考研择校/复试线/中国计量大学.md",
     "5.专题研究/考研/考研择校/考情分析",
     "5.专题研究/考研/考研择校/学校汇总",
@@ -229,10 +229,8 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第2章 系统关键技术.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230425155606.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/第1章 绪论.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/摘要.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125857.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125811.png",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets/Pasted image 20230428125609.png",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/assets",
     "5.专题研究/CSAPP",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文",
