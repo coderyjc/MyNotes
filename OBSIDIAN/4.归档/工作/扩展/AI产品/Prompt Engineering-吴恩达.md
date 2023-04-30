@@ -250,5 +250,73 @@ x=100
 
 提示：
 
+```
+请给出用尖括号括起来的文字表达的情感是积极的还是消极的，如果是积极的，请输出“积极的”，反之输出“消极的”。
+<很好读，一气呵成。考古内容过多，过于繁琐，真正的洞见并不十分多。>
+```
+
+输出：
+
+```
+消极的
+```
+
+提示：
+
+```
+请给出用尖括号括起来的文字表达的情感是积极的还是消极的，如果是积极的，请输出“积极的”，反之输出“消极的”。
+<其实收到出版社的赠书有一段时间了，一直没有时间读，在朋友圈刷到李硕患病的消息后才赶紧把书给读了。读毕深深的愧疚，深深的震撼，也深深的遗憾。>
+```
+
+回答：
+
+```
+积极的
+```
+
+## 翻译
+
+### 语种翻译和辨别
+
+提问：
+
+```
+将以下文本翻译成法语：<智瑶在赵无恤翻脸后第一时间对赵家宣战，然后派出了使者向韩、魏两家借兵，说：“咱这都是为了国家，赵无恤这小子不上道，你们看着办！”>
+```
+
+回答：
+
+```
+Dès que Zhao Wuxu a choisi de tourner le dos à Zhixiao, ce dernier lui déclara immédiatement la guerre et envoya des émissaires chez les familles Han et Wei pour emprunter des troupes en disant: "Nous devons agir pour notre pays. Zhao Wuxu est hors de contrôle, à vous de juger !"
+```
+
+提问：
+
+```
+以下文本是什么语言：<Dès que Zhao Wuxu a choisi de tourner le dos à Zhixiao, ce dernier lui déclara immédiatement la guerre et envoya des émissaires chez les familles Han et Wei pour emprunter des troupes en disant: "Nous devons agir pour notre pays. Zhao Wuxu est hors de contrôle, à vous de juger !">
+```
+
+回答：
+
+```
+法语
+```
+
+
+### 正式和非正式语言
+
+提问
+
+```
+将用尖括号包括的文本翻译为英语，要求使用正式和非正式两种形式。
+<你搞什么呢？>
+```
+
+非正式
+
+```
+正式：May I know what are you doing?
+非正式：What are you up to?
+```
 
 
