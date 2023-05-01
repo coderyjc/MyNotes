@@ -5,6 +5,14 @@
       "path": "2.等待处理/Diary/2023-05-01.md"
     },
     {
+      "basename": "2023-04-29",
+      "path": "2.等待处理/Diary/2023-04-29.md"
+    },
+    {
+      "basename": "2023-04-30",
+      "path": "2.等待处理/Diary/2023-04-30.md"
+    },
+    {
       "basename": "西南交通大学",
       "path": "5.专题研究/考研/考研择校/考情分析/西南交通大学.md"
     },
@@ -29,16 +37,8 @@
       "path": "HOME.md"
     },
     {
-      "basename": "2023-04-30",
-      "path": "2.等待处理/Diary/2023-04-30.md"
-    },
-    {
       "basename": "中国计量大学",
       "path": "5.专题研究/考研/考研择校/复试线/中国计量大学.md"
-    },
-    {
-      "basename": "16-如何把 Markdown 文件批量转换为 pdf？",
-      "path": "1.收集箱/simpread_clipper/repo/16-如何把 Markdown 文件批量转换为 pdf？.md"
     }
   ],
   "omittedPaths": [],
