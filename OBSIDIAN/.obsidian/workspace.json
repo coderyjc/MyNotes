@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cc0401743e2d2e2b",
+        "id": "6cdd5de20d9f58d0",
         "type": "tabs",
         "children": [
           {
-            "id": "26ff5f7828054679",
+            "id": "5368e7ccc4aafc1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研/考研择校/index.md",
+                "file": "2.等待处理/Diary/2023-05-01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研/考研择校/index.md",
+                "file": "2.等待处理/Diary/2023-05-01.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研/考研择校/index.md"
+                "file": "2.等待处理/Diary/2023-05-01.md"
               }
             }
           },
@@ -167,8 +167,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "26ff5f7828054679",
+  "active": "5368e7ccc4aafc1c",
   "lastOpenFiles": [
+    "5.专题研究/考研/考研择校/2023 软科中国大学排名，各省 TOP 高校出炉！.md",
+    "2.等待处理/Diary/2023-05-01.md",
+    "2.等待处理/Diary/2023-04-30.md",
+    "5.专题研究/考研/考研择校/index.md",
+    "5.专题研究/考研/考研择校/分数公示/中国矿业大学.pdf",
+    "5.专题研究/考研/考研择校/分数公示/西南财经大学计算机与人工智能学院.pdf",
     "5.专题研究/考研/考研择校/分数公示/华中师范大学计算机学院.pdf",
     "5.专题研究/考研/考研择校/分数公示/华中师范大学人工智能教育学部.pdf",
     "5.专题研究/考研/考研择校/分数公示/中南财经政法大学.pdf",
@@ -177,9 +183,6 @@
     "5.专题研究/考研/考研择校/分数公示/西南大学人工智能学院.pdf",
     "5.专题研究/考研/考研择校/分数公示/南昌大学.pdf",
     "5.专题研究/考研/考研择校/分数公示/西南大学软件学院.pdf",
-    "5.专题研究/考研/考研择校/分数公示/云南大学2023年硕士研究生拟录取名单.pdf",
-    "5.专题研究/考研/考研择校/分数公示/广西大学.xlsx",
-    "5.专题研究/考研/考研择校/分数公示/华南师范人工智能学院.pdf",
     "5.专题研究/考研/考研择校/考情分析/西南交通大学.md",
     "5.专题研究/考研/考研择校/考情分析/暨南大学.md",
     "5.专题研究/考研/考研择校/考情分析/assets/Pasted image 20230430211113.png",
@@ -191,12 +194,9 @@
     "5.专题研究/考研/考研择校/考情分析/assets/Pasted image 20230430211026.png",
     "5.专题研究/考研/考研择校/考情分析/assets/Pasted image 20230430211018.png",
     "5.专题研究/考研/考研择校/学校汇总/暨南大学.md",
-    "5.专题研究/考研/考研择校/index.md",
     "5.专题研究/考研/考研择校/学校汇总/未命名.md",
     "5.专题研究/考研/考研择校/assets/Pasted image 20230430201518.png",
-    "2.等待处理/Diary/2023-04-30.md",
     "5.专题研究/考研/考研择校/assets/Pasted image 20230430200334.png",
-    "5.专题研究/考研/考研择校/2023 软科中国大学排名，各省 TOP 高校出炉！.md",
     "5.专题研究/考研/考研择校/复试线/中国计量大学.md",
     "1.收集箱/simpread_clipper/repo/16-如何把 Markdown 文件批量转换为 pdf？.md",
     "4.归档/工作/扩展/AI产品/Prompt Engineering-吴恩达.md",
