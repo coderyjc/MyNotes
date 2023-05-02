@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "考研记录",
+      "path": "5.专题研究/考研记录.md"
+    },
+    {
       "basename": "2023-05-02",
       "path": "2.等待处理/Diary/2023-05-02.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "7-20 表达式转换",
       "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-20 表达式转换.md"
-    },
-    {
-      "basename": "7-25 朋友圈",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-25 朋友圈.md"
     }
   ],
   "omittedPaths": [],
