@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "7-2 一元多项式的乘法与加法运算",
+      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-2 一元多项式的乘法与加法运算.md"
+    },
+    {
       "basename": "7-1 最大子列和问题",
       "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md"
+    },
+    {
+      "basename": "排序",
+      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/排序.md"
+    },
+    {
+      "basename": "图",
+      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/图.md"
+    },
+    {
+      "basename": "哈希",
+      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/哈希.md"
+    },
+    {
+      "basename": "7-3 树的同构",
+      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-3 树的同构.md"
+    },
+    {
+      "basename": "数组、栈和队列",
+      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/数组、栈和队列.md"
     },
     {
       "basename": "HOME",
@@ -15,30 +39,6 @@
     {
       "basename": "2023-05-02",
       "path": "2.等待处理/Diary/2023-05-02.md"
-    },
-    {
-      "basename": "二叉树",
-      "path": "5.专题研究/Algorithm/数据结构/二叉树.md"
-    },
-    {
-      "basename": "导论",
-      "path": "5.专题研究/Algorithm/数据结构/导论.md"
-    },
-    {
-      "basename": "大话数据结构",
-      "path": "1.收集箱/wechat_notes/计算机/大话数据结构.md"
-    },
-    {
-      "basename": "哈希表（散列表）",
-      "path": "5.专题研究/Algorithm/数据结构/哈希表（散列表）.md"
-    },
-    {
-      "basename": "并查集",
-      "path": "5.专题研究/Algorithm/数据结构/并查集.md"
-    },
-    {
-      "basename": "数组",
-      "path": "5.专题研究/Algorithm/数据结构/数组.md"
     }
   ],
   "omittedPaths": [],
