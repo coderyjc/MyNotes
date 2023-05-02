@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-05-02",
+      "path": "2.等待处理/Diary/2023-05-02.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
       "basename": "2023-05-01",
       "path": "2.等待处理/Diary/2023-05-01.md"
     },
@@ -21,10 +29,6 @@
       "path": "HOME.md"
     },
     {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
-    },
-    {
       "basename": "西南交通大学",
       "path": "4.归档/学习/1.修身/考研择校/考情分析/西南交通大学.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "index",
       "path": "4.归档/学习/1.修身/考研择校/index.md"
-    },
-    {
-      "basename": "2023 软科中国大学排名，各省 TOP 高校出炉！",
-      "path": "4.归档/学习/1.修身/考研择校/2023 软科中国大学排名，各省 TOP 高校出炉！.md"
     }
   ],
   "omittedPaths": [],

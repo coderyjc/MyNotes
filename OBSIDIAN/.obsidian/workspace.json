@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-05-01.md",
+                "file": "2.等待处理/Diary/2023-05-02.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-05-01.md",
+                "file": "2.等待处理/Diary/2023-05-02.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-05-01.md"
+                "file": "2.等待处理/Diary/2023-05-02.md"
               }
             }
           },
@@ -169,11 +169,12 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Tasks/index.md",
+    "0.plugin/template/dailynotes.md",
+    "2.等待处理/Diary/2023-05-02.md",
     "2.等待处理/Diary/2023-05-01.md",
+    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-04-30.md",
     "HOME.md",
-    "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2023-04-29.md",
     "4.归档/学习/1.修身/考研择校/resource/考研学校.xlsx",
     "5.专题研究/考研/考研择校/resource/index.html",
