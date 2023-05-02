@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "7-1 最大子列和问题",
+      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
       "basename": "2023-05-02",
       "path": "2.等待处理/Diary/2023-05-02.md"
     },
@@ -27,18 +39,6 @@
     {
       "basename": "数组",
       "path": "5.专题研究/Algorithm/数据结构/数组.md"
-    },
-    {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
-    },
-    {
-      "basename": "7-1 最大子列和问题",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md"
-    },
-    {
-      "basename": "_README",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md"
     }
   ],
   "omittedPaths": [],
