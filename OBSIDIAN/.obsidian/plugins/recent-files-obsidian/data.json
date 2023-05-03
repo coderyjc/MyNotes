@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "5.专题研究/考研笔记/数学/易错点整理/index.md"
+    },
+    {
       "basename": "2023-05-03",
       "path": "2.等待处理/Diary/2023-05-03.md"
     },
     {
-      "basename": "2023-05-02",
-      "path": "2.等待处理/Diary/2023-05-02.md"
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
     },
     {
       "basename": "final",
@@ -17,6 +21,10 @@
       "path": "5.专题研究/考研数学经验贴/考研记录.md"
     },
     {
+      "basename": "2023-05-02",
+      "path": "2.等待处理/Diary/2023-05-02.md"
+    },
+    {
       "basename": "143 北大软微",
       "path": "5.专题研究/考研数学经验贴/143 北大软微.md"
     },
@@ -25,20 +33,8 @@
       "path": "HOME.md"
     },
     {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
-    },
-    {
       "basename": "game_hades",
       "path": "0.plugin/template/game_hades.md"
-    },
-    {
-      "basename": "输入输出相关问题",
-      "path": "5.专题研究/Algorithm/PTA/输入输出相关问题.md"
-    },
-    {
-      "basename": "_README",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md"
     }
   ],
   "omittedPaths": [],
