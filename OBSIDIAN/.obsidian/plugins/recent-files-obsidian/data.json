@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-05-03",
+      "path": "2.等待处理/Diary/2023-05-03.md"
+    },
+    {
       "basename": "锁",
       "path": "5.专题研究/操作系统/锁.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "串",
       "path": "5.专题研究/Algorithm/数据结构/串.md"
-    },
-    {
-      "basename": "图",
-      "path": "5.专题研究/Algorithm/数据结构/图.md"
     }
   ],
   "omittedPaths": [],
