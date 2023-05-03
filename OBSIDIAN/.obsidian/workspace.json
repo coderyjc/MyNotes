@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Algorithm/数据结构/线性表.md",
+                "file": "5.专题研究/操作系统/锁.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Algorithm/数据结构/线性表.md",
+                "file": "5.专题研究/操作系统/锁.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Algorithm/数据结构/线性表.md"
+                "file": "5.专题研究/操作系统/锁.md"
               }
             }
           },
@@ -176,6 +176,7 @@
   },
   "active": "3bca5a6cf9cf57df",
   "lastOpenFiles": [
+    "5.专题研究/Algorithm/数据结构/线性表.md",
     "5.专题研究/Algorithm/数据结构/队列.md",
     "5.专题研究/Algorithm/数据结构/栈.md",
     "5.专题研究/Algorithm/数据结构/数组.md",
@@ -206,7 +207,6 @@
     "5.专题研究/未命名",
     "5.专题研究/考研笔记",
     "2.等待处理/Diary/2023-05-02.md",
-    "5.专题研究/考研数学经验贴/143 北大软微.md",
     "5.专题研究/考研数学经验贴",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets/Pasted image 20230502204855.png",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets/Pasted image 20230502204846.png",

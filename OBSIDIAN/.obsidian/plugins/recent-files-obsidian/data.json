@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "锁",
+      "path": "5.专题研究/操作系统/锁.md"
+    },
+    {
       "basename": "线性表",
       "path": "5.专题研究/Algorithm/数据结构/线性表.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "图",
       "path": "5.专题研究/Algorithm/数据结构/图.md"
-    },
-    {
-      "basename": "7-3 树的同构",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-3 树的同构.md"
     }
   ],
   "omittedPaths": [],
