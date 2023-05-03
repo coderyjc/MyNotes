@@ -5,6 +5,10 @@
       "path": "5.专题研究/考研数学经验贴/143 北大软微.md"
     },
     {
+      "basename": "final",
+      "path": "5.专题研究/考研数学经验贴/final.md"
+    },
+    {
       "basename": "考研记录",
       "path": "5.专题研究/考研数学经验贴/考研记录.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "_README",
       "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md"
-    },
-    {
-      "basename": "7-1 最大子列和问题",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md"
     }
   ],
   "omittedPaths": [],
