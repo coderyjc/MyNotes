@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "index",
-      "path": "5.专题研究/考研笔记/数学/易错点整理/index.md"
-    },
-    {
       "basename": "2023-05-03",
       "path": "2.等待处理/Diary/2023-05-03.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "1.系统的主要功能概述",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md"
+    },
+    {
+      "basename": "2.熟悉前端框架，删除部分界面",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md"
+    },
+    {
+      "basename": "0.目前存在的问题",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
+    },
+    {
+      "basename": "【数据分析】面试成绩数据分析",
+      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/【数据分析】面试成绩数据分析.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/考研笔记/数学/易错点整理/index.md"
     },
     {
       "basename": "dailynotes",
@@ -19,22 +39,6 @@
     {
       "basename": "考研记录",
       "path": "5.专题研究/考研数学经验贴/考研记录.md"
-    },
-    {
-      "basename": "2023-05-02",
-      "path": "2.等待处理/Diary/2023-05-02.md"
-    },
-    {
-      "basename": "143 北大软微",
-      "path": "5.专题研究/考研数学经验贴/143 北大软微.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "game_hades",
-      "path": "0.plugin/template/game_hades.md"
     }
   ],
   "omittedPaths": [],
