@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "143 北大软微",
+      "path": "5.专题研究/考研数学经验贴/143 北大软微.md"
+    },
+    {
       "basename": "考研记录",
-      "path": "5.专题研究/考研记录.md"
+      "path": "5.专题研究/考研数学经验贴/考研记录.md"
+    },
+    {
+      "basename": "2023-05-03",
+      "path": "2.等待处理/Diary/2023-05-03.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "2023-05-02",
       "path": "2.等待处理/Diary/2023-05-02.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
+      "basename": "game_hades",
+      "path": "0.plugin/template/game_hades.md"
     },
     {
       "basename": "输入输出相关问题",
@@ -19,26 +39,6 @@
     {
       "basename": "7-1 最大子列和问题",
       "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md"
-    },
-    {
-      "basename": "7-2 一元多项式的乘法与加法运算",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-2 一元多项式的乘法与加法运算.md"
-    },
-    {
-      "basename": "7-3 树的同构",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-3 树的同构.md"
-    },
-    {
-      "basename": "数组、栈和队列",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/数组、栈和队列.md"
-    },
-    {
-      "basename": "7-10 公路村村通",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-10 公路村村通.md"
-    },
-    {
-      "basename": "7-20 表达式转换",
-      "path": "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-20 表达式转换.md"
     }
   ],
   "omittedPaths": [],

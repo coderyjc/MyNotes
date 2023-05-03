@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a0272bd921e0d0db",
+        "id": "23839bd8016e8764",
         "type": "tabs",
         "children": [
           {
-            "id": "443b13293bda5437",
+            "id": "f00a33ab19608eed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-05-02.md",
+                "file": "5.专题研究/考研数学经验贴/考研记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "9726c505cff8dd9d",
+            "id": "09b1f1c5093946a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研记录.md",
+                "file": "5.专题研究/考研数学经验贴/143 北大软微.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研记录.md",
+                "file": "5.专题研究/考研数学经验贴/143 北大软微.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研记录.md"
+                "file": "5.专题研究/考研数学经验贴/143 北大软微.md"
               }
             }
           },
@@ -160,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,10 +180,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9726c505cff8dd9d",
+  "active": "09b1f1c5093946a4",
   "lastOpenFiles": [
+    "5.专题研究/考研数学经验贴/考研记录.md",
+    "5.专题研究/考研数学经验贴/143 北大软微.md",
+    "5.专题研究/考研数学经验贴",
+    "2.等待处理/Diary/2023-05-03.md",
+    "HOME.md",
     "2.等待处理/Diary/2023-05-02.md",
-    "5.专题研究/考研记录.md",
+    "0.plugin/template/dailynotes.md",
+    "0.plugin/template/game_hades.md",
     "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/_README.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-1 最大子列和问题.md",
@@ -200,17 +205,12 @@
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/排序.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/图.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/哈希.md",
-    "HOME.md",
     "2.等待处理/Tasks/index.md",
     "5.专题研究/Algorithm/数据结构/二叉树.md",
     "5.专题研究/Algorithm/数据结构/导论.md",
     "1.收集箱/wechat_notes/计算机/大话数据结构.md",
     "5.专题研究/Algorithm/数据结构/哈希表（散列表）.md",
     "5.专题研究/Algorithm/数据结构/并查集.md",
-    "5.专题研究/Algorithm/数据结构/数组.md",
-    "1.收集箱/wechat_notes/精品小说/未来学大会（译林幻系列）.md",
-    "1.收集箱/wechat_notes/文学/寻找百忧解：一个精神科医生的观察手记（独家首发｜天才捕手计划·口述真实故事文库）.md",
-    "1.收集箱/wechat_notes/历史/舍不得看完的中国史.md",
     "4.归档/学习/1.修身/考研择校/resource/考研学校.xlsx",
     "5.专题研究/考研/考研择校/resource/index.html",
     "4.归档/学习/1.修身/考研择校/resource",
@@ -220,7 +220,6 @@
     "5.专题研究/考研/考研择校/html",
     "5.专题研究/考研/考研择校/新建文件夹",
     "4.归档/学习/1.修身/考研择校/分数公示/中国计量大学2023年硕士研究生拟录取名单.pdf",
-    "4.归档/学习/1.修身/考研择校/分数公示/中国矿业大学.pdf",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211113.png",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211103.png",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211057.png",
