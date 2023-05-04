@@ -8,25 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87c13cdd1645fa70",
+            "id": "bcfc57dc972c5758",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研数学经验贴/我的规划.md",
+                "file": "5.专题研究/考研数学经验贴/我的规划-数学.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "eca9800ecf45b22c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "5.专题研究/考研数学经验贴/timeline.md"
               }
             }
           }
@@ -80,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.50909423828125
+    "width": 319.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -97,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研数学经验贴/我的规划.md",
+                "file": "5.专题研究/考研数学经验贴/我的规划-数学.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研数学经验贴/我的规划.md"
+                "file": "5.专题研究/考研数学经验贴/我的规划-数学.md"
               }
             }
           },
@@ -184,12 +174,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "87c13cdd1645fa70",
+  "active": "bcfc57dc972c5758",
   "lastOpenFiles": [
-    "5.专题研究/考研数学经验贴/timeline.md",
+    "5.专题研究/考研数学经验贴/参考2 北邮141.md",
+    "5.专题研究/考研数学经验贴/我的规划-数学.md",
     "5.专题研究/考研数学经验贴/参考1 143 北大软微.md",
-    "5.专题研究/考研数学经验贴/参考2 北邮.md",
-    "5.专题研究/考研数学经验贴/我的规划.md",
+    "5.专题研究/考研数学经验贴/timeline.md",
     "2.等待处理/Diary/2023-05-04.md",
     "HOME.md",
     "2.等待处理/Diary/2023-05-03.md",
