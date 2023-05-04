@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "我的规划",
+      "path": "5.专题研究/考研数学经验贴/我的规划.md"
+    },
+    {
+      "basename": "timeline",
+      "path": "5.专题研究/考研数学经验贴/timeline.md"
+    },
+    {
+      "basename": "参考1 143 北大软微",
+      "path": "5.专题研究/考研数学经验贴/参考1 143 北大软微.md"
+    },
+    {
+      "basename": "参考2 北邮",
+      "path": "5.专题研究/考研数学经验贴/参考2 北邮.md"
+    },
+    {
       "basename": "2023-05-04",
       "path": "2.等待处理/Diary/2023-05-04.md"
     },
@@ -23,22 +39,6 @@
     {
       "basename": "队列",
       "path": "5.专题研究/Algorithm/数据结构/队列.md"
-    },
-    {
-      "basename": "栈",
-      "path": "5.专题研究/Algorithm/数据结构/栈.md"
-    },
-    {
-      "basename": "数组",
-      "path": "5.专题研究/Algorithm/数据结构/数组.md"
-    },
-    {
-      "basename": "并查集",
-      "path": "5.专题研究/Algorithm/数据结构/并查集.md"
-    },
-    {
-      "basename": "导论",
-      "path": "5.专题研究/Algorithm/数据结构/导论.md"
     }
   ],
   "omittedPaths": [],
