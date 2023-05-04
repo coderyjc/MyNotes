@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-05-04",
+      "path": "2.等待处理/Diary/2023-05-04.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "2023-05-03",
       "path": "2.等待处理/Diary/2023-05-03.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "导论",
       "path": "5.专题研究/Algorithm/数据结构/导论.md"
-    },
-    {
-      "basename": "二叉树",
-      "path": "5.专题研究/Algorithm/数据结构/二叉树.md"
-    },
-    {
-      "basename": "串",
-      "path": "5.专题研究/Algorithm/数据结构/串.md"
     }
   ],
   "omittedPaths": [],
