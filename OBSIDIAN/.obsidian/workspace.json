@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "17f9911ef37df39e",
+        "id": "a86524d948b1397b",
         "type": "tabs",
         "children": [
           {
-            "id": "be92d34852a3d0b4",
+            "id": "b73ccfdbc5102c0d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/Algorithm/数据结构/线性表.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/Algorithm/数据结构/线性表.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +119,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/Algorithm/数据结构/线性表.md"
+              }
             }
           },
           {
@@ -166,8 +174,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be92d34852a3d0b4",
+  "active": "b73ccfdbc5102c0d",
   "lastOpenFiles": [
+    "5.专题研究/Algorithm/数据结构/栈.md",
+    "5.专题研究/Algorithm/数据结构/数组.md",
+    "5.专题研究/Algorithm/数据结构/线性表.md",
+    "5.专题研究/Algorithm/数据结构/assets/Pasted image 20230504212803.png",
+    "5.专题研究/Algorithm/数据结构/assets",
+    "5.专题研究/Algorithm/数据结构/串.md",
     "2.等待处理/Diary/2023-05-04.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-01.md",
     "2.等待处理/Diary/Archieve/2023-04/2023-04-30.md",
@@ -180,14 +194,10 @@
     "5.专题研究/考研数学经验贴/我的规划-其他.md",
     "5.专题研究/考研数学经验贴/timeline.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-03.md",
-    "5.专题研究/Algorithm/数据结构/线性表.md",
     "5.专题研究/Algorithm/数据结构/队列.md",
-    "5.专题研究/Algorithm/数据结构/栈.md",
-    "5.专题研究/Algorithm/数据结构/数组.md",
     "5.专题研究/Algorithm/数据结构/并查集.md",
     "5.专题研究/Algorithm/数据结构/导论.md",
     "5.专题研究/Algorithm/数据结构/二叉树.md",
-    "5.专题研究/Algorithm/数据结构/串.md",
     "5.专题研究/Algorithm/数据结构/图.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-3 树的同构.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets/Pasted image 20230503191041.png",
@@ -195,7 +205,6 @@
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-2 一元多项式的乘法与加法运算.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/2.熟悉前端框架，删除部分界面.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
     "5.专题研究/考研笔记/数学/易错点整理",
     "5.专题研究/考研笔记/数学",
     "5.专题研究/未命名",
@@ -206,13 +215,11 @@
     "4.归档/学习/1.修身/考研择校/resource/考研学校.xlsx",
     "5.专题研究/考研/考研择校/resource/index.html",
     "4.归档/学习/1.修身/考研择校/resource",
-    "5.专题研究/考研/考研择校/分数公示/~$广西大学.xlsx",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211113.png",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211103.png",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211057.png",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211051.png",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211042.png",
-    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211035.png",
-    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211026.png"
+    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211035.png"
   ]
 }
