@@ -5,16 +5,16 @@
       "path": "2.等待处理/Diary/2023-05-07.md"
     },
     {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
       "basename": "2023-05-06",
       "path": "2.等待处理/Diary/2023-05-06.md"
     },
     {
       "basename": "我的规划",
       "path": "5.专题研究/考研数学经验贴/我的规划.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
     },
     {
       "basename": "HOME",
