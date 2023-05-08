@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-05-08",
+      "path": "2.等待处理/Diary/2023-05-08.md"
+    },
+    {
+      "basename": "2023-05-07",
+      "path": "2.等待处理/Diary/2023-05-07.md"
+    },
+    {
       "basename": "1.系统的主要功能概述",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md"
     },
@@ -17,10 +25,6 @@
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.相关echart模版.md"
     },
     {
-      "basename": "2023-05-07",
-      "path": "2.等待处理/Diary/2023-05-07.md"
-    },
-    {
       "basename": "dailynotes",
       "path": "0.plugin/template/dailynotes.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "2023-05-05",
-      "path": "2.等待处理/Diary/2023-05-05.md"
     }
   ],
   "omittedPaths": [],
