@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "4.抽象：进程",
+      "path": "5.专题研究/操作系统导论/4.抽象：进程.md"
+    },
+    {
       "basename": "进程",
       "path": "5.专题研究/操作系统/进程.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "哈希表（散列表）",
       "path": "5.专题研究/Algorithm/数据结构/哈希表（散列表）.md"
-    },
-    {
-      "basename": "二叉树",
-      "path": "5.专题研究/Algorithm/数据结构/二叉树.md"
     }
   ],
   "omittedPaths": [],
