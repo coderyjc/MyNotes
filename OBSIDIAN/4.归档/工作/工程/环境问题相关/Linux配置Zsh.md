@@ -114,6 +114,37 @@ PROMPT="%{$fg[cyan]%}[$PWD] %{$fg[magenta]%}No %{$fg[yellow]%}Coding, %{$fg[mage
 %{$terminfo[bold]$fg[green]%}$ %{$reset_color%}"
 ```
 
+花里胡哨的模式：
+
+```shell
+PROMPT="%{$fg[cyan]%}[%2C] %{$fg[green]%}No Coding, No Life %{$fg[red]%}(ง •_•)ง \
+
+%{$terminfo[bold]$fg[green]%}$ %{$reset_color%}"
+```
+
+![[assets/Pasted image 20230511115020.png]]
+
+其他配置项
+
+```bash
+%%  一个'%'
+#%) 一个')'
+%y  当前的tty名
+%l  当前的tty名，如 pts/1
+%M  完整主机名
+%m  主机名（在第一个句号之前截断）
+%n  当前用户名
+%. %c %C 前两个显示相对路径的当前文件夹名，最后一个是绝对路径（也就是说，前两个在家目录下显示'~'，最后那个显示你的用户名），'%'后的数字表示显示几层路径
+%N  zsh 正在执行的脚本/函数名。如果'%'后跟了数字，似乎还有其他作用
+%L  当前shell的层数
+%j  当前正在进行的工作数量
+%i  与%!类似：The line number currently being executed in the script, sourced file,<br>         or shell function given by %N. This is most useful for debugging as part of $PS4.
+%!  显示当前历史事件号码（也就是打开shell后第几条命令）
+%/ %d   显示当前工作路径（$pwd）。如果'％'后面是一个整数，它指定显示路径的元件的数量;没有数字就显示整个路径。一个负整数就是指定主目录，即％-1d代表第一部分
+%~  目前的工作目录相对于～的相对路径
+%?  返回最后命令的执行结果的代码
+%#  用户组，#（普通用户）/%（超级用户）
+```
 
 ### 安装插件
 
