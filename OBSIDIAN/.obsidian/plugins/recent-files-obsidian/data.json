@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "进程",
+      "path": "5.专题研究/操作系统/进程.md"
+    },
+    {
+      "basename": "_README",
+      "path": "5.专题研究/操作系统/_README.md"
+    },
+    {
       "basename": "wsl配置gcc环境",
       "path": "4.归档/工作/工程/环境问题相关/wsl配置gcc环境.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "应用视角的操作系统",
       "path": "5.专题研究/操作系统/应用视角的操作系统.md"
-    },
-    {
-      "basename": "_README",
-      "path": "5.专题研究/操作系统/_README.md"
     },
     {
       "basename": "2023-05-11",
@@ -35,10 +39,6 @@
     {
       "basename": "二叉树",
       "path": "5.专题研究/Algorithm/数据结构/二叉树.md"
-    },
-    {
-      "basename": "2023-05-09",
-      "path": "2.等待处理/Diary/2023-05-09.md"
     }
   ],
   "omittedPaths": [],
