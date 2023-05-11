@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "wsl配置gcc环境",
+      "path": "4.归档/工作/工程/环境问题相关/wsl配置gcc环境.md"
+    },
+    {
+      "basename": "【WSL2】Windows安装WSL2",
+      "path": "4.归档/工作/扩展/windows/【WSL2】Windows安装WSL2.md"
+    },
+    {
+      "basename": "应用视角的操作系统",
+      "path": "5.专题研究/操作系统/应用视角的操作系统.md"
+    },
+    {
+      "basename": "_README",
+      "path": "5.专题研究/操作系统/_README.md"
+    },
+    {
+      "basename": "2023-05-11",
+      "path": "2.等待处理/Diary/2023-05-11.md"
+    },
+    {
+      "basename": "栈",
+      "path": "5.专题研究/Algorithm/数据结构/栈.md"
+    },
+    {
+      "basename": "并查集",
+      "path": "5.专题研究/Algorithm/数据结构/并查集.md"
+    },
+    {
+      "basename": "哈希表（散列表）",
+      "path": "5.专题研究/Algorithm/数据结构/哈希表（散列表）.md"
+    },
+    {
+      "basename": "二叉树",
+      "path": "5.专题研究/Algorithm/数据结构/二叉树.md"
+    },
+    {
       "basename": "2023-05-09",
       "path": "2.等待处理/Diary/2023-05-09.md"
-    },
-    {
-      "basename": "2023-05-04",
-      "path": "2.等待处理/Diary/Archieve/2023-05/2023-05-04.md"
-    },
-    {
-      "basename": "2023-05-08",
-      "path": "2.等待处理/Diary/Archieve/2023-05/2023-05-08.md"
-    },
-    {
-      "basename": "delete",
-      "path": "2.等待处理/Diary/delete.md"
-    },
-    {
-      "basename": "2023-05-07",
-      "path": "2.等待处理/Diary/Archieve/2023-05/2023-05-07.md"
-    },
-    {
-      "basename": "2023-05-06",
-      "path": "2.等待处理/Diary/Archieve/2023-05/2023-05-06.md"
-    },
-    {
-      "basename": "1.系统的主要功能概述",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md"
-    },
-    {
-      "basename": "1.数据可视化图表",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md"
-    },
-    {
-      "basename": "0.目前存在的问题",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
-    },
-    {
-      "basename": "3.相关echart模版",
-      "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/3.相关echart模版.md"
     }
   ],
   "omittedPaths": [],
