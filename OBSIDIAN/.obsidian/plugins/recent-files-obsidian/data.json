@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux配置Zsh",
+      "path": "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md"
+    },
+    {
       "basename": "4.抽象：进程",
       "path": "5.专题研究/操作系统导论/4.抽象：进程.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "并查集",
       "path": "5.专题研究/Algorithm/数据结构/并查集.md"
-    },
-    {
-      "basename": "哈希表（散列表）",
-      "path": "5.专题研究/Algorithm/数据结构/哈希表（散列表）.md"
     }
   ],
   "omittedPaths": [],

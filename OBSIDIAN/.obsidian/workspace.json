@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/操作系统导论/4.抽象：进程.md",
+                "file": "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -66,12 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 319.50909423828125,
-    "collapsed": true
+    "width": 319.50909423828125
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/操作系统导论/4.抽象：进程.md",
+                "file": "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/操作系统导论/4.抽象：进程.md"
+                "file": "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md"
               }
             }
           },
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,13 +175,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ec1e42b5c4f7d924",
+  "active": "1f74b340a1d27e17",
   "lastOpenFiles": [
+    "5.专题研究/操作系统导论/4.抽象：进程.md",
+    "5.专题研究/操作系统/进程.md",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511094016.png",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511093956.png",
     "5.专题研究/操作系统导论/assets",
-    "5.专题研究/操作系统/进程.md",
-    "5.专题研究/操作系统导论/4.抽象：进程.md",
     "5.专题研究/操作系统导论",
     "5.专题研究/操作系统/_README.md",
     "4.归档/工作/工程/环境问题相关/wsl配置gcc环境.md",
@@ -222,7 +221,6 @@
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211113.png",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211103.png",
     "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211057.png",
-    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211051.png",
-    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211042.png"
+    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211051.png"
   ]
 }
