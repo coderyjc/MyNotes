@@ -100,6 +100,21 @@ exec `which zsh` -l           		# 设置登录为zsh
 > 修改49行以下内容，去掉主机名  
 > ![[../Python/assets/Pasted image 20220604230305.png]]
 
+极简模式：
+
+```shell
+PROMPT="%{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
+```
+
+Geek模式：
+
+```shell
+PROMPT="%{$fg[cyan]%}[$PWD] %{$fg[magenta]%}No %{$fg[yellow]%}Coding, %{$fg[magenta]%}No %{$fg[green]%}Life% \
+
+%{$terminfo[bold]$fg[green]%}$ %{$reset_color%}"
+```
+
+
 ### 安装插件
 
 -   autojump
