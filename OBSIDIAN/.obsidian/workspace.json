@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cb150dd7a79ecda6",
+        "id": "1e7b2ebf733bd287",
         "type": "tabs",
         "children": [
           {
-            "id": "35c7c9da9c4caf21",
+            "id": "95d3e3fe937ec2bb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/操作系统导论/4.抽象：进程.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/操作系统导论/4.抽象：进程.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +119,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/操作系统导论/4.抽象：进程.md"
+              }
             }
           },
           {
@@ -166,9 +174,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "95d3e3fe937ec2bb",
   "lastOpenFiles": [
     "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md",
+    "2.等待处理/Diary/2023-05-11.md",
+    "2.等待处理/Diary/2023-05-10.md",
     "5.专题研究/操作系统导论/4.抽象：进程.md",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230511115020.png",
     "5.专题研究/操作系统/进程.md",
@@ -180,13 +190,11 @@
     "4.归档/工作/工程/环境问题相关/wsl配置gcc环境.md",
     "4.归档/工作/扩展/windows/【WSL2】Windows安装WSL2.md",
     "5.专题研究/操作系统/应用视角的操作系统.md",
-    "2.等待处理/Diary/2023-05-11.md",
     "5.专题研究/Algorithm/数据结构/栈.md",
     "5.专题研究/Algorithm/数据结构/并查集.md",
     "5.专题研究/Algorithm/数据结构/哈希表（散列表）.md",
     "5.专题研究/Algorithm/数据结构/二叉树.md",
     "2.等待处理/Diary/2023-05-09.md",
-    "2.等待处理/Diary/2023-05-10.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-04.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-08.md",
     "2.等待处理/Diary/delete.md",
