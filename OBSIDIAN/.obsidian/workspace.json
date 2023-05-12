@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-05-12.md",
-                "mode": "source",
+                "file": "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "qq消息记录",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-05-12.md",
+                "file": "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-05-12.md"
+                "file": "4.归档/生活/QQ使用技巧/QQ消息记录导出.md"
               }
             }
           },
@@ -174,8 +175,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "8fb1e91eddb54c16",
   "lastOpenFiles": [
+    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-12 排序.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
+    "2.等待处理/Diary/2023-05-12.md",
     "5.专题研究/操作系统/信号量.md",
     "5.专题研究/操作系统/崩溃一致性.md",
     "5.专题研究/操作系统/应用视角的操作系统.md",
@@ -191,7 +195,6 @@
     "5.专题研究/操作系统/_README.md",
     "5.专题研究/操作系统/内存地址转换.md",
     "5.专题研究/操作系统/分布式系统.md",
-    "2.等待处理/Diary/2023-05-12.md",
     "HOME.md",
     "2.等待处理/Diary/2023-05-11.md",
     "2.等待处理/Diary/2023-05-10.md",
@@ -200,13 +203,11 @@
     "5.专题研究/操作系统导论/4.抽象：进程.md",
     "5.专题研究/操作系统导论/5.插叙：进程API.md",
     "5.专题研究/操作系统/进程.md",
-    "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230511115020.png",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511094016.png",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511093956.png",
     "5.专题研究/操作系统导论/assets",
     "5.专题研究/操作系统导论",
-    "4.归档/工作/工程/环境问题相关/wsl配置gcc环境.md",
     "5.专题研究/Algorithm/数据结构/assets/Pasted image 20230504212803.png",
     "5.专题研究/Algorithm/数据结构/assets",
     "2.等待处理/Diary/Archieve/2023-05",
