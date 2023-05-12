@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
-                "mode": "preview",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "qq消息记录",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/生活/QQ使用技巧/QQ消息记录导出.md"
+                "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/0.目前存在的问题.md"
               }
             }
           },
@@ -175,11 +174,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8fb1e91eddb54c16",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.数据可视化图表.md",
+    "2.等待处理/Diary/2023-05-12.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/index.md",
     "5.专题研究/Algorithm/PTA/数据结构与算法题目集/7-12 排序.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
-    "2.等待处理/Diary/2023-05-12.md",
     "5.专题研究/操作系统/信号量.md",
     "5.专题研究/操作系统/崩溃一致性.md",
     "5.专题研究/操作系统/应用视角的操作系统.md",
@@ -201,8 +202,6 @@
     "2.等待处理/Diary/delete.md",
     "5.专题研究/操作系统/IO设备.md",
     "5.专题研究/操作系统导论/4.抽象：进程.md",
-    "5.专题研究/操作系统导论/5.插叙：进程API.md",
-    "5.专题研究/操作系统/进程.md",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230511115020.png",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511094016.png",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511093956.png",
