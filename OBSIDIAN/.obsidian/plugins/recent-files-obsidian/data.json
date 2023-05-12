@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "内存地址转换",
-      "path": "5.专题研究/操作系统/内存地址转换.md"
+      "basename": "2023-05-12",
+      "path": "2.等待处理/Diary/2023-05-12.md"
     },
     {
       "basename": "信号量",
       "path": "5.专题研究/操作系统/信号量.md"
     },
     {
-      "basename": "4.抽象：进程",
-      "path": "5.专题研究/操作系统导论/4.抽象：进程.md"
+      "basename": "崩溃一致性",
+      "path": "5.专题研究/操作系统/崩溃一致性.md"
     },
     {
-      "basename": "_README",
-      "path": "5.专题研究/操作系统/_README.md"
+      "basename": "应用视角的操作系统",
+      "path": "5.专题研究/操作系统/应用视角的操作系统.md"
     },
     {
-      "basename": "进程",
-      "path": "5.专题研究/操作系统/进程.md"
+      "basename": "数据完整性",
+      "path": "5.专题研究/操作系统/数据完整性.md"
     },
     {
-      "basename": "Linux配置Zsh",
-      "path": "4.归档/工作/工程/环境问题相关/Linux配置Zsh.md"
+      "basename": "文件系统",
+      "path": "5.专题研究/操作系统/文件系统.md"
     },
     {
-      "basename": "2023-05-11",
-      "path": "2.等待处理/Diary/2023-05-11.md"
+      "basename": "段页式存储管理",
+      "path": "5.专题研究/操作系统/段页式存储管理.md"
     },
     {
-      "basename": "2023-05-10",
-      "path": "2.等待处理/Diary/2023-05-10.md"
+      "basename": "线程",
+      "path": "5.专题研究/操作系统/线程.md"
     },
     {
-      "basename": "wsl配置gcc环境",
-      "path": "4.归档/工作/工程/环境问题相关/wsl配置gcc环境.md"
+      "basename": "虚拟化",
+      "path": "5.专题研究/操作系统/虚拟化.md"
     },
     {
-      "basename": "【WSL2】Windows安装WSL2",
-      "path": "4.归档/工作/扩展/windows/【WSL2】Windows安装WSL2.md"
+      "basename": "进程调度算法",
+      "path": "5.专题研究/操作系统/进程调度算法.md"
     }
   ],
   "omittedPaths": [],
