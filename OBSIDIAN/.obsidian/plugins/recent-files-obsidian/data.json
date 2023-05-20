@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-05-19",
-      "path": "2.等待处理/Diary/2023-05-19.md"
-    },
-    {
       "basename": "HOME",
       "path": "HOME.md"
+    },
+    {
+      "basename": "2023-05-19",
+      "path": "2.等待处理/Diary/2023-05-19.md"
     },
     {
       "basename": "4.抽象：进程",
@@ -35,10 +35,6 @@
     {
       "basename": "2023-05-17",
       "path": "2.等待处理/Diary/Archieve/2023-05/2023-05-17.md"
-    },
-    {
-      "basename": "2023-05-16",
-      "path": "2.等待处理/Diary/Archieve/2023-05/2023-05-16.md"
     }
   ],
   "omittedPaths": [],

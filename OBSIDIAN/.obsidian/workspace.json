@@ -11,13 +11,8 @@
             "id": "b681e6bcd90262af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2023-05-19.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-05-19.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,9 +113,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2023-05-19.md"
-              }
+              "state": {}
             }
           },
           {
@@ -174,14 +166,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b681e6bcd90262af",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/未命名.md",
+    "HOME.md",
+    "2.等待处理/Diary/2023-05-19.md",
     "5.专题研究/操作系统导论/4.抽象：进程.md",
     "5.专题研究/考研数学经验贴/参考2 北邮141.md",
-    "2.等待处理/Diary/2023-05-19.md",
     "2.等待处理/Diary/2023-05-18.md",
     "5.专题研究/考研数学经验贴/我的规划.md",
-    "HOME.md",
     "4.归档/生活/搜索/zlib合集.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-17.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-16.md",
@@ -202,7 +195,6 @@
     "2.等待处理/Diary/Archieve/2023-05/2023-05-12.md",
     "1.收集箱/wechat_notes/精品小说/沧浪之水.md",
     "3.将来可能/python-pandas/分组.md",
-    "3.将来可能/python-pandas/分类数据.md",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230511115020.png",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511094016.png",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511093956.png",
