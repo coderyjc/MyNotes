@@ -5,6 +5,14 @@
       "path": "2.等待处理/Diary/2023-05-23.md"
     },
     {
+      "basename": "2023-05-22",
+      "path": "2.等待处理/Diary/2023-05-22.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
       "basename": "答辩问题汇总",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩问题汇总.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "答辩过程复盘",
       "path": "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩过程复盘.md"
-    },
-    {
-      "basename": "2023-05-22",
-      "path": "2.等待处理/Diary/Archieve/2023-05/2023-05-22.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
     },
     {
       "basename": "HOME",

@@ -14,8 +14,9 @@ week: <% tp.date.now("YYYY-WW") %>
 << [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]] | [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]>>
 
 
-> [!info]+ 一句话描述你要做、在做、准备做的事情
+> [!tip] 每日三省吾身
 > 
+
 
 ---
 
