@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0818f5b6b1875025",
+            "id": "02bbedd200bd20d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩过程复盘.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.50909423828125
+    "width": 319.50909423828125,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -154,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,12 +176,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0818f5b6b1875025",
+  "active": "02bbedd200bd20d7",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-05-23.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩过程复盘.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩话术.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩问题汇总.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩过程复盘.md",
+    "2.等待处理/Diary/2023-05-23.md",
+    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩话术.md",
     "0.plugin/template/dailynotes.md",
     "HOME.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-10.md",
