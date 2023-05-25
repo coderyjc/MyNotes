@@ -11,11 +11,27 @@
             "id": "f97147fc44e6f380",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/书评总结.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "009aa6f71e0ac8b6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.3"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/书评总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/书评总结.md"
+              }
             }
           },
           {
@@ -166,10 +185,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f97147fc44e6f380",
+  "active": "009aa6f71e0ac8b6",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-05-23.md",
+    "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/猫和狗的生活哲学.xmind",
     "2.等待处理/Diary/2023-05-24.md",
+    "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/书评总结.md",
+    "2.等待处理/Diary/2023-05-23.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩话术.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩问题汇总.md",
     "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩过程复盘.md",
@@ -193,8 +214,6 @@
     "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/未命名.md",
     "5.专题研究/操作系统导论/4.抽象：进程.md",
     "5.专题研究/考研数学经验贴/参考2 北邮141.md",
-    "5.专题研究/考研数学经验贴/我的规划.md",
-    "4.归档/生活/搜索/zlib合集.md",
     "4.归档/学习/1.修身/人际关系/社会经验",
     "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230511115020.png",
     "5.专题研究/操作系统导论/assets/Pasted image 20230511094016.png",
