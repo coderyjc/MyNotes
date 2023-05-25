@@ -4,34 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5204b7fdc61c7797",
+        "id": "7db0899c99bfcaa3",
         "type": "tabs",
         "children": [
           {
-            "id": "f97147fc44e6f380",
+            "id": "2ccfa93a01513ef8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/书评总结.md",
+                "file": "2.等待处理/Diary/2023-05-25.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
-          },
-          {
-            "id": "009aa6f71e0ac8b6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,14 +52,14 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "d18c905c3c87b9c7",
+            "id": "56d7f91bea896eb2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5079231262207
+    "width": 245
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -90,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 39.35897435897436,
+        "dimension": 39.05109489051095,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -98,8 +87,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/书评总结.md",
-                "collapseAll": true,
+                "file": "2.等待处理/Diary/2023-05-25.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -110,33 +99,15 @@
             }
           },
           {
-            "id": "4a674e7e834588f4",
+            "id": "9efa0f878fdc06cc",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "6cade4ed91fb2679",
-        "type": "tabs",
-        "dimension": 30.641025641025646,
-        "children": [
-          {
-            "id": "a4c7ff5f1eb0069f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/书评总结.md"
-              }
-            }
           },
           {
-            "id": "fa96d77fdb3539ea",
+            "id": "56074ac2b2b95d3d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -146,15 +117,33 @@
               }
             }
           }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a8045650fa334fd2",
+        "type": "tabs",
+        "dimension": 33.941605839416056,
+        "children": [
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2.等待处理/Diary/2023-05-25.md"
+              }
+            }
+          }
         ]
       },
       {
-        "id": "5b041cfb196c93db",
+        "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 30,
+        "dimension": 27.00729927007299,
         "children": [
           {
-            "id": "d4e6e7e28c1d7e02",
+            "id": "18460b0ef5be395a",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -165,73 +154,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-weread-plugin:Weread": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "webpage-html-export:Export Vault to HTML": false,
       "remotely-save:Remotely Save": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:打开快速切换": true,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": true,
-      "command-palette:打开命令面板": true,
-      "obsidian-weread-plugin:Weread": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": true,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "009aa6f71e0ac8b6",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/猫和狗的生活哲学.xmind",
-    "2.等待处理/Diary/2023-05-24.md",
-    "4.归档/学习/1.修身/读书笔记/【心理】猫和狗的生活哲学/书评总结.md",
-    "2.等待处理/Diary/2023-05-23.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩话术.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩问题汇总.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/答辩过程复盘.md",
-    "2.等待处理/Diary/2023-05-22.md",
-    "0.plugin/template/dailynotes.md",
-    "HOME.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-10.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-09.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-13.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-12.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-11.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-14.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-21.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩/可能问到的问题.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/答辩",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-15.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-16.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-19.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-20.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-18.md",
-    "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文/未命名.md",
-    "5.专题研究/操作系统导论/4.抽象：进程.md",
-    "5.专题研究/考研数学经验贴/参考2 北邮141.md",
-    "4.归档/学习/1.修身/人际关系/社会经验",
-    "4.归档/工作/工程/环境问题相关/assets/Pasted image 20230511115020.png",
-    "5.专题研究/操作系统导论/assets/Pasted image 20230511094016.png",
-    "5.专题研究/操作系统导论/assets/Pasted image 20230511093956.png",
-    "5.专题研究/操作系统导论/assets",
-    "5.专题研究/操作系统导论",
-    "5.专题研究/Algorithm/数据结构/assets/Pasted image 20230504212803.png",
-    "5.专题研究/Algorithm/数据结构/assets",
-    "2.等待处理/Diary/Archieve/2023-05",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets/Pasted image 20230503191041.png",
-    "5.专题研究/考研笔记/数学/易错点整理",
-    "5.专题研究/考研笔记/数学",
-    "5.专题研究/考研笔记",
-    "5.专题研究/考研数学经验贴",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets/Pasted image 20230502204855.png",
-    "5.专题研究/Algorithm/PTA/数据结构与算法题目集/assets/Pasted image 20230502204846.png",
-    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211113.png",
-    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211103.png",
-    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211057.png"
-  ]
-}
+    "2.等待处理/Diary/2023-05-25.md",
+    "03.工程/项目构建工具/Gradle/Gradle.md",
+    "03.工程/操作系统/Linux/Linux.md",
+    "03.工程/服务器相关/Nginx/Nginx部署多个项目.md",
+    "03.工程/浏览器相关/FireFox浏览器调试问题汇总.md",
+    "03.工程
