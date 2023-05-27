@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "426ba1101899d3fb",
+        "id": "9736799ced6d982e",
         "type": "tabs",
         "children": [
           {
-            "id": "d332b7e95ee22f51",
+            "id": "7a3a33da865d0c59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/1.修身/人际关系/社会经验/2023.5.27 看别人占用教室.md",
+                "file": "2.等待处理/Diary/2023-05-27.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/1.修身/人际关系/社会经验/2023.5.27 看别人占用教室.md",
+                "file": "2.等待处理/Diary/2023-05-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/1.修身/人际关系/社会经验/2023.5.27 看别人占用教室.md"
+                "file": "2.等待处理/Diary/2023-05-27.md"
               }
             }
           }
@@ -174,10 +174,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d332b7e95ee22f51",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-05-27.md",
     "4.归档/学习/1.修身/人际关系/社会经验/2023.5.27 看别人占用教室.md",
+    "2.等待处理/Diary/2023-05-27.md",
     "4.归档/学习/1.修身/人际关系/社会经验/2023.5.17 转接团关系.md",
     "2.等待处理/Diary/2023-05-26.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-22.md",
