@@ -1,3 +1,7 @@
+## 2023-6-01 更新
+
+zlib镜像 [https://zbook.lol/](https://zbook.lol/)
+
 ## 2023-4-20 更新
 
 Z-library 镜像网站  https://zlibrary.ga/
