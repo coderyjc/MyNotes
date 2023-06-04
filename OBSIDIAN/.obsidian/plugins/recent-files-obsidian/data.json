@@ -5,12 +5,16 @@
       "path": "2.等待处理/Tasks/index.md"
     },
     {
+      "basename": "2023-06-02",
+      "path": "2.等待处理/Diary/2023-06-02.md"
+    },
+    {
       "basename": "2023-06-03",
       "path": "2.等待处理/Diary/2023-06-03.md"
     },
     {
-      "basename": "2023-06-02",
-      "path": "2.等待处理/Diary/2023-06-02.md"
+      "basename": "2023-06-04",
+      "path": "2.等待处理/Diary/2023-06-04.md"
     },
     {
       "basename": "2023-06-01",
@@ -35,10 +39,6 @@
     {
       "basename": "2023-05 总结",
       "path": "2.等待处理/Diary/Archieve/2023-05/2023-05 总结.md"
-    },
-    {
-      "basename": "2023-05-29",
-      "path": "2.等待处理/Diary/Archieve/2023-05/2023-05-29.md"
     }
   ],
   "omittedPaths": [],
