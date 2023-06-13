@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "482a39c5507811b6",
+        "id": "50d6971d1735bb07",
         "type": "tabs",
         "children": [
           {
-            "id": "305fde7273da0feb",
+            "id": "9278ba113b403693",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -174,7 +174,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "305fde7273da0feb",
+  "active": "9278ba113b403693",
   "lastOpenFiles": [
     "2.等待处理/Diary/2023-06-12.md",
     "2.等待处理/Diary/2023-06-13.md",
