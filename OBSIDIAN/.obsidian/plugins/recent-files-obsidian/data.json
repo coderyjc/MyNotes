@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2023-06-15.md"
     },
     {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
       "basename": "2023-06-14",
       "path": "2.等待处理/Diary/2023-06-14.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "2023-06-12",
       "path": "2.等待处理/Diary/2023-06/2023-06-12.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     }
   ],
   "omittedPaths": [],

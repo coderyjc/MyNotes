@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2.等待处理/Diary/2023-06-15.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -176,8 +176,9 @@
   },
   "active": "4ef56d484497c0c1",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-06-14.md",
+    "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2023-06-15.md",
+    "2.等待处理/Diary/2023-06-14.md",
     "2.等待处理/Diary/2023-06/2023-06-01.md",
     "2.等待处理/Diary/2023-06/2023-06-05.md",
     "2.等待处理/Diary/2023-06",
