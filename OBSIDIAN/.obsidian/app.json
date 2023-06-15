@@ -19,5 +19,6 @@
   "newFileLocation": "current",
   "showInlineTitle": false,
   "showFrontmatter": false,
-  "foldHeading": false
+  "foldHeading": false,
+  "spellcheck": false
 }
