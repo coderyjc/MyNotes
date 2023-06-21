@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cb2959dde072f367",
+        "id": "c83f2ba8858d064c",
         "type": "tabs",
         "children": [
           {
-            "id": "f3ac69dc2733f1ed",
+            "id": "419e389acf34984d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2023-06-18.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-06-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,9 +124,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2023-06-18.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -174,24 +166,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "419e389acf34984d",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-06-17.md",
+    "2.等待处理/Diary/2023-06-20.md",
+    "2.等待处理/Diary/2023-06-19.md",
+    "5.专题研究/租房相关问题.md",
     "2.等待处理/Diary/2023-06-18.md",
-    "HOME.md",
+    "2.等待处理/Diary/2023-06-17.md",
     "2.等待处理/Diary/2023-06-16.md",
     "2.等待处理/Diary/2023-06-15.md",
+    "2.等待处理/Diary/2023-06/2023-06-13.md",
+    "2.等待处理/Diary/2023-06-14.md",
+    "HOME.md",
     "5.专题研究/英语外刊/Journal-2023-06-16.md",
     "5.专题研究/英语外刊/Journal-2023-06-15.md",
     "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/我的规划.md",
     "2.等待处理/Tasks/index.md",
     "5.专题研究/英语外刊",
     "0.plugin/template/dailynotes.md",
-    "2.等待处理/Diary/2023-06-14.md",
     "2.等待处理/Diary/2023-06/2023-06-01.md",
     "2.等待处理/Diary/2023-06/2023-06-05.md",
     "2.等待处理/Diary/2023-06",
-    "2.等待处理/Diary/2023-06/2023-06-13.md",
     "2.等待处理/Diary/2023-06/2023-06-12.md",
     "5.专题研究/考研数学/错题本备份/index.md",
     "2.等待处理/Diary/2023-06/2023-06-06.md",
@@ -201,9 +196,6 @@
     "2.等待处理/Diary/Archieve/2023-05/2023-05-30.md",
     "2.等待处理/Diary/Archieve/2023-05/2023-05-31.md",
     "4.归档/生活/搜索/【浏览器使用技巧】.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05 总结.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-29.md",
-    "2.等待处理/Diary/Archieve/2023-05/2023-05-27.md",
     "5.专题研究/考研数学/错题本备份/assets/Pasted image 20230525164233.png",
     "5.专题研究/考研数学/错题本备份/assets/Pasted image 20230525164221.png",
     "5.专题研究/考研数学/错题本备份/assets/Pasted image 20230525164205.png",
