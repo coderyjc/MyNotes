@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "zlib合集",
+      "path": "4.归档/生活/搜索/zlib合集.md"
+    },
+    {
       "basename": "2023-06-23",
       "path": "2.等待处理/Diary/2023-06-23.md"
     },
     {
       "basename": "2023-06-22",
       "path": "2.等待处理/Diary/2023-06-22.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     },
     {
       "basename": "2023-06-21",
@@ -35,10 +39,6 @@
     {
       "basename": "Journal-2023-06-15",
       "path": "5.专题研究/英语外刊/Journal-2023-06-15.md"
-    },
-    {
-      "basename": "租房相关问题",
-      "path": "5.专题研究/租房相关问题.md"
     }
   ],
   "omittedPaths": [],

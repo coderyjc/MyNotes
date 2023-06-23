@@ -1,3 +1,13 @@
+
+
+## 2023-06-23 更新
+
+最新 Z-library 地址  
+
+地址 1：[https://singlelogin.re/](https://singlelogin.re/)  
+
+地址 2：[https://singlelogin.site/](https://singlelogin.site/)
+
 ## 2023-6-01 更新
 
 zlib镜像 [https://zbook.lol/](https://zbook.lol/)
