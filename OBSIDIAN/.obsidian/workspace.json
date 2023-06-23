@@ -11,8 +11,13 @@
             "id": "8c0f8c358f3235c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2023-06-23.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2023-06-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2023-06-23.md"
+              }
             }
           }
         ]
@@ -168,11 +176,11 @@
   },
   "active": "8c0f8c358f3235c0",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-06-21.md",
+    "2.等待处理/Diary/2023-06-22.md",
+    "2.等待处理/Diary/2023-06-23.md",
     "HOME.md",
     "4.归档/生活/搜索/zlib合集.md",
-    "2.等待处理/Diary/2023-06-23.md",
-    "2.等待处理/Diary/2023-06-22.md",
-    "2.等待处理/Diary/2023-06-21.md",
     "2.等待处理/Diary/2023-06/2023-06-20.md",
     "2.等待处理/Diary/2023-06/2023-06-18.md",
     "5.专题研究/英语外刊/Journal-2023-06-21.md",
