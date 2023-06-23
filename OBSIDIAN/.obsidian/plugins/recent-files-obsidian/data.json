@@ -5,6 +5,22 @@
       "path": "HOME.md"
     },
     {
+      "basename": "2023-06-22",
+      "path": "2.等待处理/Diary/2023-06-22.md"
+    },
+    {
+      "basename": "2023-06-21",
+      "path": "2.等待处理/Diary/2023-06-21.md"
+    },
+    {
+      "basename": "2023-06-20",
+      "path": "2.等待处理/Diary/2023-06/2023-06-20.md"
+    },
+    {
+      "basename": "2023-06-18",
+      "path": "2.等待处理/Diary/2023-06/2023-06-18.md"
+    },
+    {
       "basename": "Journal-2023-06-21",
       "path": "5.专题研究/英语外刊/Journal-2023-06-21.md"
     },
@@ -17,28 +33,12 @@
       "path": "5.专题研究/英语外刊/Journal-2023-06-15.md"
     },
     {
-      "basename": "2023-06-21",
-      "path": "2.等待处理/Diary/2023-06-21.md"
-    },
-    {
       "basename": "租房相关问题",
       "path": "5.专题研究/租房相关问题.md"
     },
     {
-      "basename": "2023-06-20",
-      "path": "2.等待处理/Diary/2023-06-20.md"
-    },
-    {
       "basename": "dailynotes",
       "path": "0.plugin/template/dailynotes.md"
-    },
-    {
-      "basename": "game_hades",
-      "path": "0.plugin/template/game_hades.md"
-    },
-    {
-      "basename": "2023-06-14",
-      "path": "2.等待处理/Diary/2023-06/2023-06-14.md"
     }
   ],
   "omittedPaths": [],
