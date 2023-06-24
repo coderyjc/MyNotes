@@ -13,7 +13,12 @@
   "shell_path": "",
   "user_scripts_folder": "0.plugin/templatejs",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "5.专题研究/英语外刊",
+      "template": "0.plugin/template/Journal.md"
+    }
+  ],
   "syntax_highlighting": true,
   "enabled_templates_hotkeys": [
     "_plugin/template/insert_python_code.md"
