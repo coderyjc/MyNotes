@@ -5,6 +5,18 @@
       "path": "2.等待处理/Diary/2023-06-24.md"
     },
     {
+      "basename": "2023-06-23",
+      "path": "2.等待处理/Diary/2023-06-23.md"
+    },
+    {
+      "basename": "delete",
+      "path": "2.等待处理/Diary/delete.md"
+    },
+    {
+      "basename": "2023-06-22",
+      "path": "2.等待处理/Diary/2023-06-22.md"
+    },
+    {
       "basename": "Journal-2023-06-23",
       "path": "5.专题研究/英语外刊/Journal-2023-06-23.md"
     },
@@ -25,20 +37,8 @@
       "path": "0.plugin/template/game_hades.md"
     },
     {
-      "basename": "2023-06-23",
-      "path": "2.等待处理/Diary/2023-06-23.md"
-    },
-    {
       "basename": "2023-06-21",
       "path": "2.等待处理/Diary/2023-06-21.md"
-    },
-    {
-      "basename": "2023-06-22",
-      "path": "2.等待处理/Diary/2023-06-22.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     }
   ],
   "omittedPaths": [],
