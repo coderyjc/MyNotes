@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Tasks/index.md",
+                "file": "2.等待处理/Diary/2023-06-29.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Tasks/index.md",
+                "file": "2.等待处理/Diary/2023-06-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Tasks/index.md"
+                "file": "2.等待处理/Diary/2023-06-29.md"
               }
             }
           }
@@ -174,10 +174,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d2b262dd23cc140d",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-06-29.md",
     "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/2023-06-29.md",
     "HOME.md",
     "2.等待处理/Diary/2023-06/2023-06-21.md",
     "2.等待处理/Diary/2023-06-28.md",
