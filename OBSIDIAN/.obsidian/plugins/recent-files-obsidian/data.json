@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
       "basename": "2023-06-29",
       "path": "2.等待处理/Diary/2023-06-29.md"
+    },
+    {
+      "basename": "2023-06-21",
+      "path": "2.等待处理/Diary/2023-06/2023-06-21.md"
     },
     {
       "basename": "HOME",
@@ -31,10 +39,6 @@
     {
       "basename": "zlib合集",
       "path": "4.归档/生活/搜索/zlib合集.md"
-    },
-    {
-      "basename": "2023-06-21",
-      "path": "2.等待处理/Diary/2023-06/2023-06-21.md"
     },
     {
       "basename": "dailynotes",
