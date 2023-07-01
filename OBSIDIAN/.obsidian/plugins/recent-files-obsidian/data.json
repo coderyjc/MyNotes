@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2023-07-01.md"
     },
     {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
       "basename": "2023-06-18",
       "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-18.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "2023-06-28",
       "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-28.md"
-    },
-    {
-      "basename": "2023-06-06",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-06.md"
     }
   ],
   "omittedPaths": [],
