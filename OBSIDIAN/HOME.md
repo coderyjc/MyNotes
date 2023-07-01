@@ -6,10 +6,14 @@ var i = [dv.pages().length,
 		 dv.pages(`"1.收集箱/wechat_notes"`).length,
 		 dv.pages().file.etags.distinct().length,
 		 dv.pages().file.tasks.length]
-
+var diary = dv.pages(`"2.等待处理/Diary"`).length
 dv.paragraph(`总共有 **${i[0]}** 篇文档，共计 **1,137,585** 字`)
-dv.paragraph(`==已归档笔记== **${i[1]}** 篇，==正在进行的笔记== **${i[2]}** 篇，==读书笔记== **${i[3]}** 篇`)
-dv.paragraph(`==任务== **${i[5]}** 个，==标签==  **${i[4]}** 个`)
+dv.paragraph(`==已归档笔记== **${i[1]}** 篇
+			 ==正在进行的笔记== **${i[2]}** 篇
+			 ==读书笔记== **${i[3]}** 篇
+			 ==日记== **${diary}**篇`)
+dv.paragraph(`==任务== **${i[5]}** 个
+			 ==标签==  **${i[4]}** 个`)
 
 ```
 
