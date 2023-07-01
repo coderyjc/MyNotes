@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
+      "basename": "2023-06 总结",
+      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06 总结.md"
+    },
+    {
       "basename": "2023-07-01",
       "path": "2.等待处理/Diary/2023-07-01.md"
     },
     {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
+      "basename": "delete",
+      "path": "2.等待处理/Diary/delete.md"
     },
     {
       "basename": "2023-06-18",
@@ -65,20 +73,12 @@
       "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-27.md"
     },
     {
-      "basename": "2023-06 总结",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06 总结.md"
-    },
-    {
       "basename": "2023-06-30",
       "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-30.md"
     },
     {
       "basename": "2023-06-29",
       "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-29.md"
-    },
-    {
-      "basename": "2023-06-28",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-28.md"
     }
   ],
   "omittedPaths": [],
