@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2.等待处理/Diary/2023-07-02.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -174,12 +174,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "48cf6912c954549c",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "0.plugin/template/dailynotes.md",
+    "2.等待处理/Diary/2023-07-01.md",
     "2.等待处理/Diary/2023-07-02.md",
     "2.等待处理/Tasks/index.md",
-    "2.等待处理/Diary/2023-07-01.md",
+    "0.plugin/template/dailynotes.md",
     "HOME.md",
     "2.等待处理/Diary/delete.md",
     "2.等待处理/Diary/Archieve/2023-06/2023-06-30.md",
