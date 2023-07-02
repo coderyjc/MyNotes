@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "2023-07-02",
+      "path": "2.等待处理/Diary/2023-07-02.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
     },
     {
       "basename": "2023-07-01",
       "path": "2.等待处理/Diary/2023-07-01.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "2023-06-30",
@@ -67,14 +79,6 @@
     {
       "basename": "2023-06-22",
       "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-22.md"
-    },
-    {
-      "basename": "2023-06-27",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-27.md"
-    },
-    {
-      "basename": "2023-06-29",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-29.md"
     }
   ],
   "omittedPaths": [],
