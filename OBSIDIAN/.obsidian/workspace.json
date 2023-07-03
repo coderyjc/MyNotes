@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-03.md",
+                "file": "2.等待处理/Tasks/index.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-03.md",
+                "file": "2.等待处理/Tasks/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-03.md"
+                "file": "2.等待处理/Tasks/index.md"
               }
             }
           }
@@ -176,8 +176,8 @@
   },
   "active": "48cf6912c954549c",
   "lastOpenFiles": [
-    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-07-03.md",
+    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-07-02.md",
     "2.等待处理/Diary/2023-07-01.md",
     "0.plugin/template/dailynotes.md",
