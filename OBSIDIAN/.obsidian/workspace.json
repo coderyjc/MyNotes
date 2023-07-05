@@ -11,8 +11,13 @@
             "id": "445e8e8294731d21",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2023-07-05.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2023-07-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2023-07-05.md"
+              }
             }
           }
         ]
@@ -166,11 +174,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "445e8e8294731d21",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
     "2.等待处理/Diary/2023-07-04.md",
-    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-07-03.md",
+    "2.等待处理/Diary/2023-07-05.md",
+    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-07-02.md",
     "2.等待处理/Diary/2023-07-01.md",
     "0.plugin/template/dailynotes.md",
@@ -193,7 +202,6 @@
     "2.等待处理/Diary/Archieve/2023-06/2023-06-22.md",
     "2.等待处理/Diary/Archieve/2023-06/2023-06-27.md",
     "2.等待处理/Diary/2023-06-30.md",
-    "2.等待处理/Diary/Archieve/2023-06/2023-06-29.md",
     "0.plugin/template/未命名.md.nssyncsc",
     "5.专题研究/英语外刊",
     "2.等待处理/Diary/Archieve/2023-06",
