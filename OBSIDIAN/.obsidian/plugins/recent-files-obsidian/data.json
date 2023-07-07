@@ -1,36 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
+      "basename": "2023-07-07",
+      "path": "2.等待处理/Diary/2023-07-07.md"
     },
     {
-      "basename": "2023-07-06",
-      "path": "2.等待处理/Diary/2023-07-06.md"
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
     },
     {
       "basename": "我的规划",
       "path": "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/我的规划.md"
     },
     {
+      "basename": "index",
+      "path": "4.归档/学习/1.修身/备考/全国研究生入学考试/考研择校/index.md"
+    },
+    {
+      "basename": "2023-07-06",
+      "path": "2.等待处理/Diary/2023-07/2023-07-06.md"
+    },
+    {
       "basename": "2023-07-05",
-      "path": "2.等待处理/Diary/2023-07-05.md"
+      "path": "2.等待处理/Diary/2023-07/2023-07-05.md"
     },
     {
       "basename": "2023-07-04",
-      "path": "2.等待处理/Diary/2023-07-04.md"
+      "path": "2.等待处理/Diary/2023-07/2023-07-04.md"
     },
     {
       "basename": "2023-07-03",
-      "path": "2.等待处理/Diary/2023-07-03.md"
+      "path": "2.等待处理/Diary/2023-07/2023-07-03.md"
     },
     {
       "basename": "2023-07-02",
-      "path": "2.等待处理/Diary/2023-07-02.md"
+      "path": "2.等待处理/Diary/2023-07/2023-07-02.md"
     },
     {
       "basename": "2023-07-01",
-      "path": "2.等待处理/Diary/2023-07-01.md"
+      "path": "2.等待处理/Diary/2023-07/2023-07-01.md"
+    },
+    {
+      "basename": "chart_study_time_statistic",
+      "path": "0.plugin/template/chart_study_time_statistic.md"
+    },
+    {
+      "basename": "参考2 北邮141",
+      "path": "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/参考2 北邮141.md"
+    },
+    {
+      "basename": "beautify_random_gradient",
+      "path": "0.plugin/template/beautify_random_gradient.md"
+    },
+    {
+      "basename": "codeblock_python",
+      "path": "0.plugin/template/codeblock_python.md"
+    },
+    {
+      "basename": "weeklynotes",
+      "path": "0.plugin/template/weeklynotes.md"
+    },
+    {
+      "basename": "nav",
+      "path": "0.plugin/template/nav.md"
+    },
+    {
+      "basename": "Journal",
+      "path": "0.plugin/template/Journal.md"
+    },
+    {
+      "basename": "codeblock_java_mvc",
+      "path": "0.plugin/template/codeblock_java_mvc.md"
     },
     {
       "basename": "dailynotes",
@@ -39,46 +79,6 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "2023-06-30",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-30.md"
-    },
-    {
-      "basename": "2023-06 总结",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06 总结.md"
-    },
-    {
-      "basename": "2023-06-18",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-18.md"
-    },
-    {
-      "basename": "2023-06-15",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-15.md"
-    },
-    {
-      "basename": "2023-06-13",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-13.md"
-    },
-    {
-      "basename": "2023-06-14",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-14.md"
-    },
-    {
-      "basename": "2023-06-17",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-17.md"
-    },
-    {
-      "basename": "2023-06-16",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-16.md"
-    },
-    {
-      "basename": "2023-06-21",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-21.md"
-    },
-    {
-      "basename": "2023-06-20",
-      "path": "2.等待处理/Diary/Archieve/2023-06/2023-06-20.md"
     }
   ],
   "omittedPaths": [],
