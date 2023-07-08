@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-07-08",
+      "path": "2.等待处理/Diary/2023-07-08.md"
+    },
+    {
       "basename": "2023-07-07",
       "path": "2.等待处理/Diary/2023-07-07.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "dailynotes",
       "path": "0.plugin/template/dailynotes.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     }
   ],
   "omittedPaths": [],
