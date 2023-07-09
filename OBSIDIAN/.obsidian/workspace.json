@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2ea574f67c76ebee",
+        "id": "849f2a79c52f0d3e",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ab88d40c323551",
+            "id": "9b9ac53373ae1746",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-08.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2023-07-09.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-08.md",
+                "file": "2.等待处理/Diary/2023-07-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-08.md"
+                "file": "2.等待处理/Diary/2023-07-09.md"
               }
             }
           }
@@ -174,10 +174,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a8ab88d40c323551",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-07-07.md",
+    "0.plugin/template/dailynotes.md",
+    "2.等待处理/Diary/2023-07-09.md",
     "2.等待处理/Diary/2023-07-08.md",
+    "2.等待处理/Diary/2023-07-07.md",
     "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-07/2023-07-01.md",
     "2.等待处理/Diary/2023-07/2023-07-06.md",
@@ -196,13 +198,11 @@
     "0.plugin/template/Journal.md",
     "0.plugin/template/codeblock_java_mvc.md",
     "2.等待处理/Diary/2023-07",
-    "0.plugin/template/dailynotes.md",
     "HOME.md",
     "2.等待处理/Diary/delete.md",
     "2.等待处理/Diary/Archieve/2023-06/2023-06-30.md",
     "2.等待处理/Diary/Archieve/2023-06/2023-06 总结.md",
     "2.等待处理/Diary/Archieve/2023-06/2023-06-18.md",
-    "2.等待处理/Diary/Archieve/2023-06/2023-06-15.md",
     "0.plugin/template/未命名.md.nssyncsc",
     "5.专题研究/英语外刊",
     "2.等待处理/Diary/Archieve/2023-06",

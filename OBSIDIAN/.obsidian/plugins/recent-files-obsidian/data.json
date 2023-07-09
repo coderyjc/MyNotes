@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-07-09",
+      "path": "2.等待处理/Diary/2023-07-09.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
       "basename": "2023-07-08",
       "path": "2.等待处理/Diary/2023-07-08.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "Journal",
       "path": "0.plugin/template/Journal.md"
-    },
-    {
-      "basename": "codeblock_java_mvc",
-      "path": "0.plugin/template/codeblock_java_mvc.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
     }
   ],
   "omittedPaths": [],
