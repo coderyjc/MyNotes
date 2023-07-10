@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "我的规划",
+      "path": "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/我的规划.md"
+    },
+    {
+      "basename": "2023-07-10",
+      "path": "2.等待处理/Diary/2023-07-10.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "2023-07-09",
       "path": "2.等待处理/Diary/2023-07-09.md"
     },
@@ -13,16 +25,8 @@
       "path": "2.等待处理/Diary/2023-07-08.md"
     },
     {
-      "basename": "我的规划",
-      "path": "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/我的规划.md"
-    },
-    {
       "basename": "租房相关问题",
       "path": "5.专题研究/租房相关问题.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     },
     {
       "basename": "dailynotes",
@@ -75,10 +79,6 @@
     {
       "basename": "codeblock_python",
       "path": "0.plugin/template/codeblock_python.md"
-    },
-    {
-      "basename": "weeklynotes",
-      "path": "0.plugin/template/weeklynotes.md"
     }
   ],
   "omittedPaths": [],

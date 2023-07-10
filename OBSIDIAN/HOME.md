@@ -1,4 +1,3 @@
-
 ```dataviewjs
 var i = [dv.pages().length,
 		 dv.pages(`"4.归档"`).length,
@@ -14,7 +13,6 @@ dv.paragraph(`==已归档笔记== **${i[1]}** 篇
 			 ==日记== **${diary}**篇`)
 dv.paragraph(`==任务== **${i[5]}** 个
 			 ==标签==  **${i[4]}** 个`)
-
 ```
 
 ---
