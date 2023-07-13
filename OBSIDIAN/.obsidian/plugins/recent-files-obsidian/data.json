@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-07-13",
+      "path": "2.等待处理/Diary/2023-07-13.md"
+    },
+    {
+      "basename": "2023-07-07",
+      "path": "2.等待处理/Diary/2023-07/2023-07-07.md"
+    },
+    {
+      "basename": "2023-07-12",
+      "path": "2.等待处理/Diary/2023-07-12.md"
+    },
+    {
+      "basename": "2023-07-11",
+      "path": "2.等待处理/Diary/2023-07/2023-07-11.md"
+    },
+    {
       "basename": "2023-07-10",
-      "path": "2.等待处理/Diary/2023-07-10.md"
+      "path": "2.等待处理/Diary/2023-07/2023-07-10.md"
     },
     {
       "basename": "2023-07-09",
-      "path": "2.等待处理/Diary/2023-07-09.md"
+      "path": "2.等待处理/Diary/2023-07/2023-07-09.md"
     },
     {
       "basename": "我的规划",
@@ -17,12 +33,8 @@
       "path": "HOME.md"
     },
     {
-      "basename": "2023-07-07",
-      "path": "2.等待处理/Diary/2023-07-07.md"
-    },
-    {
       "basename": "2023-07-08",
-      "path": "2.等待处理/Diary/2023-07-08.md"
+      "path": "2.等待处理/Diary/2023-07/2023-07-08.md"
     },
     {
       "basename": "租房相关问题",
@@ -67,18 +79,6 @@
     {
       "basename": "chart_study_time_statistic",
       "path": "0.plugin/template/chart_study_time_statistic.md"
-    },
-    {
-      "basename": "参考2 北邮141",
-      "path": "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/参考2 北邮141.md"
-    },
-    {
-      "basename": "beautify_random_gradient",
-      "path": "0.plugin/template/beautify_random_gradient.md"
-    },
-    {
-      "basename": "codeblock_python",
-      "path": "0.plugin/template/codeblock_python.md"
     }
   ],
   "omittedPaths": [],
