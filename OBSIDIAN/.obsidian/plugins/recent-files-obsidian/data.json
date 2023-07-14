@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-07-14",
+      "path": "2.等待处理/Diary/2023-07-14.md"
+    },
+    {
       "basename": "2023-07-13",
       "path": "2.等待处理/Diary/2023-07-13.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "2023-07-02",
       "path": "2.等待处理/Diary/2023-07/2023-07-02.md"
-    },
-    {
-      "basename": "chart_study_time_statistic",
-      "path": "0.plugin/template/chart_study_time_statistic.md"
     }
   ],
   "omittedPaths": [],
