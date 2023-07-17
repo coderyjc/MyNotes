@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-16.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2023-07-17.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-16.md",
+                "file": "2.等待处理/Diary/2023-07-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-07-16.md"
+                "file": "2.等待处理/Diary/2023-07-17.md"
               }
             }
           }
@@ -174,11 +174,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "10c8eb09581a4173",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/我的规划.md",
+    "2.等待处理/Diary/2023-07-17.md",
+    "2.等待处理/Diary/2023-07-16.md",
     "2.等待处理/Diary/2023-07/2023-07-14.md",
     "2.等待处理/Diary/2023-07/2023-07-15.md",
-    "2.等待处理/Diary/2023-07-16.md",
     "2.等待处理/Diary/2023-07/2023-07-12.md",
     "2.等待处理/Diary/2023-07/2023-07-13.md",
     "2.等待处理/Diary/2023-07/2023-07-11.md",
@@ -187,7 +189,6 @@
     "2.等待处理/Diary/2023-07/2023-07-07.md",
     "2.等待处理/Diary/2023-07/2023-07-09.md",
     "HOME.md",
-    "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/我的规划.md",
     "2.等待处理/Diary/2023-07/2023-07-08.md",
     "5.专题研究/租房相关问题.md",
     "0.plugin/template/dailynotes.md",
@@ -201,7 +202,6 @@
     "0.plugin/template/chart_study_time_statistic.md",
     "4.归档/学习/1.修身/备考/全国研究生入学考试/考研数学经验贴/参考2 北邮141.md",
     "0.plugin/template/beautify_random_gradient.md",
-    "0.plugin/template/codeblock_python.md",
     "2.等待处理/Diary/2023-07",
     "0.plugin/template/未命名.md.nssyncsc",
     "5.专题研究/英语外刊",
