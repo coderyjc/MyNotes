@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "97af981905f0a4ca",
+        "id": "d9cc044441cb2356",
         "type": "tabs",
         "children": [
           {
-            "id": "10c8eb09581a4173",
+            "id": "3242dee44e81d8fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -174,10 +174,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "10c8eb09581a4173",
+  "active": "3242dee44e81d8fc",
   "lastOpenFiles": [
-    "0.plugin/template/dailynotes.md",
+    "5.专题研究/租房相关问题.md",
+    "0.plugin/template/beautify_random_gradient.md",
     "5.专题研究/考研数学/考研数学规划.md",
+    "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2023-07/2023-07-13.md",
     "HOME.md",
     "2.等待处理/Tasks/index.md",
@@ -195,13 +197,11 @@
     "2.等待处理/Diary/2023-07/2023-07-07.md",
     "2.等待处理/Diary/2023-07/2023-07-09.md",
     "2.等待处理/Diary/2023-07/2023-07-08.md",
-    "5.专题研究/租房相关问题.md",
     "2.等待处理/Diary/2023-07/2023-07-01.md",
     "2.等待处理/Diary/2023-07/2023-07-06.md",
     "2.等待处理/Diary/2023-07/2023-07-03.md",
     "2.等待处理/Diary/2023-07/2023-07-04.md",
     "4.归档/学习/1.修身/备考/全国研究生入学考试/考研择校/index.md",
-    "2.等待处理/Diary/2023-07/2023-07-02.md",
     "2.等待处理/Diary/2023-07",
     "0.plugin/template/未命名.md.nssyncsc",
     "5.专题研究/英语外刊",
