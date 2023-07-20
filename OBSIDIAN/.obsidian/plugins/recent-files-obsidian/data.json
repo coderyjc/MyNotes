@@ -5,6 +5,10 @@
       "path": "5.专题研究/考研数学/考研数学规划.md"
     },
     {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
       "basename": "2023-07-13",
       "path": "2.等待处理/Diary/2023-07/2023-07-13.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "租房相关问题",
       "path": "5.专题研究/租房相关问题.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
     }
   ],
   "omittedPaths": [],

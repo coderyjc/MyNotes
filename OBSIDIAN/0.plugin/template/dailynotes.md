@@ -14,8 +14,11 @@ week: <% tp.date.now("YYYY-WW") %>
 << [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]] | [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]>>
 
 
-> [!tip] 每日三省吾身
-> 
+> [!todo] 考研数学强化 - 第二轮
+> 数学第二轮的复习的目标：
+> 1. 建立知识体系
+> 2. 背熟相关公式
+> 3. 整理做题方法
 
 ---
 
