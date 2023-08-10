@@ -4,23 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "970ed83e950770cc",
+        "id": "119ca3f22010a520",
         "type": "tabs",
         "children": [
           {
-            "id": "14b83e592900402f",
+            "id": "fdbce2feee739982",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研数学/考研数学规划.md",
+                "file": "2.等待处理/Diary/2023-07-21.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
+          },
+          {
+            "id": "5bd9366bde9c168b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研数学/考研数学规划.md",
+                "file": "2.等待处理/Diary/2023-07-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研数学/考研数学规划.md"
+                "file": "2.等待处理/Diary/2023-07-21.md"
               }
             }
           }
@@ -174,21 +185,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "5bd9366bde9c168b",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-07-21.md",
-    "2.等待处理/Diary/2023-07-23.md",
     "2.等待处理/Diary/2023-08-04.md",
+    "2.等待处理/Diary/2023-07-21.md",
+    "2.等待处理/Diary/2023-08-08.md",
+    "2.等待处理/Tasks/index.md",
+    "5.专题研究/考研数学/考研数学规划.md",
+    "2.等待处理/Diary/2023-07-23.md",
     "2.等待处理/Diary/2023-07/2023-07-16.md",
     "2.等待处理/Diary/2023-07/2023-07-17.md",
     "2.等待处理/Diary/2023-07/2023-07-20.md",
     "5.专题研究/租房相关问题.md",
     "0.plugin/template/beautify_random_gradient.md",
-    "5.专题研究/考研数学/考研数学规划.md",
     "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2023-07/2023-07-13.md",
     "HOME.md",
-    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-07/2023-07-19.md",
     "2.等待处理/Diary/2023-07/2023-07-18.md",
     "2.等待处理/Diary/2023-07/2023-07-14.md",
@@ -201,7 +213,6 @@
     "2.等待处理/Diary/2023-07/2023-07-09.md",
     "2.等待处理/Diary/2023-07/2023-07-08.md",
     "2.等待处理/Diary/2023-07/2023-07-01.md",
-    "2.等待处理/Diary/2023-07/2023-07-06.md",
     "2.等待处理/Diary/2023-07",
     "0.plugin/template/未命名.md.nssyncsc",
     "5.专题研究/英语外刊",
