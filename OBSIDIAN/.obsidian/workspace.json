@@ -19,8 +19,19 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "14cf4efb58b4016e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,6 +127,16 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "edf4004cc6f12931",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -174,7 +195,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "afce71a1b490f104",
+  "active": "14cf4efb58b4016e",
   "lastOpenFiles": [
     "2.等待处理/Diary/2023-09-21.md",
     "2.等待处理/Diary/2023-09-22.md",
