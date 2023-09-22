@@ -4,34 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "9daa844f43a7189b",
+        "id": "39965b6fb86d0561",
         "type": "tabs",
         "children": [
           {
-            "id": "afce71a1b490f104",
+            "id": "6400cf1756c905fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-09-22.md",
+                "file": "5.专题研究/408复习/408复习指南【2023.09.22】.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
-          },
-          {
-            "id": "14cf4efb58b4016e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.50000381469727
+    "width": 255.50000381469727,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -98,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-09-22.md",
+                "file": "5.专题研究/408复习/408复习指南【2023.09.22】.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-09-22.md"
+                "file": "5.专题研究/408复习/408复习指南【2023.09.22】.md"
               }
             }
           }
@@ -175,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 295.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,10 +186,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "14cf4efb58b4016e",
+  "active": "6400cf1756c905fd",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-09-21.md",
+    "5.专题研究/408复习",
     "2.等待处理/Diary/2023-09-22.md",
+    "5.专题研究/408复习/408复习指南【2023.09.22】.md",
+    "2.等待处理/Diary/2023-09-21.md",
     "2.等待处理/Diary/2023-08-13.md",
     "2.等待处理/Diary/2023-08-25.md",
     "2.等待处理/Diary/2023-09-09.md",
