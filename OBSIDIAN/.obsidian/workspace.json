@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39965b6fb86d0561",
+        "id": "3c9c0273de6e3bde",
         "type": "tabs",
         "children": [
           {
-            "id": "6400cf1756c905fd",
+            "id": "4be526e1d081a1a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.50000381469727,
-    "collapsed": true
+    "width": 255.50000381469727
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -186,7 +185,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "4be526e1d081a1a7",
   "lastOpenFiles": [
     "5.专题研究/408复习/数据结构-1-导论和应用题.md",
     "5.专题研究/408复习/408复习指南【2023.09.22】.md",
