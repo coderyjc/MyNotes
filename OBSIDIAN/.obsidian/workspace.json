@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3b0b7d0b6cbf9066",
+        "id": "d065ecc093e4389b",
         "type": "tabs",
         "children": [
           {
-            "id": "1fcb99aab083b64f",
+            "id": "3db84413584ac34b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/1.修身/人际关系/社会经验/2023.10.11 pdd退款.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 39.05109489051095,
+        "dimension": 31.434599156118143,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/1.修身/人际关系/社会经验/2023.10.11 pdd退款.md",
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 33.941605839416056,
+        "dimension": 37.0253164556962,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/1.修身/人际关系/社会经验/2023.10.11 pdd退款.md"
+                "file": "HOME.md"
               }
             }
           }
@@ -150,7 +150,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 27.00729927007299,
+        "dimension": 31.54008438818565,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -164,11 +164,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 295.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:查看关系图谱": false,
       "obsidian-weread-plugin:Weread": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -176,7 +176,6 @@
       "remotely-save:Remotely Save": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
@@ -185,13 +184,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1fcb99aab083b64f",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-10-12.md",
+    "HOME.md",
+    "2.等待处理/Diary/2023-07-21.md",
+    "2.等待处理/Diary/2023-08-12.md",
+    "2.等待处理/Diary/2023-10-11.md",
     "4.归档/学习/1.修身/人际关系/社会经验/2023.10.11 pdd退款.md",
     "4.归档/学习/1.修身/人际关系/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",
     "4.归档/学习/1.修身/人际关系/社会经验/assets",
-    "2.等待处理/Diary/2023-10-11.md",
-    "2.等待处理/Diary/2023-08-12.md",
     "2.等待处理/Diary/2023-08-13.md",
     "2.等待处理/Diary/2023-09-22.md",
     "2.等待处理/Diary/2023-10-09.md",
@@ -205,10 +207,8 @@
     "2.等待处理/Diary/2023-09-21.md",
     "2.等待处理/Diary/2023-08-25.md",
     "2.等待处理/Diary/2023-09-09.md",
-    "HOME.md",
     "5.专题研究/考研数学/考研数学规划.md",
     "5.专题研究/租房相关问题.md",
-    "2.等待处理/Diary/2023-07-21.md",
     "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-08-10.md",
     "2.等待处理/Diary/2023-08-08.md"

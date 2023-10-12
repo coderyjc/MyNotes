@@ -1,4 +1,15 @@
+## 2023-10-12 更新
 
+Z-Library 最新可用方法 网页版 / 不用登陆账号 / 无每日下载限制  
+[https://zbook.lol](https://zbook.lol/)  
+[https://zlib.missuo.me](https://zlib.missuo.me/)  
+[https://zlib.knat.network](https://zlib.knat.network/)  
+[https://ylibrary.org](https://ylibrary.org/) (zhelper 接口）  
+[https://tool.ssdown.org](https://tool.ssdown.org/) （zhelper 接口汇总）
+
+Z-Library 目前国内可注册的地址  
+[https://zh.zlibrary-east.se/registration.php](https://zh.zlibrary-east.se/registration.php)  
+[https://singlelogin.site/registration.php](https://singlelogin.site/registration.php)
 
 ## 2023-06-23 更新
 
@@ -18,7 +29,7 @@ Z-library 镜像网站  https://zlibrary.ga/
 
 YLibrary-zlib的离线书库 https://blog.yibook.org/post/ylibrary/
 
-## 2023-3-30更新
+## 2023-3-30 更新
 
 1、如果你有科学上网手段，我建议大家使用官网进行下载。原因是Z-lib的数据库仍在不断更新，提供的域名也更稳定，使用官网绝对是最安全和可靠的。
 
@@ -45,7 +56,7 @@ YLibrary-zlib的离线书库 https://blog.yibook.org/post/ylibrary/
 Clibrary：[https://clibrary.cn](https://link.zhihu.com/?target=https%3A//clibrary.cn)
 
 
-## 旧版
+## 2023-1-30 更新
 
 libgen：
 
