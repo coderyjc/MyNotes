@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
+                "file": "5.专题研究/读研攻略/index.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 31.434599156118143,
+        "dimension": 31.434599156118146,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "5.专题研究/读研攻略/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 37.0253164556962,
+        "dimension": 37.025316455696206,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "5.专题研究/读研攻略/index.md"
               }
             }
           }
@@ -150,7 +150,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 31.54008438818565,
+        "dimension": 31.540084388185655,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -187,6 +187,8 @@
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
     "2.等待处理/Diary/2023-10-12.md",
+    "5.专题研究/读研攻略/index.md",
+    "5.专题研究/读研攻略",
     "HOME.md",
     "2.等待处理/Diary/2023-07-21.md",
     "2.等待处理/Diary/2023-08-12.md",
