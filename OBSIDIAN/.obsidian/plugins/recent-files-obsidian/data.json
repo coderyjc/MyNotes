@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-10-13",
+      "path": "2.等待处理/Diary/2023-10-13.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
+      "basename": "weeklynotes",
+      "path": "0.plugin/template/weeklynotes.md"
+    },
+    {
       "basename": "index",
       "path": "5.专题研究/读研攻略/index.md"
     },
@@ -67,14 +79,6 @@
     {
       "basename": "2023-07-17",
       "path": "2.等待处理/Diary/2023-07/2023-07-17.md"
-    },
-    {
-      "basename": "2023-07-20",
-      "path": "2.等待处理/Diary/2023-07/2023-07-20.md"
-    },
-    {
-      "basename": "beautify_random_gradient",
-      "path": "0.plugin/template/beautify_random_gradient.md"
     }
   ],
   "omittedPaths": [],
