@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Annaconda",
+      "path": "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md"
+    },
+    {
+      "basename": "index",
+      "path": "4.归档/工作/工程/index.md"
+    },
+    {
+      "basename": "Pandas-Bug",
+      "path": "4.归档/工作/工程/数据科学/Python/Pandas-Bug.md"
+    },
+    {
+      "basename": "【Bug】PyEcharts",
+      "path": "4.归档/工作/工程/数据科学/Python/【Bug】PyEcharts.md"
+    },
+    {
+      "basename": "ipython历史记录保存",
+      "path": "4.归档/工作/工程/数据科学/Python/ipython历史记录保存.md"
+    },
+    {
+      "basename": "Python-Bugs",
+      "path": "4.归档/工作/工程/数据科学/Python/Python-Bugs.md"
+    },
+    {
+      "basename": "Python爬虫",
+      "path": "4.归档/工作/工程/数据科学/Python/Python爬虫.md"
+    },
+    {
+      "basename": "2023-10-25",
+      "path": "2.等待处理/Diary/2023-10-25.md"
+    },
+    {
       "basename": "Timeline",
       "path": "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/Timeline.md"
     },
@@ -47,38 +79,6 @@
     {
       "basename": "租房相关问题",
       "path": "4.归档/生活/租房相关问题.md"
-    },
-    {
-      "basename": "考研数学规划",
-      "path": "5.专题研究/考研数学/考研数学规划.md"
-    },
-    {
-      "basename": "2023-10-19",
-      "path": "2.等待处理/Diary/2023-10-19.md"
-    },
-    {
-      "basename": "2023-10-11",
-      "path": "2.等待处理/Diary/2023-10-11.md"
-    },
-    {
-      "basename": "2023-10-13",
-      "path": "2.等待处理/Diary/2023-10-13.md"
-    },
-    {
-      "basename": "2023-10-18",
-      "path": "2.等待处理/Diary/2023-10-18.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
-    },
-    {
-      "basename": "weeklynotes",
-      "path": "0.plugin/template/weeklynotes.md"
-    },
-    {
-      "basename": "index",
-      "path": "5.专题研究/读研攻略/index.md"
     }
   ],
   "omittedPaths": [],

@@ -6,7 +6,7 @@ create_date: 2022-02-08
 
 #python #数据科学 #数据分析 #annaconda
 
-# Annaconda 知识点总结
+# Annaconda
 
 ### Conda 命令的使用
 

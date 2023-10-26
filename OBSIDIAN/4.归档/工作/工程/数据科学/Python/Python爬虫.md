@@ -25,7 +25,7 @@ for element in list_elements:
 
 ```
 
-![[Pasted image 20220502103241.png]]
+![[assets/Pasted image 20220502103241.png]]
 
 报错:
 
@@ -43,17 +43,17 @@ because another element <div class="action fixed-action"> obscures it
 
 猜测打开浏览器的时候已经记录下来了此时要找的所有元素的绝对位置, 当点击了展开之后, 浏览器插入了更多的文字, 导致了所有元素的相对位置下移, 在打开页面的时候所记录的所有元素的位置已经不再适用.
 
-![[Pasted image 20220502103732.png]]
+![[assets/Pasted image 20220502103732.png]]
 
-![[Pasted image 20220502103737.png]]
+![[assets/Pasted image 20220502103737.png]]
 
   
 
 开启debug, 发现正是如此,
 
-![[Pasted image 20220502103813.png]]
+![[assets/Pasted image 20220502103813.png]]
 
-![[Pasted image 20220502103821.png]]
+![[assets/Pasted image 20220502103821.png]]
 
 解决方案:
 

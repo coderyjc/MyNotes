@@ -11,8 +11,13 @@
             "id": "79012815a9c1ef12",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.50000381469727
+    "width": 348.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -74,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 31.434599156118146,
+        "dimension": 31.434599156118143,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,14 +133,16 @@
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 37.025316455696206,
+        "dimension": 47.46835443037975,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md"
+              }
             }
           }
         ]
@@ -142,7 +150,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 31.540084388185655,
+        "dimension": 21.097046413502106,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -178,6 +186,19 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "4.归档/工作/工程/index.md",
+    "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md",
+    "4.归档/工作/工程/数据科学/Python/Pandas-Bug.md",
+    "4.归档/工作/工程/数据科学/Python/【Bug】PyEcharts.md",
+    "4.归档/工作/工程/数据科学/Python/ipython历史记录保存.md",
+    "4.归档/工作/工程/数据科学/Python/Python-Bugs.md",
+    "4.归档/工作/工程/数据科学/Python/assets/Pasted image 20220703210423.png",
+    "4.归档/工作/工程/数据科学/Python/assets/Pasted image 20220604230305.png",
+    "4.归档/工作/工程/数据科学/Python/assets/Pasted image 20220521211402.png",
+    "4.归档/工作/工程/数据科学/Python/Python爬虫.md",
+    "4/Pandas-Bug.md",
+    "4/ipython历史记录保存.md",
+    "2.等待处理/Diary/2023-10-25.md",
     "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/Timeline.md",
     "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/维拉·克莱索恩.md",
     "4.归档/学习/1.修身/读书笔记/【悬疑推理】无人生还/Character.md",
@@ -194,19 +215,8 @@
     "2.等待处理/Diary/2023-10-19.md",
     "2.等待处理/Diary/2023-10-11.md",
     "2.等待处理/Diary/2023-10-13.md",
-    "2.等待处理/Diary/2023-10-12.md",
-    "2.等待处理/Diary/2023-10-18.md",
-    "0.plugin/template/dailynotes.md",
-    "0.plugin/template/weeklynotes.md",
-    "5.专题研究/读研攻略/index.md",
     "5.专题研究/读研攻略",
-    "HOME.md",
-    "2.等待处理/Diary/2023-07-21.md",
-    "2.等待处理/Diary/2023-08-12.md",
-    "4.归档/学习/1.修身/人际关系/社会经验/2023.10.11 pdd退款.md",
     "4.归档/学习/1.修身/人际关系/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",
     "4.归档/学习/1.修身/人际关系/社会经验/assets",
-    "2.等待处理/Diary/2023-08-13.md",
     "5.专题研究/408复习"
   ]
-}
