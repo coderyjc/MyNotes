@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "电子书搜索",
+      "path": "4.归档/生活/搜索/电子书搜索.md"
+    },
+    {
       "basename": "2023-10-30",
       "path": "2.等待处理/Diary/2023-10-30.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Annaconda",
       "path": "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md"
-    },
-    {
-      "basename": "index",
-      "path": "4.归档/工作/工程/index.md"
     }
   ],
   "omittedPaths": [],
