@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "电子书搜索",
-      "path": "4.归档/生活/搜索/电子书搜索.md"
+      "basename": "2023-11-12",
+      "path": "2.等待处理/Diary/2023-11-12.md"
     },
     {
-      "basename": "2023-10-30",
-      "path": "2.等待处理/Diary/2023-10-30.md"
+      "basename": "2023-10-18",
+      "path": "2.等待处理/Diary/2023-10-18.md"
+    },
+    {
+      "basename": "电子书搜索",
+      "path": "4.归档/生活/搜索/电子书搜索.md"
     },
     {
       "basename": "租房相关问题",
@@ -31,10 +35,6 @@
     {
       "basename": "README",
       "path": "4.归档/学习/2.齐家/README.md"
-    },
-    {
-      "basename": "2023-10-26",
-      "path": "2.等待处理/Diary/2023-10-26.md"
     },
     {
       "basename": "FireFox访问问题",
@@ -71,14 +71,6 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "2023-10-18",
-      "path": "2.等待处理/Diary/2023-10-18.md"
-    },
-    {
-      "basename": "Annaconda",
-      "path": "4.归档/工作/工程/数据科学/Annaconda/Annaconda.md"
     }
   ],
   "omittedPaths": [],
