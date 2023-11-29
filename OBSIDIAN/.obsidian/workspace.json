@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-11-12.md",
+                "file": "4.归档/生活/搜索/电子书搜索.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "书籍搜索",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-11-12.md",
+                "file": "4.归档/生活/搜索/电子书搜索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-11-12.md"
+                "file": "4.归档/生活/搜索/电子书搜索.md"
               }
             }
           }
@@ -184,11 +185,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "8072b1799b05ff71",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-11-23.md",
+    "2.等待处理/Diary/2023-11-12.md",
     "2.等待处理/Diary/2023-10-26.md",
     "2.等待处理/Diary/2023-10-30.md",
-    "2.等待处理/Diary/2023-11-12.md",
     "2.等待处理/Diary/2023-10-18.md",
     "4.归档/生活/搜索/电子书搜索.md",
     "4.归档/生活/租房相关问题.md",
@@ -211,7 +213,6 @@
     "2.等待处理/Diary/2023-10-25.md",
     "4.归档/工作/工程/index.md",
     "4.归档/工作/工程/数据科学/Python/Pandas-Bug.md",
-    "4.归档/工作/工程/数据科学/Python/【Bug】PyEcharts.md",
     "4.归档/工作/工程/数据科学/Python/assets/Pasted image 20220703210423.png",
     "4.归档/工作/工程/数据科学/Python/assets/Pasted image 20220604230305.png",
     "4.归档/工作/工程/数据科学/Python/assets/Pasted image 20220521211402.png",
