@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-11-30",
-      "path": "2.等待处理/Diary/2023-11-30.md"
+      "basename": "2023-12-25",
+      "path": "2.等待处理/Diary/2023-12-25.md"
+    },
+    {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "2023-12-24",
       "path": "2.等待处理/Diary/2023-12-24.md"
     },
     {
-      "basename": "408复习指南【2023.09.22】",
-      "path": "5.专题研究/408复习/408复习指南【2023.09.22】.md"
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
     },
     {
-      "basename": "数据结构-1-导论和应用题",
-      "path": "5.专题研究/408复习/数据结构-1-导论和应用题.md"
+      "basename": "2023-11-30",
+      "path": "2.等待处理/Diary/2023-8及以后/2023-11-30.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "2023-07-21",
+      "path": "2.等待处理/Diary/Archieve/2023-07/2023-07-21.md"
+    },
+    {
+      "basename": "2023-08-12",
+      "path": "2.等待处理/Diary/2023-8及以后/2023-08-12.md"
     },
     {
       "basename": "电子书搜索",
@@ -26,59 +38,27 @@
     },
     {
       "basename": "2023-11-29",
-      "path": "2.等待处理/Diary/2023-11-29.md"
+      "path": "2.等待处理/Diary/2023-8及以后/2023-11-29.md"
     },
     {
       "basename": "2023-11-23",
-      "path": "2.等待处理/Diary/2023-11-23.md"
+      "path": "2.等待处理/Diary/2023-8及以后/2023-11-23.md"
     },
     {
       "basename": "2023-11-12",
-      "path": "2.等待处理/Diary/2023-11-12.md"
+      "path": "2.等待处理/Diary/2023-8及以后/2023-11-12.md"
     },
     {
       "basename": "2023-10-18",
-      "path": "2.等待处理/Diary/2023-10-18.md"
+      "path": "2.等待处理/Diary/2023-8及以后/2023-10-18.md"
     },
     {
       "basename": "租房相关问题",
       "path": "4.归档/生活/租房相关问题.md"
     },
     {
-      "basename": "06.人口与经济",
-      "path": "4.归档/学习/4.平天下/经济学/【经济学】生活常识/06.人口与经济.md"
-    },
-    {
-      "basename": "04.交税",
-      "path": "4.归档/学习/4.平天下/经济学/【经济学】生活常识/04.交税.md"
-    },
-    {
-      "basename": "02.货币的起源",
-      "path": "4.归档/学习/4.平天下/经济学/【经济学】生活常识/02.货币的起源.md"
-    },
-    {
-      "basename": "README",
-      "path": "4.归档/学习/3.治国/README.md"
-    },
-    {
-      "basename": "README",
-      "path": "4.归档/学习/2.齐家/README.md"
-    },
-    {
       "basename": "FireFox访问问题",
       "path": "4.归档/工作/工程/浏览器相关/FireFox访问问题.md"
-    },
-    {
-      "basename": "Chrome浏览器调试问题汇总",
-      "path": "4.归档/工作/工程/浏览器相关/Chrome浏览器调试问题汇总.md"
-    },
-    {
-      "basename": "git",
-      "path": "4.归档/工作/基础/devops/git/git.md"
-    },
-    {
-      "basename": "log",
-      "path": "4.归档/工作/基础/about/log.md"
     }
   ],
   "omittedPaths": [],
