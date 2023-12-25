@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "952d909a5668fc1e",
+        "id": "6dee422cc14286ff",
         "type": "tabs",
         "children": [
           {
-            "id": "4344ec5433feee56",
+            "id": "9040fb9d2c7a3b14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-12-25.md",
+                "file": "5.专题研究/考研复试/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 31.434599156118143,
+        "dimension": 31.40877598152425,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-12-25.md",
+                "file": "5.专题研究/考研复试/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2023-12-25.md"
+                "file": "5.专题研究/考研复试/index.md"
               }
             }
           }
@@ -143,7 +143,7 @@
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 47.46835443037975,
+        "dimension": 30.484988452655887,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-12-25.md"
+                "file": "5.专题研究/考研复试/index.md"
               }
             }
           }
@@ -160,7 +160,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 21.097046413502106,
+        "dimension": 38.106235565819865,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -194,12 +194,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "9040fb9d2c7a3b14",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-12-24.md",
-    "2.等待处理/Tasks/index.md",
+    "5.专题研究/读研攻略/index.md",
+    "5.专题研究/考研复试/index.md",
     "HOME.md",
+    "2.等待处理/Tasks/index.md",
+    "5.专题研究/考研复试",
     "2.等待处理/Diary/2023-12-25.md",
+    "2.等待处理/Diary/2023-12-24.md",
     "4.归档/学习/2.齐家/README.md",
     "4.归档/学习/阅读方法论/assets/推理小说阅读.png",
     "4.归档/学习/阅读方法论/resources/推理小说系统阅读.xmind",
@@ -219,7 +222,6 @@
     "4.归档/学习/人际关系/社会经验",
     "4.归档/学习/人际关系/和导师",
     "4.归档/学习/人际关系/和同学",
-    "4.归档/学习/人际关系",
     "4.归档/学习/经济学/【经济学】金融危机/assets/Pasted image 20230215114418.png",
     "4.归档/学习/经济学/【经济学】生活常识/assets/Pasted image 20230213150507.png",
     "4.归档/学习/经济学/【经济学】生活常识/assets/Pasted image 20230213095244.png",
@@ -239,8 +241,6 @@
     "4.归档/学习/经济学/【经济学】生活常识/07.借贷相关.md",
     "4.归档/学习/经济学/【经济学】生活常识/06.人口与经济.md",
     "4.归档/学习/经济学/【经济学】生活常识/05.土地和房产.md",
-    "4.归档/学习/经济学/【经济学】生活常识/04.交税.md",
-    "4.归档/学习/经济学/【经济学】生活常识/03.五险一金.md",
-    "4.归档/学习/经济学/【经济学】生活常识/02.货币的起源.md"
+    "4.归档/学习/经济学/【经济学】生活常识/04.交税.md"
   ]
 }
