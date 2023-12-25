@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2.等待处理/Diary/2023-12-25.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -179,27 +179,27 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:查看关系图谱": false,
-      "obsidian-weread-plugin:Weread": false,
-      "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "webpage-html-export:Export Vault to HTML": false,
       "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-weread-plugin:Weread": false,
+      "webpage-html-export:Export Vault to HTML": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-12-24.md",
     "2.等待处理/Tasks/index.md",
     "HOME.md",
     "2.等待处理/Diary/2023-12-25.md",
-    "2.等待处理/Diary/2023-12-24.md",
     "4.归档/学习/2.齐家/README.md",
     "4.归档/学习/阅读方法论/assets/推理小说阅读.png",
     "4.归档/学习/阅读方法论/resources/推理小说系统阅读.xmind",

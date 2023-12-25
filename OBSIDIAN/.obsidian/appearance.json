@@ -2,7 +2,7 @@
   "baseFontSize": 14,
   "theme": "obsidian",
   "translucency": false,
-  "cssTheme": "Prism",
+  "cssTheme": "Minimal",
   "monospaceFontFamily": "JetBrains Mono",
   "accentColor": "#727583",
   "nativeMenus": false,
