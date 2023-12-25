@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2023-12-25.md"
     },
     {
+      "basename": "2023-12-26",
+      "path": "2.等待处理/Diary/2023-12-26.md"
+    },
+    {
       "basename": "index",
       "path": "5.专题研究/考研复试/index.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "租房相关问题",
       "path": "4.归档/生活/租房相关问题.md"
-    },
-    {
-      "basename": "FireFox访问问题",
-      "path": "4.归档/工作/工程/浏览器相关/FireFox访问问题.md"
     }
   ],
   "omittedPaths": [],
