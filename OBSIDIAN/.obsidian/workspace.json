@@ -19,6 +19,16 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "40b79461560fc992",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
         ]
       }
@@ -123,7 +133,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -138,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "a8045650fa334fd2",
@@ -194,21 +206,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "572046dbcecbe86a",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2023-12-26.md",
-    "2.等待处理/Tasks/index.md",
-    "2.等待处理/Diary/2023-12-27.md",
+    "5.专题研究/读研攻略/index.md",
     "5.专题研究/考研复试/index.md",
+    "2.等待处理/Tasks/index.md",
+    "HOME.md",
+    "2.等待处理/Diary/2023-12-27.md",
+    "2.等待处理/Diary/2023-12-26.md",
     "2.等待处理/Diary/2023-12-25.md",
     "5.专题研究/考研复试/assets/Pasted image 20231225113426.png",
     "5.专题研究/考研复试/assets",
-    "HOME.md",
     "4.归档/工作/基础/devops/git/git.md",
     "4.归档/工作/基础/devops/git/github.md",
     "4.归档/工作/基础/about/Plan.md",
     "3.将来可能/python-pandas/_Pandas.md",
-    "5.专题研究/读研攻略/index.md",
     "5.专题研究/考研复试",
     "2.等待处理/Diary/2023-12-24.md",
     "4.归档/学习/2.齐家/README.md",
