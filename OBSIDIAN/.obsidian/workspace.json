@@ -13,20 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2023-12-27.md",
+                "file": "2.等待处理/Tasks/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "40b79461560fc992",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
               }
             }
           }
@@ -89,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 31.40877598152425,
+        "dimension": 31.434599156118143,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -97,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2023-12-27.md",
+                "file": "2.等待处理/Tasks/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2023-12-27.md"
+                "file": "2.等待处理/Tasks/index.md"
               }
             }
           }
@@ -155,7 +145,7 @@
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 30.484988452655887,
+        "dimension": 34.38818565400844,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -163,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2023-12-27.md"
+                "file": "2.等待处理/Tasks/index.md"
               }
             }
           }
@@ -172,7 +162,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 38.106235565819865,
+        "dimension": 34.177215189873415,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -206,14 +196,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "572046dbcecbe86a",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2023-12-27.md",
+    "2.等待处理/Diary/2023-12-26.md",
     "5.专题研究/读研攻略/index.md",
     "5.专题研究/考研复试/index.md",
     "2.等待处理/Tasks/index.md",
     "HOME.md",
-    "2.等待处理/Diary/2023-12-27.md",
-    "2.等待处理/Diary/2023-12-26.md",
     "2.等待处理/Diary/2023-12-25.md",
     "5.专题研究/考研复试/assets/Pasted image 20231225113426.png",
     "5.专题研究/考研复试/assets",
