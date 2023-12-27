@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研复试/index.md",
+                "file": "2.等待处理/Diary/2023-12-27.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研复试/index.md",
+                "file": "2.等待处理/Diary/2023-12-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/考研复试/index.md"
+                "file": "2.等待处理/Diary/2023-12-27.md"
               }
             }
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研复试/index.md"
+                "file": "2.等待处理/Diary/2023-12-27.md"
               }
             }
           }
@@ -194,19 +194,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "572046dbcecbe86a",
   "lastOpenFiles": [
     "2.等待处理/Diary/2023-12-26.md",
+    "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/2023-12-27.md",
+    "5.专题研究/考研复试/index.md",
     "2.等待处理/Diary/2023-12-25.md",
     "5.专题研究/考研复试/assets/Pasted image 20231225113426.png",
     "5.专题研究/考研复试/assets",
     "HOME.md",
-    "2.等待处理/Tasks/index.md",
     "4.归档/工作/基础/devops/git/git.md",
     "4.归档/工作/基础/devops/git/github.md",
     "4.归档/工作/基础/about/Plan.md",
     "3.将来可能/python-pandas/_Pandas.md",
-    "5.专题研究/考研复试/index.md",
     "5.专题研究/读研攻略/index.md",
     "5.专题研究/考研复试",
     "2.等待处理/Diary/2023-12-24.md",
@@ -240,7 +241,6 @@
     "4.归档/学习/经济学/【经济学】金融危机/06.【1907年】美国银行危机.md",
     "4.归档/学习/经济学/【经济学】金融危机/05.【1837年】美国大恐慌.md",
     "4.归档/学习/经济学/【经济学】金融危机/04.【1720年】密西西比泡沫.md",
-    "4.归档/学习/经济学/【经济学】金融危机/03.【1720年】南海泡沫.md",
-    "4.归档/学习/经济学/【经济学】金融危机/02.【17世纪】郁金香泡沫.md"
+    "4.归档/学习/经济学/【经济学】金融危机/03.【1720年】南海泡沫.md"
   ]
 }
