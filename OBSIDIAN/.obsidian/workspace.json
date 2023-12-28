@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b4df9d539c1aae6",
+        "id": "55ed7119aed85b8d",
         "type": "tabs",
         "children": [
           {
-            "id": "572046dbcecbe86a",
+            "id": "1c312407c921ce4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Tasks/index.md",
+                "file": "2.等待处理/Diary/2023-12-28.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Tasks/index.md",
+                "file": "2.等待处理/Diary/2023-12-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,12 +135,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Tasks/index.md"
+                "file": "2.等待处理/Diary/2023-12-28.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "a8045650fa334fd2",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Tasks/index.md"
+                "file": "2.等待处理/Diary/2023-12-28.md"
               }
             }
           }
@@ -196,14 +196,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "572046dbcecbe86a",
+  "active": "1c312407c921ce4b",
   "lastOpenFiles": [
-    "HOME.md",
     "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-12-28.md",
-    "2.等待处理/Diary/2023-12-27.md",
     "2.等待处理/Diary/2023-12-26.md",
     "2.等待处理/Diary/2023-12-25.md",
+    "2.等待处理/Diary/2023-12-27.md",
+    "HOME.md",
     "5.专题研究/读研攻略/index.md",
     "5.专题研究/考研复试/index.md",
     "5.专题研究/考研复试/assets/Pasted image 20231225113426.png",
