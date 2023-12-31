@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Tasks/index.md",
+                "file": "2.等待处理/Diary/2023-12-31.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Tasks/index.md",
+                "file": "2.等待处理/Diary/2023-12-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Tasks/index.md"
+                "file": "2.等待处理/Diary/2023-12-31.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Tasks/index.md"
+                "file": "2.等待处理/Diary/2023-12-31.md"
               }
             }
           }
@@ -198,10 +198,11 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/2023-12-31.md",
     "2.等待处理/Diary/2023-12-29.md",
     "2.等待处理/Diary/2023-12-28.md",
     "2.等待处理/Diary/2023-12-26.md",
-    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/2023-12-25.md",
     "2.等待处理/Diary/2023-12-27.md",
     "HOME.md",
@@ -242,7 +243,6 @@
     "4.归档/学习/经济学/【经济学】生活常识/assets/Pasted image 20230212205354.png",
     "4.归档/学习/经济学/【经济学】金融危机/08.石油危机.md",
     "4.归档/学习/经济学/【经济学】金融危机/07.【1929-1933年】美国大萧条.md",
-    "4.归档/学习/经济学/【经济学】金融危机/06.【1907年】美国银行危机.md",
-    "4.归档/学习/经济学/【经济学】金融危机/05.【1837年】美国大恐慌.md"
+    "4.归档/学习/经济学/【经济学】金融危机/06.【1907年】美国银行危机.md"
   ]
 }
