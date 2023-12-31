@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Opportunities in AI",
+      "path": "5.专题研究/讲座/Opportunities in AI.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "论文分区",
       "path": "5.专题研究/读研攻略/论文分区.md"
     },
     {
       "basename": "index",
       "path": "2.等待处理/Tasks/index.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     },
     {
       "basename": "2023年度总结",
@@ -75,10 +79,6 @@
     {
       "basename": "2023-02-27",
       "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-27.md"
-    },
-    {
-      "basename": "2023-02-28",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-28.md"
     }
   ],
   "omittedPaths": [],
