@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "feabcb75744e7470",
+        "id": "133c9ca0270c75bf",
         "type": "tabs",
         "children": [
           {
-            "id": "783f6e89bd361a33",
+            "id": "6a448aaa061a3f20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/讲座/Opportunities in AI.md",
+                "file": "2.等待处理/Diary/2023-12-31.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.51103591918945,
-    "collapsed": true
+    "width": 284.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/讲座/Opportunities in AI.md",
+                "file": "2.等待处理/Diary/2023-12-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/讲座/Opportunities in AI.md"
+                "file": "2.等待处理/Diary/2023-12-31.md"
               }
             }
           }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/讲座/Opportunities in AI.md"
+                "file": "2.等待处理/Diary/2023-12-31.md"
               }
             }
           }
@@ -198,8 +197,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "783f6e89bd361a33",
+  "active": "6a448aaa061a3f20",
   "lastOpenFiles": [
+    "2.等待处理/Tasks/index.md",
+    "2.等待处理/Diary/2023-12-31.md",
+    "5.专题研究/讲座/Opportunities in AI.md",
+    "5.专题研究/讲座/assets/Pasted image 20231231152308.png",
     "5.专题研究/讲座/assets/Pasted image 20231231151109.png",
     "5.专题研究/讲座/assets/Pasted image 20231231145640.png",
     "5.专题研究/讲座/assets/Pasted image 20231231143609.png",
@@ -209,12 +212,9 @@
     "5.专题研究/讲座/assets/Pasted image 20231231142036.png",
     "5.专题研究/讲座/assets",
     "HOME.md",
-    "5.专题研究/讲座/Opportunities in AI.md",
     "5.专题研究/讲座",
     "5.专题研究/读研攻略/论文分区.md",
-    "2.等待处理/Tasks/index.md",
     "2.等待处理/Diary/Archieve/2023/2023年度总结.md",
-    "2.等待处理/Diary/2023-12-31.md",
     "2.等待处理/Diary/Archieve/2023/2023-08/2023-08-12.md",
     "2.等待处理/Diary/Archieve/2023/2023-07/2023-07-10.md",
     "2.等待处理/Diary/Archieve/2023/2023-07/2023-07-14.md",
@@ -243,8 +243,6 @@
     "2.等待处理/Diary/Archieve/2022",
     "5.专题研究/考研复试/assets/Pasted image 20231225113426.png",
     "5.专题研究/考研复试/assets",
-    "4.归档/学习/阅读方法论/assets/推理小说阅读.png",
-    "4.归档/学习/人际关系/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",
-    "4.归档/学习/经济学/【经济学】金融危机/assets/Pasted image 20230215114418.png"
+    "4.归档/学习/阅读方法论/assets/推理小说阅读.png"
   ]
 }
