@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-12-31",
-      "path": "2.等待处理/Diary/2023-12-31.md"
+      "basename": "NPM包管理工具",
+      "path": "4.归档/工作/基础/front/nodejs&npm/NPM包管理工具.md"
+    },
+    {
+      "basename": "_Nodejs知识地图",
+      "path": "4.归档/工作/基础/front/nodejs&npm/_Nodejs知识地图.md"
+    },
+    {
+      "basename": "2024-01-01",
+      "path": "2.等待处理/Diary/2024-01-01.md"
     },
     {
       "basename": "index",
       "path": "2.等待处理/Tasks/index.md"
+    },
+    {
+      "basename": "2023-12-31",
+      "path": "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-31.md"
+    },
+    {
+      "basename": "电子书搜索",
+      "path": "4.归档/生活/搜索/电子书搜索.md"
+    },
+    {
+      "basename": "2023-07",
+      "path": "4.归档/工作/学习周刊/2023/2023-07.md"
     },
     {
       "basename": "Opportunities in AI",
@@ -59,26 +79,6 @@
     {
       "basename": "2023-02-03",
       "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-03.md"
-    },
-    {
-      "basename": "2023-02-13",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-13.md"
-    },
-    {
-      "basename": "2023-02-19",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-19.md"
-    },
-    {
-      "basename": "2023-02-22",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-22.md"
-    },
-    {
-      "basename": "2023-02-25",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-25.md"
-    },
-    {
-      "basename": "2023-02-27",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-27.md"
     }
   ],
   "omittedPaths": [],
