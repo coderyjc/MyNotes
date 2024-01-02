@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "index-教资",
-      "path": "5.专题研究/教资/index-教资.md"
+      "basename": "持久性",
+      "path": "3.将来可能/操作系统/持久性.md"
+    },
+    {
+      "basename": "4.抽象：进程",
+      "path": "3.将来可能/操作系统导论/4.抽象：进程.md"
+    },
+    {
+      "basename": "2.短信登录",
+      "path": "3.将来可能/黑马点评/2.短信登录.md"
+    },
+    {
+      "basename": "1.项目导入",
+      "path": "3.将来可能/黑马点评/1.项目导入.md"
+    },
+    {
+      "basename": "0.黑马点评项目简介",
+      "path": "3.将来可能/黑马点评/0.黑马点评项目简介.md"
+    },
+    {
+      "basename": "参考项目",
+      "path": "3.将来可能/CSAPP/参考项目.md"
+    },
+    {
+      "basename": "SpringBoot-Basic-QuickStart",
+      "path": "3.将来可能/SpringBoot/basic/SpringBoot-Basic-QuickStart.md"
+    },
+    {
+      "basename": "SpringBoot-Basic-BasicConfig",
+      "path": "3.将来可能/SpringBoot/basic/SpringBoot-Basic-BasicConfig.md"
+    },
+    {
+      "basename": "SpringBoot-Dev-DataLayer",
+      "path": "3.将来可能/SpringBoot/dev/SpringBoot-Dev-DataLayer.md"
+    },
+    {
+      "basename": "SpringBoot-Dev-AdvancedConfig",
+      "path": "3.将来可能/SpringBoot/dev/SpringBoot-Dev-AdvancedConfig.md"
+    },
+    {
+      "basename": "SpringBoot-Integration-Druid",
+      "path": "3.将来可能/SpringBoot/integration/SpringBoot-Integration-Druid.md"
+    },
+    {
+      "basename": "SpringBoot-Integration-JUnit",
+      "path": "3.将来可能/SpringBoot/integration/SpringBoot-Integration-JUnit.md"
     },
     {
       "basename": "index",
@@ -11,6 +55,10 @@
     {
       "basename": "项目经历",
       "path": "5.专题研究/考研调剂复试/项目经历.md"
+    },
+    {
+      "basename": "index-教资",
+      "path": "5.专题研究/教资/index-教资.md"
     },
     {
       "basename": "HOME",
@@ -31,54 +79,6 @@
     {
       "basename": "2024-01-02",
       "path": "2.等待处理/Diary/2024-01-02.md"
-    },
-    {
-      "basename": "2024-01-01",
-      "path": "2.等待处理/Diary/2024-01-01.md"
-    },
-    {
-      "basename": "自我介绍",
-      "path": "5.专题研究/考研调剂复试/自我介绍.md"
-    },
-    {
-      "basename": "专业相关问题",
-      "path": "5.专题研究/考研调剂复试/专业相关问题.md"
-    },
-    {
-      "basename": "面试问题总结【中文】",
-      "path": "5.专题研究/考研调剂复试/面试问题总结【中文】.md"
-    },
-    {
-      "basename": "面试问题总结【英文】",
-      "path": "5.专题研究/考研调剂复试/面试问题总结【英文】.md"
-    },
-    {
-      "basename": "如何选择导师",
-      "path": "5.专题研究/考研调剂复试/如何选择导师.md"
-    },
-    {
-      "basename": "Opportunities in AI",
-      "path": "5.专题研究/讲座/Opportunities in AI.md"
-    },
-    {
-      "basename": "【Deprecated】数据结构与算法面试题",
-      "path": "5.专题研究/考研调剂复试/调剂/【Deprecated】数据结构与算法面试题.md"
-    },
-    {
-      "basename": "调剂时间线",
-      "path": "5.专题研究/考研调剂复试/调剂/调剂时间线.md"
-    },
-    {
-      "basename": "调剂记录日志",
-      "path": "5.专题研究/考研调剂复试/调剂/调剂记录日志.md"
-    },
-    {
-      "basename": "【正则表达式】匹配java的行内注释",
-      "path": "4.归档/工作/工程/正则表达式/【正则表达式】匹配java的行内注释.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
     }
   ],
   "omittedPaths": [],

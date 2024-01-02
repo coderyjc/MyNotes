@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "40c11e36c4552ae7",
+        "id": "05a105db7af75e9d",
         "type": "tabs",
         "children": [
           {
-            "id": "ed867f5bef3195c5",
+            "id": "4da8ce5f20fe181b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/教资/index-教资.md",
-                "mode": "preview",
+                "file": "3.将来可能/操作系统/持久性.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/教资/index-教资.md",
+                "file": "3.将来可能/操作系统/持久性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/教资/index-教资.md"
+                "file": "3.将来可能/操作系统/持久性.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/教资/index-教资.md"
+                "file": "3.将来可能/操作系统/持久性.md"
               }
             }
           }
@@ -196,39 +196,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ed867f5bef3195c5",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "3.将来可能/操作系统导论/4.抽象：进程.md",
+    "3.将来可能/黑马点评/2.短信登录.md",
+    "3.将来可能/黑马点评/1.项目导入.md",
+    "3.将来可能/黑马点评/0.黑马点评项目简介.md",
+    "3.将来可能/CSAPP/参考项目.md",
+    "3.将来可能/JavaWeb/Servlet错误.md",
+    "3.将来可能/JavaWeb/Servlet.md",
+    "3.将来可能/SpringBoot/basic/SpringBoot-Basic-QuickStart.md",
+    "3.将来可能/SpringBoot/basic/SpringBoot-Basic-BasicConfig.md",
+    "3.将来可能/SpringBoot/dev/SpringBoot-Dev-DataLayer.md",
+    "3.将来可能/SpringBoot/dev/SpringBoot-Dev-AdvancedConfig.md",
+    "3.将来可能/SpringBoot/integration/SpringBoot-Integration-Druid.md",
+    "3.将来可能/SpringBoot/integration/SpringBoot-Integration-JUnit.md",
     "5.专题研究/考研调剂复试/index.md",
     "5.专题研究/考研调剂复试/项目经历.md",
+    "5.专题研究/教资/index-教资.md",
     "HOME.md",
     "2.等待处理/Tasks/index-tasks.md",
     "2.等待处理/Diary/2024-01-03.md",
     "5.专题研究/软考/index-软考.md",
-    "5.专题研究/教资/index-教资.md",
     "2.等待处理/Diary/2024-01-02.md",
     "2.等待处理/Diary/2024-01-01.md",
     "5.专题研究/考研调剂复试/自我介绍.md",
     "5.专题研究/考研调剂复试/专业相关问题.md",
     "5.专题研究/考研调剂复试/面试问题总结【中文】.md",
     "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
-    "5.专题研究/考研调剂复试/如何选择导师.md",
     "5.专题研究/教资",
     "5.专题研究/软考/assets/Pasted image 20240102195133.png",
     "5.专题研究/软考/assets",
     "5.专题研究/软考",
-    "5.专题研究/讲座/Opportunities in AI.md",
-    "5.专题研究/考研复试/index.md",
-    "4.归档/学习/备考/全国研究生入学考试/考研调剂复试/面试中的其他问题.md",
-    "5.专题研究/考研调剂复试/调剂/【Deprecated】数据结构与算法面试题.md",
     "5.专题研究/考研调剂复试/调剂",
-    "5.专题研究/考研调剂复试/调剂/调剂时间线.md",
-    "5.专题研究/考研调剂复试/调剂/调剂记录日志.md",
-    "0.plugin/template/dailynotes.md",
-    "4.归档/工作/基础/front/nodejs&npm/NPM包管理工具.md",
-    "4.归档/工作/基础/front/nodejs&npm/_Nodejs知识地图.md",
-    "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-31.md",
-    "4.归档/生活/搜索/电子书搜索.md",
-    "4.归档/工作/学习周刊/2023/2023-07.md",
     "5.专题研究/讲座/assets/Pasted image 20231231152308.png",
     "5.专题研究/讲座/assets/Pasted image 20231231151109.png",
     "5.专题研究/讲座/assets/Pasted image 20231231145640.png",
