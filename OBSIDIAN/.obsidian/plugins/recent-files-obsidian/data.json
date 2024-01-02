@@ -1,24 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "【正则表达式】匹配java的行内注释",
-      "path": "4.归档/工作/工程/正则表达式/【正则表达式】匹配java的行内注释.md"
-    },
-    {
-      "basename": "2024-01-02",
-      "path": "2.等待处理/Diary/2024-01-02.md"
+      "basename": "index",
+      "path": "5.专题研究/考研调剂复试/index.md"
     },
     {
       "basename": "index",
       "path": "2.等待处理/Tasks/index.md"
     },
     {
-      "basename": "2024-01-01",
-      "path": "2.等待处理/Diary/2024-01-01.md"
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
-      "basename": "index",
-      "path": "5.专题研究/考研复试/index.md"
+      "basename": "自我介绍",
+      "path": "5.专题研究/考研调剂复试/自我介绍.md"
+    },
+    {
+      "basename": "专业相关问题",
+      "path": "5.专题研究/考研调剂复试/专业相关问题.md"
+    },
+    {
+      "basename": "如何选择导师",
+      "path": "5.专题研究/考研调剂复试/如何选择导师.md"
+    },
+    {
+      "basename": "【Deprecated】数据结构与算法面试题",
+      "path": "5.专题研究/考研调剂复试/调剂/【Deprecated】数据结构与算法面试题.md"
+    },
+    {
+      "basename": "面试问题总结【中文】",
+      "path": "5.专题研究/考研调剂复试/面试问题总结【中文】.md"
+    },
+    {
+      "basename": "面试问题总结【英文】",
+      "path": "5.专题研究/考研调剂复试/面试问题总结【英文】.md"
+    },
+    {
+      "basename": "调剂时间线",
+      "path": "5.专题研究/考研调剂复试/调剂/调剂时间线.md"
+    },
+    {
+      "basename": "调剂记录日志",
+      "path": "5.专题研究/考研调剂复试/调剂/调剂记录日志.md"
+    },
+    {
+      "basename": "2024-01-02",
+      "path": "2.等待处理/Diary/2024-01-02.md"
+    },
+    {
+      "basename": "【正则表达式】匹配java的行内注释",
+      "path": "4.归档/工作/工程/正则表达式/【正则表达式】匹配java的行内注释.md"
+    },
+    {
+      "basename": "2024-01-01",
+      "path": "2.等待处理/Diary/2024-01-01.md"
     },
     {
       "basename": "dailynotes",
@@ -43,42 +79,6 @@
     {
       "basename": "2023-07",
       "path": "4.归档/工作/学习周刊/2023/2023-07.md"
-    },
-    {
-      "basename": "Opportunities in AI",
-      "path": "5.专题研究/讲座/Opportunities in AI.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "论文分区",
-      "path": "5.专题研究/读研攻略/论文分区.md"
-    },
-    {
-      "basename": "2023年度总结",
-      "path": "2.等待处理/Diary/Archieve/2023/2023年度总结.md"
-    },
-    {
-      "basename": "2023-08-12",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-08/2023-08-12.md"
-    },
-    {
-      "basename": "2023-07-10",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-07/2023-07-10.md"
-    },
-    {
-      "basename": "2023-07-14",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-07/2023-07-14.md"
-    },
-    {
-      "basename": "2023-07-21",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-07/2023-07-21.md"
-    },
-    {
-      "basename": "2023-06 总结",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-06/2023-06 总结.md"
     }
   ],
   "omittedPaths": [],
