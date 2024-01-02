@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "NPM包管理工具",
-      "path": "4.归档/工作/基础/front/nodejs&npm/NPM包管理工具.md"
-    },
-    {
-      "basename": "_Nodejs知识地图",
-      "path": "4.归档/工作/基础/front/nodejs&npm/_Nodejs知识地图.md"
+      "basename": "2024-01-02",
+      "path": "2.等待处理/Diary/2024-01-02.md"
     },
     {
       "basename": "2024-01-01",
@@ -14,7 +10,23 @@
     },
     {
       "basename": "index",
+      "path": "5.专题研究/考研复试/index.md"
+    },
+    {
+      "basename": "index",
       "path": "2.等待处理/Tasks/index.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
+      "basename": "NPM包管理工具",
+      "path": "4.归档/工作/基础/front/nodejs&npm/NPM包管理工具.md"
+    },
+    {
+      "basename": "_Nodejs知识地图",
+      "path": "4.归档/工作/基础/front/nodejs&npm/_Nodejs知识地图.md"
     },
     {
       "basename": "2023-12-31",
@@ -67,18 +79,6 @@
     {
       "basename": "2023-05 总结",
       "path": "2.等待处理/Diary/Archieve/2023/2023-05/2023-05 总结.md"
-    },
-    {
-      "basename": "2023-04 总结",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-04/2023-04 总结.md"
-    },
-    {
-      "basename": "2023-03 总结",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-03/2023-03 总结.md"
-    },
-    {
-      "basename": "2023-02-03",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-03.md"
     }
   ],
   "omittedPaths": [],

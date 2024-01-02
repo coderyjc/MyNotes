@@ -11,8 +11,13 @@
             "id": "f62baf153e132246",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-02.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -61,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -83,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-01-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,11 +134,13 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-02.md"
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "a8045650fa334fd2",
@@ -145,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-02.md"
+              }
             }
           }
         ]
@@ -188,13 +197,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1f74b340a1d27e17",
+  "active": "54a8f507d382513e",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-01-01.md",
+    "2.等待处理/Diary/2024-01-02.md",
+    "5.专题研究/考研复试/index.md",
+    "2.等待处理/Tasks/index.md",
+    "0.plugin/template/dailynotes.md",
     "4.归档/工作/基础/front/nodejs&npm/NPM包管理工具.md",
     "4.归档/工作/基础/front/nodejs&npm/_Nodejs知识地图.md",
-    "2.等待处理/Diary/2024-01-01.md",
     "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-31.md",
-    "2.等待处理/Tasks/index.md",
     "4.归档/生活/搜索/电子书搜索.md",
     "4.归档/工作/学习周刊/2023/2023-07.md",
     "5.专题研究/讲座/Opportunities in AI.md",
@@ -223,9 +235,6 @@
     "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-13.md",
     "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-19.md",
     "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-22.md",
-    "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-25.md",
-    "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-27.md",
-    "2.等待处理/Diary/Archieve/2023/2023-02/2023-02-28.md",
     "2.等待处理/Diary/Archieve/2023/未命名",
     "2.等待处理/Diary/Archieve/2023/2023-12",
     "2.等待处理/Diary/Archieve/2023/2023-11",

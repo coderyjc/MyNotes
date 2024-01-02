@@ -1,11 +1,7 @@
 ---
 creation date: <% tp.file.creation_date() %>
 tags: DailyNote
-banner: "0.plugin/banners/daily-note-banner.gif"
-banner_y: 0.5536
-banner_x: 0.50168
 cssclass: noyaml
-banner_icon: 💌
 week: <% tp.date.now("YYYY-WW") %>
 ---
 
