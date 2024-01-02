@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "433c20947d12e6e4",
+        "id": "5c9da9cf634e089c",
         "type": "tabs",
         "children": [
           {
-            "id": "35c83ef12f50f4c3",
+            "id": "8ea4e2fdded21b0b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-03.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-01-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-03.md"
+              }
             }
           }
         ],
@@ -144,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-03.md"
+              }
             }
           }
         ]
@@ -186,31 +196,33 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "8ea4e2fdded21b0b",
   "lastOpenFiles": [
-    "5.专题研究/软考/index.md",
-    "5.专题研究/教资/index.md",
-    "5.专题研究/教资",
     "2.等待处理/Diary/2024-01-02.md",
+    "2.等待处理/Diary/2024-01-03.md",
+    "2.等待处理/Diary/2024-01-01.md",
+    "2.等待处理/Tasks/index.md",
     "HOME.md",
+    "5.专题研究/教资/index.md",
+    "5.专题研究/软考/index.md",
+    "5.专题研究/考研调剂复试/index.md",
+    "5.专题研究/考研调剂复试/自我介绍.md",
+    "5.专题研究/考研调剂复试/项目经历.md",
+    "5.专题研究/考研调剂复试/专业相关问题.md",
+    "5.专题研究/考研调剂复试/面试问题总结【中文】.md",
+    "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
+    "5.专题研究/考研调剂复试/如何选择导师.md",
+    "5.专题研究/教资",
     "5.专题研究/软考/assets/Pasted image 20240102195133.png",
     "5.专题研究/软考/assets",
     "5.专题研究/软考",
     "5.专题研究/讲座/Opportunities in AI.md",
-    "2.等待处理/Tasks/index.md",
-    "5.专题研究/考研调剂复试/index.md",
-    "5.专题研究/考研调剂复试/自我介绍.md",
-    "5.专题研究/考研调剂复试/专业相关问题.md",
     "5.专题研究/考研复试/index.md",
-    "5.专题研究/考研调剂复试/如何选择导师.md",
     "4.归档/学习/备考/全国研究生入学考试/考研调剂复试/面试中的其他问题.md",
     "5.专题研究/考研调剂复试/调剂/【Deprecated】数据结构与算法面试题.md",
-    "5.专题研究/考研调剂复试/面试问题总结【中文】.md",
-    "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
     "5.专题研究/考研调剂复试/调剂",
     "5.专题研究/考研调剂复试/调剂/调剂时间线.md",
     "5.专题研究/考研调剂复试/调剂/调剂记录日志.md",
-    "2.等待处理/Diary/2024-01-01.md",
     "0.plugin/template/dailynotes.md",
     "4.归档/工作/基础/front/nodejs&npm/NPM包管理工具.md",
     "4.归档/工作/基础/front/nodejs&npm/_Nodejs知识地图.md",
@@ -227,8 +239,6 @@
     "5.专题研究/讲座/assets/Pasted image 20231231142036.png",
     "5.专题研究/讲座/assets",
     "5.专题研究/讲座",
-    "5.专题研究/读研攻略/论文分区.md",
-    "2.等待处理/Diary/Archieve/2023/2023年度总结.md",
     "2.等待处理/Diary/Archieve/2023/未命名",
     "2.等待处理/Diary/Archieve/2023/2023-12",
     "2.等待处理/Diary/Archieve/2023/2023-11",

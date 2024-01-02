@@ -1,6 +1,6 @@
 复试的时候首先进行[[自我介绍]]，然后提问问题，可能有[[面试问题总结【中文】|中文问题]]或者[[面试问题总结【英文】|英文问题]]
 
-还有[[专业相关问题]]
+还有[[专业相关问题]]，以及[[项目经历]]
 
 复试通过，[[如何选择导师|选择导师]]
 
@@ -13,22 +13,12 @@
 
 ---
 
-大创项目重做和人工智能相关的，yolo部分。
-
-学习【机器学习】
-- Approaching (Almost) Any Machine Learning Problem-Abhishek Thakur https://ytzfhqs.github.io/AAAMLP-CN/%E5%87%86%E5%A4%87%E7%8E%AF%E5%A2%83/
-
-
 复试相关
 
 - 毕设软著
 	- [ ] 用户手册
 	- [ ] 提交上传
 
-- 整理自己历来的项目
-	- [ ] 个人博客 - 进一步完善【低优先级】
-	- [ ] 大创【中优先级】
-	- [ ] 教师资格考试数据管理系统【高优先级】
+机器学习基础：
 
-
-
+- 学习【机器学习】Approaching (Almost) Any Machine Learning Problem-Abhishek Thakur https://ytzfhqs.github.io/AAAMLP-CN/%E5%87%86%E5%A4%87%E7%8E%AF%E5%A2%83/
