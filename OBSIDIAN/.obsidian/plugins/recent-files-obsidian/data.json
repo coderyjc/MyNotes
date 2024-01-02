@@ -5,16 +5,16 @@
       "path": "2.等待处理/Diary/2024-01-02.md"
     },
     {
+      "basename": "index",
+      "path": "2.等待处理/Tasks/index.md"
+    },
+    {
       "basename": "2024-01-01",
       "path": "2.等待处理/Diary/2024-01-01.md"
     },
     {
       "basename": "index",
       "path": "5.专题研究/考研复试/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "2.等待处理/Tasks/index.md"
     },
     {
       "basename": "dailynotes",
