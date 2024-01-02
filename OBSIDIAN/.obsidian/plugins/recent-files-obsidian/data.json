@@ -5,12 +5,16 @@
       "path": "5.专题研究/软考/index.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "index",
+      "path": "5.专题研究/教资/index.md"
     },
     {
       "basename": "2024-01-02",
       "path": "2.等待处理/Diary/2024-01-02.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "Opportunities in AI",
@@ -75,10 +79,6 @@
     {
       "basename": "_Nodejs知识地图",
       "path": "4.归档/工作/基础/front/nodejs&npm/_Nodejs知识地图.md"
-    },
-    {
-      "basename": "2023-12-31",
-      "path": "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-31.md"
     }
   ],
   "omittedPaths": [],
