@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "C语言-知识点",
+      "path": "5.专题研究/考研调剂复试/笔试/C语言-知识点.md"
+    },
+    {
+      "basename": "C语言-题目",
+      "path": "5.专题研究/考研调剂复试/笔试/C语言-题目.md"
+    },
+    {
+      "basename": "数据库",
+      "path": "5.专题研究/考研调剂复试/笔试/数据库.md"
+    },
+    {
       "basename": "2024-01-03",
       "path": "2.等待处理/Diary/2024-01-03.md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "index-tasks",
-      "path": "2.等待处理/Tasks/index-tasks.md"
-    },
-    {
-      "basename": "index-软考",
-      "path": "5.专题研究/软考/index-软考.md"
-    },
-    {
-      "basename": "2024-01-02",
-      "path": "2.等待处理/Diary/2024-01-02.md"
     }
   ],
   "omittedPaths": [],
