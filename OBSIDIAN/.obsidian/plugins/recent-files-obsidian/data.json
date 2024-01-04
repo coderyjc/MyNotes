@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-01-03",
-      "path": "2.等待处理/Diary/2024-01-03.md"
-    },
-    {
       "basename": "2024-01-04",
       "path": "2.等待处理/Diary/2024-01-04.md"
+    },
+    {
+      "basename": "Opportunities in AI",
+      "path": "5.专题研究/讲座/Opportunities in AI.md"
+    },
+    {
+      "basename": "2024-01-03",
+      "path": "2.等待处理/Diary/2024-01-03.md"
     },
     {
       "basename": "2024-01-02",
@@ -75,10 +79,6 @@
     {
       "basename": "index",
       "path": "5.专题研究/考研调剂复试/index.md"
-    },
-    {
-      "basename": "项目经历",
-      "path": "5.专题研究/考研调剂复试/项目经历.md"
     }
   ],
   "omittedPaths": [],
