@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "输入输出相关问题",
+      "path": "5.专题研究/Algorithm/PTA/输入输出相关问题.md"
+    },
+    {
       "basename": "2024-01-04",
       "path": "2.等待处理/Diary/2024-01-04.md"
+    },
+    {
+      "basename": "排序问题",
+      "path": "5.专题研究/Algorithm/PTA/排序问题.md"
+    },
+    {
+      "basename": "deque",
+      "path": "5.专题研究/Algorithm/STL/deque.md"
+    },
+    {
+      "basename": "priority_queue",
+      "path": "5.专题研究/Algorithm/STL/priority_queue.md"
+    },
+    {
+      "basename": "stack",
+      "path": "5.专题研究/Algorithm/STL/stack.md"
+    },
+    {
+      "basename": "STL集合算法",
+      "path": "5.专题研究/Algorithm/STL/STL集合算法.md"
+    },
+    {
+      "basename": "string",
+      "path": "5.专题研究/Algorithm/STL/string.md"
+    },
+    {
+      "basename": "vector",
+      "path": "5.专题研究/Algorithm/STL/vector.md"
+    },
+    {
+      "basename": "排序算法",
+      "path": "5.专题研究/Algorithm/算法专栏/排序算法.md"
+    },
+    {
+      "basename": "希尔排序",
+      "path": "5.专题研究/Algorithm/算法专栏/希尔排序.md"
     },
     {
       "basename": "Opportunities in AI",
@@ -39,46 +79,6 @@
     {
       "basename": "2.短信登录",
       "path": "3.将来可能/黑马点评/2.短信登录.md"
-    },
-    {
-      "basename": "1.项目导入",
-      "path": "3.将来可能/黑马点评/1.项目导入.md"
-    },
-    {
-      "basename": "0.黑马点评项目简介",
-      "path": "3.将来可能/黑马点评/0.黑马点评项目简介.md"
-    },
-    {
-      "basename": "参考项目",
-      "path": "3.将来可能/CSAPP/参考项目.md"
-    },
-    {
-      "basename": "SpringBoot-Basic-QuickStart",
-      "path": "3.将来可能/SpringBoot/basic/SpringBoot-Basic-QuickStart.md"
-    },
-    {
-      "basename": "SpringBoot-Basic-BasicConfig",
-      "path": "3.将来可能/SpringBoot/basic/SpringBoot-Basic-BasicConfig.md"
-    },
-    {
-      "basename": "SpringBoot-Dev-DataLayer",
-      "path": "3.将来可能/SpringBoot/dev/SpringBoot-Dev-DataLayer.md"
-    },
-    {
-      "basename": "SpringBoot-Dev-AdvancedConfig",
-      "path": "3.将来可能/SpringBoot/dev/SpringBoot-Dev-AdvancedConfig.md"
-    },
-    {
-      "basename": "SpringBoot-Integration-Druid",
-      "path": "3.将来可能/SpringBoot/integration/SpringBoot-Integration-Druid.md"
-    },
-    {
-      "basename": "SpringBoot-Integration-JUnit",
-      "path": "3.将来可能/SpringBoot/integration/SpringBoot-Integration-JUnit.md"
-    },
-    {
-      "basename": "index",
-      "path": "5.专题研究/考研调剂复试/index.md"
     }
   ],
   "omittedPaths": [],
