@@ -88,3 +88,19 @@ struct s
 
 位域介绍 https://www.cnblogs.com/bigrabbit/archive/2012/09/20/2695543.html
 
+**以下代码的运行结果是**
+
+```c
+char a[3];
+char b[] = "good";
+a = b;
+printf("%s", a);
+```
+
+> 编译出错。数组的首地址是指针常量而不是指针变量，无法相互赋值。
+> 同理  ` float a[10], x;` 语句 a = &x; 是非法的，因为常量不能作为左值
+
+
+
+
+

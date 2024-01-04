@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
+                "file": "5.专题研究/考研调剂复试/笔试/C语言-知识点.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
+                "file": "5.专题研究/考研调剂复试/笔试/C语言-知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/Algorithm/PTA/输入输出相关问题.md"
+                "file": "5.专题研究/考研调剂复试/笔试/C语言-知识点.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/Algorithm/PTA/输入输出相关问题.md"
+                "file": "5.专题研究/考研调剂复试/笔试/C语言-知识点.md"
               }
             }
           }
@@ -196,8 +196,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "4da8ce5f20fe181b",
   "lastOpenFiles": [
+    "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
+    "5.专题研究/考研调剂复试/笔试/C语言-知识点.md",
+    "5.专题研究/考研调剂复试/笔试/assets/Pasted image 20240104103941.png",
+    "5.专题研究/考研调剂复试/笔试/assets",
     "2.等待处理/Diary/2024-01-04.md",
     "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
     "5.专题研究/Algorithm/PTA/排序问题.md",
@@ -212,8 +216,6 @@
     "2.等待处理/Diary/2024-01-03.md",
     "5.专题研究/讲座/Opportunities in AI.md",
     "2.等待处理/Diary/2024-01-02.md",
-    "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
-    "5.专题研究/考研调剂复试/笔试/C语言-知识点.md",
     "5.专题研究/考研调剂复试/笔试/数据库.md",
     "5.专题研究/考研调剂复试/笔试",
     "3.将来可能/操作系统导论/4.抽象：进程.md",
@@ -224,7 +226,6 @@
     "3.将来可能/JavaWeb/Servlet错误.md",
     "3.将来可能/JavaWeb/Servlet.md",
     "3.将来可能/SpringBoot/basic/SpringBoot-Basic-QuickStart.md",
-    "3.将来可能/SpringBoot/basic/SpringBoot-Basic-BasicConfig.md",
     "5.专题研究/教资",
     "5.专题研究/软考/assets/Pasted image 20240102195133.png",
     "5.专题研究/软考/assets",
@@ -241,8 +242,6 @@
     "5.专题研究/讲座/assets",
     "5.专题研究/讲座",
     "2.等待处理/Diary/Archieve/2023/未命名",
-    "2.等待处理/Diary/Archieve/2023/2023-12",
-    "2.等待处理/Diary/Archieve/2023/2023-11",
-    "5.专题研究/考研复试/assets/Pasted image 20231225113426.png"
+    "2.等待处理/Diary/Archieve/2023/2023-12"
   ]
 }
