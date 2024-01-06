@@ -1,12 +1,12 @@
 {
   "cookies": [
     {
-      "name": "wr_gid",
-      "value": "249099900"
+      "name": "wr_fp",
+      "value": "500694873"
     },
     {
-      "name": "wr_fp",
-      "value": "2682253555"
+      "name": "wr_gid",
+      "value": "215461900"
     },
     {
       "name": "wr_vid",
@@ -14,7 +14,7 @@
     },
     {
       "name": "wr_skey",
-      "value": "D3F29Xft"
+      "value": "osuRdS1U"
     },
     {
       "name": "wr_pf",
@@ -22,7 +22,7 @@
     },
     {
       "name": "wr_rt",
-      "value": "web@cRAcSckcYBvqLDla7ZA_WL"
+      "value": "web@v95bObng3aYgfmsNJVE_AL"
     },
     {
       "name": "wr_localvid",
@@ -34,19 +34,19 @@
     },
     {
       "name": "wr_avatar",
-      "value": "https://thirdwx.qlogo.cn/mmopen/vi_32/xV9WEWsibibViareWfJQsaK63Ft2EEHHTs7h5NGOST6g9FjpecnhXC4BY7UOOBEfVic5xs4khWEmDLw6atbtBAHzKg/132"
+      "value": "https://res.weread.qq.com/wravatar/WV0031-stMfW9uED3QDCx56oWMbAd5/0"
     },
     {
       "name": "wr_gender",
       "value": "1"
     }
   ],
-  "noteLocation": "1.收集箱/wechat_notes",
+  "noteLocation": "4.归档/学习/读书/微信读书同步",
   "dailyNotesLocation": "/",
   "insertAfter": "<!-- start of weread -->",
   "insertBefore": "<!-- end of weread -->",
   "dailyNotesFormat": "YYYY-MM-DD",
-  "lastCookieTime": 1684997024397,
+  "lastCookieTime": 1704528775745,
   "isCookieValid": true,
   "user": "行知",
   "userVid": "360415329",
@@ -54,5 +54,7 @@
   "noteCountLimit": -1,
   "subFolderType": "category",
   "fileNameType": "BOOK_NAME",
-  "dailyNotesToggle": false
+  "dailyNotesToggle": false,
+  "notesBlacklist": "",
+  "showEmptyChapterTitleToggle": false
 }

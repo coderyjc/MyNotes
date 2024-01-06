@@ -6,7 +6,7 @@ banner: "_plugin/banners/book-banner.gif"
 banner_x: 0.5
 banner_y: undefined
 banner_icon: 
----
+---**
 
 
 ```dataviewjs

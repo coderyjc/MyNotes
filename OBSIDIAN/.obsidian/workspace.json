@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f0646184dc0fa833",
+        "id": "d567a0c6ee9a8e98",
         "type": "tabs",
         "children": [
           {
-            "id": "64204865bdf8697f",
+            "id": "485642c9c769944e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/专业/基础/software/pycharm/plugin-pycharm.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2024-01-06.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 31.434599156118143,
+        "dimension": 31.856540084388186,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/专业/基础/software/pycharm/plugin-pycharm.md",
+                "file": "2.等待处理/Diary/2024-01-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,17 +135,17 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/专业/基础/software/pycharm/plugin-pycharm.md"
+                "file": "2.等待处理/Diary/2024-01-06.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 35.54852320675106,
+        "dimension": 35.12658227848101,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/专业/基础/software/pycharm/plugin-pycharm.md"
+                "file": "2.等待处理/Diary/2024-01-06.md"
               }
             }
           }
@@ -181,40 +181,49 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:查看关系图谱": false,
+      "obsidian-weread-plugin:同步微信读书笔记": false,
       "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false
+      "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "64204865bdf8697f",
+  "active": "485642c9c769944e",
   "lastOpenFiles": [
-    "4.归档/学习/专业/基础/software/chrome/plugins/RSSHub Radar.md",
-    "4.归档/学习/专业/基础/software/vim/README.md",
-    "4.归档/学习/专业/基础/software/chrome/plugins/ImageAssistant Batch Image Downloader.md",
-    "4.归档/学习/专业/基础/software/chrome/plugins/Git Master.md",
-    "4.归档/学习/专业/基础/software/chrome/plugins/Dark Reader.md",
-    "4.归档/学习/专业/基础/software/chrome/plugins/Adblock Plus.md",
-    "4.归档/学习/专业/基础/software/chrome/plugins/微信读书助手.md",
-    "4.归档/学习/专业/基础/software/chrome/Chrome插件合集.md",
-    "4.归档/学习/专业/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md",
-    "4.归档/学习/专业/工程/后端框架/MyBatisPlus/BindingException.md",
-    "4.归档/学习/专业/工程/环境问题相关/Docker安装与卸载.md",
-    "4.归档/学习/专业/工程/环境问题相关/百度云服务器网络连接问题.md",
-    "4.归档/学习/专业/工程/浏览器相关/FireFox浏览器调试问题汇总.md",
-    "4.归档/学习/专业/工程/浏览器相关/FireFox访问问题.md",
-    "4.归档/学习/专业/工程/浏览器相关/Chrome浏览器调试问题汇总.md",
-    "4.归档/学习/专业/工程/前端框架/Axios/Axios.md",
-    "2.等待处理/Diary/2024-01-06.md",
-    "4.归档/学习/专业/基础/db/redis/Redis/redis-install.md",
-    "4.归档/学习/专业/基础/db/redis/Redis/redis-basic.md",
-    "4.归档/学习/专业/基础/db/redis/Redis/redis-advanced.md",
+    "1.收集箱/resources/axutongxue.md",
+    "1.收集箱/resources/知乎严选免费查看的地址.md",
+    "1.收集箱/dashboard/warehouse.md",
+    "1.收集箱/dashboard/tag-summary.md",
+    "1.收集箱/dashboard/tag-retrieve.md",
+    "未命名.md",
+    "0.plugin/template/index.md",
+    "0.plugin/template/Journal.md",
+    "0.plugin/template/game_hades.md",
+    "0.plugin/template/game_mc_instruction.md",
+    "0.plugin/template/dailynotes.md",
+    "0.plugin/template/codeblock_python.md",
+    "0.plugin/template/algorithm_leetcode.md",
+    "0.plugin/template/beautify_random_gradient.md",
+    "0.plugin/template/codeblock_java_mvc.md",
+    "0.plugin/template/chart_study_time_statistic.md",
+    "0.plugin/template/nav.md",
+    "0.plugin/template/weeklynotes.md",
+    "0.plugin/reactjs/react_cat.md",
+    "0.plugin/reactjs/react_buttons.md",
+    "0.plugin/reactjs/moc.md",
+    "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
+    "0.plugin/dataviewjs/DEMO.md",
+    "0.plugin/components/Colorful-Clock.md",
+    "4.归档/学习/专业/扩展/博客相关/Hexo/Hexo添加搜索文章功能.md",
+    "4.归档/学习/专业/扩展/windows/【系统重装】使用EasyU PE重装系统.md",
+    "4.归档/学习/读书/微信读书同步/政治军事",
+    "4.归档/学业",
+    "4.归档/学习/读书",
     "4.归档/学习/专业/基础/db/redis/Redis/assets",
     "4.归档/学习/专业/基础/db/mysql/assets/where.png",
     "4.归档/学习/专业/基础/db/mysql/assets/usort.png",
@@ -227,19 +236,10 @@
     "4.归档/学习/专业/基础/db/mysql/assets/temp1.png",
     "4.归档/学习/专业/基础/db/mysql/assets/subqueryup2.png",
     "4.归档/学习/专业/基础/db/redis/Redis",
-    "4.归档/学习/专业/基础/db/redis/README.md",
-    "4.归档/学习/专业/基础/db/redis/jedis.md",
-    "4.归档/学习/专业/基础/db/mysql/索引优化分析.md",
-    "4.归档/学习/专业/基础/db/mysql/数据库设计三范式.md",
-    "4.归档/学习/专业/基础/db/mysql/存储引擎（了解）.md",
-    "4.归档/学习/专业/基础/db/mysql/MySQL高级-索引优化分析.md",
     "4.归档/学习/专业/基础/db/mysql/assets",
     "4.归档/学习/专业/基础/db/redis",
     "4.归档/学习/专业/基础/db/mysql",
     "4.归档/学习/专业/基础/db",
-    "4.归档/学习/专业/基础/front/webpack/resource/Webpack.xmind",
-    "4.归档/学习/专业/基础/front/vue.js/vue-component/assets",
-    "4.归档/学习/专业/基础/front/vue.js/vue-basic/assets",
-    "4.归档/学习/专业/基础/front/other/Uni-App/images"
+    "4.归档/学习/专业/基础/front/webpack/resource/Webpack.xmind"
   ]
 }

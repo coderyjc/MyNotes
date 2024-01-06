@@ -1,3 +1,8 @@
+---
+tags: WSL2
+---
+
+
 ```ad-cite
 Ref: https://zhuanlan.zhihu.com/p/466001838
 ```

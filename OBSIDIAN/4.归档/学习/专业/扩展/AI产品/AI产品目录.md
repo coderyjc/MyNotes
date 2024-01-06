@@ -1,3 +1,7 @@
+---
+tags: AI产品
+---
+
 ## 免费AI产品
 
 【完全免费，无需注册】对话式AI https://open-assistant.io/zh
