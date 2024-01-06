@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d567a0c6ee9a8e98",
+        "id": "422118ec52ead76f",
         "type": "tabs",
         "children": [
           {
-            "id": "485642c9c769944e",
+            "id": "a667e1672e73e833",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-06.md",
+                "file": "3.将来可能/CSAPP/参考项目.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-06.md",
+                "file": "3.将来可能/CSAPP/参考项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-06.md"
+                "file": "3.将来可能/CSAPP/参考项目.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-06.md"
+                "file": "3.将来可能/CSAPP/参考项目.md"
               }
             }
           }
@@ -183,63 +183,63 @@
       "graph:查看关系图谱": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "remotely-save:Remotely Save": false,
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "485642c9c769944e",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "1.收集箱/resources/axutongxue.md",
-    "1.收集箱/resources/知乎严选免费查看的地址.md",
-    "1.收集箱/dashboard/warehouse.md",
-    "1.收集箱/dashboard/tag-summary.md",
-    "1.收集箱/dashboard/tag-retrieve.md",
-    "未命名.md",
-    "0.plugin/template/index.md",
-    "0.plugin/template/Journal.md",
-    "0.plugin/template/game_hades.md",
-    "0.plugin/template/game_mc_instruction.md",
-    "0.plugin/template/dailynotes.md",
-    "0.plugin/template/codeblock_python.md",
-    "0.plugin/template/algorithm_leetcode.md",
-    "0.plugin/template/beautify_random_gradient.md",
-    "0.plugin/template/codeblock_java_mvc.md",
-    "0.plugin/template/chart_study_time_statistic.md",
-    "0.plugin/template/nav.md",
-    "0.plugin/template/weeklynotes.md",
-    "0.plugin/reactjs/react_cat.md",
-    "0.plugin/reactjs/react_buttons.md",
-    "0.plugin/reactjs/moc.md",
-    "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
-    "0.plugin/dataviewjs/DEMO.md",
-    "0.plugin/components/Colorful-Clock.md",
-    "4.归档/学习/专业/扩展/博客相关/Hexo/Hexo添加搜索文章功能.md",
-    "4.归档/学习/专业/扩展/windows/【系统重装】使用EasyU PE重装系统.md",
-    "4.归档/学习/读书/微信读书同步/政治军事",
-    "4.归档/学业",
-    "4.归档/学习/读书",
-    "4.归档/学习/专业/基础/db/redis/Redis/assets",
-    "4.归档/学习/专业/基础/db/mysql/assets/where.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/usort.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/unoin.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/unique.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/uncacheable.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/timecplx1.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/timecplx2.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/temp2.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/temp1.png",
-    "4.归档/学习/专业/基础/db/mysql/assets/subqueryup2.png",
-    "4.归档/学习/专业/基础/db/redis/Redis",
-    "4.归档/学习/专业/基础/db/mysql/assets",
-    "4.归档/学习/专业/基础/db/redis",
-    "4.归档/学习/专业/基础/db/mysql",
-    "4.归档/学习/专业/基础/db",
-    "4.归档/学习/专业/基础/front/webpack/resource/Webpack.xmind"
+    "4.归档/学习/外语",
+    "4.归档/学习/专业/基础/java/spring/springboot/springboot-basic.md",
+    "3.将来可能/README.md",
+    "3.将来可能/SpringBoot/SpringBoot知识地图.md",
+    "3.将来可能/SpringBoot/principle/SpringBoot-Principle-Starter.md",
+    "3.将来可能/SpringBoot/principle/SpringBoot-Principle-Bootloader.md",
+    "3.将来可能/SpringBoot/operation/SpringBoot-Operation-PackAndRun.md",
+    "3.将来可能/SpringBoot/operation/SpringBoot-Operation-MultiEnv.md",
+    "3.将来可能/SpringBoot/operation/SpringBoot-Operation-Log.md",
+    "3.将来可能/SpringBoot/integration/SpringBoot-Integration-SSMP.md",
+    "3.将来可能/SpringBoot/integration/SpringBoot-Integration-MyBatis.md",
+    "3.将来可能/SpringBoot/integration/SpringBoot-Integration-JUnit.md",
+    "3.将来可能/SpringBoot/dev/SpringBoot-Dev-HotDeploy.md",
+    "3.将来可能/SpringBoot/dev/SpringBoot-Dev-Testing.md",
+    "3.将来可能/SpringBoot/dev/SpringBoot-Dev-DataLayer.md",
+    "3.将来可能/SpringBoot/dev/SpringBoot-Dev-AdvancedConfig.md",
+    "3.将来可能/SpringBoot/basic/SpringBoot-Basic-QuickStart.md",
+    "3.将来可能/SpringBoot/basic/SpringBoot-Basic-BasicConfig.md",
+    "5.专题研究/python-pandas/_Pandas.md",
+    "5.专题研究/python-pandas/Pandas基础.md",
+    "5.专题研究/python-pandas/文本数据.md",
+    "5.专题研究/python-pandas/缺失数据.md",
+    "5.专题研究/python-pandas/连接.md",
+    "3.将来可能/leetcode/1.两数之和.md",
+    "3.将来可能/leetcode/LeetCode-Hot-100.md",
+    "4.归档/学习/专业/基础/python/django/表单处理.md",
+    "4.归档/学习/1.修身/人际关系/和导师",
+    "4.归档/学习/1.修身/考研择校/分数公示/南昌大学.pdf",
+    "4.归档/学习/1.修身/考研择校/分数公示/安徽大学.pdf",
+    "4.归档/学习/1.修身/考研择校/复试线",
+    "4.归档/学习/1.修身/考研择校/分数公示/广西大学.xlsx",
+    "4.归档/学习/1.修身/考研择校/考情分析",
+    "4.归档/学习/1.修身/考研择校/分数公示/中国矿业大学.pdf",
+    "4.归档/学习/1.修身/考研择校/分数公示/西南交通大学.pdf",
+    "4.归档/学习/1.修身/考研择校/分数公示/西南大学软件学院.pdf",
+    "4.归档/学习/1.修身/考研择校/分数公示/华南师范软件学院.pdf",
+    "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430201518.png",
+    "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200334.png",
+    "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200330.png",
+    "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200218.png",
+    "4.归档/学习/1.修身/考研择校/复试线/assets/Pasted image 20230404092947.png",
+    "4.归档/学习/1.修身/考研择校/复试线/assets/Pasted image 20230404092934.png",
+    "4.归档/学习/1.修身/考研择校/复试线/assets/Pasted image 20230404092920.png",
+    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211113.png",
+    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211103.png",
+    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211057.png"
   ]
 }
