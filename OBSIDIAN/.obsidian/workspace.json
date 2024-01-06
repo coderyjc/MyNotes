@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "422118ec52ead76f",
+        "id": "fd129afc9148e365",
         "type": "tabs",
         "children": [
           {
-            "id": "a667e1672e73e833",
+            "id": "13e30e8b86d235f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.将来可能/CSAPP/参考项目.md",
+                "file": "2.等待处理/Tasks/index-tasks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.将来可能/CSAPP/参考项目.md",
+                "file": "2.等待处理/Tasks/index-tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "3.将来可能/CSAPP/参考项目.md"
+                "file": "2.等待处理/Tasks/index-tasks.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.将来可能/CSAPP/参考项目.md"
+                "file": "2.等待处理/Tasks/index-tasks.md"
               }
             }
           }
@@ -193,8 +193,20 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "13e30e8b86d235f6",
   "lastOpenFiles": [
+    "HOME.md",
+    "2.等待处理/Diary/2024-01-06.md",
+    "2.等待处理/Diary/delete.md",
+    "2.等待处理/Diary/Archieve/2024/2023-.md",
+    "2.等待处理/Diary/Archieve/2024",
+    "2.等待处理/Diary/2023-05-10.md",
+    "2.等待处理/Diary/2023-05-09.md",
+    "5.专题研究/考研调剂复试/专业相关问题.md",
+    "5.专题研究/考研调剂复试/项目经历.md",
+    "5.专题研究/读研攻略/论文分区.md",
+    "5.专题研究/读研攻略/index.md",
+    "3.将来可能/CSAPP/参考项目.md",
     "4.归档/学习/外语",
     "4.归档/学习/专业/基础/java/spring/springboot/springboot-basic.md",
     "3.将来可能/README.md",
@@ -211,16 +223,6 @@
     "3.将来可能/SpringBoot/dev/SpringBoot-Dev-Testing.md",
     "3.将来可能/SpringBoot/dev/SpringBoot-Dev-DataLayer.md",
     "3.将来可能/SpringBoot/dev/SpringBoot-Dev-AdvancedConfig.md",
-    "3.将来可能/SpringBoot/basic/SpringBoot-Basic-QuickStart.md",
-    "3.将来可能/SpringBoot/basic/SpringBoot-Basic-BasicConfig.md",
-    "5.专题研究/python-pandas/_Pandas.md",
-    "5.专题研究/python-pandas/Pandas基础.md",
-    "5.专题研究/python-pandas/文本数据.md",
-    "5.专题研究/python-pandas/缺失数据.md",
-    "5.专题研究/python-pandas/连接.md",
-    "3.将来可能/leetcode/1.两数之和.md",
-    "3.将来可能/leetcode/LeetCode-Hot-100.md",
-    "4.归档/学习/专业/基础/python/django/表单处理.md",
     "4.归档/学习/1.修身/人际关系/和导师",
     "4.归档/学习/1.修身/考研择校/分数公示/南昌大学.pdf",
     "4.归档/学习/1.修身/考研择校/分数公示/安徽大学.pdf",
@@ -229,8 +231,6 @@
     "4.归档/学习/1.修身/考研择校/考情分析",
     "4.归档/学习/1.修身/考研择校/分数公示/中国矿业大学.pdf",
     "4.归档/学习/1.修身/考研择校/分数公示/西南交通大学.pdf",
-    "4.归档/学习/1.修身/考研择校/分数公示/西南大学软件学院.pdf",
-    "4.归档/学习/1.修身/考研择校/分数公示/华南师范软件学院.pdf",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430201518.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200334.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200330.png",
