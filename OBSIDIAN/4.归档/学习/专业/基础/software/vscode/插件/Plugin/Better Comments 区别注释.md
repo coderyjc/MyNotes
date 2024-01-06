@@ -1,0 +1,17 @@
+---
+type: 代码格式化
+name: Better Comments
+ootb: 1
+recommendation: 8
+create_date: 2022-02-08
+---
+
+![[../../../../../工程/服务器相关/Linux/assets/Pasted image 20220213170017.png]]
+
+# Better Comments 区别注释
+
+https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+
+## 特点
+
+![[../../../../../工程/服务器相关/Linux/assets/Pasted image 20220213170347.png]]

@@ -1,87 +1,47 @@
 {
   "recentFiles": [
     {
-      "basename": "电子书搜索",
-      "path": "4.归档/生活/搜索/电子书搜索.md"
+      "basename": "03.将数据展现在前端",
+      "path": "4.归档/学习/专业/项目/QQ消息记录数据分析/03.将数据展现在前端.md"
     },
     {
-      "basename": "2023-07",
-      "path": "4.归档/工作/学习周刊/2023/2023-07.md"
+      "basename": "02.使用Python分析聊天记录数据",
+      "path": "4.归档/学习/专业/项目/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md"
     },
     {
-      "basename": "2024-01-04",
-      "path": "2.等待处理/Diary/2024-01-04.md"
+      "basename": "2023-15",
+      "path": "4.归档/学习/专业/学习周刊/2023/2023-15.md"
     },
     {
-      "basename": "2024-01-05",
-      "path": "2.等待处理/Diary/2024-01-05.md"
+      "basename": "2023-16",
+      "path": "4.归档/学习/专业/学习周刊/2023/2023-16.md"
     },
     {
-      "basename": "2024-01-06",
-      "path": "2.等待处理/Diary/2024-01-06.md"
+      "basename": "2023-14",
+      "path": "4.归档/学习/专业/学习周刊/2023/2023-14.md"
     },
     {
-      "basename": "日月1-两极（一刀流）",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/流派/日月1-两极（一刀流）.md"
+      "basename": "2023-13",
+      "path": "4.归档/学习/专业/学习周刊/2023/2023-13.md"
     },
     {
-      "basename": "万剑",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/流派/万剑.md"
+      "basename": "2023-12",
+      "path": "4.归档/学习/专业/学习周刊/2023/2023-12.md"
     },
     {
-      "basename": "神行1-神行",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/流派/神行1-神行.md"
+      "basename": "2023-11",
+      "path": "4.归档/学习/专业/学习周刊/2023/2023-11.md"
     },
     {
-      "basename": "C语言-知识点",
-      "path": "5.专题研究/考研调剂复试/笔试/C语言-知识点.md"
+      "basename": "2023-10",
+      "path": "4.归档/学习/专业/学习周刊/2023/2023-10.md"
     },
     {
-      "basename": "C语言-题目",
-      "path": "5.专题研究/考研调剂复试/笔试/C语言-题目.md"
-    },
-    {
-      "basename": "输入输出相关问题",
-      "path": "5.专题研究/Algorithm/PTA/输入输出相关问题.md"
-    },
-    {
-      "basename": "排序问题",
-      "path": "5.专题研究/Algorithm/PTA/排序问题.md"
-    },
-    {
-      "basename": "deque",
-      "path": "5.专题研究/Algorithm/STL/deque.md"
-    },
-    {
-      "basename": "priority_queue",
-      "path": "5.专题研究/Algorithm/STL/priority_queue.md"
-    },
-    {
-      "basename": "stack",
-      "path": "5.专题研究/Algorithm/STL/stack.md"
-    },
-    {
-      "basename": "STL集合算法",
-      "path": "5.专题研究/Algorithm/STL/STL集合算法.md"
-    },
-    {
-      "basename": "string",
-      "path": "5.专题研究/Algorithm/STL/string.md"
-    },
-    {
-      "basename": "vector",
-      "path": "5.专题研究/Algorithm/STL/vector.md"
-    },
-    {
-      "basename": "排序算法",
-      "path": "5.专题研究/Algorithm/算法专栏/排序算法.md"
-    },
-    {
-      "basename": "希尔排序",
-      "path": "5.专题研究/Algorithm/算法专栏/希尔排序.md"
+      "basename": "2023-09",
+      "path": "4.归档/学习/专业/学习周刊/2023/2023-09.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": 20,
+  "maxLength": 10,
   "openType": "tab"
 }

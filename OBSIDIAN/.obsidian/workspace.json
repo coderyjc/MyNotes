@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11ce81ac2afd3c6a",
+        "id": "0c690fd1f25914a0",
         "type": "tabs",
         "children": [
           {
-            "id": "8388239cc3f2f02f",
+            "id": "e698bb2cf40021a9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zlib",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,12 +132,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 35.970464135021096,
+        "dimension": 35.54852320675106,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -152,7 +152,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 32.594936708860764,
+        "dimension": 33.016877637130804,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -171,54 +171,52 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:查看关系图谱": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-weread-plugin:Weread": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "8388239cc3f2f02f",
+  "active": "e698bb2cf40021a9",
   "lastOpenFiles": [
-    "4.归档/生活/搜索/电子书搜索.md",
-    "4.归档/工作/学习周刊/2023/2023-07.md",
-    "2.等待处理/Diary/2024-01-04.md",
-    "2.等待处理/Diary/2024-01-05.md",
+    "4.归档/学习/专业/项目/QQ消息记录数据分析/03.将数据展现在前端.md",
+    "4.归档/学习/专业/项目/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-15.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-16.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-14.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-13.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-12.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-11.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-10.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-09.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-08.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-07.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-06.md",
+    "HOME.md",
+    "4.归档/工作/学习周刊/2023-13.md.nssyncsc",
+    "4.归档/工作/学习周刊/2023/2023-05.md",
     "2.等待处理/Diary/2024-01-06.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/日月1-两极（一刀流）.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/万剑.md",
+    "4.归档/学习/专业/基础/about/README.md",
+    "4.归档/学习/专业/基础/about/log.md",
+    "4.归档/工作/基础/about/Plan.md",
+    "4.归档/生活/搜索/浏览器使用技巧.md",
+    "4.归档/生活/搜索/电子书搜索.md",
+    "4.归档/学习/专业/扩展/云服务器相关/七牛云搭建Obsidian存储.md",
+    "4.归档/工作/扩展/云服务器相关/域名的购买和认证.md",
+    "4.归档/学习/专业/扩展/AI产品/Prompt Engineering-吴恩达.md",
+    "4.归档/学习/专业/扩展/AI产品/Prompt Engineering.md",
+    "3.将来可能/英语外刊/Journal-2023-06-24.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/流派/未命名.md.nssyncsc",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/神行1-神行.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/冰2-.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派圣物搭配.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/流派",
     "4.归档/生活/游戏/【WarmSnow】暖雪",
-    "5.专题研究/考研调剂复试/笔试/C语言-知识点.md",
-    "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
     "5.专题研究/考研调剂复试/笔试/assets/Pasted image 20240104103941.png",
     "5.专题研究/考研调剂复试/笔试/assets",
-    "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
-    "5.专题研究/Algorithm/PTA/排序问题.md",
-    "5.专题研究/Algorithm/STL/deque.md",
-    "5.专题研究/Algorithm/STL/priority_queue.md",
-    "5.专题研究/Algorithm/STL/stack.md",
-    "5.专题研究/Algorithm/STL/STL集合算法.md",
-    "5.专题研究/Algorithm/STL/string.md",
-    "5.专题研究/Algorithm/STL/vector.md",
-    "5.专题研究/Algorithm/算法专栏/排序算法.md",
-    "5.专题研究/Algorithm/算法专栏/希尔排序.md",
-    "2.等待处理/Diary/2024-01-03.md",
-    "5.专题研究/讲座/Opportunities in AI.md",
-    "2.等待处理/Diary/2024-01-02.md",
-    "5.专题研究/考研调剂复试/笔试/数据库.md",
     "5.专题研究/考研调剂复试/笔试",
     "5.专题研究/教资",
     "5.专题研究/软考/assets/Pasted image 20240102195133.png",
@@ -232,7 +230,6 @@
     "5.专题研究/讲座/assets/Pasted image 20231231142830.png",
     "5.专题研究/讲座/assets/Pasted image 20231231142450.png",
     "5.专题研究/讲座/assets/Pasted image 20231231142214.png",
-    "5.专题研究/讲座/assets/Pasted image 20231231142036.png",
-    "5.专题研究/讲座/assets"
+    "5.专题研究/讲座/assets/Pasted image 20231231142036.png"
   ]
 }
