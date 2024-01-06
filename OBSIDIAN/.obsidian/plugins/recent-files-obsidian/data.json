@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "电子书搜索",
+      "path": "4.归档/生活/搜索/电子书搜索.md"
+    },
+    {
+      "basename": "2023-07",
+      "path": "4.归档/工作/学习周刊/2023/2023-07.md"
+    },
+    {
+      "basename": "2024-01-04",
+      "path": "2.等待处理/Diary/2024-01-04.md"
+    },
+    {
+      "basename": "2024-01-05",
+      "path": "2.等待处理/Diary/2024-01-05.md"
+    },
+    {
+      "basename": "2024-01-06",
+      "path": "2.等待处理/Diary/2024-01-06.md"
+    },
+    {
       "basename": "日月1-两极（一刀流）",
       "path": "4.归档/生活/游戏/【WarmSnow】暖雪/流派/日月1-两极（一刀流）.md"
     },
@@ -11,14 +31,6 @@
     {
       "basename": "神行1-神行",
       "path": "4.归档/生活/游戏/【WarmSnow】暖雪/流派/神行1-神行.md"
-    },
-    {
-      "basename": "2024-01-05",
-      "path": "2.等待处理/Diary/2024-01-05.md"
-    },
-    {
-      "basename": "2024-01-04",
-      "path": "2.等待处理/Diary/2024-01-04.md"
     },
     {
       "basename": "C语言-知识点",
@@ -67,18 +79,6 @@
     {
       "basename": "希尔排序",
       "path": "5.专题研究/Algorithm/算法专栏/希尔排序.md"
-    },
-    {
-      "basename": "Opportunities in AI",
-      "path": "5.专题研究/讲座/Opportunities in AI.md"
-    },
-    {
-      "basename": "2024-01-03",
-      "path": "2.等待处理/Diary/2024-01-03.md"
-    },
-    {
-      "basename": "2024-01-02",
-      "path": "2.等待处理/Diary/2024-01-02.md"
     }
   ],
   "omittedPaths": [],
