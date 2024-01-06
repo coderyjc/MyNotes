@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0c690fd1f25914a0",
+        "id": "f0646184dc0fa833",
         "type": "tabs",
         "children": [
           {
-            "id": "e698bb2cf40021a9",
+            "id": "64204865bdf8697f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/学习/专业/基础/software/pycharm/plugin-pycharm.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.51103591918945
+    "width": 361.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/学习/专业/基础/software/pycharm/plugin-pycharm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "4.归档/学习/专业/基础/software/pycharm/plugin-pycharm.md"
+              }
             }
           }
         ],
@@ -144,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/学习/专业/基础/software/pycharm/plugin-pycharm.md"
+              }
             }
           }
         ]
@@ -183,53 +193,53 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "e698bb2cf40021a9",
+  "active": "64204865bdf8697f",
   "lastOpenFiles": [
-    "4.归档/学习/专业/项目/QQ消息记录数据分析/03.将数据展现在前端.md",
-    "4.归档/学习/专业/项目/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-15.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-16.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-14.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-13.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-12.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-11.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-10.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-09.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-08.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-07.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-06.md",
-    "HOME.md",
-    "4.归档/工作/学习周刊/2023-13.md.nssyncsc",
-    "4.归档/工作/学习周刊/2023/2023-05.md",
+    "4.归档/学习/专业/基础/software/chrome/plugins/RSSHub Radar.md",
+    "4.归档/学习/专业/基础/software/vim/README.md",
+    "4.归档/学习/专业/基础/software/chrome/plugins/ImageAssistant Batch Image Downloader.md",
+    "4.归档/学习/专业/基础/software/chrome/plugins/Git Master.md",
+    "4.归档/学习/专业/基础/software/chrome/plugins/Dark Reader.md",
+    "4.归档/学习/专业/基础/software/chrome/plugins/Adblock Plus.md",
+    "4.归档/学习/专业/基础/software/chrome/plugins/微信读书助手.md",
+    "4.归档/学习/专业/基础/software/chrome/Chrome插件合集.md",
+    "4.归档/学习/专业/工程/后端框架/MyBatisPlus/NoClassDefFoundError.md",
+    "4.归档/学习/专业/工程/后端框架/MyBatisPlus/BindingException.md",
+    "4.归档/学习/专业/工程/环境问题相关/Docker安装与卸载.md",
+    "4.归档/学习/专业/工程/环境问题相关/百度云服务器网络连接问题.md",
+    "4.归档/学习/专业/工程/浏览器相关/FireFox浏览器调试问题汇总.md",
+    "4.归档/学习/专业/工程/浏览器相关/FireFox访问问题.md",
+    "4.归档/学习/专业/工程/浏览器相关/Chrome浏览器调试问题汇总.md",
+    "4.归档/学习/专业/工程/前端框架/Axios/Axios.md",
     "2.等待处理/Diary/2024-01-06.md",
-    "4.归档/学习/专业/基础/about/README.md",
-    "4.归档/学习/专业/基础/about/log.md",
-    "4.归档/工作/基础/about/Plan.md",
-    "4.归档/生活/搜索/浏览器使用技巧.md",
-    "4.归档/生活/搜索/电子书搜索.md",
-    "4.归档/学习/专业/扩展/云服务器相关/七牛云搭建Obsidian存储.md",
-    "4.归档/工作/扩展/云服务器相关/域名的购买和认证.md",
-    "4.归档/学习/专业/扩展/AI产品/Prompt Engineering-吴恩达.md",
-    "4.归档/学习/专业/扩展/AI产品/Prompt Engineering.md",
-    "3.将来可能/英语外刊/Journal-2023-06-24.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/未命名.md.nssyncsc",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派",
-    "4.归档/生活/游戏/【WarmSnow】暖雪",
-    "5.专题研究/考研调剂复试/笔试/assets/Pasted image 20240104103941.png",
-    "5.专题研究/考研调剂复试/笔试/assets",
-    "5.专题研究/考研调剂复试/笔试",
-    "5.专题研究/教资",
-    "5.专题研究/软考/assets/Pasted image 20240102195133.png",
-    "5.专题研究/软考/assets",
-    "5.专题研究/软考",
-    "5.专题研究/考研调剂复试/调剂",
-    "5.专题研究/讲座/assets/Pasted image 20231231152308.png",
-    "5.专题研究/讲座/assets/Pasted image 20231231151109.png",
-    "5.专题研究/讲座/assets/Pasted image 20231231145640.png",
-    "5.专题研究/讲座/assets/Pasted image 20231231143609.png",
-    "5.专题研究/讲座/assets/Pasted image 20231231142830.png",
-    "5.专题研究/讲座/assets/Pasted image 20231231142450.png",
-    "5.专题研究/讲座/assets/Pasted image 20231231142214.png",
-    "5.专题研究/讲座/assets/Pasted image 20231231142036.png"
+    "4.归档/学习/专业/基础/db/redis/Redis/redis-install.md",
+    "4.归档/学习/专业/基础/db/redis/Redis/redis-basic.md",
+    "4.归档/学习/专业/基础/db/redis/Redis/redis-advanced.md",
+    "4.归档/学习/专业/基础/db/redis/Redis/assets",
+    "4.归档/学习/专业/基础/db/mysql/assets/where.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/usort.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/unoin.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/unique.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/uncacheable.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/timecplx1.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/timecplx2.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/temp2.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/temp1.png",
+    "4.归档/学习/专业/基础/db/mysql/assets/subqueryup2.png",
+    "4.归档/学习/专业/基础/db/redis/Redis",
+    "4.归档/学习/专业/基础/db/redis/README.md",
+    "4.归档/学习/专业/基础/db/redis/jedis.md",
+    "4.归档/学习/专业/基础/db/mysql/索引优化分析.md",
+    "4.归档/学习/专业/基础/db/mysql/数据库设计三范式.md",
+    "4.归档/学习/专业/基础/db/mysql/存储引擎（了解）.md",
+    "4.归档/学习/专业/基础/db/mysql/MySQL高级-索引优化分析.md",
+    "4.归档/学习/专业/基础/db/mysql/assets",
+    "4.归档/学习/专业/基础/db/redis",
+    "4.归档/学习/专业/基础/db/mysql",
+    "4.归档/学习/专业/基础/db",
+    "4.归档/学习/专业/基础/front/webpack/resource/Webpack.xmind",
+    "4.归档/学习/专业/基础/front/vue.js/vue-component/assets",
+    "4.归档/学习/专业/基础/front/vue.js/vue-basic/assets",
+    "4.归档/学习/专业/基础/front/other/Uni-App/images"
   ]
 }
