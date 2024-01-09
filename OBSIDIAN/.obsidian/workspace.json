@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "52de89b3493face7",
+        "id": "5ba1b0121b620c1d",
         "type": "tabs",
         "children": [
           {
-            "id": "d6cf0f0202ad6957",
+            "id": "b7339e7dce9ca221",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
+                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOME.md"
+                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md"
               }
             }
           }
@@ -193,10 +193,17 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "d6cf0f0202ad6957",
+  "active": "b7339e7dce9ca221",
   "lastOpenFiles": [
+    "4.归档/学习/经济学/金融危机/美国大萧条.md",
+    "4.归档/学习/经济学/金融危机/美国银行危机.md",
+    "4.归档/学习/经济学/金融危机/密西西比泡沫.md",
+    "4.归档/学习/经济学/金融危机/index-金融危机.md",
+    "4.归档/学习/经济学/基础概念/信托.md",
+    "4.归档/学习/经济学/基础概念",
     "2.等待处理/Diary/2024-01-09.md",
     "HOME.md",
+    "2.等待处理/Tasks/index-tasks.md",
     "5.专题研究/python-pandas/分组.md",
     "5.专题研究/python-pandas/变形.md",
     "5.专题研究/python-pandas/_Pandas.md",
@@ -216,12 +223,6 @@
     "2.等待处理/Diary/2024-01/2024-01-06.md",
     "2.等待处理/Diary/2024-01/2024-01-03.md",
     "2.等待处理/Diary/2024-01/2024-01-02.md",
-    "2.等待处理/Diary/2024-01/2024-01-04.md",
-    "4.归档/学习/经济学/金融危机/index-金融危机.md",
-    "4.归档/学习/经济学/金融危机/美国银行危机.md",
-    "4.归档/学习/经济学/金融危机/美国大萧条.md",
-    "4.归档/学习/经济学/金融危机/美国大恐慌.md",
-    "4.归档/学习/经济学/金融危机/assets/美国大恐慌.draw.md",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20240107191930.png",
     "4.归档/学习/经济学/金融危机/resource/mindmap.xmind",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
@@ -232,7 +233,6 @@
     "2.等待处理/Diary/Archieve/2024",
     "4.归档/学习/外语",
     "4.归档/学习/1.修身/人际关系/和导师",
-    "4.归档/学习/1.修身/考研择校/分数公示/南昌大学.pdf",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430201518.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200334.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200330.png",
