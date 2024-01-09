@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/方法论/搜索/电子书搜索.md",
-                "mode": "source",
+                "file": "4.归档/学习/专业/讲座/Opportunities in AI.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zlib",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/方法论/搜索/电子书搜索.md",
+                "file": "4.归档/学习/专业/讲座/Opportunities in AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/方法论/搜索/电子书搜索.md"
+                "file": "4.归档/学习/专业/讲座/Opportunities in AI.md"
               }
             }
           }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/方法论/搜索/电子书搜索.md"
+                "file": "4.归档/学习/专业/讲座/Opportunities in AI.md"
               }
             }
           }
@@ -195,6 +194,7 @@
   },
   "active": "7b5b0c1ce796954d",
   "lastOpenFiles": [
+    "4.归档/学习/方法论/搜索/电子书搜索.md",
     "2.等待处理/Diary/2024-01-09.md",
     "2.等待处理/Tasks/index-tasks.md",
     "4.归档/学习/经济学/金融危机/index-金融危机.md",
@@ -223,7 +223,6 @@
     "2.等待处理/Diary/2024-01",
     "4.归档/学习/专业/基础/front/express/Express.js.md",
     "4.归档/学习/专业/基础/front/components/aos/aos.js.md",
-    "4.归档/学习/专业/基础/devops/git/github.md",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20240107191930.png",
     "4.归档/学习/经济学/金融危机/resource/mindmap.xmind",
     "4.归档/学习/经济学/金融危机/resource",
