@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-01-09",
-      "path": "2.等待处理/Diary/2024-01-09.md"
+      "basename": "分组",
+      "path": "5.专题研究/python-pandas/分组.md"
+    },
+    {
+      "basename": "变形",
+      "path": "5.专题研究/python-pandas/变形.md"
+    },
+    {
+      "basename": "_Pandas",
+      "path": "5.专题研究/python-pandas/_Pandas.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "02.使用Python分析聊天记录数据",
@@ -11,6 +23,10 @@
     {
       "basename": "01.项目框架分析",
       "path": "4.归档/学习/专业/项目/QQ消息记录数据分析/01.项目框架分析.md"
+    },
+    {
+      "basename": "2024-01-09",
+      "path": "2.等待处理/Diary/2024-01-09.md"
     },
     {
       "basename": "2024-01-08",
@@ -23,22 +39,6 @@
     {
       "basename": "Express.js",
       "path": "4.归档/学习/专业/基础/front/express/Express.js.md"
-    },
-    {
-      "basename": "aos.js",
-      "path": "4.归档/学习/专业/基础/front/components/aos/aos.js.md"
-    },
-    {
-      "basename": "github",
-      "path": "4.归档/学习/专业/基础/devops/git/github.md"
-    },
-    {
-      "basename": "git",
-      "path": "4.归档/学习/专业/基础/devops/git/git.md"
-    },
-    {
-      "basename": "Journal-2023-06-16",
-      "path": "4.归档/学习/外语/英语外刊/Journal-2023-06-16.md"
     }
   ],
   "omittedPaths": [],
