@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md",
-                "mode": "preview",
+                "file": "4.归档/学习/经济学/金融危机/美国大萧条.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md",
+                "file": "4.归档/学习/经济学/金融危机/美国大萧条.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md"
+                "file": "4.归档/学习/经济学/金融危机/美国大萧条.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md"
+                "file": "4.归档/学习/经济学/金融危机/美国大萧条.md"
               }
             }
           }
@@ -195,14 +195,15 @@
   },
   "active": "b7339e7dce9ca221",
   "lastOpenFiles": [
+    "4.归档/学习/经济学/金融危机/index-金融危机.md",
+    "HOME.md",
+    "2.等待处理/Diary/2024-01-09.md",
     "4.归档/学习/经济学/金融危机/美国大萧条.md",
     "4.归档/学习/经济学/金融危机/美国银行危机.md",
+    "4.归档/学习/经济学/金融危机/美国大恐慌.md",
     "4.归档/学习/经济学/金融危机/密西西比泡沫.md",
-    "4.归档/学习/经济学/金融危机/index-金融危机.md",
     "4.归档/学习/经济学/基础概念/信托.md",
     "4.归档/学习/经济学/基础概念",
-    "2.等待处理/Diary/2024-01-09.md",
-    "HOME.md",
     "2.等待处理/Tasks/index-tasks.md",
     "5.专题研究/python-pandas/分组.md",
     "5.专题研究/python-pandas/变形.md",
@@ -222,7 +223,6 @@
     "2.等待处理/Diary/2024-01/2024-01-05.md",
     "2.等待处理/Diary/2024-01/2024-01-06.md",
     "2.等待处理/Diary/2024-01/2024-01-03.md",
-    "2.等待处理/Diary/2024-01/2024-01-02.md",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20240107191930.png",
     "4.归档/学习/经济学/金融危机/resource/mindmap.xmind",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
