@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ab45077a905b51b",
+        "id": "12fb8e4624f55aaf",
         "type": "tabs",
         "children": [
           {
-            "id": "097e311e11faafc6",
+            "id": "7b5b0c1ce796954d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md",
-                "mode": "preview",
+                "file": "2.等待处理/Tasks/index-tasks.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md",
+                "file": "2.等待处理/Tasks/index-tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md"
+                "file": "2.等待处理/Tasks/index-tasks.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/经济学/金融危机/index-金融危机.md"
+                "file": "2.等待处理/Tasks/index-tasks.md"
               }
             }
           }
@@ -192,11 +192,13 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "097e311e11faafc6",
+  "active": "7b5b0c1ce796954d",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-01-09.md",
+    "2.等待处理/Tasks/index-tasks.md",
+    "4.归档/学习/经济学/金融危机/index-金融危机.md",
     "4.归档/学习/经济学/基础概念/汇率.md",
     "4.归档/学习/经济学/金融危机/美国大萧条.md",
-    "4.归档/学习/经济学/金融危机/index-金融危机.md",
     "4.归档/学习/经济学/金融危机/郁金香泡沫.md",
     "4.归档/学习/经济学/金融危机/assets/南海泡沫.excalidraw.md",
     "4.归档/学习/经济学/金融危机/assets/郁金香泡沫.excalidraw.md",
@@ -204,14 +206,12 @@
     "4.归档/学习/经济学/金融危机/assets/明斯基时刻.excalidraw.md",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
     "4.归档/学习/经济学/金融危机/assets/美国大萧条.excalidraw.md",
-    "2.等待处理/Diary/2024-01-09.md",
     "HOME.md",
     "4.归档/学习/经济学/金融危机/美国银行危机.md",
     "4.归档/学习/经济学/金融危机/美国大恐慌.md",
     "4.归档/学习/经济学/金融危机/密西西比泡沫.md",
     "4.归档/学习/经济学/基础概念/信托.md",
     "4.归档/学习/经济学/基础概念",
-    "2.等待处理/Tasks/index-tasks.md",
     "5.专题研究/python-pandas/分组.md",
     "5.专题研究/python-pandas/变形.md",
     "5.专题研究/python-pandas/_Pandas.md",
