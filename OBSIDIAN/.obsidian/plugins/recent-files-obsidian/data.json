@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2024-01-09.md"
     },
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "分组",
       "path": "5.专题研究/python-pandas/分组.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "_Pandas",
       "path": "5.专题研究/python-pandas/_Pandas.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     },
     {
       "basename": "02.使用Python分析聊天记录数据",
