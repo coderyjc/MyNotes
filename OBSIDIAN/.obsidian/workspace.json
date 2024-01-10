@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-09.md",
+                "file": "5.专题研究/卷积.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-09.md",
+                "file": "5.专题研究/卷积.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-09.md"
+                "file": "5.专题研究/卷积.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-09.md"
+                "file": "5.专题研究/卷积.md"
               }
             }
           }
@@ -192,11 +192,13 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "48025179b5a36207",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-01-08.md",
-    "2.等待处理/Diary/2024-01-09.md",
     "5.专题研究/布匹疵点智能识别/README.md",
+    "5.专题研究/卷积.md",
+    "2.等待处理/Diary/2024-01-10.md",
+    "2.等待处理/Diary/2024-01-09.md",
+    "2.等待处理/Diary/2024-01-08.md",
     "5.专题研究/天猫用户复购预测/README.md",
     "5.专题研究/布匹疵点智能识别",
     "5.专题研究/天猫用户复购预测",
@@ -222,8 +224,6 @@
     "5.专题研究/python-pandas/变形.md",
     "5.专题研究/python-pandas/_Pandas.md",
     "4.归档/学习/专业/项目/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
-    "4.归档/学习/专业/项目/QQ消息记录数据分析/01.项目框架分析.md",
-    "2.等待处理/Diary/2024-01/2024-01-01.md",
     "2.等待处理/Diary/2024-01",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20240107191930.png",
     "4.归档/学习/经济学/金融危机/resource/mindmap.xmind",

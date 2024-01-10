@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "卷积",
+      "path": "5.专题研究/卷积.md"
+    },
+    {
+      "basename": "README",
+      "path": "5.专题研究/布匹疵点智能识别/README.md"
+    },
+    {
+      "basename": "2024-01-10",
+      "path": "2.等待处理/Diary/2024-01-10.md"
+    },
+    {
       "basename": "2024-01-09",
       "path": "2.等待处理/Diary/2024-01-09.md"
     },
     {
       "basename": "2024-01-08",
       "path": "2.等待处理/Diary/2024-01-08.md"
-    },
-    {
-      "basename": "README",
-      "path": "5.专题研究/布匹疵点智能识别/README.md"
     },
     {
       "basename": "README",
@@ -31,14 +39,6 @@
     {
       "basename": "index-金融危机",
       "path": "4.归档/学习/经济学/金融危机/index-金融危机.md"
-    },
-    {
-      "basename": "美国大萧条",
-      "path": "4.归档/学习/经济学/金融危机/美国大萧条.md"
-    },
-    {
-      "basename": "郁金香泡沫",
-      "path": "4.归档/学习/经济学/金融危机/郁金香泡沫.md"
     }
   ],
   "omittedPaths": [],
