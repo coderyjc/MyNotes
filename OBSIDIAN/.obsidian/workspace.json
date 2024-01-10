@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c08b166361c39433",
+        "id": "122863aa583e922c",
         "type": "tabs",
         "children": [
           {
-            "id": "48025179b5a36207",
+            "id": "fbf86d7d8f561ae0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-10.md",
+                "file": "5.专题研究/布匹疵点智能识别/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-10.md",
+                "file": "5.专题研究/布匹疵点智能识别/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-10.md"
+                "file": "5.专题研究/布匹疵点智能识别/README.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-10.md"
+                "file": "5.专题研究/布匹疵点智能识别/README.md"
               }
             }
           }
@@ -192,10 +192,12 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "48025179b5a36207",
+  "active": "fbf86d7d8f561ae0",
   "lastOpenFiles": [
-    "5.专题研究/布匹疵点智能识别/README.md",
+    "2.等待处理/Tasks/index-tasks.md",
     "2.等待处理/Diary/2024-01-10.md",
+    "5.专题研究/布匹疵点智能识别/README.md",
+    "5.专题研究/考研调剂复试/index.md",
     "5.专题研究/卷积.md",
     "2.等待处理/Diary/2024-01-09.md",
     "2.等待处理/Diary/2024-01-08.md",
@@ -203,7 +205,6 @@
     "5.专题研究/布匹疵点智能识别",
     "5.专题研究/天猫用户复购预测",
     "4.归档/学习/方法论/搜索/电子书搜索.md",
-    "2.等待处理/Tasks/index-tasks.md",
     "4.归档/学习/经济学/金融危机/index-金融危机.md",
     "4.归档/学习/经济学/基础概念/汇率.md",
     "4.归档/学习/经济学/金融危机/美国大萧条.md",
@@ -223,7 +224,6 @@
     "5.专题研究/python-pandas/分组.md",
     "5.专题研究/python-pandas/变形.md",
     "5.专题研究/python-pandas/_Pandas.md",
-    "4.归档/学习/专业/项目/QQ消息记录数据分析/02.使用Python分析聊天记录数据.md",
     "2.等待处理/Diary/2024-01",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20240107191930.png",
     "4.归档/学习/经济学/金融危机/resource/mindmap.xmind",
