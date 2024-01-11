@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.51103591918945
+    "width": 241.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -196,10 +197,10 @@
   },
   "active": "bd7b34ee3387069b",
   "lastOpenFiles": [
-    "3.将来可能/读研攻略/Densely Connected Convolutional Networks.md",
-    "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
-    "0.plugin/papers/cvpr.2017.243.pdf",
     "2.等待处理/Diary/2024-01-11.md",
+    "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
+    "3.将来可能/读研攻略/Densely Connected Convolutional Networks.md",
+    "0.plugin/papers/cvpr.2017.243.pdf",
     "0.plugin/papers",
     "2.等待处理/Diary/2024-01-10.md",
     "2.等待处理/Diary/2024-01-09.md",
