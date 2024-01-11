@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4f8a2835378af402",
+        "id": "8432be66da24b54f",
         "type": "tabs",
         "children": [
           {
-            "id": "c4b9595158a37c16",
+            "id": "f955efe55e31d6a8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-11.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "memos_view",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gov",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +74,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 31.856540084388186,
+        "dimension": 34.38818565400844,
         "children": [
           {
             "id": "3f3a381f5286a2b5",
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-11.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -145,16 +137,14 @@
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 33.22784810126582,
+        "dimension": 26.582278481012654,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-11.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -162,7 +152,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 34.91561181434599,
+        "dimension": 39.029535864978904,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -176,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,56 +180,56 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": true,
-      "daily-notes:打开/创建今天的日记": false
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "c4b9595158a37c16",
+  "active": "f955efe55e31d6a8",
   "lastOpenFiles": [
     "2.等待处理/Diary/2024-01-10.md",
+    "2.等待处理/Diary/2024-01-11.md",
+    "2.等待处理/Diary/2024-01-09.md",
+    "2.等待处理/Diary/2024-01-08.md",
+    "2.等待处理/Diary/2024-01/2024-01-07.md",
+    "2.等待处理/Diary/2024-01/2024-01-06.md",
+    "2.等待处理/Diary/2024-01/2024-01-05.md",
+    "2.等待处理/Diary/2024-01/2024-01-04.md",
+    "2.等待处理/Diary/2024-01/2024-01-03.md",
+    "2.等待处理/Diary/2024-01/2024-01-02.md",
+    "2.等待处理/Diary/2024-01/2024-01-01.md",
+    "1.收集箱/wechat_daily_challenge/database.md",
+    "2.等待处理/Diary/assets/Pasted Image 20240111232448.png",
+    "2.等待处理/Diary/assets/Pasted Image 20240111232436.png",
+    "2.等待处理/Diary/assets/Pasted Image 20240111232426.png",
+    "2.等待处理/Diary/assets",
+    "4.归档/学习/专业/学习周刊/2023/2023-06.md",
+    "1.收集箱/memos",
+    "4.归档/学习/专业/学习周刊/2023/2023-16.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-15.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-09.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-08.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-12.md",
     "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
     "3.将来可能/读研攻略/论文分区.md",
-    "2.等待处理/Diary/2024-01-11.md",
     "3.将来可能/读研攻略/Densely Connected Convolutional Networks.md",
     "0.plugin/papers/cvpr.2017.243.pdf",
     "0.plugin/papers",
-    "2.等待处理/Diary/2024-01-09.md",
-    "2.等待处理/Diary/2024-01-08.md",
     "5.专题研究/教资/index-教资.md",
     "4.归档/学习/方法论/如何快速学习一个领域.md",
     "4.归档/学习/经济学/基础概念/信托.md",
-    "2.等待处理/Diary/2024-01/2024-01-01.md",
-    "2.等待处理/Diary/2024-01/2024-01-03.md",
-    "2.等待处理/Diary/2024-01/2024-01-02.md",
-    "2.等待处理/Diary/2024-01/2024-01-07.md",
-    "2.等待处理/Diary/2024-01/2024-01-04.md",
-    "2.等待处理/Diary/2024-01/2024-01-06.md",
-    "2.等待处理/Diary/2024-01/2024-01-05.md",
     "5.专题研究/布匹疵点智能识别/2. 深度学习基础.md",
-    "5.专题研究/布匹疵点智能识别/赛题解析.md",
-    "2.等待处理/Tasks/index-tasks.md",
-    "5.专题研究/考研调剂复试/index.md",
-    "5.专题研究/卷积.md",
-    "5.专题研究/天猫用户复购预测/README.md",
     "5.专题研究/布匹疵点智能识别",
     "5.专题研究/天猫用户复购预测",
-    "4.归档/学习/方法论/搜索/电子书搜索.md",
-    "4.归档/学习/经济学/金融危机/index-金融危机.md",
-    "4.归档/学习/经济学/基础概念/汇率.md",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
     "4.归档/学习/经济学/基础概念",
     "2.等待处理/Diary/2024-01",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20240107191930.png",
     "4.归档/学习/经济学/金融危机/resource/mindmap.xmind",
     "4.归档/学习/经济学/金融危机/resource",
-    "4.归档/学习/经济学/金融危机/assets",
-    "4.归档/学习/经济学/金融危机",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430201518.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200334.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200330.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200218.png",
-    "4.归档/学习/1.修身/考研择校/复试线/assets/Pasted image 20230404092947.png",
-    "4.归档/学习/1.修身/考研择校/复试线/assets/Pasted image 20230404092934.png",
-    "4.归档/学习/1.修身/考研择校/复试线/assets/Pasted image 20230404092920.png",
-    "4.归档/学习/1.修身/考研择校/考情分析/assets/Pasted image 20230430211113.png"
+    "4.归档/学习/1.修身/考研择校/复试线/assets/Pasted image 20230404092947.png"
   ]
 }
