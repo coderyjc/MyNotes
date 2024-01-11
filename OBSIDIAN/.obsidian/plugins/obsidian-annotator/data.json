@@ -5,7 +5,12 @@
     "contrast": 85,
     "sepia": 0
   },
-  "customDefaultPath": "assets/",
+  "debugLogging": false,
+  "customDefaultPath": "0.plugin/papers",
+  "epubSettings": {
+    "readingMode": "pagination",
+    "fontSize": 100
+  },
   "annotationMarkdownSettings": {
     "includePrefix": true,
     "highlightHighlightedText": true,
