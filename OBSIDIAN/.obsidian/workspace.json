@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9bd285bf896baed2",
+        "id": "4f8a2835378af402",
         "type": "tabs",
         "children": [
           {
-            "id": "bd7b34ee3387069b",
+            "id": "c4b9595158a37c16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
+                "file": "2.等待处理/Diary/2024-01-11.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.51103591918945,
-    "collapsed": true
+    "width": 241.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
+                "file": "2.等待处理/Diary/2024-01-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "3.将来可能/读研攻略/如何有效读论文-吴恩达.md"
+                "file": "2.等待处理/Diary/2024-01-11.md"
               }
             }
           }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.将来可能/读研攻略/如何有效读论文-吴恩达.md"
+                "file": "2.等待处理/Diary/2024-01-11.md"
               }
             }
           }
@@ -177,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,14 +193,15 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "bd7b34ee3387069b",
+  "active": "c4b9595158a37c16",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-01-11.md",
+    "2.等待处理/Diary/2024-01-10.md",
     "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
+    "3.将来可能/读研攻略/论文分区.md",
+    "2.等待处理/Diary/2024-01-11.md",
     "3.将来可能/读研攻略/Densely Connected Convolutional Networks.md",
     "0.plugin/papers/cvpr.2017.243.pdf",
     "0.plugin/papers",
-    "2.等待处理/Diary/2024-01-10.md",
     "2.等待处理/Diary/2024-01-09.md",
     "2.等待处理/Diary/2024-01-08.md",
     "5.专题研究/教资/index-教资.md",
