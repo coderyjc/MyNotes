@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-01-10",
-      "path": "2.等待处理/Diary/2024-01-10.md"
+      "basename": "2024-01-13",
+      "path": "2.等待处理/Diary/2024-01-13.md"
     },
     {
       "basename": "2024-01-11",
-      "path": "2.等待处理/Diary/2024-01-11.md"
+      "path": "2.等待处理/Diary/2024-01/2024-01-11.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
+      "basename": "2024-01-12",
+      "path": "2.等待处理/Diary/2024-01-12.md"
+    },
+    {
+      "basename": "2024-01-10",
+      "path": "2.等待处理/Diary/2024-01/2024-01-10.md"
     },
     {
       "basename": "2024-01-09",
-      "path": "2.等待处理/Diary/2024-01-09.md"
+      "path": "2.等待处理/Diary/2024-01/2024-01-09.md"
     },
     {
       "basename": "2024-01-08",
-      "path": "2.等待处理/Diary/2024-01-08.md"
+      "path": "2.等待处理/Diary/2024-01/2024-01-08.md"
     },
     {
       "basename": "2024-01-07",
@@ -27,18 +39,6 @@
     {
       "basename": "2024-01-05",
       "path": "2.等待处理/Diary/2024-01/2024-01-05.md"
-    },
-    {
-      "basename": "2024-01-04",
-      "path": "2.等待处理/Diary/2024-01/2024-01-04.md"
-    },
-    {
-      "basename": "2024-01-03",
-      "path": "2.等待处理/Diary/2024-01/2024-01-03.md"
-    },
-    {
-      "basename": "2024-01-02",
-      "path": "2.等待处理/Diary/2024-01/2024-01-02.md"
     }
   ],
   "omittedPaths": [],

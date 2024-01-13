@@ -1,7 +1,6 @@
 ---
 creation date: <% tp.file.creation_date() %>
 tags: DailyNote
-cssclass: noyaml
 week: <% tp.date.now("YYYY-WW") %>
 ---
 

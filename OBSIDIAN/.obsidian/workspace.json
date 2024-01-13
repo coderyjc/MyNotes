@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8432be66da24b54f",
+        "id": "0db51ab12c0e5e8e",
         "type": "tabs",
         "children": [
           {
-            "id": "f955efe55e31d6a8",
+            "id": "42b9ad0379a72bbe",
             "type": "leaf",
             "state": {
-              "type": "memos_view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-13.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-01-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-13.md"
+              }
             }
           }
         ],
@@ -137,14 +145,16 @@
       {
         "id": "a8045650fa334fd2",
         "type": "tabs",
-        "dimension": 26.582278481012654,
+        "dimension": 27.004219409282697,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-13.md"
+              }
             }
           }
         ]
@@ -152,7 +162,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 39.029535864978904,
+        "dimension": 38.607594936708864,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -184,12 +194,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f955efe55e31d6a8",
+  "active": "42b9ad0379a72bbe",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-01-10.md",
-    "2.等待处理/Diary/2024-01-11.md",
-    "2.等待处理/Diary/2024-01-09.md",
-    "2.等待处理/Diary/2024-01-08.md",
+    "2.等待处理/Diary/2024-01/2024-01-11.md",
+    "2.等待处理/Diary/2024-01-13.md",
+    "0.plugin/template/dailynotes.md",
+    "2.等待处理/Diary/2024-01-12.md",
+    "2.等待处理/Diary/2024-01/2024-01-10.md",
+    "2.等待处理/Diary/2024-01/2024-01-09.md",
+    "2.等待处理/Diary/2024-01/2024-01-08.md",
     "2.等待处理/Diary/2024-01/2024-01-07.md",
     "2.等待处理/Diary/2024-01/2024-01-06.md",
     "2.等待处理/Diary/2024-01/2024-01-05.md",
@@ -216,8 +229,6 @@
     "0.plugin/papers",
     "5.专题研究/教资/index-教资.md",
     "4.归档/学习/方法论/如何快速学习一个领域.md",
-    "4.归档/学习/经济学/基础概念/信托.md",
-    "5.专题研究/布匹疵点智能识别/2. 深度学习基础.md",
     "5.专题研究/布匹疵点智能识别",
     "5.专题研究/天猫用户复购预测",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
