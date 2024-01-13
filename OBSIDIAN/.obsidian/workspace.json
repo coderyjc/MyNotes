@@ -13,6 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "2.等待处理/Diary/英语单词.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "57009e52cf3880a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "2.等待处理/Diary/2024-01-13.md",
                 "mode": "source",
                 "backlinks": false,
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-13.md",
+                "file": "2.等待处理/Diary/英语单词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +148,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-13.md"
+                "file": "2.等待处理/Diary/英语单词.md"
               }
             }
           }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-13.md"
+                "file": "2.等待处理/Diary/英语单词.md"
               }
             }
           }
@@ -194,10 +207,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "42b9ad0379a72bbe",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-01/2024-01-11.md",
     "2.等待处理/Diary/2024-01-13.md",
+    "2.等待处理/Diary/英语单词.md",
+    "2.等待处理/Diary/2024-01/2024-01-11.md",
     "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2024-01-12.md",
     "2.等待处理/Diary/2024-01/2024-01-10.md",
@@ -228,7 +242,6 @@
     "0.plugin/papers/cvpr.2017.243.pdf",
     "0.plugin/papers",
     "5.专题研究/教资/index-教资.md",
-    "4.归档/学习/方法论/如何快速学习一个领域.md",
     "5.专题研究/布匹疵点智能识别",
     "5.专题研究/天猫用户复购预测",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
