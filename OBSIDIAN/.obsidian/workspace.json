@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0db51ab12c0e5e8e",
+        "id": "3275962f0cee8485",
         "type": "tabs",
         "children": [
           {
-            "id": "42b9ad0379a72bbe",
+            "id": "2023804b07260e53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-13.md",
-                "mode": "source",
+                "file": "HOME.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-13.md",
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-13.md"
+                "file": "HOME.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-13.md"
+                "file": "HOME.md"
               }
             }
           }
@@ -196,39 +196,39 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/英语单词.md",
+    "2.等待处理/Tasks/index-tasks.md",
+    "HOME.md",
     "2.等待处理/Diary/2024-01-13.md",
-    "2.等待处理/Diary/2024-01/2024-01-11.md",
-    "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2024-01-12.md",
-    "2.等待处理/Diary/2024-01/2024-01-10.md",
-    "2.等待处理/Diary/2024-01/2024-01-09.md",
-    "2.等待处理/Diary/2024-01/2024-01-08.md",
-    "2.等待处理/Diary/2024-01/2024-01-07.md",
-    "2.等待处理/Diary/2024-01/2024-01-06.md",
-    "2.等待处理/Diary/2024-01/2024-01-05.md",
-    "2.等待处理/Diary/2024-01/2024-01-04.md",
-    "2.等待处理/Diary/2024-01/2024-01-03.md",
-    "2.等待处理/Diary/2024-01/2024-01-02.md",
+    "2.等待处理/Diary/Archieve/2023/2023-11/2023-11-12.md",
+    "2.等待处理/Diary/Archieve/2023/2023-11/2023-11-30.md",
+    "2.等待处理/Diary/Archieve/2023/2023-11/2023-11-29.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-07.md",
+    "2.等待处理/Diary/Archieve/2023/2023-11/2023-11-23.md",
+    "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-25.md",
+    "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-26.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-11.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-10.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-09.md",
+    "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-28.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-08.md",
+    "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-31.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-12.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-13.md",
     "2.等待处理/Diary/2024-01/2024-01-01.md",
-    "1.收集箱/wechat_daily_challenge/database.md",
+    "2.等待处理/Diary/2024-01/2024-01-02.md",
+    "2.等待处理/Diary/2024-01/2024-01-03.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-14.md",
+    "2.等待处理/Diary/2024-01/2024-01-04.md",
+    "4.归档/学习/专业/学习周刊/2023/2023-15.md",
+    "2.等待处理/Diary/2024-01/2024-01-05.md",
     "2.等待处理/Diary/assets/Pasted Image 20240111232448.png",
     "2.等待处理/Diary/assets/Pasted Image 20240111232436.png",
     "2.等待处理/Diary/assets/Pasted Image 20240111232426.png",
     "2.等待处理/Diary/assets",
-    "4.归档/学习/专业/学习周刊/2023/2023-06.md",
     "1.收集箱/memos",
-    "4.归档/学习/专业/学习周刊/2023/2023-16.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-15.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-09.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-08.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-12.md",
-    "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
-    "3.将来可能/读研攻略/论文分区.md",
-    "3.将来可能/读研攻略/Densely Connected Convolutional Networks.md",
     "0.plugin/papers/cvpr.2017.243.pdf",
     "0.plugin/papers",
-    "5.专题研究/教资/index-教资.md",
     "5.专题研究/布匹疵点智能识别",
     "5.专题研究/天猫用户复购预测",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
