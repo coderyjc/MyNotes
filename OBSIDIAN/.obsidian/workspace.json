@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5cef3a22be5a2ce3",
+        "id": "a22efee1537f0056",
         "type": "tabs",
         "children": [
           {
-            "id": "e9d627e8954a3c74",
+            "id": "280cbab8f16c869e",
             "type": "leaf",
             "state": {
-              "type": "memos_view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-17.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-01-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-17.md"
+              }
             }
           }
         ],
@@ -144,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-17.md"
+              }
             }
           }
         ]
@@ -184,7 +194,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e9d627e8954a3c74",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
     "2.等待处理/Diary/2024-01-17.md",
     "2.等待处理/Diary/2024-01-16.md",
