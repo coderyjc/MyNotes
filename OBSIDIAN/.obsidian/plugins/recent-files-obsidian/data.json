@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "2024-01-22",
+      "path": "2.等待处理/Diary/2024-01-22.md"
+    },
+    {
       "basename": "2024-01-21",
       "path": "2.等待处理/Diary/2024-01-21.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "2024-01-14",
       "path": "2.等待处理/Diary/2024-01/2024-01-14.md"
-    },
-    {
-      "basename": "2024-01-13",
-      "path": "2.等待处理/Diary/2024-01/2024-01-13.md"
-    },
-    {
-      "basename": "赛题解析",
-      "path": "5.专题研究/布匹疵点智能识别/赛题解析.md"
     }
   ],
   "omittedPaths": [],
