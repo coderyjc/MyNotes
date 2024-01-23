@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/天猫用户复购预测/README.md",
-                "mode": "source",
+                "file": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "github",
+                "query": "annaconda",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -67,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "74674b6004f5200d",
@@ -80,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/天猫用户复购预测/README.md"
+                "file": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md"
               }
             }
           }
@@ -136,7 +137,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/天猫用户复购预测/README.md"
+                "file": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md"
               }
             }
           }
@@ -153,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/天猫用户复购预测/README.md",
+                "file": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,8 +205,8 @@
   },
   "active": "d8fed819260edd41",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-01-23.md",
     "5.专题研究/天猫用户复购预测/README.md",
+    "2.等待处理/Diary/2024-01-23.md",
     "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
     "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
     "4.归档/学习/人际/社会经验/2023.1.16 帮助孔的师姐解决问题.mdenc",
