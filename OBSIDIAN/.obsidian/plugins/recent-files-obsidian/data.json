@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "index-tasks",
+      "path": "2.等待处理/Tasks/index-tasks.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "github",
       "path": "4.归档/学习/专业/基础/devops/git/github.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "2024-01-13",
       "path": "2.等待处理/Diary/2024-01/2024-01-13.md"
-    },
-    {
-      "basename": "2024-01-10",
-      "path": "2.等待处理/Diary/2024-01/2024-01-10.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     }
   ],
   "omittedPaths": [],
