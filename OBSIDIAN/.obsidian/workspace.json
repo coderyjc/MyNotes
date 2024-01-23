@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b21d2add5b72705d",
+        "id": "6cc9ad67555da544",
         "type": "tabs",
         "children": [
           {
-            "id": "986d6919759633a3",
+            "id": "d8fed819260edd41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Tasks/index-tasks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Tasks/index-tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2.等待处理/Tasks/index-tasks.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -152,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Tasks/index-tasks.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -181,62 +171,61 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:查看关系图谱": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
-      "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": true,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": true,
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-weread-plugin:同步微信读书笔记": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false
     }
   },
-  "active": "986d6919759633a3",
+  "active": "d8fed819260edd41",
   "lastOpenFiles": [
-    "HOME.md",
-    "4.归档/学习/专业/基础/devops/git/github.md",
-    "2.等待处理/Diary/2024-01-23.md",
-    "2.等待处理/Diary/delete.md",
-    "2.等待处理/Diary/2024-01/2024-01-17.md",
-    "2.等待处理/Diary/2024-01-22.md",
-    "2.等待处理/Diary/2024-01-18.md",
-    "2.等待处理/Diary/2024-01/2024-01-13.md",
-    "2.等待处理/Diary/2024-01/2024-01-10.md",
-    "4.归档/工作",
-    "2.等待处理/Diary/2024-01-21.md",
-    "2.等待处理/Diary/2024-01/2024-01-16.md",
-    "4.归档/学习/人际/社会经验/2023.1.16 帮助孔的师姐解决问题.md",
-    "2.等待处理/Diary/2024-01/2024-01-12.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-07.md",
-    "2.等待处理/Diary/2024-01/2024-01-15.md",
-    "2.等待处理/Diary/2024-01/2024-01-14.md",
+    "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
+    "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
+    "4.归档/学习/人际/社会经验/2023.1.16 帮助孔的师姐解决问题.mdenc",
+    "4.归档/学习/人际/社会经验/2023.5.17 转接团关系.mdenc",
+    "4.归档/学习/人际/社会经验/2023.5.27 看别人占用教室.mdenc",
+    "4.归档/学习/人际/社会经验/2023.10.11 pdd退款.mdenc",
+    "4.归档/学习/人际/和导师/如何和导师交流.md",
+    "4.归档/生活/租房相关问题.md",
+    "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
+    "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md",
+    "4.归档/学业/【本科毕设】教师资格证数据分析系统/毕业论文v0.0/index.md",
+    "4.归档/学业/【本科毕设】教师资格证数据分析系统/毕业论文v0.0/faq.md",
+    "4.归档/学业/【本科毕设】教师资格证数据分析系统/毕业论文v0.0/第4章 系统设计.md",
+    "4.归档/学业/【本科毕设】教师资格证数据分析系统/答辩/答辩过程复盘.md",
+    "4.归档/学业/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
+    "4.归档/学业/【本科毕设】教师资格证数据分析系统/项目记录/8.证书管理.md",
+    "4.归档/学业/【本科毕设】教师资格证数据分析系统/项目记录/5.创建后端项目.md",
     "5.专题研究/布匹疵点智能识别/赛题解析.md",
-    "2.等待处理/Tasks/index-tasks.md",
-    "2.等待处理/Diary/Archieve/2023/2023-11/2023-11-12.md",
-    "2.等待处理/Diary/Archieve/2023/2023-11/2023-11-30.md",
-    "2.等待处理/Diary/Archieve/2023/2023-11/2023-11-29.md",
-    "2.等待处理/Diary/Archieve/2023/2023-11/2023-11-23.md",
-    "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-25.md",
-    "2.等待处理/Diary/Archieve/2023/2023-12/2023-12-26.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-11.md",
-    "4.归档/学习/专业/学习周刊/2023/2023-10.md",
+    "5.专题研究/考研调剂复试/专业相关问题.md",
+    "5.专题研究/考研调剂复试/自我介绍.mdenc",
+    "5.专题研究/考研调剂复试/如何选择导师.md",
+    "5.专题研究/考研调剂复试/项目经历.md",
+    "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
+    "5.专题研究/考研调剂复试/面试问题总结【中文】.md",
+    "5.专题研究/考研调剂复试/index.md",
+    "2.等待处理/Diary/2024-01-23.md",
+    "2.等待处理/Diary/2024-01-21.md",
+    "2.等待处理/Diary/2024-01-22.md",
+    "5.专题研究/天猫用户复购预测/README.md",
+    "4.归档/工作",
     "2.等待处理/Diary/assets/Pasted Image 20240111232448.png",
     "2.等待处理/Diary/assets/Pasted Image 20240111232436.png",
     "2.等待处理/Diary/assets/Pasted Image 20240111232426.png",
     "2.等待处理/Diary/assets",
     "1.收集箱/memos",
     "0.plugin/papers/cvpr.2017.243.pdf",
-    "0.plugin/papers",
-    "5.专题研究/布匹疵点智能识别",
-    "5.专题研究/天猫用户复购预测",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
-    "4.归档/学习/经济学/基础概念",
-    "2.等待处理/Diary/2024-01",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20240107191930.png",
-    "4.归档/学习/经济学/金融危机/resource/mindmap.xmind",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430201518.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200334.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200330.png",

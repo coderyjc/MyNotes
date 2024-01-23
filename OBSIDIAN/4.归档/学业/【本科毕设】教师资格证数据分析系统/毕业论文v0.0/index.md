@@ -1,29 +1,3 @@
----
-wordCount: 0
-charCount: 0
----
-
----
-
-```dataviewjs
-let sum = 0, sumChar = 0
-dv.pages(`"5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"`).filter(p => {
-sum += p.wordCount
-sumChar += p.charCount
-})
-dv.paragraph(`总字数: ==${sum}==`)
-dv.paragraph(`字符数: ==${sumChar}==`)
-```
-
----
-
-```dataview
-table wordCount as 字数, done as 完成情况
-from "5.专题研究/【本科毕设】教师资格证数据分析系统/毕业论文"
-```
-
----
-
 [[摘要]]
 
 [[第1章 绪论]]
