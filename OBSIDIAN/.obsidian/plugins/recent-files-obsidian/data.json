@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "2024-01-23",
+      "path": "2.等待处理/Diary/2024-01-23.md"
     },
     {
       "basename": "2024-01-22",
       "path": "2.等待处理/Diary/2024-01-22.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "2024-01-21",
@@ -35,10 +39,6 @@
     {
       "basename": "2024-01-15",
       "path": "2.等待处理/Diary/2024-01/2024-01-15.md"
-    },
-    {
-      "basename": "2024-01-14",
-      "path": "2.等待处理/Diary/2024-01/2024-01-14.md"
     }
   ],
   "omittedPaths": [],
