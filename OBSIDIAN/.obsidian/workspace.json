@@ -11,8 +11,13 @@
             "id": "d8fed819260edd41",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/天猫用户复购预测/README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -27,6 +32,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
+        "dimension": 70.74109720885467,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -62,6 +68,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "74674b6004f5200d",
+        "type": "tabs",
+        "dimension": 29.25890279114533,
+        "children": [
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5.专题研究/天猫用户复购预测/README.md"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -74,24 +97,8 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 34.38818565400844,
+        "dimension": 30.154142581888248,
         "children": [
-          {
-            "id": "3f3a381f5286a2b5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "9efa0f878fdc06cc",
             "type": "leaf",
@@ -128,23 +135,33 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/天猫用户复购预测/README.md"
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "a8045650fa334fd2",
+        "id": "cf0fee3d086246ef",
         "type": "tabs",
-        "dimension": 27.004219409282697,
+        "dimension": 35.067437379576106,
         "children": [
           {
-            "id": "a4c7ff5f1eb0069f",
+            "id": "3f3a381f5286a2b5",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {}
+              "type": "backlink",
+              "state": {
+                "file": "5.专题研究/天猫用户复购预测/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ]
@@ -152,7 +169,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 38.607594936708864,
+        "dimension": 34.77842003853564,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -176,18 +193,19 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Memos": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Memos": false,
       "meld-encrypt:New encrypted note": false,
       "meld-encrypt:Convert to or from an Encrypted note": false
     }
   },
   "active": "d8fed819260edd41",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-01-23.md",
+    "5.专题研究/天猫用户复购预测/README.md",
     "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
     "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
     "4.归档/学习/人际/社会经验/2023.1.16 帮助孔的师姐解决问题.mdenc",
@@ -213,10 +231,8 @@
     "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
     "5.专题研究/考研调剂复试/面试问题总结【中文】.md",
     "5.专题研究/考研调剂复试/index.md",
-    "2.等待处理/Diary/2024-01-23.md",
     "2.等待处理/Diary/2024-01-21.md",
     "2.等待处理/Diary/2024-01-22.md",
-    "5.专题研究/天猫用户复购预测/README.md",
     "4.归档/工作",
     "2.等待处理/Diary/assets/Pasted Image 20240111232448.png",
     "2.等待处理/Diary/assets/Pasted Image 20240111232436.png",

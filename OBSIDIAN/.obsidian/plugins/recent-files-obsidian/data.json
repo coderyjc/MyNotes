@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "5.专题研究/天猫用户复购预测/README.md"
+    },
+    {
+      "basename": "2024-01-23",
+      "path": "2.等待处理/Diary/2024-01-23.md"
+    },
+    {
       "basename": "2023-05-09 浩南",
       "path": "4.归档/学习/人际/和同学/2023-05-09 浩南.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "租房相关问题",
       "path": "4.归档/生活/租房相关问题.md"
-    },
-    {
-      "basename": "QQ消息记录导出",
-      "path": "4.归档/生活/QQ使用技巧/QQ消息记录导出.md"
-    },
-    {
-      "basename": "批量添加表情包到QQ",
-      "path": "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md"
     }
   ],
   "omittedPaths": [],
