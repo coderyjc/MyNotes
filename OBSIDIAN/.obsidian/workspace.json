@@ -11,16 +11,25 @@
             "id": "e2d5d9f5097cc516",
             "type": "leaf",
             "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "042c1e83535b3265",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-23.md",
+                "file": "5.专题研究/天猫用户复购预测/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-23.md"
+                "file": "5.专题研究/天猫用户复购预测/README.md"
               }
             }
           }
@@ -88,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.51103591918945
+    "width": 241.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -136,7 +146,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-23.md"
+                "file": "5.专题研究/天猫用户复购预测/README.md"
               }
             }
           }
@@ -153,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-23.md",
+                "file": "5.专题研究/天猫用户复购预测/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,11 +213,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "042c1e83535b3265",
   "lastOpenFiles": [
+    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124102920.png",
+    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124102911.png",
+    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124102746.png",
+    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124102713.png",
+    "5.专题研究/天猫用户复购预测/assets",
+    "2.等待处理/Diary/2024-01-24.md",
+    "2.等待处理/Diary/2024-01-23.md",
     "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
     "4.归档/学习/专业/工程/数据科学/Annaconda/Annaconda.md",
-    "2.等待处理/Diary/2024-01-23.md",
     "2.等待处理/Diary/2024-01-22.md",
     "5.专题研究/天猫用户复购预测/README.md",
     "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
@@ -234,20 +251,15 @@
     "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
     "5.专题研究/考研调剂复试/面试问题总结【中文】.md",
     "5.专题研究/考研调剂复试/index.md",
-    "2.等待处理/Diary/2024-01-21.md",
     "4.归档/工作",
     "2.等待处理/Diary/assets/Pasted Image 20240111232448.png",
     "2.等待处理/Diary/assets/Pasted Image 20240111232436.png",
     "2.等待处理/Diary/assets/Pasted Image 20240111232426.png",
     "2.等待处理/Diary/assets",
     "1.收集箱/memos",
-    "0.plugin/papers/cvpr.2017.243.pdf",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png",
     "4.归档/学习/经济学/金融危机/assets/Pasted image 20240107191930.png",
     "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430201518.png",
-    "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200334.png",
-    "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200330.png",
-    "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200218.png",
-    "4.归档/学习/1.修身/考研择校/复试线/assets/Pasted image 20230404092947.png"
+    "4.归档/学习/1.修身/考研择校/assets/Pasted image 20230430200334.png"
   ]
 }
