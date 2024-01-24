@@ -6,7 +6,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",
@@ -20,5 +20,6 @@
   "showInlineTitle": false,
   "showFrontmatter": false,
   "foldHeading": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "autoPairBrackets": false
 }
