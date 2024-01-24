@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6cc9ad67555da544",
+        "id": "80c4820f4ecde2fd",
         "type": "tabs",
         "children": [
           {
-            "id": "d8fed819260edd41",
+            "id": "e2d5d9f5097cc516",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2024-01-23.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "annaconda",
+                "query": "Annaconda",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -67,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "74674b6004f5200d",
@@ -81,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md"
+                "file": "2.等待处理/Diary/2024-01-23.md"
               }
             }
           }
@@ -98,7 +97,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 30.154142581888248,
+        "dimension": 30.15414258188825,
         "children": [
           {
             "id": "9efa0f878fdc06cc",
@@ -137,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md"
+                "file": "2.等待处理/Diary/2024-01-23.md"
               }
             }
           }
@@ -154,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
+                "file": "2.等待处理/Diary/2024-01-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,16 +196,19 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Memos": false,
       "meld-encrypt:New encrypted note": false,
-      "meld-encrypt:Convert to or from an Encrypted note": false
+      "daily-notes:打开/创建今天的日记": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "d8fed819260edd41",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/天猫用户复购预测/README.md",
+    "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
+    "4.归档/学习/专业/工程/数据科学/Annaconda/Annaconda.md",
     "2.等待处理/Diary/2024-01-23.md",
+    "2.等待处理/Diary/2024-01-22.md",
+    "5.专题研究/天猫用户复购预测/README.md",
     "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
     "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
     "4.归档/学习/人际/社会经验/2023.1.16 帮助孔的师姐解决问题.mdenc",
@@ -233,7 +235,6 @@
     "5.专题研究/考研调剂复试/面试问题总结【中文】.md",
     "5.专题研究/考研调剂复试/index.md",
     "2.等待处理/Diary/2024-01-21.md",
-    "2.等待处理/Diary/2024-01-22.md",
     "4.归档/工作",
     "2.等待处理/Diary/assets/Pasted Image 20240111232448.png",
     "2.等待处理/Diary/assets/Pasted Image 20240111232436.png",
