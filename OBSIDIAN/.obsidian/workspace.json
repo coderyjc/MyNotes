@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "783c064eeb1e0076",
+        "id": "9132516edffc5002",
         "type": "tabs",
         "children": [
           {
-            "id": "26b894c063dc1688",
+            "id": "30f5be19752b5934",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-26.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -32,7 +27,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 70.74109720885467,
+        "dimension": 67.96628029504743,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -50,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Annaconda",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -72,16 +67,14 @@
       {
         "id": "74674b6004f5200d",
         "type": "tabs",
-        "dimension": 29.25890279114533,
+        "dimension": 32.03371970495258,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-26.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-26.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -153,7 +144,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,53 +192,52 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "26b894c063dc1688",
+  "active": "30f5be19752b5934",
   "lastOpenFiles": [
-    "5.专题研究/AAAMLP",
-    "2.等待处理/Diary/2024-01-25.md",
-    "2.等待处理/Diary/2024-01-26.md",
-    "5.专题研究/天猫用户复购预测/3.特征工程.md",
-    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240125203012.png",
-    "5.专题研究/天猫用户复购预测/2.数据探索与处理.md",
-    "5.专题研究/天猫用户复购预测/2.1数据探索与处理-代码解析.md",
-    "5.专题研究/天猫用户复购预测/1.赛题理解.md",
-    "2.等待处理/Diary/2024-01-24.md",
-    "2.等待处理/Diary/2024-01/2024-01-18.md",
-    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124160302.png",
-    "2.等待处理/Diary/2024-01/2024-01-11.md",
-    "2.等待处理/Diary/2024-01/2024-01-23.md",
-    "5.专题研究/天猫用户复购预测/README.md",
-    "5.专题研究/天猫用户复购预测/assets/解题流程.excalidraw.md",
-    "5.专题研究/天猫用户复购预测/assets",
-    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124102920.png",
-    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124102911.png",
-    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124102746.png",
-    "5.专题研究/天猫用户复购预测/assets/Pasted image 20240124102713.png",
-    "5.专题研究/天猫用户复购预测/assets",
-    "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
-    "4.归档/学习/专业/工程/数据科学/Annaconda/Annaconda.md",
-    "2.等待处理/Diary/2024-01/2024-01-22.md",
+    "4.归档/学习/人际/社会经验/2024.1.16 帮助孔的师姐解决问题.mdenc",
+    "4.归档/学习/人际/社会经验/2023.10.11 pdd退款.mdenc",
+    "4.归档/学习/人际/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",
+    "4.归档/学习/人际/社会经验/2023.5.27 看别人占用教室.mdenc",
+    "4.归档/学习/人际/社会经验/2023.5.17 转接团关系.mdenc",
+    "4.归档/学习/人际/和导师/如何和导师交流.md",
+    "4.归档/学习/外语/英语外刊/Journal-2023-06-16.md",
     "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
     "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
-    "4.归档/学习/人际/社会经验/2023.1.16 帮助孔的师姐解决问题.mdenc",
-    "4.归档/学习/人际/社会经验/2023.5.17 转接团关系.mdenc",
-    "4.归档/学习/人际/社会经验/2023.5.27 看别人占用教室.mdenc",
-    "4.归档/学习/人际/社会经验/2023.10.11 pdd退款.mdenc",
-    "4.归档/学习/人际/和导师/如何和导师交流.md",
-    "4.归档/生活/租房相关问题.md",
-    "4.归档/生活/QQ使用技巧/QQ消息记录导出.md",
-    "4.归档/生活/QQ使用技巧/批量添加表情包到QQ.md",
-    "4.归档/学业/【本科毕设】教师资格证数据分析系统/毕业论文v0.0/index.md",
-    "4.归档/学业/【本科毕设】教师资格证数据分析系统/毕业论文v0.0/faq.md",
-    "4.归档/学业/【本科毕设】教师资格证数据分析系统/毕业论文v0.0/第4章 系统设计.md",
-    "4.归档/学业/【本科毕设】教师资格证数据分析系统/答辩/答辩过程复盘.md",
-    "4.归档/学业/【本科毕设】教师资格证数据分析系统/项目记录/1.系统的主要功能概述.md",
-    "5.专题研究/考研调剂复试/自我介绍.mdenc",
-    "4.归档/工作",
-    "2.等待处理/Diary/assets/Pasted Image 20240111232448.png",
-    "2.等待处理/Diary/assets/Pasted Image 20240111232436.png",
-    "2.等待处理/Diary/assets/Pasted Image 20240111232426.png",
-    "2.等待处理/Diary/assets",
-    "4.归档/学习/经济学/金融危机/assets/Pasted image 20230215114418.png"
+    "2.等待处理/Diary/2024-01-26.md",
+    "HOME.md",
+    "5.专题研究/AAAMLP/index.md",
+    "5.专题研究/AAAMLP/可重复代码和模型方法.md",
+    "1.收集箱/dashboard/tag-summary.md",
+    "1.收集箱/dashboard/tag-retrieve.md",
+    "1.收集箱/dashboard/warehouse.md",
+    "5.专题研究/AAAMLP/准备环境.md",
+    "5.专题研究/AAAMLP/index (2).md",
+    "5.专题研究/AAAMLP/超参数优化.md",
+    "5.专题研究/AAAMLP/评估指标.md",
+    "5.专题研究/AAAMLP/组织机器学习项目.md",
+    "5.专题研究/AAAMLP/组合和堆叠方法.md",
+    "5.专题研究/AAAMLP/特征选择.md",
+    "5.专题研究/AAAMLP/特征工程.md",
+    "5.专题研究/AAAMLP/无监督和有监督学习.md",
+    "5.专题研究/AAAMLP/文本分类或回归方法.md",
+    "5.专题研究/AAAMLP/处理分类变量.md",
+    "5.专题研究/AAAMLP/图像分类和分割方法.md",
+    "5.专题研究/AAAMLP/交叉检验.md",
+    "5.专题研究/AAAMLP/javascripts/katex.js",
+    "5.专题研究/AAAMLP/javascripts",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page39_image.png",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page30_image.png",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page25_image.png",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page24_image.png",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page249_image.png",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page244_image.png",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page225_image.png",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page21_image_1.png",
+    "5.专题研究/AAAMLP/figures/AAAMLP_page21_image.png",
+    "5.专题研究/AAAMLP/figures",
+    "3.将来可能/回收站/【已废除】天猫用户复购预测/3.特征工程.md",
+    "3.将来可能/回收站",
+    "5.专题研究/AAAMLP",
+    "2.等待处理/Diary/2024-01-25.md"
   ]
 }
