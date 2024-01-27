@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/AAAMLP/index.md",
+                "file": "5.专题研究/AAAMLP/交叉检验.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
+          },
+          {
+            "id": "30bb52547df5199e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/AAAMLP/交叉检验.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/AAAMLP/index.md"
+                "file": "5.专题研究/AAAMLP/交叉检验.md"
               }
             }
           }
@@ -136,7 +150,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/AAAMLP/index.md"
+                "file": "5.专题研究/AAAMLP/交叉检验.md"
               }
             }
           }
@@ -153,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/AAAMLP/index.md",
+                "file": "5.专题研究/AAAMLP/交叉检验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,13 +216,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "30bb52547df5199e",
   "lastOpenFiles": [
-    "5.专题研究/AAAMLP/处理分类变量.md",
     "5.专题研究/AAAMLP/index.md",
+    "5.专题研究/AAAMLP/交叉检验.md",
+    "5.专题研究/AAAMLP/处理分类变量.md",
     "5.专题研究/AAAMLP/组织机器学习项目.md",
     "5.专题研究/AAAMLP/评估指标.md",
-    "5.专题研究/AAAMLP/交叉检验.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
