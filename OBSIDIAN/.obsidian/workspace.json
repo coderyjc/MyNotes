@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2407b215dd6737b9",
+            "id": "30bb52547df5199e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,20 +21,19 @@
             }
           },
           {
-            "id": "30bb52547df5199e",
+            "id": "4c0f558b93d69aed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md",
+                "file": "2.等待处理/Diary/2024-01-27.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,6 +218,7 @@
   "active": "30bb52547df5199e",
   "lastOpenFiles": [
     "5.专题研究/AAAMLP/index.md",
+    "2.等待处理/Diary/2024-01-27.md",
     "5.专题研究/AAAMLP/交叉检验.md",
     "5.专题研究/AAAMLP/处理分类变量.md",
     "5.专题研究/AAAMLP/组织机器学习项目.md",
@@ -234,7 +234,6 @@
     "2.等待处理/Diary/2024-01-24.md",
     "2.等待处理/Diary/2024-01-25.md",
     "2.等待处理/Diary/2024-01-26.md",
-    "2.等待处理/Diary/2024-01-27.md",
     "5.专题研究/AAAMLP/准备环境-Miniconda.md",
     "4.归档/学习/专业/基础/other/PYQT/PYQT.md",
     "4.归档/学习/专业/基础/python/Python知识导图.md",

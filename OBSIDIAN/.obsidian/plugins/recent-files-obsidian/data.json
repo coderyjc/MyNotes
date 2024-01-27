@@ -9,6 +9,10 @@
       "path": "5.专题研究/AAAMLP/index.md"
     },
     {
+      "basename": "2024-01-27",
+      "path": "2.等待处理/Diary/2024-01-27.md"
+    },
+    {
       "basename": "处理分类变量",
       "path": "5.专题研究/AAAMLP/处理分类变量.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "2024-01-25",
       "path": "2.等待处理/Diary/2024-01-25.md"
-    },
-    {
-      "basename": "2024-01-26",
-      "path": "2.等待处理/Diary/2024-01-26.md"
     }
   ],
   "omittedPaths": [],
