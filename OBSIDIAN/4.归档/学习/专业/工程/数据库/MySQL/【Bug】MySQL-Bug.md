@@ -4,7 +4,7 @@ skill: MySQL
 create_date: 2022-01-31
 ---
 
-#数据库 #Debug 
+#数据库/mysql  
 
 # MySQL Debug
 

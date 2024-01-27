@@ -1,4 +1,4 @@
-#Software/git #github
+#github
 
 # Github
 

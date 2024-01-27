@@ -4,7 +4,7 @@ skill: debug
 create_date: 2022-01-31
 ---
 
-#浏览器/Firefox #Debug
+#软件/Firefox
 
 # FireFox浏览器调试相关问题
 

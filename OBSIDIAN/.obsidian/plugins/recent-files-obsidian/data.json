@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "0-阅读推理小说的阅读顺序是什么？",
-      "path": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md"
+      "basename": "tag-summary",
+      "path": "1.收集箱/dashboard/tag-summary.md"
     },
     {
-      "basename": "jetbrains-idea",
-      "path": "4.归档/学习/专业/基础/software/idea/jetbrains-idea.md"
+      "basename": "tag-retrieve",
+      "path": "1.收集箱/dashboard/tag-retrieve.md"
     },
     {
-      "basename": "-mysql-advanced",
-      "path": "4.归档/学习/专业/基础/db/mysql/-mysql-advanced.md"
+      "basename": "anime.js",
+      "path": "4.归档/学习/专业/基础/front/components/anime.js/anime.js.md"
     },
     {
-      "basename": "SpringCloud",
-      "path": "4.归档/学习/专业/基础/java/distribution/spring-cloud/SpringCloud.md"
+      "basename": "github",
+      "path": "4.归档/学习/专业/基础/devops/git/github.md"
     },
     {
-      "basename": "set",
-      "path": "5.专题研究/Algorithm/STL/set.md"
+      "basename": "MyBatis逆向工程",
+      "path": "4.归档/学习/专业/基础/java/spring/mybatis/MyBatis逆向工程.md"
     },
     {
-      "basename": "queue",
-      "path": "5.专题研究/Algorithm/STL/queue.md"
+      "basename": "MyBatis",
+      "path": "4.归档/学习/专业/基础/java/spring/mybatis/MyBatis.md"
     },
     {
-      "basename": "vector",
-      "path": "5.专题研究/Algorithm/STL/vector.md"
+      "basename": "【Bug】MySQL-Bug",
+      "path": "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md"
     },
     {
-      "basename": "STL遍历算法",
-      "path": "5.专题研究/Algorithm/STL/STL遍历算法.md"
+      "basename": "Uni-App-ScrollView",
+      "path": "4.归档/学习/专业/工程/前端框架/Uni-App/Uni-App-ScrollView.md"
     },
     {
-      "basename": "string",
-      "path": "5.专题研究/Algorithm/STL/string.md"
+      "basename": "Vue-Cli-bug",
+      "path": "4.归档/学习/专业/工程/前端框架/Vue.js/Vue-Cli-bug.md"
     },
     {
-      "basename": "STL集合算法",
-      "path": "5.专题研究/Algorithm/STL/STL集合算法.md"
+      "basename": "Vue.js-Bug",
+      "path": "4.归档/学习/专业/工程/前端框架/Vue.js/Vue.js-Bug.md"
     }
   ],
   "omittedPaths": [],

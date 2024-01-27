@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5f138061b0fed5d4",
+        "id": "dbabd29d6492435d",
         "type": "tabs",
         "children": [
           {
-            "id": "523222a1377f923f",
+            "id": "51a4b7dcf2ea5208",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -50,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#剪藏",
+                "query": "tag:#flag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -67,8 +62,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "74674b6004f5200d",
@@ -80,16 +74,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 353.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -136,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md"
-              }
+              "state": {}
             }
           },
           {
@@ -147,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,34 +184,34 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "523222a1377f923f",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "1.收集箱/dashboard/tag-summary.md",
+    "1.收集箱/dashboard/tag-retrieve.md",
+    "4.归档/学习/专业/基础/front/components/anime.js/anime.js.md",
+    "4.归档/学习/专业/基础/devops/git/github.md",
+    "4.归档/学习/专业/基础/java/spring/mybatis/MyBatis逆向工程.md",
+    "4.归档/学习/专业/基础/java/spring/mybatis/MyBatis.md",
+    "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md",
+    "4.归档/学习/专业/工程/前端框架/Uni-App/Uni-App-ScrollView.md",
+    "4.归档/学习/专业/工程/前端框架/Vue.js/Vue-Cli-bug.md",
+    "4.归档/学习/专业/工程/前端框架/Vue.js/Vue.js-Bug.md",
+    "4.归档/学习/专业/工程/浏览器相关/FireFox浏览器调试问题汇总.md",
+    "4.归档/学习/专业/工程/浏览器相关/Chrome浏览器调试问题汇总.md",
+    "1.收集箱/resources/axutongxue.md",
+    "1.收集箱/simpread_clipper/repo/1-3000 + 小时积累的学习工作流.md",
+    "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md",
+    "1.收集箱/simpread_clipper/repo/5-如何更好地管理「标签页」，我选择 Toby - 少数派.md",
+    "1.收集箱/simpread_clipper/repo/1-python正则表达式精讲--分组 - 知乎.md",
+    "1.收集箱/simpread_clipper/repo/4-简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
+    "1.收集箱/simpread_clipper/repo/16-如何把 Markdown 文件批量转换为 pdf？.md",
+    "1.收集箱/simpread_clipper/repo/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md",
+    "1.收集箱/simpread_clipper/repo/18-SpringBoot实现文件的上传和下载 - 简书.md",
+    "1.收集箱/simpread_clipper/repo/22-数据结构常见问题_数据结构复试常问问题.md",
+    "1.收集箱/simpread_clipper/repo/23-数据结构面试、数据结构考研复试.md",
     "4.归档/学习/专业/基础/software/idea/jetbrains-idea.md",
     "4.归档/学习/专业/基础/db/mysql/-mysql-advanced.md",
     "4.归档/学习/专业/基础/java/distribution/spring-cloud/SpringCloud.md",
-    "5.专题研究/Algorithm/STL/set.md",
-    "5.专题研究/Algorithm/STL/queue.md",
-    "5.专题研究/Algorithm/STL/vector.md",
-    "5.专题研究/Algorithm/STL/STL遍历算法.md",
-    "5.专题研究/Algorithm/STL/string.md",
-    "5.专题研究/Algorithm/STL/STL集合算法.md",
-    "5.专题研究/Algorithm/STL/STL排序算法.md",
-    "5.专题研究/Algorithm/STL/STL查找算法.md",
-    "5.专题研究/Algorithm/STL/STL填充算法.md",
-    "5.专题研究/Algorithm/STL/STL拷贝替换算法.md",
-    "5.专题研究/Algorithm/STL/stack.md",
-    "5.专题研究/Algorithm/STL/map.md",
-    "5.专题研究/Algorithm/STL/priority_queue.md",
-    "5.专题研究/Algorithm/STL/list.md",
-    "5.专题研究/Algorithm/STL/deque.md",
-    "4.归档/学习/专业/工程/后端框架/MyBatis/【Bug】MyBatis - Bug.md",
-    "4.归档/学习/专业/基础/devops/maven/Maven.md",
-    "4.归档/学习/专业/工程/项目构建工具/Maven/【Bug】Maven.md",
-    "4.归档/学习/专业/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md",
-    "4.归档/学习/专业/工程/后端框架/Spring-Boot/【总结】SpringBoot路径访问.md",
-    "5.专题研究/AAAMLP/准备环境-Miniconda.md",
-    "4.归档/学习/专业/工程/数据科学/Annaconda/Annaconda.md",
-    "4.归档/学习/专业/工程/正则表达式/正则表达式学习.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
