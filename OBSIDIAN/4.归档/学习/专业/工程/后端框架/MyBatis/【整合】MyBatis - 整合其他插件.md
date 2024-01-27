@@ -4,7 +4,7 @@ skill: MyBatis
 create_date: 2022-01-31
 ---
 
-#JavaWeb #MyBatis #PageHelper
+#后端/JavaWeb #后端/MyBatis #后端/PageHelper
 
 ### 整合pagehelper和mybatis-plus
 

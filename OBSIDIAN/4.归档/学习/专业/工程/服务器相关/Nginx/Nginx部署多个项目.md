@@ -1,6 +1,6 @@
 ## Nginx 通过不同的端口部署多个项目
 
-#nginx
+#后端/nginx
 
 在 `/www/server/nginx/conf/vhost` 添加项目的配置文件
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "91e5b1741dc09fbe",
+        "id": "5f138061b0fed5d4",
         "type": "tabs",
         "children": [
           {
-            "id": "b6b1f034065afef5",
+            "id": "523222a1377f923f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.收集箱/navigation/design/格式转换.md",
+                "file": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#剪藏",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -67,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "74674b6004f5200d",
@@ -80,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.收集箱/navigation/design/格式转换.md"
+                "file": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md"
               }
             }
           }
@@ -136,7 +137,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1.收集箱/navigation/design/格式转换.md"
+                "file": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md"
               }
             }
           },
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.收集箱/navigation/design/格式转换.md",
+                "file": "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,40 +195,40 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b6b1f034065afef5",
+  "active": "523222a1377f923f",
   "lastOpenFiles": [
-    "1.收集箱/navigation/coder/Json解析.md",
-    "1.收集箱/navigation/coder/CSS生成工具.md",
-    "1.收集箱/navigation/coder/综合工具.md",
-    "1.收集箱/navigation/coder/正则相关.md",
-    "1.收集箱/navigation/coder/网络工具.md",
-    "1.收集箱/navigation/coder/其他工具.md",
-    "1.收集箱/navigation/coder/画图工具.md",
-    "1.收集箱/navigation/coder/代码运行.md",
-    "1.收集箱/navigation/coder/代码美化.md",
-    "1.收集箱/navigation/coder/代码加密.md",
-    "1.收集箱/navigation/coder/编码转换.md",
-    "2.等待处理/Diary/2024-01-27.md",
-    "2.等待处理/Diary/2024-01-25.md",
-    "2.等待处理/Diary/2024-01-26.md",
-    "5.专题研究/AAAMLP/组织机器学习项目.md",
-    "5.专题研究/AAAMLP/index.md",
-    "5.专题研究/AAAMLP/处理分类变量.md",
-    "5.专题研究/AAAMLP/评估指标.md",
-    "5.专题研究/AAAMLP/交叉检验.md",
-    "5.专题研究/AAAMLP/可重复代码和模型方法.md",
+    "4.归档/学习/专业/基础/software/idea/jetbrains-idea.md",
+    "4.归档/学习/专业/基础/db/mysql/-mysql-advanced.md",
+    "4.归档/学习/专业/基础/java/distribution/spring-cloud/SpringCloud.md",
+    "5.专题研究/Algorithm/STL/set.md",
+    "5.专题研究/Algorithm/STL/queue.md",
+    "5.专题研究/Algorithm/STL/vector.md",
+    "5.专题研究/Algorithm/STL/STL遍历算法.md",
+    "5.专题研究/Algorithm/STL/string.md",
+    "5.专题研究/Algorithm/STL/STL集合算法.md",
+    "5.专题研究/Algorithm/STL/STL排序算法.md",
+    "5.专题研究/Algorithm/STL/STL查找算法.md",
+    "5.专题研究/Algorithm/STL/STL填充算法.md",
+    "5.专题研究/Algorithm/STL/STL拷贝替换算法.md",
+    "5.专题研究/Algorithm/STL/stack.md",
+    "5.专题研究/Algorithm/STL/map.md",
+    "5.专题研究/Algorithm/STL/priority_queue.md",
+    "5.专题研究/Algorithm/STL/list.md",
+    "5.专题研究/Algorithm/STL/deque.md",
+    "4.归档/学习/专业/工程/后端框架/MyBatis/【Bug】MyBatis - Bug.md",
+    "4.归档/学习/专业/基础/devops/maven/Maven.md",
+    "4.归档/学习/专业/工程/项目构建工具/Maven/【Bug】Maven.md",
+    "4.归档/学习/专业/工程/后端框架/Spring-Boot/【Bug】SpringBoot-Bug.md",
+    "4.归档/学习/专业/工程/后端框架/Spring-Boot/【总结】SpringBoot路径访问.md",
+    "5.专题研究/AAAMLP/准备环境-Miniconda.md",
+    "4.归档/学习/专业/工程/数据科学/Annaconda/Annaconda.md",
+    "4.归档/学习/专业/工程/正则表达式/正则表达式学习.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
-    "5.专题研究/AAAMLP/无监督和有监督学习.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127103843.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127102436.png",
     "5.专题研究/AAAMLP/assets",
-    "2.等待处理/Diary/2024-01/2024-01-23.md",
-    "2.等待处理/Diary/2024-01-24.md",
-    "5.专题研究/AAAMLP/准备环境-Miniconda.md",
-    "4.归档/学习/专业/基础/other/PYQT/PYQT.md",
-    "4.归档/学习/专业/基础/python/Python知识导图.md",
     "4.归档/学习/人际/社会经验/2024.1.16 帮助孔的师姐解决问题.mdenc",
     "4.归档/学习/人际/社会经验/2023.10.11 pdd退款.mdenc",
     "4.归档/学习/人际/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",

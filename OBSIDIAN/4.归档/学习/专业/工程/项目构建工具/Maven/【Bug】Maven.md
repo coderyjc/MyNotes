@@ -4,7 +4,7 @@ skill: maven
 create_date: 2022-01-30
 ---
 
-#bug总结 #maven #后端
+#后端/bug总结 #后端/maven
 
 
 ####  Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2

@@ -1,6 +1,6 @@
 # list 链表
 
-#STL/list
+#Cpp/STL/list
 
 ### 初始化
 

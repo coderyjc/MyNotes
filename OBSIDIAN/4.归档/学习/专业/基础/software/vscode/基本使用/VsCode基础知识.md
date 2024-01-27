@@ -1,6 +1,6 @@
 # VsCode基础知识
 
-#VsCode #教程 #VsCode配置  
+#软件/VsCode  
 
 ### 基本设置
 

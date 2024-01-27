@@ -1,6 +1,6 @@
 # STL-遍历算法
 
-#STL/遍历算法
+#Cpp/STL/遍历算法
 
 ### for_each
 

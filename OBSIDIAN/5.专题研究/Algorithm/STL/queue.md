@@ -1,6 +1,6 @@
 # queue 队列
 
-#STL/queue
+#Cpp/STL/queue
 
 **不能进行遍历, 不提供迭代器, 不支持随机访问**
 

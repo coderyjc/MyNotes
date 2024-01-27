@@ -4,7 +4,7 @@ skill: Annaconda
 create_date: 2022-02-08
 ---
 
-#python #数据科学 #数据分析 #annaconda
+#python #annaconda
 
 # Annaconda
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - hexo
+  - 前端/hexo
 ---
 
 

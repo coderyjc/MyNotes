@@ -1,5 +1,5 @@
 
-#Software/QQ #Tricks
+#软件/QQ 
 
 > 微信目前没有直接批量添加表情的方法
 

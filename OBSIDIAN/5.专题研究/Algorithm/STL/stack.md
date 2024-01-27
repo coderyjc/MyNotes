@@ -1,6 +1,6 @@
 # stack 栈
 
-#STL/stack
+#Cpp/STL/stack
 
 **栈不能遍历，不支持随机存取，只能通过top从栈顶获取和删除元素。**
 

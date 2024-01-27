@@ -4,7 +4,7 @@ skill: npm
 create_date: 2022-01-31
 ---
 
-#前端 #NPM #包管理工具
+#前端/NPM #前端/包管理工具
 
 # NPM 知识总结
 

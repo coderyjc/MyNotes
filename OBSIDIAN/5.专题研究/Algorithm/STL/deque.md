@@ -1,6 +1,6 @@
 # deque 双端数组
 
-#STL/deque
+#Cpp/STL/deque
 
 ## 初始化
 

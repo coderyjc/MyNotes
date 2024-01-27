@@ -1,5 +1,5 @@
 ---
-tags: AI产品
+tags: AI/AI产品
 ---
 
 ## 免费AI产品

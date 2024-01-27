@@ -1,8 +1,8 @@
 ---
 tags:
-  - 重装系统
-  - EasyU
-  - PE系统
+  - Windows/重装系统
+  - Windows/EasyU
+  - Windows/PE系统
 ---
 
 

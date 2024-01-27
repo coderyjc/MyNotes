@@ -3,8 +3,7 @@ create_date: 2024-01-27 09:45
 tags:
   - Annaconda
   - Miniconda
-  - 包管理工具
-  - 环境配置
+  - Miniconda/环境配置
 ---
 
 # 准备环境
