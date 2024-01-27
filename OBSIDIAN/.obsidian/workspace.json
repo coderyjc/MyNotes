@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/AAAMLP/无监督和有监督学习.md",
+                "file": "5.专题研究/AAAMLP/交叉检验.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b49e9ef2a9888978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/AAAMLP/交叉检验.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/AAAMLP/无监督和有监督学习.md"
+                "file": "5.专题研究/AAAMLP/交叉检验.md"
               }
             }
           }
@@ -136,7 +150,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/AAAMLP/无监督和有监督学习.md"
+                "file": "5.专题研究/AAAMLP/交叉检验.md"
               }
             }
           }
@@ -153,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/AAAMLP/无监督和有监督学习.md",
+                "file": "5.专题研究/AAAMLP/交叉检验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,18 +216,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2407b215dd6737b9",
+  "active": "b49e9ef2a9888978",
   "lastOpenFiles": [
+    "5.专题研究/AAAMLP/index.md",
+    "5.专题研究/AAAMLP/交叉检验.md",
+    "5.专题研究/AAAMLP/无监督和有监督学习.md",
+    "5.专题研究/AAAMLP/assets/Pasted image 20240127103843.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127102436.png",
     "5.专题研究/AAAMLP/assets",
     "2.等待处理/Diary/2024-01/2024-01-23.md",
     "2.等待处理/Diary/2024-01-24.md",
     "2.等待处理/Diary/2024-01-25.md",
     "2.等待处理/Diary/2024-01-26.md",
-    "5.专题研究/AAAMLP/无监督和有监督学习.md",
     "2.等待处理/Diary/2024-01-27.md",
     "5.专题研究/AAAMLP/准备环境-Miniconda.md",
-    "5.专题研究/AAAMLP/index.md",
     "4.归档/学习/专业/基础/other/PYQT/PYQT.md",
     "4.归档/学习/专业/基础/python/Python知识导图.md",
     "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
@@ -246,8 +262,6 @@
     "5.专题研究/AAAMLP/figures/AAAMLP_page249_image.png",
     "5.专题研究/AAAMLP/figures/AAAMLP_page244_image.png",
     "5.专题研究/AAAMLP/figures/AAAMLP_page225_image.png",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page21_image_1.png",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page21_image.png",
     "5.专题研究/AAAMLP/figures",
     "3.将来可能/回收站"
   ]

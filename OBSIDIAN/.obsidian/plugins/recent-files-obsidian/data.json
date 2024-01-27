@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "交叉检验",
+      "path": "5.专题研究/AAAMLP/交叉检验.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/AAAMLP/index.md"
+    },
+    {
       "basename": "无监督和有监督学习",
       "path": "5.专题研究/AAAMLP/无监督和有监督学习.md"
     },
@@ -29,16 +37,8 @@
       "path": "5.专题研究/AAAMLP/准备环境-Miniconda.md"
     },
     {
-      "basename": "index",
-      "path": "5.专题研究/AAAMLP/index.md"
-    },
-    {
       "basename": "PYQT",
       "path": "4.归档/学习/专业/基础/other/PYQT/PYQT.md"
-    },
-    {
-      "basename": "Python知识导图",
-      "path": "4.归档/学习/专业/基础/python/Python知识导图.md"
     }
   ],
   "omittedPaths": [],
