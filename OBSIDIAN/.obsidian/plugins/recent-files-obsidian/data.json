@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "交叉检验",
-      "path": "5.专题研究/AAAMLP/交叉检验.md"
+      "basename": "评估指标",
+      "path": "5.专题研究/AAAMLP/评估指标.md"
     },
     {
       "basename": "index",
       "path": "5.专题研究/AAAMLP/index.md"
+    },
+    {
+      "basename": "交叉检验",
+      "path": "5.专题研究/AAAMLP/交叉检验.md"
+    },
+    {
+      "basename": "可重复代码和模型方法",
+      "path": "5.专题研究/AAAMLP/可重复代码和模型方法.md"
     },
     {
       "basename": "2024-01-27",
@@ -21,10 +29,6 @@
       "path": "5.专题研究/AAAMLP/组织机器学习项目.md"
     },
     {
-      "basename": "评估指标",
-      "path": "5.专题研究/AAAMLP/评估指标.md"
-    },
-    {
       "basename": "无监督和有监督学习",
       "path": "5.专题研究/AAAMLP/无监督和有监督学习.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "2024-01-24",
       "path": "2.等待处理/Diary/2024-01-24.md"
-    },
-    {
-      "basename": "2024-01-25",
-      "path": "2.等待处理/Diary/2024-01-25.md"
     }
   ],
   "omittedPaths": [],

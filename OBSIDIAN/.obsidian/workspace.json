@@ -13,20 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md",
-                "mode": "preview",
+                "file": "5.专题研究/AAAMLP/评估指标.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "4c0f558b93d69aed",
+            "id": "85514326ddfe3ebf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-27.md",
+                "file": "5.专题研究/AAAMLP/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -45,7 +45,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 67.96628029504743,
+        "dimension": 69.00866217516844,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -85,7 +85,7 @@
       {
         "id": "74674b6004f5200d",
         "type": "tabs",
-        "dimension": 32.03371970495258,
+        "dimension": 30.991337824831568,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md"
+                "file": "5.专题研究/AAAMLP/评估指标.md"
               }
             }
           }
@@ -149,7 +149,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md"
+                "file": "5.专题研究/AAAMLP/评估指标.md"
               }
             }
           }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md",
+                "file": "5.专题研究/AAAMLP/评估指标.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,14 +215,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "30bb52547df5199e",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
     "5.专题研究/AAAMLP/index.md",
-    "2.等待处理/Diary/2024-01-27.md",
+    "5.专题研究/AAAMLP/评估指标.md",
     "5.专题研究/AAAMLP/交叉检验.md",
+    "5.专题研究/AAAMLP/可重复代码和模型方法.md",
+    "2.等待处理/Diary/2024-01-27.md",
     "5.专题研究/AAAMLP/处理分类变量.md",
     "5.专题研究/AAAMLP/组织机器学习项目.md",
-    "5.专题研究/AAAMLP/评估指标.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
@@ -251,7 +252,6 @@
     "4.归档/学习/外语/英语外刊/Journal-2023-06-16.md",
     "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
     "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
-    "5.专题研究/AAAMLP/可重复代码和模型方法.md",
     "1.收集箱/dashboard/tag-summary.md",
     "1.收集箱/dashboard/tag-retrieve.md",
     "1.收集箱/dashboard/warehouse.md",
