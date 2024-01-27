@@ -1,9 +1,7 @@
 ---
-tags: [前端代码生成]
+tags: 网址导航/Dev/CSS生成
 description: 前端布局生成、背景、布局、表格、按钮、渐变、组件、模版、论坛
 ---
-
-#网址导航/Dev/CSS生成 
 
 - [零代码-前端工具箱](https://www.lingdaima.com/)
 

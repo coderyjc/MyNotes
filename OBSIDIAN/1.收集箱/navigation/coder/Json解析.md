@@ -1,9 +1,7 @@
 ---
-tags: [json解析]
+tags: 网址导航/Dev/json解析
 description: json解析、转义、视图、着色、实体、对比、压缩
----
-
-#网址导航/Dev/json解析 
+--- 
 
 - [JSON在线 | JSON解析格式化—SO JSON在线工具](https://www.sojson.com/)
 

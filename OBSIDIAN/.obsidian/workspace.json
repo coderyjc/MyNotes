@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "50de1c7500db94ec",
+        "id": "91e5b1741dc09fbe",
         "type": "tabs",
         "children": [
           {
-            "id": "30bb52547df5199e",
+            "id": "b6b1f034065afef5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/AAAMLP/组织机器学习项目.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "85514326ddfe3ebf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/AAAMLP/index.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cac19836d11e4f55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/AAAMLP/组织机器学习项目.md",
+                "file": "1.收集箱/navigation/design/格式转换.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/AAAMLP/组织机器学习项目.md"
+                "file": "1.收集箱/navigation/design/格式转换.md"
               }
             }
           }
@@ -124,7 +97,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 30.15414258188825,
+        "dimension": 62.07892204042348,
         "children": [
           {
             "id": "9efa0f878fdc06cc",
@@ -163,24 +136,17 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/AAAMLP/组织机器学习项目.md"
+                "file": "1.收集箱/navigation/design/格式转换.md"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "cf0fee3d086246ef",
-        "type": "tabs",
-        "dimension": 35.067437379576106,
-        "children": [
+          },
           {
             "id": "3f3a381f5286a2b5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/AAAMLP/组织机器学习项目.md",
+                "file": "1.收集箱/navigation/design/格式转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,12 +157,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 34.77842003853564,
+        "dimension": 37.921077959576515,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -227,12 +194,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "cac19836d11e4f55",
+  "active": "b6b1f034065afef5",
   "lastOpenFiles": [
+    "1.收集箱/navigation/coder/Json解析.md",
+    "1.收集箱/navigation/coder/CSS生成工具.md",
+    "1.收集箱/navigation/coder/综合工具.md",
+    "1.收集箱/navigation/coder/正则相关.md",
+    "1.收集箱/navigation/coder/网络工具.md",
+    "1.收集箱/navigation/coder/其他工具.md",
+    "1.收集箱/navigation/coder/画图工具.md",
+    "1.收集箱/navigation/coder/代码运行.md",
+    "1.收集箱/navigation/coder/代码美化.md",
+    "1.收集箱/navigation/coder/代码加密.md",
+    "1.收集箱/navigation/coder/编码转换.md",
+    "2.等待处理/Diary/2024-01-27.md",
+    "2.等待处理/Diary/2024-01-25.md",
+    "2.等待处理/Diary/2024-01-26.md",
+    "5.专题研究/AAAMLP/组织机器学习项目.md",
     "5.专题研究/AAAMLP/index.md",
     "5.专题研究/AAAMLP/处理分类变量.md",
-    "2.等待处理/Diary/2024-01-27.md",
-    "5.专题研究/AAAMLP/组织机器学习项目.md",
     "5.专题研究/AAAMLP/评估指标.md",
     "5.专题研究/AAAMLP/交叉检验.md",
     "5.专题研究/AAAMLP/可重复代码和模型方法.md",
@@ -245,28 +225,15 @@
     "5.专题研究/AAAMLP/assets",
     "2.等待处理/Diary/2024-01/2024-01-23.md",
     "2.等待处理/Diary/2024-01-24.md",
-    "2.等待处理/Diary/2024-01-25.md",
-    "2.等待处理/Diary/2024-01-26.md",
     "5.专题研究/AAAMLP/准备环境-Miniconda.md",
     "4.归档/学习/专业/基础/other/PYQT/PYQT.md",
     "4.归档/学习/专业/基础/python/Python知识导图.md",
-    "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
-    "5.专题研究/AAAMLP/未命名.md",
-    "5.专题研究/AAAMLP/特征工程.md",
-    "5.专题研究/AAAMLP/特征选择.md",
-    "HOME.md",
     "4.归档/学习/人际/社会经验/2024.1.16 帮助孔的师姐解决问题.mdenc",
     "4.归档/学习/人际/社会经验/2023.10.11 pdd退款.mdenc",
     "4.归档/学习/人际/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",
     "4.归档/学习/人际/社会经验/2023.5.27 看别人占用教室.mdenc",
     "4.归档/学习/人际/社会经验/2023.5.17 转接团关系.mdenc",
-    "4.归档/学习/人际/和导师/如何和导师交流.md",
-    "4.归档/学习/外语/英语外刊/Journal-2023-06-16.md",
-    "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
     "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
-    "1.收集箱/dashboard/tag-summary.md",
-    "1.收集箱/dashboard/tag-retrieve.md",
-    "1.收集箱/dashboard/warehouse.md",
     "5.专题研究/AAAMLP/javascripts/katex.js",
     "5.专题研究/AAAMLP/javascripts",
     "5.专题研究/AAAMLP/figures/AAAMLP_page39_image.png",
