@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-01-27",
+      "path": "2.等待处理/Diary/2024-01-27.md"
+    },
+    {
+      "basename": "特征工程",
+      "path": "5.专题研究/AAAMLP/特征工程.md"
+    },
+    {
+      "basename": "评估指标",
+      "path": "5.专题研究/AAAMLP/评估指标.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/AAAMLP/index.md"
+    },
+    {
+      "basename": "特征选择",
+      "path": "5.专题研究/AAAMLP/特征选择.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "Journal-2023-06-16",
       "path": "4.归档/学习/外语/英语外刊/Journal-2023-06-16.md"
     },
@@ -9,24 +33,12 @@
       "path": "2.等待处理/Diary/2024-01-26.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "index",
-      "path": "5.专题研究/AAAMLP/index.md"
-    },
-    {
       "basename": "可重复代码和模型方法",
       "path": "5.专题研究/AAAMLP/可重复代码和模型方法.md"
     },
     {
       "basename": "tag-summary",
       "path": "1.收集箱/dashboard/tag-summary.md"
-    },
-    {
-      "basename": "tag-retrieve",
-      "path": "1.收集箱/dashboard/tag-retrieve.md"
     }
   ],
   "omittedPaths": [],

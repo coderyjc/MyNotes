@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "9132516edffc5002",
+        "id": "380a174441f3d1a4",
         "type": "tabs",
         "children": [
           {
-            "id": "30f5be19752b5934",
+            "id": "bd8d45d669c9694a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-27.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -74,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-27.md"
+              }
             }
           }
         ]
@@ -128,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-27.md"
+              }
             }
           }
         ]
@@ -144,6 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-01-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,8 +202,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "30f5be19752b5934",
+  "active": "bd8d45d669c9694a",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-01-27.md",
+    "5.专题研究/AAAMLP/特征工程.md",
+    "5.专题研究/AAAMLP/评估指标.md",
+    "5.专题研究/AAAMLP/index.md",
+    "5.专题研究/AAAMLP/特征选择.md",
+    "HOME.md",
     "4.归档/学习/人际/社会经验/2024.1.16 帮助孔的师姐解决问题.mdenc",
     "4.归档/学习/人际/社会经验/2023.10.11 pdd退款.mdenc",
     "4.归档/学习/人际/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",
@@ -204,8 +220,6 @@
     "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
     "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
     "2.等待处理/Diary/2024-01-26.md",
-    "HOME.md",
-    "5.专题研究/AAAMLP/index.md",
     "5.专题研究/AAAMLP/可重复代码和模型方法.md",
     "1.收集箱/dashboard/tag-summary.md",
     "1.收集箱/dashboard/tag-retrieve.md",
@@ -213,11 +227,8 @@
     "5.专题研究/AAAMLP/准备环境.md",
     "5.专题研究/AAAMLP/index (2).md",
     "5.专题研究/AAAMLP/超参数优化.md",
-    "5.专题研究/AAAMLP/评估指标.md",
     "5.专题研究/AAAMLP/组织机器学习项目.md",
     "5.专题研究/AAAMLP/组合和堆叠方法.md",
-    "5.专题研究/AAAMLP/特征选择.md",
-    "5.专题研究/AAAMLP/特征工程.md",
     "5.专题研究/AAAMLP/无监督和有监督学习.md",
     "5.专题研究/AAAMLP/文本分类或回归方法.md",
     "5.专题研究/AAAMLP/处理分类变量.md",
