@@ -1,8 +1,31 @@
+---
+create_date: 2024-01-27 09:45
+tags:
+  - Annaconda
+  - Miniconda
+  - 包管理工具
+  - 环境配置
+---
+
 # 准备环境
 
-在我们开始编程之前，在你的机器上设置好一切是非常重要的。在本书中，我们将使用 Ubuntu 18.04 和 Python 3.7.6。如果你是 Windows 用户，可以通过多种方式安装 Ubuntu。例如，在虚拟机上安装由Oracle公司提供的免费软件 Virtual Box。与Windows一起作为双启动系统。我更喜欢双启动，因为它是原生的。如果你不是Ubuntu用户，在使用本书中的某些bash脚本时可能会遇到问题。为了避免这种情况，你可以在虚拟机中安装Ubuntu，或者在Windows上安装Linux shell。
+使用了Miniconda而不是Annaconda
 
-用 Anaconda 在任何机器上安装 Python 都很简单。我特别喜欢 **Miniconda**，它是 conda 的最小安装程序。它适用于 Linux、OSX 和 Windows。由于 Python 2 支持已于 2019 年底结束，我们将使用 Python 3 发行版。需要注意的是，miniconda 并不像普通 Anaconda 附带所有软件包。因此，我们随时安装新软件包。安装 miniconda 非常简单。
+```ad-info
+title: Miniconda比Annaconda的优势在哪
+
+Anaconda 是一个开源的 Python 发行版本，而 Miniconda 则是 Anaconda 的一个子集。它们之间的关系是，Anaconda 包含了 Python 解释器以及一大堆常用的数据科学包，而 Miniconda 只包含了 Python 解释器和 Conda 包管理工具。因此，Miniconda 与 Anaconda 相比更加轻量级。
+
+优势在于：精简性、灵活性、自定义环境、更新和维护。
+```
+
+## Windows环境
+
+直接在官网 [https://docs.conda.io/projects/miniconda/en/latest/](https://docs.conda.io/projects/miniconda/en/latest/) 下载安装即可。
+
+安装完成之后需要配置，配置环境变量PATH和镜像源在[[../../4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置#配置Annaconda环境变量|【安装】Annaconda安装以及镜像源配置]]
+
+## Linux环境
 
 首先要做的是将 **Miniconda3** 下载到系统中。
 

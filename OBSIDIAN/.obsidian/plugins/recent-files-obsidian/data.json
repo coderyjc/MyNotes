@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "5.专题研究/AAAMLP/index.md"
+    },
+    {
+      "basename": "准备环境-Miniconda",
+      "path": "5.专题研究/AAAMLP/准备环境-Miniconda.md"
+    },
+    {
+      "basename": "【安装】Annaconda安装以及镜像源配置",
+      "path": "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md"
+    },
+    {
       "basename": "2024-01-27",
       "path": "2.等待处理/Diary/2024-01-27.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "评估指标",
       "path": "5.专题研究/AAAMLP/评估指标.md"
-    },
-    {
-      "basename": "index",
-      "path": "5.专题研究/AAAMLP/index.md"
     },
     {
       "basename": "特征选择",
@@ -31,14 +39,6 @@
     {
       "basename": "2024-01-26",
       "path": "2.等待处理/Diary/2024-01-26.md"
-    },
-    {
-      "basename": "可重复代码和模型方法",
-      "path": "5.专题研究/AAAMLP/可重复代码和模型方法.md"
-    },
-    {
-      "basename": "tag-summary",
-      "path": "1.收集箱/dashboard/tag-summary.md"
     }
   ],
   "omittedPaths": [],

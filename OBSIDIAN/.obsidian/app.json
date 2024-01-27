@@ -6,7 +6,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",
