@@ -5,6 +5,14 @@
       "path": "2.等待处理/Diary/2024-01-27.md"
     },
     {
+      "basename": "2024-01-26",
+      "path": "2.等待处理/Diary/2024-01-26.md"
+    },
+    {
+      "basename": "2024-01-28",
+      "path": "2.等待处理/Diary/2024-01-28.md"
+    },
+    {
       "basename": "HOME",
       "path": "HOME.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "anime.js",
       "path": "4.归档/学习/专业/基础/前端/components/anime.js/anime.js.md"
-    },
-    {
-      "basename": "github",
-      "path": "4.归档/学习/专业/基础/DevOps/git/github.md"
-    },
-    {
-      "basename": "MyBatis逆向工程",
-      "path": "4.归档/学习/专业/基础/Java/spring/mybatis/MyBatis逆向工程.md"
     }
   ],
   "omittedPaths": [],

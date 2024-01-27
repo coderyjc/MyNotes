@@ -11,8 +11,13 @@
             "id": "f0dff63b8f360bdd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-27.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -74,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-27.md"
+              }
             }
           }
         ]
@@ -128,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-27.md"
+              }
             }
           },
           {
@@ -137,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-01-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,9 +193,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "f0dff63b8f360bdd",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-01-26.md",
     "2.等待处理/Diary/2024-01-27.md",
+    "2.等待处理/Diary/2024-01-28.md",
     "HOME.md",
     "4.归档/学习/专业/工程/数据库/MySQL/SQLTrick.md",
     "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md",
@@ -209,8 +221,6 @@
     "1.收集箱/simpread_clipper/repo/4-简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
     "1.收集箱/simpread_clipper/repo/16-如何把 Markdown 文件批量转换为 pdf？.md",
     "1.收集箱/simpread_clipper/repo/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md",
-    "1.收集箱/simpread_clipper/repo/18-SpringBoot实现文件的上传和下载 - 简书.md",
-    "1.收集箱/simpread_clipper/repo/22-数据结构常见问题_数据结构复试常问问题.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
