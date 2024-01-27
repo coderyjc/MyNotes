@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md",
+                "file": "5.专题研究/AAAMLP/index.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md"
+                "file": "5.专题研究/AAAMLP/index.md"
               }
             }
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md"
+                "file": "5.专题研究/AAAMLP/index.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/AAAMLP/交叉检验.md",
+                "file": "5.专题研究/AAAMLP/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,13 +202,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2407b215dd6737b9",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/AAAMLP/处理分类变量.md",
+    "5.专题研究/AAAMLP/index.md",
+    "5.专题研究/AAAMLP/组织机器学习项目.md",
+    "5.专题研究/AAAMLP/评估指标.md",
+    "5.专题研究/AAAMLP/交叉检验.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
-    "5.专题研究/AAAMLP/交叉检验.md",
-    "5.专题研究/AAAMLP/index.md",
     "5.专题研究/AAAMLP/无监督和有监督学习.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127103843.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127102436.png",
@@ -224,7 +227,6 @@
     "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
     "5.专题研究/AAAMLP/未命名.md",
     "5.专题研究/AAAMLP/特征工程.md",
-    "5.专题研究/AAAMLP/评估指标.md",
     "5.专题研究/AAAMLP/特征选择.md",
     "HOME.md",
     "4.归档/学习/人际/社会经验/2024.1.16 帮助孔的师姐解决问题.mdenc",
@@ -240,14 +242,12 @@
     "1.收集箱/dashboard/tag-summary.md",
     "1.收集箱/dashboard/tag-retrieve.md",
     "1.收集箱/dashboard/warehouse.md",
-    "5.专题研究/AAAMLP/index (2).md",
     "5.专题研究/AAAMLP/javascripts/katex.js",
     "5.专题研究/AAAMLP/javascripts",
     "5.专题研究/AAAMLP/figures/AAAMLP_page39_image.png",
     "5.专题研究/AAAMLP/figures/AAAMLP_page30_image.png",
     "5.专题研究/AAAMLP/figures/AAAMLP_page25_image.png",
     "5.专题研究/AAAMLP/figures/AAAMLP_page24_image.png",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page249_image.png",
     "5.专题研究/AAAMLP/figures",
     "3.将来可能/回收站"
   ]
