@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "73f0de8e35be8af9",
+        "id": "50de1c7500db94ec",
         "type": "tabs",
         "children": [
           {
-            "id": "d422128f1d4d4f72",
+            "id": "2407b215dd6737b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/AAAMLP/index.md",
+                "file": "5.专题研究/AAAMLP/无监督和有监督学习.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/AAAMLP/index.md"
+                "file": "5.专题研究/AAAMLP/无监督和有监督学习.md"
               }
             }
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/AAAMLP/index.md"
+                "file": "5.专题研究/AAAMLP/无监督和有监督学习.md"
               }
             }
           }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/AAAMLP/index.md",
+                "file": "5.专题研究/AAAMLP/无监督和有监督学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,13 +202,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d422128f1d4d4f72",
+  "active": "2407b215dd6737b9",
   "lastOpenFiles": [
+    "5.专题研究/AAAMLP/assets/Pasted image 20240127102436.png",
+    "5.专题研究/AAAMLP/assets",
+    "2.等待处理/Diary/2024-01/2024-01-23.md",
+    "2.等待处理/Diary/2024-01-24.md",
+    "2.等待处理/Diary/2024-01-25.md",
+    "2.等待处理/Diary/2024-01-26.md",
+    "5.专题研究/AAAMLP/无监督和有监督学习.md",
+    "2.等待处理/Diary/2024-01-27.md",
     "5.专题研究/AAAMLP/准备环境-Miniconda.md",
     "5.专题研究/AAAMLP/index.md",
+    "4.归档/学习/专业/基础/other/PYQT/PYQT.md",
+    "4.归档/学习/专业/基础/python/Python知识导图.md",
     "4.归档/学习/专业/基础/python/python-annaconda/【安装】Annaconda安装以及镜像源配置.md",
     "5.专题研究/AAAMLP/未命名.md",
-    "2.等待处理/Diary/2024-01-27.md",
     "5.专题研究/AAAMLP/特征工程.md",
     "5.专题研究/AAAMLP/评估指标.md",
     "5.专题研究/AAAMLP/特征选择.md",
@@ -222,20 +231,12 @@
     "4.归档/学习/外语/英语外刊/Journal-2023-06-16.md",
     "4.归档/学习/人际/和同学/2023-05-09 浩南.md",
     "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
-    "2.等待处理/Diary/2024-01-26.md",
     "5.专题研究/AAAMLP/可重复代码和模型方法.md",
     "1.收集箱/dashboard/tag-summary.md",
     "1.收集箱/dashboard/tag-retrieve.md",
     "1.收集箱/dashboard/warehouse.md",
     "5.专题研究/AAAMLP/index (2).md",
     "5.专题研究/AAAMLP/超参数优化.md",
-    "5.专题研究/AAAMLP/组织机器学习项目.md",
-    "5.专题研究/AAAMLP/组合和堆叠方法.md",
-    "5.专题研究/AAAMLP/无监督和有监督学习.md",
-    "5.专题研究/AAAMLP/文本分类或回归方法.md",
-    "5.专题研究/AAAMLP/处理分类变量.md",
-    "5.专题研究/AAAMLP/图像分类和分割方法.md",
-    "5.专题研究/AAAMLP/交叉检验.md",
     "5.专题研究/AAAMLP/javascripts/katex.js",
     "5.专题研究/AAAMLP/javascripts",
     "5.专题研究/AAAMLP/figures/AAAMLP_page39_image.png",
@@ -248,7 +249,6 @@
     "5.专题研究/AAAMLP/figures/AAAMLP_page21_image_1.png",
     "5.专题研究/AAAMLP/figures/AAAMLP_page21_image.png",
     "5.专题研究/AAAMLP/figures",
-    "3.将来可能/回收站",
-    "5.专题研究/AAAMLP"
+    "3.将来可能/回收站"
   ]
 }
