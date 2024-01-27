@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-01-27",
+      "path": "2.等待处理/Diary/2024-01-27.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "SQLTrick",
+      "path": "4.归档/学习/专业/工程/数据库/MySQL/SQLTrick.md"
+    },
+    {
+      "basename": "【Bug】MySQL-Bug",
+      "path": "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md"
+    },
+    {
+      "basename": "Annaconda",
+      "path": "4.归档/学习/专业/工程/数据科学/Annaconda/Annaconda.md"
+    },
+    {
       "basename": "tag-summary",
       "path": "1.收集箱/dashboard/tag-summary.md"
     },
@@ -10,35 +30,15 @@
     },
     {
       "basename": "anime.js",
-      "path": "4.归档/学习/专业/基础/front/components/anime.js/anime.js.md"
+      "path": "4.归档/学习/专业/基础/前端/components/anime.js/anime.js.md"
     },
     {
       "basename": "github",
-      "path": "4.归档/学习/专业/基础/devops/git/github.md"
+      "path": "4.归档/学习/专业/基础/DevOps/git/github.md"
     },
     {
       "basename": "MyBatis逆向工程",
-      "path": "4.归档/学习/专业/基础/java/spring/mybatis/MyBatis逆向工程.md"
-    },
-    {
-      "basename": "MyBatis",
-      "path": "4.归档/学习/专业/基础/java/spring/mybatis/MyBatis.md"
-    },
-    {
-      "basename": "【Bug】MySQL-Bug",
-      "path": "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md"
-    },
-    {
-      "basename": "Uni-App-ScrollView",
-      "path": "4.归档/学习/专业/工程/前端框架/Uni-App/Uni-App-ScrollView.md"
-    },
-    {
-      "basename": "Vue-Cli-bug",
-      "path": "4.归档/学习/专业/工程/前端框架/Vue.js/Vue-Cli-bug.md"
-    },
-    {
-      "basename": "Vue.js-Bug",
-      "path": "4.归档/学习/专业/工程/前端框架/Vue.js/Vue.js-Bug.md"
+      "path": "4.归档/学习/专业/基础/Java/spring/mybatis/MyBatis逆向工程.md"
     }
   ],
   "omittedPaths": [],

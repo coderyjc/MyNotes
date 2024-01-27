@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dbabd29d6492435d",
+        "id": "a2b1e440c5a444bd",
         "type": "tabs",
         "children": [
           {
-            "id": "51a4b7dcf2ea5208",
+            "id": "f0dff63b8f360bdd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -27,7 +27,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 69.00866217516844,
+        "dimension": 74.78344562078922,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -67,7 +67,7 @@
       {
         "id": "74674b6004f5200d",
         "type": "tabs",
-        "dimension": 30.991337824831568,
+        "dimension": 25.21655437921078,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -147,8 +147,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9167c4d258dee56c",
@@ -186,13 +185,17 @@
   },
   "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-01-27.md",
+    "HOME.md",
+    "4.归档/学习/专业/工程/数据库/MySQL/SQLTrick.md",
+    "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md",
+    "4.归档/学习/专业/工程/数据科学/Annaconda/Annaconda.md",
     "1.收集箱/dashboard/tag-summary.md",
     "1.收集箱/dashboard/tag-retrieve.md",
-    "4.归档/学习/专业/基础/front/components/anime.js/anime.js.md",
-    "4.归档/学习/专业/基础/devops/git/github.md",
-    "4.归档/学习/专业/基础/java/spring/mybatis/MyBatis逆向工程.md",
-    "4.归档/学习/专业/基础/java/spring/mybatis/MyBatis.md",
-    "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md",
+    "4.归档/学习/专业/基础/前端/components/anime.js/anime.js.md",
+    "4.归档/学习/专业/基础/DevOps/git/github.md",
+    "4.归档/学习/专业/基础/Java/spring/mybatis/MyBatis逆向工程.md",
+    "4.归档/学习/专业/基础/Java/spring/mybatis/MyBatis.md",
     "4.归档/学习/专业/工程/前端框架/Uni-App/Uni-App-ScrollView.md",
     "4.归档/学习/专业/工程/前端框架/Vue.js/Vue-Cli-bug.md",
     "4.归档/学习/专业/工程/前端框架/Vue.js/Vue.js-Bug.md",
@@ -208,10 +211,6 @@
     "1.收集箱/simpread_clipper/repo/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md",
     "1.收集箱/simpread_clipper/repo/18-SpringBoot实现文件的上传和下载 - 简书.md",
     "1.收集箱/simpread_clipper/repo/22-数据结构常见问题_数据结构复试常问问题.md",
-    "1.收集箱/simpread_clipper/repo/23-数据结构面试、数据结构考研复试.md",
-    "4.归档/学习/专业/基础/software/idea/jetbrains-idea.md",
-    "4.归档/学习/专业/基础/db/mysql/-mysql-advanced.md",
-    "4.归档/学习/专业/基础/java/distribution/spring-cloud/SpringCloud.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
