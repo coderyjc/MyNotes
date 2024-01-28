@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-27.md",
+                "file": "2.等待处理/Diary/2024-01-28.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-27.md"
+                "file": "2.等待处理/Diary/2024-01-28.md"
               }
             }
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-27.md"
+                "file": "2.等待处理/Diary/2024-01-28.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-27.md",
+                "file": "2.等待处理/Diary/2024-01-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,11 +193,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f0dff63b8f360bdd",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-01-26.md",
     "2.等待处理/Diary/2024-01-27.md",
     "2.等待处理/Diary/2024-01-28.md",
+    "2.等待处理/Diary/2024-01/2024-01-21.md",
+    "2.等待处理/Diary/2024-01/2024-01-22.md",
+    "2.等待处理/Diary/2024-01/2024-01-23.md",
+    "2.等待处理/Diary/2024-01-24.md",
+    "2.等待处理/Diary/2024-01-25.md",
+    "2.等待处理/Diary/2024-01-26.md",
     "HOME.md",
     "4.归档/学习/专业/工程/数据库/MySQL/SQLTrick.md",
     "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md",
@@ -216,11 +221,6 @@
     "1.收集箱/resources/axutongxue.md",
     "1.收集箱/simpread_clipper/repo/1-3000 + 小时积累的学习工作流.md",
     "1.收集箱/simpread_clipper/repo/0-阅读推理小说的阅读顺序是什么？.md",
-    "1.收集箱/simpread_clipper/repo/5-如何更好地管理「标签页」，我选择 Toby - 少数派.md",
-    "1.收集箱/simpread_clipper/repo/1-python正则表达式精讲--分组 - 知乎.md",
-    "1.收集箱/simpread_clipper/repo/4-简悦新用户建议（看这一篇就足够了）2022 最新修订版.md",
-    "1.收集箱/simpread_clipper/repo/16-如何把 Markdown 文件批量转换为 pdf？.md",
-    "1.收集箱/simpread_clipper/repo/6-Failed to configure a DataSource： ‘url‘ attribute is not specified and no embedde_一宿君的博客 - CSDN 博客.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
