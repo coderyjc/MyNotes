@@ -1,5 +1,3 @@
-### EasyPOI在导入数据的时候显示所有实体类的值都是null
-
 问题描述
 
 ![[assets/Pasted image 20230408150055.png]]

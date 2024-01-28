@@ -6,79 +6,14 @@ create_date: 2022-01-31
 
 #后端/JavaWeb #后端/MyBatis #后端/MyBatis
 
-# MyBatis
-
->MyBatis 中测试类 ...... Not Found TableInfoCache.
-
-主测试类中应该手动注入mapper类
-
-```java
-package com.jancoyan.timemaster;
-
-import com.jancoyan.timemaster.pojo.Record;
-import org.junit.jupiter.api.Test;
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.Date;
-
-@SpringBootTest
-@MapperScan("com.jancoyan.timemaster.mapper")
-class TimeMasterApplicationTests {
-    @Test
-    void contextLoads() {
-    }
-}
-```
-
-在使用别的测试类的时候应该继承这个类
-
-```java
-/**
- * @Author: Yan Jingcun
- * @Date: 2021/8/30
- * @Description:
- * @Version: 1.0
- */
-
-package com.jancoyan.timemaster;
-
-import com.jancoyan.timemaster.pojo.Record;
-import org.junit.jupiter.api.Test;
-
-import java.util.Date;
-
-public class DataBaseTest extends TimeMasterApplicationTests {
-
-    @Test
-    public void insertTest(){
-        Record record = new Record();
-        record.setRecordType(1);
-        record.setRecordContent("test");
-        record.setStartTime(new Date());
-        record.setEndTime(new Date());
-        record.insert();
-    }
-
-}
-```
-
->There is no getter for property named 'null' in 'xx'
->No Such Field in Class for null
-
 Mybatis Plus 在使用AR的时候会先在POJO类中查找带有TableId注解的类作为主键，如果没有会报错
 
-所以原因：
+原因：
 
 -   POJO类中没有主键声明 @TableId 或者 @TableId(value = "record_id", type = IdType.AUTO)
 
 如果不是上面的原因，那就是主键有问题，从主键方面找问题就行。
 
->Cannot determine value type from string
-
-将字段类型修改成String类型解决问题。
-
-遇到类似报错的童靴，可以检查数据库字段与实体类字段类型是否匹配
 
 ## 快速使用
 

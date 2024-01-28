@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d65d8589bf562f94",
+        "id": "b7385b5c0cbea2c9",
         "type": "tabs",
         "children": [
           {
-            "id": "db36e93cd4e48343",
+            "id": "9ac68dcc5b78723d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/学习/专业/软件/idea/jetbrains-idea.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -117,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "4.归档/学习/专业/软件/idea/jetbrains-idea.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/专业/软件/idea/jetbrains-idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4.归档/学习/专业/软件/idea/jetbrains-idea.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -192,53 +182,53 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "9ac68dcc5b78723d",
   "lastOpenFiles": [
-    "4.归档/学习/专业/软件/idea/下载MySQL驱动太慢.md",
-    "4.归档/学习/专业/软件/chrome/plugins/HDS-HLS Video Downloader.md",
-    "4.归档/学习/专业/软件/chrome/Chrome插件合集.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vuex-Bug汇总.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Internal server error Cannot read properties of undefined (reading 'url').md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-HTML标签的数据绑定到视图之后不进行渲染，而是直接显示了标签文字.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-echarts连续引入两个相同的echarts封装成的组件导致只渲染一个，另一个不显示.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-echarts TypeError error loading dynamically imported module.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Cli-在构建 vue-admin-template 的时候模块加载异常.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Cannot use JSX unless the '--jsx' flag is provided.ts(17004).md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue3 使用slot的时候拿不到scope和row的数据.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Bug.md",
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/springboot-basic.md",
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【整合】SpringBoot 整合Redis.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-Bug汇总/assets/Pasted image 20220131012418.png",
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案",
+    "4.归档/学习/专业/Java后端/spring/SpringMVC/SpringMVC.md",
+    "4.归档/学习/专业/Java后端/spring/Spring5/Spring5.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatisPlus/MyBatisPlus-UnsatisfiedDependencyException.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatisPlus/MyBatisPlus-NoClassDefFoundError.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatisPlus/MyBatisPlus-Invalid bound statement (not found).md",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-Bug汇总/MyBatis-There is no getter for property named 'null' in 'xx'.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-Bug汇总/MyBatis-Cannot determine value type from string.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-Bug汇总/MyBatis-测试类 Not Found TableInfoCache..md",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-Bug汇总/MyBatis-整合pagehelper和mybatis-plus.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-Bug汇总/MyBatis-整合jsp的时候访问不到静态资源.md",
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【总结】SpringBoot路径访问.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-基础知识/MyBatis逆向工程.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-基础知识/MyBatis.md",
+    "4.归档/学习/专业/Java后端/libs/EasyPOI/SpringBoot+EasyPOI进行基本导入导出.md",
+    "4.归档/学习/专业/Java后端/libs/EasyPOI/EasyPOI-Bug汇总/EasyPOI在导入数据的时候显示所有实体类的值都是null.md",
+    "4.归档/学习/专业/Java后端/JavaWeb/javaweb-new.md",
+    "4.归档/学习/专业/Java后端/JavaSE/JavaSE-基础知识",
+    "4.归档/学习/专业/Java后端/JavaWeb/javaweb-old.md",
+    "4.归档/学习/专业/Java后端/分布式/SpringCloud-基础知识/SpringCloud.md",
+    "4.归档/学习/专业/Java后端/分布式/spring-cloud-alibaba/SpringCloud-Alibaba.md",
+    "4.归档/学习/专业/DevOps/Linux/Linux-Bug汇总/Linux-libc6-dev 依赖 libc6 (= 2.27-3ubuntu1.3) 但是 2.31-0ubuntu9.1 正要被安装.md",
+    "4.归档/学习/专业/Java后端/分布式/dubbo/dubbo.md",
+    "4.归档/学习/专业/DevOps/Linux/Linux-Bug汇总/Linux-cat 查看二进制文件导致的乱码问题.md",
+    "4.归档/学习/专业/DevOps/Linux/Linux-Bug汇总/Linux-字体库字体缺失导致的乱码问题.md",
+    "4.归档/学习/专业/DevOps/Linux/Linux-Bug汇总/Linux.md",
+    "4.归档/学习/专业/DevOps/Maven/Maven-Bug汇总",
+    "4.归档/学习/专业/DevOps/Gradle/Gradle-Bug汇总",
+    "4.归档/学习/专业/DevOps/Git/Git-基础知识/assets/image-20221226101500276.png",
+    "4.归档/学习/专业/DevOps/Git/Git-基础知识",
+    "4.归档/学习/专业/DevOps/Git/Github-解决方案/assets/image-20221226103720874.png",
+    "4.归档/学习/专业/DevOps/Git/Github-解决方案/assets",
+    "4.归档/学习/专业/DevOps/Git/Github-解决方案",
+    "4.归档/学习/专业/正则表达式/正则表达式-解决方案",
+    "4.归档/学习/专业/软件/IDEA/IDEA-解决方案",
     "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/assets/Pasted image 20220131013537.png",
-    "4.归档/学习/专业/前端/Vue.js/Vue3-基础知识/Vue-CompositionAPI.md",
     "4.归档/学习/专业/前端/Vue.js/Vue3-基础知识",
-    "4.归档/学习/专业/前端/Vue.js/Vuex-基础知识.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Router-基础知识.md",
-    "4.归档/学习/专业/前端/Vue.js/Pinia-基础知识.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/知识补充.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/组件嵌套和通信.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/vue_component_index.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总",
-    "4.归档/学习/专业/前端/Nodejs/npm install 命令总结.md",
-    "4.归档/学习/专业/前端/HTML&CSS/HTML-基础知识.md",
-    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/ElemetUI-表单验证Validator的callback中一直拿不到value.md",
-    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/ElemetUI-ColorPicker 的颜色格式问题.md",
-    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/未命名",
-    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementPlus表单校验.md",
     "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/assets/Pasted image 20220506190604.png",
     "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/assets/Pasted image 20220506190509.png",
-    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/assets",
-    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总",
-    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp基础知识/UniApp-延时.md",
-    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp基础知识",
-    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp基础知识/uniapp-基础知识.md",
-    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp-Bug汇总",
-    "4.归档/学习/专业/DevOps/Nginx/Nginx-解决方案",
-    "4.归档/学习/专业/DevOps/Docker/docker-advanced.md.nssyncsc",
-    "4.归档/学习/专业/DevOps/Docker/Docker-基础知识",
     "4.归档/学习/专业/Python/Annaconda/assets/Pasted image 20220131002908.png",
     "4.归档/学习/专业/扩展/AI产品/assets/Pasted image 20230420090045.png",
     "4.归档/学习/专业/扩展/AI产品/assets/Pasted image 20230420084034.png",
-    "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
-    "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
-    "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
-    "5.专题研究/AAAMLP/assets/Pasted image 20240127103843.png"
+    "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png"
   ]
 }

@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "jetbrains-idea",
-      "path": "4.归档/学习/专业/软件/idea/jetbrains-idea.md"
+      "basename": "springboot-basic",
+      "path": "4.归档/学习/专业/Java后端/spring/SprintBoot/springboot-basic.md"
     },
     {
-      "basename": "下载MySQL驱动太慢",
-      "path": "4.归档/学习/专业/软件/idea/下载MySQL驱动太慢.md"
+      "basename": "【整合】SpringBoot 整合Redis",
+      "path": "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【整合】SpringBoot 整合Redis.md"
     },
     {
-      "basename": "HDS-HLS Video Downloader",
-      "path": "4.归档/学习/专业/软件/chrome/plugins/HDS-HLS Video Downloader.md"
+      "basename": "Pasted image 20220131012418",
+      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-Bug汇总/assets/Pasted image 20220131012418.png"
     },
     {
-      "basename": "Chrome插件合集",
-      "path": "4.归档/学习/专业/软件/chrome/Chrome插件合集.md"
+      "basename": "SpringMVC",
+      "path": "4.归档/学习/专业/Java后端/spring/SpringMVC/SpringMVC.md"
     },
     {
-      "basename": "Vuex-Bug汇总",
-      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vuex-Bug汇总.md"
+      "basename": "Spring5",
+      "path": "4.归档/学习/专业/Java后端/spring/Spring5/Spring5.md"
     },
     {
-      "basename": "Vue-Internal server error Cannot read properties of undefined (reading 'url')",
-      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Internal server error Cannot read properties of undefined (reading 'url').md"
+      "basename": "MyBatisPlus-UnsatisfiedDependencyException",
+      "path": "4.归档/学习/专业/Java后端/spring/MyBatisPlus/MyBatisPlus-UnsatisfiedDependencyException.md"
     },
     {
-      "basename": "Vue-HTML标签的数据绑定到视图之后不进行渲染，而是直接显示了标签文字",
-      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-HTML标签的数据绑定到视图之后不进行渲染，而是直接显示了标签文字.md"
+      "basename": "MyBatisPlus-NoClassDefFoundError",
+      "path": "4.归档/学习/专业/Java后端/spring/MyBatisPlus/MyBatisPlus-NoClassDefFoundError.md"
     },
     {
-      "basename": "Vue-echarts连续引入两个相同的echarts封装成的组件导致只渲染一个，另一个不显示",
-      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-echarts连续引入两个相同的echarts封装成的组件导致只渲染一个，另一个不显示.md"
+      "basename": "MyBatisPlus-Invalid bound statement (not found)",
+      "path": "4.归档/学习/专业/Java后端/spring/MyBatisPlus/MyBatisPlus-Invalid bound statement (not found).md"
     },
     {
-      "basename": "Vue-echarts TypeError error loading dynamically imported module",
-      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-echarts TypeError error loading dynamically imported module.md"
+      "basename": "MyBatis-There is no getter for property named 'null' in 'xx'",
+      "path": "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-Bug汇总/MyBatis-There is no getter for property named 'null' in 'xx'.md"
     },
     {
-      "basename": "Vue-Cli-在构建 vue-admin-template 的时候模块加载异常",
-      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Cli-在构建 vue-admin-template 的时候模块加载异常.md"
+      "basename": "MyBatis-Cannot determine value type from string",
+      "path": "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-Bug汇总/MyBatis-Cannot determine value type from string.md"
     }
   ],
   "omittedPaths": [],

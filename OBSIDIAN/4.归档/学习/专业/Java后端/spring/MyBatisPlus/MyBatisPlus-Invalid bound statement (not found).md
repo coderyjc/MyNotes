@@ -1,5 +1,4 @@
 
-###  Invalid bound statement (not found)
 
 原因是找不到可映射的xml文件，在`application.yml`中设置一下mp的xml文件所在目录即可
 

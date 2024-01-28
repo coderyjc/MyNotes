@@ -14,12 +14,12 @@
 
 重新导入项目下载依赖
 
-![[assets/Pasted image 20230401162619.png]]
+![[../assets/Pasted image 20230401162619.png]]
 
 手动选择驱动
 
-![[assets/Pasted image 20230401162840.png]]
+![[../assets/Pasted image 20230401162840.png]]
 
 成功
 
-![[assets/Pasted image 20230401162902.png]]
+![[../assets/Pasted image 20230401162902.png]]

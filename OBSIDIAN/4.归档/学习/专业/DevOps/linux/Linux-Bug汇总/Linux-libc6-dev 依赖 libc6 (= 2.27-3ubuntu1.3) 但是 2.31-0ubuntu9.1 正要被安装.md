@@ -6,31 +6,6 @@ create_date: 2022-01-31
 
 #OS/Linux 
 
-# Linux
-
-## 乱码问题
-
-### cat 查看二进制文件导致的乱码问题
-
-原因是 二进制数据干扰了终端对字符串的解析
-
-使用 reset 命令即可
-
-### 因为字体库字体缺失导致的乱码问题
-
-描述：
-
-出现这种情况，把这些文字复制到文件中，显示的是正常的文字
-![[assets/Pasted image 20220208194603.png]]
-
-因此可以确定服务器没有问题，应该是字体的问题。
-
-改变[[shell]]的字体，成功解决这个问题。
-
-![[assets/Pasted image 20220208195130.png]]
-
-
-## 软件源问题
 
 ### libc6-dev: 依赖: libc6 (= 2.27-3ubuntu1.3) 但是 2.31-0ubuntu9.1 正要被安装
 
@@ -61,4 +36,3 @@ Ubuntu 18.04
 $ sudo apt-get update 
 $ sudo apt-get upgrade
 ```
-
