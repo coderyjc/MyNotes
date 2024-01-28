@@ -63,9 +63,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flag",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "74674b6004f5200d",
