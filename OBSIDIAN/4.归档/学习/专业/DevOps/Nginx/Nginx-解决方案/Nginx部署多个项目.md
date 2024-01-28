@@ -19,11 +19,11 @@
 
 在nginx主文件中添加配置项的包含`include /www/server/nginx/conf/vhost/*.conf;`
 
-![[assets/Pasted image 20220504145804.png]]
+![[Nginx-解决方案/assets/Pasted image 20220504145804.png]]
 
 使用命令检查nginx服务是否正确 `nginx -t`
 
-![[assets/Pasted image 20220504145951.png]]
+![[Nginx-解决方案/assets/Pasted image 20220504145951.png]]
 
 重启服务器 `nginx -s reload`
 

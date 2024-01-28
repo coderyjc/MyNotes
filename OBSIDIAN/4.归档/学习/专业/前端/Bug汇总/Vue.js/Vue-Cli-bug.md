@@ -34,7 +34,7 @@ npm install —save tui-editor
 
 报错如下：
 
-![[../../../数据库/Redis/Bug汇总/assets/Pasted image 20220131013537.png]]
+![[../../../数据库/Redis/Redis-Bug汇总/assets/Pasted image 20220131013537.png]]
 
 修复方法：
 

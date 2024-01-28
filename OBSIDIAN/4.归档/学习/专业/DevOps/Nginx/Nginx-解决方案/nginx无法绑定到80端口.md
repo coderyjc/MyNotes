@@ -6,7 +6,7 @@
 
 （3）修改nginx.conf，后保存
 
-![[assets/Pasted image 20230321095748.png]]
+![[Nginx-解决方案/assets/Pasted image 20230321095748.png]]
 
 （4）在命令提示符下输入nginx -s reload即可（重要一步）
 
@@ -14,5 +14,5 @@
 
 （6）在浏览器localhost:81，如果出现以下页面在修改成功
 
-![[assets/Pasted image 20230321095842.png]]
+![[Nginx-解决方案/assets/Pasted image 20230321095842.png]]
 

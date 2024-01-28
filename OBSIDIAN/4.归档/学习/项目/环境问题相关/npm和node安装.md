@@ -1,7 +1,7 @@
 
 #前端/node  #前端/NPM 
 
-Node.js是一个[[../../专业/前端/js/JavaScript]]运行环境(runtime environment)，不是一个js文件，实质是对Chrome V8引擎进行了封装。[[Node.js]] 是一个让 JavaScript 运行在服务端的开发平台，它让 JavaScript 成为与PHP、[[../数据科学/Python/Python]] 等服务端语言平起平坐的脚本语言。  
+Node.js是一个[[../../专业/前端/JavaScript/JavaScript-基础知识]]运行环境(runtime environment)，不是一个js文件，实质是对Chrome V8引擎进行了封装。[[Node.js]] 是一个让 JavaScript 运行在服务端的开发平台，它让 JavaScript 成为与PHP、[[../数据科学/Python/Python]] 等服务端语言平起平坐的脚本语言。  
 
 [1]Node.js提供替代的API，使得V8在非浏览器环境下运行得更好。V8引擎执行Javascript的速度非常快，性能非常好。  
 
@@ -26,7 +26,7 @@ ln -s /opt/node-v16.14.0-linux-x64/bin/node /usr/bin/
 ln -s /opt/node-v16.14.0-linux-x64/bin/npx /usr/bin/
 ```
 
-![[../../专业/DevOps/Nginx/assets/Pasted image 20220505183225.png]]
+![[../../专业/DevOps/Nginx/Nginx-解决方案/assets/Pasted image 20220505183225.png]]
 
 ## 2 查看config配置并设置全局路径
 
