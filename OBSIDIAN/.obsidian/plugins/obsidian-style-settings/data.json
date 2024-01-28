@@ -71,7 +71,7 @@
   "blue-topaz-theme@@file-name-style-option": "file-name-animation",
   "blue-topaz-theme@@unmuted-collapsed-folder": true,
   "blue-topaz-theme@@remove-arrow": true,
-  "blue-topaz-theme@@folder-style-change-options-colorful": "folder-style-change-options-colorful-default",
+  "blue-topaz-theme@@folder-style-change-options-colorful": "folder-style-change-options-colorful",
   "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-one",
   "blue-topaz-theme@@folder-colorful-custom-color@@dark": "#E166FA",
   "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-quotation-mark",
@@ -122,5 +122,7 @@
   "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-default-style",
   "blue-topaz-theme@@toggle-bg-panel-page": false,
   "blue-topaz-theme@@fancy-hr": "fancy-hr-icon",
-  "blue-topaz-theme@@fancy-hr-rotate": 90
+  "blue-topaz-theme@@fancy-hr-rotate": 90,
+  "blue-topaz-theme@@bt-toggle-colorful-folder": true,
+  "blue-topaz-theme@@remove-cloze-style": false
 }

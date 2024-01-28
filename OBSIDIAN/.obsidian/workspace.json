@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a2b1e440c5a444bd",
+        "id": "39976ca85ee367da",
         "type": "tabs",
         "children": [
           {
-            "id": "f0dff63b8f360bdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/学习/方法论/Untitled.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "560683e7dd12d8c6",
+            "id": "6b76863684d4e995",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,7 +32,6 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 74.78344562078922,
         "children": [
           {
             "id": "e2988b14426e11db",
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian (plugin OR template)",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -80,24 +66,6 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "74674b6004f5200d",
-        "type": "tabs",
-        "dimension": 25.21655437921078,
-        "children": [
-          {
-            "id": "a4c7ff5f1eb0069f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "4.归档/学习/方法论/Untitled.md"
-              }
-            }
-          }
         ]
       }
     ],
@@ -111,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 62.07892204042348,
+        "dimension": 30.384615384615383,
         "children": [
           {
             "id": "9efa0f878fdc06cc",
@@ -150,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/方法论/Untitled.md"
+                "file": "2.等待处理/Diary/2024-01-28.md"
               }
             }
           },
@@ -160,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/方法论/Untitled.md",
+                "file": "2.等待处理/Diary/2024-01-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,9 +142,26 @@
         ]
       },
       {
+        "id": "341ad80d48b74e47",
+        "type": "tabs",
+        "dimension": 40.76923076923077,
+        "children": [
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-28.md"
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 37.921077959576515,
+        "dimension": 28.846153846153843,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -207,34 +192,38 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1f74b340a1d27e17",
+  "active": "6b76863684d4e995",
   "lastOpenFiles": [
-    "4.归档/学习/方法论/如何快速找到ob中的笔记.md",
-    "4.归档/学习/方法论/Untitled.md",
-    "2.等待处理/Diary/2024-01-28.md",
-    "2.等待处理/Diary/2024-01-26.md",
-    "2.等待处理/Diary/2024-01-27.md",
-    "2.等待处理/Diary/2024-01/2024-01-21.md",
-    "2.等待处理/Diary/2024-01/2024-01-22.md",
-    "2.等待处理/Diary/2024-01/2024-01-23.md",
-    "2.等待处理/Diary/2024-01-24.md",
-    "2.等待处理/Diary/2024-01-25.md",
     "HOME.md",
-    "4.归档/学习/专业/工程/数据库/MySQL/SQLTrick.md",
-    "4.归档/学习/专业/工程/数据库/MySQL/【Bug】MySQL-Bug.md",
-    "4.归档/学习/专业/工程/数据科学/Annaconda/Annaconda.md",
-    "1.收集箱/dashboard/tag-summary.md",
-    "1.收集箱/dashboard/tag-retrieve.md",
-    "4.归档/学习/专业/基础/前端/components/anime.js/anime.js.md",
-    "4.归档/学习/专业/基础/DevOps/git/github.md",
-    "4.归档/学习/专业/基础/Java/spring/mybatis/MyBatis逆向工程.md",
-    "4.归档/学习/专业/基础/Java/spring/mybatis/MyBatis.md",
-    "4.归档/学习/专业/工程/前端框架/Uni-App/Uni-App-ScrollView.md",
-    "4.归档/学习/专业/工程/前端框架/Vue.js/Vue-Cli-bug.md",
-    "4.归档/学习/专业/工程/前端框架/Vue.js/Vue.js-Bug.md",
-    "4.归档/学习/专业/工程/浏览器相关/FireFox浏览器调试问题汇总.md",
-    "4.归档/学习/专业/工程/浏览器相关/Chrome浏览器调试问题汇总.md",
-    "1.收集箱/resources/axutongxue.md",
+    "4.归档/学习/专业/项目记录/浏览器相关/【Chrome】Your Connection is not private.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-Debug/SQLTrick.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-Debug/【Bug】MySQL.md",
+    "4.归档/学习/专业/数据库/Redis/Redis-Debug/【Bug】Redis-Bug.md",
+    "4.归档/学习/专业/数据库/MySQL/-mysql-advanced.md",
+    "4.归档/学习/专业/数据库/MySQL/-mysql-basic.md",
+    "4.归档/学习/专业/项目记录/前端/Element/ElemetUI.md",
+    "4.归档/学习/专业/项目记录/前端/Element/Element PLus.md",
+    "4.归档/学习/博客",
+    "4.归档/学习/专业/扩展/AI产品/Prompt Engineering.md",
+    "4.归档/学习/专业/扩展/AI产品/AI产品目录.md",
+    "4.归档/学习/专业/扩展/AI产品/assets/Pasted image 20230420090045.png",
+    "4.归档/学习/专业/扩展/AI产品/assets/Pasted image 20230420084034.png",
+    "4.归档/学习/讲座/Prompt Engineering-吴恩达.md",
+    "4.归档/学习/专业/其他/云服务器相关/七牛云搭建Obsidian存储.md",
+    "4.归档/学习/专业/其他/博客相关/vercel博客部署/vercel博客部署.md",
+    "4.归档/学习/专业/其他/博客相关/Hexo/Hexo添加搜索文章功能.md",
+    "4.归档/学习/专业/other/OS/OS.md",
+    "4.归档/学习/专业/other/设计模式/Design_Pattern.md",
+    "4.归档/学习/专业/other/网络渗透/web渗透.md",
+    "4.归档/学习/专业/Python/PYQT/PYQT.md",
+    "4.归档/学习/新媒体",
+    "4.归档/学习/专业/前端/introduction/前端体系.md",
+    "4.归档/学习/专业/项目记录/后端/服务器相关/Nginx/nginx无法绑定到80端口.md",
+    "4.归档/学习/专业/项目记录/后端/服务器相关/Nginx/Nginx部署多个项目.md",
+    "4.归档/学习/专业/项目记录/后端/服务器相关/Linux/Linux.md",
+    "4.归档/学习/专业/项目记录/Python/Python爬虫.md",
+    "4.归档/学习/专业/项目记录/Python/【Bug】PyEcharts.md",
+    "4.归档/学习/专业/项目记录/Python/ipython历史记录保存.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
@@ -250,10 +239,6 @@
     "5.专题研究/AAAMLP/javascripts/katex.js",
     "5.专题研究/AAAMLP/javascripts",
     "5.专题研究/AAAMLP/figures/AAAMLP_page39_image.png",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page30_image.png",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page25_image.png",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page24_image.png",
-    "5.专题研究/AAAMLP/figures",
-    "3.将来可能/回收站"
+    "5.专题研究/AAAMLP/figures/AAAMLP_page30_image.png"
   ]
 }
