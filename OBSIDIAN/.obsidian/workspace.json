@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "39976ca85ee367da",
+        "id": "c12fe6c3d915cb2a",
         "type": "tabs",
         "children": [
           {
-            "id": "6b76863684d4e995",
+            "id": "0ec17bd1494a24e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-28.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 367.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -117,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-28.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2024-01-28.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -192,53 +182,53 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6b76863684d4e995",
+  "active": "0ec17bd1494a24e2",
   "lastOpenFiles": [
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-基础知识/MyBatis逆向工程.md",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-基础知识",
+    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-基础知识/MyBatis.md",
+    "4.归档/学习/专业/Java后端/libs/EasyPOI/Bug汇总/EasyPOI.md",
+    "4.归档/学习/专业/Java后端/libs/EasyPOI/1.SpringBoot+EasyPOI进行基本导入导出.md",
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/springboot-basic.md",
+    "4.归档/学习/专业/前端/nodejs&npm/基础知识/_Nodejs知识地图.md",
+    "4.归档/学习/专业/前端/nodejs&npm/Bug汇总",
+    "4.归档/学习/专业/前端/nodejs&npm/Bug汇总/【Bug】NPM.md",
+    "4.归档/学习/专业/前端/nodejs&npm/基础知识",
+    "4.归档/学习/专业/DevOps/Gradle/【Bug】Gradle.md",
+    "4.归档/学习/专业/DevOps/Maven/Bug汇总/【Bug】Maven.md",
+    "4.归档/学习/专业/DevOps/Maven/基础知识/Maven.md",
+    "4.归档/学习/专业/DevOps/Maven/基础知识",
+    "4.归档/学习/专业/DevOps/Linux/Bug汇总/Linux.md",
+    "4.归档/学习/专业/正则表达式/【正则表达式】匹配java的行内注释.md",
+    "4.归档/学习/项目/前端项目总结/01.响应式企业网站搭建/响应式企业网站的搭建.md",
+    "4.归档/学习/项目/前端项目总结/02.圣诞节商品导航站/圣诞节商品导航站.md",
+    "4.归档/学习/专业/Python/Bug汇总/Python爬虫.md",
+    "4.归档/学习/专业/Python/Bug汇总/Python-Bugs.md",
+    "4.归档/学习/专业/Python/Bug汇总/ipython历史记录保存.md",
+    "4.归档/学习/专业/Python/Bug汇总/【Bug】PyEcharts.md",
+    "4.归档/学习/专业/Python/Annaconda/assets/Pasted image 20220131002908.png",
+    "4.归档/学习/专业/Python/Annaconda/Annaconda.md",
+    "4.归档/学习/专业/数据库/MySQL/解决方案汇总/SQLTrick.md",
+    "4.归档/学习/专业/数据库/Redis/解决方案汇总",
+    "4.归档/学习/专业/数据库/MySQL/解决方案汇总",
+    "4.归档/学习/专业/数据库/MySQL/MySQL/-mysql-advanced.md",
+    "4.归档/学习/专业/数据库/MySQL/Bug汇总/【Bug】MySQL.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL",
+    "4.归档/学习/专业/Python/Annaconda/【配置】Jupyter Notebook.md",
+    "2.等待处理/Diary/2024-01-28.md",
+    "4.归档/学习/专业/Python/未命名",
     "HOME.md",
-    "4.归档/学习/专业/项目记录/浏览器相关/【Chrome】Your Connection is not private.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-Debug/SQLTrick.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-Debug/【Bug】MySQL.md",
-    "4.归档/学习/专业/数据库/Redis/Redis-Debug/【Bug】Redis-Bug.md",
-    "4.归档/学习/专业/数据库/MySQL/-mysql-advanced.md",
-    "4.归档/学习/专业/数据库/MySQL/-mysql-basic.md",
-    "4.归档/学习/专业/项目记录/前端/Element/ElemetUI.md",
-    "4.归档/学习/专业/项目记录/前端/Element/Element PLus.md",
+    "4.归档/学习/项目/浏览器相关/【Chrome】Your Connection is not private.md",
     "4.归档/学习/博客",
-    "4.归档/学习/专业/扩展/AI产品/Prompt Engineering.md",
-    "4.归档/学习/专业/扩展/AI产品/AI产品目录.md",
     "4.归档/学习/专业/扩展/AI产品/assets/Pasted image 20230420090045.png",
     "4.归档/学习/专业/扩展/AI产品/assets/Pasted image 20230420084034.png",
-    "4.归档/学习/讲座/Prompt Engineering-吴恩达.md",
-    "4.归档/学习/专业/其他/云服务器相关/七牛云搭建Obsidian存储.md",
-    "4.归档/学习/专业/其他/博客相关/vercel博客部署/vercel博客部署.md",
-    "4.归档/学习/专业/其他/博客相关/Hexo/Hexo添加搜索文章功能.md",
-    "4.归档/学习/专业/other/OS/OS.md",
-    "4.归档/学习/专业/other/设计模式/Design_Pattern.md",
-    "4.归档/学习/专业/other/网络渗透/web渗透.md",
-    "4.归档/学习/专业/Python/PYQT/PYQT.md",
     "4.归档/学习/新媒体",
-    "4.归档/学习/专业/前端/introduction/前端体系.md",
-    "4.归档/学习/专业/项目记录/后端/服务器相关/Nginx/nginx无法绑定到80端口.md",
-    "4.归档/学习/专业/项目记录/后端/服务器相关/Nginx/Nginx部署多个项目.md",
-    "4.归档/学习/专业/项目记录/后端/服务器相关/Linux/Linux.md",
-    "4.归档/学习/专业/项目记录/Python/Python爬虫.md",
-    "4.归档/学习/专业/项目记录/Python/【Bug】PyEcharts.md",
-    "4.归档/学习/专业/项目记录/Python/ipython历史记录保存.md",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127103843.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127102436.png",
-    "5.专题研究/AAAMLP/assets",
-    "4.归档/学习/人际/社会经验/2024.1.16 帮助孔的师姐解决问题.mdenc",
-    "4.归档/学习/人际/社会经验/2023.10.11 pdd退款.mdenc",
     "4.归档/学习/人际/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",
-    "4.归档/学习/人际/社会经验/2023.5.27 看别人占用教室.mdenc",
-    "4.归档/学习/人际/社会经验/2023.5.17 转接团关系.mdenc",
-    "4.归档/学习/人际/和同学/2023.03.07 晚-浩博.mdenc",
-    "5.专题研究/AAAMLP/javascripts/katex.js",
-    "5.专题研究/AAAMLP/javascripts",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page39_image.png",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page30_image.png"
+    "5.专题研究/AAAMLP/figures/AAAMLP_page39_image.png"
   ]
 }

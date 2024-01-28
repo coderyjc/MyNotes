@@ -6,7 +6,7 @@ recommendation: 8
 create_date: 2022-02-08
 ---
 
-![[../../../../项目记录/后端/服务器相关/Linux/assets/Pasted image 20220213170017.png]]
+![[../../../../DevOps/Linux/Bug汇总/assets/Pasted image 20220213170017.png]]
 
 # Better Comments 区别注释
 
@@ -14,4 +14,4 @@ https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
 
 ## 特点
 
-![[../../../../项目记录/后端/服务器相关/Linux/assets/Pasted image 20220213170347.png]]
+![[../../../../DevOps/Linux/Bug汇总/assets/Pasted image 20220213170347.png]]

@@ -22,7 +22,7 @@ Anaconda 是一个开源的 Python 发行版本，而 Miniconda 则是 Anaconda 
 
 直接在官网 [https://docs.conda.io/projects/miniconda/en/latest/](https://docs.conda.io/projects/miniconda/en/latest/) 下载安装即可。
 
-安装完成之后需要配置，配置环境变量PATH和镜像源在[[../../4.归档/学习/专业/Python/python-annaconda/【安装】Annaconda安装以及镜像源配置#配置Annaconda环境变量|【安装】Annaconda安装以及镜像源配置]]
+安装完成之后需要配置，配置环境变量PATH和镜像源在[[../../4.归档/学习/专业/Python/Annaconda/【安装】Annaconda安装以及镜像源配置#配置Annaconda环境变量|【安装】Annaconda安装以及镜像源配置]]
 
 ## Linux环境
 
