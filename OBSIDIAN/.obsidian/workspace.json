@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1fb6ea58d6d6919c",
+        "id": "dc75f32867a218b0",
         "type": "tabs",
         "children": [
           {
-            "id": "e953d7abaf6ebaeb",
+            "id": "94d5bcaedf90cb24",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 486.5
+    "width": 382.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -182,10 +182,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "94d5bcaedf90cb24",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-01/2024-01-09.md",
     "HOME.md",
+    "4.归档/学习/方法论/专业相关的笔记的归档方式.md",
+    "2.等待处理/Diary/2024-01-28.md",
+    "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md",
+    "2.等待处理/Diary/2024-01/2024-01-09.md",
     "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md",
     "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/Annaconda-wandb 未注册异常.md",
     "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/Annaconda-报错回环导入.md",
@@ -226,9 +229,6 @@
     "4.归档/学习/专业/Python/Python/Python-基础知识/06.高级特性.md",
     "4.归档/学习/专业/Python/Python/Python-基础知识/05.类.md",
     "4.归档/学习/专业/Python/Python/Python-基础知识/04.函数式编程.md",
-    "4.归档/学习/专业/Python/Python/Python-基础知识/03.函数.md",
-    "4.归档/学习/专业/Python/Python/Python-基础知识/02.常用数据类型.md",
-    "4.归档/学习/专业/Python/Django/Django-基础知识/_README.md",
-    "4.归档/学习/专业/Java后端/spring/SprintBoot/SpringBoot-Bug汇总/SpringBoot-整合jsp的时候访问不到静态资源.md"
+    "4.归档/学习/专业/Python/Python/Python-基础知识/03.函数.md"
   ]
 }

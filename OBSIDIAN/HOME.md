@@ -6,7 +6,7 @@ var i = [dv.pages().length,
 		 dv.pages().file.etags.distinct().length,
 		 dv.pages().file.tasks.length]
 var diary = dv.pages(`"2.等待处理/Diary"`).length
-dv.paragraph(`总共有 **${i[0]}** 篇文档，共计 **740,022** 字，图片 **1405** 张`)
+dv.paragraph(`总共有 **${i[0]}** 篇文档，共计 **766,751** 字，图片 **1405** 张`)
 dv.paragraph(`==已归档笔记== **${i[1]}** 篇
 			 ==正在进行的笔记== **${i[2]}** 篇
 			 ==读书笔记== **${i[3]}** 篇
