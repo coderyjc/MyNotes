@@ -13,7 +13,7 @@ create_date: 2022-01-31
 
 情景：
 
-使用[[../../../../前端/Bug汇总/Vue.js/Vue-Cli-bug]]工程构建博客系统，集成 [[tui.editor]] 在向后端传输md格式的文本的时候发生400错误，并后端报错：Invalid character found in the request target
+使用[[../../../../前端/Vue.js/Vue-Bug汇总/Vue-Cli-在构建 vue-admin-template 的时候模块加载异常]]工程构建博客系统，集成 [[tui.editor]] 在向后端传输md格式的文本的时候发生400错误，并后端报错：Invalid character found in the request target
 
 ```markdown
 Invalid character found in the request target [/article/post?title=&type=&summary=&

@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "jetbrains-idea",
+      "path": "4.归档/学习/专业/软件/idea/jetbrains-idea.md"
     },
     {
-      "basename": "租房相关问题",
-      "path": "4.归档/生活/租房相关问题.md"
+      "basename": "下载MySQL驱动太慢",
+      "path": "4.归档/学习/专业/软件/idea/下载MySQL驱动太慢.md"
     },
     {
-      "basename": "【安装】Annaconda安装以及镜像源配置",
-      "path": "4.归档/学习/专业/Python/Annaconda/【安装】Annaconda安装以及镜像源配置.md"
+      "basename": "HDS-HLS Video Downloader",
+      "path": "4.归档/学习/专业/软件/chrome/plugins/HDS-HLS Video Downloader.md"
     },
     {
-      "basename": "专业相关的笔记的归档方式",
-      "path": "4.归档/学习/方法论/专业相关的笔记的归档方式.md"
+      "basename": "Chrome插件合集",
+      "path": "4.归档/学习/专业/软件/chrome/Chrome插件合集.md"
     },
     {
-      "basename": "Prompt Engineering-吴恩达",
-      "path": "4.归档/学习/讲座/Prompt Engineering-吴恩达.md"
+      "basename": "Vuex-Bug汇总",
+      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vuex-Bug汇总.md"
     },
     {
-      "basename": "七牛云搭建Obsidian存储",
-      "path": "4.归档/学习/专业/其他/云服务器相关/七牛云搭建Obsidian存储.md"
+      "basename": "Vue-Internal server error Cannot read properties of undefined (reading 'url')",
+      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Internal server error Cannot read properties of undefined (reading 'url').md"
     },
     {
-      "basename": "Vercel博客部署",
-      "path": "4.归档/学习/专业/其他/博客相关/Vercel博客部署/Vercel博客部署.md"
+      "basename": "Vue-HTML标签的数据绑定到视图之后不进行渲染，而是直接显示了标签文字",
+      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-HTML标签的数据绑定到视图之后不进行渲染，而是直接显示了标签文字.md"
     },
     {
-      "basename": "Hexo添加搜索文章功能",
-      "path": "4.归档/学习/专业/其他/博客相关/Hexo/Hexo添加搜索文章功能.md"
+      "basename": "Vue-echarts连续引入两个相同的echarts封装成的组件导致只渲染一个，另一个不显示",
+      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-echarts连续引入两个相同的echarts封装成的组件导致只渲染一个，另一个不显示.md"
     },
     {
-      "basename": "index-tasks",
-      "path": "2.等待处理/Tasks/index-tasks.md"
+      "basename": "Vue-echarts TypeError error loading dynamically imported module",
+      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-echarts TypeError error loading dynamically imported module.md"
     },
     {
-      "basename": "2024-01-28",
-      "path": "2.等待处理/Diary/2024-01-28.md"
+      "basename": "Vue-Cli-在构建 vue-admin-template 的时候模块加载异常",
+      "path": "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Cli-在构建 vue-admin-template 的时候模块加载异常.md"
     }
   ],
   "omittedPaths": [],

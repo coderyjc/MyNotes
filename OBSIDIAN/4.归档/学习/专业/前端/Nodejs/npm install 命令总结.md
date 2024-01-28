@@ -6,7 +6,7 @@ create_date: 2022-01-31
 
 #前端/NPM #前端/包管理工具
 
-# NPM 知识总结
+# npm install 总结
 
 ### **npm install moduleName 命令**
 

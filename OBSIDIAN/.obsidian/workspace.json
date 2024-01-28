@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "51e8e8cb4fed62cd",
+        "id": "d65d8589bf562f94",
         "type": "tabs",
         "children": [
           {
-            "id": "a8c26dd86d8725e3",
+            "id": "db36e93cd4e48343",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/学习/专业/软件/idea/jetbrains-idea.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 486.5
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -112,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "4.归档/学习/专业/软件/idea/jetbrains-idea.md"
+              }
             }
           },
           {
@@ -121,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4.归档/学习/专业/软件/idea/jetbrains-idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4.归档/学习/专业/软件/idea/jetbrains-idea.md"
+              }
             }
           }
         ]
@@ -182,53 +192,53 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a8c26dd86d8725e3",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "HOME.md",
-    "4.归档/生活/租房相关问题.md",
-    "4.归档/学习/专业/Python/Annaconda/【安装】Annaconda安装以及镜像源配置.md",
-    "4.归档/学习/方法论/专业相关的笔记的归档方式.md",
-    "4.归档/学习/讲座/Prompt Engineering-吴恩达.md",
-    "4.归档/学习/专业/其他/云服务器相关/七牛云搭建Obsidian存储.md",
-    "4.归档/学习/专业/其他/博客相关/Vercel博客部署/Vercel博客部署.md",
-    "4.归档/学习/专业/其他/博客相关/Hexo/Hexo添加搜索文章功能.md",
-    "2.等待处理/Tasks/index-tasks.md",
-    "2.等待处理/Diary/2024-01-28.md",
-    "2.等待处理/Diary/2024-01-27.md",
-    "4.归档/学习/专业/DevOps/Git/github.md",
-    "4.归档/学习/专业/DevOps/Gradle/Gradle-Bug汇总.md",
+    "4.归档/学习/专业/软件/idea/下载MySQL驱动太慢.md",
+    "4.归档/学习/专业/软件/chrome/plugins/HDS-HLS Video Downloader.md",
+    "4.归档/学习/专业/软件/chrome/Chrome插件合集.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vuex-Bug汇总.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Internal server error Cannot read properties of undefined (reading 'url').md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-HTML标签的数据绑定到视图之后不进行渲染，而是直接显示了标签文字.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-echarts连续引入两个相同的echarts封装成的组件导致只渲染一个，另一个不显示.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-echarts TypeError error loading dynamically imported module.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Cli-在构建 vue-admin-template 的时候模块加载异常.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Cannot use JSX unless the '--jsx' flag is provided.ts(17004).md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue3 使用slot的时候拿不到scope和row的数据.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/Vue-Bug.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总/assets/Pasted image 20220131013537.png",
+    "4.归档/学习/专业/前端/Vue.js/Vue3-基础知识/Vue-CompositionAPI.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue3-基础知识",
+    "4.归档/学习/专业/前端/Vue.js/Vuex-基础知识.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Router-基础知识.md",
+    "4.归档/学习/专业/前端/Vue.js/Pinia-基础知识.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/知识补充.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/组件嵌套和通信.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/vue_component_index.md",
+    "4.归档/学习/专业/前端/Vue.js/Vue-Bug汇总",
+    "4.归档/学习/专业/前端/Nodejs/npm install 命令总结.md",
+    "4.归档/学习/专业/前端/HTML&CSS/HTML-基础知识.md",
+    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/ElemetUI-表单验证Validator的callback中一直拿不到value.md",
+    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/ElemetUI-ColorPicker 的颜色格式问题.md",
+    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/未命名",
+    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementPlus表单校验.md",
+    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/assets/Pasted image 20220506190604.png",
+    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/assets/Pasted image 20220506190509.png",
+    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总/assets",
+    "4.归档/学习/专业/前端/前端组件库/ElementUI/ElementUI-Bug汇总",
+    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp基础知识/UniApp-延时.md",
+    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp基础知识",
+    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp基础知识/uniapp-基础知识.md",
+    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp-Bug汇总",
     "4.归档/学习/专业/DevOps/Nginx/Nginx-解决方案",
-    "4.归档/学习/专业/DevOps/Git/git.md",
     "4.归档/学习/专业/DevOps/Docker/docker-advanced.md.nssyncsc",
     "4.归档/学习/专业/DevOps/Docker/Docker-基础知识",
-    "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-advanced.md",
-    "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md",
-    "4.归档/学习/专业/正则表达式/正则表达式学习-基础知识.md",
-    "4.归档/学习/专业/前端/前端体系.md",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/Webpack打包img&js&vue.md",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/less工具.md",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/_webpack.md",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/认识Webpack.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue-CompositionAPI.md",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识",
-    "4.归档/学习/专业/前端/Vue.js/Vuex-基础知识.md",
-    "4.归档/学习/专业/前端/Vue.js/vue_advance.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-basic/Vue-Cli.md",
-    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识",
-    "4.归档/学习/专业/前端/HTML&CSS/CSS/CSS-基础知识",
-    "4.归档/学习/专业/Java后端/spring/MyBatis/MyBatis-基础知识",
-    "4.归档/学习/专业/前端/Nodejs&NPM/Bug汇总",
-    "4.归档/学习/专业/前端/Nodejs&NPM/基础知识",
-    "4.归档/学习/专业/DevOps/Maven/Maven-基础知识",
     "4.归档/学习/专业/Python/Annaconda/assets/Pasted image 20220131002908.png",
     "4.归档/学习/专业/扩展/AI产品/assets/Pasted image 20230420090045.png",
     "4.归档/学习/专业/扩展/AI产品/assets/Pasted image 20230420084034.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127115213.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114841.png",
     "5.专题研究/AAAMLP/assets/Pasted image 20240127114648.png",
-    "5.专题研究/AAAMLP/assets/Pasted image 20240127103843.png",
-    "5.专题研究/AAAMLP/assets/Pasted image 20240127102436.png",
-    "4.归档/学习/人际/社会经验/assets/LCW]OJEX([%}A08O[0%WOWS_tmb.jpg",
-    "5.专题研究/AAAMLP/figures/AAAMLP_page39_image.png"
+    "5.专题研究/AAAMLP/assets/Pasted image 20240127103843.png"
   ]
 }

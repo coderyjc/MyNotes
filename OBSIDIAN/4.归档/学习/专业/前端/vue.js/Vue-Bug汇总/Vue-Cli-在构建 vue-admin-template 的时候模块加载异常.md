@@ -9,8 +9,6 @@ create_date: 2022-01-31
 # Vue-Cli-bug
 
 
->在构建 vue-admin-template 的时候模块加载异常
-
 
 ```info
 These dependencies were not found:
@@ -34,7 +32,7 @@ npm install —save tui-editor
 
 报错如下：
 
-![[../../../数据库/Redis/Redis-Bug汇总/assets/Pasted image 20220131013537.png]]
+![[assets/Pasted image 20220131013537.png]]
 
 修复方法：
 
