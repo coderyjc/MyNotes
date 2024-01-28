@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "obsidian (plugin OR template)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -207,7 +207,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f0dff63b8f360bdd",
+  "active": "1f74b340a1d27e17",
   "lastOpenFiles": [
     "4.归档/学习/方法论/如何快速找到ob中的笔记.md",
     "4.归档/学习/方法论/Untitled.md",
