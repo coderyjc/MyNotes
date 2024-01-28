@@ -108,19 +108,19 @@ return "workbench/" + file1 + "/" + file2;
 
 # 详解-不使用模板引擎的时候
 
-![image-20220131014431](http://blog.evilemperor.top/upload/2022/07/image-20220131014431.png)
+![image-20220131014431](assets/image-20220131014431.png)
 
 ## case 1
 
-![image-20220131014449](http://blog.evilemperor.top/upload/2022/07/image-20220131014449.png)
+![image-20220131014449](assets/image-20220131014449.png)
 
 ## case 2
 
-![image-20220131014506](http://blog.evilemperor.top/upload/2022/07/image-20220131014506.png)
+![image-20220131014506](assets/image-20220131014506.png)
 
 ## case 3
 
-![image-20220131014521](http://blog.evilemperor.top/upload/2022/07/image-20220131014521.png)
+![image-20220131014521](assets/image-20220131014521.png)
 
 1.  “spring.mvc.static-path-pattern”
 
@@ -169,8 +169,8 @@ return "/error12.html"
 
 1.  目录结构
 
-![image-20220131014633](http://blog.evilemperor.top/upload/2022/07/image-20220131014633.png)
+![image-20220131014633](assets/image-20220131014633.png)
 
 结论：
 
-![image-20220131014643](http://blog.evilemperor.top/upload/2022/07/image-20220131014643.png)
+![image-20220131014643](assets/image-20220131014643.png)

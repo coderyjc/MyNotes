@@ -2,11 +2,11 @@
 
 1.  修改Redis配置文件，将 bind 127.0.0.1 注释掉
 
-![[../../../../数据库/MySQL/MySQL-Bug汇总/assets/Pasted image 20220131012418.png]]
+![[assets/Pasted image 20220131012418.png]]
 
 将protected-mode 改为 no
 
-![[../../../../数据库/MySQL/MySQL-Bug汇总/assets/Pasted image 20220131012438.png]]
+![[assets/Pasted image 20220131012438.png]]
 
 1.  阿里云安全组开放 对应端口 6379
 2.  服务器防火墙开放 对应端口 6379
@@ -32,5 +32,5 @@
     
 6.  测试连接，成功
     
-![[../../../../数据库/MySQL/MySQL-Bug汇总/assets/Pasted image 20220131012500.png]]
+![[assets/Pasted image 20220131012500.png]]
 

@@ -1,10 +1,10 @@
 ## 环境配置
 
-[[Annaconda/【安装】Annaconda安装以及镜像源配置|【安装】Annaconda安装以及镜像源配置]]
+[[Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置|Annaconda安装以及镜像源配置]]
 
-[[Annaconda/【Pycharm】使用Annaconda的Base环境|【Pycharm】使用Annaconda的Base环境]]
+[[Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境|使用Annaconda的venv-Base环境]]
 
-[[Annaconda/【配置】Jupyter Notebook|【配置】Jupyter Notebook]]
+[[Annaconda/Annaconda-解决方案/Jupyter Notebook配置|Jupyter Notebook配置]]
 
 ## Python基础
 
@@ -24,8 +24,8 @@
 
 ## Python爬虫
 
-[[Spider/python-spider|爬虫基础]]
+[[Spider/Python爬虫-基础知识/python-spider|爬虫基础]]
 
-[[Spider/python-scrapy|scrapy框架]]
+[[Spider/Python爬虫-基础知识/python-scrapy|scrapy框架]]
 
 
