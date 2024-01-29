@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "评估指标",
+      "path": "5.专题研究/AAAMLP/评估指标.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/AAAMLP/index.md"
+    },
+    {
+      "basename": "处理分类变量",
+      "path": "5.专题研究/AAAMLP/处理分类变量.md"
+    },
+    {
+      "basename": "组织机器学习项目",
+      "path": "5.专题研究/AAAMLP/组织机器学习项目.md"
+    },
+    {
+      "basename": "index-tasks",
+      "path": "2.等待处理/Tasks/index-tasks.md"
+    },
+    {
       "basename": "2024-01-29",
       "path": "2.等待处理/Diary/2024-01-29.md"
     },
@@ -19,26 +39,6 @@
     {
       "basename": "docker-basic",
       "path": "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md"
-    },
-    {
-      "basename": "2024-01-09",
-      "path": "2.等待处理/Diary/2024-01/2024-01-09.md"
-    },
-    {
-      "basename": "使用Annaconda的venv-Base环境",
-      "path": "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md"
-    },
-    {
-      "basename": "Annaconda-wandb 未注册异常",
-      "path": "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/Annaconda-wandb 未注册异常.md"
-    },
-    {
-      "basename": "Annaconda-报错回环导入",
-      "path": "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/Annaconda-报错回环导入.md"
-    },
-    {
-      "basename": "Pasted image 20220131003010",
-      "path": "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/assets/Pasted image 20220131003010.png"
     }
   ],
   "omittedPaths": [],
