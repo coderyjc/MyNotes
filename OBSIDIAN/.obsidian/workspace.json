@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/AAAMLP/评估指标.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2024-01-29.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/AAAMLP/评估指标.md"
+                "file": "2.等待处理/Diary/2024-01-29.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/AAAMLP/评估指标.md",
+                "file": "2.等待处理/Diary/2024-01-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/AAAMLP/评估指标.md"
+                "file": "2.等待处理/Diary/2024-01-29.md"
               }
             }
           }
@@ -194,6 +194,7 @@
   },
   "active": "6e2f45126ffbd5d0",
   "lastOpenFiles": [
+    "5.专题研究/AAAMLP/评估指标.md",
     "5.专题研究/AAAMLP/index.md",
     "5.专题研究/AAAMLP/处理分类变量.md",
     "5.专题研究/AAAMLP/组织机器学习项目.md",
@@ -238,7 +239,6 @@
     "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-spider.md",
     "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识",
     "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-scrapy.md",
-    "4.归档/学习/专业/Python/Python/Python-基础知识/01.字符和输入输出.md",
-    "4.归档/学习/专业/Python/Python/Python-基础知识/python-os.md"
+    "4.归档/学习/专业/Python/Python/Python-基础知识/01.字符和输入输出.md"
   ]
 }
