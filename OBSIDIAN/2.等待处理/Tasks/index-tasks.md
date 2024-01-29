@@ -24,3 +24,6 @@
 https://www.zhihu.com/question/292293671/answer/2829349894
 
 大家都是如何刷 LeetCode 的？ - 白鹤的回答 - 知乎 https://www.zhihu.com/question/280279208/answer/3182876375
+
+同学们在写论文的时候发现了哪些神仙级网站？ - 投必得论文编译的回答 - 知乎 https://www.zhihu.com/question/361477416/answer/1771109544
+

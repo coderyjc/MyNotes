@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5117128e69cff7fa",
+        "id": "571d15fd25d93182",
         "type": "tabs",
         "children": [
           {
-            "id": "f86d1c35018de96f",
+            "id": "2c083393691df0b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-29.md",
-                "mode": "source",
+                "file": "4.归档/学习/外语/TED/TED演讲目录.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-29.md"
+                "file": "4.归档/学习/外语/TED/TED演讲目录.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-29.md",
+                "file": "4.归档/学习/外语/TED/TED演讲目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-01-29.md"
+                "file": "4.归档/学习/外语/TED/TED演讲目录.md"
               }
             }
           }
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,10 +192,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f86d1c35018de96f",
+  "active": "2c083393691df0b4",
   "lastOpenFiles": [
+    "4.归档/学习/外语/TED/How to speak so that people want to listen.md",
+    "4.归档/学习/外语/TED/TED演讲目录.md",
+    "HOME.md",
     "2.等待处理/Tasks/index-tasks.md",
+    "4.归档/学习/外语/TED/未命名/000_坚果云闪电下载介绍.html.nssyncsc",
+    "4.归档/学习/外语/TED/未命名",
+    "4.归档/学习/外语/TED/How to speak so that people want to listen",
+    "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2024-01-29.md",
+    "4.归档/学习/外语/TED",
     "4.归档/学习/方法论/如何锻炼口才.md",
     "4.归档/学习/方法论/专业相关的笔记的归档方式.md",
     "5.专题研究/AAAMLP/评估指标.md",
@@ -205,7 +212,6 @@
     "5.专题研究/AAAMLP/组织机器学习项目.md",
     "4.归档/生活/日程记录",
     "2.等待处理/Diary/2024-01-28.md",
-    "HOME.md",
     "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md",
     "2.等待处理/Diary/2024-01/2024-01-09.md",
     "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md",
@@ -230,16 +236,8 @@
     "4.归档/学习/专业/Python/Python/Python-Bug合集/assets/Pasted image 20220521211402.png",
     "4.归档/学习/专业/Python/Python/Python-Bug合集/assets/Pasted image 20220604230305.png",
     "4.归档/学习/专业/Python/Python/Python-Bug合集/assets",
-    "4.归档/学习/专业/Python/Python/Python-Bug合集/PyEcarts 的数据源中添加了numpy类型的数据后，只显示legend，不显示数据.md",
     "4.归档/学习/专业/Python/Bug汇总/assets/Pasted image 20220703210423.png",
-    "4.归档/学习/专业/Python/Python/Python-Bug合集",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/一次Python爬虫的Debug流程.md",
     "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103821.png",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103241.png",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-spider.md",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-scrapy.md"
+    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103241.png"
   ]
 }
