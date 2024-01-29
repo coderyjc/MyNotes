@@ -11,8 +11,13 @@
             "id": "94d5bcaedf90cb24",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-29.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -74,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 30.384615384615383,
+        "dimension": 30.384615384615387,
         "children": [
           {
             "id": "9efa0f878fdc06cc",
@@ -112,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-29.md"
+              }
             }
           },
           {
@@ -121,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-01-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,14 +144,16 @@
       {
         "id": "341ad80d48b74e47",
         "type": "tabs",
-        "dimension": 40.76923076923077,
+        "dimension": 40.769230769230774,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-01-29.md"
+              }
             }
           }
         ]
@@ -151,7 +161,7 @@
       {
         "id": "9167c4d258dee56c",
         "type": "tabs",
-        "dimension": 28.846153846153843,
+        "dimension": 28.846153846153847,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -184,9 +194,10 @@
   },
   "active": "94d5bcaedf90cb24",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-01-28.md",
+    "2.等待处理/Diary/2024-01-29.md",
     "HOME.md",
     "4.归档/学习/方法论/专业相关的笔记的归档方式.md",
-    "2.等待处理/Diary/2024-01-28.md",
     "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md",
     "2.等待处理/Diary/2024-01/2024-01-09.md",
     "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md",
@@ -228,7 +239,6 @@
     "4.归档/学习/专业/Python/Python/Python-基础知识/07.文件读写.md",
     "4.归档/学习/专业/Python/Python/Python-基础知识/06.高级特性.md",
     "4.归档/学习/专业/Python/Python/Python-基础知识/05.类.md",
-    "4.归档/学习/专业/Python/Python/Python-基础知识/04.函数式编程.md",
-    "4.归档/学习/专业/Python/Python/Python-基础知识/03.函数.md"
+    "4.归档/学习/专业/Python/Python/Python-基础知识/04.函数式编程.md"
   ]
 }
