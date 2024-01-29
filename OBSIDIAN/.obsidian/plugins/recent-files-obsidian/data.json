@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2024-01-29.md"
     },
     {
+      "basename": "index-tasks",
+      "path": "2.等待处理/Tasks/index-tasks.md"
+    },
+    {
       "basename": "如何锻炼口才",
       "path": "4.归档/学习/方法论/如何锻炼口才.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "组织机器学习项目",
       "path": "5.专题研究/AAAMLP/组织机器学习项目.md"
-    },
-    {
-      "basename": "index-tasks",
-      "path": "2.等待处理/Tasks/index-tasks.md"
     },
     {
       "basename": "2024-01-28",

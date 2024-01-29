@@ -16,3 +16,11 @@
 1、在人工智能会议(包括但不限于ACL、COLING、IJCAI、AAAI、ICLR、NIPS、CVPR、ICCV、INTERSPEECH、ICASSP)或期刊上发表过文章；  
 2、在Kaggle、天池、ACM-ICPC等国内外知名评测任务或竞赛中成绩优秀者；  
 3、在智能语音、计算机视觉、自然语言处理等相关方向有较丰富的实际系统研究和开发经验者；
+
+
+
+
+你们在科研学习中一般使用哪些软件工具来看论文记笔记？ - seriesholic的回答 - 知乎  
+https://www.zhihu.com/question/292293671/answer/2829349894
+
+大家都是如何刷 LeetCode 的？ - 白鹤的回答 - 知乎 https://www.zhihu.com/question/280279208/answer/3182876375

@@ -8,27 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3ed4a9ccd0f943f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/学习/方法论/如何锻炼口才.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ab15daebde4e5807",
-            "type": "leaf",
-            "state": {
-              "type": "memos_view",
-              "state": {}
-            }
-          },
-          {
             "id": "f86d1c35018de96f",
             "type": "leaf",
             "state": {
@@ -41,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,14 +195,14 @@
   },
   "active": "f86d1c35018de96f",
   "lastOpenFiles": [
+    "2.等待处理/Tasks/index-tasks.md",
+    "2.等待处理/Diary/2024-01-29.md",
     "4.归档/学习/方法论/如何锻炼口才.md",
     "4.归档/学习/方法论/专业相关的笔记的归档方式.md",
-    "2.等待处理/Diary/2024-01-29.md",
     "5.专题研究/AAAMLP/评估指标.md",
     "5.专题研究/AAAMLP/index.md",
     "5.专题研究/AAAMLP/处理分类变量.md",
     "5.专题研究/AAAMLP/组织机器学习项目.md",
-    "2.等待处理/Tasks/index-tasks.md",
     "4.归档/生活/日程记录",
     "2.等待处理/Diary/2024-01-28.md",
     "HOME.md",
