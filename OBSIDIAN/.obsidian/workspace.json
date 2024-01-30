@@ -181,18 +181,18 @@
     "hiddenItems": {
       "graph:查看关系图谱": false,
       "switcher:打开快速切换": true,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
       "obsidian-weread-plugin:同步微信读书笔记": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "2c083393691df0b4",
   "lastOpenFiles": [
     "2.等待处理/Diary/2024-01-29.md",
     "2.等待处理/Diary/2024-01-30.md",
