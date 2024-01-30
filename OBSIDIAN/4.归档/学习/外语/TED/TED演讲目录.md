@@ -1,14 +1,9 @@
 
-
 ```dataview
 table title-cn AS "标题", presenter AS "演讲人", time-length AS "时长", date AS "日期"
 from "4.归档/学习/外语/TED"
-where !contains(file.name,"TED演讲目录")
+where !contains(file.name, "TED演讲目录")
 ```
-
-
-
-Julian Treasure：怎样说话人们才会听
 
 马特·沃克：睡眠是你的超能力
 
