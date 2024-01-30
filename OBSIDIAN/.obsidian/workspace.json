@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "571d15fd25d93182",
+        "id": "05b90b0b31abff4d",
         "type": "tabs",
         "children": [
           {
-            "id": "2c083393691df0b4",
+            "id": "8e4ff953e4a7ae2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,15 +193,18 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "2c083393691df0b4",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-01-29.md",
+    "4.归档/学习/外语/TED/How to speak so that people want to listen.md",
     "2.等待处理/Diary/2024-01-30.md",
+    "HOME.md",
+    "4.归档/学习/读书/读书笔记/毛泽东选集/index.md",
+    "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf",
+    "4.归档/学习/读书/读书笔记/毛泽东选集",
+    "2.等待处理/Diary/2024-01-29.md",
     "2.等待处理/Diary/2024-01-27.md",
     "2.等待处理/Diary/2024-01-28.md",
-    "4.归档/学习/外语/TED/How to speak so that people want to listen.md",
     "4.归档/学习/外语/TED/TED演讲目录.md",
-    "HOME.md",
     "2.等待处理/Tasks/index-tasks.md",
     "4.归档/学习/外语/TED/未命名/000_坚果云闪电下载介绍.html.nssyncsc",
     "4.归档/学习/外语/TED/未命名",
@@ -231,12 +235,8 @@
     "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md",
     "4.归档/学习/专业/Python/Python/Python-Bug合集/gbk codec cant decode byte 0x94 in position 157 illegal multibyte sequence.md",
     "4.归档/学习/专业/Python/Pandas/Pandas-Bug合集",
-    "4.归档/学习/专业/Python/Pandas",
-    "4.归档/学习/专业/Python/Pandas/Pandas-Bug合集/Pandas读取xls文件时报错.md",
-    "4.归档/学习/专业/Python/Python/Python-Bug合集/ipython历史记录保存.md",
     "4.归档/学习/专业/Python/Python/Python-Bug合集/assets/Pasted image 20220521211402.png",
     "4.归档/学习/专业/Python/Python/Python-Bug合集/assets/Pasted image 20220604230305.png",
-    "4.归档/学习/专业/Python/Python/Python-Bug合集/assets",
     "4.归档/学习/专业/Python/Bug汇总/assets/Pasted image 20220703210423.png",
     "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103821.png",
     "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103241.png"
