@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-01.md",
+                "file": "4.归档/学习/专业/其他/Windows/C盘清理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-01.md"
+                "file": "4.归档/学习/专业/其他/Windows/C盘清理.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-01.md",
+                "file": "4.归档/学习/专业/其他/Windows/C盘清理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-01.md"
+                "file": "4.归档/学习/专业/其他/Windows/C盘清理.md"
               }
             }
           }
@@ -193,10 +193,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "f609663055a5cedd",
   "lastOpenFiles": [
-    "2.等待处理/Diary/英语单词.md",
+    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201112804.png",
+    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201111637.png",
+    "4.归档/学习/专业/其他/Windows/使用EasyU PE重装系统.md",
+    "4.归档/学习/专业/其他/Windows/C盘清理.md",
+    "4.归档/学习/专业/其他/Windows/Windows安装WSL2.md",
+    "4.归档/学习/专业/其他/Windows/C盘各种目录的功能介绍.md",
     "2.等待处理/Diary/2024-02-01.md",
+    "2.等待处理/Diary/英语单词.md",
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-30.md",
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-31.md",
     "4.归档/学习/读书/读书笔记/毛泽东选集/index.md",
@@ -216,11 +222,6 @@
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-15.md",
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-14.md",
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-13.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-12.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-11.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-10.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-09.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-08.md",
     "2.等待处理/Diary/未命名",
     "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf",
     "4.归档/学习/读书/读书笔记/毛泽东选集",
@@ -239,7 +240,6 @@
     "4.归档/学习/专业/Python/Python/Python-Bug合集/assets/Pasted image 20220521211402.png",
     "4.归档/学习/专业/Python/Python/Python-Bug合集/assets/Pasted image 20220604230305.png",
     "4.归档/学习/专业/Python/Bug汇总/assets/Pasted image 20220703210423.png",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103821.png",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103241.png"
+    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103821.png"
   ]
 }
