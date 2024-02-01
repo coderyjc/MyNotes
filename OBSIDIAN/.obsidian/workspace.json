@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48ce9fdd691c42d9",
+        "id": "8d35291564865ab4",
         "type": "tabs",
         "children": [
           {
-            "id": "790e7c5de234cb78",
+            "id": "b1b43be1b8be4192",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/外语/TED/TED演讲目录.md",
+                "file": "2.等待处理/Diary/2024-02-01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/外语/TED/TED演讲目录.md"
+                "file": "2.等待处理/Diary/2024-02-01.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/外语/TED/TED演讲目录.md",
+                "file": "2.等待处理/Diary/2024-02-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/外语/TED/TED演讲目录.md"
+                "file": "2.等待处理/Diary/2024-02-01.md"
               }
             }
           }
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +192,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "790e7c5de234cb78",
+  "active": "b1b43be1b8be4192",
   "lastOpenFiles": [
+    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-31.md",
+    "2.等待处理/Diary/2024-02-01.md",
     "4.归档/学习/外语/TED/How to speak so that people want to listen.md",
     "4.归档/学习/专业/其他/Windows/C盘清理.md",
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201114524.png",
@@ -208,10 +209,8 @@
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201111637.png",
     "4.归档/学习/专业/其他/Windows/使用EasyU PE重装系统.md",
     "4.归档/学习/专业/其他/Windows/C盘各种目录的功能介绍.md",
-    "2.等待处理/Diary/2024-02-01.md",
     "2.等待处理/Diary/英语单词.md",
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-30.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-31.md",
     "4.归档/学习/读书/读书笔记/毛泽东选集/index.md",
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01 总结.md",
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-27.md",
