@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1ce3275f759243a2",
+        "id": "48ce9fdd691c42d9",
         "type": "tabs",
         "children": [
           {
-            "id": "f609663055a5cedd",
+            "id": "790e7c5de234cb78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/专业/其他/Windows/C盘清理.md",
+                "file": "4.归档/学习/外语/TED/TED演讲目录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/专业/其他/Windows/C盘清理.md"
+                "file": "4.归档/学习/外语/TED/TED演讲目录.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/专业/其他/Windows/C盘清理.md",
+                "file": "4.归档/学习/外语/TED/TED演讲目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/专业/其他/Windows/C盘清理.md"
+                "file": "4.归档/学习/外语/TED/TED演讲目录.md"
               }
             }
           }
@@ -193,13 +193,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f609663055a5cedd",
+  "active": "790e7c5de234cb78",
   "lastOpenFiles": [
+    "4.归档/学习/外语/TED/How to speak so that people want to listen.md",
+    "4.归档/学习/专业/其他/Windows/C盘清理.md",
+    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201114524.png",
+    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201114234.png",
+    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113721.png",
+    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113620.png",
+    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113413.png",
+    "4.归档/学习/专业/其他/Windows/Windows安装WSL2.md",
+    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113212.png",
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201112804.png",
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201111637.png",
     "4.归档/学习/专业/其他/Windows/使用EasyU PE重装系统.md",
-    "4.归档/学习/专业/其他/Windows/C盘清理.md",
-    "4.归档/学习/专业/其他/Windows/Windows安装WSL2.md",
     "4.归档/学习/专业/其他/Windows/C盘各种目录的功能介绍.md",
     "2.等待处理/Diary/2024-02-01.md",
     "2.等待处理/Diary/英语单词.md",
@@ -232,14 +239,7 @@
     "4.归档/生活/日程记录",
     "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/assets/Pasted image 20220131003010.png",
     "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/assets/Pasted image 20230106104437.png",
-    "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/assets/Pasted image 20220131003027.png",
-    "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/assets/Pasted image 20220131002908.png",
     "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/assets",
-    "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集/assets/Pasted image 20220131002923.png",
-    "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集",
-    "4.归档/学习/专业/Python/Python/Python-Bug合集/assets/Pasted image 20220521211402.png",
-    "4.归档/学习/专业/Python/Python/Python-Bug合集/assets/Pasted image 20220604230305.png",
-    "4.归档/学习/专业/Python/Bug汇总/assets/Pasted image 20220703210423.png",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-Bug汇总/assets/Pasted image 20220502103821.png"
+    "4.归档/学习/专业/Python/Annaconda/Annaconda-Bug合集"
   ]
 }

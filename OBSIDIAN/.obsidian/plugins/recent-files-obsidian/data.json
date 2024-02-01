@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "TED演讲目录",
+      "path": "4.归档/学习/外语/TED/TED演讲目录.md"
+    },
+    {
+      "basename": "How to speak so that people want to listen",
+      "path": "4.归档/学习/外语/TED/How to speak so that people want to listen.md"
+    },
+    {
       "basename": "C盘清理",
       "path": "4.归档/学习/专业/其他/Windows/C盘清理.md"
     },
     {
-      "basename": "使用EasyU PE重装系统",
-      "path": "4.归档/学习/专业/其他/Windows/使用EasyU PE重装系统.md"
-    },
-    {
       "basename": "Windows安装WSL2",
       "path": "4.归档/学习/专业/其他/Windows/Windows安装WSL2.md"
+    },
+    {
+      "basename": "使用EasyU PE重装系统",
+      "path": "4.归档/学习/专业/其他/Windows/使用EasyU PE重装系统.md"
     },
     {
       "basename": "C盘各种目录的功能介绍",
@@ -31,14 +39,6 @@
     {
       "basename": "2024-01-31",
       "path": "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-31.md"
-    },
-    {
-      "basename": "index",
-      "path": "4.归档/学习/读书/读书笔记/毛泽东选集/index.md"
-    },
-    {
-      "basename": "2024-01 总结",
-      "path": "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01 总结.md"
     }
   ],
   "omittedPaths": [],
