@@ -16,18 +16,17 @@ https://www.zhihu.com/question/292293671/answer/2829349894
 
 同学们在写论文的时候发现了哪些神仙级网站？ - 投必得论文编译的回答 - 知乎 https://www.zhihu.com/question/361477416/answer/1771109544
 
-C语言
-离散数学
-C++
-Oracle
-数字逻辑
+AI导论
 Linux
 大数据技术应用
-组成原理
-AI
 云计算
-计网
+
+数字逻辑
 编译原理
 软件工程
+C语言
+Oracle
 OS
+计网
+组成原理
 体系结构
