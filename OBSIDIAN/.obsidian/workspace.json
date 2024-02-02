@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-01.md",
+                "file": "2.等待处理/Tasks/index-tasks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-01.md"
+                "file": "2.等待处理/Tasks/index-tasks.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-01.md",
+                "file": "2.等待处理/Tasks/index-tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-01.md"
+                "file": "2.等待处理/Tasks/index-tasks.md"
               }
             }
           }
@@ -193,11 +193,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "203cba5cbba47a0f",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-02-02.md",
+    "2.等待处理/Diary/2024-02-01.md",
     "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md",
     "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf",
-    "2.等待处理/Diary/2024-02-01.md",
     "2.等待处理/Tasks/index-tasks.md",
     "HOME.md",
     "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-31.md",
