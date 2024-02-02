@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "index-tasks",
+      "path": "2.等待处理/Tasks/index-tasks.md"
+    },
+    {
       "basename": "2024-02-02",
       "path": "2.等待处理/Diary/2024-02-02.md"
     },
     {
-      "basename": "index-tasks",
-      "path": "2.等待处理/Tasks/index-tasks.md"
+      "basename": "2024-02-03",
+      "path": "2.等待处理/Diary/2024-02-03.md"
+    },
+    {
+      "basename": "delete",
+      "path": "2.等待处理/Diary/delete.md"
     },
     {
       "basename": "2024-02-01",
@@ -31,14 +39,6 @@
     {
       "basename": "TED演讲目录",
       "path": "4.归档/学习/外语/TED/TED演讲目录.md"
-    },
-    {
-      "basename": "How to speak so that people want to listen",
-      "path": "4.归档/学习/外语/TED/How to speak so that people want to listen.md"
-    },
-    {
-      "basename": "C盘清理",
-      "path": "4.归档/学习/专业/其他/Windows/C盘清理.md"
     }
   ],
   "omittedPaths": [],
