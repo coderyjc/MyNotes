@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bb78f60fec6b9529",
+        "id": "4a75b2ebc347a17b",
         "type": "tabs",
         "children": [
           {
-            "id": "355de4366b90641a",
+            "id": "afbe29a17a51b82d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/学习/专业/计算机基础/人工智能导论/人工智能概论.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -117,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "4.归档/学习/专业/计算机基础/人工智能导论/人工智能概论.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/专业/计算机基础/人工智能导论/人工智能概论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4.归档/学习/专业/计算机基础/人工智能导论/人工智能概论.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -192,13 +182,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "355de4366b90641a",
+  "active": "afbe29a17a51b82d",
   "lastOpenFiles": [
-    "2.等待处理/Tasks/index-tasks.md",
+    "5.专题研究/Algorithm/STL/queue.md",
+    "5.专题研究/Algorithm/STL/STL遍历算法.md",
+    "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
+    "5.专题研究/Algorithm/PTA/排序问题.md",
+    "5.专题研究/Algorithm/算法专栏/哈夫曼树生成算法.md",
+    "5.专题研究/Algorithm/算法专栏/串的暴力匹配算法.md",
+    "2.等待处理/Diary/2024-02-02.md",
+    "2.等待处理/Diary/2024-02-03.md",
+    "2.等待处理/Diary/2024-02-01.md",
     "4.归档/学习/专业/计算机基础/人工智能导论/人工智能概论.md",
+    "4.归档/学习/专业/计算机基础/人工智能导论/assets/Pasted image 20240202215141.png",
+    "4.归档/学习/专业/前端/HTML&CSS/CSS/CSS-基础知识/css-font.md",
+    "4.归档/学习/专业/计算机基础/人工智能导论/assets/Pasted image 20240202213857.png",
+    "4.归档/学习/专业/计算机基础/人工智能导论/assets",
+    "2.等待处理/Tasks/index-tasks.md",
     "4.归档/学习/专业/计算机基础/人工智能导论",
     "4.归档/学习/专业/计算机基础/OS/OS.md",
-    "2.等待处理/Diary/2024-02-02.md",
     "4.归档/学习/专业/计算机基础/C++/CPP-基础知识/CPP-文件操作.md",
     "4.归档/学习/专业/计算机基础/C++/CPP-基础知识/CPP-内存结构.md",
     "4.归档/学习/专业/计算机基础/C++/CPP-基础知识/CPP-面向对象.md",
@@ -211,10 +213,8 @@
     "4.归档/学习/专业/Java后端/JavaSE/Java知识导图.md",
     "4.归档/学习/专业/Java后端/JavaSE/JavaSE-基础知识/java-basic/java-annotation.md",
     "4.归档/学习/专业/Java后端/JavaSE/JavaSE-基础知识/java-basic/java-basic-oop.md",
-    "2.等待处理/Diary/2024-02-01.md",
     "4.归档/学习/专业/计算机基础/C++",
     "4.归档/学习/专业/计算机基础",
-    "2.等待处理/Diary/2024-02-03.md",
     "2.等待处理/Diary/delete.md",
     "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md",
     "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf",
@@ -226,19 +226,9 @@
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201114234.png",
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113721.png",
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113620.png",
-    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113413.png",
     "4.归档/学习/专业/其他/Windows/Windows安装WSL2.md",
-    "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113212.png",
-    "4.归档/学习/专业/其他/Windows/使用EasyU PE重装系统.md",
-    "4.归档/学习/专业/其他/Windows/C盘各种目录的功能介绍.md",
-    "2.等待处理/Diary/英语单词.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-30.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01 总结.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-27.md",
-    "4.归档/生活/日程记录/Archieve/2024/2024-01/2024-01-28.md",
     "2.等待处理/Diary/未命名",
     "4.归档/学习/读书/读书笔记/毛泽东选集",
-    "4.归档/学习/外语/TED/未命名/000_坚果云闪电下载介绍.html.nssyncsc",
-    "4.归档/学习/外语/TED/未命名"
+    "4.归档/学习/外语/TED/未命名/000_坚果云闪电下载介绍.html.nssyncsc"
   ]
 }
