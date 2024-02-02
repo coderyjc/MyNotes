@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-02-02",
+      "path": "2.等待处理/Diary/2024-02-02.md"
+    },
+    {
       "basename": "2024-02-01",
       "path": "2.等待处理/Diary/2024-02-01.md"
+    },
+    {
+      "basename": "毛选-annotator",
+      "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md"
+    },
+    {
+      "basename": "毛选",
+      "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf"
     },
     {
       "basename": "index-tasks",
@@ -27,18 +39,6 @@
     {
       "basename": "C盘清理",
       "path": "4.归档/学习/专业/其他/Windows/C盘清理.md"
-    },
-    {
-      "basename": "Windows安装WSL2",
-      "path": "4.归档/学习/专业/其他/Windows/Windows安装WSL2.md"
-    },
-    {
-      "basename": "使用EasyU PE重装系统",
-      "path": "4.归档/学习/专业/其他/Windows/使用EasyU PE重装系统.md"
-    },
-    {
-      "basename": "C盘各种目录的功能介绍",
-      "path": "4.归档/学习/专业/其他/Windows/C盘各种目录的功能介绍.md"
     }
   ],
   "omittedPaths": [],
