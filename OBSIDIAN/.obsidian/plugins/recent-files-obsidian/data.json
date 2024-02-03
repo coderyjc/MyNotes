@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2024-02-03.md"
     },
     {
+      "basename": "2024-02-04",
+      "path": "2.等待处理/Diary/2024-02-04.md"
+    },
+    {
       "basename": "HOME",
       "path": "HOME.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "输入输出相关问题",
       "path": "5.专题研究/Algorithm/PTA/输入输出相关问题.md"
-    },
-    {
-      "basename": "排序问题",
-      "path": "5.专题研究/Algorithm/PTA/排序问题.md"
     }
   ],
   "omittedPaths": [],
