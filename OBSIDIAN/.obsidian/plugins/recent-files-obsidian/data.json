@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "人工智能概论",
-      "path": "5.专题研究/人工智能导论/人工智能概论.md"
+      "basename": "计算机视觉导论",
+      "path": "5.专题研究/人工智能导论/计算机视觉导论.md"
+    },
+    {
+      "basename": "index-tasks",
+      "path": "2.等待处理/Tasks/index-tasks.md"
     },
     {
       "basename": "2024-02-03",
       "path": "2.等待处理/Diary/2024-02-03.md"
+    },
+    {
+      "basename": "机器学习导论",
+      "path": "5.专题研究/人工智能导论/机器学习导论.md"
+    },
+    {
+      "basename": "人工智能导论",
+      "path": "5.专题研究/人工智能导论/人工智能导论.md"
     },
     {
       "basename": "2024-02-04",
@@ -25,20 +37,8 @@
       "path": "2.等待处理/Diary/2024-02-02.md"
     },
     {
-      "basename": "index-tasks",
-      "path": "2.等待处理/Tasks/index-tasks.md"
-    },
-    {
       "basename": "queue",
       "path": "5.专题研究/Algorithm/STL/queue.md"
-    },
-    {
-      "basename": "STL遍历算法",
-      "path": "5.专题研究/Algorithm/STL/STL遍历算法.md"
-    },
-    {
-      "basename": "输入输出相关问题",
-      "path": "5.专题研究/Algorithm/PTA/输入输出相关问题.md"
     }
   ],
   "omittedPaths": [],
