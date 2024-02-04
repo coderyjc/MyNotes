@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "毛选-annotator",
+      "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md"
+    },
+    {
+      "basename": "毛选",
+      "path": "0.plugin/pdf/毛选.pdf"
     },
     {
       "basename": "2024-02-04",
@@ -11,6 +15,10 @@
     {
       "basename": "2024-02-05",
       "path": "2.等待处理/Diary/2024-02-05.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "2024-02-03",
@@ -27,14 +35,6 @@
     {
       "basename": "电子书搜索",
       "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
-    },
-    {
-      "basename": "毛选-annotator",
-      "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md"
-    },
-    {
-      "basename": "毛选",
-      "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf"
     }
   ],
   "omittedPaths": [],
