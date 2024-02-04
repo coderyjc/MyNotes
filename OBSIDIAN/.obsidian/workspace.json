@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,10 +192,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "241dc2d9aa3e6115",
   "lastOpenFiles": [
-    "HOME.md",
     "2.等待处理/Diary/2024-02-04.md",
+    "HOME.md",
     "2.等待处理/Diary/2024-02-01.md",
     "4.归档/学习/方法论/搜索/电子书搜索.md",
     "2.等待处理/Diary/2024-02-03.md",
