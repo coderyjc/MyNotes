@@ -15,6 +15,33 @@ dv.paragraph(`==已完成任务== **${i[5]}** 个
 			 ==标签==  **${i[4]}** 个`)
 ```
 
+| 文件类型 | 数量 | 大小 |
+|----------|-------|------|
+| png | 1438 | 177.01 MB |
+| js | 47 | 77.65 MB |
+| ttf | 4 | 48.20 MB |
+| mp4 | 9 | 27.81 MB |
+| gif | 5 | 16.59 MB |
+| css | 80 | 5.77 MB |
+| pdf | 1 | 5.65 MB |
+| md | 974 | 3.12 MB |
+| scss | 82 | 2.24 MB |
+| xmind | 4 | 0.43 MB |
+| json | 94 | 0.24 MB |
+| ts | 9 | 0.06 MB |
+| map | 2 | 0.05 MB |
+| drawio | 2 | 0.04 MB |
+| license | 2 | 0.03 MB |
+| jpg | 2 | 0.03 MB |
+| xlsx | 2 | 0.02 MB |
+| webp | 1 | 0.02 MB |
+| jpeg | 1 | 0.02 MB |
+| mdenc | 1 | 0.01 MB |
+| workspace | 1 | 0.00 MB |
+| gitignore | 2 | 0.00 MB |
+| yml | 2 | 0.00 MB |
+| bkp | 1 | 0.00 MB |
+
 ```dataviewjs
 let setting = {};
 //在和风天气中创建的 Api key

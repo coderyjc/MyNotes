@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "2024-02-04",
       "path": "2.等待处理/Diary/2024-02-04.md"
     },
@@ -25,20 +29,12 @@
       "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
       "basename": "毛选-annotator",
       "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md"
     },
     {
       "basename": "毛选",
       "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf"
-    },
-    {
-      "basename": "计算机视觉导论",
-      "path": "5.专题研究/人工智能导论/计算机视觉导论.md"
     }
   ],
   "omittedPaths": [],
