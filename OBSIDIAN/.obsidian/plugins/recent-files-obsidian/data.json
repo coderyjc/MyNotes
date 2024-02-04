@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2024-02-04.md"
     },
     {
+      "basename": "2024-02-05",
+      "path": "2.等待处理/Diary/2024-02-05.md"
+    },
+    {
       "basename": "电子书搜索",
       "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "计算机视觉导论",
       "path": "5.专题研究/人工智能导论/计算机视觉导论.md"
-    },
-    {
-      "basename": "index-tasks",
-      "path": "2.等待处理/Tasks/index-tasks.md"
     }
   ],
   "omittedPaths": [],
