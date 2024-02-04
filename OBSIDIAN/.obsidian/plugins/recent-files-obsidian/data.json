@@ -9,16 +9,24 @@
       "path": "HOME.md"
     },
     {
+      "basename": "2024-02-01",
+      "path": "2.等待处理/Diary/2024-02-01.md"
+    },
+    {
+      "basename": "电子书搜索",
+      "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
+    },
+    {
+      "basename": "2024-02-03",
+      "path": "2.等待处理/Diary/2024-02-03.md"
+    },
+    {
       "basename": "毛选-annotator",
       "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md"
     },
     {
       "basename": "毛选",
       "path": "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf"
-    },
-    {
-      "basename": "2024-02-03",
-      "path": "2.等待处理/Diary/2024-02-03.md"
     },
     {
       "basename": "2024-02-02",
@@ -31,14 +39,6 @@
     {
       "basename": "index-tasks",
       "path": "2.等待处理/Tasks/index-tasks.md"
-    },
-    {
-      "basename": "人工智能导论",
-      "path": "5.专题研究/人工智能导论/人工智能导论.md"
-    },
-    {
-      "basename": "2024-01-09",
-      "path": "2.等待处理/Diary/Archieve/2024/2024-01/2024-01-09.md"
     }
   ],
   "omittedPaths": [],
