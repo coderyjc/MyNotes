@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d2bd69ce37bf3bde",
+        "id": "9ed4861fd2d472ac",
         "type": "tabs",
         "children": [
           {
-            "id": "07c85d5e0e9fa0b2",
+            "id": "d08e4961b2b0ed72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-03.md",
+                "file": "2.等待处理/Diary/2024-02-04.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-03.md"
+                "file": "2.等待处理/Diary/2024-02-04.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-03.md",
+                "file": "2.等待处理/Diary/2024-02-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-03.md"
+                "file": "2.等待处理/Diary/2024-02-04.md"
               }
             }
           }
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,17 +193,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "07c85d5e0e9fa0b2",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "5.专题研究/人工智能导论/机器学习导论.md",
+    "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md",
+    "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf",
     "2.等待处理/Diary/2024-02-03.md",
+    "2.等待处理/Diary/2024-02-02.md",
+    "2.等待处理/Diary/2024-02-04.md",
+    "5.专题研究/人工智能导论/机器学习导论.md",
     "5.专题研究/人工智能导论/计算机视觉导论.md",
     "2.等待处理/Tasks/index-tasks.md",
     "5.专题研究/人工智能导论/人工智能导论.md",
-    "2.等待处理/Diary/2024-02-04.md",
     "HOME.md",
     "2.等待处理/Diary/Archieve/2024/2024-01/2024-01-09.md",
-    "2.等待处理/Diary/2024-02-02.md",
     "5.专题研究/Algorithm/STL/queue.md",
     "5.专题研究/Algorithm/STL/STL遍历算法.md",
     "5.专题研究/Algorithm/PTA/输入输出相关问题.md",
@@ -230,9 +233,6 @@
     "4.归档/学习/专业/Java后端/JavaSE/JavaSE-基础知识/java-basic/java-basic-oop.md",
     "4.归档/学习/专业/计算机基础/C++",
     "4.归档/学习/专业/计算机基础",
-    "2.等待处理/Diary/delete.md",
-    "4.归档/学习/读书/读书笔记/毛泽东选集/毛选-annotator.md",
-    "4.归档/学习/读书/读书笔记/毛泽东选集/毛选.pdf",
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201114524.png",
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201114234.png",
     "4.归档/学习/专业/其他/Windows/assets/Pasted image 20240201113721.png",
