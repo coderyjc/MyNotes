@@ -15,3 +15,17 @@ annotation-target: 毛选.pdf
 >%%TAGS%%
 >
 ^cj47bsk5yvg
+
+
+>%%
+>```annotation-json
+>{"created":"2024-02-04T15:54:48.879Z","updated":"2024-02-04T15:54:48.879Z","document":{"title":"毛泽东选集","link":[{"href":"urn:x-pdf:1bb3f933f0b35c7a3787cb2fb44beba4"},{"href":"vault:/0.plugin/pdf/%E6%AF%9B%E9%80%89.pdf"}],"documentFingerprint":"1bb3f933f0b35c7a3787cb2fb44beba4"},"uri":"vault:/0.plugin/pdf/%E6%AF%9B%E9%80%89.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%AF%9B%E9%80%89.pdf","selector":[{"type":"TextPositionSelector","start":18583,"end":18604},{"type":"TextQuoteSelector","exact":"神权的动摇，也是跟着农民运动的发展而普遍。","prefix":"祠堂吃酒，一批贫农拥进去，大喝大嚼，土豪劣绅长褂先生吓得都跑了。","suffix":"许多地方，农民协会占了神的庙宇做会所。一切地方的农民协会，都主张"}]}]}
+>```
+>%%
+>*%%PREFIX%%祠堂吃酒，一批贫农拥进去，大喝大嚼，土豪劣绅长褂先生吓得都跑了。%%HIGHLIGHT%% ==神权的动摇，也是跟着农民运动的发展而普遍。== %%POSTFIX%%许多地方，农民协会占了神的庙宇做会所。一切地方的农民协会，都主张*
+>%%LINK%%[[#^tgg3o8e6u4|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^tgg3o8e6u4
