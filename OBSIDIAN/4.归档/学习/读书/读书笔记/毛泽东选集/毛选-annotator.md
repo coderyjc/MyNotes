@@ -29,3 +29,17 @@ annotation-target: 毛选.pdf
 >%%TAGS%%
 >
 ^tgg3o8e6u4
+
+
+>%%
+>```annotation-json
+>{"created":"2024-02-06T16:01:53.620Z","updated":"2024-02-06T16:01:53.620Z","document":{"title":"毛泽东选集","link":[{"href":"urn:x-pdf:1bb3f933f0b35c7a3787cb2fb44beba4"},{"href":"vault:/0.plugin/pdf/%E6%AF%9B%E9%80%89.pdf"}],"documentFingerprint":"1bb3f933f0b35c7a3787cb2fb44beba4"},"uri":"vault:/0.plugin/pdf/%E6%AF%9B%E9%80%89.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%AF%9B%E9%80%89.pdf","selector":[{"type":"TextPositionSelector","start":19115,"end":19150},{"type":"TextQuoteSelector","exact":"总而言之，所有一切封建的宗法的思想和制度，都随着农民权力的升涨而动摇。","prefix":"了乡村女界联合会，妇女抬头的机会已到，夫权便一天一天地动摇起来。","suffix":"但是现在时期，农民的精力集中于破坏地主的政治权力这一点。要是地主"}]}]}
+>```
+>%%
+>*%%PREFIX%%了乡村女界联合会，妇女抬头的机会已到，夫权便一天一天地动摇起来。%%HIGHLIGHT%% ==总而言之，所有一切封建的宗法的思想和制度，都随着农民权力的升涨而动摇。== %%POSTFIX%%但是现在时期，农民的精力集中于破坏地主的政治权力这一点。要是地主*
+>%%LINK%%[[#^xmy59bt5xz|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xmy59bt5xz
