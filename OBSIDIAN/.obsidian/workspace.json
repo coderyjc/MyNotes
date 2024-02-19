@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-07.md",
+                "file": "4.归档/学习/方法论/搜索/电子书搜索.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zlib",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-07.md"
+                "file": "4.归档/学习/方法论/搜索/电子书搜索.md"
               }
             }
           },
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-07.md",
+                "file": "4.归档/学习/方法论/搜索/电子书搜索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-07.md"
+                "file": "4.归档/学习/方法论/搜索/电子书搜索.md"
               }
             }
           }
@@ -192,8 +193,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "826ef8e33acb3008",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-02-14.md",
     "2.等待处理/Diary/2024-02-07.md",
     "2.等待处理/Diary/英语单词.md",
     "2.等待处理/Diary/2024-02/2024-02-01.md",
@@ -228,7 +230,6 @@
     "5.专题研究/人工智能导论/assets/Pasted image 20240202213857.png",
     "5.专题研究/人工智能导论/assets",
     "5.专题研究/人工智能导论",
-    "4.归档/学习/专业/计算机基础/OS/OS.md",
     "4.归档/学习/专业/计算机基础/C++/CPP-基础知识/assets/Pasted image 20240202175233.png",
     "4.归档/学习/专业/计算机基础/C++/CPP-基础知识/assets/Pasted image 20240202175137.png",
     "4.归档/学习/专业/计算机基础/C++/CPP-基础知识/assets/Pasted image 20240202175047.png",
