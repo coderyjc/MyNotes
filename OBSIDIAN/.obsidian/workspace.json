@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zlib",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,9 +194,9 @@
   },
   "active": "9e7b7c34793b8497",
   "lastOpenFiles": [
-    "4.归档/学习/方法论/搜索/电子书搜索.md",
-    "2.等待处理/Diary/2024-02-20.md",
     "2.等待处理/Diary/2024-02-19.md",
+    "2.等待处理/Diary/2024-02-20.md",
+    "4.归档/学习/方法论/搜索/电子书搜索.md",
     "5.专题研究/急救知识.md",
     "2.等待处理/Diary/2024-02-06.md",
     "2.等待处理/Diary/2024-02-07.md",
