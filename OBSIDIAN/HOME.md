@@ -6,7 +6,7 @@ var i = [dv.pages().length,
 		 dv.pages().file.etags.distinct().length,
 		 dv.pages().file.tasks.length]
 var diary = dv.pages(`"2.等待处理/Diary"`).length
-dv.paragraph(`总共有 **${i[0]}** 篇文档，共计 **780,585** 字，图片 **1405** 张`)
+dv.paragraph(`总共有 **${i[0]}** 篇文档，共计 **800,174** 字，图片 **1454** 张`)
 dv.paragraph(`==已归档笔记== **${i[1]}** 篇
 			 ==正在进行的笔记== **${i[2]}** 篇
 			 ==读书笔记== **${i[3]}** 篇
@@ -17,11 +17,11 @@ dv.paragraph(`==已完成任务== **${i[5]}** 个
 
 | 文件类型 | 数量 | 大小 |
 |----------|-------|------|
-| 图片 | 1453 | 194.14 MBytes |
+| 图片 | 1454 | 194.19 MBytes |
 | 插件相关 | 218 | 85.72 MBytes |
 | 其他 | 120 | 76.36 MBytes |
 | 书籍 | 1 | 5.65 MBytes |
-| 笔记 | 974 | 3.12 MBytes |
+| 笔记 | 1010 | 3.15 MBytes |
 
 
 ```dataviewjs
