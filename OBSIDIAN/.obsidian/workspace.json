@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/震龙骨.md",
+                "file": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/索引.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "208dcc953ccb4aa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.归档/学习/方法论/如何快速找到ob中的笔记.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -66,7 +79,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +132,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/震龙骨.md"
+                "file": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/索引.md"
               }
             }
           },
@@ -128,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/震龙骨.md",
+                "file": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/索引.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/震龙骨.md"
+                "file": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/索引.md"
               }
             }
           }
@@ -194,32 +208,32 @@
   },
   "active": "f0194a8858a8c2b8",
   "lastOpenFiles": [
+    "4.归档/学习/方法论/如何快速找到ob中的笔记.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/索引.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/北冥石.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/神行1-神行.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/日月1-两极（一刀流）.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/搭配.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/PotionsIndex.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/震龙骨.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/北海鳍.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/北风花.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/白虎之魂.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/PotionPageTemplate.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/跌打草.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/堕龙.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/机关炮轮.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/玄武之魂.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/朱雀之魂.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/狼王白鬃.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/星辰之玉.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/黄纸.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/三色结晶.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/须臾之砂.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/响雷石.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/雄黄.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/毒囊.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/猛虎之印.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/血玉髓.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/踏风草.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/灵玉.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/狂暴之血.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/醉仙酿.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/青龙之魂.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/挚爱之心.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/护心镜.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/永恒契文.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/狂将锁.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/尸鬼虫.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/渊龙牙.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/template - 副本 (8).md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/长梦雾霭.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/凤凰喙.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/template - 副本 (2)-冲突-yanjingcun_Win10.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/异星之石.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/鸊鹈膏.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/玄诡刃.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/重山铠.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/腐肢鬼甲.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/疑无物.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/神皇威装.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/母神旧印.md",
+    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/龙形觥.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/Potion_FireStone.md.nssyncsc",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黑火药.png",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黄纸.png",
