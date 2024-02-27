@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-02-27",
+      "path": "2.等待处理/Diary/2024-02-27.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
+    },
+    {
+      "basename": "2024-02-20",
+      "path": "2.等待处理/Diary/2024-02-20.md"
+    },
+    {
       "basename": "搭配",
       "path": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/搭配.md"
     },
@@ -23,22 +35,6 @@
     {
       "basename": "tag-retrieve",
       "path": "1.收集箱/dashboard/tag-retrieve.md"
-    },
-    {
-      "basename": "白虎之魂",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/白虎之魂.md"
-    },
-    {
-      "basename": "毒囊",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/毒囊.md"
-    },
-    {
-      "basename": "鬼妃断发",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/鬼妃断发.md"
-    },
-    {
-      "basename": "尸变断指",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/尸变断指.md"
     }
   ],
   "omittedPaths": [],

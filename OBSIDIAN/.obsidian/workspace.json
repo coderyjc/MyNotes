@@ -11,8 +11,13 @@
             "id": "4255cedf1fb41043",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-02-27.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -112,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-02-27.md"
+              }
             }
           },
           {
@@ -121,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-02-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-02-27.md"
+              }
             }
           }
         ]
@@ -182,8 +192,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4255cedf1fb41043",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "0.plugin/template/dailynotes.md",
+    "2.等待处理/Diary/2024-02-27.md",
+    "2.等待处理/Diary/2024-02-20.md",
+    "2.等待处理/Diary/2024-02-25.md",
+    "2.等待处理/Diary/2024-02-24.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/搭配.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/索引.md",
     "HOME.md",
@@ -205,11 +220,6 @@
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/永恒契文.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/狂将锁.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/尸鬼虫.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/渊龙牙.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/template - 副本 (8).md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/长梦雾霭.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/凤凰喙.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/template - 副本 (2)-冲突-yanjingcun_Win10.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/Potion_FireStone.md.nssyncsc",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黑火药.png",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黄纸.png",
