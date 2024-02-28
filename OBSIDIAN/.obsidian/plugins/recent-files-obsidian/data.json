@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-02-28",
-      "path": "2.等待处理/Diary/2024-02-28.md"
-    },
-    {
       "basename": "数据库系统结构",
       "path": "5.专题研究/数据库原理/数据库系统结构.md"
-    },
-    {
-      "basename": "C语言-题目",
-      "path": "5.专题研究/考研调剂复试/笔试/C语言-题目.md"
-    },
-    {
-      "basename": "C语言-知识点",
-      "path": "5.专题研究/考研调剂复试/笔试/C语言-知识点.md"
-    },
-    {
-      "basename": "_划重点",
-      "path": "5.专题研究/数据库原理/_划重点.md"
     },
     {
       "basename": "数据库概述",
       "path": "5.专题研究/数据库原理/数据库概述.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "2024-02-28",
+      "path": "2.等待处理/Diary/2024-02-28.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/AAAMLP/index.md"
+    },
+    {
+      "basename": "处理分类变量",
+      "path": "5.专题研究/AAAMLP/处理分类变量.md"
+    },
+    {
+      "basename": "交叉检验",
+      "path": "5.专题研究/AAAMLP/交叉检验.md"
+    },
+    {
+      "basename": "组合和堆叠方法",
+      "path": "5.专题研究/AAAMLP/组合和堆叠方法.md"
+    },
+    {
+      "basename": "_Pandas",
+      "path": "5.专题研究/python-pandas/_Pandas.md"
     },
     {
       "basename": "深度学习入门：基于Python的理论与实现",
       "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
     },
     {
-      "basename": "readme",
-      "path": "0.plugin/pdf/readme.md"
-    },
-    {
-      "basename": "人工智能导论",
-      "path": "5.专题研究/人工智能导论/人工智能导论.md"
+      "basename": "_划考试重点",
+      "path": "5.专题研究/数据库原理/_划考试重点.md"
     }
   ],
   "omittedPaths": [],
