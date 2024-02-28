@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "数据库系统结构",
+      "path": "5.专题研究/数据库原理/数据库系统结构.md"
+    },
+    {
+      "basename": "_划考试重点",
+      "path": "5.专题研究/数据库原理/_划考试重点.md"
+    },
+    {
+      "basename": "深度学习入门：基于Python的理论与实现",
+      "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
+    },
+    {
+      "basename": "文本分类或回归方法",
+      "path": "5.专题研究/AAAMLP/文本分类或回归方法.md"
+    },
+    {
       "basename": "2024-02-28",
       "path": "2.等待处理/Diary/2024-02-28.md"
     },
@@ -9,16 +25,8 @@
       "path": "2.等待处理/Tasks/index-tasks.md"
     },
     {
-      "basename": "深度学习入门：基于Python的理论与实现",
-      "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
-    },
-    {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "数据库系统结构",
-      "path": "5.专题研究/数据库原理/数据库系统结构.md"
     },
     {
       "basename": "数据库概述",
@@ -31,14 +39,6 @@
     {
       "basename": "处理分类变量",
       "path": "5.专题研究/AAAMLP/处理分类变量.md"
-    },
-    {
-      "basename": "交叉检验",
-      "path": "5.专题研究/AAAMLP/交叉检验.md"
-    },
-    {
-      "basename": "组合和堆叠方法",
-      "path": "5.专题研究/AAAMLP/组合和堆叠方法.md"
     }
   ],
   "omittedPaths": [],
