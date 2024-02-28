@@ -9,8 +9,16 @@
       "path": "0.plugin/template/dailynotes.md"
     },
     {
+      "basename": "2024-02-06",
+      "path": "2.等待处理/Diary/2024-02/2024-02-06.md"
+    },
+    {
       "basename": "2024-02-20",
-      "path": "2.等待处理/Diary/2024-02-20.md"
+      "path": "2.等待处理/Diary/2024-02/2024-02-20.md"
+    },
+    {
+      "basename": "电子书搜索",
+      "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
     },
     {
       "basename": "搭配",
@@ -31,10 +39,6 @@
     {
       "basename": "tag-summary",
       "path": "1.收集箱/dashboard/tag-summary.md"
-    },
-    {
-      "basename": "tag-retrieve",
-      "path": "1.收集箱/dashboard/tag-retrieve.md"
     }
   ],
   "omittedPaths": [],
