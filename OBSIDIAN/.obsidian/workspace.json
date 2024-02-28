@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "14972eb85c34575f",
+        "id": "8d8a4b0b6e3e406b",
         "type": "tabs",
         "children": [
           {
-            "id": "2c2359bccaeeecbc",
+            "id": "4985a05151b235e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/数据库原理/概述.md",
+                "file": "5.专题研究/数据库原理/_划重点.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/数据库原理/概述.md"
+                "file": "5.专题研究/数据库原理/_划重点.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/数据库原理/概述.md",
+                "file": "5.专题研究/数据库原理/_划重点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/数据库原理/概述.md"
+                "file": "5.专题研究/数据库原理/_划重点.md"
               }
             }
           }
@@ -192,9 +192,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2c2359bccaeeecbc",
+  "active": "4985a05151b235e5",
   "lastOpenFiles": [
-    "5.专题研究/数据库原理/概述.md",
+    "5.专题研究/数据库原理/数据库系统结构.md",
+    "5.专题研究/数据库原理/数据库概述.md",
+    "5.专题研究/数据库原理/未命名",
+    "2.等待处理/Diary/2024-02-28.md",
+    "5.专题研究/数据库原理/_划重点.md",
+    "HOME.md",
+    "5.专题研究/数据库原理/assets/Pasted image 20240228101342.png",
+    "5.专题研究/数据库原理/assets",
     "5.专题研究/数据库原理/基础篇/0.基础篇简介.md",
     "5.专题研究/数据库原理/基础篇/绪论.md",
     "5.专题研究/数据库原理/基础篇/数据库完整性.md",
@@ -208,7 +215,6 @@
     "5.专题研究/人工智能导论/人工智能导论.md",
     "5.专题研究/人工智能导论/计算机视觉导论.md",
     "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
-    "2.等待处理/Diary/2024-02-28.md",
     "2.等待处理/Diary/2024-02-27.md",
     "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2024-02/2024-02-06.md",
@@ -218,10 +224,7 @@
     "2.等待处理/Diary/2024-02-24.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/搭配.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/索引.md",
-    "HOME.md",
     "1.收集箱/dashboard/warehouse.md",
-    "1.收集箱/dashboard/tag-summary.md",
-    "1.收集箱/dashboard/tag-retrieve.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/Potion_FireStone.md.nssyncsc",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黑火药.png",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黄纸.png",
@@ -232,13 +235,10 @@
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/雄黄.png",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/锋锐之牙.png",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/醉仙酿.png",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/踏风草.png",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets",
     "4.归档/生活/游戏/【WarmSnow】暖雪/Img/assets",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/Potions",
     "4.归档/生活/游戏/【WarmSnow】暖雪/武器",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/Potions",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/武器/Texture2D_Sword",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/Img/Texture2D_Potion"
+    "4.归档/生活/游戏/【WarmSnow】暖雪/Potions"
   ]
 }
