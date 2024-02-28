@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4121478a056631aa",
+        "id": "14972eb85c34575f",
         "type": "tabs",
         "children": [
           {
-            "id": "4255cedf1fb41043",
+            "id": "2c2359bccaeeecbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-27.md",
+                "file": "5.专题研究/数据库原理/概述.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-27.md"
+                "file": "5.专题研究/数据库原理/概述.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-27.md",
+                "file": "5.专题研究/数据库原理/概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-02-27.md"
+                "file": "5.专题研究/数据库原理/概述.md"
               }
             }
           }
@@ -192,10 +192,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "2c2359bccaeeecbc",
   "lastOpenFiles": [
-    "0.plugin/template/dailynotes.md",
+    "5.专题研究/数据库原理/概述.md",
+    "5.专题研究/数据库原理/基础篇/0.基础篇简介.md",
+    "5.专题研究/数据库原理/基础篇/绪论.md",
+    "5.专题研究/数据库原理/基础篇/数据库完整性.md",
+    "5.专题研究/数据库原理/基础篇/数据库安全性.md",
+    "5.专题研究/数据库原理/基础篇/关系数据库.md",
+    "5.专题研究/数据库原理/基础篇/关系数据库标准语言SQL.md",
+    "5.专题研究/数据库原理/基础篇",
+    "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
+    "0.plugin/pdf/readme.md",
+    "5.专题研究/数据库原理",
+    "5.专题研究/人工智能导论/人工智能导论.md",
+    "5.专题研究/人工智能导论/计算机视觉导论.md",
+    "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
+    "2.等待处理/Diary/2024-02-28.md",
     "2.等待处理/Diary/2024-02-27.md",
+    "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/2024-02/2024-02-06.md",
     "2.等待处理/Diary/2024-02/2024-02-20.md",
     "4.归档/学习/方法论/搜索/电子书搜索.md",
@@ -207,19 +222,6 @@
     "1.收集箱/dashboard/warehouse.md",
     "1.收集箱/dashboard/tag-summary.md",
     "1.收集箱/dashboard/tag-retrieve.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/白虎之魂.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/毒囊.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/鬼妃断发.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/尸变断指.md",
-    "4.归档/学习/方法论/如何快速找到ob中的笔记.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/北海鳍.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/北冥石.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/神行1-神行.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/流派/日月1-两极（一刀流）.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/PotionsIndex.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/挚爱之心.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/护心镜.md",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/永恒契文.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/Potion_FireStone.md.nssyncsc",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黑火药.png",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黄纸.png",
@@ -237,8 +239,6 @@
     "4.归档/生活/游戏/【WarmSnow】暖雪/武器",
     "4.归档/生活/游戏/【WarmSnow】暖雪/Potions",
     "4.归档/生活/游戏/【WarmSnow】暖雪/武器/Texture2D_Sword",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/Img/Texture2D_Potion",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/Img",
-    "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据"
+    "4.归档/生活/游戏/【WarmSnow】暖雪/Img/Texture2D_Potion"
   ]
 }

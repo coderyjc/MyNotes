@@ -1,44 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-02-27",
-      "path": "2.等待处理/Diary/2024-02-27.md"
+      "basename": "概述",
+      "path": "5.专题研究/数据库原理/概述.md"
     },
     {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
+      "basename": "深度学习入门：基于Python的理论与实现",
+      "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
     },
     {
-      "basename": "2024-02-06",
-      "path": "2.等待处理/Diary/2024-02/2024-02-06.md"
+      "basename": "readme",
+      "path": "0.plugin/pdf/readme.md"
     },
     {
-      "basename": "2024-02-20",
-      "path": "2.等待处理/Diary/2024-02/2024-02-20.md"
+      "basename": "人工智能导论",
+      "path": "5.专题研究/人工智能导论/人工智能导论.md"
     },
     {
-      "basename": "电子书搜索",
-      "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
-    },
-    {
-      "basename": "搭配",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/搭配.md"
-    },
-    {
-      "basename": "索引",
-      "path": "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/索引.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "warehouse",
-      "path": "1.收集箱/dashboard/warehouse.md"
-    },
-    {
-      "basename": "tag-summary",
-      "path": "1.收集箱/dashboard/tag-summary.md"
+      "basename": "计算机视觉导论",
+      "path": "5.专题研究/人工智能导论/计算机视觉导论.md"
     }
   ],
   "omittedPaths": [],
