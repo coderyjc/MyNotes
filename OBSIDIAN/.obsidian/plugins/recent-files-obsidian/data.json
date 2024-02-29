@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-02-29",
+      "path": "2.等待处理/Diary/2024-02-29.md"
+    },
+    {
+      "basename": "C语言-函数",
+      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-函数.md"
+    },
+    {
       "basename": "C语言-数组和字符串",
       "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md"
+    },
+    {
+      "basename": "index",
+      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/index.md"
     },
     {
       "basename": "C语言-程序流程结构",
@@ -25,20 +37,8 @@
       "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-概述.md"
     },
     {
-      "basename": "index",
-      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/index.md"
-    },
-    {
       "basename": "index-tasks",
       "path": "2.等待处理/Tasks/index-tasks.md"
-    },
-    {
-      "basename": "2024-02-29",
-      "path": "2.等待处理/Diary/2024-02-29.md"
-    },
-    {
-      "basename": "2024-02-28",
-      "path": "2.等待处理/Diary/2024-02-28.md"
     }
   ],
   "omittedPaths": [],

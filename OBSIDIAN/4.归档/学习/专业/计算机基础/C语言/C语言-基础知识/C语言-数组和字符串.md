@@ -503,9 +503,9 @@ char *gets(char *s);
 
 ```c
 char str[100];
-	printf("请输入str: ");
-	gets(str);
-	printf("str = %s\n", str);
+printf("请输入str: ");
+gets(str);
+printf("str = %s\n", str);
 ```
 
 **2. fgets()**
@@ -525,7 +525,6 @@ char *fgets(char *s, int size, FILE *stream);
 > 	读到文件尾或出错： NULL
 >
 > 
-
 >  `fgets()`在读取一个用户通过键盘输入的字符串的时候，同时把用户输入的回车也做为字符串的一部分。通过`scanf`和`gets`输入一个字符串的时候，不包含结尾的“`\n`”，但通过`fgets`结尾多了“`\n`”。`fgets()`函数是安全的，不存在缓冲区溢出的问题
 
 ```c
