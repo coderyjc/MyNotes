@@ -5,6 +5,18 @@
       "path": "2.等待处理/Diary/2024-02-28.md"
     },
     {
+      "basename": "2024-02-27",
+      "path": "2.等待处理/Diary/2024-02-27.md"
+    },
+    {
+      "basename": "MySQL-查询",
+      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-查询.md"
+    },
+    {
+      "basename": "MySQL-表的创建",
+      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-表的创建.md"
+    },
+    {
       "basename": "数据库系统结构",
       "path": "5.专题研究/数据库原理/数据库系统结构.md"
     },
@@ -27,18 +39,6 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "数据库概述",
-      "path": "5.专题研究/数据库原理/数据库概述.md"
-    },
-    {
-      "basename": "index",
-      "path": "5.专题研究/AAAMLP/index.md"
-    },
-    {
-      "basename": "处理分类变量",
-      "path": "5.专题研究/AAAMLP/处理分类变量.md"
     }
   ],
   "omittedPaths": [],

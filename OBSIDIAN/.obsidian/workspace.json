@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f32327dd8ada64cf",
+        "id": "6e5446a6944ed465",
         "type": "tabs",
         "children": [
           {
-            "id": "d7691d99f1ad87b0",
+            "id": "9873a65bdf2ca246",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,13 +192,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d7691d99f1ad87b0",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-02-27.md",
+    "2.等待处理/Diary/2024-02-28.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-查询.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-表的创建.md",
     "5.专题研究/数据库原理/_划考试重点.md",
     "5.专题研究/数据库原理/数据库系统结构.md",
     "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
     "5.专题研究/AAAMLP/文本分类或回归方法.md",
-    "2.等待处理/Diary/2024-02-28.md",
     "2.等待处理/Tasks/index-tasks.md",
     "HOME.md",
     "5.专题研究/数据库原理/assets/Pasted image 20240228163644.png",
@@ -229,9 +232,6 @@
     "5.专题研究/数据库原理/基础篇",
     "0.plugin/pdf/readme.md",
     "5.专题研究/数据库原理",
-    "5.专题研究/人工智能导论/人工智能导论.md",
-    "5.专题研究/人工智能导论/计算机视觉导论.md",
-    "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/Potion_FireStone.md.nssyncsc",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黑火药.png",
     "4.归档/生活/游戏/【WarmSnow】暖雪/圣物/圣物数据/assets/黄纸.png",
