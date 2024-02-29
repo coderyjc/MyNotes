@@ -16,6 +16,8 @@ https://www.zhihu.com/question/292293671/answer/2829349894
 
 同学们在写论文的时候发现了哪些神仙级网站？ - 投必得论文编译的回答 - 知乎 https://www.zhihu.com/question/361477416/answer/1771109544
 
+深度学习调参有哪些技巧？ - 时间旅客的回答 - 知乎 https://www.zhihu.com/question/25097993/answer/3410497378
+
 AI导论
 Linux
 大数据技术应用
