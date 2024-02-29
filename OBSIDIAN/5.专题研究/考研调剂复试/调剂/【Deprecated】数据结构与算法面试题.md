@@ -165,7 +165,7 @@ Hard
 
 <span style="background:#fff88f">Medium</span>
 
-- [ ] 介绍一下[[../../../../../../5.专题研究/Algorithm/算法专栏/KMP算法|KMP算法]]
+- [ ] 介绍一下[[../../../4.归档/学习/专业/算法/算法专栏/KMP算法|KMP算法]]
 	- [ ] 扩展：next数组的含义
 	- [ ] 扩展：nextval数组的含义
 
