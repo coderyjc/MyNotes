@@ -20,7 +20,7 @@ https://www.zhihu.com/question/292293671/answer/2829349894
 
 AI导论
 Linux
-大数据技术应用
+大数据技术与应用
 云计算
 
 数字逻辑

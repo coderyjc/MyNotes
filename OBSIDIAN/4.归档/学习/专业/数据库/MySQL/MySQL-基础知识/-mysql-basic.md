@@ -2,9 +2,9 @@
 
 [[MySQL-准备工作]]
 
-[[MySQL-查询]]
-
 [[MySQL-表的创建]]
+
+[[MySQL-查询]]
 
 [[MySQL-约束(Constraint)]]
 

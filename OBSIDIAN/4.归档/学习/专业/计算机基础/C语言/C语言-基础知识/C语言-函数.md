@@ -197,7 +197,7 @@ void max(void)
 
 - 尽量保证return语句中表达式的值和函数返回类型是同一类型
 
-- ```c
+```c
   int max() // 函数的返回值为int类型
   {
   	int a = 10;
@@ -207,7 +207,7 @@ void max(void)
 
 - 如果函数返回的类型和return语句中表达式的值不一致，则以函数返回类型为准，即<font color="red">函数返回类型决定返回值的类型</font>。对数值型数据，可以自动进行类型转换
 
-- ```c
+```c
   double max() // 函数的返回值为double类型
   {
   	int a = 10;
@@ -219,7 +219,7 @@ void max(void)
 
 - return语句的另一个作用为中断return所在的执行函数，类似于break中断循环、switch语句一样
 
-- ```c
+```c
   int max()
   {
   	return 1;// 执行到，函数已经被中断，所以下面的return 2无法被执行到
@@ -229,7 +229,7 @@ void max(void)
 
 - 如果函数带返回值，return后面必须跟着一个值，如果函数没有返回值，函数名字的前面必须写一个`void`关键字，这时候，我们写代码时也可以通过return中断函数(也可以不用)，只是这时，`return`后面不带内容( 分号“`;`”除外)
 
-- ```c
+```c
   void max()// 最好要有void关键字
   {
   	return; // 中断函数，这个可有可无

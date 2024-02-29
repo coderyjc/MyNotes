@@ -53,5 +53,6 @@
   "editor:insert-link": [],
   "editor:follow-link": [],
   "workspace:close-window": [],
-  "graph:open": []
+  "graph:open": [],
+  "editor:save-file": []
 }
