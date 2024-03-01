@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "index-tasks",
-      "path": "2.等待处理/Tasks/index-tasks.md"
-    },
-    {
       "basename": "2024-03-01",
       "path": "2.等待处理/Diary/2024-03-01.md"
     },
     {
-      "basename": "_Content",
-      "path": "5.专题研究/数据库原理/_Content.md"
+      "basename": "计算机相关面试问题",
+      "path": "5.专题研究/考研调剂复试/专业相关面试问题/计算机相关面试问题.md"
     },
     {
-      "basename": "数据库设计三范式",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/数据库设计三范式.md"
+      "basename": "项目经历",
+      "path": "5.专题研究/考研调剂复试/专业相关面试问题/项目经历.md"
     },
     {
-      "basename": "-mysql-basic",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/-mysql-basic.md"
+      "basename": "专业相关问题",
+      "path": "5.专题研究/考研调剂复试/专业相关面试问题/专业相关问题.md"
     },
     {
-      "basename": "MySQL-视图(view)",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-视图(view).md"
+      "basename": "一些“较大”的问题",
+      "path": "5.专题研究/考研调剂复试/专业相关面试问题/一些“较大”的问题.md"
     },
     {
-      "basename": "MySQL-索引",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-索引.md"
+      "basename": "index-tasks",
+      "path": "2.等待处理/Tasks/index-tasks.md"
     },
     {
-      "basename": "MySQL-事务(Transaction)",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-事务(Transaction).md"
+      "basename": "C语言-题目",
+      "path": "5.专题研究/考研调剂复试/笔试/C语言-题目.md"
     },
     {
-      "basename": "MySQL-约束(Constraint)",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-约束(Constraint).md"
+      "basename": "index",
+      "path": "5.专题研究/考研调剂复试/index.md"
     },
     {
-      "basename": "MySQL-查询",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-查询.md"
+      "basename": "如何选择导师",
+      "path": "5.专题研究/考研调剂复试/如何选择导师.md"
+    },
+    {
+      "basename": "面试问题总结【英文】",
+      "path": "5.专题研究/考研调剂复试/面试问题总结【英文】.md"
     }
   ],
   "omittedPaths": [],

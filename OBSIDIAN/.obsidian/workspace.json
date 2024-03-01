@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Tasks/index-tasks.md",
+                "file": "2.等待处理/Diary/2024-03-01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Tasks/index-tasks.md"
+                "file": "2.等待处理/Diary/2024-03-01.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Tasks/index-tasks.md",
+                "file": "2.等待处理/Diary/2024-03-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Tasks/index-tasks.md"
+                "file": "2.等待处理/Diary/2024-03-01.md"
               }
             }
           },
@@ -164,8 +164,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,8 +185,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7b6ef23b3cfe1f58",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/考研调剂复试/专业相关面试问题/计算机相关面试问题.md",
+    "5.专题研究/考研调剂复试/专业相关面试问题/项目经历.md",
+    "5.专题研究/考研调剂复试/专业相关面试问题/专业相关问题.md",
+    "5.专题研究/考研调剂复试/专业相关面试问题/一些“较大”的问题.md",
+    "2.等待处理/Tasks/index-tasks.md",
+    "5.专题研究/考研调剂复试/专业相关面试问题",
+    "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
+    "5.专题研究/考研调剂复试/index.md",
+    "5.专题研究/考研调剂复试/如何选择导师.md",
+    "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
+    "5.专题研究/考研调剂复试/面试问题总结【中文】.md",
     "2.等待处理/Diary/2024-03-01.md",
     "5.专题研究/数据库原理/_Content.md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/数据库设计三范式.md",
@@ -207,16 +217,6 @@
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
     "0.plugin/pdf/readme.md",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf",
-    "5.专题研究/数据库原理/数据库系统结构.md",
-    "5.专题研究/数据库原理/数据库概述.md",
-    "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
-    "3.将来可能/读研攻略/index.md",
-    "3.将来可能/读研攻略/论文分区.md",
-    "3.将来可能/leetcode/LeetCode-Hot-100.md",
-    "5.专题研究/人工智能导论/人工智能导论.md",
-    "5.专题研究/人工智能导论/计算机视觉导论.md",
-    "HOME.md",
-    "4.归档/学习/专业/算法/算法专栏/关键路径算法.md",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476859772.jpg",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476855287.jpg",
@@ -232,7 +232,6 @@
     "4.归档/学习/专业/计算机基础/C语言",
     "5.专题研究/数据库原理/未命名",
     "5.专题研究/数据库原理/assets",
-    "5.专题研究/数据库原理/基础篇",
-    "5.专题研究/数据库原理"
+    "5.专题研究/数据库原理/基础篇"
   ]
 }
