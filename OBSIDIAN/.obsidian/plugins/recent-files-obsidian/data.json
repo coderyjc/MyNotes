@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-03-01",
+      "path": "2.等待处理/Diary/2024-03-01.md"
+    },
+    {
+      "basename": "2024-02-29",
+      "path": "2.等待处理/Diary/2024-02-29.md"
+    },
+    {
       "basename": "深度学习入门：基于Python的理论与实现",
       "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
+    },
+    {
+      "basename": "readme",
+      "path": "0.plugin/pdf/readme.md"
+    },
+    {
+      "basename": "深度学习入门：基于Python的理论与实现",
+      "path": "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf"
     },
     {
       "basename": "_Content",
@@ -19,26 +35,6 @@
     {
       "basename": "数据库概述",
       "path": "5.专题研究/数据库原理/数据库概述.md"
-    },
-    {
-      "basename": "如何有效读论文-吴恩达",
-      "path": "3.将来可能/读研攻略/如何有效读论文-吴恩达.md"
-    },
-    {
-      "basename": "index",
-      "path": "3.将来可能/读研攻略/index.md"
-    },
-    {
-      "basename": "论文分区",
-      "path": "3.将来可能/读研攻略/论文分区.md"
-    },
-    {
-      "basename": "LeetCode-Hot-100",
-      "path": "3.将来可能/leetcode/LeetCode-Hot-100.md"
-    },
-    {
-      "basename": "人工智能导论",
-      "path": "5.专题研究/人工智能导论/人工智能导论.md"
     }
   ],
   "omittedPaths": [],
