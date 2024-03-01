@@ -19,7 +19,6 @@ var tag_total = dv.pages().file.etags.distinct().length
 // 任务总数
 var task_total = dv.pages().file.tasks.length
 
-
 var i = [dv.pages().length,
 		 dv.pages(`"4.归档"`).length,
 		 dv.pages(`"5.专题研究"`).length,

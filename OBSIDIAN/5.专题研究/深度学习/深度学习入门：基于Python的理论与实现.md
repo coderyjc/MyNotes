@@ -184,3 +184,73 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^y2z8voxn0t
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-01T14:07:46.434Z","updated":"2024-03-01T14:07:46.434Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":45124,"end":45157},{"type":"TextQuoteSelector","exact":"sigmoid函数可以返回0.731...、0.880...等实数","prefix":"3章 神经网络48另一个不同点是，相对于阶跃函数只能返回0或1，","suffix":"（这一点和刚才的平滑性有关）。也就是说，感知机中神经元之间流动的"}]}]}
+>```
+>%%
+>*%%PREFIX%%3章 神经网络48另一个不同点是，相对于阶跃函数只能返回0或1，%%HIGHLIGHT%% ==sigmoid函数可以返回0.731...、0.880...等实数== %%POSTFIX%%（这一点和刚才的平滑性有关）。也就是说，感知机中神经元之间流动的*
+>%%LINK%%[[#^7jtfphsaivd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^7jtfphsaivd
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-01T14:07:54.700Z","updated":"2024-03-01T14:07:54.700Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":45177,"end":45218},{"type":"TextQuoteSelector","exact":"感知机中神经元之间流动的是0或1的二元信号，而神经网络中流动的是连续的实数值信号。","prefix":"、0.880...等实数（这一点和刚才的平滑性有关）。也就是说，","suffix":"如果把这两个函数与水联系起来，则阶跃函数可以比作“竹筒敲石”A，"}]}]}
+>```
+>%%
+>*%%PREFIX%%、0.880...等实数（这一点和刚才的平滑性有关）。也就是说，%%HIGHLIGHT%% ==感知机中神经元之间流动的是0或1的二元信号，而神经网络中流动的是连续的实数值信号。== %%POSTFIX%%如果把这两个函数与水联系起来，则阶跃函数可以比作“竹筒敲石”A，*
+>%%LINK%%[[#^hh6tqnkhiv9|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^hh6tqnkhiv9
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-01T14:09:19.170Z","updated":"2024-03-01T14:09:19.170Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":45426,"end":45460},{"type":"TextQuoteSelector","exact":"“输入小时，输出接近0（为0）；随着输入增大，输出向1靠近（变成1）","prefix":"角看图3-8，可以发现它们具有相似的形状。实际上，两者的结构均是","suffix":"”。也就是说，当输入信号为重要信息时，阶跃函数和sigmoid函"}]}]}
+>```
+>%%
+>*%%PREFIX%%角看图3-8，可以发现它们具有相似的形状。实际上，两者的结构均是%%HIGHLIGHT%% ==“输入小时，输出接近0（为0）；随着输入增大，输出向1靠近（变成1）== %%POSTFIX%%”。也就是说，当输入信号为重要信息时，阶跃函数和sigmoid函*
+>%%LINK%%[[#^djgnkjf28b7|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^djgnkjf28b7
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-01T14:12:59.400Z","updated":"2024-03-01T14:12:59.400Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":46199,"end":46252},{"type":"TextQuoteSelector","exact":"使用线性函数时，无法发挥多层网络带来的优势。因此，为了发挥叠加层所带来的优势，激活函数必须使用非线性函数。","prefix":"3）这一次乘法运算（即没有隐藏层的神经网络）来表示。如本例所示，","suffix":"3.2.7 ReLU函数到目前为止，我们介绍了作为激活函数的阶跃"}]}]}
+>```
+>%%
+>*%%PREFIX%%3）这一次乘法运算（即没有隐藏层的神经网络）来表示。如本例所示，%%HIGHLIGHT%% ==使用线性函数时，无法发挥多层网络带来的优势。因此，为了发挥叠加层所带来的优势，激活函数必须使用非线性函数。== %%POSTFIX%%3.2.7 ReLU函数到目前为止，我们介绍了作为激活函数的阶跃*
+>%%LINK%%[[#^dxgoavpt1a|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^dxgoavpt1a
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-01T14:13:54.579Z","updated":"2024-03-01T14:13:54.579Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":46366,"end":46400},{"type":"TextQuoteSelector","exact":"ReLU函数在输入大于0时，直接输出该值；在输入小于等于0时，输出0","prefix":"使用ReLU（Rectified Linear Unit）函数。","suffix":"（图3-9）。ReLU函数可以表示为下面的式(3.7)。 （3."}]}]}
+>```
+>%%
+>*%%PREFIX%%使用ReLU（Rectified Linear Unit）函数。%%HIGHLIGHT%% ==ReLU函数在输入大于0时，直接输出该值；在输入小于等于0时，输出0== %%POSTFIX%%（图3-9）。ReLU函数可以表示为下面的式(3.7)。 （3.*
+>%%LINK%%[[#^mc005i699b|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^mc005i699b
