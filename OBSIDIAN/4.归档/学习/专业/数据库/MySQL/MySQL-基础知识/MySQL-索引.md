@@ -14,7 +14,8 @@
 
 - 添加索引是给某一个字段，或者说某些字段添加索引。
 
-select ename,sal from emp where ename = 'SMITH';
+`select ename,sal from emp where ename = 'SMITH';`
+
 当ename字段没有添加索引的时候，以上sql语句会进行全表扫描，扫描ename字段中所有的值。
 当ename字段添加索引的时候，以上sql语句会根据索引扫描，快速定位。
 
@@ -33,12 +34,14 @@ select ename,sal from emp where ename = 'SMITH';
 
 
 查看sql语句的执行计划（只有MySQL才有）：
-- explain select ename,sal from emp where sal = 5000;
+
+`explain select ename,sal from emp where sal = 5000;`
 
 给薪资sal字段添加索引：
-- create index empindex on emp(sal);
 
-mysql> explain select ename,sal from emp where sal = 5000;
+`create index empindex on emp(sal);`
+
+`mysql> explain select ename,sal from emp where sal = 5000;`
 
 rows检索次数减少了
 
@@ -48,9 +51,11 @@ rows检索次数减少了
 
 - 通过B Tree缩小扫描范围，底层索引进行了排序，分区，索引会携带数据在表中的"物理地址"，最终通过索引检索到数据之后，获取到关联的物理地址，通过物理索引检索到数据之后，获取到关联的物理地址，通过物理地址定位表中的数据，效率是最高的。
 
-select ename from emp where ename = 'SMITH';
+`select ename from emp where ename = 'SMITH';`
+
 通过索引转换为：
-select ename from emp where  物理地址 = 0x123;
+
+`select ename from emp where  物理地址 = 0x123;`
 
 索引的分类？
 

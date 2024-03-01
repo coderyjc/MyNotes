@@ -100,6 +100,7 @@ create table t_user(
 ```
 
 mysql提供主键值自增(非常重要。)
+
 ```sql
     drop table if exists t_user;
     create table t_user(
@@ -148,5 +149,4 @@ create table t_student(
     );
 
 tstudent中的classno字段引用tclass表中的cno字段，此时tstudent表叫做子表。tclass表叫做父表。
-
 ```

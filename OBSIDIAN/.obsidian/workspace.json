@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d9f69b9e53804673",
+        "id": "ae938b041677e7ae",
         "type": "tabs",
         "children": [
           {
-            "id": "84a43ef3c4457d16",
+            "id": "7b6ef23b3cfe1f58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-01.md",
+                "file": "2.等待处理/Tasks/index-tasks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-01.md"
+                "file": "2.等待处理/Tasks/index-tasks.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-01.md",
+                "file": "2.等待处理/Tasks/index-tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-01.md"
+                "file": "2.等待处理/Tasks/index-tasks.md"
               }
             }
           },
@@ -164,12 +164,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,18 +186,27 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "7b6ef23b3cfe1f58",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-02-29.md",
     "2.等待处理/Diary/2024-03-01.md",
-    "0.plugin/pdf/深度学习入门：基于Python的理论与实现 1.pdf",
+    "5.专题研究/数据库原理/_Content.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/数据库设计三范式.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/-mysql-basic.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-视图(view).md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-索引.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-事务(Transaction).md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-约束(Constraint).md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-查询.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-表的创建.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-准备工作.md",
     "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/-mysql-advanced.md",
+    "2.等待处理/Diary/2024-02-29.md",
+    "0.plugin/pdf/深度学习入门：基于Python的理论与实现 1.pdf",
     "5.专题研究/深度学习/resnet.md",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
     "0.plugin/pdf/readme.md",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf",
-    "5.专题研究/数据库原理/_Content.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-表的创建.md",
     "5.专题研究/数据库原理/数据库系统结构.md",
     "5.专题研究/数据库原理/数据库概述.md",
     "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
@@ -208,15 +217,6 @@
     "5.专题研究/人工智能导论/计算机视觉导论.md",
     "HOME.md",
     "4.归档/学习/专业/算法/算法专栏/关键路径算法.md",
-    "4.归档/学习/专业/算法/算法专栏/哈夫曼树生成算法.md",
-    "4.归档/学习/专业/算法/算法专栏/冒泡排序.md",
-    "4.归档/学习/专业/算法/算法专栏/希尔排序.md",
-    "4.归档/学习/专业/算法/算法专栏/折半插入排序.md",
-    "4.归档/学习/专业/算法/算法专栏/Kruskal算法.md",
-    "4.归档/学习/专业/算法/算法专栏/Prim算法.md",
-    "4.归档/学习/专业/算法/算法专栏/KMP算法.md",
-    "4.归档/学习/专业/算法/算法专栏/快速排序.md",
-    "4.归档/学习/专业/算法/算法专栏/拓扑排序.md",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476859772.jpg",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476855287.jpg",
@@ -233,3 +233,6 @@
     "5.专题研究/数据库原理/未命名",
     "5.专题研究/数据库原理/assets",
     "5.专题研究/数据库原理/基础篇",
+    "5.专题研究/数据库原理"
+  ]
+}

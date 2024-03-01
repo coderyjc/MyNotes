@@ -4,7 +4,7 @@
 
 语法格式：
 
-select 字段名1，字段名2，字段名3，....from 表名；
+`select 字段名1，字段名2，字段名3，....from 表名；`
 
 提示：
 
@@ -17,119 +17,171 @@ distinct关键字如果出现在所有字段的最前方，则去除所有记录
 
 查找所有工作：
 
--  select distinct job from emp;
+```sql
+select distinct job from emp;
+```
 
 统计岗位的数量
 
--  select count(distinct job) from emp;
+```sql
+select count(distinct job) from emp;
+```
 
 查询员工的年薪？
 
-- select ename，sal*12 from emp；
+```sql
+select ename，sal*12 from emp；
+```
 
 说明: 字段可以参与数学运算
 
 给查询结果的列重命名：
 
-- select ename, sal*12 as yearsal from emp;
-- select ename, sal*12 yearsal from emp;
+```sql
+select ename, sal*12 as yearsal from emp;
+select ename, sal*12 yearsal from emp;
+```
 
-如果用中文的话，应该用单引号括起来 select ename, sal*12 as '年薪' from emp;
+如果用中文的话，应该用单引号括起来 `select ename, sal*12 as '年薪' from emp;`
 
 （mysql支持双引号，但是最好别用，因为标准的sql语句是单引号的）
 
-
-查询所有字段：select * from emp； 平时可以用，实际开发中不能用（效率低）！
+查询所有字段：`select * from emp；` 平时可以用，实际开发中不能用（效率低）！
 
 ### 条件查询
 
 语法格式：
 
-- select 字段，字段... from 表名 where 条件;
+```sql
+select 字段，字段... from 表名 where 条件;
+```
 
 查询工资等于5000的员工姓名：
 
-- select ename from emp where **sal = 5000**；
+```sql
+select ename from emp where **sal = 5000**；
+```
 
 查询史密斯的工资：
 
--  select sal from emp where **ename = 'smith'；**
+```sql
+select sal from emp where **ename = 'smith'；**
+```
 
 查询工资不等于3000员工：
 
-- select ename,sal from emp where sal **<>** 3000;
-- select ename,sal from emp where sal **!>** 3000;
+```sql
+select ename,sal from emp where sal **<>** 3000;
+
+select ename,sal from emp where sal **!>** 3000;
+```
 
 查询工资1000 - 3000之内的员工：
 
-- select ename,sal from emp where sal **between** 1000 **and** 3000;
-- select ename,sal from emp where sal >= 1000 and sal <= 3000;
+```sql
+select ename,sal from emp where sal **between** 1000 **and** 3000;
+
+select ename,sal from emp where sal >= 1000 and sal <= 3000;
+```
 
 - between and 使用的时候必须左小右大，否则会 empty set
-- 还可以使用在字符方面 select ename,sal from emp where ename between 'A' and 'B'; 左闭右开
+- 还可以使用在字符方面` select ename,sal from emp where ename between 'A' and 'B'; `左闭右开
 
 找出哪些人没有工资？
 
 - 在数据库中NULL不是一个值，代表什么都没有，为空，空是一个值，不能用等号衡量，必须使用is null 或者 is not null
 
--  select ename,sal from emp where sal is null;
-- select ename,sal from emp where sal = null;
-- 有工资：select ename,sal from emp where sal is not null;
+```sql
+select ename,sal from emp where sal is null;
+
+select ename,sal from emp where sal = null;
+```
+
+- 有工资：`select ename,sal from emp where sal is not null;`
 
 找出工作岗位是salesman或manager的员工：
 
-- select ename,job from emp where job = 'manager' or job = 'salesman';
+```sql
+select ename,job from emp where job = 'manager' or job = 'salesman';
+```
 
 and和or联合起来用：找出薪资大于1000的并且部门编号是20或30部门的员工。
 
 - 优先级：and > or
 - 优先级不确定的时候加上小括号
--  select ename,sal from emp where sal > 3000 and （deptno = 20 or deptno = 30）;
+
+```sql
+select ename,sal from emp where sal > 3000 and （deptno = 20 or deptno = 30）;
+```
+
 
 in等同于or，查询工作岗位是manager和salesman 的员工：
 
-- select ename,job from emp where job = 'salesman' or job = 'manager';
-- select ename, job from emp where job in('salesman', 'manager');
+```sql
+select ename,job from emp where job = 'salesman' or job = 'manager';
+
+select ename, job from emp where job in('salesman', 'manager');
+```
+
 - 注意：括号中的**不是区间**，而是具体的值
 
 not in，不等于in中的值的，查询工资不是1000和5000的员工
 
--  select ename,sal from emp where sal not in(1000,5000)；
+```sql
+select ename,sal from emp where sal not in(1000,5000)；
+```
 
 找出名字中含有A的（掌握两个符号：%：表示任意多个字符  __：表示任意一个字符）
 
-- select ename from emp where ename like '%A%';
+```sql
+select ename from emp where ename like '%A%';
+```
 
 找出名字第二个字母是A的：
 
-- select ename from emp where ename like '_A%';
+```sql
+select ename from emp where ename like '_A%';
+```
 
 找出名字中有下划线的（转义字符）：
 
-- select ename from emp where ename like '%\ _%';
+```sql
+select ename from emp where ename like '%\ _%';
+```
 
 ### 排序
 
 按照工资升序找出名字和薪资(order by)：
 
-- select ename,sal from emp order by sal;
+```sql
+select ename,sal from emp order by sal;
+```
+
 - 默认升序-asc 升序；desc-降序
 
 按照工资降序排列：
 
--  select ename,sal from emp order by sal desc;
+```sql
+select ename,sal from emp order by sal desc;
+```
 
 按照工资降序，工资相同按照名字升序排列（多个字段排序，靠前的主导性大，前面相等才用到后面的）
 
-- select ename,sal from emp order by sal desc, ename asc;
+```sql
+select ename,sal from emp order by sal desc, ename asc;
+```
 
 按照第一列排序（不建议这样， 不健壮）：
 
-- select ename,sal from emp order by 1;（等于按照ename排序）
+```sql
+select ename,sal from emp order by 1;（等于按照ename排序）
+```
 
 找出工作岗位是salesman的员工并且按照工资降序排列
 
-- select ename,sal,job from emp where job='salesman' order by sal desc;
+```sql
+select ename,sal,job from emp where job='salesman' order by sal desc;
+```
 
 - 执行顺序： table name -> condition -> select -> order by
 
@@ -140,13 +192,9 @@ not in，不等于in中的值的，查询工资不是1000和5000的员工
 分组函数（对一组数据进行操作），有且仅有5个：
 
 - count 计数
-
 - sum 求和
-
 - avg 求平均
-
 - max 最大值
-
 - min 最小值
 
 属于多行处理函数：输入多行，最终得到一个结果
@@ -155,32 +203,38 @@ not in，不等于in中的值的，查询工资不是1000和5000的员工
 
 注意：分组函数自动忽略null，不用添加isnull函数
 
-
-
 找出工资总和
 
-- select sum(sal) from emp;
+```sql
+select sum(sal) from emp;
+```
 
 找出总人数
 
-- select count(*) from emp;
-- count(*) 不是统计某个字段中数据的个数，而是统计总记录条数，与某个字段无关
-- count(comm) 统计comm字段中不对null的数据总量
+```sql
+select count(*) from emp;
+
+count(*) 不是统计某个字段中数据的个数，而是统计总记录条数，与某个字段无关
+
+count(comm) 统计comm字段中不对null的数据总量
+```
 
 计算每个员工的年薪（考虑到有null的情况）
 
 - ifnull()空处理函数（单行处理函数）
 
-- select ename,(sal+ifnull(comm,0))*12 as yearsal from emp;
+```sql
+select ename,(sal+ifnull(comm,0))*12 as yearsal from emp;
+```
 
 找出工资高于平均工资的员工
 
 - SQL语句规则：分组函数不能直接使用在where子句中
 - 理解：group by 在where 后面执行，执行where的时候还没有“组”呢，而分组函数的执行首先要有“组”
-- select ename,sal from emp where sal > (select avg(sal) from emp);
 
-
-
+```sql
+select ename,sal from emp where sal > (select avg(sal) from emp);
+```
 
 ### 分组查询
 
@@ -190,16 +244,15 @@ group by：按照某个字段或者某些字段进行分组
 
 having : having是对分组之后的数据进行再次过滤。
 
-
-
 案例：找出每个工作岗位的最高薪资。
-- select max（sal）from emp group by job；
+
+```sql
+select max（sal）from emp group by job；
+```
 
 注意：<u>当一条sql语句中有group by 的话，select字段中只能有分组函数和分组字段。</u>
 
  ~~select ename,job,max(sal) from emp group by job;~~这句话在Oracle中报错（因为语法比较严谨），但是在mysql中能执行，但是**毫无意义**！因为ename是随机选中的。
-
-
 
 注意：
 
@@ -209,39 +262,41 @@ having : having是对分组之后的数据进行再次过滤。
 
 - 当一条sql语句没有group by的话，整张表的数据会自成一组。
 
-
-
 找出每个岗位的平均工资
 
--  select job,avg(sal) from emp group by job;
+```sql
+select job,avg(sal) from emp group by job;
+```
 
 找出每个部门不同工作岗位的最高薪资
 
--  select deptno,job,max(sal) from emp group by job,deptno order by deptno;
+```sql
+select deptno,job,max(sal) from emp group by job,deptno order by deptno;
+```
 
 #### having
 
 建议：能用where的用where，不能就用having
 
-
-
 找出每个部门的最高薪资，要求显示薪资大于2900的数据
 
-- select deptno,max(sal) from emp group by deptno having max(sal) > 2900;
+```sql
+select deptno,max(sal) from emp group by deptno having max(sal) > 2900;
+```
+
 - 这种方式效率低，因为是都找出来之后，筛选大于2900的，不如在开始的时候就不对小于2900的进行筛选
-- 即：select deptno,max(sal) from emp where sal > 2900 group by deptno;
+- 即：`select deptno,max(sal) from emp where sal > 2900 group by deptno;`
 - 能用where最好用where，不能的话用having
 
 找出每个部门的平均薪资，要求显示薪资大于2000的数据
 
 - 此时不能用where了就，因为是对分组函数的结果进行选择
--  select deptno,avg(sal) from emp group by deptno having avg(sal) > 2000;
 
-
+```sql
+select deptno,avg(sal) from emp group by deptno having avg(sal) > 2000;
+```
 
 **一个完整的DQL语句：select...from...where...group by...having...order by...**
-
-
 
 ### 连接查询
 
@@ -266,7 +321,9 @@ having : having是对分组之后的数据进行再次过滤。
 
 关于表的别名：
 
+```sql
 select e.ename,d.dname from emp e,dept d;
+```
 
 表的别名有什么好处？
 
@@ -275,13 +332,13 @@ select e.ename,d.dname from emp e,dept d;
 
 注意：以后写sql语句的时候都要开始起别名了
 
-
-
 笛卡尔积现象
 
 案例：找出每一个员工的部门名称，要求显示员工名和部门名。
 
-- select ename,dname from emp,dept;
+```sql
+select ename,dname from emp,dept;
+```
 
 笛卡尔积现象：当两张表进行连接查询的时候，没有任何条件进行限制，最终的查询结果条数是两张表记录条数的
 
@@ -293,9 +350,9 @@ select e.ename,d.dname from emp e,dept d;
 
 案例：找出每一个员工的部门名称，要求显示员工名和部门名。
 
-- select e.ename,d.dname from emp e , dept d  where e.deptno = d.deptno; //SQL92，以后不用这样写
-
-
+```sql
+select e.ename,d.dname from emp e , dept d  where e.deptno = d.deptno;
+```
 
 #### 内连接之等值连接
 
@@ -511,17 +568,21 @@ where e.deptno is null;
 
 子查询可以出现在哪里？
 
+```sql
 select
     ..(select).
 from
     ..(select).
 where
     ..(select).
+```
 
 
 案例：找出高于平均薪资的员工信息。
 
-- select * from emp where sal > (select avg(sal) from emp);
+```sql
+select * from emp where sal > (select avg(sal) from emp);
+```
 
 案例：找出每个部门平均薪水的等级。
 
@@ -595,17 +656,19 @@ union（可以将查询结果集相加）
 
 案例：找出工作岗位是SALESMAN和MANAGER的员工？
 
-- 第一种：select ename,job from emp where job = 'MANAGER' or job = 'SALESMAN';
+- 第一种：`select ename,job from emp where job = 'MANAGER' or job = 'SALESMAN';`
 
-- 第二种：select ename,job from emp where job in('MANAGER','SALESMAN');
+- 第二种：`select ename,job from emp where job in('MANAGER','SALESMAN');`
 
-- 第三种：union
+- 第三种：`union`
 
 - 只要确定了两张表的查询结果一定不重复，就用UNION ALL， 因为查询效率高
 
+```sql
 select ename,job from emp where job = 'MANAGER'
 union
 select ename,job from emp where job = 'SALESMAN';
+```
 
 ### limit（MySQL特有）
 
@@ -622,12 +685,16 @@ limit取结果集中的部分数据，这时它的作用。
 
 案例：取出工资前5名的员工（思路：降序取前5个）
 
-- select ename,sal from emp order by sal desc;
+```sql
+select ename,sal from emp order by sal desc;
+```
 
 取前5个：
 
-- select ename,sal from emp order by sal desc limit 0, 5;
-- select ename,sal from emp order by sal desc limit 5;
+```sql
+select ename,sal from emp order by sal desc limit 0, 5;
+select ename,sal from emp order by sal desc limit 5;
+```
 
 limit是sql语句最后执行的一个环节：
 
@@ -651,7 +718,9 @@ limit是sql语句最后执行的一个环节：
 
 案例：找出工资排名在第4到第9名的员工？
 
-- select ename,sal from emp order by sal desc limit 3,6;
+```sql
+select ename,sal from emp order by sal desc limit 3,6;
+```
 
 通用的标准分页sql？
 

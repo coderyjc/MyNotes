@@ -2,8 +2,8 @@
 
 什么是视图？ 站在不同的角度去看到数据。(同一张表的数据，通过不同的角度去看待)
 
-怎么创建视图？ create view myview as select empno, ename from emp;
-怎么删除视图？ drop view myview;
+怎么创建视图？ `create view myview as select empno, ename from emp;`
+怎么删除视图？ `drop view myview;`
 
 注意：只有DQL语句才能以试图对象的方式创建出来。
 

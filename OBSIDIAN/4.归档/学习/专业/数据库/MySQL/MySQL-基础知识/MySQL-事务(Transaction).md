@@ -61,8 +61,8 @@ mysql事务默认情况下是自动提交的。(什么是自动提交？只要�
 - start transaction : 关闭自动提交机制。
 
 演示两个事务，假如隔离级别：
-- 演示第一级别：读未提交 set global transaction isolation level read uncommitted;
-- 演示第二级别；读已提交 set global transaction isolation level read committed;
-- 演示第三级别:可重复读 set global transaction isolation level repeatable read;
+- 演示第一级别：读未提交 `set global transaction isolation level read uncommitted;`
+- 演示第二级别；读已提交 `set global transaction isolation level read committed;`
+- 演示第三级别:可重复读 `set global transaction isolation level repeatable read;`
 
-mysql远程登录：mysql -h192.168.151.18 -uroot -p444
+mysql远程登录：`mysql -h192.168.151.18 -uroot -p444`
