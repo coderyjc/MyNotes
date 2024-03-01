@@ -8,18 +8,11 @@ week: <% tp.date.now("YYYY-WW") %>
 
 << [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]] | [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]>>
 
-刻意练习
-
-- [ ] R（Read）：读《毛选》
 
 准备复试
+- [ ] 【C语言】课本题目
+- [ ] 整理《数据库系统概论》知识点
 
-- 机试
-	- [ ] 两道OJ题
-- 笔试
-	- [ ] 【C语言】牛客10道题
-	- [ ] 整理《数据库系统概论》做课后题
-- 面试
-	- [ ] 【英语问答】整理英文问答题
-	- [ ] 【专业知识】本科课程知识整理
+IT书籍阅读
+- [ ] 《SQL必知必会》
 

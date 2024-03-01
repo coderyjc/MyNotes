@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "698612588f7d114f",
+        "id": "48a2aebb36d0c39b",
         "type": "tabs",
         "children": [
           {
-            "id": "0c0d2d0c63e4e3ec",
+            "id": "c591f45be355e4a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
+                "file": "2.等待处理/Diary/2024-03-01.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOME.md"
+                "file": "2.等待处理/Diary/2024-03-01.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "2.等待处理/Diary/2024-03-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "2.等待处理/Diary/2024-03-01.md"
               }
             }
           },
@@ -186,14 +186,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0c0d2d0c63e4e3ec",
+  "active": "c591f45be355e4a9",
   "lastOpenFiles": [
-    "2.等待处理/Diary/Archieve/2022/2022-12/2022-12-25.md",
     "HOME.md",
     "2.等待处理/Diary/2024-03-01.md",
-    "2.等待处理/Diary/2024-02/2024-02-29.md",
-    "2.等待处理/Diary/2024-02/2024-02-28.md",
     "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
+    "2.等待处理/Diary/2024-02/2024-02-05.md",
+    "2.等待处理/Diary/2024-02/2024-02-01.md",
+    "2.等待处理/Diary/2024-02/2024-02-29.md",
+    "0.plugin/template/dailynotes.md",
+    "2.等待处理/Diary/Archieve/2022/2022-12/2022-12-25.md",
+    "2.等待处理/Diary/2024-02/2024-02-28.md",
     "5.专题研究/考研调剂复试/专业相关面试问题/计算机相关面试问题.md",
     "5.专题研究/考研调剂复试/专业相关面试问题/项目经历.md",
     "5.专题研究/考研调剂复试/专业相关面试问题/专业相关问题.md",
@@ -212,9 +215,6 @@
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-索引.md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-事务(Transaction).md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-约束(Constraint).md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-查询.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-表的创建.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-准备工作.md",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现 1.pdf",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf",
