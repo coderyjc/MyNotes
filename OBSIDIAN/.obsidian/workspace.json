@@ -11,8 +11,13 @@
             "id": "0e535d2e89646864",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-03-02.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -113,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-03-02.md"
+              }
             }
           },
           {
@@ -122,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.等待处理/Diary/2024-03-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.等待处理/Diary/2024-03-02.md"
+              }
             }
           },
           {
@@ -180,6 +190,7 @@
   },
   "active": "0e535d2e89646864",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-03-02.md",
     "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
     "2.等待处理/Tasks/index-tasks.md",
     "HOME.md",
@@ -206,7 +217,6 @@
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/-mysql-basic.md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-视图(view).md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-索引.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-事务(Transaction).md",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现 1.pdf",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf",
