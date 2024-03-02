@@ -5,6 +5,10 @@
       "path": "2.等待处理/Diary/2024-03-02.md"
     },
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "2024-03-01",
       "path": "2.等待处理/Diary/2024-03-01.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "index-tasks",
       "path": "2.等待处理/Tasks/index-tasks.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     },
     {
       "basename": "delete",
