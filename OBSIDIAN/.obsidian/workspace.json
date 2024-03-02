@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ce0e0ad57287c1e2",
+        "id": "6d7910db0823d7f0",
         "type": "tabs",
         "children": [
           {
-            "id": "0e535d2e89646864",
+            "id": "234fa792626ae2af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945,
-    "collapsed": true
+    "width": 339.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -170,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,17 +186,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0e535d2e89646864",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-03-01.md",
+    "2.等待处理/Diary/2024-02/2024-02-29.md",
     "2.等待处理/Diary/2024-03-02.md",
+    "5.专题研究/考研调剂复试/笔试/C语言-知识点.md",
+    "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
     "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
     "2.等待处理/Tasks/index-tasks.md",
     "HOME.md",
-    "2.等待处理/Diary/2024-03-01.md",
     "2.等待处理/Diary/delete.md",
     "2.等待处理/Diary/2024-02/2024-02-05.md",
     "2.等待处理/Diary/2024-02/2024-02-01.md",
-    "2.等待处理/Diary/2024-02/2024-02-29.md",
     "0.plugin/template/dailynotes.md",
     "2.等待处理/Diary/Archieve/2022/2022-12/2022-12-25.md",
     "2.等待处理/Diary/2024-02/2024-02-28.md",
@@ -207,7 +207,6 @@
     "5.专题研究/考研调剂复试/专业相关面试问题/专业相关问题.md",
     "5.专题研究/考研调剂复试/专业相关面试问题/一些“较大”的问题.md",
     "5.专题研究/考研调剂复试/专业相关面试问题",
-    "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
     "5.专题研究/考研调剂复试/index.md",
     "5.专题研究/考研调剂复试/如何选择导师.md",
     "5.专题研究/考研调剂复试/面试问题总结【英文】.md",
@@ -216,7 +215,6 @@
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/数据库设计三范式.md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/-mysql-basic.md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-视图(view).md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-索引.md",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现 1.pdf",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf",
