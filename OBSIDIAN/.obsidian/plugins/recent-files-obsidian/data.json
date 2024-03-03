@@ -1,44 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
+      "basename": "参考项目",
+      "path": "5.专题研究/CSAPP/参考项目.md"
+    },
+    {
+      "basename": "导论",
+      "path": "5.专题研究/算法/数据结构/导论.md"
+    },
+    {
+      "basename": "并查集",
+      "path": "5.专题研究/算法/数据结构/并查集.md"
+    },
+    {
       "basename": "2024-03-03",
       "path": "2.等待处理/Diary/2024-03-03.md"
     },
     {
-      "basename": "数据库概述",
-      "path": "5.专题研究/数据库原理/数据库概述.md"
+      "basename": "深度学习入门：基于Python的理论与实现",
+      "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
     },
     {
-      "basename": "2024-03-01",
-      "path": "2.等待处理/Diary/2024-03-01.md"
+      "basename": "index-tasks",
+      "path": "2.等待处理/Tasks/index-tasks.md"
     },
     {
       "basename": "2024-03-02",
       "path": "2.等待处理/Diary/2024-03-02.md"
     },
     {
-      "basename": "其他题",
-      "path": "5.专题研究/考研调剂复试/笔试/编程题/其他题.md"
-    },
-    {
-      "basename": "pi值计算",
-      "path": "5.专题研究/考研调剂复试/笔试/编程题/pi值计算.md"
-    },
-    {
-      "basename": "C语言-题目",
-      "path": "5.专题研究/考研调剂复试/笔试/C语言-题目.md"
-    },
-    {
-      "basename": "C语言-内存管理",
-      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-内存管理.md"
-    },
-    {
-      "basename": "查找算法",
-      "path": "4.归档/学习/专业/算法/算法专栏/查找算法.md"
-    },
-    {
-      "basename": "STL集合算法",
-      "path": "4.归档/学习/专业/算法/STL/STL集合算法.md"
+      "basename": "数据库概述",
+      "path": "5.专题研究/数据库原理/数据库概述.md"
     }
   ],
   "omittedPaths": [],

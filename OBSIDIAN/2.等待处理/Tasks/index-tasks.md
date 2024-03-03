@@ -16,17 +16,21 @@ https://www.zhihu.com/question/292293671/answer/2829349894
 
 深度学习调参有哪些技巧？ - 时间旅客的回答 - 知乎 https://www.zhihu.com/question/25097993/answer/3410497378
 
-C语言 - 数据结构和算法
 
+
+C语言 - 数据结构和算法
+AI（深度学习入门）
 OS（OSTEP）
 计网（TopDown）
 组成原理和体系结构（CSAPP）
-
-AI导论
-
+汇编语言和接口技术
+离散数学
 数字逻辑
 编译原理
+软件工程
 
+AI导论
 Linux
 大数据技术与应用
 云计算
+C++

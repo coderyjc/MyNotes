@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cde14ed32ae19043",
+        "id": "d078f01c659723be",
         "type": "tabs",
         "children": [
           {
-            "id": "c3725d13c279d281",
+            "id": "526ae18c19b85e60",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "HOME.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -112,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "HOME.md"
+              }
             }
           },
           {
@@ -121,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOME.md"
+              }
             }
           },
           {
@@ -176,23 +186,30 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c3725d13c279d281",
+  "active": "526ae18c19b85e60",
   "lastOpenFiles": [
+    "5.专题研究/CSAPP/参考项目.md",
+    "5.专题研究/leetcode/LeetCode-Hot-100.md",
+    "5.专题研究/leetcode/1.两数之和.md",
+    "HOME.md",
+    "5.专题研究/算法/数据结构/导论.md",
+    "5.专题研究/算法/数据结构/并查集.md",
     "2.等待处理/Diary/2024-03-03.md",
+    "2.等待处理/Tasks/index-tasks.md",
+    "2.等待处理/Diary/2024-03-02.md",
+    "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
     "5.专题研究/数据库原理/数据库概述.md",
     "2.等待处理/Diary/2024-03-01.md",
-    "2.等待处理/Diary/2024-03-02.md",
     "5.专题研究/考研调剂复试/笔试/编程题/其他题.md",
     "5.专题研究/考研调剂复试/笔试/编程题/assets/Pasted image 20240303165740.png",
     "5.专题研究/考研调剂复试/笔试/编程题/pi值计算.md",
     "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-内存管理.md",
-    "4.归档/学习/专业/算法/算法专栏/查找算法.md",
-    "4.归档/学习/专业/算法/STL/STL集合算法.md",
+    "5.专题研究/算法/算法专栏/查找算法.md",
+    "5.专题研究/算法/STL/STL集合算法.md",
     "5.专题研究/考研调剂复试/笔试/编程题/assets/Pasted image 20240303144016.png",
     "5.专题研究/考研调剂复试/笔试/编程题/assets",
     "5.专题研究/考研调剂复试/笔试/编程题",
-    "HOME.md",
     "4.归档/学习/医学/医学常识/溺水施救.md",
     "4.归档/学习/读书/微信读书同步/文学/苏菲的世界.md",
     "4.归档/学习/读书/微信读书同步/计算机/SQL必知必会（第5版）.md",
@@ -201,12 +218,6 @@
     "4.归档/学习/医学/医学常识/心肌梗死.md",
     "4.归档/学习/医学/医学常识/5月飞絮.md",
     "4.归档/学习/医学/医学常识/熬夜.md",
-    "4.归档/学习/医学/医学常识/被人捅刀.md",
-    "4.归档/学习/医学/医学常识/鼻子出血.md",
-    "4.归档/学习/医学/医学常识/冻伤.md",
-    "4.归档/学习/医学/医学常识/蜂蜇伤.md",
-    "2.等待处理/Diary/2024-02/2024-02-29.md",
-    "5.专题研究/考研调剂复试/笔试/C语言-知识点.md",
     "5.专题研究/考研调剂复试/专业相关面试问题",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现 1.pdf",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
