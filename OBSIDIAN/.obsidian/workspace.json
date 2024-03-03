@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6d7910db0823d7f0",
+        "id": "cde14ed32ae19043",
         "type": "tabs",
         "children": [
           {
-            "id": "234fa792626ae2af",
+            "id": "c3725d13c279d281",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-03.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "静态变量",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -117,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-03.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-03.md"
-              }
+              "state": {}
             }
           },
           {
@@ -186,18 +176,23 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "234fa792626ae2af",
+  "active": "c3725d13c279d281",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-03-03.md",
+    "5.专题研究/数据库原理/数据库概述.md",
+    "2.等待处理/Diary/2024-03-01.md",
+    "2.等待处理/Diary/2024-03-02.md",
+    "5.专题研究/考研调剂复试/笔试/编程题/其他题.md",
+    "5.专题研究/考研调剂复试/笔试/编程题/assets/Pasted image 20240303165740.png",
+    "5.专题研究/考研调剂复试/笔试/编程题/pi值计算.md",
+    "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
+    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-内存管理.md",
     "4.归档/学习/专业/算法/算法专栏/查找算法.md",
     "4.归档/学习/专业/算法/STL/STL集合算法.md",
-    "2.等待处理/Diary/2024-03-03.md",
-    "5.专题研究/考研调剂复试/笔试/编程题/pi值计算.md",
     "5.专题研究/考研调剂复试/笔试/编程题/assets/Pasted image 20240303144016.png",
     "5.专题研究/考研调剂复试/笔试/编程题/assets",
-    "5.专题研究/考研调剂复试/笔试/C语言-题目.md",
     "5.专题研究/考研调剂复试/笔试/编程题",
     "HOME.md",
-    "5.专题研究/数据库原理/数据库概述.md",
     "4.归档/学习/医学/医学常识/溺水施救.md",
     "4.归档/学习/读书/微信读书同步/文学/苏菲的世界.md",
     "4.归档/学习/读书/微信读书同步/计算机/SQL必知必会（第5版）.md",
@@ -210,13 +205,8 @@
     "4.归档/学习/医学/医学常识/鼻子出血.md",
     "4.归档/学习/医学/医学常识/冻伤.md",
     "4.归档/学习/医学/医学常识/蜂蜇伤.md",
-    "2.等待处理/Diary/2024-03-02.md",
-    "2.等待处理/Diary/2024-03-01.md",
     "2.等待处理/Diary/2024-02/2024-02-29.md",
     "5.专题研究/考研调剂复试/笔试/C语言-知识点.md",
-    "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
-    "2.等待处理/Tasks/index-tasks.md",
-    "2.等待处理/Diary/delete.md",
     "5.专题研究/考研调剂复试/专业相关面试问题",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现 1.pdf",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
@@ -230,7 +220,6 @@
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002.jpg",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/2-1Q11512525J14.gif",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/image-20200925161021903.png",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/image-20200920211035690.png",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img",
     "4.归档/学习/专业/计算机基础/C语言",
     "5.专题研究/数据库原理/未命名"
