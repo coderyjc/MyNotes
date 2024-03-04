@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
       "basename": "2024-03-04",
       "path": "2.等待处理/Diary/2024-03-04.md"
+    },
+    {
+      "basename": "Colorful-Clock",
+      "path": "0.plugin/components/Colorful-Clock.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "参考项目",
@@ -35,10 +39,6 @@
     {
       "basename": "数据完整性",
       "path": "5.专题研究/OS/操作系统导论/数据完整性.md"
-    },
-    {
-      "basename": "分布式系统",
-      "path": "5.专题研究/OS/操作系统导论/分布式系统.md"
     }
   ],
   "omittedPaths": [],
