@@ -5,36 +5,40 @@
       "path": "HOME.md"
     },
     {
+      "basename": "2024-03-04",
+      "path": "2.等待处理/Diary/2024-03-04.md"
+    },
+    {
       "basename": "参考项目",
       "path": "5.专题研究/CSAPP/参考项目.md"
     },
     {
-      "basename": "导论",
-      "path": "5.专题研究/算法/数据结构/导论.md"
+      "basename": "4.抽象：进程",
+      "path": "5.专题研究/OS/操作系统导论-课后题/4.抽象：进程.md"
     },
     {
-      "basename": "并查集",
-      "path": "5.专题研究/算法/数据结构/并查集.md"
+      "basename": "_README",
+      "path": "5.专题研究/OS/操作系统导论/_README.md"
     },
     {
-      "basename": "2024-03-03",
-      "path": "2.等待处理/Diary/2024-03-03.md"
+      "basename": "虚拟化",
+      "path": "5.专题研究/OS/操作系统导论/虚拟化.md"
     },
     {
-      "basename": "深度学习入门：基于Python的理论与实现",
-      "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
+      "basename": "信号量",
+      "path": "5.专题研究/OS/操作系统导论/信号量.md"
     },
     {
-      "basename": "index-tasks",
-      "path": "2.等待处理/Tasks/index-tasks.md"
+      "basename": "虚拟CPU",
+      "path": "5.专题研究/OS/操作系统导论/虚拟CPU.md"
     },
     {
-      "basename": "2024-03-02",
-      "path": "2.等待处理/Diary/2024-03-02.md"
+      "basename": "数据完整性",
+      "path": "5.专题研究/OS/操作系统导论/数据完整性.md"
     },
     {
-      "basename": "数据库概述",
-      "path": "5.专题研究/数据库原理/数据库概述.md"
+      "basename": "分布式系统",
+      "path": "5.专题研究/OS/操作系统导论/分布式系统.md"
     }
   ],
   "omittedPaths": [],
