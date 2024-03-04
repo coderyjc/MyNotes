@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-03-05",
+      "path": "2.等待处理/Diary/2024-03-05.md"
+    },
+    {
       "basename": "2024-03-04",
       "path": "2.等待处理/Diary/2024-03-04.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "信号量",
       "path": "5.专题研究/OS/操作系统导论/信号量.md"
-    },
-    {
-      "basename": "虚拟CPU",
-      "path": "5.专题研究/OS/操作系统导论/虚拟CPU.md"
     }
   ],
   "omittedPaths": [],
