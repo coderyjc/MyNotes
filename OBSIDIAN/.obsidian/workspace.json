@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ea91a3f540f42cb",
+        "id": "891363c094d1fcb8",
         "type": "tabs",
         "children": [
           {
-            "id": "4cb2b1b293dfd852",
+            "id": "5278f7db25e9508c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "静态变量",
+                "query": "wsl",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -186,12 +186,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "5278f7db25e9508c",
   "lastOpenFiles": [
-    "0.plugin/components/Colorful-Clock.md",
-    "2.等待处理/Diary/2024-03-04.md",
-    "5.专题研究/CSAPP/参考项目.md",
     "HOME.md",
+    "4.归档/学习/专业/其他/Windows/Windows安装WSL2.md",
+    "2.等待处理/Diary/2024-03-04.md",
+    "0.plugin/components/Colorful-Clock.md",
+    "5.专题研究/CSAPP/参考项目.md",
     "5.专题研究/OS/操作系统导论-课后题/4.抽象：进程.md",
     "5.专题研究/OS/操作系统导论/_README.md",
     "5.专题研究/OS/操作系统导论/虚拟化.md",
@@ -214,7 +215,6 @@
     "2.等待处理/Diary/Archieve/2024/2024-02/2024-02-20.md",
     "2.等待处理/Diary/Archieve/2024/2024-02/2024-02-28.md",
     "2.等待处理/Diary/Archieve/2024/2024-02/2024-02-27.md",
-    "2.等待处理/Diary/Archieve/2024/2024-02/2024-02-03.md",
     "5.专题研究/考研调剂复试/笔试/编程题/assets/Pasted image 20240303165740.png",
     "5.专题研究/考研调剂复试/笔试/编程题/assets/Pasted image 20240303144016.png",
     "5.专题研究/考研调剂复试/笔试/编程题/assets",
