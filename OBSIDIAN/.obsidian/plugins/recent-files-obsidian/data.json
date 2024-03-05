@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "深度学习入门：基于Python的理论与实现",
+      "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
+    },
+    {
       "basename": "2024-03-05",
       "path": "2.等待处理/Diary/2024-03-05.md"
     },
     {
-      "basename": "第三章",
-      "path": "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md"
-    },
-    {
       "basename": "2024-03-04",
       "path": "2.等待处理/Diary/2024-03-04.md"
+    },
+    {
+      "basename": "2024-03-03",
+      "path": "2.等待处理/Diary/2024-03-03.md"
+    },
+    {
+      "basename": "第三章",
+      "path": "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md"
     },
     {
       "basename": "_算法",
@@ -31,10 +39,6 @@
     {
       "basename": "顺序查找",
       "path": "5.专题研究/算法/算法专栏/顺序查找.md"
-    },
-    {
-      "basename": "图",
-      "path": "5.专题研究/算法/数据结构/图.md"
     }
   ],
   "omittedPaths": [],

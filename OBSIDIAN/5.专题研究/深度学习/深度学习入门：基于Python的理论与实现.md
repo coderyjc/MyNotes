@@ -254,3 +254,31 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^mc005i699b
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T14:15:01.331Z","updated":"2024-03-05T14:15:01.331Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":55891,"end":55953},{"type":"TextQuoteSelector","exact":"通过减去输入信号中的最大值（上例中的c），我们发现原本为nan（not a number，不确定）的地方，现在被正确计算了。","prefix":"86e-05,   2.06106005e-09])如该例所示，","suffix":"综上，我们可以像下面这样实现softmax函数。def soft"}]}]}
+>```
+>%%
+>*%%PREFIX%%86e-05,   2.06106005e-09])如该例所示，%%HIGHLIGHT%% ==通过减去输入信号中的最大值（上例中的c），我们发现原本为nan（not a number，不确定）的地方，现在被正确计算了。== %%POSTFIX%%综上，我们可以像下面这样实现softmax函数。def soft*
+>%%LINK%%[[#^2rste8t8p0i|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^2rste8t8p0i
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T14:16:43.578Z","updated":"2024-03-05T14:16:43.578Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":56349,"end":56385},{"type":"TextQuoteSelector","exact":"正因为有了这个性质，我们才可以把softmax函数的输出解释为“概率”。","prefix":"出值的总和是1。输出总和为1是softmax函数的一个重要性质。","suffix":"比如，上面的例子可以解释成y[0]的概率是0.018（1.8%）"}]}]}
+>```
+>%%
+>*%%PREFIX%%出值的总和是1。输出总和为1是softmax函数的一个重要性质。%%HIGHLIGHT%% ==正因为有了这个性质，我们才可以把softmax函数的输出解释为“概率”。== %%POSTFIX%%比如，上面的例子可以解释成y[0]的概率是0.018（1.8%）*
+>%%LINK%%[[#^ec93wg39dh9|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ec93wg39dh9

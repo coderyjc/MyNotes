@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "05e96cde5e6e9abf",
+        "id": "61d73a3959197fb3",
         "type": "tabs",
         "children": [
           {
-            "id": "cc7f13e3625581ed",
+            "id": "e324f19e109242bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-05.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+                "file": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
               }
             }
           }
@@ -70,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945
+    "width": 339.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -118,7 +116,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-05.md"
+                "file": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
               }
             }
           },
@@ -128,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-05.md",
+                "file": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-05.md"
+                "file": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
               }
             }
           },
@@ -169,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,10 +186,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "e324f19e109242bd",
   "lastOpenFiles": [
-    "5.专题研究/leetcode/basic.md",
     "2.等待处理/Diary/2024-03-05.md",
+    "2.等待处理/Diary/2024-03-04.md",
+    "2.等待处理/Diary/2024-03-03.md",
+    "5.专题研究/leetcode/basic.md",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085843.png",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085450.png",
@@ -199,7 +200,6 @@
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085117.png",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets",
     "5.专题研究/CSAPP/第三章 程序的机器级表示",
-    "2.等待处理/Diary/2024-03-04.md",
     "5.专题研究/算法/算法专栏/_算法.md",
     "5.专题研究/算法/算法专栏/折半查找.md",
     "5.专题研究/算法/数据结构/线性表.md",
@@ -221,7 +221,6 @@
     "5.专题研究/算法/算法专栏/排序算法.md",
     "5.专题研究/算法/算法专栏/KMP算法.md",
     "5.专题研究/算法/算法专栏/Kruskal算法.md",
-    "5.专题研究/算法/算法专栏/BFS.md",
     "2.等待处理/Diary/2024-03",
     "5.专题研究/考研调剂复试/笔试/编程题/assets/Pasted image 20240303165740.png",
     "5.专题研究/考研调剂复试/笔试/编程题/assets/Pasted image 20240303144016.png",
