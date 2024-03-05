@@ -282,3 +282,17 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^ec93wg39dh9
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-05T14:54:55.751Z","updated":"2024-03-05T14:54:55.751Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":65351,"end":65370},{"type":"TextQuoteSelector","exact":"矩阵的第0维是列方向，第1维是行方向。","prefix":"批数据进行学习，届时也将进行和这里的批处理一样的代码实现。A  ","suffix":"——译者注3.7  小结  793.7 小结本章介绍了神经网络的"}]}]}
+>```
+>%%
+>*%%PREFIX%%批数据进行学习，届时也将进行和这里的批处理一样的代码实现。A%%HIGHLIGHT%% ==矩阵的第0维是列方向，第1维是行方向。== %%POSTFIX%%——译者注3.7  小结  793.7 小结本章介绍了神经网络的*
+>%%LINK%%[[#^c5mtiz3bmdn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^c5mtiz3bmdn
