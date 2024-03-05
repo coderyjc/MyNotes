@@ -46407,7 +46407,7 @@ var RequestHandler = class {
       delete frontmatter.position;
       const directTags = (_c = ((_b = cache.tags) != null ? _b : []).map((tag) => tag.tag)) != null ? _c : [];
       const frontmatterTags = Array.isArray(frontmatter.tags) ? frontmatter.tags : [];
-      const filteredTags = [...frontmatterTags, ...directTags].map((tag) => tag.replace(/^#/, "")).filter((value, index, self2) => self2.indexOf(value) === index);
+      const filteredTags = [...frontmatterTags, ...directTags].map((tag) => tag.toString().replace(/^#/, "")).filter((value, index, self2) => self2.indexOf(value) === index);
       return {
         tags: filteredTags,
         frontmatter,
@@ -47020,6 +47020,14 @@ var RequestHandler = class {
     });
   }
   setupRouter() {
+    this.api.use((req, res, next) => {
+      const originalSend = res.send;
+      res.send = function(body, ...args2) {
+        console.log(`[REST API] ${req.method} ${req.url} => ${res.statusCode}`);
+        return originalSend.apply(res, [body, ...args2]);
+      };
+      next();
+    });
     this.api.use((0, import_response_time.default)());
     this.api.use((0, import_cors.default)());
     this.api.use(this.authenticationMiddleware.bind(this));
@@ -47062,7 +47070,6 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
   }
   onload() {
     return __async(this, null, function* () {
-      var _a;
       this.refreshServerState = this.debounce(this._refreshServerState.bind(this), 1e3);
       yield this.loadSettings();
       this.requestHandler = new RequestHandler(this.app, this.manifest, this.settings);
@@ -47076,22 +47083,51 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
         const today = new Date();
         expiry.setDate(today.getDate() + 365);
         const keypair = import_node_forge.default.pki.rsa.generateKeyPair(2048);
-        const attrs = [{ name: "commonName", value: "Obsidian Local REST API" }];
+        const attrs = [
+          {
+            name: "commonName",
+            value: "Obsidian Local REST API"
+          }
+        ];
         const certificate = import_node_forge.default.pki.createCertificate();
         certificate.setIssuer(attrs);
         certificate.setSubject(attrs);
+        const subjectAltNames = [
+          {
+            type: 7,
+            ip: DefaultBindingHost
+          }
+        ];
+        if (this.settings.bindingHost) {
+          subjectAltNames.push({
+            type: 7,
+            ip: this.settings.bindingHost
+          });
+        }
+        if (this.settings.subjectAltNames) {
+          for (const name of this.settings.subjectAltNames.split("\n")) {
+            if (name.trim()) {
+              subjectAltNames.push({
+                type: 2,
+                value: name.trim()
+              });
+            }
+          }
+        }
         certificate.setExtensions([
           {
             name: "basicConstraints",
-            cA: true
+            cA: true,
+            critical: true
           },
           {
             name: "keyUsage",
             keyCertSign: true,
             digitalSignature: true,
             nonRepudiation: true,
-            keyEncipherment: true,
-            dataEncipherment: true
+            keyEncipherment: false,
+            dataEncipherment: false,
+            critical: true
           },
           {
             name: "extKeyUsage",
@@ -47113,12 +47149,7 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
           },
           {
             name: "subjectAltName",
-            altNames: [
-              {
-                type: 7,
-                ip: (_a = this.settings.bindingHost) != null ? _a : DefaultBindingHost
-              }
-            ]
+            altNames: subjectAltNames
           }
         ]);
         certificate.serialNumber = "1";
@@ -47152,7 +47183,7 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
     }
     this.secureServer = https.createServer({ key: this.settings.crypto.privateKey, cert: this.settings.crypto.cert }, this.requestHandler.api);
     this.secureServer.listen(this.settings.port, (_a = this.settings.bindingHost) != null ? _a : DefaultBindingHost);
-    console.log(`REST API listening on https://${(_b = this.settings.bindingHost) != null ? _b : DefaultBindingHost}:${this.settings.port}/`);
+    console.log(`[REST API] Listening on https://${(_b = this.settings.bindingHost) != null ? _b : DefaultBindingHost}:${this.settings.port}/`);
     if (this.insecureServer) {
       this.insecureServer.close();
       this.insecureServer = null;
@@ -47160,7 +47191,7 @@ var LocalRestApi = class extends import_obsidian2.Plugin {
     if (this.settings.enableInsecureServer) {
       this.insecureServer = http2.createServer(this.requestHandler.api);
       this.insecureServer.listen(this.settings.insecurePort, (_c = this.settings.bindingHost) != null ? _c : DefaultBindingHost);
-      console.log(`REST API listening on http://${(_d = this.settings.bindingHost) != null ? _d : DefaultBindingHost}:${this.settings.insecurePort}/`);
+      console.log(`[REST API] Listening on http://${(_d = this.settings.bindingHost) != null ? _d : DefaultBindingHost}:${this.settings.insecurePort}/`);
     }
   }
   onunload() {
@@ -47235,10 +47266,19 @@ var LocalRestApiSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.saveSettings();
       this.plugin.refreshServerState();
     }).setValue(this.plugin.settings.insecurePort.toString()));
-    new import_obsidian2.Setting(containerEl).setName("Reset Cryptography").setDesc(`Pressing this button will cause your certificate,
-        private and public keys, and API key to be regenerated.`).addButton((cb) => {
-      cb.setWarning().setButtonText("Reset Crypo").onClick(() => {
+    new import_obsidian2.Setting(containerEl).setName("Reset All Cryptography").setDesc(`Pressing this button will cause your certificate,
+        private key, public key, and API key to be regenerated.`).addButton((cb) => {
+      cb.setWarning().setButtonText("Reset All Crypto").onClick(() => {
         delete this.plugin.settings.apiKey;
+        delete this.plugin.settings.crypto;
+        this.plugin.saveSettings();
+        this.plugin.unload();
+        this.plugin.load();
+      });
+    });
+    new import_obsidian2.Setting(containerEl).setName("Re-generate Certificates").setDesc(`Pressing this button will cause your certificate,
+        private key,  and public key to be re-generated, but your API key will remain unchanged.`).addButton((cb) => {
+      cb.setWarning().setButtonText("Re-generate Certificates").onClick(() => {
         delete this.plugin.settings.crypto;
         this.plugin.saveSettings();
         this.plugin.unload();
@@ -47297,6 +47337,20 @@ var LocalRestApiSettingTab = class extends import_obsidian2.PluginSettingTab {
           this.plugin.refreshServerState();
         }).setValue(this.plugin.settings.apiKey);
       });
+      new import_obsidian2.Setting(containerEl).setName("Certificate Hostnames").setDesc(`
+          List of extra hostnames to add
+          to your certificate's \`subjectAltName\` field.
+          One hostname per line.
+          You must click the "Re-generate Certificates" button above after changing this value
+          for this to have an effect.  This is useful for
+          situations in which you are accessing Obsidian
+          from a hostname other than the host on which
+          it is running.
+      `).addTextArea((cb) => cb.onChange((value) => {
+        console.log("onChange");
+        this.plugin.settings.subjectAltNames = value;
+        this.plugin.saveSettings();
+      }).setValue(this.plugin.settings.subjectAltNames));
       new import_obsidian2.Setting(containerEl).setName("Certificate").addTextArea((cb) => cb.onChange((value) => {
         this.plugin.settings.crypto.cert = value;
         this.plugin.saveSettings();
