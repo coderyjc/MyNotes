@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md",
+                "file": "2.等待处理/Diary/2024-03-05.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md"
+                "file": "2.等待处理/Diary/2024-03-05.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md",
+                "file": "2.等待处理/Diary/2024-03-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md"
+                "file": "2.等待处理/Diary/2024-03-05.md"
               }
             }
           },
@@ -188,11 +188,11 @@
   },
   "active": "cc7f13e3625581ed",
   "lastOpenFiles": [
+    "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085843.png",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085450.png",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085232.png",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085211.png",
-    "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085117.png",
     "5.专题研究/CSAPP/第三章 程序的机器级表示/assets",
     "5.专题研究/CSAPP/第三章 程序的机器级表示",
@@ -232,7 +232,6 @@
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476859772.jpg",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476855287.jpg",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476849331.jpg",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476727438.jpg"
+    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/img/clip_image002-1600476849331.jpg"
   ]
 }
