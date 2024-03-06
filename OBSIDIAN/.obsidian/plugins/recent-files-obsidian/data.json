@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "STL查找算法",
-      "path": "5.专题研究/算法/STL/STL查找算法.md"
-    },
-    {
-      "basename": "STL排序算法",
-      "path": "5.专题研究/算法/STL/STL排序算法.md"
-    },
-    {
-      "basename": "deque",
-      "path": "5.专题研究/算法/STL/deque.md"
-    },
-    {
       "basename": "2024-03-06",
       "path": "2.等待处理/Diary/2024-03-06.md"
+    },
+    {
+      "basename": "刷题笔记",
+      "path": "5.专题研究/算法/刷题笔记.md"
+    },
+    {
+      "basename": "7-14 电话聊天狂人",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/7-14 电话聊天狂人.md"
+    },
+    {
+      "basename": "7-15 QQ帐户的申请与登陆",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/7-15 QQ帐户的申请与登陆.md"
     },
     {
       "basename": "7-13 统计工龄",
@@ -25,20 +25,20 @@
       "path": "5.专题研究/算法/PTA/数据结构与算法题目集/7-2 一元多项式的乘法与加法运算.md"
     },
     {
-      "basename": "排序问题",
-      "path": "5.专题研究/算法/PTA/排序问题.md"
+      "basename": "STL查找算法",
+      "path": "5.专题研究/算法/STL/STL查找算法.md"
     },
     {
-      "basename": "VsCode基础知识",
-      "path": "4.归档/学习/专业/软件/VsCode/基本使用/VsCode基础知识.md"
+      "basename": "STL排序算法",
+      "path": "5.专题研究/算法/STL/STL排序算法.md"
     },
     {
-      "basename": "VsCode配置C环境",
-      "path": "4.归档/学习/项目/环境问题相关/VsCode配置C环境.md"
+      "basename": "STL填充算法",
+      "path": "5.专题研究/算法/STL/STL填充算法.md"
     },
     {
-      "basename": "数组、栈和队列",
-      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/数组、栈和队列.md"
+      "basename": "7-7 六度空间",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/7-7 六度空间.md"
     }
   ],
   "omittedPaths": [],
