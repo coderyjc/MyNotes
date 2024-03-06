@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "串的暴力匹配算法",
-      "path": "5.专题研究/算法/算法专栏/串的暴力匹配算法.md"
+      "basename": "2024-03-06",
+      "path": "2.等待处理/Diary/2024-03-06.md"
     },
     {
-      "basename": "串",
-      "path": "5.专题研究/算法/数据结构/串.md"
+      "basename": "数组、栈和队列",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/数组、栈和队列.md"
     },
     {
-      "basename": "Prim算法",
-      "path": "5.专题研究/算法/算法专栏/Prim算法.md"
+      "basename": "7-52 两个有序链表序列的交集",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/7-52 两个有序链表序列的交集.md"
     },
     {
-      "basename": "Kruskal算法",
-      "path": "5.专题研究/算法/算法专栏/Kruskal算法.md"
+      "basename": "贪心算法",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/贪心算法.md"
     },
     {
-      "basename": "KMP算法",
-      "path": "5.专题研究/算法/算法专栏/KMP算法.md"
+      "basename": "树",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/树.md"
     },
     {
-      "basename": "Floyd算法",
-      "path": "5.专题研究/算法/算法专栏/Floyd算法.md"
+      "basename": "排序",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/排序.md"
     },
     {
-      "basename": "Dijkstra算法",
-      "path": "5.专题研究/算法/算法专栏/Dijkstra算法.md"
+      "basename": "哈希",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/哈希.md"
     },
     {
-      "basename": "DFS",
-      "path": "5.专题研究/算法/算法专栏/DFS.md"
+      "basename": "图",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/图.md"
     },
     {
-      "basename": "BFS",
-      "path": "5.专题研究/算法/算法专栏/BFS.md"
+      "basename": "排序问题",
+      "path": "5.专题研究/算法/PTA/排序问题.md"
     },
     {
-      "basename": "直接插入排序",
-      "path": "5.专题研究/算法/算法专栏/直接插入排序.md"
+      "basename": "7-1 最大子列和问题",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/7-1 最大子列和问题.md"
     }
   ],
   "omittedPaths": [],
