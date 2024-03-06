@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "深度学习入门：基于Python的理论与实现",
-      "path": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
+      "basename": "串的暴力匹配算法",
+      "path": "5.专题研究/算法/算法专栏/串的暴力匹配算法.md"
     },
     {
-      "basename": "2024-03-05",
-      "path": "2.等待处理/Diary/2024-03-05.md"
+      "basename": "串",
+      "path": "5.专题研究/算法/数据结构/串.md"
     },
     {
-      "basename": "2024-03-04",
-      "path": "2.等待处理/Diary/2024-03-04.md"
+      "basename": "Prim算法",
+      "path": "5.专题研究/算法/算法专栏/Prim算法.md"
     },
     {
-      "basename": "2024-03-03",
-      "path": "2.等待处理/Diary/2024-03-03.md"
+      "basename": "Kruskal算法",
+      "path": "5.专题研究/算法/算法专栏/Kruskal算法.md"
     },
     {
-      "basename": "第三章",
-      "path": "5.专题研究/CSAPP/第三章 程序的机器级表示/第三章.md"
+      "basename": "KMP算法",
+      "path": "5.专题研究/算法/算法专栏/KMP算法.md"
     },
     {
-      "basename": "_算法",
-      "path": "5.专题研究/算法/算法专栏/_算法.md"
+      "basename": "Floyd算法",
+      "path": "5.专题研究/算法/算法专栏/Floyd算法.md"
     },
     {
-      "basename": "折半查找",
-      "path": "5.专题研究/算法/算法专栏/折半查找.md"
+      "basename": "Dijkstra算法",
+      "path": "5.专题研究/算法/算法专栏/Dijkstra算法.md"
     },
     {
-      "basename": "线性表",
-      "path": "5.专题研究/算法/数据结构/线性表.md"
+      "basename": "DFS",
+      "path": "5.专题研究/算法/算法专栏/DFS.md"
     },
     {
-      "basename": "折半插入排序",
-      "path": "5.专题研究/算法/算法专栏/折半插入排序.md"
+      "basename": "BFS",
+      "path": "5.专题研究/算法/算法专栏/BFS.md"
     },
     {
-      "basename": "顺序查找",
-      "path": "5.专题研究/算法/算法专栏/顺序查找.md"
+      "basename": "直接插入排序",
+      "path": "5.专题研究/算法/算法专栏/直接插入排序.md"
     }
   ],
   "omittedPaths": [],

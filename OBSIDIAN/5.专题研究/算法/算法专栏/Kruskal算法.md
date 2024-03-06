@@ -1,3 +1,9 @@
+---
+tags: 
+- 基本算法/Kruskal算法
+---
+
+
 ```ad-note
 生成无向图的网址：
 https://csacademy.com/app/graph_editor/
