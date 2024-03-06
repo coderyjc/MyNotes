@@ -50,60 +50,47 @@ int main() {
 }
 ```
 
-### 自己写的这个最后一个点过不去
+## 自己写的这个ac了
 
-应该是数量上来了就过不去了。
-
-### 我把所有IO都改成了scanf和printf，还是超时
-
-```cpp
-/**
-* Author: Yan Jingcun
-* Date: 2023-03-13
-* Descption: 
-*/ 
-
-#include<iostream>
-#include<vector>
-#include<algorithm>
-#include<string.h>
-#include<queue>
-
-using namespace std;
-
-int main(){
-
-  int isorderd = 0;
-  int n;
-  cin >> n;
-  int pri;
-
-  char op[3];
-  char* v[100001];
-  int a[100001];
-  memset(a, 0, 100001 * sizeof(int));
-
-  for (int i = 0; i < n; i++) {
-    scanf("%s",op);
-    if(op[0] == 'P' && op[1] == 'U' && op[2] == 'T'){
-      char* msg = new char[11];
-      scanf("%s %d", msg, &pri);
-      v[pri] = msg;
-      a[pri] = 1;
-    }else if(op[0] == 'G' && op[1] == 'E' && op[2] == 'T'){
-      int flag = 0;
-      for (int i = 0; i < 100001; i++) {
-        if(a[i] != 0) {
-          printf("%s\n", v[i]);
-          a[i] = 0;
-          flag = 1;
-          break;
-        }
-      }
-      if(!flag) printf("EMPTY QUEUE!");
-    }
-  }
-
-  return 0;
+```c
+#include<iostream>  
+#include<algorithm>  
+#include<string.h>  
+#include<deque>  
+#include<map>  
+  
+using namespace std;  
+  
+int main(){  
+  
+    int n;  
+    cin >> n;  
+    char cmd[3], msg[11];  
+    deque<pair<string,int>> v;  
+    int priority, sortFlag = 0;  
+  
+    for (int i = 0; i < n; ++i) {  
+        scanf("%s", cmd);  
+        if(cmd[0] == 'P'){  
+            scanf("%s %d", msg, &priority);  
+            v.push_back((pair<string, int>)make_pair(msg, priority));  
+            sortFlag = 0;  
+        } else {  
+            if(!sortFlag){  
+                sort(v.begin(), v.end(), [](const pair<string, int> &p1, const pair<string, int> &p2){  
+                    return p1.second < p2.second;  
+                });  
+                sortFlag = 1;  
+            }  
+            if(v.size() != 0){  
+                cout << v[0].first << endl;  
+                v.pop_front();  
+            } else {  
+                printf("EMPTY QUEUE!");  
+            }  
+        }  
+    }  
+  
+    return 0;  
 }
 ```
