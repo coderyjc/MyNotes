@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "STL排序算法",
+      "path": "5.专题研究/算法/STL/STL排序算法.md"
+    },
+    {
+      "basename": "STL查找算法",
+      "path": "5.专题研究/算法/STL/STL查找算法.md"
+    },
+    {
+      "basename": "STL遍历算法",
+      "path": "5.专题研究/算法/STL/STL遍历算法.md"
+    },
+    {
+      "basename": "deque",
+      "path": "5.专题研究/算法/STL/deque.md"
+    },
+    {
       "basename": "2024-03-06",
       "path": "2.等待处理/Diary/2024-03-06.md"
     },
@@ -23,22 +39,6 @@
     {
       "basename": "排序",
       "path": "5.专题研究/算法/PTA/数据结构与算法题目集/排序.md"
-    },
-    {
-      "basename": "哈希",
-      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/哈希.md"
-    },
-    {
-      "basename": "图",
-      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/图.md"
-    },
-    {
-      "basename": "排序问题",
-      "path": "5.专题研究/算法/PTA/排序问题.md"
-    },
-    {
-      "basename": "7-1 最大子列和问题",
-      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/7-1 最大子列和问题.md"
     }
   ],
   "omittedPaths": [],
