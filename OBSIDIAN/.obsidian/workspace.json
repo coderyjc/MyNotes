@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f6e2bad119e13fb7",
+        "id": "baf807e9b56670b8",
         "type": "tabs",
         "children": [
           {
-            "id": "fc7a4febe29a85b9",
+            "id": "d9e833c83effe04f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/算法/刷题笔记.md",
+                "file": "2.等待处理/Diary/2024-03-07.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945
+    "width": 339.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -118,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/算法/刷题笔记.md"
+                "file": "2.等待处理/Diary/2024-03-07.md"
               }
             }
           },
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/算法/刷题笔记.md",
+                "file": "2.等待处理/Diary/2024-03-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/算法/刷题笔记.md"
+                "file": "2.等待处理/Diary/2024-03-07.md"
               }
             }
           },
@@ -165,7 +166,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -187,14 +189,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fc7a4febe29a85b9",
+  "active": "d9e833c83effe04f",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03-06.md",
     "2.等待处理/Diary/2024-03-07.md",
+    "2.等待处理/Diary/2024-03-06.md",
+    "5.专题研究/算法/PTA/数据结构与算法题目集/7-38 寻找大富翁.md",
+    "5.专题研究/算法/刷题笔记.md",
+    "5.专题研究/算法/STL/STL查找算法.md",
+    "5.专题研究/算法/STL/STL排序算法.md",
     "5.专题研究/算法/PTA/输入输出相关问题.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-26 Windows消息队列.md",
     "5.专题研究/算法/STL/vector.md",
-    "5.专题研究/算法/刷题笔记.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-45 航空公司VIP客户查询.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-18 银行业务队列简单模拟.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-15 QQ帐户的申请与登陆.md",
@@ -203,8 +208,6 @@
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-13 统计工龄.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-2 一元多项式的乘法与加法运算.md",
     "5.专题研究/算法/未命名.md.nssyncsc",
-    "5.专题研究/算法/STL/STL查找算法.md",
-    "5.专题研究/算法/STL/STL排序算法.md",
     "5.专题研究/算法/STL/STL填充算法.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-7 六度空间.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-8 哈利·波特的考试.md",
@@ -216,7 +219,6 @@
     "5.专题研究/算法/STL/deque.md",
     "2.等待处理/Diary/7-13 统计工龄.md.nssyncsc",
     "4.归档/学习/专业/软件/VsCode/基本使用/VsCode基础知识.md",
-    "4.归档/学习/项目/环境问题相关/VsCode配置C环境.md",
     "5.专题研究/算法/LeetCode-Interview75",
     "5.专题研究/算法/算法专栏/assets/Pasted image 20240306105405.png",
     "5.专题研究/算法/算法专栏/assets/Pasted image 20240306105234.png",

@@ -296,3 +296,59 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^c5mtiz3bmdn
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T15:05:32.922Z","updated":"2024-03-06T15:05:32.922Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":66500,"end":66566},{"type":"TextQuoteSelector","exact":"而机器学习的方法则极力避免人为介入，尝试从收集到的数据中发现答案（模式）。神经网络或深度学习则比以往的机器学习方法更能避免人为介入。","prefix":"—类似这样，人们以自己的经验和直觉为线索，通过反复试验推进工作。","suffix":"现在我们来思考一个具体的问题，比如如何实现数字“5”的识别。数字"}]}]}
+>```
+>%%
+>*%%PREFIX%%—类似这样，人们以自己的经验和直觉为线索，通过反复试验推进工作。%%HIGHLIGHT%% ==而机器学习的方法则极力避免人为介入，尝试从收集到的数据中发现答案（模式）。神经网络或深度学习则比以往的机器学习方法更能避免人为介入。== %%POSTFIX%%现在我们来思考一个具体的问题，比如如何实现数字“5”的识别。数字*
+>%%LINK%%[[#^99ql9g57n1e|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^99ql9g57n1e
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T15:07:16.284Z","updated":"2024-03-06T15:07:16.284Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":67597,"end":67640},{"type":"TextQuoteSelector","exact":"端到端是指从一端到另一端的意思，也就是从原始数据（输入）中获得目标结果（输出）的意思。","prefix":"d-to-end machine learning）。这里所说的","suffix":"神经网络的优点是对所有的问题都可以用同样的流程来解决。比如，不管"}]}]}
+>```
+>%%
+>*%%PREFIX%%d-to-end machine learning）。这里所说的%%HIGHLIGHT%% ==端到端是指从一端到另一端的意思，也就是从原始数据（输入）中获得目标结果（输出）的意思。== %%POSTFIX%%神经网络的优点是对所有的问题都可以用同样的流程来解决。比如，不管*
+>%%LINK%%[[#^ztc4rgb6lz|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ztc4rgb6lz
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T15:08:32.966Z","updated":"2024-03-06T15:08:32.966Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":68617,"end":68647},{"type":"TextQuoteSelector","exact":"这个损失函数可以使用任意函数，但一般用均方误差和交叉熵误差等","prefix":"络的学习中所用的指标称为损失函数（loss function）。","suffix":"。损失函数是表示神经网络性能的“恶劣程度”的指标，即当前的神经网"}]}]}
+>```
+>%%
+>*%%PREFIX%%络的学习中所用的指标称为损失函数（loss function）。%%HIGHLIGHT%% ==这个损失函数可以使用任意函数，但一般用均方误差和交叉熵误差等== %%POSTFIX%%。损失函数是表示神经网络性能的“恶劣程度”的指标，即当前的神经网*
+>%%LINK%%[[#^oe946jrdrh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^oe946jrdrh
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-06T15:09:47.842Z","updated":"2024-03-06T15:09:47.842Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":69272,"end":69307},{"type":"TextQuoteSelector","exact":"将正确解标签表示为1，其他标签表示为0的表示方法称为one-hot表示","prefix":"为1，其他均设为0。这里，标签“2”为 1，表示正确解是“2”。","suffix":"。如式（4.1）所示，均方误差会计算神经网络的输出和正确解监督数"}]}]}
+>```
+>%%
+>*%%PREFIX%%为1，其他均设为0。这里，标签“2”为 1，表示正确解是“2”。%%HIGHLIGHT%% ==将正确解标签表示为1，其他标签表示为0的表示方法称为one-hot表示== %%POSTFIX%%。如式（4.1）所示，均方误差会计算神经网络的输出和正确解监督数*
+>%%LINK%%[[#^nlo76i37ly|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^nlo76i37ly
