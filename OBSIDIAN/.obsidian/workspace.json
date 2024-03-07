@@ -11,12 +11,9 @@
             "id": "a687ef1864a2f037",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-07.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+                "file": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
               }
             }
           }
@@ -70,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945
+    "width": 339.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -118,7 +116,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-07.md"
+                "file": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
               }
             }
           },
@@ -128,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-07.md",
+                "file": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-07.md"
+                "file": "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md"
               }
             }
           },
@@ -169,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +188,10 @@
   },
   "active": "a687ef1864a2f037",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03-06.md",
     "2.等待处理/Diary/2024-03-07.md",
+    "2.等待处理/Diary/2024-03-08.md",
+    "5.专题研究/算法/PTA/数据结构与算法题目集/7-48 银行排队问题之单窗口“夹塞”版.md",
+    "2.等待处理/Diary/2024-03-06.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-50 畅通工程之局部最小花费问题.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-49 打印学生选课清单.md",
     "5.专题研究/算法/PTA/刷题笔记.md",
@@ -215,8 +216,6 @@
     "5.专题研究/算法/STL/STL排序算法.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-26 Windows消息队列.md",
     "5.专题研究/算法/STL/vector.md",
-    "5.专题研究/算法/PTA/数据结构与算法题目集/7-45 航空公司VIP客户查询.md",
-    "5.专题研究/算法/PTA/数据结构与算法题目集/7-16 一元多项式求导.md",
     "5.专题研究/算法/未命名.md.nssyncsc",
     "2.等待处理/Diary/7-13 统计工龄.md.nssyncsc",
     "5.专题研究/算法/LeetCode-Interview75",

@@ -352,3 +352,157 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^nlo76i37ly
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T11:22:25.510Z","updated":"2024-03-07T11:22:25.510Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":70310,"end":70335},{"type":"TextQuoteSelector","exact":"交叉熵误差的值是由正确解标签所对应的输出结果决定的","prefix":"输出是0.1，则交叉熵误差为−log0.1=2.30。也就是说，","suffix":"。自然对数的图像如图4-3所示。图4-3 自然对数y=logx的"}]}]}
+>```
+>%%
+>*%%PREFIX%%输出是0.1，则交叉熵误差为−log0.1=2.30。也就是说，%%HIGHLIGHT%% ==交叉熵误差的值是由正确解标签所对应的输出结果决定的== %%POSTFIX%%。自然对数的图像如图4-3所示。图4-3 自然对数y=logx的*
+>%%LINK%%[[#^w4p8kinl2l|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^w4p8kinl2l
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T11:23:23.227Z","updated":"2024-03-07T11:23:23.227Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":70419,"end":70460},{"type":"TextQuoteSelector","exact":"正确解标签对应的输出越大，式（4.2）的值越接近0；当输出为1时，交叉熵误差为0。","prefix":"-3所示，x等于1时，y为0；随着x向0靠近，y逐渐变小。因此，","suffix":"此外，如果正确解标签对应的输出较小，则式（4.2）的值较大。下面"}]}]}
+>```
+>%%
+>*%%PREFIX%%-3所示，x等于1时，y为0；随着x向0靠近，y逐渐变小。因此，%%HIGHLIGHT%% ==正确解标签对应的输出越大，式（4.2）的值越接近0；当输出为1时，交叉熵误差为0。== %%POSTFIX%%此外，如果正确解标签对应的输出较小，则式（4.2）的值较大。下面*
+>%%LINK%%[[#^fczu022nsu|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^fczu022nsu
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T11:25:59.723Z","updated":"2024-03-07T11:25:59.723Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":71294,"end":71315},{"type":"TextQuoteSelector","exact":"把这100个损失函数的总和作为学习的指标。","prefix":"训练数据作为对象。也就是说，如果训练数据有100个的话，我们就要","suffix":"前面介绍的损失函数的例子中考虑的都是针对单个数据的损失函数。如4"}]}]}
+>```
+>%%
+>*%%PREFIX%%训练数据作为对象。也就是说，如果训练数据有100个的话，我们就要%%HIGHLIGHT%% ==把这100个损失函数的总和作为学习的指标。== %%POSTFIX%%前面介绍的损失函数的例子中考虑的都是针对单个数据的损失函数。如4*
+>%%LINK%%[[#^xmd53ryrv3|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xmd53ryrv3
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T11:27:19.193Z","updated":"2024-03-07T11:27:19.193Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":71809,"end":71864},{"type":"TextQuoteSelector","exact":"从60000个训练数据中随机选择100笔，再用这100笔数据进行学习。这种学习方式称为mini-batch学习","prefix":"tch,小批量），然后对每个mini-batch进行学习。比如，","suffix":"。下面我们来编写从训练数据中随机选择指定个数的数据的代码，以进行"}]}]}
+>```
+>%%
+>*%%PREFIX%%tch,小批量），然后对每个mini-batch进行学习。比如，%%HIGHLIGHT%% ==从60000个训练数据中随机选择100笔，再用这100笔数据进行学习。这种学习方式称为mini-batch学习== %%POSTFIX%%。下面我们来编写从训练数据中随机选择指定个数的数据的代码，以进行*
+>%%LINK%%[[#^ufp2vqcljfm|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ufp2vqcljfm
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T11:42:06.778Z","updated":"2024-03-07T11:42:06.778Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":70611,"end":70725},{"type":"TextQuoteSelector","exact":"函数内部在计算np.log时，加上了一个微小值delta。这是因为，当出现np.log(0)时，np.log(0)会变为负无限大的-inf，这样一来就会导致后续计算无法进行。作为保护性对策，添加一个微小值可以防止负无限大的发生。","prefix":"log(y + delta))这里，参数y和t是NumPy数组。","suffix":"下面，我们使用cross_entropy_error(y, t)"}]}]}
+>```
+>%%
+>*%%PREFIX%%log(y + delta))这里，参数y和t是NumPy数组。%%HIGHLIGHT%% ==函数内部在计算np.log时，加上了一个微小值delta。这是因为，当出现np.log(0)时，np.log(0)会变为负无限大的-inf，这样一来就会导致后续计算无法进行。作为保护性对策，添加一个微小值可以防止负无限大的发生。== %%POSTFIX%%下面，我们使用cross_entropy_error(y, t)*
+>%%LINK%%[[#^kxmzxybt1xn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kxmzxybt1xn
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T12:02:11.205Z","text":"我们希望获得连续性变化。","updated":"2024-03-07T12:02:11.205Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":75230,"end":75290},{"type":"TextQuoteSelector","exact":"即便识别精度有所改善，它的值也不会像32.0123...%这样连续变化，而是变为33%、34%这样的不连续的、离散的值。","prefix":"%，不会出现变化。也就是说，仅仅微调参数，是无法改善识别精度的。","suffix":"而如果把损失函数作为指标，则当前损失函数的值可以表示为0.925"}]}]}
+>```
+>%%
+>*%%PREFIX%%%，不会出现变化。也就是说，仅仅微调参数，是无法改善识别精度的。%%HIGHLIGHT%% ==即便识别精度有所改善，它的值也不会像32.0123...%这样连续变化，而是变为33%、34%这样的不连续的、离散的值。== %%POSTFIX%%而如果把损失函数作为指标，则当前损失函数的值可以表示为0.925*
+>%%LINK%%[[#^4nxuyvzpqr7|show annotation]]
+>%%COMMENT%%
+>我们希望获得连续性变化。
+>%%TAGS%%
+>
+^4nxuyvzpqr7
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T12:06:48.691Z","updated":"2024-03-07T12:06:48.691Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":76850,"end":76883},{"type":"TextQuoteSelector","exact":"使用过小的值会造成计算机出现计算上的问题。这是第一个需要改进的地方","prefix":"）来表示1e-50，就会变成0.0，无法正确表示出来。也就是说，","suffix":"，即将微小值h改为10−4。使用10−4就可以得到正确的结果。第"}]}]}
+>```
+>%%
+>*%%PREFIX%%）来表示1e-50，就会变成0.0，无法正确表示出来。也就是说，%%HIGHLIGHT%% ==使用过小的值会造成计算机出现计算上的问题。这是第一个需要改进的地方== %%POSTFIX%%，即将微小值h改为10−4。使用10−4就可以得到正确的结果。第*
+>%%LINK%%[[#^md2znswg4fh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^md2znswg4fh
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T12:07:09.854Z","updated":"2024-03-07T12:07:09.854Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":77042,"end":77096},{"type":"TextQuoteSelector","exact":"真的导数（真的切线）和上述实现中得到的导数的值在严格意义上并不一致。这个差异的出现是因为h不可能无限接近0。","prefix":"，但上述实现中计算的导数对应的是(x+h)和x之间的斜率。因此，","suffix":"如图4-5所示，数值微分含有误差。为了减小这个误差，我们可以计算"}]}]}
+>```
+>%%
+>*%%PREFIX%%，但上述实现中计算的导数对应的是(x+h)和x之间的斜率。因此，%%HIGHLIGHT%% ==真的导数（真的切线）和上述实现中得到的导数的值在严格意义上并不一致。这个差异的出现是因为h不可能无限接近0。== %%POSTFIX%%如图4-5所示，数值微分含有误差。为了减小这个误差，我们可以计算*
+>%%LINK%%[[#^xm17g7i9zj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xm17g7i9zj
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T12:42:14.182Z","updated":"2024-03-07T12:42:14.182Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":81910,"end":81940},{"type":"TextQuoteSelector","exact":"一般来说，神经网络（深度学习）中，梯度法主要是指梯度下降法。","prefix":"会变成相同的问题，因此“下降”还是“上升”的差异本质上并不重要。","suffix":"  第4章 神经网络的学习104现在，我们尝试用数学式来表示梯度"}]}]}
+>```
+>%%
+>*%%PREFIX%%会变成相同的问题，因此“下降”还是“上升”的差异本质上并不重要。%%HIGHLIGHT%% ==一般来说，神经网络（深度学习）中，梯度法主要是指梯度下降法。== %%POSTFIX%%第4章 神经网络的学习104现在，我们尝试用数学式来表示梯度*
+>%%LINK%%[[#^yjusvf7g57|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^yjusvf7g57
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T12:57:21.037Z","updated":"2024-03-07T12:57:21.037Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":83541,"end":83585},{"type":"TextQuoteSelector","exact":"学习率过大的话，会发散成一个很大的值；反过来，学习率过小的话，基本上没怎么更新就结束了。","prefix":"2.99999994,  3.99999992])实验结果表明，","suffix":"也就是说，设定合适的学习率是一个很重要的问题。像学习率这样的参数"}]}]}
+>```
+>%%
+>*%%PREFIX%%2.99999994,  3.99999992])实验结果表明，%%HIGHLIGHT%% ==学习率过大的话，会发散成一个很大的值；反过来，学习率过小的话，基本上没怎么更新就结束了。== %%POSTFIX%%也就是说，设定合适的学习率是一个很重要的问题。像学习率这样的参数*
+>%%LINK%%[[#^wybu7hvfia|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wybu7hvfia
+
+
+>%%
+>```annotation-json
+>{"created":"2024-03-07T12:57:42.879Z","updated":"2024-03-07T12:57:42.879Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":83608,"end":83732},{"type":"TextQuoteSelector","exact":"像学习率这样的参数称为超参数。这是一种和神经网络的参数（权重和偏置）性质不同的参数。相对于神经网络的权重参数是通过训练数据和学习算法自动获得的，学习率这样的超参数则是人工设定的。一般来说，超参数需要尝试多个值，以便找到一种可以使学习顺利进行的设定。","prefix":"怎么更新就结束了。也就是说，设定合适的学习率是一个很重要的问题。","suffix":"4.4.2 神经网络的梯度神经网络的学习也要求梯度。这里所说的梯"}]}]}
+>```
+>%%
+>*%%PREFIX%%怎么更新就结束了。也就是说，设定合适的学习率是一个很重要的问题。%%HIGHLIGHT%% ==像学习率这样的参数称为超参数。这是一种和神经网络的参数（权重和偏置）性质不同的参数。相对于神经网络的权重参数是通过训练数据和学习算法自动获得的，学习率这样的超参数则是人工设定的。一般来说，超参数需要尝试多个值，以便找到一种可以使学习顺利进行的设定。== %%POSTFIX%%4.4.2 神经网络的梯度神经网络的学习也要求梯度。这里所说的梯*
+>%%LINK%%[[#^kp4b43yvdwa|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kp4b43yvdwa
