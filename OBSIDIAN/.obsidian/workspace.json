@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-08.md",
+                "file": "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945
+    "width": 339.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -79,7 +80,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 35.44303797468354,
+        "dimension": 25.31645569620253,
         "children": [
           {
             "id": "9efa0f878fdc06cc",
@@ -118,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-08.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md"
               }
             }
           },
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-08.md",
+                "file": "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +145,7 @@
       {
         "id": "341ad80d48b74e47",
         "type": "tabs",
-        "dimension": 64.55696202531645,
+        "dimension": 74.68354430379746,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-08.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md"
               }
             }
           },
@@ -186,14 +187,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "c6e5db6f403bf0b4",
   "lastOpenFiles": [
+    "5.专题研究/考研复试/面试/专业相关面试问题/计算机相关面试问题.md",
+    "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md",
+    "5.专题研究/考研复试/面试/专业相关面试问题/项目经历.md",
+    "5.专题研究/考研复试/面试/专业相关面试问题/一些“较大”的问题.md",
+    "5.专题研究/考研复试/面试/专业相关面试问题/专业相关问题.md",
     "2.等待处理/Diary/2024-03-08.md",
     "0.plugin/template/dailynotes.md",
-    "5.专题研究/考研复试/面试/专业相关面试问题/专业相关问题.md",
-    "5.专题研究/考研复试/面试/专业相关面试问题/一些“较大”的问题.md",
-    "5.专题研究/考研复试/面试/专业相关面试问题/项目经历.md",
-    "5.专题研究/考研复试/面试/专业相关面试问题/计算机相关面试问题.md",
     "5.专题研究/考研复试/笔试/C语言-题目.md",
     "5.专题研究/考研复试/笔试/C语言-知识点.md",
     "5.专题研究/考研复试/index.md",
@@ -218,7 +220,6 @@
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-22.md",
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-05.md",
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-09.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-13.md",
     "0.plugin/pdf/ImageNet-Classification-with-Deep-Convolutional-Neural-Networks.pdf",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
     "5.专题研究/AI论文精读",
