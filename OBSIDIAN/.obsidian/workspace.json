@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0e6df0b93d66c4d",
+        "id": "498470c502809f9f",
         "type": "tabs",
         "children": [
           {
-            "id": "c6e5db6f403bf0b4",
+            "id": "6ed52ce74d23d07e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945,
-    "collapsed": true
+    "width": 339.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -80,7 +79,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 25.31645569620253,
+        "dimension": 25.316455696202535,
         "children": [
           {
             "id": "9efa0f878fdc06cc",
@@ -119,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md",
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md"
+                "file": "HOME.md"
               }
             }
           },
@@ -187,14 +186,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c6e5db6f403bf0b4",
+  "active": "6ed52ce74d23d07e",
   "lastOpenFiles": [
-    "5.专题研究/考研复试/面试/专业相关面试问题/计算机相关面试问题.md",
+    "2.等待处理/Diary/2024-03-08.md",
+    "4.归档/学习/读书/微信读书同步/计算机/SQL必知必会（第5版）.md",
+    "4.归档/学习/读书/微信读书同步/医学健康/医路向前巍子给中国人的救护指南.md",
+    "4.归档/学习/读书/微信读书同步/计算机/操作系统导论.md",
+    "HOME.md",
+    "4.归档/学习/读书/微信读书同步/科学技术/离散的世界：那些年我们谈论的离散数学.md",
     "5.专题研究/考研复试/面试/专业相关面试问题/面试真题.md",
+    "5.专题研究/考研复试/面试/专业相关面试问题/计算机相关面试问题.md",
     "5.专题研究/考研复试/面试/专业相关面试问题/项目经历.md",
     "5.专题研究/考研复试/面试/专业相关面试问题/一些“较大”的问题.md",
     "5.专题研究/考研复试/面试/专业相关面试问题/专业相关问题.md",
-    "2.等待处理/Diary/2024-03-08.md",
     "0.plugin/template/dailynotes.md",
     "5.专题研究/考研复试/笔试/C语言-题目.md",
     "5.专题研究/考研复试/笔试/C语言-知识点.md",
@@ -215,11 +219,6 @@
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-01.md",
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-04.md",
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-18.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-19.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-20.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-22.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-05.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-09.md",
     "0.plugin/pdf/ImageNet-Classification-with-Deep-Convolutional-Neural-Networks.pdf",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
     "5.专题研究/AI论文精读",

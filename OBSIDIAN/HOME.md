@@ -19,16 +19,10 @@ var tag_total = dv.pages().file.etags.distinct().length
 // 任务总数
 var task_total = dv.pages().file.tasks.length
 
-var i = [dv.pages().length,
-		 dv.pages(`"4.归档"`).length,
-		 dv.pages(`"5.专题研究"`).length,
-		 dv.pages(`"4.归档/学习/读书/微信读书同步"`).length,
-		 dv.pages().file.etags.distinct().length,
-		 dv.pages().file.tasks.length]
-
+// 渲染内容
 var content = `在你使用Obsidian的**${daysDiff}**天里，
 			你一共写下了**${doc_total}**篇文档
-			共计 **869,941** 字
+			共计 **879,940** 字
 			图片 **1609** 张
 			读了**${doc_reading}**本书
 			完成了**${task_total}**个任务

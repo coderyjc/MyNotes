@@ -14,7 +14,7 @@
     },
     {
       "name": "wr_skey",
-      "value": "cGjeRPbq"
+      "value": "c5uj12f_"
     },
     {
       "name": "wr_pf",
@@ -46,7 +46,7 @@
   "insertAfter": "<!-- start of weread -->",
   "insertBefore": "<!-- end of weread -->",
   "dailyNotesFormat": "YYYY-MM-DD",
-  "lastCookieTime": 1709445892133,
+  "lastCookieTime": 1709892617680,
   "isCookieValid": true,
   "user": "行知",
   "userVid": "360415329",
@@ -56,5 +56,7 @@
   "fileNameType": "BOOK_NAME",
   "dailyNotesToggle": false,
   "notesBlacklist": "",
-  "showEmptyChapterTitleToggle": false
+  "showEmptyChapterTitleToggle": false,
+  "convertTags": false,
+  "saveArticleToggle": true
 }
