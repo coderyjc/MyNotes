@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "30c312dda27fa645",
+        "id": "72767c002e97cebb",
         "type": "tabs",
         "children": [
           {
-            "id": "a5469db84d1f263a",
+            "id": "954e92c77bf7c0b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/算法/PTA/输入输出相关问题.md",
+                "file": "2.等待处理/Diary/2024-03-08.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/算法/PTA/输入输出相关问题.md"
+                "file": "2.等待处理/Diary/2024-03-08.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/算法/PTA/输入输出相关问题.md",
+                "file": "2.等待处理/Diary/2024-03-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/算法/PTA/输入输出相关问题.md"
+                "file": "2.等待处理/Diary/2024-03-08.md"
               }
             }
           },
@@ -164,8 +164,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,9 +186,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a5469db84d1f263a",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
+    "5.专题研究/人工智能导论/人工智能导论.md",
+    "5.专题研究/人工智能导论/计算机视觉导论.md",
     "2.等待处理/Diary/2024-03-08.md",
+    "5.专题研究/算法/PTA/输入输出相关问题.md",
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-01.md",
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-04.md",
     "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-18.md",
@@ -215,9 +217,6 @@
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-49 打印学生选课清单.md",
     "5.专题研究/算法/PTA/刷题笔记.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/7-14 电话聊天狂人.md",
-    "5.专题研究/算法/PTA/排序问题.md",
-    "5.专题研究/算法/PTA/输入输出相关问题.md",
-    "5.专题研究/算法/PTA/数据结构与算法题目集/7-13 统计工龄.md",
     "5.专题研究/算法/PTA/数据结构与算法题目集/未命名.md.nssyncsc",
     "5.专题研究/算法/PTA/数据结构与算法题目集/assets/0)CN1@~]JV~)3P1[JT@JQYB_tmb.jpg",
     "5.专题研究/算法/未命名.md.nssyncsc",
