@@ -1,84 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "数据库概述",
-      "path": "5.专题研究/数据库原理/数据库概述.md"
+      "basename": "VuePress使用指南",
+      "path": "4.归档/学习/专业/前端/前端组件库/Vuepress/VuePress使用指南.md"
     },
     {
-      "basename": "_Content",
-      "path": "5.专题研究/数据库原理/_Content.md"
+      "basename": "docker-basic",
+      "path": "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "【总结】SpringBoot路径访问",
+      "path": "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【总结】SpringBoot路径访问.md"
     },
     {
-      "basename": "MySQL-视图(view)",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-视图(view).md"
+      "basename": "【整合】SpringBoot 整合Redis",
+      "path": "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【整合】SpringBoot 整合Redis.md"
     },
     {
-      "basename": "Node基础知识",
-      "path": "4.归档/学习/专业/前端/Nodejs/Nodejs-基础知识/Node基础知识.md"
+      "basename": "【总结】SpringBoot接收各种参数",
+      "path": "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【总结】SpringBoot接收各种参数.md"
     },
     {
-      "basename": "数据库系统结构",
-      "path": "5.专题研究/数据库原理/数据库系统结构.md"
+      "basename": "redis-basic",
+      "path": "4.归档/学习/专业/数据库/Redis/Redis-基础知识/redis-basic.md"
     },
     {
-      "basename": "index",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/index.md"
+      "basename": "Redis-将Redis作为系统服务启动，启动失败",
+      "path": "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/Redis-将Redis作为系统服务启动，启动失败.md"
     },
     {
-      "basename": "【9】C++",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md"
+      "basename": "Pasted image 20230102143250",
+      "path": "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/assets/Pasted image 20230102143250.png"
     },
     {
-      "basename": "【26】数据库原理",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md"
+      "basename": "Pasted image 20220131012553",
+      "path": "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/assets/Pasted image 20220131012553.png"
     },
     {
-      "basename": "项目经历",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md"
+      "basename": "python-spider",
+      "path": "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-spider.md"
     },
     {
-      "basename": "2024-03-09",
-      "path": "2.等待处理/Diary/2024-03-09.md"
+      "basename": "python-scrapy",
+      "path": "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-scrapy.md"
     },
     {
-      "basename": "index",
-      "path": "5.专题研究/考研复试/笔试/index.md"
+      "basename": "Annaconda安装以及镜像源配置",
+      "path": "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md"
     },
     {
-      "basename": "AHU-C语言-2017-2018A",
-      "path": "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018A.md"
+      "basename": "Webpack搭建本地服务器",
+      "path": "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/Webpack搭建本地服务器.md"
     },
     {
-      "basename": "C语言-文件操作",
-      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-文件操作.md"
+      "basename": "SQLTrick",
+      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-解决方案/SQLTrick.md"
     },
     {
-      "basename": "C语言-数组和字符串",
-      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md"
+      "basename": "docker-advanced",
+      "path": "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-advanced.md"
     },
     {
-      "basename": "C语言-string.h",
-      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/C语言-string.h.md"
+      "basename": "Design_Pattern",
+      "path": "4.归档/学习/专业/计算机基础/设计模式/Design_Pattern.md"
     },
     {
-      "basename": "刷题笔记",
-      "path": "5.专题研究/算法/PTA/刷题笔记.md"
+      "basename": "redis-advanced",
+      "path": "4.归档/学习/专业/数据库/Redis/Redis-基础知识/redis-advanced.md"
     },
     {
-      "basename": "输入输出相关问题",
-      "path": "5.专题研究/算法/PTA/输入输出相关问题.md"
+      "basename": "Pasted image 20230102143119",
+      "path": "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/assets/Pasted image 20230102143119.png"
     },
     {
-      "basename": "index-考研复试",
-      "path": "5.专题研究/考研复试/index-考研复试.md"
-    },
-    {
-      "basename": "【35】计算机网络",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
+      "basename": "索引优化分析",
+      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/索引优化分析.md"
     }
   ],
   "omittedPaths": [],

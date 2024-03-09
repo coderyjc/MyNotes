@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "27e6f419edd6f0ae",
+        "id": "185a4d024f527df1",
         "type": "tabs",
         "children": [
           {
-            "id": "dd5bc461c55b7890",
+            "id": "224dc9c8eaafb82c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/数据库原理/数据库概述.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -117,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "5.专题研究/数据库原理/数据库概述.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/数据库原理/数据库概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "5.专题研究/数据库原理/数据库概述.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -193,53 +183,53 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "dd5bc461c55b7890",
+  "active": "224dc9c8eaafb82c",
   "lastOpenFiles": [
-    "5.专题研究/数据库原理/_Content.md",
-    "HOME.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-视图(view).md",
-    "assets/Pasted image 20230102163659.png.md",
-    "assets",
-    "4.归档/学习/专业/前端/Nodejs/Nodejs-基础知识/Node基础知识.md",
-    "5.专题研究/数据库原理/数据库系统结构.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/index.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md",
+    "4.归档/学习/专业/Python/Python知识导图.md",
+    "4.归档/学习/专业/前端/前端组件库/Vuepress/VuePress使用指南.md",
+    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907083740.png",
+    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20221005233521.png",
+    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20221005231739.png",
+    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907083640.png",
+    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907081920.png",
+    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets",
+    "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md",
+    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets/Webpack.png",
+    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets/Pasted image 20230228185320.png",
+    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets/Pasted image 20230228185129.png",
+    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets/Pasted image 20230228185058.png",
+    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets/Pasted image 20230228183907.png",
+    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets",
+    "4.归档/学习/专业/前端/Vue.js/assets",
+    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/assets",
+    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-basic/assets",
+    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp-基础知识/images",
+    "4.归档/学习/专业/前端/Nodejs/Nodejs-基础知识/assets",
+    "4.归档/学习/专业/前端/JavaScript/JavaScript.imgs",
+    "4.归档/学习/专业/前端/HTML&CSS/assets",
+    "4.归档/学习/专业/前端/前端组件库/Express/assets",
+    "4.归档/学习/专业/前端/HTML&CSS/CSS/CSS3/CSS3.md",
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【总结】SpringBoot路径访问.md",
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【整合】SpringBoot 整合Redis.md",
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【总结】SpringBoot接收各种参数.md",
+    "4.归档/学习/专业/数据库/Redis/Redis-基础知识/redis-basic.md",
+    "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/Redis-将Redis作为系统服务启动，启动失败.md",
+    "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-spider.md",
+    "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-scrapy.md",
+    "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md",
+    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/Webpack搭建本地服务器.md",
+    "assets/Pasted image 20230102094800.png.md",
+    "CSS3.imgs/image-20211125190701305.png.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-解决方案/SQLTrick.md",
+    "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-advanced.md",
+    "4.归档/学习/专业/计算机基础/设计模式/Design_Pattern.md",
+    "4.归档/学习/专业/数据库/Redis/Redis-基础知识/redis-advanced.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/索引优化分析.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL高级-MySQL架构介绍.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/-mysql-advanced.md",
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/存储引擎（了解）.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md",
-    "2.等待处理/Diary/2024-03-09.md",
-    "5.专题研究/考研复试/笔试/index.md",
-    "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018A.md",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-文件操作.md",
-    "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240309163755.png",
-    "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/1295B969-4217-4630-ACCE-9289E91D9910.png",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md",
-    "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240309155647.png",
-    "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240309155630.png",
-    "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/C语言-string.h.md",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/未命名.md",
-    "5.专题研究/算法/PTA/刷题笔记.md",
-    "5.专题研究/算法/PTA/输入输出相关问题.md",
-    "5.专题研究/考研复试/index-考研复试.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【3】汇编语言.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md",
-    "5.专题研究/考研复试/面试/面试之后/如何选择导师.md",
-    "5.专题研究/考研复试/面试/面试之后",
-    "5.专题研究/考研复试/面试/专业相关面试题/【1】前沿知识.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/_daolun.md",
-    "5.专题研究/考研复试/assets/Pasted image 20230328195027.png",
-    "5.专题研究/考研复试/assets/Pasted image 20230311193945.png",
-    "5.专题研究/考研复试/assets/Pasted image 20230311193859.png",
-    "5.专题研究/考研复试/面试/自我介绍",
-    "5.专题研究/考研复试/面试/专业无关面试题",
-    "5.专题研究/考研复试/面试/专业相关面试题",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-库函数",
-    "5",
-    "5.专题研究/考研复试/笔试/牛客刷题",
-    "5.专题研究/考研复试/笔试/历年真题记录-C语言",
-    "5.专题研究/算法/PTA/数据结构与算法题目集/assets/0)CN1@~]JV~)3P1[JT@JQYB_tmb.jpg",
-    "5.专题研究/算法/算法专栏/assets/Pasted image 20240306105405.png",
-    "5.专题研究/算法/算法专栏/assets/Pasted image 20240306105234.png"
+    "5.专题研究/数据库原理/数据库系统结构.md",
+    "5.专题研究/数据库原理/数据库概述.md"
   ]
 }
