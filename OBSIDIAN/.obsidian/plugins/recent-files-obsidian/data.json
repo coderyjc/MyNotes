@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "数据库概述",
+      "path": "5.专题研究/数据库原理/数据库概述.md"
+    },
+    {
       "basename": "_Content",
       "path": "5.专题研究/数据库原理/_Content.md"
     },
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "MySQL-视图(view)",
       "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-视图(view).md"
+    },
+    {
+      "basename": "Node基础知识",
+      "path": "4.归档/学习/专业/前端/Nodejs/Nodejs-基础知识/Node基础知识.md"
     },
     {
       "basename": "数据库系统结构",
@@ -61,24 +73,12 @@
       "path": "5.专题研究/算法/PTA/输入输出相关问题.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
       "basename": "index-考研复试",
       "path": "5.专题研究/考研复试/index-考研复试.md"
     },
     {
       "basename": "【35】计算机网络",
       "path": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
-    },
-    {
-      "basename": "【3】汇编语言",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【3】汇编语言.md"
-    },
-    {
-      "basename": "【23】OS",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md"
     }
   ],
   "omittedPaths": [],
