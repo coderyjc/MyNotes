@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-08.md",
-                "mode": "source",
+                "file": "5.专题研究/考研复试/笔试/C语言-题目.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-08.md"
+                "file": "5.专题研究/考研复试/笔试/C语言-题目.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-08.md",
+                "file": "5.专题研究/考研复试/笔试/C语言-题目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "341ad80d48b74e47",
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-08.md"
+                "file": "5.专题研究/考研复试/笔试/C语言-题目.md"
               }
             }
           },
@@ -186,8 +187,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "6ed52ce74d23d07e",
   "lastOpenFiles": [
+    "5.专题研究/考研复试/笔试/历年真题",
+    "5.专题研究/考研复试/机试/编程题/pi值计算.md",
+    "5.专题研究/考研复试/机试/编程题/其他题.md",
+    "2.等待处理/Diary/2024-03-09.md",
     "2.等待处理/Diary/2024-03-08.md",
     "4.归档/学习/读书/微信读书同步/计算机/SQL必知必会（第5版）.md",
     "4.归档/学习/读书/微信读书同步/医学健康/医路向前巍子给中国人的救护指南.md",
@@ -215,10 +220,6 @@
     "2.等待处理/Diary/2024-03-07.md",
     "3.将来可能/人工智能导论/人工智能导论.md",
     "3.将来可能/人工智能导论/计算机视觉导论.md",
-    "5.专题研究/算法/PTA/输入输出相关问题.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-01.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-04.md",
-    "2.等待处理/Diary/Archieve/2023/2023-03/2023-03-18.md",
     "0.plugin/pdf/ImageNet-Classification-with-Deep-Convolutional-Neural-Networks.pdf",
     "0.plugin/pdf/Deep-Residual-Learning-for-Image-Recognition.pdf",
     "5.专题研究/AI论文精读",
