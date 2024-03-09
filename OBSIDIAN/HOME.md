@@ -4,7 +4,7 @@
 
 // 计算使用天数
 var today = new Date(); 
-var startDate = new Date('2022-02-01');
+var startDate = new Date('2021-12-22');
 var timeDiff = today.getTime() - startDate.getTime(); 
 var daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
 

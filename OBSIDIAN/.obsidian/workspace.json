@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "HOME.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md"
               }
             }
           }
@@ -195,6 +195,9 @@
   },
   "active": "224dc9c8eaafb82c",
   "lastOpenFiles": [
+    "5.专题研究/数据库原理/数据库系统结构.md",
+    "2.等待处理/Diary/2024-03-09.md",
+    "HOME.md",
     "4.归档/学习/专业/Python/Python知识导图.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/VuePress使用指南.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907083740.png",
@@ -237,9 +240,6 @@
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/索引优化分析.md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL高级-MySQL架构介绍.md",
     "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/-mysql-advanced.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/存储引擎（了解）.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
-    "5.专题研究/数据库原理/数据库系统结构.md",
-    "5.专题研究/数据库原理/数据库概述.md"
+    "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/存储引擎（了解）.md"
   ]
 }
