@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d75df20c756160f7",
+        "id": "b3a2f6d7621056f7",
         "type": "tabs",
         "children": [
           {
-            "id": "671154ffa07a69f1",
+            "id": "4c219af8cb5378d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/C语言-string.h.md",
-                "mode": "source",
+                "file": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/C语言-string.h.md"
+                "file": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/C语言-string.h.md",
+                "file": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,12 +139,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "341ad80d48b74e47",
         "type": "tabs",
-        "dimension": 64.69968387776606,
+        "dimension": 32.34984193888303,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -152,10 +153,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/C语言-string.h.md"
+                "file": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "51aaf67e9a9e3bd3",
+        "type": "tabs",
+        "dimension": 32.34984193888303,
+        "children": [
           {
             "id": "18460b0ef5be395a",
             "type": "leaf",
@@ -186,12 +194,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "671154ffa07a69f1",
+  "active": "4c219af8cb5378d0",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03-09.md",
-    "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/C语言-string.h.md",
-    "HOME.md",
+    "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018A.md",
+    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md",
+    "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240309155647.png",
+    "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240309155630.png",
+    "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets",
     "5.专题研究/考研复试/笔试/index.md",
+    "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/C语言-string.h.md",
+    "4.归档/学习/专业/计算机基础/C语言/C语言-库函数/未命名.md",
+    "5.专题研究/算法/PTA/刷题笔记.md",
+    "5.专题研究/算法/PTA/输入输出相关问题.md",
+    "2.等待处理/Diary/2024-03-09.md",
+    "HOME.md",
     "5.专题研究/考研复试/index-考研复试.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【3】汇编语言.md",
@@ -210,11 +226,6 @@
     "5.专题研究/考研复试/面试/专业相关面试题/【5】数字模拟电路.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【3】Java.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【6】C语言.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【9】编译原理.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【8】计算机体系结构.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【18】组成原理.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【10】离散数学.md",
     "5.专题研究/考研复试/assets/Pasted image 20230328195027.png",
     "5.专题研究/考研复试/assets/Pasted image 20230311193945.png",
     "5.专题研究/考研复试/assets/Pasted image 20230311193859.png",
@@ -226,13 +237,10 @@
     "5.专题研究/考研复试/笔试/牛客刷题",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言",
     "5.专题研究/考研复试/机试",
-    "5.专题研究/考研复试/面试",
     "5.专题研究/算法/PTA/数据结构与算法题目集/assets/0)CN1@~]JV~)3P1[JT@JQYB_tmb.jpg",
     "5.专题研究/算法/算法专栏/assets/Pasted image 20240306105405.png",
     "5.专题研究/算法/算法专栏/assets/Pasted image 20240306105234.png",
     "5.专题研究/算法/算法专栏/assets/Pasted image 20240306104633.png",
-    "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085843.png",
-    "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085450.png",
-    "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085232.png"
+    "5.专题研究/CSAPP/第三章 程序的机器级表示/assets/Pasted image 20240305085843.png"
   ]
 }
