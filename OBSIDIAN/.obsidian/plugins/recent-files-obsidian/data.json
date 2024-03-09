@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "C语言-数组和字符串",
-      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md"
+      "basename": "_Content",
+      "path": "5.专题研究/数据库原理/_Content.md"
+    },
+    {
+      "basename": "MySQL-视图(view)",
+      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL-视图(view).md"
+    },
+    {
+      "basename": "数据库系统结构",
+      "path": "5.专题研究/数据库原理/数据库系统结构.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/index.md"
+    },
+    {
+      "basename": "【9】C++",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md"
+    },
+    {
+      "basename": "【26】数据库原理",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md"
+    },
+    {
+      "basename": "项目经历",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md"
+    },
+    {
+      "basename": "2024-03-09",
+      "path": "2.等待处理/Diary/2024-03-09.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/考研复试/笔试/index.md"
     },
     {
       "basename": "AHU-C语言-2017-2018A",
       "path": "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018A.md"
     },
     {
-      "basename": "index",
-      "path": "5.专题研究/考研复试/笔试/index.md"
+      "basename": "C语言-文件操作",
+      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-文件操作.md"
+    },
+    {
+      "basename": "C语言-数组和字符串",
+      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-数组和字符串.md"
     },
     {
       "basename": "C语言-string.h",
@@ -23,10 +59,6 @@
     {
       "basename": "输入输出相关问题",
       "path": "5.专题研究/算法/PTA/输入输出相关问题.md"
-    },
-    {
-      "basename": "2024-03-09",
-      "path": "2.等待处理/Diary/2024-03-09.md"
     },
     {
       "basename": "HOME",
