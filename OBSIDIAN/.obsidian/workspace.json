@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "185a4d024f527df1",
+        "id": "987b2d9d3c85aa23",
         "type": "tabs",
         "children": [
           {
-            "id": "224dc9c8eaafb82c",
+            "id": "53c20439b726f822",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
-                "mode": "preview",
+                "file": "4.归档/生活/游戏/雀食/菜谱.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
+                "file": "4.归档/生活/游戏/雀食/菜谱.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
+                "file": "4.归档/生活/游戏/雀食/菜谱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
+                "file": "4.归档/生活/游戏/雀食/菜谱.md"
               }
             }
           }
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,20 +195,29 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "224dc9c8eaafb82c",
+  "active": "53c20439b726f822",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-03-10.md",
+    "4.归档/生活/游戏/雀食/菜谱.md",
+    "4.归档/生活/游戏/雀食",
+    "5.专题研究/数据库原理/数据库保护.md",
+    "5.专题研究/数据库原理/数据库备份和恢复.md",
+    "5.专题研究/数据库原理/并发控制.md",
+    "5.专题研究/数据库原理/事务.md",
+    "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
+    "5.专题研究/数据库原理/assets/Pasted image 20240310170919.png",
+    "5.专题研究/数据库原理/assets/Pasted image 20240310170831.png",
+    "5.专题研究/数据库原理/assets/Pasted image 20240310170841.png",
+    "5.专题研究/数据库原理/数据库系统结构.md",
+    "5.专题研究/数据库原理/_Content.md",
     "5.专题研究/数据库原理/assets/Pasted image 20240310154946.png",
     "5.专题研究/数据库原理/assets/Pasted image 20240310154936.png",
     "5.专题研究/数据库原理/assets/Pasted image 20240310154813.png",
     "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
-    "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
     "HOME.md",
     "5.专题研究/数据库原理/assets/Pasted image 20240310150508.png",
     "2.等待处理/Tasks/index-tasks.md",
-    "2.等待处理/Diary/2024-03-10.md",
     "2.等待处理/Diary/2024-03-09.md",
-    "5.专题研究/数据库原理/_Content.md",
-    "5.专题研究/数据库原理/数据库系统结构.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2018-2019A.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018B.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240310090154.png",
@@ -215,10 +225,6 @@
     "4.归档/学习/专业/Python/Python知识导图.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/VuePress使用指南.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907083740.png",
-    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20221005233521.png",
-    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20221005231739.png",
-    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907083640.png",
-    "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907081920.png",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets",
     "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md",
     "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets",
@@ -229,7 +235,6 @@
     "4.归档/学习/专业/前端/Nodejs/Nodejs-基础知识/assets",
     "4.归档/学习/专业/前端/JavaScript/JavaScript.imgs",
     "4.归档/学习/专业/前端/HTML&CSS/assets",
-    "4.归档/学习/专业/前端/前端组件库/Express/assets",
     "4.归档/学习/专业/前端/HTML&CSS/CSS/CSS3/CSS3.md",
     "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【总结】SpringBoot路径访问.md",
     "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【整合】SpringBoot 整合Redis.md",
@@ -237,10 +242,6 @@
     "4.归档/学习/专业/数据库/Redis/Redis-基础知识/redis-basic.md",
     "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/Redis-将Redis作为系统服务启动，启动失败.md",
     "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-spider.md",
-    "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-scrapy.md",
-    "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/Webpack搭建本地服务器.md",
-    "assets/Pasted image 20230102094800.png.md",
-    "CSS3.imgs/image-20211125190701305.png.md"
+    "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-scrapy.md"
   ]
 }

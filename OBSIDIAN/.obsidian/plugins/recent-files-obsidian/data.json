@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "菜谱",
+      "path": "4.归档/生活/游戏/雀食/菜谱.md"
+    },
+    {
+      "basename": "2024-03-10",
+      "path": "2.等待处理/Diary/2024-03-10.md"
+    },
+    {
+      "basename": "并发控制",
+      "path": "5.专题研究/数据库原理/并发控制.md"
+    },
+    {
+      "basename": "数据库保护",
+      "path": "5.专题研究/数据库原理/数据库保护.md"
+    },
+    {
       "basename": "关系运算和关系数据库理论",
       "path": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
+    },
+    {
+      "basename": "Pasted image 20240310170831",
+      "path": "5.专题研究/数据库原理/assets/Pasted image 20240310170831.png"
+    },
+    {
+      "basename": "数据库系统结构",
+      "path": "5.专题研究/数据库原理/数据库系统结构.md"
+    },
+    {
+      "basename": "_Content",
+      "path": "5.专题研究/数据库原理/_Content.md"
     },
     {
       "basename": "【26】数据库原理",
@@ -17,20 +45,8 @@
       "path": "2.等待处理/Tasks/index-tasks.md"
     },
     {
-      "basename": "2024-03-10",
-      "path": "2.等待处理/Diary/2024-03-10.md"
-    },
-    {
       "basename": "2024-03-09",
       "path": "2.等待处理/Diary/2024-03-09.md"
-    },
-    {
-      "basename": "_Content",
-      "path": "5.专题研究/数据库原理/_Content.md"
-    },
-    {
-      "basename": "数据库系统结构",
-      "path": "5.专题研究/数据库原理/数据库系统结构.md"
     },
     {
       "basename": "AHU-C语言-2018-2019A",
@@ -63,22 +79,6 @@
     {
       "basename": "redis-basic",
       "path": "4.归档/学习/专业/数据库/Redis/Redis-基础知识/redis-basic.md"
-    },
-    {
-      "basename": "Redis-将Redis作为系统服务启动，启动失败",
-      "path": "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/Redis-将Redis作为系统服务启动，启动失败.md"
-    },
-    {
-      "basename": "Pasted image 20230102143250",
-      "path": "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/assets/Pasted image 20230102143250.png"
-    },
-    {
-      "basename": "Pasted image 20220131012553",
-      "path": "4.归档/学习/专业/数据库/Redis/Redis-Bug汇总/assets/Pasted image 20220131012553.png"
-    },
-    {
-      "basename": "python-spider",
-      "path": "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-spider.md"
     }
   ],
   "omittedPaths": [],
