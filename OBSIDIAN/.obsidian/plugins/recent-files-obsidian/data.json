@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "关系运算和关系数据库理论",
+      "path": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
+    },
+    {
       "basename": "2024-03-10",
       "path": "2.等待处理/Diary/2024-03-10.md"
     },
     {
-      "basename": "【26】数据库原理",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md"
+      "basename": "2024-03-09",
+      "path": "2.等待处理/Diary/2024-03-09.md"
+    },
+    {
+      "basename": "_Content",
+      "path": "5.专题研究/数据库原理/_Content.md"
     },
     {
       "basename": "数据库系统结构",
       "path": "5.专题研究/数据库原理/数据库系统结构.md"
     },
     {
-      "basename": "2024-03-09",
-      "path": "2.等待处理/Diary/2024-03-09.md"
+      "basename": "AHU-C语言-2018-2019A",
+      "path": "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2018-2019A.md"
+    },
+    {
+      "basename": "AHU-C语言-2017-2018B",
+      "path": "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018B.md"
+    },
+    {
+      "basename": "【26】数据库原理",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md"
     },
     {
       "basename": "HOME",
@@ -63,22 +79,6 @@
     {
       "basename": "python-scrapy",
       "path": "4.归档/学习/专业/Python/Spider/Python爬虫-基础知识/python-scrapy.md"
-    },
-    {
-      "basename": "Annaconda安装以及镜像源配置",
-      "path": "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md"
-    },
-    {
-      "basename": "Webpack搭建本地服务器",
-      "path": "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/Webpack搭建本地服务器.md"
-    },
-    {
-      "basename": "SQLTrick",
-      "path": "4.归档/学习/专业/数据库/MySQL/MySQL-解决方案/SQLTrick.md"
-    },
-    {
-      "basename": "docker-advanced",
-      "path": "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-advanced.md"
     }
   ],
   "omittedPaths": [],
