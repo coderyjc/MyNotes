@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
+                "file": "2.等待处理/Diary/2024-03-10.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945,
-    "collapsed": true
+    "width": 339.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -119,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
+                "file": "2.等待处理/Diary/2024-03-10.md"
               }
             }
           },
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
+                "file": "2.等待处理/Diary/2024-03-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
+                "file": "2.等待处理/Diary/2024-03-10.md"
               }
             }
           }
@@ -198,8 +197,9 @@
   "active": "224dc9c8eaafb82c",
   "lastOpenFiles": [
     "2.等待处理/Diary/2024-03-10.md",
-    "2.等待处理/Diary/2024-03-09.md",
+    "HOME.md",
     "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
+    "2.等待处理/Diary/2024-03-09.md",
     "5.专题研究/数据库原理/_Content.md",
     "5.专题研究/数据库原理/数据库系统结构.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2018-2019A.md",
@@ -207,7 +207,6 @@
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240310090154.png",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240310090037.png",
     "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
-    "HOME.md",
     "4.归档/学习/专业/Python/Python知识导图.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/VuePress使用指南.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907083740.png",
