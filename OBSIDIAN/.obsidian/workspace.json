@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-10.md",
-                "mode": "source",
+                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945
+    "width": 339.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -118,7 +119,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-10.md"
+                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
               }
             }
           },
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-10.md",
+                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-10.md"
+                "file": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
               }
             }
           }
@@ -175,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,9 +196,15 @@
   },
   "active": "224dc9c8eaafb82c",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03-10.md",
-    "HOME.md",
+    "5.专题研究/数据库原理/assets/Pasted image 20240310154946.png",
+    "5.专题研究/数据库原理/assets/Pasted image 20240310154936.png",
+    "5.专题研究/数据库原理/assets/Pasted image 20240310154813.png",
+    "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
     "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
+    "HOME.md",
+    "5.专题研究/数据库原理/assets/Pasted image 20240310150508.png",
+    "2.等待处理/Tasks/index-tasks.md",
+    "2.等待处理/Diary/2024-03-10.md",
     "2.等待处理/Diary/2024-03-09.md",
     "5.专题研究/数据库原理/_Content.md",
     "5.专题研究/数据库原理/数据库系统结构.md",
@@ -206,7 +212,6 @@
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018B.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240310090154.png",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/assets/Pasted image 20240310090037.png",
-    "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
     "4.归档/学习/专业/Python/Python知识导图.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/VuePress使用指南.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907083740.png",
@@ -216,9 +221,6 @@
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets/Pasted image 20220907081920.png",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets",
     "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets/Webpack.png",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets/Pasted image 20230228185320.png",
-    "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets/Pasted image 20230228185129.png",
     "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets",
     "4.归档/学习/专业/前端/Vue.js/assets",
     "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/assets",
@@ -239,8 +241,6 @@
     "4.归档/学习/专业/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md",
     "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/Webpack搭建本地服务器.md",
     "assets/Pasted image 20230102094800.png.md",
-    "CSS3.imgs/image-20211125190701305.png.md",
-    "4.归档/学习/专业/数据库/MySQL/MySQL-解决方案/SQLTrick.md",
-    "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-advanced.md"
+    "CSS3.imgs/image-20211125190701305.png.md"
   ]
 }
