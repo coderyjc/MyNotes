@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2db887802b17ab4f",
+        "id": "8824c9d858e6b55f",
         "type": "tabs",
         "children": [
           {
-            "id": "aec529a6e6612ec2",
+            "id": "9f9db1e6e7e73f79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-11.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -117,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-11.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,8 +131,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "341ad80d48b74e47",
@@ -152,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-11.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -194,8 +183,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "aec529a6e6612ec2",
+  "active": "9f9db1e6e7e73f79",
   "lastOpenFiles": [
+    "0.plugin/template/dailynotes.md",
+    "5.专题研究/考研复试/面试/其他话术.md",
+    "5.专题研究/考研复试/index-考研复试.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/index.md",
+    "2.等待处理/Diary/2024-03-11.md",
+    "2.等待处理/Diary/2024-03/2024-03-07.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【1】前沿知识.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【3】汇编语言.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【3】数学建模.md",
@@ -216,12 +211,6 @@
     "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
-    "2.等待处理/Diary/2024-03-11.md",
-    "4.归档/学习/专业/计算机基础/数据库原理/数据库备份和恢复.md",
-    "4.归档/学习/专业/计算机基础/数据库原理/数据库保护.md",
-    "4.归档/学习/专业/计算机基础/数据库原理/_Content.md",
-    "4.归档/学习/专业/计算机基础/数据库原理/数据库设计.md",
-    "4.归档/学习/专业/计算机基础/数据库原理/并发控制.md",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311194354.png",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311194310.png",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311190423.png",
