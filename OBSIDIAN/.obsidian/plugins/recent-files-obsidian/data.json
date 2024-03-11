@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "C语言-复合类型",
+      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-复合类型.md"
+    },
+    {
       "basename": "2024-03-11",
       "path": "2.等待处理/Diary/2024-03-11.md"
     },
     {
-      "basename": "电子书搜索",
-      "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
-    },
-    {
       "basename": "2024-03-10",
       "path": "2.等待处理/Diary/2024-03-10.md"
+    },
+    {
+      "basename": "电子书搜索",
+      "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
     },
     {
       "basename": "数据库备份和恢复",
@@ -75,10 +79,6 @@
     {
       "basename": "AHU-C语言-2017-2018B",
       "path": "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018B.md"
-    },
-    {
-      "basename": "VuePress使用指南",
-      "path": "4.归档/学习/专业/前端/前端组件库/Vuepress/VuePress使用指南.md"
     }
   ],
   "omittedPaths": [],

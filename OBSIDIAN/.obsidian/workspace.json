@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "aa8f4e9081f330a2",
+        "id": "f4a5df5b1fae07ee",
         "type": "tabs",
         "children": [
           {
-            "id": "ab1dc18666a64ffa",
+            "id": "4fd6077dc0542c12",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-11.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zlib",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -70,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945,
-    "collapsed": true
+    "width": 339.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -118,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-11.md"
-              }
+              "state": {}
             }
           },
           {
@@ -129,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-11.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -176,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,11 +183,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ab1dc18666a64ffa",
+  "active": "4fd6077dc0542c12",
   "lastOpenFiles": [
-    "4.归档/学习/方法论/搜索/电子书搜索.md",
+    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-复合类型.md",
     "2.等待处理/Diary/2024-03-11.md",
     "2.等待处理/Diary/2024-03-10.md",
+    "4.归档/学习/方法论/搜索/电子书搜索.md",
     "5.专题研究/数据库原理/数据库设计.md",
     "5.专题研究/数据库原理/数据库备份和恢复.md",
     "5.专题研究/数据库原理/数据库概述.md",
@@ -241,7 +230,6 @@
     "4.归档/学习/专业/前端/HTML&CSS/assets",
     "4.归档/学习/专业/前端/HTML&CSS/CSS/CSS3/CSS3.md",
     "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【总结】SpringBoot路径访问.md",
-    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【整合】SpringBoot 整合Redis.md",
-    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【总结】SpringBoot接收各种参数.md"
+    "4.归档/学习/专业/Java后端/spring/SprintBoot/SprintBoot-解决方案/【整合】SpringBoot 整合Redis.md"
   ]
 }
