@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f4a5df5b1fae07ee",
+        "id": "2ce97bb5ddd2fa25",
         "type": "tabs",
         "children": [
           {
-            "id": "4fd6077dc0542c12",
+            "id": "4a0a67419b97480f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.51103591918945
+    "width": 339.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -139,7 +140,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "341ad80d48b74e47",
@@ -175,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,46 +196,45 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "4a0a67419b97480f",
   "lastOpenFiles": [
+    "5.专题研究/数据库原理/数据库设计.md",
+    "5.专题研究/数据库原理/_Content.md",
+    "5.专题研究/数据库原理/数据库概述.md",
+    "5.专题研究/数据库原理/数据库备份和恢复.md",
+    "5.专题研究/数据库原理/数据库保护.md",
+    "5.专题研究/数据库原理/assets/Pasted image 20240311162209.png",
+    "5.专题研究/数据库原理/并发控制.md",
+    "5.专题研究/数据库原理/assets/Pasted image 20240311160342.png",
+    "5.专题研究/数据库原理/assets/Pasted image 20240311152835.png",
+    "5.专题研究/数据库原理/assets/Pasted image 20240311152632.png",
+    "5.专题研究/数据库原理/assets/Pasted image 20240311152433.png",
     "2.等待处理/Diary/2024-03-11.md",
-    "2.等待处理/Diary/2024-03-10.md",
+    "5.专题研究/数据库原理/事务.md",
+    "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
     "5.专题研究/考研复试/笔试/index.md",
+    "4.归档/生活/游戏/雀食/菜谱.md",
+    "2.等待处理/Diary/2024-03-10.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2018-2019B.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2018-2019A.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018A.md",
     "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018B.md",
     "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-复合类型.md",
     "4.归档/学习/方法论/搜索/电子书搜索.md",
-    "5.专题研究/数据库原理/数据库设计.md",
-    "5.专题研究/数据库原理/数据库备份和恢复.md",
-    "5.专题研究/数据库原理/数据库概述.md",
-    "5.专题研究/数据库原理/关系运算和关系数据库理论.md",
     "HOME.md",
     "5.专题研究/数据库原理/assets/Pasted image 20240310204335.png",
     "5.专题研究/数据库原理/assets/Pasted image 20240310204148.png",
-    "5.专题研究/数据库原理/_Content.md",
-    "5.专题研究/数据库原理/并发控制.md",
     "5.专题研究/数据库原理/assets/Pasted image 20240310201828.png",
     "5.专题研究/数据库原理/assets/Pasted image 20240310200728.png",
-    "4.归档/生活/游戏/雀食/菜谱.md",
     "4.归档/生活/游戏/雀食",
-    "5.专题研究/数据库原理/数据库保护.md",
-    "5.专题研究/数据库原理/事务.md",
     "5.专题研究/数据库原理/assets/Pasted image 20240310170919.png",
-    "5.专题研究/数据库原理/assets/Pasted image 20240310170831.png",
-    "5.专题研究/数据库原理/assets/Pasted image 20240310170841.png",
     "5.专题研究/数据库原理/数据库系统结构.md",
-    "5.专题研究/数据库原理/assets/Pasted image 20240310154946.png",
-    "5.专题研究/数据库原理/assets/Pasted image 20240310154936.png",
-    "5.专题研究/数据库原理/assets/Pasted image 20240310154813.png",
     "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
     "2.等待处理/Tasks/index-tasks.md",
     "2.等待处理/Diary/2024-03-09.md",
     "4.归档/学习/专业/Python/Python知识导图.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/VuePress使用指南.md",
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets",
-    "4.归档/学习/专业/DevOps/Docker/Docker-基础知识/docker-basic.md",
     "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets",
     "4.归档/学习/专业/前端/Vue.js/assets",
     "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/assets",

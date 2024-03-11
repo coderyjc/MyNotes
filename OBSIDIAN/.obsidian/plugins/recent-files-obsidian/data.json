@@ -5,16 +5,48 @@
       "path": "2.等待处理/Diary/2024-03-11.md"
     },
     {
+      "basename": "数据库设计",
+      "path": "5.专题研究/数据库原理/数据库设计.md"
+    },
+    {
+      "basename": "_Content",
+      "path": "5.专题研究/数据库原理/_Content.md"
+    },
+    {
+      "basename": "数据库概述",
+      "path": "5.专题研究/数据库原理/数据库概述.md"
+    },
+    {
+      "basename": "数据库备份和恢复",
+      "path": "5.专题研究/数据库原理/数据库备份和恢复.md"
+    },
+    {
+      "basename": "数据库保护",
+      "path": "5.专题研究/数据库原理/数据库保护.md"
+    },
+    {
+      "basename": "并发控制",
+      "path": "5.专题研究/数据库原理/并发控制.md"
+    },
+    {
+      "basename": "事务",
+      "path": "5.专题研究/数据库原理/事务.md"
+    },
+    {
+      "basename": "关系运算和关系数据库理论",
+      "path": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/考研复试/笔试/index.md"
+    },
+    {
       "basename": "菜谱",
       "path": "4.归档/生活/游戏/雀食/菜谱.md"
     },
     {
       "basename": "2024-03-10",
       "path": "2.等待处理/Diary/2024-03-10.md"
-    },
-    {
-      "basename": "index",
-      "path": "5.专题研究/考研复试/笔试/index.md"
     },
     {
       "basename": "AHU-C语言-2018-2019B",
@@ -41,44 +73,12 @@
       "path": "4.归档/学习/方法论/搜索/电子书搜索.md"
     },
     {
-      "basename": "数据库备份和恢复",
-      "path": "5.专题研究/数据库原理/数据库备份和恢复.md"
-    },
-    {
-      "basename": "数据库设计",
-      "path": "5.专题研究/数据库原理/数据库设计.md"
-    },
-    {
-      "basename": "数据库概述",
-      "path": "5.专题研究/数据库原理/数据库概述.md"
-    },
-    {
-      "basename": "关系运算和关系数据库理论",
-      "path": "5.专题研究/数据库原理/关系运算和关系数据库理论.md"
-    },
-    {
       "basename": "HOME",
       "path": "HOME.md"
     },
     {
-      "basename": "_Content",
-      "path": "5.专题研究/数据库原理/_Content.md"
-    },
-    {
-      "basename": "并发控制",
-      "path": "5.专题研究/数据库原理/并发控制.md"
-    },
-    {
-      "basename": "数据库保护",
-      "path": "5.专题研究/数据库原理/数据库保护.md"
-    },
-    {
       "basename": "Pasted image 20240310170831",
       "path": "5.专题研究/数据库原理/assets/Pasted image 20240310170831.png"
-    },
-    {
-      "basename": "数据库系统结构",
-      "path": "5.专题研究/数据库原理/数据库系统结构.md"
     }
   ],
   "omittedPaths": [],
