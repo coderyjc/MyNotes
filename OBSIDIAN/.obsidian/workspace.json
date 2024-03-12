@@ -4,11 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8824c9d858e6b55f",
+        "id": "9acc327d6029618b",
         "type": "tabs",
         "children": [
           {
-            "id": "9f9db1e6e7e73f79",
+            "id": "0adcd49c11d6c5de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "54714a5c8f516a4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +32,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "5c05c0102b4836b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,10 +76,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:5.专题研究/考研复试/面试/专业相关面试题  static ",
                 "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
+                "explainSearch": false,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -118,7 +145,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-12.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
               }
             }
           },
@@ -128,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-12.md",
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +171,7 @@
       {
         "id": "341ad80d48b74e47",
         "type": "tabs",
-        "dimension": 57.85036880927292,
+        "dimension": 24.130663856691253,
         "children": [
           {
             "id": "a4c7ff5f1eb0069f",
@@ -152,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-12.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
               }
             }
           }
@@ -161,7 +188,7 @@
       {
         "id": "51aaf67e9a9e3bd3",
         "type": "tabs",
-        "dimension": 21.074815595363543,
+        "dimension": 54.794520547945204,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -193,12 +220,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9f9db1e6e7e73f79",
+  "active": "5c05c0102b4836b2",
   "lastOpenFiles": [
-    "5.专题研究/算法/PTA/输入输出相关问题.md",
     "2.等待处理/Diary/2024-03-12.md",
-    "HOME.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md",
+    "2.等待处理/Tasks/index-tasks.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【6】C语言.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【8】计算机体系结构.md",
     "5.专题研究/考研复试/面试/其他话术.md",
+    "5.专题研究/算法/PTA/输入输出相关问题.md",
+    "HOME.md",
     "5.专题研究/考研复试/index-考研复试.md",
     "0.plugin/template/dailynotes.md",
     "5.专题研究/考研复试/面试/专业相关面试题/index.md",
@@ -212,15 +245,9 @@
     "5.专题研究/考研复试/面试/专业相关面试题/【3】Java.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【4】数字逻辑.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【5】数字模拟电路.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【6】C语言.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【8】计算机体系结构.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【9】编译原理.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【10】扩展知识.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【10】离散数学.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【18】组成原理.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【21】数据结构和算法.md",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311194354.png",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311194310.png",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311190423.png",
