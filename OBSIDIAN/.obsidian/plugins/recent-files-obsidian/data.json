@@ -5,8 +5,56 @@
       "path": "5.专题研究/考研复试/面试/专业相关面试题/【21】数据结构和算法.md"
     },
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "2024-03-12",
       "path": "2.等待处理/Diary/2024-03-12.md"
+    },
+    {
+      "basename": "Kruskal算法",
+      "path": "5.专题研究/算法/算法专栏/Kruskal算法.md"
+    },
+    {
+      "basename": "Floyd算法",
+      "path": "5.专题研究/算法/算法专栏/Floyd算法.md"
+    },
+    {
+      "basename": "Dijkstra算法",
+      "path": "5.专题研究/算法/算法专栏/Dijkstra算法.md"
+    },
+    {
+      "basename": "动态规划算法",
+      "path": "5.专题研究/算法/算法专栏/动态规划算法.md"
+    },
+    {
+      "basename": "数据结构与算法面试题",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/数据结构与算法面试题.md"
+    },
+    {
+      "basename": "index",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/index.md"
+    },
+    {
+      "basename": "【6】C语言",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【6】C语言.md"
+    },
+    {
+      "basename": "C语言-内存管理",
+      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-内存管理.md"
+    },
+    {
+      "basename": "7-10 公路村村通",
+      "path": "5.专题研究/算法/PTA/数据结构与算法题目集/7-10 公路村村通.md"
+    },
+    {
+      "basename": "图",
+      "path": "5.专题研究/算法/数据结构/图.md"
+    },
+    {
+      "basename": "_算法",
+      "path": "5.专题研究/算法/算法专栏/_算法.md"
     },
     {
       "basename": "【18】组成原理",
@@ -31,54 +79,6 @@
     {
       "basename": "index-tasks",
       "path": "2.等待处理/Tasks/index-tasks.md"
-    },
-    {
-      "basename": "【6】C语言",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【6】C语言.md"
-    },
-    {
-      "basename": "【8】计算机体系结构",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【8】计算机体系结构.md"
-    },
-    {
-      "basename": "其他话术",
-      "path": "5.专题研究/考研复试/面试/其他话术.md"
-    },
-    {
-      "basename": "输入输出相关问题",
-      "path": "5.专题研究/算法/PTA/输入输出相关问题.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "index-考研复试",
-      "path": "5.专题研究/考研复试/index-考研复试.md"
-    },
-    {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
-    },
-    {
-      "basename": "index",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/index.md"
-    },
-    {
-      "basename": "2024-03-11",
-      "path": "2.等待处理/Diary/2024-03-11.md"
-    },
-    {
-      "basename": "2024-03-07",
-      "path": "2.等待处理/Diary/2024-03/2024-03-07.md"
-    },
-    {
-      "basename": "【1】前沿知识",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【1】前沿知识.md"
-    },
-    {
-      "basename": "【3】汇编语言",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【3】汇编语言.md"
     }
   ],
   "omittedPaths": [],
