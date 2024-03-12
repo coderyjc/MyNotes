@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md",
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【18】组成原理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -49,10 +49,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:5.专题研究/考研复试/面试/专业相关面试题  瀑布模型",
+                "query": "内存保护",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【18】组成原理.md"
               }
             }
           },
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md",
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【18】组成原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【18】组成原理.md"
               }
             }
           }
@@ -197,10 +196,11 @@
   "active": "54714a5c8f516a4e",
   "lastOpenFiles": [
     "2.等待处理/Diary/2024-03-12.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【18】组成原理.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
-    "4.归档/生活/游戏/雀食/菜谱.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md",
+    "4.归档/生活/游戏/雀食/菜谱.md",
     "2.等待处理/Tasks/index-tasks.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【6】C语言.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【8】计算机体系结构.md",
@@ -221,7 +221,6 @@
     "5.专题研究/考研复试/面试/专业相关面试题/【4】数字逻辑.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【5】数字模拟电路.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【9】编译原理.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311194354.png",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311194310.png",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311190423.png",
