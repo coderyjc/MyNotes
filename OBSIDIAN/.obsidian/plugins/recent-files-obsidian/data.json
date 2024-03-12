@@ -5,8 +5,12 @@
       "path": "2.等待处理/Diary/2024-03-12.md"
     },
     {
-      "basename": "dailynotes",
-      "path": "0.plugin/template/dailynotes.md"
+      "basename": "输入输出相关问题",
+      "path": "5.专题研究/算法/PTA/输入输出相关问题.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "其他话术",
@@ -15,6 +19,10 @@
     {
       "basename": "index-考研复试",
       "path": "5.专题研究/考研复试/index-考研复试.md"
+    },
+    {
+      "basename": "dailynotes",
+      "path": "0.plugin/template/dailynotes.md"
     },
     {
       "basename": "index",
@@ -71,14 +79,6 @@
     {
       "basename": "【9】编译原理",
       "path": "5.专题研究/考研复试/面试/专业相关面试题/【9】编译原理.md"
-    },
-    {
-      "basename": "【9】C++",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md"
-    },
-    {
-      "basename": "【10】扩展知识",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【10】扩展知识.md"
     }
   ],
   "omittedPaths": [],
