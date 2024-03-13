@@ -4,32 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9acc327d6029618b",
+        "id": "853c97146770f4cc",
         "type": "tabs",
-        "dimension": 55.765765765765764,
         "children": [
           {
-            "id": "29f53cd23d2f3b26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "26b7eac73f599d9a",
-        "type": "tabs",
-        "dimension": 44.23423423423423,
-        "children": [
-          {
-            "id": "b4356282f275087e",
+            "id": "42391680bb656b3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -139,7 +118,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
+                "file": "2.等待处理/Diary/2024-03-13.md"
               }
             }
           },
@@ -149,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
+                "file": "2.等待处理/Diary/2024-03-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
+                "file": "2.等待处理/Diary/2024-03-13.md"
               }
             }
           }
@@ -214,11 +193,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "29f53cd23d2f3b26",
+  "active": "42391680bb656b3b",
   "lastOpenFiles": [
-    "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
     "2.等待处理/Diary/2024-03-13.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
     "2.等待处理/Diary/2024-03-12.md",
     "4.归档/学习/专业/计算机基础/数据库原理/数据库概述.md",
