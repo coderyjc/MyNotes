@@ -2,9 +2,6 @@
 
 ```dataviewjs
 
-// 统计字数
-// python R:\code\github\MyNotes\scripts\Statistic.py
-
 // 计算使用天数
 var today = new Date(); 
 var startDate = new Date('2021-12-22');
