@@ -23,3 +23,6 @@ Java语言中没有直接的 `goto` 语句，但是有标签。
 
 > java 中与处理多线程相关的函数由哪些？
 
+1. **Thread 类**：`java.lang.Thread` 类是用于创建和操作线程的主要类。通过继承 `Thread` 类或者实现 `Runnable` 接口，并重写 `run()` 方法来定义线程的执行逻辑。可以使用 `start()` 方法启动线程，`join()` 方法等待线程执行完成，`sleep()` 方法让线程休眠等。
+2. **Object 类的 wait()、notify()、notifyAll() 方法**：这些方法是用于实现线程之间的协作和同步的关键方法。通过调用 `wait()` 方法使线程进入等待状态，调用 `notify()` 或 `notifyAll()` 方法唤醒等待的线程。
+
