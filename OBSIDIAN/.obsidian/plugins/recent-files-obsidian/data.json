@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "【3】Java",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【3】Java.md"
+    },
+    {
+      "basename": "【35】计算机网络",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
+    },
+    {
+      "basename": "【23】OS",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md"
+    },
+    {
       "basename": "2024-03-15",
       "path": "2.等待处理/Diary/2024-03-15.md"
+    },
+    {
+      "basename": "【8】计算机体系结构",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【8】计算机体系结构.md"
+    },
+    {
+      "basename": "OS",
+      "path": "3.将来可能/OS/OS.md"
+    },
+    {
+      "basename": "【3】综合类",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【3】综合类.md"
+    },
+    {
+      "basename": "【9】C++",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md"
+    },
+    {
+      "basename": "【Chrome】Your Connection is not private",
+      "path": "4.归档/学习/项目/浏览器相关/【Chrome】Your Connection is not private.md"
+    },
+    {
+      "basename": "2024-03-14",
+      "path": "2.等待处理/Diary/2024-03-14.md"
     },
     {
       "basename": "深度学习入门：基于Python的理论与实现",
@@ -17,20 +53,8 @@
       "path": "HOME.md"
     },
     {
-      "basename": "2024-03-14",
-      "path": "2.等待处理/Diary/2024-03-14.md"
-    },
-    {
       "basename": "2024-03-13",
       "path": "2.等待处理/Diary/2024-03-13.md"
-    },
-    {
-      "basename": "【35】计算机网络",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
-    },
-    {
-      "basename": "【3】Java",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【3】Java.md"
     },
     {
       "basename": "java-basic-multithread",
@@ -49,36 +73,12 @@
       "path": "5.专题研究/考研复试/面试/专业相关面试题/【12】软件工程.md"
     },
     {
-      "basename": "【23】OS",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md"
-    },
-    {
-      "basename": "【3】综合类",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【3】综合类.md"
-    },
-    {
       "basename": "人工智能导论",
       "path": "3.将来可能/人工智能导论/人工智能导论.md"
     },
     {
-      "basename": "【9】C++",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/【9】C++.md"
-    },
-    {
       "basename": "2024-03-12",
       "path": "2.等待处理/Diary/2024-03-12.md"
-    },
-    {
-      "basename": "2024-03-11",
-      "path": "2.等待处理/Diary/2024-03/2024-03-11.md"
-    },
-    {
-      "basename": "2024-03-10",
-      "path": "2.等待处理/Diary/2024-03/2024-03-10.md"
-    },
-    {
-      "basename": "java-basic-oop",
-      "path": "4.归档/学习/专业/Java后端/JavaSE/JavaSE-基础知识/java-basic/java-basic-oop.md"
     }
   ],
   "omittedPaths": [],
