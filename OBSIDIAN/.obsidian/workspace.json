@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e385c51acb5eb761",
+        "id": "887325be7de5320c",
         "type": "tabs",
         "children": [
           {
-            "id": "1858310572ea3861",
+            "id": "6892f9bb99a34d80",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -74,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
+              }
             }
           }
         ]
@@ -90,7 +97,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 38.215488215488215,
+        "dimension": 34.59915611814346,
         "children": [
           {
             "id": "9efa0f878fdc06cc",
@@ -128,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md"
+              }
             }
           },
           {
@@ -137,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,9 +160,29 @@
         ]
       },
       {
+        "id": "f0043631f18d0d91",
+        "type": "tabs",
+        "dimension": 34.59915611814346,
+        "children": [
+          {
+            "id": "1858310572ea3861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.等待处理/Diary/2024-03-16.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "51aaf67e9a9e3bd3",
         "type": "tabs",
-        "dimension": 61.784511784511785,
+        "dimension": 30.801687763713083,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -166,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 429.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,11 +214,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1858310572ea3861",
+  "active": "e2988b14426e11db",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03-15.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
+    "2.等待处理/Diary/2024-03-16.md",
     "5.专题研究/考研复试/面试/专业相关面试题/【35】计算机网络.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【10】离散数学.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【26】数据库原理.md",
+    "2.等待处理/Diary/2024-03-15.md",
     "5.专题研究/考研复试/面试/专业相关面试题/assets/Pasted image 20240315200155.png",
     "5.专题研究/考研复试/面试/专业相关面试题/assets",
     "5.专题研究/考研复试/面试/专业相关面试题/【3】数学建模.md",
@@ -212,7 +244,6 @@
     "4.归档/学习/项目/浏览器相关/【Chrome】Your Connection is not private.md",
     "2.等待处理/Diary/2024-03-14.md",
     "5.专题研究/深度学习/深度学习入门：基于Python的理论与实现.md",
-    "HOME.md",
     "5.专题研究/考研复试/面试/专业相关面试题/assets/Pasted image 20240314214505.png",
     "5.专题研究/考研复试/面试/专业相关面试题/assets/3U(]BK(%L67XQ8KK$JR}~KH.png",
     "4.归档/学习/专业/计算机基础/数据库原理/assets/Pasted image 20240311194354.png",
