@@ -22,7 +22,7 @@ var task_total = dv.pages().file.tasks.length
 // 渲染内容
 var content = `在你使用Obsidian的**${daysDiff}**天里，
 			你一共写下了**${doc_total}**篇文档
-			共计 **881,490** 字
+			共计 **936,177** 字
 			图片 **1855** 张
 			读了**${doc_reading}**本书
 			完成了**${task_total}**个任务
