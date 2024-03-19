@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee36509f72d3311a",
+        "id": "0885ef0740c5a392",
         "type": "tabs",
         "children": [
           {
-            "id": "e44611af68324269",
+            "id": "7a6ac976e989fbf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-18.md",
+                "file": "2.等待处理/Diary/2024-03-19.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -32,18 +32,7 @@
       {
         "id": "53b505a8467737a9",
         "type": "tabs",
-        "dimension": 71.94092827004219,
         "children": [
-          {
-            "id": "e2988b14426e11db",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
           {
             "id": "1f74b340a1d27e17",
             "type": "leaf",
@@ -60,35 +49,21 @@
             }
           },
           {
-            "id": "56d7f91bea896eb2",
+            "id": "136b72b2c13e002f",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "6a8b80ff5bb0fa4a",
-        "type": "tabs",
-        "dimension": 28.059071729957807,
-        "children": [
-          {
-            "id": "a4c7ff5f1eb0069f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
+              "type": "file-explorer",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-18.md"
+                "sortOrder": "alphabetical"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 280.51103591918945
+    "width": 350.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -97,7 +72,7 @@
       {
         "id": "7473eb9910fae944",
         "type": "tabs",
-        "dimension": 39.620653319283456,
+        "dimension": 35.232067510548525,
         "children": [
           {
             "id": "9efa0f878fdc06cc",
@@ -108,45 +83,12 @@
             }
           },
           {
-            "id": "56074ac2b2b95d3d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "edf4004cc6f12931",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "54a8f507d382513e",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "2.等待处理/Diary/2024-03-18.md"
-              }
-            }
-          },
-          {
             "id": "3f3a381f5286a2b5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-18.md",
+                "file": "2.等待处理/Diary/2024-03-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +104,24 @@
       {
         "id": "51aaf67e9a9e3bd3",
         "type": "tabs",
-        "dimension": 60.37934668071654,
+        "dimension": 34.59915611814346,
+        "children": [
+          {
+            "id": "a4c7ff5f1eb0069f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2.等待处理/Diary/2024-03-19.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1ba48b31db7b1123",
+        "type": "tabs",
+        "dimension": 30.168776371308013,
         "children": [
           {
             "id": "18460b0ef5be395a",
@@ -184,45 +143,47 @@
       "switcher:打开快速切换": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "templater-obsidian:Templater": false,
-      "daily-notes:打开/创建今天的日记": false,
       "media-extended:Open media": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "daily-notes:打开/创建今天的日记": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2988b14426e11db",
+  "active": "136b72b2c13e002f",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03-18.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/【33】计算机网络.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/TFTP协议.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/SMTP协议.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/局域网.md",
+    "2.等待处理/Diary/2024-03-19.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/计算机网络体系结构.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/网络协议.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/网络延时.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/网络的分类.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/交换机.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【23】数据库原理.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/index.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/Java.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/数据结构与算法面试题.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/编译原理.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/扩展知识.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/网络安全.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/数学建模.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/其他.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/C语言.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/软件工程.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/【19】数据结构和算法.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/C++.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/网桥.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/子网掩码.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/离散数学.md",
+    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/未命名",
+    "2.等待处理/Diary/2024-03-18.md.nssyncsc",
     "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/assets/Pasted image 20240316211128.png",
     "5.专题研究/考研复试/面试/专业相关面试题/计算机网络",
-    "5.专题研究/考研复试/面试/专业相关面试题/【10】C++.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/数据结构与算法面试题.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/index.md",
-    "2.等待处理/Diary/2024-03-17.md",
-    "2.等待处理/Tasks/index-tasks.md",
-    "HOME.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【11】离散数学.md",
-    "5.专题研究/DIY/鼠标连点+滚轮漂移维修.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【5】扩展知识.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【3】Java.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【3】网络安全.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【2】数学建模.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【3】其他.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【10】数字逻辑.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【5】数字模拟电路.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【6】编译原理.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【22】组成原理.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【7】计算机体系结构.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【19】数据结构和算法.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【23】OS.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【23】数据库原理.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【18】组成原理.md",
     "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/assets",
     "5.专题研究/DIY",
     "5.专题研究/考研复试/面试/专业相关面试题/assets/Pasted image 20240315200155.png",
@@ -238,8 +199,6 @@
     "4.归档/学习/专业/前端/前端组件库/Vuepress/assets",
     "4.归档/学习/专业/前端/WebPack/Webpack-基础知识/assets",
     "4.归档/学习/专业/前端/Vue.js/assets",
-    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/assets",
-    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-basic/assets",
-    "4.归档/学习/专业/前端/前端组件库/Uni-App/UniApp-基础知识/images"
+    "4.归档/学习/专业/前端/Vue.js/Vue2-基础知识/vue-component/assets"
   ]
 }

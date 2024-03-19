@@ -4,8 +4,6 @@
   "switcher",
   "graph",
   "backlink",
-  "tag-pane",
-  "properties",
   "page-preview",
   "daily-notes",
   "templates",
@@ -13,9 +11,6 @@
   "command-palette",
   "slash-command",
   "editor-status",
-  "bookmarks",
   "outline",
-  "word-count",
-  "workspaces",
   "file-recovery"
 ]

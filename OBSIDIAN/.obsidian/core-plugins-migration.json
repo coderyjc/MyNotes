@@ -5,7 +5,7 @@
   "graph": true,
   "backlink": true,
   "outgoing-link": false,
-  "tag-pane": true,
+  "tag-pane": false,
   "page-preview": true,
   "daily-notes": true,
   "templates": true,
@@ -18,14 +18,14 @@
   "zk-prefixer": false,
   "random-note": false,
   "outline": true,
-  "word-count": true,
+  "word-count": false,
   "slides": false,
   "audio-recorder": false,
-  "workspaces": true,
+  "workspaces": false,
   "file-recovery": true,
   "publish": false,
   "sync": false,
   "canvas": false,
-  "bookmarks": true,
-  "properties": true
+  "bookmarks": false,
+  "properties": false
 }
