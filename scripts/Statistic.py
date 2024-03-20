@@ -77,7 +77,7 @@ def process_folder(folder_path):
     return file_types_count, total_md_words
 
 # 替换为你的笔记文件夹路径
- note_folder_path = '../OBSIDIAN'
+note_folder_path = '../OBSIDIAN/'
 
 
 
