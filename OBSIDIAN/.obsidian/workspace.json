@@ -19,19 +19,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "bf9c6670350c7017",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,11 +152,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bf9c6670350c7017",
+  "active": "7a6ac976e989fbf9",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03-20.md",
-    "2.等待处理/Diary/2024-03-21.md",
     "5.专题研究/考研复试/面试/专业无关面试题/面试问题总结【中文】.md",
+    "2.等待处理/Diary/2024-03-21.md",
+    "2.等待处理/Diary/2024-03-20.md",
     "HOME.md",
     "5.专题研究/考研复试/面试/专业无关面试题/面试问题总结【英文】.md",
     "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/网络的分类.md",
