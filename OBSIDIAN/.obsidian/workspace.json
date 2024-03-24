@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-24.md",
-                "mode": "source",
+                "file": "4.归档/学习/专业/计算机基础/数据库原理/关系运算和关系数据库理论.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "三级封锁",
+                "query": "范式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-24.md",
+                "file": "4.归档/学习/专业/计算机基础/数据库原理/关系运算和关系数据库理论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-03-24.md"
+                "file": "4.归档/学习/专业/计算机基础/数据库原理/关系运算和关系数据库理论.md"
               }
             }
           }
@@ -153,6 +153,7 @@
   },
   "active": "5fc4d28a2d13f1e4",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-03-24.md",
     "4.归档/学习/专业/计算机基础/数据库原理/并发控制.md",
     "3.将来可能/OS/操作系统导论/数据完整性.md",
     "5.专题研究/考研复试/笔试/数据库知识框架.md",
@@ -162,7 +163,6 @@
     "4.归档/学习/专业/计算机基础/数据库原理/数据库概述.md",
     "4.归档/学习/专业/计算机基础/数据库原理/数据库设计.md",
     "3.将来可能/OS/操作系统导论/_README.md",
-    "2.等待处理/Diary/2024-03-24.md",
     "4.归档/学习/专业/计算机基础/数据库原理/关系运算和关系数据库理论.md",
     "2.等待处理/Diary/2024-03-23.md",
     "2.等待处理/Diary/2024-03-22.md",
