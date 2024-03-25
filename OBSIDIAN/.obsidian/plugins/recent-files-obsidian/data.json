@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-03-25",
+      "path": "2.等待处理/Diary/2024-03-25.md"
+    },
+    {
       "basename": "2024-03-24",
       "path": "2.等待处理/Diary/2024-03-24.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "MySQL高级-索引优化分析",
       "path": "4.归档/学习/专业/数据库/MySQL/MySQL-基础知识/MySQL高级-索引优化分析.md"
-    },
-    {
-      "basename": "index-考研复试",
-      "path": "5.专题研究/考研复试/index-考研复试.md"
     }
   ],
   "omittedPaths": [],
