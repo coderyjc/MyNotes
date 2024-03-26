@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-03-26",
+      "path": "2.等待处理/Diary/2024-03-26.md"
+    },
+    {
+      "basename": "C语言-文件操作",
+      "path": "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-文件操作.md"
+    },
+    {
       "basename": "项目经历",
       "path": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "index-考研复试",
       "path": "5.专题研究/考研复试/index-考研复试.md"
-    },
-    {
-      "basename": "2024-03-26",
-      "path": "2.等待处理/Diary/2024-03-26.md"
     },
     {
       "basename": "2024-03-22",
@@ -75,10 +79,6 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
-    },
-    {
-      "basename": "C++",
-      "path": "5.专题研究/考研复试/面试/专业相关面试题/C++.md"
     }
   ],
   "omittedPaths": [],

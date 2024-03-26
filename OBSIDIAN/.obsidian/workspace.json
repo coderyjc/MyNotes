@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md",
-                "mode": "source",
+                "file": "2.等待处理/Diary/2024-03-26.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "范式",
+                "query": "c语言-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md",
+                "file": "2.等待处理/Diary/2024-03-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md"
+                "file": "2.等待处理/Diary/2024-03-26.md"
               }
             }
           }
@@ -154,6 +153,8 @@
   },
   "active": "6196ebef0b02c36e",
   "lastOpenFiles": [
+    "4.归档/学习/专业/计算机基础/C语言/C语言-基础知识/C语言-文件操作.md",
+    "2.等待处理/Diary/2024-03-26.md",
     "5.专题研究/考研复试/面试/专业相关面试题/其他.md",
     "5.专题研究/考研复试/面试/专业相关面试题/index.md",
     "5.专题研究/考研复试/面试/专业相关面试题/软件工程.md",
@@ -162,7 +163,6 @@
     "5.专题研究/考研复试/面试/专业相关面试题/C语言.md",
     "5.专题研究/考研复试/index-考研复试.md",
     "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md",
-    "2.等待处理/Diary/2024-03-26.md",
     "2.等待处理/Diary/2024-03/2024-03-22.md",
     "2.等待处理/Diary/2024-03-25.md",
     "2.等待处理/Diary/2024-03/2024-03-21.md",
@@ -179,7 +179,6 @@
     "4.归档/学习/专业/计算机基础/数据库原理/并发控制.md",
     "3.将来可能/OS/操作系统导论/数据完整性.md",
     "5.专题研究/考研复试/笔试/数据库知识框架.md",
-    "5.专题研究/考研复试/面试/专业相关面试题/【23】数据库原理.md",
     "CSMA",
     "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/未命名",
     "2.等待处理/Diary/2024-03-18.md.nssyncsc",
