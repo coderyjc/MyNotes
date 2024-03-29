@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md"
               }
             }
           }
@@ -152,10 +152,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "136b72b2c13e002f",
+  "active": "b51444130f22c7fb",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03-27.md",
+    "5.专题研究/yolov5/index.md",
+    "HOME.md",
+    "5.专题研究/yolov5",
+    "2.等待处理/Diary/2024-03-29.md",
     "2.等待处理/Diary/2024-03-28.md",
+    "2.等待处理/Diary/2024-03-27.md",
     "5.专题研究/考研复试/面试/专业相关面试题/index.md",
     "5.专题研究/考研复试/面试/专业相关面试题/Java.md",
     "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md",
@@ -186,9 +190,6 @@
     "5.专题研究/考研复试/面试/专业相关面试题/数学建模.md",
     "5.专题研究/考研复试/面试/专业相关面试题/C语言.md",
     "5.专题研究/考研复试/index-考研复试.md",
-    "2.等待处理/Diary/2024-03/2024-03-22.md",
-    "2.等待处理/Diary/2024-03/2024-03-21.md",
-    "2.等待处理/Diary/2024-03/2024-03-23.md",
     "CSMA",
     "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/未命名",
     "2.等待处理/Diary/2024-03-18.md.nssyncsc",
@@ -198,7 +199,6 @@
     "5.专题研究/DIY",
     "5.专题研究/考研复试/面试/专业相关面试题/assets/Pasted image 20240315200155.png",
     "5.专题研究/考研复试/面试/专业相关面试题/assets/Pasted image 20240314214505.png",
-    "5.专题研究/考研复试/面试/专业相关面试题/assets/3U(]BK(%L67XQ8KK$JR}~KH.png",
-    "4.归档/生活/游戏/雀食"
+    "5.专题研究/考研复试/面试/专业相关面试题/assets/3U(]BK(%L67XQ8KK$JR}~KH.png"
   ]
 }
