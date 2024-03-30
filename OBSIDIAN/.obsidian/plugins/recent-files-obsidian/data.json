@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "【19】数据结构和算法",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【19】数据结构和算法.md"
+    },
+    {
+      "basename": "【22】组成原理",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【22】组成原理.md"
+    },
+    {
+      "basename": "【23】数据库原理",
+      "path": "5.专题研究/考研复试/面试/专业相关面试题/【23】数据库原理.md"
+    },
+    {
       "basename": "项目经历",
       "path": "5.专题研究/考研复试/面试/专业相关面试题/项目经历.md"
+    },
+    {
+      "basename": "安装label studio进行数据标注",
+      "path": "5.专题研究/暂存箱/数据标注/安装label studio进行数据标注.md"
     },
     {
       "basename": "index",
@@ -63,22 +79,6 @@
     {
       "basename": "AHU-C语言-2017-2018B",
       "path": "5.专题研究/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018B.md"
-    },
-    {
-      "basename": "2024-03-26",
-      "path": "2.等待处理/Diary/2024-03-26.md"
-    },
-    {
-      "basename": "评估指标",
-      "path": "5.专题研究/AAAMLP/评估指标.md"
-    },
-    {
-      "basename": "安装label studio进行数据标注",
-      "path": "5.专题研究/暂存箱/数据标注/安装label studio进行数据标注.md"
-    },
-    {
-      "basename": "2024-03-25",
-      "path": "2.等待处理/Diary/2024-03-25.md"
     }
   ],
   "omittedPaths": [],
