@@ -38,6 +38,6 @@ maven → clean → build 即可
 要更改名字的地方包括但不限于：
 
 -   POJO
--   [[Java]]文件的import 语句
+-   [[../../../../../学业/全国研究生入学考试/考研复试/面试/专业相关面试题/Java]]文件的import 语句
 -   [[POJO]]、Service、Controller、Mapper、Mapper.xml 中的所有的用到该POJO的泛型
 -   Mapper.xml 中的引用

@@ -1,6 +1,6 @@
 ## Jedis
 
-[[Java]]语言操作[[redis]]，需要先导入两个包：
+[[../../../../../学业/全国研究生入学考试/考研复试/面试/专业相关面试题/Java]]语言操作[[redis]]，需要先导入两个包：
 
 ```xml
 <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
