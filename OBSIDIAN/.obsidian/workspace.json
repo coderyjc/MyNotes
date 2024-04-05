@@ -26,15 +26,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.等待处理/Diary/2024-04-01.md",
+                "file": "2.等待处理/Diary/2024-04-05.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
+          },
+          {
+            "id": "613f7ccc90d6aaa6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.等待处理/Diary/2024-04-01.md",
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.等待处理/Diary/2024-04-01.md"
+                "file": "HOME.md"
               }
             }
           }
@@ -166,11 +176,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a0f99c9f874d1ad0",
+  "active": "613f7ccc90d6aaa6",
   "lastOpenFiles": [
+    "2.等待处理/Diary/2024-04-05.md",
+    "2.等待处理/Diary/2024-04-01.md",
     "2.等待处理/Diary/2024-03/2024-03-31.md",
     "2.等待处理/Diary/2024-03/2024-03-29.md",
-    "2.等待处理/Diary/2024-04-01.md",
     "5.专题研究/yolov5/index.md",
     "4.归档/学业/全国研究生入学考试/考研复试/面试/其他话术.md",
     "HOME.md",
@@ -193,7 +204,6 @@
     "4.归档/学习/专业/计算机基础/计算机网络/网络协议.md",
     "4.归档/学习/专业/计算机基础/计算机网络/网络的分类.md",
     "4.归档/学习/专业/计算机基础/计算机网络/码元.md",
-    "4.归档/学习/专业/计算机基础/计算机网络/交换机.md",
     "5.专题研究/yolov5",
     "5.专题研究/暂存箱/数据标注/assets/Pasted image 20240326211543.png",
     "5.专题研究/暂存箱/数据标注/assets/Pasted image 20240326205850.png",
