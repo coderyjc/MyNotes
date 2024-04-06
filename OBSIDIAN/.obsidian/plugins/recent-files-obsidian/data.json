@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-04-05",
-      "path": "2.等待处理/Diary/2024-04-05.md"
+      "basename": "VsCode配置C环境",
+      "path": "4.归档/学习/项目/环境问题相关/VsCode配置C环境.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "2024-03-29",
+      "path": "2.等待处理/Diary/2024-03/2024-03-29.md"
+    },
+    {
+      "basename": "2024-04-05",
+      "path": "2.等待处理/Diary/2024-04-05.md"
     },
     {
       "basename": "2024-04-01",
       "path": "2.等待处理/Diary/2024-04-01.md"
     },
     {
-      "basename": "2024-03-31",
-      "path": "2.等待处理/Diary/2024-03/2024-03-31.md"
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
-      "basename": "2024-03-29",
-      "path": "2.等待处理/Diary/2024-03/2024-03-29.md"
+      "basename": "2024-03-31",
+      "path": "2.等待处理/Diary/2024-03/2024-03-31.md"
     },
     {
       "basename": "其他话术",
@@ -75,10 +79,6 @@
     {
       "basename": "ICMP协议",
       "path": "4.归档/学习/专业/计算机基础/计算机网络/ICMP协议.md"
-    },
-    {
-      "basename": "BGP协议",
-      "path": "4.归档/学习/专业/计算机基础/计算机网络/BGP协议.md"
     }
   ],
   "omittedPaths": [],
