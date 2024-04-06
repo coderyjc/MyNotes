@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f0b1dcc28e339ec4",
+        "id": "527ff63ebc36f1ec",
         "type": "tabs",
         "children": [
           {
-            "id": "a0f99c9f874d1ad0",
+            "id": "cccb5fc5e335c351",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.归档/学习/项目/环境问题相关/VsCode配置C环境.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -30,7 +25,7 @@
     "type": "split",
     "children": [
       {
-        "id": "53b505a8467737a9",
+        "id": "55f0e931937ab6ab",
         "type": "tabs",
         "children": [
           {
@@ -39,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vscode",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,12 +53,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 286.51103591918945,
-    "collapsed": true
+    "width": 286.51103591918945
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -75,20 +70,11 @@
         "dimension": 35.232067510548525,
         "children": [
           {
-            "id": "9efa0f878fdc06cc",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "3f3a381f5286a2b5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.归档/学习/项目/环境问题相关/VsCode配置C环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4.归档/学习/项目/环境问题相关/VsCode配置C环境.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,61 +128,58 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
       "templater-obsidian:Templater": false,
       "media-extended:Open media": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Memos": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a0f99c9f874d1ad0",
+  "active": "cccb5fc5e335c351",
   "lastOpenFiles": [
-    "2.等待处理/Diary/2024-03/2024-03-29.md",
-    "4.归档/学习/项目/环境问题相关/VsCode配置C环境.md",
-    "2.等待处理/Diary/2024-04-05.md",
-    "2.等待处理/Diary/2024-04-01.md",
-    "2.等待处理/Diary/2024-03/2024-03-31.md",
-    "5.专题研究/yolov5/index.md",
-    "4.归档/学业/全国研究生入学考试/考研复试/面试/其他话术.md",
     "HOME.md",
-    "0.plugin/template/dailynotes.md",
-    "2.等待处理/Diary/2024-03/2024-03-25.md",
-    "2.等待处理/Diary/2024-03/2024-03-28.md",
-    "2.等待处理/Diary/2024-03/2024-03-30.md",
-    "4.归档/学习/专业/计算机基础/计算机网络/子网掩码.md",
-    "4.归档/学业/全国研究生入学考试/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018B.md",
-    "4.归档/学业/全国研究生入学考试/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2018-2019B.md",
-    "4.归档/学业/全国研究生入学考试/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2018-2019A.md",
-    "4.归档/学业/全国研究生入学考试/考研复试/笔试/历年真题记录-C语言/AHU-C语言-2017-2018A.md",
-    "4.归档/学业/全国研究生入学考试/考研复试/笔试/index.md",
-    "4.归档/学业/全国研究生入学考试/考研复试/笔试/数据库知识框架.md",
-    "4.归档/学业/全国研究生入学考试/考研复试/面试/专业无关面试题/面试问题总结【英文】.md",
-    "4.归档/学习/专业/计算机基础/计算机网络/ICMP协议.md",
-    "4.归档/学习/专业/计算机基础/计算机网络/BGP协议.md",
-    "4.归档/学习/专业/计算机基础/计算机网络/路由器.md",
-    "4.归档/学习/专业/计算机基础/计算机网络/停止-等待协议.md",
-    "4.归档/学习/专业/计算机基础/计算机网络/网络协议.md",
-    "4.归档/学习/专业/计算机基础/计算机网络/网络的分类.md",
-    "5.专题研究/yolov5",
-    "5.专题研究/暂存箱/数据标注/assets/Pasted image 20240326211543.png",
-    "5.专题研究/暂存箱/数据标注/assets/Pasted image 20240326205850.png",
-    "5.专题研究/暂存箱/数据标注/assets/Pasted image 20240326205419.png",
-    "5.专题研究/暂存箱/数据标注/assets/Pasted image 20240326205341.png",
-    "5.专题研究/暂存箱/数据标注/assets/Pasted image 20240326204951.png",
-    "5.专题研究/暂存箱/数据标注/assets/Pasted image 20240326204812.png",
-    "5.专题研究/暂存箱/数据标注/assets",
-    "5.专题研究/暂存箱/数据标注",
-    "5.专题研究/暂存箱",
-    "CSMA",
-    "5.专题研究/考研复试/面试/专业相关面试题/计算机网络/未命名",
-    "2.等待处理/Diary/2024-03-18.md.nssyncsc",
-    "4.归档/学习/专业/计算机基础/计算机网络/assets/Pasted image 20240316211128.png",
-    "4.归档/学习/专业/计算机基础/计算机网络",
-    "4.归档/学习/专业/计算机基础/计算机网络/assets",
-    "5.专题研究/DIY",
-    "5.专题研究/考研复试/面试/专业相关面试题/assets/Pasted image 20240315200155.png",
-    "5.专题研究/考研复试/面试/专业相关面试题/assets/Pasted image 20240314214505.png",
-    "5.专题研究/考研复试/面试/专业相关面试题/assets/3U(]BK(%L67XQ8KK$JR}~KH.png"
+    "1.归档/Java后端/JavaSE/JavaSE-基础知识/java-basic/java-basic-oop.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-25 朋友圈.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-49 打印学生选课清单.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-50 畅通工程之局部最小花费问题.md",
+    "2.正在进行/AAAMLP/准备环境-Miniconda.md",
+    "1.归档/Python/Django/Django-基础知识/Django环境搭建.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-10 公路村村通.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-18 银行业务队列简单模拟.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-17 汉诺塔的非递归实现.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-16 一元多项式求导.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-15 QQ帐户的申请与登陆.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-14 电话聊天狂人.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-12 排序.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-9 旅游规划.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-8 哈利·波特的考试.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-7 六度空间.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-6 列出连通集.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-5 堆中的路径.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-3 树的同构.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-2 一元多项式的乘法与加法运算.md",
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-1 最大子列和问题.md",
+    "2.正在进行/AAAMLP/index.md",
+    "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md",
+    "2.正在进行/AI论文精读/ResNet.md",
+    "3.将来可能/软考/assets/Pasted image 20240102195133.png",
+    "3.将来可能/软考/index-软考.md",
+    "3.将来可能/软考/assets",
+    "3.将来可能/软考",
+    "3.将来可能/人工智能导论/assets/Pasted image 20240202215141.png",
+    "3.将来可能/人工智能导论/assets/Pasted image 20240202213857.png",
+    "3.将来可能/人工智能导论/assets",
+    "3.将来可能/人工智能导论",
+    "3.将来可能/回收站/【已废除】天猫用户复购预测/assets/Pasted image 20240124160302.png",
+    "3.将来可能/回收站/【已废除】天猫用户复购预测/assets/Pasted image 20240125203012.png",
+    "3.将来可能/回收站/【已废除】天猫用户复购预测/assets",
+    "3.将来可能/回收站/教资",
+    "3.将来可能/回收站/调剂",
+    "3.将来可能/回收站/【已废除】天猫用户复购预测",
+    "3.将来可能/回收站",
+    "3.将来可能/读研攻略",
+    "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511094016.png",
+    "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511093956.png",
+    "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224085422.png",
+    "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224085024.png",
+    "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224084948.png"
   ]
 }

@@ -1,5 +1,4 @@
 [
-  "obsidian-weread-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
   "url-into-selection",
@@ -10,7 +9,6 @@
   "templater-obsidian",
   "supercharged-links-obsidian",
   "obsidian-style-settings",
-  "calendar",
   "obsidian-dynamic-toc",
   "metaedit",
   "obsidian-advanced-uri",
@@ -24,11 +22,10 @@
   "obsidian-mindmap-nextgen",
   "media-extended",
   "mx-bili-plugin",
-  "obsidian-local-rest-api",
   "obsidian-excalidraw-plugin",
   "better-word-count",
   "recent-files-obsidian",
   "obsidian-annotator",
-  "obsidian-memos",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-local-rest-api"
 ]
