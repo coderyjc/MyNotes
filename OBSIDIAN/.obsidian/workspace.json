@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "527ff63ebc36f1ec",
+        "id": "4ecb8813bbadf495",
         "type": "tabs",
         "children": [
           {
-            "id": "cccb5fc5e335c351",
+            "id": "fa20d76e93fc490f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "HOME.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -75,6 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HOME.md"
+              }
             }
           }
         ]
@@ -133,8 +141,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cccb5fc5e335c351",
+  "active": "136b72b2c13e002f",
   "lastOpenFiles": [
+    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-12 排序.md",
     "HOME.md",
     "1.归档/Java后端/JavaSE/JavaSE-基础知识/java-basic/java-basic-oop.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-25 朋友圈.md",
@@ -148,7 +157,6 @@
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-16 一元多项式求导.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-15 QQ帐户的申请与登陆.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-14 电话聊天狂人.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-12 排序.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-9 旅游规划.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-8 哈利·波特的考试.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-7 六度空间.md",
