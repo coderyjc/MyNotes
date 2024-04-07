@@ -506,3 +506,46 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^kp4b43yvdwa
+
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-07T03:40:56.072Z","updated":"2024-04-07T03:40:56.072Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":40311,"end":40371},{"type":"TextQuoteSelector","exact":"b是被称为偏置的参数，用于控制神经元被激活的容易程度；而w1和w2是表示各个信号的权重的参数，用于控制各个信号的重要性。","prefix":"学式来表示图3-2中的感知机，则如式（3.1）所示。 （3.1）","suffix":"顺便提一下，在图3-2的网络中，偏置b并没有被画出来。如果要明确"}]}]}
+>```
+>%%
+>*%%PREFIX%%学式来表示图3-2中的感知机，则如式（3.1）所示。 （3.1）%%HIGHLIGHT%% ==b是被称为偏置的参数，用于控制神经元被激活的容易程度；而w1和w2是表示各个信号的权重的参数，用于控制各个信号的重要性。== %%POSTFIX%%顺便提一下，在图3-2的网络中，偏置b并没有被画出来。如果要明确*
+>%%LINK%%[[#^5ay01xszebn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^5ay01xszebn
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-07T03:50:12.938Z","updated":"2024-04-07T03:50:12.938Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":44947,"end":44974},{"type":"TextQuoteSelector","exact":"sigmoid函数的平滑性对神经网络的学习具有重要意义","prefix":"输入发生连续性的变化。而阶跃函数以0为界，输出发生急剧性的变化。","suffix":"。3.2  激活函数  47图3-7 sigmoid函数的图形1"}]}]}
+>```
+>%%
+>*%%PREFIX%%输入发生连续性的变化。而阶跃函数以0为界，输出发生急剧性的变化。%%HIGHLIGHT%% ==sigmoid函数的平滑性对神经网络的学习具有重要意义== %%POSTFIX%%。3.2  激活函数  47图3-7 sigmoid函数的图形1*
+>%%LINK%%[[#^lbqt1s5xh9c|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^lbqt1s5xh9c
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-07T03:51:27.986Z","updated":"2024-04-07T03:51:27.986Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":45951,"end":45991},{"type":"TextQuoteSelector","exact":"为什么不能使用线性函数呢？因为使用线性函数的话，加深神经网络的层数就没有意义了。","prefix":"激活函数必须使用非线性函数。换句话说，激活函数不能使用线性函数。","suffix":"线性函数的问题在于，不管如何加深层数，总是存在与之等效的“无隐藏"}]}]}
+>```
+>%%
+>*%%PREFIX%%激活函数必须使用非线性函数。换句话说，激活函数不能使用线性函数。%%HIGHLIGHT%% ==为什么不能使用线性函数呢？因为使用线性函数的话，加深神经网络的层数就没有意义了。== %%POSTFIX%%线性函数的问题在于，不管如何加深层数，总是存在与之等效的“无隐藏*
+>%%LINK%%[[#^4dhfj8hq4h|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4dhfj8hq4h
