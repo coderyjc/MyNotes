@@ -549,3 +549,17 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^4dhfj8hq4h
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-07T08:08:03.107Z","updated":"2024-04-07T08:08:03.107Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":75664,"end":75729},{"type":"TextQuoteSelector","exact":"sigmoid函数的导数在任何地方都不为0。这对神经网络的学习非常重要。得益于这个斜率不会为0的性质，神经网络的学习得以正确进行。","prefix":"的值）是连续变化的，曲线的斜率（导数）也是连续变化的。也就是说，","suffix":"阶跃函数 sigmoid函数图4-4  阶跃函数和sigmoid"}]}]}
+>```
+>%%
+>*%%PREFIX%%的值）是连续变化的，曲线的斜率（导数）也是连续变化的。也就是说，%%HIGHLIGHT%% ==sigmoid函数的导数在任何地方都不为0。这对神经网络的学习非常重要。得益于这个斜率不会为0的性质，神经网络的学习得以正确进行。== %%POSTFIX%%阶跃函数 sigmoid函数图4-4  阶跃函数和sigmoid*
+>%%LINK%%[[#^clm8116u8go|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^clm8116u8go
