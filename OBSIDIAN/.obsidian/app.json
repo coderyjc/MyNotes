@@ -15,8 +15,8 @@
     "downscalePercent": 100
   },
   "useMarkdownLinks": false,
-  "newLinkFormat": "relative",
-  "newFileLocation": "current",
+  "newLinkFormat": "shortest",
+  "newFileLocation": "root",
   "showInlineTitle": false,
   "showFrontmatter": false,
   "foldHeading": false,

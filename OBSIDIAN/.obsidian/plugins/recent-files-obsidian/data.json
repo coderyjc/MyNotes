@@ -3,6 +3,14 @@
     {
       "basename": "HOME",
       "path": "HOME.md"
+    },
+    {
+      "basename": "计算机视觉导论",
+      "path": "3.将来可能/人工智能导论/计算机视觉导论.md"
+    },
+    {
+      "basename": "人工智能导论",
+      "path": "3.将来可能/人工智能导论/人工智能导论.md"
     }
   ],
   "omittedPaths": [],
