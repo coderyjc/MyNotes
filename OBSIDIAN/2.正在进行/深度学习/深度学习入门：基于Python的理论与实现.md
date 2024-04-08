@@ -563,3 +563,17 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^clm8116u8go
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-07T09:36:51.191Z","updated":"2024-04-07T09:36:51.191Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":92516,"end":92565},{"type":"TextQuoteSelector","exact":"过拟合是指，虽然训练数据中的数字图像能被正确辨别，但是不在训练数据中的数字图像却无法被识别的现象。","prefix":"是否能够正确识别训练数据以外的其他数据，即确认是否会发生过拟合。","suffix":"神经网络学习的最初目标是掌握泛化能力，因此，要评价神经网络的泛化"}]}]}
+>```
+>%%
+>*%%PREFIX%%是否能够正确识别训练数据以外的其他数据，即确认是否会发生过拟合。%%HIGHLIGHT%% ==过拟合是指，虽然训练数据中的数字图像能被正确辨别，但是不在训练数据中的数字图像却无法被识别的现象。== %%POSTFIX%%神经网络学习的最初目标是掌握泛化能力，因此，要评价神经网络的泛化*
+>%%LINK%%[[#^c21no2rvbh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^c21no2rvbh
