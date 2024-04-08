@@ -577,3 +577,17 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^c21no2rvbh
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-08T02:51:35.194Z","updated":"2024-04-08T02:51:35.194Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":105353,"end":105437},{"type":"TextQuoteSelector","exact":"这个变量mask是由True/False构成的NumPy数组，它会把正向传播时的输入x的元素中小于等于0的地方保存为True，其他地方（大于0的元素）保存为False。","prefix":"        return dxRelu类有实例变量mask。","suffix":"如下例所示，mask变量保存了由True/False构成的Num"}]}]}
+>```
+>%%
+>*%%PREFIX%%return dxRelu类有实例变量mask。%%HIGHLIGHT%% ==这个变量mask是由True/False构成的NumPy数组，它会把正向传播时的输入x的元素中小于等于0的地方保存为True，其他地方（大于0的元素）保存为False。== %%POSTFIX%%如下例所示，mask变量保存了由True/False构成的Num*
+>%%LINK%%[[#^1elb5kxd2hki|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^1elb5kxd2hki
