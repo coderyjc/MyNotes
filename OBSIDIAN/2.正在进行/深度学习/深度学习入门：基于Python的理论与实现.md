@@ -619,3 +619,17 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^yk903kkduz
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T04:16:19.386Z","updated":"2024-04-09T04:16:19.386Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":123786,"end":123837},{"type":"TextQuoteSelector","exact":"SGD的缺点是，如果函数的形状非均向（anisotropic），比如呈延伸状，搜索的路径就会非常低效。","prefix":"3中，SGD呈“之”字形移动。这是一个相当低效的路径。也就是说，","suffix":"因此，我们需要比单纯朝梯度方向前进的SGD更聪明的方法。SGD低"}]}]}
+>```
+>%%
+>*%%PREFIX%%3中，SGD呈“之”字形移动。这是一个相当低效的路径。也就是说，%%HIGHLIGHT%% ==SGD的缺点是，如果函数的形状非均向（anisotropic），比如呈延伸状，搜索的路径就会非常低效。== %%POSTFIX%%因此，我们需要比单纯朝梯度方向前进的SGD更聪明的方法。SGD低*
+>%%LINK%%[[#^9gd0b2ufprw|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^9gd0b2ufprw
