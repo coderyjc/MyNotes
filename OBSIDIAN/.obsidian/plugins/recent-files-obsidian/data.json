@@ -5,12 +5,20 @@
       "path": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md"
     },
     {
-      "basename": "HOME",
-      "path": "HOME.md"
+      "basename": "1.AlexNet",
+      "path": "2.正在进行/AI论文精读/1.AlexNet.md"
     },
     {
-      "basename": "AlexNet",
-      "path": "2.正在进行/AI论文精读/AlexNet.md"
+      "basename": "2.ResNet",
+      "path": "2.正在进行/AI论文精读/2.ResNet.md"
+    },
+    {
+      "basename": "README",
+      "path": "2.正在进行/AI论文精读/README.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "计算机视觉导论",

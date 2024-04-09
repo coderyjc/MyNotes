@@ -591,3 +591,31 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^1elb5kxd2hki
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T03:41:52.634Z","updated":"2024-04-09T03:41:52.634Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":118013,"end":118055},{"type":"TextQuoteSelector","exact":"经常会比较数值微分的结果和误差反向传播法的结果，以确认误差反向传播法的实现是否正确。","prefix":"况下不太容易出错。而误差反向传播法的实现很复杂，容易出错。所以，","suffix":"确认数值微分求出的梯度结果和误差反向传播法求出的结果是否一致（严"}]}]}
+>```
+>%%
+>*%%PREFIX%%况下不太容易出错。而误差反向传播法的实现很复杂，容易出错。所以，%%HIGHLIGHT%% ==经常会比较数值微分的结果和误差反向传播法的结果，以确认误差反向传播法的实现是否正确。== %%POSTFIX%%确认数值微分求出的梯度结果和误差反向传播法求出的结果是否一致（严*
+>%%LINK%%[[#^bjzvrg8rnd7|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bjzvrg8rnd7
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T03:51:45.696Z","updated":"2024-04-09T03:51:45.696Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":119098,"end":119142},{"type":"TextQuoteSelector","exact":"数值微分和误差反向传播法的计算结果之间的误差为0是很少见的。这是因为计算机的计算精度有限","prefix":"误差反向传播法求出的梯度是正确的，误差反向传播法的实现没有错误。","suffix":"（比如，32位浮点数）。受到数值精度的限制，刚才的误差一般不会为"}]}]}
+>```
+>%%
+>*%%PREFIX%%误差反向传播法求出的梯度是正确的，误差反向传播法的实现没有错误。%%HIGHLIGHT%% ==数值微分和误差反向传播法的计算结果之间的误差为0是很少见的。这是因为计算机的计算精度有限== %%POSTFIX%%（比如，32位浮点数）。受到数值精度的限制，刚才的误差一般不会为*
+>%%LINK%%[[#^yk903kkduz|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^yk903kkduz
