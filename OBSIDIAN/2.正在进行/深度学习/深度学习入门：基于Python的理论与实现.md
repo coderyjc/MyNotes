@@ -633,3 +633,129 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^9gd0b2ufprw
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T09:57:34.966Z","updated":"2024-04-09T09:57:34.966Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":128794,"end":128823},{"type":"TextQuoteSelector","exact":"如果想减小权重的值，一开始就将初始值设为较小的值才是正途。","prefix":"值为目的进行学习的方法。通过减小权重参数的值来抑制过拟合的发生。","suffix":"实际上，在这之前的权重初始值都是像0.01 * np.rando"}]}]}
+>```
+>%%
+>*%%PREFIX%%值为目的进行学习的方法。通过减小权重参数的值来抑制过拟合的发生。%%HIGHLIGHT%% ==如果想减小权重的值，一开始就将初始值设为较小的值才是正途。== %%POSTFIX%%实际上，在这之前的权重初始值都是像0.01 * np.rando*
+>%%LINK%%[[#^0kixxo3httwk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^0kixxo3httwk
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T09:58:02.216Z","updated":"2024-04-09T09:58:02.216Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":129012,"end":129061},{"type":"TextQuoteSelector","exact":"为什么不能将权重初始值设成一样的值呢？这是因为在误差反向传播法中，所有的权重值都会进行相同的更新。","prefix":"，将无法正确进行学习。为什么不能将权重初始值设为0呢？严格地说，","suffix":"比如，在2层神经网络中，假设第1层和第2层的权重为0。这样一来，"}]}]}
+>```
+>%%
+>*%%PREFIX%%，将无法正确进行学习。为什么不能将权重初始值设为0呢？严格地说，%%HIGHLIGHT%% ==为什么不能将权重初始值设成一样的值呢？这是因为在误差反向传播法中，所有的权重值都会进行相同的更新。== %%POSTFIX%%比如，在2层神经网络中，假设第1层和第2层的权重为0。这样一来，*
+>%%LINK%%[[#^krtdsjxlhj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^krtdsjxlhj
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T09:58:32.756Z","updated":"2024-04-09T09:58:32.756Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":129263,"end":129302},{"type":"TextQuoteSelector","exact":"了防止“权重均一化”（严格地讲，是为了瓦解权重的对称结构），必须随机生成初始值","prefix":"值（重复的值）。这使得神经网络拥有许多不同的权重的意义丧失了。为","suffix":"。6.2.2 隐藏层的激活值的分布观察隐藏层的激活值A（激活函数"}]}]}
+>```
+>%%
+>*%%PREFIX%%值（重复的值）。这使得神经网络拥有许多不同的权重的意义丧失了。为%%HIGHLIGHT%% ==了防止“权重均一化”（严格地讲，是为了瓦解权重的对称结构），必须随机生成初始值== %%POSTFIX%%。6.2.2 隐藏层的激活值的分布观察隐藏层的激活值A（激活函数*
+>%%LINK%%[[#^pd9u6ofl1k|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^pd9u6ofl1k
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T10:03:46.888Z","updated":"2024-04-09T10:03:46.888Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":150232,"end":150303},{"type":"TextQuoteSelector","exact":"假设输入大小为(H,W)，滤波器大小为(FH,FW)，输出大小为(OH,OW)，填充为P，步幅为S。此时，输出大小可通过式(7.1)进行计算。","prefix":"何呢？接下来，我们看一下对于填充和步幅，如何计算输出大小。这里，","suffix":" (7.1)现在，我们使用这个算式，试着做几个计算。例1：图7-"}]}]}
+>```
+>%%
+>*%%PREFIX%%何呢？接下来，我们看一下对于填充和步幅，如何计算输出大小。这里，%%HIGHLIGHT%% ==假设输入大小为(H,W)，滤波器大小为(FH,FW)，输出大小为(OH,OW)，填充为P，步幅为S。此时，输出大小可通过式(7.1)进行计算。== %%POSTFIX%%(7.1)现在，我们使用这个算式，试着做几个计算。例1：图7-*
+>%%LINK%%[[#^dimmkozr7n5|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^dimmkozr7n5
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T10:04:00.158Z","updated":"2024-04-09T10:04:00.158Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":150583,"end":150630},{"type":"TextQuoteSelector","exact":"根据深度学习的框架的不同，当值无法除尽时，有时会向最接近的整数四舍五入，不进行报错而继续运行。","prefix":"大小无法除尽时（结果是小数时），需要采取报错等对策。顺便说一下，","suffix":"7.2.5 3维数据的卷积运算之前的卷积运算的例子都是以有高、长"}]}]}
+>```
+>%%
+>*%%PREFIX%%大小无法除尽时（结果是小数时），需要采取报错等对策。顺便说一下，%%HIGHLIGHT%% ==根据深度学习的框架的不同，当值无法除尽时，有时会向最接近的整数四舍五入，不进行报错而继续运行。== %%POSTFIX%%7.2.5 3维数据的卷积运算之前的卷积运算的例子都是以有高、长*
+>%%LINK%%[[#^908lv5nlh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^908lv5nlh
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T10:04:50.289Z","updated":"2024-04-09T10:04:50.289Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":152659,"end":152683},{"type":"TextQuoteSelector","exact":"通过应用FN个滤波器，输出特征图也生成了FN个。","prefix":", OH, OW)CCFN输入数据 输出数据滤波器图7-11中，","suffix":"如果将这FN个特征图汇集在一起，就得到了形状为(FN,OH,OW"}]}]}
+>```
+>%%
+>*%%PREFIX%%, OH, OW)CCFN输入数据 输出数据滤波器图7-11中，%%HIGHLIGHT%% ==通过应用FN个滤波器，输出特征图也生成了FN个。== %%POSTFIX%%如果将这FN个特征图汇集在一起，就得到了形状为(FN,OH,OW*
+>%%LINK%%[[#^ahwa9kkby09|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ahwa9kkby09
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T10:26:31.065Z","updated":"2024-04-09T10:26:31.065Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":130787,"end":130797},{"type":"TextQuoteSelector","exact":"这个问题称为梯度消失","prefix":"偏向0和1的数据分布会造成反向传播中梯度的值不断变小，最后消失。","suffix":"（gradient vanishing）。层次加深的深度学习中，"}]}]}
+>```
+>%%
+>*%%PREFIX%%偏向0和1的数据分布会造成反向传播中梯度的值不断变小，最后消失。%%HIGHLIGHT%% ==这个问题称为梯度消失== %%POSTFIX%%（gradient vanishing）。层次加深的深度学习中，*
+>%%LINK%%[[#^d8jbu0b33rw|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^d8jbu0b33rw
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T10:26:35.143Z","updated":"2024-04-09T10:26:35.143Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":131460,"end":131465},{"type":"TextQuoteSelector","exact":"表现力受限","prefix":"神经元来表达基本相同的事情。因此，激活值在分布上有所偏向会出现“","suffix":"”的问题。各层的激活值的分布都要求有适当的广度。为什么呢？因为通"}]}]}
+>```
+>%%
+>*%%PREFIX%%神经元来表达基本相同的事情。因此，激活值在分布上有所偏向会出现“%%HIGHLIGHT%% ==表现力受限== %%POSTFIX%%”的问题。各层的激活值的分布都要求有适当的广度。为什么呢？因为通*
+>%%LINK%%[[#^19e76ct3a8f|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^19e76ct3a8f
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T10:26:54.926Z","updated":"2024-04-09T10:26:54.926Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":131775,"end":131809},{"type":"TextQuoteSelector","exact":"推导出的结论是，如果前一层的节点数为n，则初始值使用标准差为 的分布","prefix":"的分布，推  第6章 与学习相关的技巧180导了合适的权重尺度。","suffix":"A （图6-12）。图6-12 Xavier初始值：与前一层有n"}]}]}
+>```
+>%%
+>*%%PREFIX%%的分布，推  第6章 与学习相关的技巧180导了合适的权重尺度。%%HIGHLIGHT%% ==推导出的结论是，如果前一层的节点数为n，则初始值使用标准差为 的分布== %%POSTFIX%%A （图6-12）。图6-12 Xavier初始值：与前一层有n*
+>%%LINK%%[[#^qiyivgj31r|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qiyivgj31r
