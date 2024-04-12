@@ -759,3 +759,17 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^qiyivgj31r
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-09T10:29:03.752Z","updated":"2024-04-09T10:29:03.752Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":134075,"end":134154},{"type":"TextQuoteSelector","exact":"当激活函数使用ReLU时，权重初始值使用He初始值，当激活函数为sigmoid 或tanh 等S型曲线函数时，初始值使用Xavier初始值。这是目前的最佳实践","prefix":"的广度也能保持不变，因此逆向传播时，也会传递合适的值。总结一下，","suffix":"。6.2.4 基于MNIST数据集的权重初始值的比较下面通过实际"}]}]}
+>```
+>%%
+>*%%PREFIX%%的广度也能保持不变，因此逆向传播时，也会传递合适的值。总结一下，%%HIGHLIGHT%% ==当激活函数使用ReLU时，权重初始值使用He初始值，当激活函数为sigmoid 或tanh 等S型曲线函数时，初始值使用Xavier初始值。这是目前的最佳实践== %%POSTFIX%%。6.2.4 基于MNIST数据集的权重初始值的比较下面通过实际*
+>%%LINK%%[[#^8rzhe5krbs|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^8rzhe5krbs
