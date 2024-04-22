@@ -24,6 +24,22 @@
 
 ## 如何使用？
 
+极其不建议直接git clone，原因如下：
+
+```bash
+$ git clone git@github.com:coderyjc/MyNotes.git
+Cloning into 'MyNotes'...
+remote: Enumerating objects: 30056, done.
+remote: Counting objects: 100% (7088/7088), done.
+remote: Compressing objects: 100% (2835/2835), done.
+remote: Total 30056 (delta 4217), reused 6989 (delta 4118), pack-reused 22968
+Receiving objects: 100% (30056/30056), 667.50 MiB | 4.52 MiB/s, done.
+Resolving deltas: 100% (17454/17454), done.
+Updating files: 100% (2117/2117), done.
+```
+
+我会想办法进一步缩小仓库体积的。。
+
 仓库比较大，直接clone的话比较费时，因此可以使用浏览器插件`gitzip`选择性下载。[chrome应用商店链接](https://chromewebstore.google.com/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn) 
 
 因此本仓库中每一个项目的笔记以及笔记中的图片是放在同一个目录下的，方便直接连带着图片下载笔记。
