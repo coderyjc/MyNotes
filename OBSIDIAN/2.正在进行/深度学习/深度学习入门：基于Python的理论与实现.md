@@ -773,3 +773,17 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^8rzhe5krbs
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-22T13:27:55.547Z","updated":"2024-04-22T13:27:55.547Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":132904,"end":132933},{"type":"TextQuoteSelector","exact":"当前一层的节点数为n时，He初始值使用标准差为 的高斯分布","prefix":"iming He等人推荐的初始值，也称为“He初始值”[10]。","suffix":"。当Xavier初始值是 时，（直观上）可以解释为，因为ReLU"}]}]}
+>```
+>%%
+>*%%PREFIX%%iming He等人推荐的初始值，也称为“He初始值”[10]。%%HIGHLIGHT%% ==当前一层的节点数为n时，He初始值使用标准差为 的高斯分布== %%POSTFIX%%。当Xavier初始值是 时，（直观上）可以解释为，因为ReLU*
+>%%LINK%%[[#^7tgssjwjy2h|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^7tgssjwjy2h
