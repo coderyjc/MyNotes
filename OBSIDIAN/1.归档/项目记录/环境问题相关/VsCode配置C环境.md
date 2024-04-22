@@ -50,6 +50,141 @@ cmd中输入`gcc -v`出现下列文字说明配置正确。
 
 下面我们开始配置运行环境
 
+## 方法3（2024.4.22更新）
+
+
+```json
+// tasks.json
+
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "echo",
+          "type": "shell",
+          "command": "g++",
+          "args": [
+              "-g", 
+              "${file}", 
+              "-o", 
+              "${fileBasenameNoExtension}.exe",
+              "-fexec-charset=GBK"//解决中文乱码
+          ]
+      }
+  ],
+  "presentation": {
+      "echo": true,
+      "reveal": "always",
+      "focus": false,
+      "panel": "shared", 
+      "showReuseMessage": true,
+      "clear": false
+  }
+}
+```
+
+
+```json
+// c_cpp_properties.json
+
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                // "F:\\env\\mingw\\include",
+                // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+                // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32",
+                // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
+                // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+                // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed",
+                // "F:\\env\\mingw\\x86_64-w64-mingw32\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceRoot}",
+                    // "F:\\env\\mingw\\include",
+                    // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+                    // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32",
+                    // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
+                    // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+                    // "F:\\env\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include-fixed",
+                    // "F:\\env\\mingw\\x86_64-w64-mingw32\\include"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
+```
+
+
+```json
+// launch.json
+
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+      {
+        "name": "(Windows) Launch",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "cmd",
+        "preLaunchTask": "echo",
+        "args": [
+            "/C",
+            "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "&",
+            "echo.",
+            // "&",
+            // "pause" // 黑框一闪而过就释放这里的注释
+        ],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole":true
+    },
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "F:\\env\\mingw\\bin\\g++.exe",// 自己电脑的gdb
+      "preLaunchTask": "echo",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
+```
+
+
 ## 方法2【新版】
 
 在文件夹下创建`.vscode`文件夹，然后创建3个文件。

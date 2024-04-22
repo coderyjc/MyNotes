@@ -11,8 +11,13 @@
             "id": "bafcfe0e171570b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1.归档/项目记录/环境问题相关/VsCode配置C环境.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -34,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "配置C",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -57,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5079231262207,
-    "collapsed": true
+    "width": 269.5079231262207
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -75,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1.归档/项目记录/环境问题相关/VsCode配置C环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1.归档/项目记录/环境问题相关/VsCode配置C环境.md"
+              }
             }
           }
         ]
