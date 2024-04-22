@@ -1,5 +1,9 @@
+---
+alias: Miniconda安装与配置
+tags: 
+- Python/Annaconda
+---
 
-#Python/Annaconda 
 
 ## 安装Annaconda本体
 
@@ -99,6 +103,8 @@ conda config --set show_channel_urls yes
 ### 方法二 配置文件添加
 
 创建或者修改文件 `C:\Users\Administrator\.condarc`
+
+文件实时更新，建议查看官网镜像源： https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 
 将内容替换为以下内容
 

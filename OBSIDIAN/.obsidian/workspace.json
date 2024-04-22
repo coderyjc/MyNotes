@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "85b0ee992ff715ec",
+        "id": "5c98dcd946461298",
         "type": "tabs",
         "children": [
           {
-            "id": "48ff29a3d97e0679",
+            "id": "bafcfe0e171570b4",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -55,12 +53,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 286.51103591918945,
+    "width": 269.5079231262207,
     "collapsed": true
   },
   "right": {
@@ -78,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -125,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,13 +134,17 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "48ff29a3d97e0679",
+  "active": "bafcfe0e171570b4",
   "lastOpenFiles": [
+    "1.归档/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md",
+    "1.归档/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md",
+    "1.归档/Python/Annaconda/Annaconda-Bug合集/Annaconda-报错回环导入.md",
+    "3.将来可能/AAAMLP/准备环境-Miniconda.md",
+    "HOME.md",
     "2.正在进行/AI论文精读/1.AlexNet.md",
+    "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md",
     "2.正在进行/AI论文精读/2.ResNet.md",
     "2.正在进行/AI论文精读/README.md",
-    "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md",
-    "HOME.md",
     "3.将来可能/人工智能导论/计算机视觉导论.md",
     "3.将来可能/人工智能导论/人工智能导论.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-12 排序.md",
@@ -155,7 +152,6 @@
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-25 朋友圈.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-49 打印学生选课清单.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-50 畅通工程之局部最小花费问题.md",
-    "3.将来可能/AAAMLP/准备环境-Miniconda.md",
     "1.归档/Python/Django/Django-基础知识/Django环境搭建.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-10 公路村村通.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-18 银行业务队列简单模拟.md",
@@ -166,9 +162,6 @@
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-9 旅游规划.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-8 哈利·波特的考试.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-7 六度空间.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-6 列出连通集.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-5 堆中的路径.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-3 树的同构.md",
     "3.将来可能/软考/assets/Pasted image 20240102195133.png",
     "3.将来可能/软考/assets",
     "3.将来可能/软考",

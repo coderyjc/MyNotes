@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "深度学习入门：基于Python的理论与实现",
-      "path": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md"
+      "basename": "Annaconda安装以及镜像源配置",
+      "path": "1.归档/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md"
+    },
+    {
+      "basename": "使用Annaconda的venv-Base环境",
+      "path": "1.归档/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md"
+    },
+    {
+      "basename": "Annaconda-报错回环导入",
+      "path": "1.归档/Python/Annaconda/Annaconda-Bug合集/Annaconda-报错回环导入.md"
+    },
+    {
+      "basename": "准备环境-Miniconda",
+      "path": "3.将来可能/AAAMLP/准备环境-Miniconda.md"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
       "basename": "1.AlexNet",
       "path": "2.正在进行/AI论文精读/1.AlexNet.md"
+    },
+    {
+      "basename": "深度学习入门：基于Python的理论与实现",
+      "path": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md"
     },
     {
       "basename": "2.ResNet",
@@ -15,10 +35,6 @@
     {
       "basename": "README",
       "path": "2.正在进行/AI论文精读/README.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     },
     {
       "basename": "计算机视觉导论",
