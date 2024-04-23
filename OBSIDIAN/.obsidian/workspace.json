@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d8fe010f41d325aa",
+        "id": "e666d7ce2550103e",
         "type": "tabs",
         "children": [
           {
-            "id": "c876d162d572cb6b",
+            "id": "527576e0268fbb16",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2.正在进行/d2l/0.课程开始之前.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -58,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5079231262207,
-    "collapsed": true
+    "width": 269.5079231262207
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -76,6 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.正在进行/d2l/0.课程开始之前.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.正在进行/d2l/0.课程开始之前.md"
+              }
             }
           }
         ]
@@ -136,9 +143,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c876d162d572cb6b",
+  "active": "136b72b2c13e002f",
   "lastOpenFiles": [
-    "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md",
+    "2.正在进行/d2l/0.课程开始之前.md",
+    "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
+    "2.正在进行/d2l",
+    "1.归档/深度学习/相关书籍",
     "2.正在进行/AI论文精读/1.AlexNet.md",
     "2.正在进行/AI论文精读/2.ResNet.md",
     "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
@@ -163,7 +173,6 @@
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-18 银行业务队列简单模拟.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-17 汉诺塔的非递归实现.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-16 一元多项式求导.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-15 QQ帐户的申请与登陆.md",
     "3.将来可能/软考/assets/Pasted image 20240102195133.png",
     "3.将来可能/软考/assets",
     "3.将来可能/软考",
@@ -177,8 +186,6 @@
     "3.将来可能/回收站/教资",
     "3.将来可能/回收站/调剂",
     "3.将来可能/回收站/【已废除】天猫用户复购预测",
-    "3.将来可能/回收站",
-    "3.将来可能/读研攻略",
     "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511094016.png",
     "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511093956.png",
     "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224085422.png",
