@@ -885,3 +885,45 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^r1uh7zav9tm
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T07:18:28.504Z","updated":"2024-04-23T07:18:28.504Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":169919,"end":169969},{"type":"TextQuoteSelector","exact":"一般认为，这是因为对于手写数字识别这样一个比较简单的任务，没有必要将网络的表现力提高到那么高的程度。","prefix":"于MNIST数据集，层不用特别深就获得了（目前）最高的识别精度。","suffix":"因此，可以说加深层的好处并不大。而之后要介绍的大规模的一般物体识"}]}]}
+>```
+>%%
+>*%%PREFIX%%于MNIST数据集，层不用特别深就获得了（目前）最高的识别精度。%%HIGHLIGHT%% ==一般认为，这是因为对于手写数字识别这样一个比较简单的任务，没有必要将网络的表现力提高到那么高的程度。== %%POSTFIX%%因此，可以说加深层的好处并不大。而之后要介绍的大规模的一般物体识*
+>%%LINK%%[[#^rmb5wu2mamh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^rmb5wu2mamh
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T07:21:09.136Z","updated":"2024-04-23T07:21:09.136Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":171482,"end":171520},{"type":"TextQuoteSelector","exact":"感受野（receptive field，给神经元施加变化的某个局部空间区域）","prefix":"是49。叠加小型滤波器来加深网络的好处是可以减少参数的数量，扩大","suffix":"。并且，通过叠加层，将ReLU等激活函数夹在卷积层的中间，进一步"}]}]}
+>```
+>%%
+>*%%PREFIX%%是49。叠加小型滤波器来加深网络的好处是可以减少参数的数量，扩大%%HIGHLIGHT%% ==感受野（receptive field，给神经元施加变化的某个局部空间区域）== %%POSTFIX%%。并且，通过叠加层，将ReLU等激活函数夹在卷积层的中间，进一步*
+>%%LINK%%[[#^r6tcbdjky5p|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^r6tcbdjky5p
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T07:31:52.091Z","updated":"2024-04-23T07:31:52.091Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":175165,"end":175183},{"type":"TextQuoteSelector","exact":"迁移学习在手头数据集较少时非常有效。","prefix":"的网络，把学习完的权重作为初始值，以新数据集为对象，进行再学习。","suffix":"8.3 深度学习的高速化随着大数据和网络的大规模化，深度学习需要"}]}]}
+>```
+>%%
+>*%%PREFIX%%的网络，把学习完的权重作为初始值，以新数据集为对象，进行再学习。%%HIGHLIGHT%% ==迁移学习在手头数据集较少时非常有效。== %%POSTFIX%%8.3 深度学习的高速化随着大数据和网络的大规模化，深度学习需要*
+>%%LINK%%[[#^v23oby2xtl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^v23oby2xtl

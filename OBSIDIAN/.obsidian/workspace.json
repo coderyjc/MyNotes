@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ec59ff35a0fffdc8",
+        "id": "d8fe010f41d325aa",
         "type": "tabs",
         "children": [
           {
-            "id": "c543bbbbcdea307d",
+            "id": "c876d162d572cb6b",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +76,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -141,8 +136,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "c543bbbbcdea307d",
+  "active": "c876d162d572cb6b",
   "lastOpenFiles": [
+    "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md",
     "2.正在进行/AI论文精读/1.AlexNet.md",
     "2.正在进行/AI论文精读/2.ResNet.md",
     "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
@@ -154,7 +150,6 @@
     "1.归档/Python/Annaconda/Annaconda-Bug合集/Annaconda-报错回环导入.md",
     "3.将来可能/AAAMLP/准备环境-Miniconda.md",
     "HOME.md",
-    "2.正在进行/深度学习/深度学习入门：基于Python的理论与实现.md",
     "2.正在进行/AI论文精读/README.md",
     "3.将来可能/人工智能导论/计算机视觉导论.md",
     "3.将来可能/人工智能导论/人工智能导论.md",
