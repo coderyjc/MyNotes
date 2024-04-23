@@ -829,3 +829,59 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^tl1qzfzosds
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T01:30:25.147Z","updated":"2024-04-23T01:30:25.147Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":145560,"end":145604},{"type":"TextQuoteSelector","exact":"学习率在0.001到0.01、权值衰减系数在10−8到10−6之间时，学习可以顺利进行。","prefix":" weight decay:8.97e-06从这个结果可以看出，","suffix":"像这样，观察可以使学习顺利进行的超参数的范围，从而缩小值的范围。"}]}]}
+>```
+>%%
+>*%%PREFIX%%weight decay:8.97e-06从这个结果可以看出，%%HIGHLIGHT%% ==学习率在0.001到0.01、权值衰减系数在10−8到10−6之间时，学习可以顺利进行。== %%POSTFIX%%像这样，观察可以使学习顺利进行的超参数的范围，从而缩小值的范围。*
+>%%LINK%%[[#^w3ghsvwf63|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^w3ghsvwf63
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T02:09:10.900Z","updated":"2024-04-23T02:09:10.900Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":154075,"end":154131},{"type":"TextQuoteSelector","exact":"一般来说，池化的窗口大小会和步幅设定成相同的值。比如，3×3的窗口的步幅会设为3，4×4的窗口的步幅会设为4等。","prefix":"子中将步幅设为了2，所以2×2的窗口的移动间隔为2个元素。另外，","suffix":"除了Max池化之外，还有Average池化等。相对于Max池化是"}]}]}
+>```
+>%%
+>*%%PREFIX%%子中将步幅设为了2，所以2×2的窗口的移动间隔为2个元素。另外，%%HIGHLIGHT%% ==一般来说，池化的窗口大小会和步幅设定成相同的值。比如，3×3的窗口的步幅会设为3，4×4的窗口的步幅会设为4等。== %%POSTFIX%%除了Max池化之外，还有Average池化等。相对于Max池化是*
+>%%LINK%%[[#^ue6p6t8aggh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ue6p6t8aggh
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T02:09:22.947Z","updated":"2024-04-23T02:09:22.947Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":154197,"end":154215},{"type":"TextQuoteSelector","exact":"在图像识别领域，主要使用Max池化。","prefix":"标区域中取出最大值，Average池化则是计算目标区域的平均值。","suffix":"因此，本书中说到“池化层”时，指的是Max池化。7.3  池化层"}]}]}
+>```
+>%%
+>*%%PREFIX%%标区域中取出最大值，Average池化则是计算目标区域的平均值。%%HIGHLIGHT%% ==在图像识别领域，主要使用Max池化。== %%POSTFIX%%因此，本书中说到“池化层”时，指的是Max池化。7.3  池化层*
+>%%LINK%%[[#^ioa91ikr97|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ioa91ikr97
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T02:44:38.941Z","updated":"2024-04-23T02:44:38.941Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":158068,"end":158141},{"type":"TextQuoteSelector","exact":"FN、C、FH、FW 分别是Filter Number（滤波器数量）、Channel、Filter Height、Filter Width的缩写。","prefix":"接收。滤波器是(FN, C, FH, FW) 的4维形状。另外，","suffix":"这里用粗体字表示Convolution层的实现中的重要部分。在这"}]}]}
+>```
+>%%
+>*%%PREFIX%%接收。滤波器是(FN, C, FH, FW) 的4维形状。另外，%%HIGHLIGHT%% ==FN、C、FH、FW 分别是Filter Number（滤波器数量）、Channel、Filter Height、Filter Width的缩写。== %%POSTFIX%%这里用粗体字表示Convolution层的实现中的重要部分。在这*
+>%%LINK%%[[#^r1uh7zav9tm|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^r1uh7zav9tm
