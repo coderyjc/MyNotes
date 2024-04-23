@@ -787,3 +787,45 @@ annotation-target: 深度学习入门：基于Python的理论与实现.pdf
 >%%TAGS%%
 >
 ^7tgssjwjy2h
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-22T23:41:24.062Z","updated":"2024-04-22T23:41:24.062Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":139324,"end":139348},{"type":"TextQuoteSelector","exact":"很多过拟合原本就是因为权重参数取值过大才发生的。","prefix":"方法。该方法通过在学习的过程中对大的权重进行惩罚，来抑制过拟合。","suffix":"复习一下，神经网络的学习目的是减小损失函数的值。这时，例如为损失"}]}]}
+>```
+>%%
+>*%%PREFIX%%方法。该方法通过在学习的过程中对大的权重进行惩罚，来抑制过拟合。%%HIGHLIGHT%% ==很多过拟合原本就是因为权重参数取值过大才发生的。== %%POSTFIX%%复习一下，神经网络的学习目的是减小损失函数的值。这时，例如为损失*
+>%%LINK%%[[#^3bka8jc00w1|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3bka8jc00w1
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T00:51:12.652Z","updated":"2024-04-23T00:51:12.652Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":141829,"end":141867},{"type":"TextQuoteSelector","exact":"所谓集成学习，就是让多个模型单独进行学习，推理时再取多个模型的输出的平均值。","prefix":"是表现力强的网络，也可以抑制过拟合。机器学习中经常使用集成学习。","suffix":"用神经网络的语境来说，比如，准备5个结构相同（或者类似）的网络，"}]}]}
+>```
+>%%
+>*%%PREFIX%%是表现力强的网络，也可以抑制过拟合。机器学习中经常使用集成学习。%%HIGHLIGHT%% ==所谓集成学习，就是让多个模型单独进行学习，推理时再取多个模型的输出的平均值。== %%POSTFIX%%用神经网络的语境来说，比如，准备5个结构相同（或者类似）的网络，*
+>%%LINK%%[[#^3hqjq85nc3v|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3hqjq85nc3v
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-23T00:51:37.147Z","updated":"2024-04-23T00:51:37.147Z","document":{"title":"%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","link":[{"href":"urn:x-pdf:3cd36d714d46ee45a1ce3205394700f6"},{"href":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf"}],"documentFingerprint":"3cd36d714d46ee45a1ce3205394700f6"},"uri":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","target":[{"source":"vault:/0.plugin/pdf/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf","selector":[{"type":"TextPositionSelector","start":142106,"end":142136},{"type":"TextQuoteSelector","exact":"Dropout将集成学习的效果（模拟地）通过一个网络实现了。","prefix":"（比如，0.5等），可以取得模型的平均值。也就是说，可以理解成，","suffix":"6.5 超参数的验证神经网络中，除了权重和偏置等参数，超参数（h"}]}]}
+>```
+>%%
+>*%%PREFIX%%（比如，0.5等），可以取得模型的平均值。也就是说，可以理解成，%%HIGHLIGHT%% ==Dropout将集成学习的效果（模拟地）通过一个网络实现了。== %%POSTFIX%%6.5 超参数的验证神经网络中，除了权重和偏置等参数，超参数（h*
+>%%LINK%%[[#^tl1qzfzosds|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^tl1qzfzosds
