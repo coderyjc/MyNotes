@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2.正在进行/d2l/0.课程开始之前.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -143,7 +143,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "136b72b2c13e002f",
+  "active": "527576e0268fbb16",
   "lastOpenFiles": [
     "2.正在进行/d2l/0.课程开始之前.md",
     "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
