@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "54ecc30e87ad4967",
+        "id": "3f165ef41b342515",
         "type": "tabs",
         "children": [
           {
-            "id": "f3a00d438ec2b2ac",
+            "id": "8e4b126051c25aff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf-annotator",
+              "state": {
+                "file": "2.正在进行/d2l/annotation.md"
+              }
             }
           }
         ]
@@ -58,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5079231262207
+    "width": 269.5079231262207,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -75,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.正在进行/d2l/annotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.正在进行/d2l/annotation.md"
+              }
             }
           }
         ]
@@ -135,14 +141,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f3a00d438ec2b2ac",
+  "active": "8e4b126051c25aff",
   "lastOpenFiles": [
+    "2.正在进行/d2l/2.预备知识.md",
+    "2.正在进行/d2l/annotation.md",
+    "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
+    "0.plugin/pdf/d2l-pytorch.pdf",
+    "2.正在进行/d2l/0.课程开始之前.md",
     "2.正在进行/AI论文精读/1.AlexNet.md",
     "3.将来可能/CSAPP/参考项目.md",
-    "2.正在进行/d2l/2.预备知识.md",
-    "2.正在进行/d2l/0.课程开始之前.md",
     "1.归档/网页剪藏",
-    "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
     "2.正在进行/d2l",
     "1.归档/深度学习/相关书籍",
     "2.正在进行/AI论文精读/2.ResNet.md",
@@ -165,7 +173,6 @@
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-50 畅通工程之局部最小花费问题.md",
     "1.归档/Python/Django/Django-基础知识/Django环境搭建.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-10 公路村村通.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-18 银行业务队列简单模拟.md",
     "3.将来可能/软考/assets/Pasted image 20240102195133.png",
     "3.将来可能/软考/assets",
     "3.将来可能/软考",
@@ -177,7 +184,6 @@
     "3.将来可能/回收站/【已废除】天猫用户复购预测/assets/Pasted image 20240125203012.png",
     "3.将来可能/回收站/【已废除】天猫用户复购预测/assets",
     "3.将来可能/回收站/教资",
-    "3.将来可能/回收站/调剂",
     "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511094016.png",
     "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511093956.png",
     "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224085422.png",
