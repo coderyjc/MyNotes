@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e666d7ce2550103e",
+        "id": "54ecc30e87ad4967",
         "type": "tabs",
         "children": [
           {
-            "id": "527576e0268fbb16",
+            "id": "f3a00d438ec2b2ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.正在进行/d2l/0.课程开始之前.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -80,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.正在进行/d2l/0.课程开始之前.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.正在进行/d2l/0.课程开始之前.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -143,14 +135,16 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "136b72b2c13e002f",
+  "active": "f3a00d438ec2b2ac",
   "lastOpenFiles": [
-    "1.归档/网页剪藏",
+    "2.正在进行/AI论文精读/1.AlexNet.md",
+    "3.将来可能/CSAPP/参考项目.md",
+    "2.正在进行/d2l/2.预备知识.md",
     "2.正在进行/d2l/0.课程开始之前.md",
+    "1.归档/网页剪藏",
     "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
     "2.正在进行/d2l",
     "1.归档/深度学习/相关书籍",
-    "2.正在进行/AI论文精读/1.AlexNet.md",
     "2.正在进行/AI论文精读/2.ResNet.md",
     "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
     "3.将来可能/读研攻略/index.md",
@@ -172,7 +166,6 @@
     "1.归档/Python/Django/Django-基础知识/Django环境搭建.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-10 公路村村通.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-18 银行业务队列简单模拟.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-17 汉诺塔的非递归实现.md",
     "3.将来可能/软考/assets/Pasted image 20240102195133.png",
     "3.将来可能/软考/assets",
     "3.将来可能/软考",
@@ -185,7 +178,6 @@
     "3.将来可能/回收站/【已废除】天猫用户复购预测/assets",
     "3.将来可能/回收站/教资",
     "3.将来可能/回收站/调剂",
-    "3.将来可能/回收站/【已废除】天猫用户复购预测",
     "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511094016.png",
     "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511093956.png",
     "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224085422.png",
