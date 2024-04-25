@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1298f621ea35bb7a",
+        "id": "f2b3072c169253f1",
         "type": "tabs",
         "children": [
           {
-            "id": "25bc6181415d38a8",
+            "id": "e31d7343c7fcdc18",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "2.正在进行/d2l/annotation.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -60,8 +58,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5079231262207,
-    "collapsed": true
+    "width": 269.5079231262207
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.正在进行/d2l/annotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.正在进行/d2l/annotation.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -141,19 +135,21 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "136b72b2c13e002f",
+  "active": "e31d7343c7fcdc18",
   "lastOpenFiles": [
-    "2.正在进行/d2l/annotation.md",
+    "HOME.md",
+    "2.正在进行/d2l/d2l.md",
+    "2.正在进行/AI论文精读/README.md",
+    "2.正在进行/AI论文精读/2.ResNet.md",
+    "2.正在进行/AI论文精读/1.AlexNet.md",
     "2.正在进行/d2l/2.预备知识.md",
     "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
     "0.plugin/pdf/d2l-pytorch.pdf",
     "2.正在进行/d2l/0.课程开始之前.md",
-    "2.正在进行/AI论文精读/1.AlexNet.md",
     "3.将来可能/CSAPP/参考项目.md",
     "1.归档/网页剪藏",
     "2.正在进行/d2l",
     "1.归档/深度学习/相关书籍",
-    "2.正在进行/AI论文精读/2.ResNet.md",
     "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
     "3.将来可能/读研攻略/index.md",
     "3.将来可能/读研攻略/论文分区.md",
@@ -162,8 +158,6 @@
     "1.归档/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md",
     "1.归档/Python/Annaconda/Annaconda-Bug合集/Annaconda-报错回环导入.md",
     "3.将来可能/AAAMLP/准备环境-Miniconda.md",
-    "HOME.md",
-    "2.正在进行/AI论文精读/README.md",
     "3.将来可能/人工智能导论/计算机视觉导论.md",
     "3.将来可能/人工智能导论/人工智能导论.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-12 排序.md",

@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "annotation",
-      "path": "2.正在进行/d2l/annotation.md"
+      "basename": "HOME",
+      "path": "HOME.md"
     },
     {
-      "basename": "2.预备知识",
-      "path": "2.正在进行/d2l/2.预备知识.md"
+      "basename": "d2l",
+      "path": "2.正在进行/d2l/d2l.md"
+    },
+    {
+      "basename": "README",
+      "path": "2.正在进行/AI论文精读/README.md"
+    },
+    {
+      "basename": "2.ResNet",
+      "path": "2.正在进行/AI论文精读/2.ResNet.md"
+    },
+    {
+      "basename": "1.AlexNet",
+      "path": "2.正在进行/AI论文精读/1.AlexNet.md"
     },
     {
       "basename": "深度学习入门：基于Python的理论与实现",
@@ -17,16 +29,8 @@
       "path": "0.plugin/pdf/d2l-pytorch.pdf"
     },
     {
-      "basename": "1.AlexNet",
-      "path": "2.正在进行/AI论文精读/1.AlexNet.md"
-    },
-    {
       "basename": "参考项目",
       "path": "3.将来可能/CSAPP/参考项目.md"
-    },
-    {
-      "basename": "2.ResNet",
-      "path": "2.正在进行/AI论文精读/2.ResNet.md"
     },
     {
       "basename": "如何有效读论文-吴恩达",
@@ -55,14 +59,6 @@
     {
       "basename": "准备环境-Miniconda",
       "path": "3.将来可能/AAAMLP/准备环境-Miniconda.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "README",
-      "path": "2.正在进行/AI论文精读/README.md"
     },
     {
       "basename": "计算机视觉导论",
