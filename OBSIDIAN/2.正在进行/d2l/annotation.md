@@ -167,3 +167,70 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^juog0b72vlm
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-25T08:30:28.928Z","updated":"2024-04-25T08:30:28.928Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":117250,"end":117306},{"type":"TextQuoteSelector","exact":"对于任何a，存在某个常量标量k，使得f(a)=k*a，其中k的值取决于输入a，因此可以用d/a验证梯度是否正确。","prefix":"析上面定义的f函数。请注意，它在其输入a中是分段线性的。换言之，","suffix":"72 2. 预备知识a.grad == d / atensor("}]}]}
+>```
+>%%
+>*%%PREFIX%%析上面定义的f函数。请注意，它在其输入a中是分段线性的。换言之，%%HIGHLIGHT%% ==对于任何a，存在某个常量标量k，使得f(a)=k*a，其中k的值取决于输入a，因此可以用d/a验证梯度是否正确。== %%POSTFIX%%72 2. 预备知识a.grad == d / atensor(*
+>%%LINK%%[[#^dv5ehga7hkw|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^dv5ehga7hkw
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-25T08:34:20.164Z","text":" .backward() 方法通常要求它所计算梯度的源（即 d）必须是一个标量值。当 a 是一个向量时，通过 f 函数计算得到的 d 也将是一个向量，因此不能直接使用 .backward()。","updated":"2024-04-25T08:34:20.164Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":117477,"end":117521},{"type":"TextQuoteSelector","exact":"在控制流的例子中，我们计算d关于a的导数，如果将变量a更改为随机向量或矩阵，会发生什么？","prefix":" 在运行反向传播函数之后，立即再次运行它，看看会发生什么。3. ","suffix":"4. 重新设计一个求控制流梯度的例子，运行并分析结果。5. 使f"}]}]}
+>```
+>%%
+>*%%PREFIX%%在运行反向传播函数之后，立即再次运行它，看看会发生什么。3.%%HIGHLIGHT%% ==在控制流的例子中，我们计算d关于a的导数，如果将变量a更改为随机向量或矩阵，会发生什么？== %%POSTFIX%%4. 重新设计一个求控制流梯度的例子，运行并分析结果。5. 使f*
+>%%LINK%%[[#^r93qmu141tg|show annotation]]
+>%%COMMENT%%
+> .backward() 方法通常要求它所计算梯度的源（即 d）必须是一个标量值。当 a 是一个向量时，通过 f 函数计算得到的 d 也将是一个向量，因此不能直接使用 .backward()。
+>%%TAGS%%
+>
+^r93qmu141tg
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-25T09:19:18.901Z","text":"\n```python\nx = torch.arange(0, 10, 0.1, requires_grad=True)\nsinx = torch.sin(x)\n\nsinx.sum().backward()  # 使用.sum()使sinx成为标量以调用.backward() \n\ncosx = x.grad\nplot(x.detach().numpy(), [sinx.detach().numpy(), cosx.detach().numpy()], 'sinx', 'cosx')\n```\n\n在 PyTorch 中，.backward() 方法用于计算梯度，但它只能被直接调用在标量（即一个单一数值）张量上。如果对象是非标量张量（即包含多个值的张量），则 .backward() 需要一个与该张量形状相同的参数作为梯度权重，这样才能计算对应的向量-雅可比乘积（Vector-Jacobian product，VJP），从而得到每个元素相对于源张量的梯度。\n\n当你调用 torch.sin(x)，其中 x 是一个包含多个值的张量时，结果同样是一个包含多个值的张量。为了能够使用 .backward() 方法计算梯度，你需要将这个结果张量转换成一个标量。这就是为什么要使用 .sum() 方法的原因。.sum() 方法会计算张量中所有元素的总和，从而将任何形状的张量转换为一个单一的标量值。这样做的好处是：\n\n允许梯度计算：将结果转换为标量后，可以直接调用 .backward() 来计算梯度，而无需额外的权重参数。\n简化计算：使用 .sum() 保证了无论输入张量的大小或维度如何，总能得到一个可以用于梯度计算的标量输出。\n适用性广：这种方法适用于任何需要梯度反向传播的场景，而不仅仅是处理向量或矩阵。\n在具体的代码实现中，例如：\n\nsinx = torch.sin(x)\ntotal = sinx.sum()\ntotal.backward()\n这里，sinx 是 torch.sin(x) 的结果，它是一个向量。通过调用 sinx.sum()，你创建了一个名为 total 的新标量，它是 sinx 中所有元素的和。现在 total 是一个标量，可以直接在其上调用 .backward()，这会触发自动计算梯度的过程，计算出 total 相对于 x 中每个元素的梯度，并将这些梯度存储在 x.grad 属性中。\n\n因此，使用 .sum() 是将结果张量简化为可以进行梯度计算的标量的一种有效方法。","updated":"2024-04-25T09:19:18.901Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":117587,"end":117609},{"type":"TextQuoteSelector","exact":"其中后者不使用f ′(x) = cos(x)","prefix":"x) = sin(x)，绘制f (x)和df(x)dx 的图像，","suffix":"。Discussions412.6 概率简单地说，机器学习就是做"}]}]}
+>```
+>%%
+>*%%PREFIX%%x) = sin(x)，绘制f (x)和df(x)dx 的图像，%%HIGHLIGHT%% ==其中后者不使用f ′(x) = cos(x)== %%POSTFIX%%。Discussions412.6 概率简单地说，机器学习就是做*
+>%%LINK%%[[#^klm6g2rzahh|show annotation]]
+>%%COMMENT%%
+>
+>```python
+>x = torch.arange(0, 10, 0.1, requires_grad=True)
+>sinx = torch.sin(x)
+>
+>sinx.sum().backward()  # 使用.sum()使sinx成为标量以调用.backward() 
+>
+>cosx = x.grad
+>plot(x.detach().numpy(), [sinx.detach().numpy(), cosx.detach().numpy()], 'sinx', 'cosx')
+>```
+>
+>在 PyTorch 中，.backward() 方法用于计算梯度，但它只能被直接调用在标量（即一个单一数值）张量上。如果对象是非标量张量（即包含多个值的张量），则 .backward() 需要一个与该张量形状相同的参数作为梯度权重，这样才能计算对应的向量-雅可比乘积（Vector-Jacobian product，VJP），从而得到每个元素相对于源张量的梯度。
+>
+>当你调用 torch.sin(x)，其中 x 是一个包含多个值的张量时，结果同样是一个包含多个值的张量。为了能够使用 .backward() 方法计算梯度，你需要将这个结果张量转换成一个标量。这就是为什么要使用 .sum() 方法的原因。.sum() 方法会计算张量中所有元素的总和，从而将任何形状的张量转换为一个单一的标量值。这样做的好处是：
+>
+>允许梯度计算：将结果转换为标量后，可以直接调用 .backward() 来计算梯度，而无需额外的权重参数。
+>简化计算：使用 .sum() 保证了无论输入张量的大小或维度如何，总能得到一个可以用于梯度计算的标量输出。
+>适用性广：这种方法适用于任何需要梯度反向传播的场景，而不仅仅是处理向量或矩阵。
+>在具体的代码实现中，例如：
+>
+>sinx = torch.sin(x)
+>total = sinx.sum()
+>total.backward()
+>这里，sinx 是 torch.sin(x) 的结果，它是一个向量。通过调用 sinx.sum()，你创建了一个名为 total 的新标量，它是 sinx 中所有元素的和。现在 total 是一个标量，可以直接在其上调用 .backward()，这会触发自动计算梯度的过程，计算出 total 相对于 x 中每个元素的梯度，并将这些梯度存储在 x.grad 属性中。
+>
+>因此，使用 .sum() 是将结果张量简化为可以进行梯度计算的标量的一种有效方法。
+>%%TAGS%%
+>
+^klm6g2rzahh

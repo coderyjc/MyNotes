@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3f165ef41b342515",
+        "id": "1298f621ea35bb7a",
         "type": "tabs",
         "children": [
           {
-            "id": "8e4b126051c25aff",
+            "id": "25bc6181415d38a8",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -141,10 +141,10 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "8e4b126051c25aff",
+  "active": "136b72b2c13e002f",
   "lastOpenFiles": [
-    "2.正在进行/d2l/2.预备知识.md",
     "2.正在进行/d2l/annotation.md",
+    "2.正在进行/d2l/2.预备知识.md",
     "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
     "0.plugin/pdf/d2l-pytorch.pdf",
     "2.正在进行/d2l/0.课程开始之前.md",
