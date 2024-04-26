@@ -276,3 +276,45 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^krtnudodyxf
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T02:41:25.034Z","updated":"2024-04-26T02:41:25.034Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":148429,"end":148454},{"type":"TextQuoteSelector","exact":"我们可以通过_结尾的方法将参数替换，从而初始化参数","prefix":"数据处理工具，nn模块定义了大量的神经网络层和常见损失函数。• ","suffix":"。练习1. 如果将小批量的总损失替换为小批量损失的平均值，需要如"}]}]}
+>```
+>%%
+>*%%PREFIX%%数据处理工具，nn模块定义了大量的神经网络层和常见损失函数。•%%HIGHLIGHT%% ==我们可以通过_结尾的方法将参数替换，从而初始化参数== %%POSTFIX%%。练习1. 如果将小批量的总损失替换为小批量损失的平均值，需要如*
+>%%LINK%%[[#^4d7020zb7a6|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4d7020zb7a6
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T02:52:06.924Z","updated":"2024-04-26T02:52:06.924Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":151289,"end":151319},{"type":"TextQuoteSelector","exact":"softmax回归是一个线性模型（linear model）","prefix":"，但softmax回归的输出仍然由输入特征的仿射变换决定。因此，","suffix":"。3.4. softmax回归 1073.4.5 小批量样本的矢"}]}]}
+>```
+>%%
+>*%%PREFIX%%，但softmax回归的输出仍然由输入特征的仿射变换决定。因此，%%HIGHLIGHT%% ==softmax回归是一个线性模型（linear model）== %%POSTFIX%%。3.4. softmax回归 1073.4.5 小批量样本的矢*
+>%%LINK%%[[#^v4lu8417ef|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^v4lu8417ef
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T03:02:46.991Z","updated":"2024-04-26T03:02:46.991Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":152995,"end":153040},{"type":"TextQuoteSelector","exact":"此损失称为交叉熵损失（cross‐entropy loss），它是分类问题最常用的损失之一","prefix":"们使用(3.4.8)来定义损失l，它是所有标签分布的预期损失值。","suffix":"。本节我们将通过介绍信息论基础来理解交叉熵损失。如果想了解更多信"}]}]}
+>```
+>%%
+>*%%PREFIX%%们使用(3.4.8)来定义损失l，它是所有标签分布的预期损失值。%%HIGHLIGHT%% ==此损失称为交叉熵损失（cross‐entropy loss），它是分类问题最常用的损失之一== %%POSTFIX%%。本节我们将通过介绍信息论基础来理解交叉熵损失。如果想了解更多信*
+>%%LINK%%[[#^t97i4a8cxuo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^t97i4a8cxuo
