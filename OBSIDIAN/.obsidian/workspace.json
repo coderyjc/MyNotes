@@ -11,8 +11,10 @@
             "id": "e31d7343c7fcdc18",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf-annotator",
+              "state": {
+                "file": "2.正在进行/d2l/d2l.md"
+              }
             }
           }
         ]
@@ -58,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5079231262207
+    "width": 269.5079231262207,
+    "collapsed": true
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -75,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2.正在进行/d2l/d2l.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2.正在进行/d2l/d2l.md"
+              }
             }
           }
         ]

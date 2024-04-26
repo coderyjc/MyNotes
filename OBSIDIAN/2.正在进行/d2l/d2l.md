@@ -234,3 +234,145 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^klm6g2rzahh
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-25T23:59:27.021Z","updated":"2024-04-25T23:59:27.021Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":130567,"end":130601},{"type":"TextQuoteSelector","exact":"自变量x和因变量y之间的关系是线性的，即y可以表示为x中元素的加权和","prefix":"准工具中最简单而且最流行。线性回归基于几个简单的假设：首先，假设","suffix":"，这里通常允许包含观测值的一些噪声；其次，我们假设任何噪声都比较"}]}]}
+>```
+>%%
+>*%%PREFIX%%准工具中最简单而且最流行。线性回归基于几个简单的假设：首先，假设%%HIGHLIGHT%% ==自变量x和因变量y之间的关系是线性的，即y可以表示为x中元素的加权和== %%POSTFIX%%，这里通常允许包含观测值的一些噪声；其次，我们假设任何噪声都比较*
+>%%LINK%%[[#^j8k8s83b55g|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^j8k8s83b55g
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T00:11:33.293Z","updated":"2024-04-26T00:11:33.293Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":133331,"end":133384},{"type":"TextQuoteSelector","exact":"梯度下降最简单的用法是计算损失函数（数据集中所有样本的损失均值）关于模型参数的导数（在这里也可以称为梯度）","prefix":"学习模型。它通过不断地在损失函数递减的方向上更新参数来降低误差。","suffix":"。但实际中的执行可能会非常慢：因为在每一次更新参数之前，我们必须"}]}]}
+>```
+>%%
+>*%%PREFIX%%学习模型。它通过不断地在损失函数递减的方向上更新参数来降低误差。%%HIGHLIGHT%% ==梯度下降最简单的用法是计算损失函数（数据集中所有样本的损失均值）关于模型参数的导数（在这里也可以称为梯度）== %%POSTFIX%%。但实际中的执行可能会非常慢：因为在每一次更新参数之前，我们必须*
+>%%LINK%%[[#^qvrhytehm7a|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qvrhytehm7a
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T01:34:52.058Z","text":"yield 关键字使得函数执行可以在每次产生值后暂停并保存状态，等待下次再被激活继续执行。","updated":"2024-04-26T01:34:52.058Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":140974,"end":140979},{"type":"TextQuoteSelector","exact":"yield","prefix":"(i + batch_size, num_examples)])","suffix":" features[batch_indices], labels"}]}]}
+>```
+>%%
+>*%%PREFIX%%(i + batch_size, num_examples)])%%HIGHLIGHT%% ==yield== %%POSTFIX%%features[batch_indices], labels*
+>%%LINK%%[[#^krtnudodyxf|show annotation]]
+>%%COMMENT%%
+>yield 关键字使得函数执行可以在每次产生值后暂停并保存状态，等待下次再被激活继续执行。
+>%%TAGS%%
+>
+^krtnudodyxf
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T02:41:25.034Z","updated":"2024-04-26T02:41:25.034Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":148429,"end":148454},{"type":"TextQuoteSelector","exact":"我们可以通过_结尾的方法将参数替换，从而初始化参数","prefix":"数据处理工具，nn模块定义了大量的神经网络层和常见损失函数。• ","suffix":"。练习1. 如果将小批量的总损失替换为小批量损失的平均值，需要如"}]}]}
+>```
+>%%
+>*%%PREFIX%%数据处理工具，nn模块定义了大量的神经网络层和常见损失函数。•%%HIGHLIGHT%% ==我们可以通过_结尾的方法将参数替换，从而初始化参数== %%POSTFIX%%。练习1. 如果将小批量的总损失替换为小批量损失的平均值，需要如*
+>%%LINK%%[[#^4d7020zb7a6|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4d7020zb7a6
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T02:52:06.924Z","updated":"2024-04-26T02:52:06.924Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":151289,"end":151319},{"type":"TextQuoteSelector","exact":"softmax回归是一个线性模型（linear model）","prefix":"，但softmax回归的输出仍然由输入特征的仿射变换决定。因此，","suffix":"。3.4. softmax回归 1073.4.5 小批量样本的矢"}]}]}
+>```
+>%%
+>*%%PREFIX%%，但softmax回归的输出仍然由输入特征的仿射变换决定。因此，%%HIGHLIGHT%% ==softmax回归是一个线性模型（linear model）== %%POSTFIX%%。3.4. softmax回归 1073.4.5 小批量样本的矢*
+>%%LINK%%[[#^v4lu8417ef|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^v4lu8417ef
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T03:02:46.991Z","updated":"2024-04-26T03:02:46.991Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":152995,"end":153040},{"type":"TextQuoteSelector","exact":"此损失称为交叉熵损失（cross‐entropy loss），它是分类问题最常用的损失之一","prefix":"们使用(3.4.8)来定义损失l，它是所有标签分布的预期损失值。","suffix":"。本节我们将通过介绍信息论基础来理解交叉熵损失。如果想了解更多信"}]}]}
+>```
+>%%
+>*%%PREFIX%%们使用(3.4.8)来定义损失l，它是所有标签分布的预期损失值。%%HIGHLIGHT%% ==此损失称为交叉熵损失（cross‐entropy loss），它是分类问题最常用的损失之一== %%POSTFIX%%。本节我们将通过介绍信息论基础来理解交叉熵损失。如果想了解更多信*
+>%%LINK%%[[#^t97i4a8cxuo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^t97i4a8cxuo
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T06:41:41.183Z","updated":"2024-04-26T06:41:41.183Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":158604,"end":158651},{"type":"TextQuoteSelector","exact":"数据迭代器是获得更高性能的关键组件。依靠实现良好的数据迭代器，利用高性能计算来避免减慢训练过程","prefix":"将高度h像素，宽度w像素图像的形状记为h ×w或（h,w）。• ","suffix":"。114 3. 线性神经网络练习1. 减少batch_size（"}]}]}
+>```
+>%%
+>*%%PREFIX%%将高度h像素，宽度w像素图像的形状记为h ×w或（h,w）。•%%HIGHLIGHT%% ==数据迭代器是获得更高性能的关键组件。依靠实现良好的数据迭代器，利用高性能计算来避免减慢训练过程== %%POSTFIX%%。114 3. 线性神经网络练习1. 减少batch_size（*
+>%%LINK%%[[#^uf64eo971v|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^uf64eo971v
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T07:13:14.446Z","text":"= y[ [0, 1], [0, 2] ]\n= y[0, 0], y[1, 2]\n= 0.1,  0.5","updated":"2024-04-26T07:13:14.446Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":161213,"end":161229},{"type":"TextQuoteSelector","exact":"y_hat[[0, 1], y]","prefix":".1, 0.3, 0.6], [0.3, 0.2, 0.5]])","suffix":"tensor([0.1000, 0.5000])现在我们只需一行"}]}]}
+>```
+>%%
+>*%%PREFIX%%.1, 0.3, 0.6], [0.3, 0.2, 0.5]])%%HIGHLIGHT%% ==y_hat[[0, 1], y]== %%POSTFIX%%tensor([0.1000, 0.5000])现在我们只需一行*
+>%%LINK%%[[#^fk2ykvhoqeg|show annotation]]
+>%%COMMENT%%
+>= y[ [0, 1], [0, 2] ]
+>= y[0, 0], y[1, 2]
+>= 0.1,  0.5
+>%%TAGS%%
+>
+^fk2ykvhoqeg
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T07:36:17.906Z","text":"每一行的最大值的索引","updated":"2024-04-26T07:36:17.906Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":162008,"end":162022},{"type":"TextQuoteSelector","exact":"argmax(axis=1)","prefix":"_hat.shape[1] > 1:y_hat = y_hat.","suffix":"cmp = y_hat.type(y.dtype) == yre"}]}]}
+>```
+>%%
+>*%%PREFIX%%_hat.shape[1] > 1:y_hat = y_hat.%%HIGHLIGHT%% ==argmax(axis=1)== %%POSTFIX%%cmp = y_hat.type(y.dtype) == yre*
+>%%LINK%%[[#^fvkdl4b0q9|show annotation]]
+>%%COMMENT%%
+>每一行的最大值的索引
+>%%TAGS%%
+>
+^fvkdl4b0q9
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T08:41:18.264Z","updated":"2024-04-26T08:41:18.264Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":162423,"end":162433},{"type":"TextQuoteSelector","exact":"将模型设置为评估模式","prefix":", torch.nn.Module):net.eval() # ","suffix":"metric = Accumulator(2) # 正确预测数、"}]}]}
+>```
+>%%
+>*%%PREFIX%%, torch.nn.Module):net.eval() #%%HIGHLIGHT%% ==将模型设置为评估模式== %%POSTFIX%%metric = Accumulator(2) # 正确预测数、*
+>%%LINK%%[[#^11tq33g2shyj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^11tq33g2shyj
