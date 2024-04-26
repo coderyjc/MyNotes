@@ -234,3 +234,45 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^klm6g2rzahh
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-25T23:59:27.021Z","updated":"2024-04-25T23:59:27.021Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":130567,"end":130601},{"type":"TextQuoteSelector","exact":"自变量x和因变量y之间的关系是线性的，即y可以表示为x中元素的加权和","prefix":"准工具中最简单而且最流行。线性回归基于几个简单的假设：首先，假设","suffix":"，这里通常允许包含观测值的一些噪声；其次，我们假设任何噪声都比较"}]}]}
+>```
+>%%
+>*%%PREFIX%%准工具中最简单而且最流行。线性回归基于几个简单的假设：首先，假设%%HIGHLIGHT%% ==自变量x和因变量y之间的关系是线性的，即y可以表示为x中元素的加权和== %%POSTFIX%%，这里通常允许包含观测值的一些噪声；其次，我们假设任何噪声都比较*
+>%%LINK%%[[#^j8k8s83b55g|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^j8k8s83b55g
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T00:11:33.293Z","updated":"2024-04-26T00:11:33.293Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":133331,"end":133384},{"type":"TextQuoteSelector","exact":"梯度下降最简单的用法是计算损失函数（数据集中所有样本的损失均值）关于模型参数的导数（在这里也可以称为梯度）","prefix":"学习模型。它通过不断地在损失函数递减的方向上更新参数来降低误差。","suffix":"。但实际中的执行可能会非常慢：因为在每一次更新参数之前，我们必须"}]}]}
+>```
+>%%
+>*%%PREFIX%%学习模型。它通过不断地在损失函数递减的方向上更新参数来降低误差。%%HIGHLIGHT%% ==梯度下降最简单的用法是计算损失函数（数据集中所有样本的损失均值）关于模型参数的导数（在这里也可以称为梯度）== %%POSTFIX%%。但实际中的执行可能会非常慢：因为在每一次更新参数之前，我们必须*
+>%%LINK%%[[#^qvrhytehm7a|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qvrhytehm7a
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T01:34:52.058Z","text":"yield 关键字使得函数执行可以在每次产生值后暂停并保存状态，等待下次再被激活继续执行。","updated":"2024-04-26T01:34:52.058Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":140974,"end":140979},{"type":"TextQuoteSelector","exact":"yield","prefix":"(i + batch_size, num_examples)])","suffix":" features[batch_indices], labels"}]}]}
+>```
+>%%
+>*%%PREFIX%%(i + batch_size, num_examples)])%%HIGHLIGHT%% ==yield== %%POSTFIX%%features[batch_indices], labels*
+>%%LINK%%[[#^krtnudodyxf|show annotation]]
+>%%COMMENT%%
+>yield 关键字使得函数执行可以在每次产生值后暂停并保存状态，等待下次再被激活继续执行。
+>%%TAGS%%
+>
+^krtnudodyxf
