@@ -318,3 +318,61 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^t97i4a8cxuo
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T06:41:41.183Z","updated":"2024-04-26T06:41:41.183Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":158604,"end":158651},{"type":"TextQuoteSelector","exact":"数据迭代器是获得更高性能的关键组件。依靠实现良好的数据迭代器，利用高性能计算来避免减慢训练过程","prefix":"将高度h像素，宽度w像素图像的形状记为h ×w或（h,w）。• ","suffix":"。114 3. 线性神经网络练习1. 减少batch_size（"}]}]}
+>```
+>%%
+>*%%PREFIX%%将高度h像素，宽度w像素图像的形状记为h ×w或（h,w）。•%%HIGHLIGHT%% ==数据迭代器是获得更高性能的关键组件。依靠实现良好的数据迭代器，利用高性能计算来避免减慢训练过程== %%POSTFIX%%。114 3. 线性神经网络练习1. 减少batch_size（*
+>%%LINK%%[[#^uf64eo971v|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^uf64eo971v
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T07:13:14.446Z","text":"= y[ [0, 1], [0, 2] ]\n= y[0, 0], y[1, 2]\n= 0.1,  0.5","updated":"2024-04-26T07:13:14.446Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":161213,"end":161229},{"type":"TextQuoteSelector","exact":"y_hat[[0, 1], y]","prefix":".1, 0.3, 0.6], [0.3, 0.2, 0.5]])","suffix":"tensor([0.1000, 0.5000])现在我们只需一行"}]}]}
+>```
+>%%
+>*%%PREFIX%%.1, 0.3, 0.6], [0.3, 0.2, 0.5]])%%HIGHLIGHT%% ==y_hat[[0, 1], y]== %%POSTFIX%%tensor([0.1000, 0.5000])现在我们只需一行*
+>%%LINK%%[[#^fk2ykvhoqeg|show annotation]]
+>%%COMMENT%%
+>= y[ [0, 1], [0, 2] ]
+>= y[0, 0], y[1, 2]
+>= 0.1,  0.5
+>%%TAGS%%
+>
+^fk2ykvhoqeg
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T07:36:17.906Z","text":"每一行的最大值的索引","updated":"2024-04-26T07:36:17.906Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":162008,"end":162022},{"type":"TextQuoteSelector","exact":"argmax(axis=1)","prefix":"_hat.shape[1] > 1:y_hat = y_hat.","suffix":"cmp = y_hat.type(y.dtype) == yre"}]}]}
+>```
+>%%
+>*%%PREFIX%%_hat.shape[1] > 1:y_hat = y_hat.%%HIGHLIGHT%% ==argmax(axis=1)== %%POSTFIX%%cmp = y_hat.type(y.dtype) == yre*
+>%%LINK%%[[#^fvkdl4b0q9|show annotation]]
+>%%COMMENT%%
+>每一行的最大值的索引
+>%%TAGS%%
+>
+^fvkdl4b0q9
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-26T08:41:18.264Z","updated":"2024-04-26T08:41:18.264Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":162423,"end":162433},{"type":"TextQuoteSelector","exact":"将模型设置为评估模式","prefix":", torch.nn.Module):net.eval() # ","suffix":"metric = Accumulator(2) # 正确预测数、"}]}]}
+>```
+>%%
+>*%%PREFIX%%, torch.nn.Module):net.eval() #%%HIGHLIGHT%% ==将模型设置为评估模式== %%POSTFIX%%metric = Accumulator(2) # 正确预测数、*
+>%%LINK%%[[#^11tq33g2shyj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^11tq33g2shyj
