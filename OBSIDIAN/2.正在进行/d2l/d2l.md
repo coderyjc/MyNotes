@@ -376,3 +376,61 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^11tq33g2shyj
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T01:03:43.334Z","updated":"2024-04-27T01:03:43.334Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":173745,"end":173835},{"type":"TextQuoteSelector","exact":"参数化ReLU（Parameterized ReLU，pReLU）函数(He et al., 2015)。该变体为ReLU添加了一个线性项，因此即使参数是负的，某些信息仍然可以通过","prefix":"度消失问题（稍后将详细介绍）。注意，ReLU函数有许多变体，包括","suffix":"：pReLU(x) = max(0, x) + α min(0,"}]}]}
+>```
+>%%
+>*%%PREFIX%%度消失问题（稍后将详细介绍）。注意，ReLU函数有许多变体，包括%%HIGHLIGHT%% ==参数化ReLU（Parameterized ReLU，pReLU）函数(He et al., 2015)。该变体为ReLU添加了一个线性项，因此即使参数是负的，某些信息仍然可以通过== %%POSTFIX%%：pReLU(x) = max(0, x) + α min(0,*
+>%%LINK%%[[#^wp24nhn3omj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wp24nhn3omj
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T01:04:47.139Z","updated":"2024-04-27T01:04:47.139Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":174994,"end":175033},{"type":"TextQuoteSelector","exact":"函数的形状类似于sigmoid函数，不同的是tanh函数关于坐标系原点中心对称","prefix":"tanh函数。注意，当输入在0附近时，tanh函数接近线性变换。","suffix":"。y = torch.tanh(x)d2l.plot(x.det"}]}]}
+>```
+>%%
+>*%%PREFIX%%tanh函数。注意，当输入在0附近时，tanh函数接近线性变换。%%HIGHLIGHT%% ==函数的形状类似于sigmoid函数，不同的是tanh函数关于坐标系原点中心对称== %%POSTFIX%%。y = torch.tanh(x)d2l.plot(x.det*
+>%%LINK%%[[#^4fom5cbj5va|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4fom5cbj5va
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T01:14:42.705Z","text":"1. 学习的不稳定性。梯度估计可能有较大的方差，可能导致梯度消失或者梯度爆炸\n2. 模型泛化能力减少\n3. 梯度消失或者爆炸","updated":"2024-04-27T01:14:42.705Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":175819,"end":175858},{"type":"TextQuoteSelector","exact":"假设我们有一个非线性单元，将它一次应用于一个小批量的数据。这会导致什么样的问题","prefix":"明tanh(x) + 1 = 2 sigmoid(2x)。4. ","suffix":"？Discussions5959 https://discuss"}]}]}
+>```
+>%%
+>*%%PREFIX%%明tanh(x) + 1 = 2 sigmoid(2x)。4.%%HIGHLIGHT%% ==假设我们有一个非线性单元，将它一次应用于一个小批量的数据。这会导致什么样的问题== %%POSTFIX%%？Discussions5959 https://discuss*
+>%%LINK%%[[#^6pm1h54bxhq|show annotation]]
+>%%COMMENT%%
+>1. 学习的不稳定性。梯度估计可能有较大的方差，可能导致梯度消失或者梯度爆炸
+>2. 模型泛化能力减少
+>3. 梯度消失或者爆炸
+>%%TAGS%%
+>
+^6pm1h54bxhq
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T03:48:42.661Z","updated":"2024-04-27T03:48:42.661Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":230146,"end":230173},{"type":"TextQuoteSelector","exact":"研究讨论“比单个层大”但“比整个模型小”的组件更有价值","prefix":"可调参数，这些参数根据从下一层反向传播的信号进行更新。事实证明，","suffix":"。例如，在计算机视觉中广泛流行的ResNet‐152架构就有数百"}]}]}
+>```
+>%%
+>*%%PREFIX%%可调参数，这些参数根据从下一层反向传播的信号进行更新。事实证明，%%HIGHLIGHT%% ==研究讨论“比单个层大”但“比整个模型小”的组件更有价值== %%POSTFIX%%。例如，在计算机视觉中广泛流行的ResNet‐152架构就有数百*
+>%%LINK%%[[#^ln24xk86ihq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ln24xk86ihq
