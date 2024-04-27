@@ -434,3 +434,20 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^ln24xk86ihq
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T06:37:56.725Z","text":"在 NumPy 中，一维数组通常不会特定地作为行向量或列向量。它只是一个一维的数组，其方向性（行或列）取决于你如何在操作中使用它。\n直接生成的形状是(20,)\n指定为行向量之后是(1, 20)\n指定为列向量之后是(20, 1)","updated":"2024-04-27T06:37:56.725Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":185197,"end":185203},{"type":"TextQuoteSelector","exact":"np.dot","prefix":"ls的维度:(n_train+n_test,)labels = ","suffix":"(poly_features, true_w)labels +="}]}]}
+>```
+>%%
+>*%%PREFIX%%ls的维度:(n_train+n_test,)labels =%%HIGHLIGHT%% ==np.dot== %%POSTFIX%%(poly_features, true_w)labels +=*
+>%%LINK%%[[#^a2xr01ik0l9|show annotation]]
+>%%COMMENT%%
+>在 NumPy 中，一维数组通常不会特定地作为行向量或列向量。它只是一个一维的数组，其方向性（行或列）取决于你如何在操作中使用它。
+>直接生成的形状是(20,)
+>指定为行向量之后是(1, 20)
+>指定为列向量之后是(20, 1)
+>%%TAGS%%
+>
+^a2xr01ik0l9
