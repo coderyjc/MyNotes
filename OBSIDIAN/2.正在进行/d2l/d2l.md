@@ -451,3 +451,31 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^a2xr01ik0l9
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T07:11:01.280Z","updated":"2024-04-27T07:11:01.280Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":189517,"end":189564},{"type":"TextQuoteSelector","exact":"权重衰减（weight decay）是最广泛使用的正则化的技术之一，它通常也被称为L2正则化。","prefix":"/18064.5. 权重衰减 149在训练参数化机器学习模型时，","suffix":"这项技术通过函数与零的距离来衡量函数的复杂度，因为在所有函数f "}]}]}
+>```
+>%%
+>*%%PREFIX%%/18064.5. 权重衰减 149在训练参数化机器学习模型时，%%HIGHLIGHT%% ==权重衰减（weight decay）是最广泛使用的正则化的技术之一，它通常也被称为L2正则化。== %%POSTFIX%%这项技术通过函数与零的距离来衡量函数的复杂度，因为在所有函数f*
+>%%LINK%%[[#^izkwqeyepd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^izkwqeyepd
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T07:44:45.823Z","updated":"2024-04-27T07:44:45.823Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":195666,"end":195718},{"type":"TextQuoteSelector","exact":"经典泛化理论认为，为了缩小训练和测试性能之间的差距，应该以简单的模型为目标。简单性以较小维度的形式展现，","prefix":"预测模型？我们期待“好”的预测模型能在未知的数据上有很好的表现：","suffix":"我们在4.4节讨论线性模型的单项式函数时探讨了这一点。此外，正如"}]}]}
+>```
+>%%
+>*%%PREFIX%%预测模型？我们期待“好”的预测模型能在未知的数据上有很好的表现：%%HIGHLIGHT%% ==经典泛化理论认为，为了缩小训练和测试性能之间的差距，应该以简单的模型为目标。简单性以较小维度的形式展现，== %%POSTFIX%%我们在4.4节讨论线性模型的单项式函数时探讨了这一点。此外，正如*
+>%%LINK%%[[#^nol8stbie9|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^nol8stbie9
