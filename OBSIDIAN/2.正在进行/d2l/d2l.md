@@ -521,3 +521,18 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^g767xx5slsf
+
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T03:13:25.583Z","text":"需要对参数进行手动管理，并自己编写前向传播逻辑。","updated":"2024-04-28T03:13:25.583Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":235906,"end":235939},{"type":"TextQuoteSelector","exact":"如果将MySequential中存储块的方式更改为Python列表","prefix":"播。• 层和块的顺序连接由Sequential块处理。练习1. ","suffix":"，会出现什么样的问题？2. 实现一个块，它以两个块为参数，例如n"}]}]}
+>```
+>%%
+>*%%PREFIX%%播。• 层和块的顺序连接由Sequential块处理。练习1.%%HIGHLIGHT%% ==如果将MySequential中存储块的方式更改为Python列表== %%POSTFIX%%，会出现什么样的问题？2. 实现一个块，它以两个块为参数，例如n*
+>%%LINK%%[[#^f0k5yz5uxl|show annotation]]
+>%%COMMENT%%
+>需要对参数进行手动管理，并自己编写前向传播逻辑。
+>%%TAGS%%
+>
+^f0k5yz5uxl
