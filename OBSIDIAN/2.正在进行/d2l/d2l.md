@@ -536,3 +536,87 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^f0k5yz5uxl
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T06:36:47.434Z","updated":"2024-04-28T06:36:47.434Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":257813,"end":257846},{"type":"TextQuoteSelector","exact":"图像的平移不变性使我们以相同的方式处理局部图像，而不在乎它的位置。","prefix":"合理的网络设计选择？我们将在本章的其它部分讨论这些问题。小结• ","suffix":"• 局部性意味着计算相应的隐藏表示只需一小部分局部图像像素。• "}]}]}
+>```
+>%%
+>*%%PREFIX%%合理的网络设计选择？我们将在本章的其它部分讨论这些问题。小结•%%HIGHLIGHT%% ==图像的平移不变性使我们以相同的方式处理局部图像，而不在乎它的位置。== %%POSTFIX%%• 局部性意味着计算相应的隐藏表示只需一小部分局部图像像素。•*
+>%%LINK%%[[#^ligj3epmosp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ligj3epmosp
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T07:03:28.259Z","updated":"2024-04-28T07:03:28.259Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":262682,"end":262732},{"type":"TextQuoteSelector","exact":"感受野（receptivefield）是指在前向传播期间可能影响x计算的所有元素（来自所有先前层）。","prefix":"的空间维度的转换器。在卷积神经网络中，对于某一层的任意元素x，其","suffix":"请注意，感受野可能大于输入的实际大小。让我们用图6.2.1为例来"}]}]}
+>```
+>%%
+>*%%PREFIX%%的空间维度的转换器。在卷积神经网络中，对于某一层的任意元素x，其%%HIGHLIGHT%% ==感受野（receptivefield）是指在前向传播期间可能影响x计算的所有元素（来自所有先前层）。== %%POSTFIX%%请注意，感受野可能大于输入的实际大小。让我们用图6.2.1为例来*
+>%%LINK%%[[#^o3b078x1dqp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^o3b078x1dqp
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T07:10:49.013Z","updated":"2024-04-28T07:10:49.013Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":266411,"end":266425},{"type":"TextQuoteSelector","exact":"填充可以增加输出的高度和宽度","prefix":"充，也就是说，我们通常有ph = pw和sh = sw。小结• ","suffix":"。这常用来使输出与输入具有相同的高和宽。• 步幅可以减小输出的高"}]}]}
+>```
+>%%
+>*%%PREFIX%%充，也就是说，我们通常有ph = pw和sh = sw。小结•%%HIGHLIGHT%% ==填充可以增加输出的高度和宽度== %%POSTFIX%%。这常用来使输出与输入具有相同的高和宽。• 步幅可以减小输出的高*
+>%%LINK%%[[#^3nxq36fjg8a|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3nxq36fjg8a
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T07:10:51.250Z","updated":"2024-04-28T07:10:51.250Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":266447,"end":266459},{"type":"TextQuoteSelector","exact":"步幅可以减小输出的高和宽","prefix":"增加输出的高度和宽度。这常用来使输出与输入具有相同的高和宽。• ","suffix":"，例如输出的高和宽仅为输入的高和宽的1/n（n是一个大于1的整数"}]}]}
+>```
+>%%
+>*%%PREFIX%%增加输出的高度和宽度。这常用来使输出与输入具有相同的高和宽。•%%HIGHLIGHT%% ==步幅可以减小输出的高和宽== %%POSTFIX%%，例如输出的高和宽仅为输入的高和宽的1/n（n是一个大于1的整数*
+>%%LINK%%[[#^3diy65fqmo4|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3diy65fqmo4
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T07:20:05.446Z","updated":"2024-04-28T07:20:05.446Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":268935,"end":268955},{"type":"TextQuoteSelector","exact":"其实1 ×1卷积的唯一计算发生在通道上。","prefix":"的特有能力——在高度和宽度维度上，识别相邻元素间相互作用的能力。","suffix":"图6.4.2展示了使用1 ×1卷积核与3个输入通道和2个输出通道"}]}]}
+>```
+>%%
+>*%%PREFIX%%的特有能力——在高度和宽度维度上，识别相邻元素间相互作用的能力。%%HIGHLIGHT%% ==其实1 ×1卷积的唯一计算发生在通道上。== %%POSTFIX%%图6.4.2展示了使用1 ×1卷积核与3个输入通道和2个输出通道*
+>%%LINK%%[[#^gw7140vwy4l|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^gw7140vwy4l
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T07:21:18.789Z","updated":"2024-04-28T07:21:18.789Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":269042,"end":269087},{"type":"TextQuoteSelector","exact":"们可以将1 ×1卷积层看作在每个像素位置应用的全连接层，以ci个输入值转换为co个输出值。","prefix":"度，输出中的每个元素都是从输入图像中同一位置的元素的线性组合。我","suffix":"因为这仍然是一个卷积层，所以跨像素的权重是一致的。同时，1 ×1"}]}]}
+>```
+>%%
+>*%%PREFIX%%度，输出中的每个元素都是从输入图像中同一位置的元素的线性组合。我%%HIGHLIGHT%% ==们可以将1 ×1卷积层看作在每个像素位置应用的全连接层，以ci个输入值转换为co个输出值。== %%POSTFIX%%因为这仍然是一个卷积层，所以跨像素的权重是一致的。同时，1 ×1*
+>%%LINK%%[[#^idoedbqnzd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^idoedbqnzd
