@@ -479,3 +479,45 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^nol8stbie9
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T12:11:01.745Z","updated":"2024-04-27T12:11:01.745Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":204494,"end":204601},{"type":"TextQuoteSelector","exact":"要么是梯度爆炸（gradient exploding）问题：参数更新过大，破坏了模型的稳定收敛；要么是梯度消失（gradient vanishing）问题：参数更新过小，在每次更新时几乎不会移动，导致模型无法学习。","prefix":"；不稳定梯度也威胁到我们优化算法的稳定性。我们可能面临一些问题。","suffix":"梯度消失曾经sigmoid函数1/(1 + exp(−x))（4"}]}]}
+>```
+>%%
+>*%%PREFIX%%；不稳定梯度也威胁到我们优化算法的稳定性。我们可能面临一些问题。%%HIGHLIGHT%% ==要么是梯度爆炸（gradient exploding）问题：参数更新过大，破坏了模型的稳定收敛；要么是梯度消失（gradient vanishing）问题：参数更新过小，在每次更新时几乎不会移动，导致模型无法学习。== %%POSTFIX%%梯度消失曾经sigmoid函数1/(1 + exp(−x))（4*
+>%%LINK%%[[#^sjku7xv7k3|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^sjku7xv7k3
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T12:18:41.098Z","updated":"2024-04-27T12:18:41.098Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":207929,"end":207956},{"type":"TextQuoteSelector","exact":"ReLU激活函数缓解了梯度消失问题，这样可以加速收敛。","prefix":"• 需要用启发式的初始化方法来确保初始梯度既不太大也不太小。• ","suffix":"• 随机初始化是保证在进行优化前打破对称性的关键。• Xavie"}]}]}
+>```
+>%%
+>*%%PREFIX%%• 需要用启发式的初始化方法来确保初始梯度既不太大也不太小。•%%HIGHLIGHT%% ==ReLU激活函数缓解了梯度消失问题，这样可以加速收敛。== %%POSTFIX%%• 随机初始化是保证在进行优化前打破对称性的关键。• Xavie*
+>%%LINK%%[[#^8ck9m0mcam2|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^8ck9m0mcam2
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-27T12:22:53.191Z","updated":"2024-04-27T12:22:53.191Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":208387,"end":208467},{"type":"TextQuoteSelector","exact":"时，根据测试集的精度衡量，模型表现得非常出色。但是当数据分布突然改变时，模型在部署中会出现灾难性的失败。更隐蔽的是，有时模型的部署本身就是扰乱数据分布的催化剂。","prefix":"题。许多失败的机器学习部署（即实际应用）都可以追究到这种方式。有","suffix":"举一个有点荒谬却可能真实存在的例子。假设我们训练了一个贷款申请人"}]}]}
+>```
+>%%
+>*%%PREFIX%%题。许多失败的机器学习部署（即实际应用）都可以追究到这种方式。有%%HIGHLIGHT%% ==时，根据测试集的精度衡量，模型表现得非常出色。但是当数据分布突然改变时，模型在部署中会出现灾难性的失败。更隐蔽的是，有时模型的部署本身就是扰乱数据分布的催化剂。== %%POSTFIX%%举一个有点荒谬却可能真实存在的例子。假设我们训练了一个贷款申请人*
+>%%LINK%%[[#^g767xx5slsf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^g767xx5slsf
