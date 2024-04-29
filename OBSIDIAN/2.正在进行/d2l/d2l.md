@@ -620,3 +620,17 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^idoedbqnzd
+
+
+>%%
+>```annotation-json
+>{"created":"2024-04-28T16:19:27.603Z","updated":"2024-04-28T16:19:27.603Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":291885,"end":291912},{"type":"TextQuoteSelector","exact":"深层且窄的卷积（即3 ×3）比较浅层且宽的卷积更有效。","prefix":"Simonyan和Ziserman尝试了各种架构。特别是他们发现","suffix":"258 7. 现代卷积神经网络练习1. 打印层的尺寸时，我们只看"}]}]}
+>```
+>%%
+>*%%PREFIX%%Simonyan和Ziserman尝试了各种架构。特别是他们发现%%HIGHLIGHT%% ==深层且窄的卷积（即3 ×3）比较浅层且宽的卷积更有效。== %%POSTFIX%%258 7. 现代卷积神经网络练习1. 打印层的尺寸时，我们只看*
+>%%LINK%%[[#^u1ecc7bl43d|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^u1ecc7bl43d
