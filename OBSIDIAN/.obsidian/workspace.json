@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f2b3072c169253f1",
+        "id": "db5263bf26d8f31f",
         "type": "tabs",
         "children": [
           {
-            "id": "e31d7343c7fcdc18",
+            "id": "ac75d8a9d38329b3",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "2.正在进行/d2l/d2l.md"
+                "file": "2.正在进行/AI论文精读/1.AlexNet.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -60,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5079231262207,
-    "collapsed": true
+    "width": 269.5079231262207
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.正在进行/d2l/d2l.md",
+                "file": "2.正在进行/AI论文精读/1.AlexNet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.正在进行/d2l/d2l.md"
+                "file": "2.正在进行/AI论文精读/1.AlexNet.md"
               }
             }
           }
@@ -143,13 +145,26 @@
   },
   "active": "136b72b2c13e002f",
   "lastOpenFiles": [
+    "2.正在进行/AI论文精读/2.ResNet.md",
+    "2.正在进行/AI论文精读/README.md",
     "2.正在进行/AI论文精读/1.AlexNet.md",
     "2.正在进行/d2l/d2l.md",
+    "0.plugin/dataviewjs/DEMO.md",
+    "0.plugin/pdf/readme.md",
+    "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323203659_922.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323203200_453.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323203707_406.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323204351_901.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323204716_937.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323205313_900.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
+    "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
+    "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
     "HOME.md",
-    "2.正在进行/AI论文精读/README.md",
-    "2.正在进行/AI论文精读/2.ResNet.md",
-    "2.正在进行/d2l/2.预备知识.md",
     "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
+    "1.归档/前端/前端组件库/Express/Express.js.md",
+    "2.正在进行/d2l/2.预备知识.md",
     "0.plugin/pdf/d2l-pytorch.pdf",
     "2.正在进行/d2l/0.课程开始之前.md",
     "3.将来可能/CSAPP/参考项目.md",
@@ -169,25 +184,12 @@
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-12 排序.md",
     "1.归档/Java后端/JavaSE/JavaSE-基础知识/java-basic/java-basic-oop.md",
     "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-25 朋友圈.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-49 打印学生选课清单.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-50 畅通工程之局部最小花费问题.md",
-    "1.归档/Python/Django/Django-基础知识/Django环境搭建.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-10 公路村村通.md",
     "3.将来可能/软考/assets/Pasted image 20240102195133.png",
     "3.将来可能/软考/assets",
     "3.将来可能/软考",
     "3.将来可能/人工智能导论/assets/Pasted image 20240202215141.png",
-    "3.将来可能/人工智能导论/assets/Pasted image 20240202213857.png",
     "3.将来可能/人工智能导论/assets",
     "3.将来可能/人工智能导论",
-    "3.将来可能/回收站/【已废除】天猫用户复购预测/assets/Pasted image 20240124160302.png",
-    "3.将来可能/回收站/【已废除】天猫用户复购预测/assets/Pasted image 20240125203012.png",
-    "3.将来可能/回收站/【已废除】天猫用户复购预测/assets",
-    "3.将来可能/回收站/教资",
-    "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511094016.png",
-    "3.将来可能/OS/操作系统导论-课后题/assets/Pasted image 20230511093956.png",
-    "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224085422.png",
-    "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224085024.png",
-    "3.将来可能/OS/操作系统导论/assets/Pasted image 20230224084948.png"
+    "3.将来可能/回收站/【已废除】天猫用户复购预测/assets"
   ]
 }

@@ -1,28 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "d2l",
-      "path": "2.正在进行/d2l/d2l.md"
-    },
-    {
       "basename": "1.AlexNet",
       "path": "2.正在进行/AI论文精读/1.AlexNet.md"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
-    },
-    {
-      "basename": "README",
-      "path": "2.正在进行/AI论文精读/README.md"
     },
     {
       "basename": "2.ResNet",
       "path": "2.正在进行/AI论文精读/2.ResNet.md"
     },
     {
+      "basename": "README",
+      "path": "2.正在进行/AI论文精读/README.md"
+    },
+    {
+      "basename": "d2l",
+      "path": "2.正在进行/d2l/d2l.md"
+    },
+    {
+      "basename": "DEMO",
+      "path": "0.plugin/dataviewjs/DEMO.md"
+    },
+    {
+      "basename": "readme",
+      "path": "0.plugin/pdf/readme.md"
+    },
+    {
+      "basename": "深度学习入门：基于Python的理论与实现",
+      "path": "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf"
+    },
+    {
+      "basename": "Pasted Image 20230323203659_922",
+      "path": "0.plugin/excalidraw/assets/Pasted Image 20230323203659_922.png"
+    },
+    {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "深度学习入门：基于Python的理论与实现",
       "path": "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md"
+    },
+    {
+      "basename": "Express.js",
+      "path": "1.归档/前端/前端组件库/Express/Express.js.md"
     },
     {
       "basename": "d2l-pytorch",
@@ -43,30 +63,6 @@
     {
       "basename": "VsCode配置C环境",
       "path": "1.归档/项目记录/环境问题相关/VsCode配置C环境.md"
-    },
-    {
-      "basename": "Annaconda安装以及镜像源配置",
-      "path": "1.归档/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md"
-    },
-    {
-      "basename": "使用Annaconda的venv-Base环境",
-      "path": "1.归档/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md"
-    },
-    {
-      "basename": "Annaconda-报错回环导入",
-      "path": "1.归档/Python/Annaconda/Annaconda-Bug合集/Annaconda-报错回环导入.md"
-    },
-    {
-      "basename": "准备环境-Miniconda",
-      "path": "3.将来可能/AAAMLP/准备环境-Miniconda.md"
-    },
-    {
-      "basename": "计算机视觉导论",
-      "path": "3.将来可能/人工智能导论/计算机视觉导论.md"
-    },
-    {
-      "basename": "人工智能导论",
-      "path": "3.将来可能/人工智能导论/人工智能导论.md"
     }
   ],
   "omittedPaths": [],
