@@ -7,6 +7,8 @@
 
 主要有计算机基础（算法\C\C++\计网\设计模式等）、Java后端（SE\Web\Spring等）、Python（Spider\Annaconda\Pandas\Numpy等）、前端（H5\CSS3\JS\Vue等）、数据库（MySQL\Redis等）、DevOps相关（Docker\Git\Maven）等。
 
+目前正在进行深度学习相关领域的学习。
+
 ### 文件结构
 
 | 根目录   | 介绍                           |
@@ -24,7 +26,9 @@
 
 ## 如何使用？
 
-极其不建议直接git clone，原因如下：
+**极其不建议直接git clone**
+
+原因如下：
 
 ```bash
 $ git clone git@github.com:coderyjc/MyNotes.git
@@ -38,9 +42,17 @@ Resolving deltas: 100% (17454/17454), done.
 Updating files: 100% (2117/2117), done.
 ```
 
-我会想办法进一步缩小仓库体积的。。
+仓库时间久远，commit较多，直接clone会克隆所有的提交历史，接近700MB。
 
-仓库比较大，直接clone的话比较费时，因此可以使用浏览器插件`gitzip`选择性下载。[chrome应用商店链接](https://chromewebstore.google.com/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn) 
+因此如果想要克隆整个仓库，建议使用浅克隆，即
+
+```bash
+git clone --depth 1 git@github.com:coderyjc/MyNotes.git
+```
+
+这种方式只有200+MB
+
+同时，可以使用浏览器插件`gitzip`选择性下载。[chrome应用商店链接](https://chromewebstore.google.com/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn) 
 
 因此本仓库中每一个项目的笔记以及笔记中的图片是放在同一个目录下的，方便直接连带着图片下载笔记。
 
