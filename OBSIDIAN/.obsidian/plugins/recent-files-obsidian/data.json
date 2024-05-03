@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "d2l",
+      "path": "2.正在进行/d2l/d2l.md"
+    },
+    {
       "basename": "安装基于CUDA的PyTorch环境",
       "path": "1.归档/项目记录/环境问题相关/安装基于CUDA的PyTorch环境.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "README",
       "path": "2.正在进行/AI论文精读/README.md"
-    },
-    {
-      "basename": "d2l",
-      "path": "2.正在进行/d2l/d2l.md"
     },
     {
       "basename": "DEMO",
