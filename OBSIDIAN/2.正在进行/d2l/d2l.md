@@ -634,3 +634,17 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^u1ecc7bl43d
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-04T09:15:46.027Z","updated":"2024-05-04T09:15:46.027Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":572940,"end":572967},{"type":"TextQuoteSelector","exact":"杰卡德系数（Jaccard）可以衡量两组之间的相似性。","prefix":"如何如何量化呢？直观地说，可以衡量锚框和真实边界框之间的相似性。","suffix":"给定集合A和B，他们的杰卡德系数是他们交集的大小除以他们并集的大"}]}]}
+>```
+>%%
+>*%%PREFIX%%如何如何量化呢？直观地说，可以衡量锚框和真实边界框之间的相似性。%%HIGHLIGHT%% ==杰卡德系数（Jaccard）可以衡量两组之间的相似性。== %%POSTFIX%%给定集合A和B，他们的杰卡德系数是他们交集的大小除以他们并集的大*
+>%%LINK%%[[#^3tgg6ypmp6y|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3tgg6ypmp6y

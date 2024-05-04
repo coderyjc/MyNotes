@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "843ec3a44b3d1873",
+        "id": "9a010d6b025d51a6",
         "type": "tabs",
         "children": [
           {
-            "id": "0434b93a396cdd61",
+            "id": "a72bcff3ca1642ee",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -60,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5079231262207,
+    "width": 255.5079231262207,
     "collapsed": true
   },
   "right": {
@@ -88,8 +88,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "e71d221357482c4d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "51aaf67e9a9e3bd3",
@@ -141,15 +150,15 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "0434b93a396cdd61",
+  "active": "e71d221357482c4d",
   "lastOpenFiles": [
+    "2.正在进行/AI论文精读/1.AlexNet.md",
+    "2.正在进行/AI论文精读/README.md",
+    "2.正在进行/AI论文精读/2.ResNet.md",
+    "2.正在进行/d2l/d2l.md",
     "1.归档/项目记录/环境问题相关/安装基于CUDA的PyTorch环境.md",
     "1.归档/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md",
     "1.归档/项目记录/环境问题相关/Python第三方库安装相关.md",
-    "2.正在进行/AI论文精读/1.AlexNet.md",
-    "2.正在进行/AI论文精读/2.ResNet.md",
-    "2.正在进行/AI论文精读/README.md",
-    "2.正在进行/d2l/d2l.md",
     "0.plugin/dataviewjs/DEMO.md",
     "0.plugin/pdf/readme.md",
     "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf",
