@@ -648,3 +648,17 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^3tgg6ypmp6y
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-06T03:11:13.572Z","updated":"2024-05-06T03:11:13.572Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":574222,"end":574293},{"type":"TextQuoteSelector","exact":"我们为每个图像生成多个锚框，预测所有锚框的类别和偏移量，根据预测的偏移量调整它们的位置以获得预测的边界框，最后只输出符合特定条件的预测边界框。","prefix":"相关的对象的类别，后者是真实边界框相对于锚框的偏移量。在预测时，","suffix":"目标检测训练集带有真实边界框的位置及其包围物体类别的标签。要标记"}]}]}
+>```
+>%%
+>*%%PREFIX%%相关的对象的类别，后者是真实边界框相对于锚框的偏移量。在预测时，%%HIGHLIGHT%% ==我们为每个图像生成多个锚框，预测所有锚框的类别和偏移量，根据预测的偏移量调整它们的位置以获得预测的边界框，最后只输出符合特定条件的预测边界框。== %%POSTFIX%%目标检测训练集带有真实边界框的位置及其包围物体类别的标签。要标记*
+>%%LINK%%[[#^1x2st4uc6vf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^1x2st4uc6vf
