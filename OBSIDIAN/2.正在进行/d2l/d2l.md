@@ -662,3 +662,17 @@ annotation-target: d2l-pytorch.pdf
 >%%TAGS%%
 >
 ^1x2st4uc6vf
+
+
+>%%
+>```annotation-json
+>{"created":"2024-05-06T09:01:38.490Z","updated":"2024-05-06T09:01:38.490Z","document":{"title":"动手学深度学习","link":[{"href":"urn:x-pdf:157da93b1afe8a748efb1869b3821e2a"},{"href":"vault:/0.plugin/pdf/d2l-pytorch.pdf"}],"documentFingerprint":"157da93b1afe8a748efb1869b3821e2a"},"uri":"vault:/0.plugin/pdf/d2l-pytorch.pdf","target":[{"source":"vault:/0.plugin/pdf/d2l-pytorch.pdf","selector":[{"type":"TextPositionSelector","start":606811,"end":606859},{"type":"TextQuoteSelector","exact":"与目标检测不同，语义分割可以识别并理解图像中每一个像素的内容：其语义区域的标注和预测是像素级的。","prefix":"on）问题，它重点关注于如何将图像分割成属于不同语义类别的区域。","suffix":"图13.9.1展示了语义分割中图像有关狗、猫和背景的标签。与目标"}]}]}
+>```
+>%%
+>*%%PREFIX%%on）问题，它重点关注于如何将图像分割成属于不同语义类别的区域。%%HIGHLIGHT%% ==与目标检测不同，语义分割可以识别并理解图像中每一个像素的内容：其语义区域的标注和预测是像素级的。== %%POSTFIX%%图13.9.1展示了语义分割中图像有关狗、猫和背景的标签。与目标*
+>%%LINK%%[[#^lb44tszwkha|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^lb44tszwkha
