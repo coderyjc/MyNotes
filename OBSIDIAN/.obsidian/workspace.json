@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9a010d6b025d51a6",
+        "id": "dbc31502a3624035",
         "type": "tabs",
         "children": [
           {
-            "id": "a72bcff3ca1642ee",
+            "id": "11f375a1c09be8ab",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "2.正在进行/d2l/d2l.md"
+                "file": "HOME.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -60,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5079231262207,
-    "collapsed": true
+    "width": 255.5079231262207
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.正在进行/d2l/d2l.md",
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.正在进行/d2l/d2l.md"
+                "file": "HOME.md"
               }
             }
           }
@@ -150,12 +152,12 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e71d221357482c4d",
+  "active": "136b72b2c13e002f",
   "lastOpenFiles": [
+    "2.正在进行/d2l/d2l.md",
     "2.正在进行/AI论文精读/1.AlexNet.md",
     "2.正在进行/AI论文精读/README.md",
     "2.正在进行/AI论文精读/2.ResNet.md",
-    "2.正在进行/d2l/d2l.md",
     "1.归档/项目记录/环境问题相关/安装基于CUDA的PyTorch环境.md",
     "1.归档/Python/Annaconda/Annaconda-解决方案/Annaconda安装以及镜像源配置.md",
     "1.归档/项目记录/环境问题相关/Python第三方库安装相关.md",

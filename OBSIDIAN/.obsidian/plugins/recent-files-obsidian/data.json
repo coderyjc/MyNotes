@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HOME",
+      "path": "HOME.md"
+    },
+    {
       "basename": "d2l",
       "path": "2.正在进行/d2l/d2l.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "Pasted Image 20230323203659_922",
       "path": "0.plugin/excalidraw/assets/Pasted Image 20230323203659_922.png"
-    },
-    {
-      "basename": "HOME",
-      "path": "HOME.md"
     },
     {
       "basename": "深度学习入门：基于Python的理论与实现",
