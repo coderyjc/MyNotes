@@ -11,12 +11,9 @@
             "id": "11f375a1c09be8ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "HOME.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
+                "file": "2.正在进行/d2l/d2l.md"
               }
             }
           }
@@ -80,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "2.正在进行/d2l/d2l.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md"
+                "file": "2.正在进行/d2l/d2l.md"
               }
             }
           }
@@ -154,6 +151,7 @@
   },
   "active": "136b72b2c13e002f",
   "lastOpenFiles": [
+    "HOME.md",
     "2.正在进行/d2l/d2l.md",
     "2.正在进行/AI论文精读/1.AlexNet.md",
     "2.正在进行/AI论文精读/README.md",
@@ -173,7 +171,6 @@
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
-    "HOME.md",
     "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
     "1.归档/前端/前端组件库/Express/Express.js.md",
     "2.正在进行/d2l/2.预备知识.md",
