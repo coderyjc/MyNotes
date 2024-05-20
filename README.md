@@ -5,9 +5,9 @@
 
 这是我使用Obsidian构建的个人笔记。主要是自学期间的笔记。很多东西还不完整，如果能帮到你，那就太好了~
 
-主要有计算机基础（算法\C\C++\计网\设计模式等）、Java后端（SE\Web\Spring等）、Python（Spider\Annaconda\Pandas\Numpy等）、前端（H5\CSS3\JS\Vue等）、数据库（MySQL\Redis等）、DevOps相关（Docker\Git\Maven）等。
+主要有计算机基础（算法\C\C++\计网\设计模式等）、Java后端（SE\Web\Spring等）、Python（Spider\Annaconda\Pandas\Numpy等）、前端（H5\CSS3\JS\Vue\各种组件库等）、数据库（MySQL\Redis等）、DevOps相关（Docker\Git\Maven）等。
 
-目前正在进行深度学习相关领域的学习。
+目前正在进行深度学习相关领域的学习，可能抽不出来时间整理此仓库。
 
 ### 文件结构
 
@@ -44,7 +44,7 @@ Updating files: 100% (2117/2117), done.
 
 仓库时间久远，commit较多，直接clone会克隆所有的提交历史，接近700MB。
 
-因此如果想要克隆整个仓库，建议使用浅克隆，即
+因此**如果想要克隆整个仓库，强烈建议使用浅克隆**，即
 
 ```bash
 git clone --depth 1 git@github.com:coderyjc/MyNotes.git
