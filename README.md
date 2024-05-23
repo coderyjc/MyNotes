@@ -1,4 +1,4 @@
-# 【ARCHIEVED】已归档
+# 【ARCHIVED】已归档
 
 
 > **一些碎碎念**
@@ -33,7 +33,7 @@
 | ---------- | ----------------------------------------------------------------------------------------------------------- |
 | 计算机基础 | 算法\C语言\C++\计算机网络\设计模式等                                                                            |
 | Java后端   | JavaSE\JavaWeb\Spring5\SpringMVC\SpringBoot2\SpringCloud\MyBatis\MyBatisPlus\EasyPOI                  |
-| Web前端    | HTML5\CSS3\JavaScript（ES6-11）\Node.js\Vue2\Vuex\Vue-Router\Webpack\各种组件库（Express\jquery\uni-app等） |
+| Web前端    | HTML5\CSS3\JavaScript（ES6-11）\Node.js\Vue2\Vuex\Vue-Router\Webpack\各种组件库（Express\uni-app等） |
 | 数据库     | MySQL\Redis                                                                                                 |
 | Python     | 爬虫\Annaconda\Pandas\Numpy\Django基础                                                                      |
 | DevOps | Docker\Git\Maven                                                                                            |
