@@ -22,9 +22,9 @@
 > 如果等到学至自己很满意的程度才采取行动或者进行分享，我就永远无法运用和传述所学到的东西。
 > —— 《原则：应对变化中的世界秩序》
 
-<center>
+<div align="center">
 <img src="./assets/graph.png" weight="450px" height="450px"></img>
-</center>
+</div>
 
 ## 介绍
 
