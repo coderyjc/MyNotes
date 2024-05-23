@@ -1,11 +1,45 @@
+# 【ARCHIEVED】已归档
+
+
+> **一些碎碎念**
+> 
+> 已经忘了第一次commit是什么时候了，翻翻提交记录，是2020年1月23日，距归档之日(2024.05.23)已1580余天。
+> 
+> 大一的寒假，那时的我初次接触markdown和github，从那以后便有了这个仓库——typora笔记+github同步。因为热衷于记录，所以期间也尝试了很多笔记软件，OneNote、Evernote、语雀、有道云笔记、Logseq、思源笔记，也曾经用过gitee作为图床。经历了漫长的迭代，最终选择了双链+全面本地化的Obsidian。
+>
+> 1580天，笔记总字数早已超过百万，图片也已有1200多张，提交记录也已1900多次，但仓库也日渐臃肿。恰逢人生转折点，不如趁此机会，将笔记归档，也算是为自己本科阶段的自学之路告别——我愿称之为自学道路上的探索阶段。不过鄙人愚笨，这一探索，便是四年。
+> 
+> 截止归档之日，本仓库总共收到了5个star和1个fork，这是我在自学的道路上收到的最棒的礼物，无论是偶然看见收藏了一下，还是这个仓库真的帮到了你，总之谢谢你们。
+> 
+> **P.S** 未来会进行深度学习相关的学习，如有需要，请移步我的另一个仓库[Obsidian-DeepLearning-Notes](https://github.com/coderyjc/Obsidian-DeepLearning-Notes) 
+
+**以下是原README：**
+
+---
+
+# 基于OBSIDIAN的个人笔记系统
+
 > 如果等到学至自己很满意的程度才采取行动或者进行分享，我就永远无法运用和传述所学到的东西。
 > —— 《原则：应对变化中的世界秩序》
 
 ## 介绍
 
-这是我使用Obsidian构建的个人笔记。主要是自学期间的笔记。很多东西还不完整，如果能帮到你，那就太好了~
+这是我在本科期间自学并使用Obsidian构建的个人笔记。如有帮助，不甚荣幸。
 
-主要有计算机基础（算法\C\C++\计网\设计模式等）、Java后端（SE\Web\Spring等）、Python（Spider\Annaconda\Pandas\Numpy等）、前端（H5\CSS3\JS\Vue\各种组件库等）、数据库（MySQL\Redis等）、DevOps相关（Docker\Git\Maven）等。
+主要有以下内容：
+
+
+| 类别       | 内容                                                                                                        |
+| ---------- | ----------------------------------------------------------------------------------------------------------- |
+| 计算机基础 | 算法\C语言\C++\计算机网络\设计模式等                                                                            |
+| Java后端   | JavaSE\JavaWeb\Spring5\SpringMVC\SpringBoot2\SpringCloud\MyBatis\MyBatisPlus\EasyPOI                  |
+| Web前端    | HTML5\CSS3\JavaScript（ES6-11）\Node.js\Vue2\Vuex\Vue-Router\Webpack\各种组件库（Express\jquery\uni-app等） |
+| 数据库     | MySQL\Redis                                                                                                 |
+| Python     | 爬虫\Annaconda\Pandas\Numpy\Django基础                                                                      |
+| DevOps | Docker\Git\Maven                                                                                            |
+| 软件       | IDEA\Obsidian（插件Dataview和Templater）\VsCode插件等                                                       |
+| 杂项       | 各种环境的配置（CUDA\HBuilder安卓调试\Zsh配置\vim插件等）、                                                 |
+
 
 目前正在进行深度学习相关领域的学习，可能抽不出来时间整理此仓库。
 
@@ -32,14 +66,9 @@
 
 ```bash
 $ git clone git@github.com:coderyjc/MyNotes.git
-Cloning into 'MyNotes'...
-remote: Enumerating objects: 30056, done.
-remote: Counting objects: 100% (7088/7088), done.
-remote: Compressing objects: 100% (2835/2835), done.
-remote: Total 30056 (delta 4217), reused 6989 (delta 4118), pack-reused 22968
+...
 Receiving objects: 100% (30056/30056), 667.50 MiB | 4.52 MiB/s, done.
-Resolving deltas: 100% (17454/17454), done.
-Updating files: 100% (2117/2117), done.
+...
 ```
 
 仓库时间久远，commit较多，直接clone会克隆所有的提交历史，接近700MB。
@@ -54,13 +83,17 @@ git clone --depth 1 git@github.com:coderyjc/MyNotes.git
 
 同时，可以使用浏览器插件`gitzip`选择性下载。[chrome应用商店链接](https://chromewebstore.google.com/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn) 
 
-因此本仓库中每一个项目的笔记以及笔记中的图片是放在同一个目录下的，方便直接连带着图片下载笔记。
+因此**本仓库中每一个项目的笔记以及笔记中的图片是放在同一个目录下的，方便直接连带着图片下载笔记**
 
 ![image-20240406113227017](./assets/image-20240406113227017.png)
 
 ![image-20240406113339159](./assets/image-20240406113339159.png)
 
 ## 更新日志
+
+### 2024.05.23 归档
+
+项目归档。仓库不再维护。
 
 ### 2024.04 仓库拆分
 

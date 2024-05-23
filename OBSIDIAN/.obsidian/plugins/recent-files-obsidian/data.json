@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "深度学习入门：基于Python的理论与实现",
-      "path": "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md"
-    },
-    {
       "basename": "HOME",
       "path": "HOME.md"
+    },
+    {
+      "basename": "组合和堆叠方法",
+      "path": "3.将来可能/AAAMLP/组合和堆叠方法.md"
+    },
+    {
+      "basename": "图像分类和分割方法",
+      "path": "3.将来可能/AAAMLP/图像分类和分割方法.md"
+    },
+    {
+      "basename": "可重复代码和模型方法",
+      "path": "3.将来可能/AAAMLP/可重复代码和模型方法.md"
+    },
+    {
+      "basename": "PYQT",
+      "path": "1.归档/Python/PYQT/PYQT.md"
+    },
+    {
+      "basename": "HTML-基础知识",
+      "path": "1.归档/前端/HTML&CSS/HTML-基础知识.md"
+    },
+    {
+      "basename": "Pinia-基础知识",
+      "path": "1.归档/前端/Vue.js/Pinia-基础知识.md"
+    },
+    {
+      "basename": "Vue-Router-基础知识",
+      "path": "1.归档/前端/Vue.js/Vue-Router-基础知识.md"
+    },
+    {
+      "basename": "Vuex-基础知识",
+      "path": "1.归档/前端/Vue.js/Vuex-基础知识.md"
+    },
+    {
+      "basename": "anime.js",
+      "path": "1.归档/前端/前端组件库/Anime.js/anime.js.md"
+    },
+    {
+      "basename": "aos.js",
+      "path": "1.归档/前端/前端组件库/Aos/aos.js.md"
+    },
+    {
+      "basename": "Hexo添加搜索文章功能",
+      "path": "1.归档/其他/博客相关/Hexo/Hexo添加搜索文章功能.md"
+    },
+    {
+      "basename": "深度学习入门：基于Python的理论与实现",
+      "path": "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md"
     },
     {
       "basename": "d2l",
@@ -35,46 +79,6 @@
     {
       "basename": "Python第三方库安装相关",
       "path": "1.归档/项目记录/环境问题相关/Python第三方库安装相关.md"
-    },
-    {
-      "basename": "DEMO",
-      "path": "0.plugin/dataviewjs/DEMO.md"
-    },
-    {
-      "basename": "readme",
-      "path": "0.plugin/pdf/readme.md"
-    },
-    {
-      "basename": "深度学习入门：基于Python的理论与实现",
-      "path": "0.plugin/pdf/深度学习入门：基于Python的理论与实现.pdf"
-    },
-    {
-      "basename": "Pasted Image 20230323203659_922",
-      "path": "0.plugin/excalidraw/assets/Pasted Image 20230323203659_922.png"
-    },
-    {
-      "basename": "Express.js",
-      "path": "1.归档/前端/前端组件库/Express/Express.js.md"
-    },
-    {
-      "basename": "d2l-pytorch",
-      "path": "0.plugin/pdf/d2l-pytorch.pdf"
-    },
-    {
-      "basename": "参考项目",
-      "path": "3.将来可能/CSAPP/参考项目.md"
-    },
-    {
-      "basename": "如何有效读论文-吴恩达",
-      "path": "3.将来可能/读研攻略/如何有效读论文-吴恩达.md"
-    },
-    {
-      "basename": "论文分区",
-      "path": "3.将来可能/读研攻略/论文分区.md"
-    },
-    {
-      "basename": "VsCode配置C环境",
-      "path": "1.归档/项目记录/环境问题相关/VsCode配置C环境.md"
     }
   ],
   "omittedPaths": [],

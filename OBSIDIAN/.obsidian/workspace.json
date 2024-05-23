@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "30fb59d4f4f87195",
+        "id": "2f42a97c17f76067",
         "type": "tabs",
         "children": [
           {
-            "id": "814ac5e2521ca284",
+            "id": "f861b78101dd0db3",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -60,8 +58,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5079231262207,
-    "collapsed": true
+    "width": 255.5079231262207
   },
   "right": {
     "id": "74c9699ade28f3f2",
@@ -78,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,9 +106,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -150,9 +144,21 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "814ac5e2521ca284",
+  "active": "f861b78101dd0db3",
   "lastOpenFiles": [
     "HOME.md",
+    "3.将来可能/AAAMLP/组合和堆叠方法.md",
+    "3.将来可能/AAAMLP/图像分类和分割方法.md",
+    "3.将来可能/AAAMLP/可重复代码和模型方法.md",
+    "1.归档/Python/PYQT/PYQT.md",
+    "1.归档/前端/HTML&CSS/HTML-基础知识.md",
+    "1.归档/前端/Vue.js/Pinia-基础知识.md",
+    "1.归档/前端/Vue.js/Vue-Router-基础知识.md",
+    "1.归档/前端/Vue.js/Vuex-基础知识.md",
+    "1.归档/前端/前端组件库/Anime.js/anime.js.md",
+    "1.归档/前端/前端组件库/Aos/aos.js.md",
+    "1.归档/其他/博客相关/Hexo/Hexo添加搜索文章功能.md",
+    "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
     "2.正在进行/d2l/d2l.md",
     "2.正在进行/AI论文精读/1.AlexNet.md",
     "2.正在进行/AI论文精读/README.md",
@@ -172,25 +178,13 @@
     "0.plugin/excalidraw/assets/Pasted Image 20230323205450_912.png",
     "0.plugin/excalidraw/assets/Pasted Image 20230323205523_908.png",
     "0.plugin/excalidraw/Drawing 2023-03-23 20.22.39.excalidraw.md",
-    "1.归档/深度学习/相关书籍/深度学习入门：基于Python的理论与实现.md",
     "1.归档/前端/前端组件库/Express/Express.js.md",
     "2.正在进行/d2l/2.预备知识.md",
     "0.plugin/pdf/d2l-pytorch.pdf",
     "2.正在进行/d2l/0.课程开始之前.md",
-    "3.将来可能/CSAPP/参考项目.md",
     "1.归档/网页剪藏",
     "2.正在进行/d2l",
     "1.归档/深度学习/相关书籍",
-    "3.将来可能/读研攻略/如何有效读论文-吴恩达.md",
-    "3.将来可能/读研攻略/index.md",
-    "3.将来可能/读研攻略/论文分区.md",
-    "1.归档/项目记录/环境问题相关/VsCode配置C环境.md",
-    "1.归档/Python/Annaconda/Annaconda-解决方案/使用Annaconda的venv-Base环境.md",
-    "1.归档/Python/Annaconda/Annaconda-Bug合集/Annaconda-报错回环导入.md",
-    "3.将来可能/AAAMLP/准备环境-Miniconda.md",
-    "3.将来可能/人工智能导论/计算机视觉导论.md",
-    "3.将来可能/人工智能导论/人工智能导论.md",
-    "1.归档/计算机基础/算法/PTA/数据结构与算法题目集/7-12 排序.md",
     "3.将来可能/软考/assets/Pasted image 20240102195133.png",
     "3.将来可能/软考/assets",
     "3.将来可能/软考",

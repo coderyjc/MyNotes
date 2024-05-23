@@ -1,6 +1,5 @@
 [
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-git",
   "url-into-selection",
   "tag-wrangler",
   "note-refactor-obsidian",
@@ -8,7 +7,6 @@
   "obsidian-charts",
   "templater-obsidian",
   "supercharged-links-obsidian",
-  "obsidian-style-settings",
   "obsidian-dynamic-toc",
   "metaedit",
   "obsidian-advanced-uri",
@@ -27,5 +25,6 @@
   "recent-files-obsidian",
   "obsidian-annotator",
   "obsidian-latex-suite",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "obsidian-style-settings"
 ]
